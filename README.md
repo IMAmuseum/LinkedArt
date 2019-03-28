@@ -24,4 +24,5 @@ Once the transformation files are finalized, a more complete JSON-LD Linked Art 
 
 ### Contact
 Samantha Norling, Digital Collections Manager, Newfields
+
 snorling @ discovernewfields.org
