@@ -17,12 +17,10 @@ EMu fields are being mapped to corresponding components of the Linked Art model.
 
 The recommended data serialization of the Linked Art model is JSON-LD. In order to transform the export XML files to JSON-LD, XSLT is utilized. This repository will contain transformation files for each of the categories of exported EMu data.
 
-## JSON-LD
+## JSON-LD (JSON)
 Sample JSON-LD files will be included in this repository and will reflect the transformation of the corresponding XML by the corresponding XSLT file. For example, ObjectsSample.json would be the output of running ObjectsTransformation.xsl against ObjectsSample.xml.
 
 Once the transformation files are finalized, a more complete JSON-LD Linked Art representation of the IMA collection (currently 63,629 individual records, including parts and parent objects) will be published online.
 
 ### Contact
-Samantha Norling, Digital Collections Manager, Newfields
-
-snorling @ discovernewfields.org
+Samantha Norling, Digital Collections Manager, Newfields (snorling @ discovernewfields.org)
