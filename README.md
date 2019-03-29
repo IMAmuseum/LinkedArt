@@ -1,5 +1,5 @@
 # IMA Linked Art Data
-This repository documents the Indianapolis Museum of Art at Newfields' process for transforming data contained in the museum's collection management system, EMu, to conform to the Linked Art data standard (JSON-LD). The Linked Art data model is in active development, so the IMA transformation and data files will evolve along with that development. Information about the Linked Art model can be found at https://linked.art/.
+This repository documents the Indianapolis Museum of Art at Newfields' process for transforming data contained in the museum's collection management system, EMu, to conform to the Linked Art data standard (serialized as JSON-LD). The Linked Art data model is in active development, so the IMA transformation and data files will evolve along with that development. Information about the Linked Art model can be found at https://linked.art/.
 
 ## Source Data (XML)
 Data sourced from EMu will reflect the scope of the Linked Art model, and also align with Newfields' priorities for publishing linked data online. At this time, the following art-related information is in scope:
