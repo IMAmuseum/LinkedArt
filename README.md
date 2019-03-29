@@ -1,7 +1,7 @@
 # IMA Linked Art Data
 This repository documents the Indianapolis Museum of Art at Newfields' process for transforming data contained in the museum's collection management system, EMu, to conform to the Linked Art data standard (JSON-LD). The Linked Art data model is in active development, so the IMA transformation and data files will evolve along with that development. Information about the Linked Art model can be found at https://linked.art/.
 
-## Source Data
+## Source Data (XML)
 Data sourced from EMu will reflect the scope of the Linked Art model, and also align with Newfields' priorities for publishing linked data online. At this time, the following art-related information is in scope:
 
 - Objects (EMu source: Catalogue, Rights, Narratives, and Locations modules)
@@ -12,7 +12,7 @@ Sample data files representing these categories will be made available in this r
 
 Due to lack of structured data, object Provenance will not be fully modeled as linked data. Available Provenance information will be published as a E33_Linguistic_Object of E55_Type http://vocab.getty.edu/aat/300055863.
 
-## Data Transformation
+## Data Transformation (XSLT)
 EMu fields are being mapped to corresponding components of the Linked Art model. Mapping determinations are being made by Newfields' Digital Collections Manager, Samantha Norling, in consultation with Registration and Curatorial staff. When necessary, cataloging practices are being adjusted to facilitate the creation of linked data.
 
 The recommended data serialization of the Linked Art model is JSON-LD. In order to transform the export XML files to JSON-LD, XSLT is utilized. This repository will contain transformation files for each of the categories of exported EMu data.
