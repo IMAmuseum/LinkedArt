@@ -22,5 +22,10 @@ Sample JSON-LD files will be included in this repository and will reflect the tr
 
 Once the transformation files are finalized, a more complete JSON-LD Linked Art representation of the IMA collection (currently 63,629 individual records, including parts and parent objects) will be published online.
 
+## Licencing
+IMA at Newfields data files (XML and JSON) are shared in this repository free of restrictions, under a [Creative Commons Zero (CC0) license](https://creativecommons.org/choose/zero/). This means that the data can be used for any purpose without having to give attribution. However, Newfields requests that you actively acknowledge and give attribution wherever possible. Giving attribution reduces the amount of ‘orphaned data’, and will support our continued efforts to further open access to collections-related information.
+
 ### Contact
-Samantha Norling, Digital Collections Manager, Newfields (snorling @ discovernewfields.org)
+Samantha Norling, Digital Collections Manager, Newfields 
+
+[E-mail the Newfields Lab](mailto:newfieldslab@discovernewfields.org)
