@@ -26,6 +26,9 @@ Once the transformation files are finalized, a more complete JSON-LD Linked Art 
 This directory contains miscellaneous workflow documents. At this time, this directory includes:
 - LAB_LinkedArt_ModelTracking.xlsx - spreadsheet for tracking the status of modeling IMA data to fields/patterns within the Linked Art data model
 
+## Issues
+Issues are being created to track EMu clean-up needs (internal work), open questions, innacurracies in the modeling, and more. If you have information or questions that fit our Issues scope, please submit an issue and apply the appropriate label.
+
 ### Licencing
 IMA at Newfields data files (XML and JSON) are shared in this repository free of restrictions, under a [Creative Commons Zero (CC0) license](https://creativecommons.org/choose/zero/). This means that the data can be used for any purpose without having to give attribution. However, Newfields requests that you actively acknowledge and give attribution wherever possible. Giving attribution reduces the amount of ‘orphaned data’, and will support our continued efforts to further open access to collections-related information.
 
