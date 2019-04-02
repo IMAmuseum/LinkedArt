@@ -13,14 +13,18 @@ Sample data files representing these categories will be made available in this r
 Due to lack of structured data, object Provenance will not be fully modeled as linked data. Available Provenance information will be published as a E33_Linguistic_Object of E55_Type http://vocab.getty.edu/aat/300055863.
 
 ## Data Transformation (XSLT)
-EMu fields are being mapped to corresponding components of the Linked Art model. Mapping determinations are being made by Newfields' Digital Collections Manager, Samantha Norling, in consultation with Registration and Curatorial staff. When necessary, cataloging practices are being adjusted to facilitate the creation of linked data.
+EMu fields are being mapped to corresponding components of the Linked Art model. Mapping determinations are being made by Newfields' Digital Collections Manager, Samantha Norling, in consultation with Registration and Curatorial staff. When necessary, cataloging practices are being adjusted and/or source data is being cleaned in order to facilitate the creation of linked data.
 
-The recommended data serialization of the Linked Art model is JSON-LD. In order to transform the export XML files to JSON-LD, XSLT is utilized. This repository will contain transformation files for each of the categories of exported EMu data.
+The recommended data serialization of the Linked Art model is JSON-LD. In order to transform the export XML files to JSON-LD, XSLT will be utilized. This repository will contain transformation files for each of the categories of exported EMu data.
 
 ## JSON-LD (JSON)
-Sample JSON-LD files will be included in this repository and will reflect the transformation of the corresponding XML by the corresponding XSLT file. For example, ObjectsSample.json would be the output of running ObjectsTransformation.xsl against ObjectsSample.xml.
+Sample JSON-LD files will be included in this repository and will correspond to provided raw data files exported from EMu (XML). These JSON-LD files will reflect the current XSLT transformations of the source data. Where possible, example data files will represent specific portions of the Linked Art model - particularly those that are being actively discussed by the Linked Art Editorial Board. This will include more complex portions of the model (e.g., partitioning).
 
 Once the transformation files are finalized, a more complete JSON-LD Linked Art representation of the IMA collection (currently 63,629 individual records, including parts and parent objects) will be published online.
+
+## Documentation
+This directory contains miscellaneous workflow documents. At this time, this directory includes:
+- LAB_LinkedArt_ModelTracking.xlsx - spreadsheet for tracking the status of modeling IMA data to fields/patterns within the Linked Art data model
 
 ### Licencing
 IMA at Newfields data files (XML and JSON) are shared in this repository free of restrictions, under a [Creative Commons Zero (CC0) license](https://creativecommons.org/choose/zero/). This means that the data can be used for any purpose without having to give attribution. However, Newfields requests that you actively acknowledge and give attribution wherever possible. Giving attribution reduces the amount of ‘orphaned data’, and will support our continued efforts to further open access to collections-related information.
