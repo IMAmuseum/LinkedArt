@@ -22,7 +22,7 @@
                     "id": "https://data.discovernewfields.org/object/1032/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "1032",
+                    "content": 1032,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -92,6 +92,116 @@
         }
     },
     {
+        "1065": {
+            "@context": "https://linked.art/ns/v1/linked-art.json",
+            "id": "https://data.discovernewfields.org/object/1065",
+            "type": "ManMadeObject",
+            "_label": "The Bachelor Boudoir (Corner of the Studio)",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300133025",
+                    "type": "Type",
+                    "_label": "works of art"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/thesauri/type/paintings",
+                    "type": "Type",
+                    "_label": "paintings"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/thesauri/type/oil-paintings",
+                    "type": "Type",
+                    "_label": "oil paintings"
+                }
+            ],
+            "identified_by": [
+                {
+                    "id": "https://data.discovernewfields.org/object/1065/irn",
+                    "type": "Identifier",
+                    "_label": "IMA at Newfields Collections Database Number for the Artwork",
+                    "content": 1065,
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404621",
+                            "type": "Type",
+                            "_label": "repository numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/1065/accession-number",
+                    "type": "Identifier",
+                    "_label": "IMA at Newfields Accession Number for the Artwork",
+                    "content": "14.55",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300312355",
+                            "type": "Type",
+                            "_label": "accession numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/1065/old-accession-number",
+                    "type": "Identifier",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "content": "No TR Number",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404626",
+                            "type": "Type",
+                            "_label": "identification numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/1065/title",
+                    "type": "Name",
+                    "_label": "Primary Title for the Artwork",
+                    "content": "The Bachelor Boudoir (Corner of the Studio)",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404670",
+                            "type": "Type",
+                            "_label": "preferred terms"
+                        }
+                    ]
+                }
+            ],
+            "current_owner": {
+                "id": "http://vocab.getty.edu/ulan/500300517",
+                "type": "Group",
+                "_label": "Indianapolis Museum of Art at Newfields",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300312281",
+                        "type": "Type",
+                        "_label": "museums (institutions)"
+                    }
+                ],
+                "acquired_title_through": [
+                    {
+                        "id": "https://data.discovernewfields.org/object/1065/IMA-acquisition",
+                        "type": "Acquisition",
+                        "_label": "Acquisition of The Bachelor Boudoir (Corner of the Studio)",
+                        "classified_as": [
+                            {
+                                "id": "http://vocab.getty.edu/aat/300157782",
+                                "type": "Type",
+                                "_label": "acquisition (collections management)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "current_location": {
+                "id": "https://data.discovernewfields.org/thesauri/location/westerley",
+                "type": "Place",
+                "_label": "Westerley"
+            }
+        }
+    },
+    {
         "3521": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/3521",
@@ -119,7 +229,7 @@
                     "id": "https://data.discovernewfields.org/object/3521/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "3521",
+                    "content": 3521,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -257,7 +367,7 @@
                     "id": "https://data.discovernewfields.org/object/8407/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "8407",
+                    "content": 8407,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -357,7 +467,7 @@
                     "id": "https://data.discovernewfields.org/object/14365/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "14365",
+                    "content": 14365,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -449,7 +559,7 @@
                     "id": "https://data.discovernewfields.org/object/14617/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "14617",
+                    "content": 14617,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -546,7 +656,7 @@
                     "id": "https://data.discovernewfields.org/object/16168/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "16168",
+                    "content": 16168,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -656,7 +766,7 @@
                     "id": "https://data.discovernewfields.org/object/16356/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "16356",
+                    "content": 16356,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -771,7 +881,7 @@
                     "id": "https://data.discovernewfields.org/object/16410/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "16410",
+                    "content": 16410,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -896,7 +1006,7 @@
                     "id": "https://data.discovernewfields.org/object/17425/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "17425",
+                    "content": 17425,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -992,6 +1102,103 @@
         }
     },
     {
+        "17577": {
+            "@context": "https://linked.art/ns/v1/linked-art.json",
+            "id": "https://data.discovernewfields.org/object/17577",
+            "type": "ManMadeObject",
+            "_label": "Dines with Writing Material",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300133025",
+                    "type": "Type",
+                    "_label": "works of art"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/thesauri/type/paintings",
+                    "type": "Type",
+                    "_label": "paintings"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/thesauri/type/oil-paintings",
+                    "type": "Type",
+                    "_label": "oil paintings"
+                }
+            ],
+            "identified_by": [
+                {
+                    "id": "https://data.discovernewfields.org/object/17577/irn",
+                    "type": "Identifier",
+                    "_label": "IMA at Newfields Collections Database Number for the Artwork",
+                    "content": 17577,
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404621",
+                            "type": "Type",
+                            "_label": "repository numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/17577/accession-number",
+                    "type": "Identifier",
+                    "_label": "IMA at Newfields Accession Number for the Artwork",
+                    "content": "80.650",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300312355",
+                            "type": "Type",
+                            "_label": "accession numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/17577/title",
+                    "type": "Name",
+                    "_label": "Primary Title for the Artwork",
+                    "content": "Dines with Writing Material",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404670",
+                            "type": "Type",
+                            "_label": "preferred terms"
+                        }
+                    ]
+                }
+            ],
+            "current_owner": {
+                "id": "http://vocab.getty.edu/ulan/500300517",
+                "type": "Group",
+                "_label": "Indianapolis Museum of Art at Newfields",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300312281",
+                        "type": "Type",
+                        "_label": "museums (institutions)"
+                    }
+                ],
+                "acquired_title_through": [
+                    {
+                        "id": "https://data.discovernewfields.org/object/17577/IMA-acquisition",
+                        "type": "Acquisition",
+                        "_label": "Acquisition of Dines with Writing Material",
+                        "classified_as": [
+                            {
+                                "id": "http://vocab.getty.edu/aat/300157782",
+                                "type": "Type",
+                                "_label": "acquisition (collections management)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "current_location": {
+                "id": "https://data.discovernewfields.org/thesauri/location/westerley",
+                "type": "Place",
+                "_label": "Westerley"
+            }
+        }
+    },
+    {
         "20419": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/20419",
@@ -1014,7 +1221,7 @@
                     "id": "https://data.discovernewfields.org/object/20419/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "20419",
+                    "content": 20419,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -1090,9 +1297,9 @@
                 ]
             },
             "current_location": {
-                "id": "https://data.discovernewfields.org/thesauri/location/pulliam-family-great-hall",
+                "id": "https://data.discovernewfields.org/thesauri/location/storage",
                 "type": "Place",
-                "_label": "Pulliam Family Great Hall"
+                "_label": "IMA Storage"
             }
         }
     },
@@ -1124,7 +1331,7 @@
                     "id": "https://data.discovernewfields.org/object/21137/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "21137",
+                    "content": 21137,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -1260,7 +1467,7 @@
                     "id": "https://data.discovernewfields.org/object/21288/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "21288",
+                    "content": 21288,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -1336,9 +1543,16 @@
                 ]
             },
             "current_location": {
-                "id": "https://data.discovernewfields.org/thesauri/location/andrew-and-jane-paine-galleries",
+            "id": "https://data.discovernewfields.org/thesauri/location/K212",
                 "type": "Place",
-                "_label": "Andrew and Jane Paine Galleries"
+                "_label": "Andrew and Jane Paine Galleries",
+                "clasified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300240057",
+                        "type": "Type",
+                        "_label": "galleries (display spaces)"
+                    }
+                ]
             }
         }
     },
@@ -1365,7 +1579,7 @@
                     "id": "https://data.discovernewfields.org/object/24693/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "24693",
+                    "content": 24693,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -1471,7 +1685,7 @@
                     "id": "https://data.discovernewfields.org/object/25098/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "25098",
+                    "content": 25098,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -1571,7 +1785,7 @@
                     "id": "https://data.discovernewfields.org/object/41018/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "41018",
+                    "content": 41018,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -1680,7 +1894,7 @@
                     "id": "https://data.discovernewfields.org/object/41019/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "41019",
+                    "content": 41019,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -1804,7 +2018,7 @@
                     "id": "https://data.discovernewfields.org/object/47035/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "47035",
+                    "content": 47035,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -1883,7 +2097,7 @@
                 "id": "https://data.discovernewfields.org/thesauri/location/on-loan",
                 "type": "Place",
                 "_label": "On Loan"
-            }
+                }
         }
     },
     {
@@ -1909,7 +2123,7 @@
                     "id": "https://data.discovernewfields.org/object/51330/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "51330",
+                    "content": 51330,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -2009,7 +2223,7 @@
                     "id": "https://data.discovernewfields.org/object/55312/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "55312",
+                    "content": 55312,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -2127,7 +2341,7 @@
                     "id": "https://data.discovernewfields.org/object/64017/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "64017",
+                    "content": 64017,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -2203,9 +2417,16 @@
                 ]
             },
             "current_location": {
-                "id": "https://data.discovernewfields.org/thesauri/location/eiteljorg-suite-of-african-and-oceanic-art",
+            "id": "https://data.discovernewfields.org/thesauri/location/W303",
                 "type": "Place",
-                "_label": "Eiteljorg Suite of African and Oceanic Art"
+                "_label": "Eiteljorg Suite of African and Oceanic Art",
+                "clasified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300240057",
+                        "type": "Type",
+                        "_label": "galleries (display spaces)"
+                    }
+                ]
             }
         }
     },
@@ -2232,7 +2453,7 @@
                     "id": "https://data.discovernewfields.org/object/64018/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "64018",
+                    "content": 64018,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -2308,9 +2529,16 @@
                 ]
             },
             "current_location": {
-                "id": "https://data.discovernewfields.org/thesauri/location/eiteljorg-suite-of-african-and-oceanic-art",
+            "id": "https://data.discovernewfields.org/thesauri/location/W303",
                 "type": "Place",
-                "_label": "Eiteljorg Suite of African and Oceanic Art"
+                "_label": "Eiteljorg Suite of African and Oceanic Art",
+                "clasified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300240057",
+                        "type": "Type",
+                        "_label": "galleries (display spaces)"
+                    }
+                ]
             }
         }
     },
@@ -2337,7 +2565,7 @@
                     "id": "https://data.discovernewfields.org/object/64019/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "64019",
+                    "content": 64019,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -2413,9 +2641,16 @@
                 ]
             },
             "current_location": {
-                "id": "https://data.discovernewfields.org/thesauri/location/eiteljorg-suite-of-african-and-oceanic-art",
+            "id": "https://data.discovernewfields.org/thesauri/location/W303",
                 "type": "Place",
-                "_label": "Eiteljorg Suite of African and Oceanic Art"
+                "_label": "Eiteljorg Suite of African and Oceanic Art",
+                "clasified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300240057",
+                        "type": "Type",
+                        "_label": "galleries (display spaces)"
+                    }
+                ]
             }
         }
     },
@@ -2507,7 +2742,7 @@
                     "id": "https://data.discovernewfields.org/object/64628/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "64628",
+                    "content": 64628,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -2613,7 +2848,7 @@
                     "id": "https://data.discovernewfields.org/object/67743/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "67743",
+                    "content": 67743,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -2744,7 +2979,7 @@
                     "id": "https://data.discovernewfields.org/object/68180/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "68180",
+                    "content": 68180,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -2875,7 +3110,7 @@
                     "id": "https://data.discovernewfields.org/object/68181/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "68181",
+                    "content": 68181,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -2951,9 +3186,16 @@
                 ]
             },
             "current_location": {
-                "id": "https://data.discovernewfields.org/thesauri/location/h302",
+            "id": "https://data.discovernewfields.org/thesauri/location/H302",
                 "type": "Place",
-                "_label": "H302"
+                "_label": "Contemporary Design Gallery",
+                "clasified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300240057",
+                        "type": "Type",
+                        "_label": "galleries (display spaces)"
+                    }
+                ]
             }
         }
     },
@@ -3005,7 +3247,7 @@
                     "id": "https://data.discovernewfields.org/object/68182/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "68182",
+                    "content": 68182,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -3081,9 +3323,121 @@
                 ]
             },
             "current_location": {
-                "id": "https://data.discovernewfields.org/thesauri/location/h302",
+            "id": "https://data.discovernewfields.org/thesauri/location/H302",
                 "type": "Place",
-                "_label": "H302"
+                "_label": "Contemporary Design Gallery",
+                "clasified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300240057",
+                        "type": "Type",
+                        "_label": "galleries (display spaces)"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "68903": {
+            "@context": "https://linked.art/ns/v1/linked-art.json",
+            "id": "https://data.discovernewfields.org/object/68903",
+            "type": "ManMadeObject",
+            "_label": "Free Basket",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300133025",
+                    "type": "Type",
+                    "_label": "works of art"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/thesauri/type/installations",
+                    "type": "Type",
+                    "_label": "installations"
+                }
+            ],
+            "identified_by": [
+                {
+                    "id": "https://data.discovernewfields.org/object/68903/irn",
+                    "type": "Identifier",
+                    "_label": "IMA at Newfields Collections Database Number for the Artwork",
+                    "content": 68903,
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404621",
+                            "type": "Type",
+                            "_label": "repository numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68903/accession-number",
+                    "type": "Identifier",
+                    "_label": "IMA at Newfields Accession Number for the Artwork",
+                    "content": "2010.217",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300312355",
+                            "type": "Type",
+                            "_label": "accession numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68903/old-accession-number",
+                    "type": "Identifier",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "content": "TR11136",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404626",
+                            "type": "Type",
+                            "_label": "identification numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68903/title",
+                    "type": "Name",
+                    "_label": "Primary Title for the Artwork",
+                    "content": "Free Basket",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404670",
+                            "type": "Type",
+                            "_label": "preferred terms"
+                        }
+                    ]
+                }
+            ],
+            "current_owner": {
+                "id": "http://vocab.getty.edu/ulan/500300517",
+                "type": "Group",
+                "_label": "Indianapolis Museum of Art at Newfields",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300312281",
+                        "type": "Type",
+                        "_label": "museums (institutions)"
+                    }
+                ],
+                "acquired_title_through": [
+                    {
+                        "id": "https://data.discovernewfields.org/object/68903/IMA-acquisition",
+                        "type": "Acquisition",
+                        "_label": "Acquisition of Free Basket",
+                        "classified_as": [
+                            {
+                                "id": "http://vocab.getty.edu/aat/300157782",
+                                "type": "Type",
+                                "_label": "acquisition (collections management)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "current_location": {
+                "id": "https://data.discovernewfields.org/thesauri/location/storage",
+                "type": "Place",
+                "_label": "IMA Storage"
             }
         }
     },
@@ -3115,7 +3469,7 @@
                     "id": "https://data.discovernewfields.org/object/69062/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "69062",
+                    "content": 69062,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -3191,7 +3545,7 @@
                 ]
             },
             "current_location": {
-                "id": "https://data.discovernewfields.org/thesauri/location/contemporary-design-gallery",
+            "id": "https://data.discovernewfields.org/thesauri/location/H301",
                 "type": "Place",
                 "_label": "Contemporary Design Gallery",
                 "clasified_as": [
@@ -3232,7 +3586,7 @@
                     "id": "https://data.discovernewfields.org/object/69063/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "69063",
+                    "content": 69063,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -3308,7 +3662,7 @@
                 ]
             },
             "current_location": {
-                "id": "https://data.discovernewfields.org/thesauri/location/contemporary-design-gallery",
+            "id": "https://data.discovernewfields.org/thesauri/location/H301",
                 "type": "Place",
                 "_label": "Contemporary Design Gallery",
                 "clasified_as": [
@@ -3344,7 +3698,7 @@
                     "id": "https://data.discovernewfields.org/object/82696/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "82696",
+                    "content": 82696,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -3420,9 +3774,9 @@
                 ]
             },
             "current_location": {
-                "id": "https://data.discovernewfields.org/thesauri/location/grounds",
+                "id": "https://data.discovernewfields.org/thesauri/location/storage",
                 "type": "Place",
-                "_label": "Grounds"
+                "_label": "IMA Storage"
             }
         }
     },
@@ -3449,7 +3803,7 @@
                     "id": "https://data.discovernewfields.org/object/85257/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "85257",
+                    "content": 85257,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -3532,111 +3886,6 @@
         }
     },
     {
-        "87623": {
-            "@context": "https://linked.art/ns/v1/linked-art.json",
-            "id": "https://data.discovernewfields.org/object/87623",
-            "type": "ManMadeObject",
-            "_label": "Sprite",
-            "classified_as": [
-                {
-                    "id": "http://vocab.getty.edu/aat/300133025",
-                    "type": "Type",
-                    "_label": "works of art"
-                },
-                {
-                    "id": "https://data.discovernewfields.org/thesauri/type/sculptures",
-                    "type": "Type",
-                    "_label": "sculptures"
-                }
-            ],
-            "identified_by": [
-                {
-                    "id": "https://data.discovernewfields.org/object/87623/irn",
-                    "type": "Identifier",
-                    "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "87623",
-                    "classified_as": [
-                        {
-                            "id": "http://vocab.getty.edu/aat/300404621",
-                            "type": "Type",
-                            "_label": "repository numbers"
-                        }
-                    ]
-                },
-                {
-                    "id": "https://data.discovernewfields.org/object/87623/accession-number",
-                    "type": "Identifier",
-                    "_label": "IMA at Newfields Accession Number for the Artwork",
-                    "content": "WH_174A-B",
-                    "classified_as": [
-                        {
-                            "id": "http://vocab.getty.edu/aat/300312355",
-                            "type": "Type",
-                            "_label": "accession numbers"
-                        }
-                    ]
-                },
-                {
-                    "id": "https://data.discovernewfields.org/object/87623/old-accession-number",
-                    "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
-                    "content": "TR11974/8",
-                    "classified_as": [
-                        {
-                            "id": "http://vocab.getty.edu/aat/300404626",
-                            "type": "Type",
-                            "_label": "identification numbers"
-                        }
-                    ]
-                },
-                {
-                    "id": "https://data.discovernewfields.org/object/87623/title",
-                    "type": "Name",
-                    "_label": "Primary Title for the Artwork",
-                    "content": "Sprite",
-                    "classified_as": [
-                        {
-                            "id": "http://vocab.getty.edu/aat/300404670",
-                            "type": "Type",
-                            "_label": "preferred terms"
-                        }
-                    ]
-                }
-            ],
-            "current_owner": {
-                "id": "http://vocab.getty.edu/ulan/500300517",
-                "type": "Group",
-                "_label": "Indianapolis Museum of Art at Newfields",
-                "classified_as": [
-                    {
-                        "id": "http://vocab.getty.edu/aat/300312281",
-                        "type": "Type",
-                        "_label": "museums (institutions)"
-                    }
-                ],
-                "acquired_title_through": [
-                    {
-                        "id": "https://data.discovernewfields.org/object/87623/IMA-acquisition",
-                        "type": "Acquisition",
-                        "_label": "Acquisition of Sprite",
-                        "classified_as": [
-                            {
-                                "id": "http://vocab.getty.edu/aat/300157782",
-                                "type": "Type",
-                                "_label": "acquisition (collections management)"
-                            }
-                        ]
-                    }
-                ]
-            },
-            "current_location": {
-                "id": "https://data.discovernewfields.org/thesauri/location/westerley",
-                "type": "Place",
-                "_label": "Westerley"
-            }
-        }
-    },
-    {
         "89367": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/89367",
@@ -3664,7 +3913,7 @@
                     "id": "https://data.discovernewfields.org/object/89367/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "89367",
+                    "content": 89367,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -3774,7 +4023,7 @@
                     "id": "https://data.discovernewfields.org/object/89368/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "89368",
+                    "content": 89368,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -3884,7 +4133,7 @@
                     "id": "https://data.discovernewfields.org/object/89369/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "89369",
+                    "content": 89369,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -3989,7 +4238,7 @@
                     "id": "https://data.discovernewfields.org/object/90817/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "90817",
+                    "content": 90817,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -4090,7 +4339,7 @@
                     "id": "https://data.discovernewfields.org/object/92158/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "92158",
+                    "content": 92158,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -4195,7 +4444,7 @@
                     "id": "https://data.discovernewfields.org/object/92159/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "92159",
+                    "content": 92159,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -4300,7 +4549,7 @@
                     "id": "https://data.discovernewfields.org/object/92160/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "92160",
+                    "content": 92160,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -4405,7 +4654,7 @@
                     "id": "https://data.discovernewfields.org/object/92384/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "92384",
+                    "content": 92384,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -4510,7 +4759,7 @@
                     "id": "https://data.discovernewfields.org/object/92385/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "92385",
+                    "content": 92385,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -4615,7 +4864,7 @@
                     "id": "https://data.discovernewfields.org/object/92386/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "92386",
+                    "content": 92386,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -4720,7 +4969,7 @@
                     "id": "https://data.discovernewfields.org/object/93739/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "93739",
+                    "content": 93739,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",

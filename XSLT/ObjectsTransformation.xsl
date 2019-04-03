@@ -36,7 +36,7 @@ Identifiers-->
                     "id": "<xsl:copy-of select="$baseURI"/><xsl:text>object/</xsl:text><xsl:value-of select="atom[@name='irn']"/><xsl:text>/irn</xsl:text>",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": "<xsl:value-of select="atom[@name='irn']"/>",
+                    "content": <xsl:value-of select="atom[@name='irn']"/>,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -147,18 +147,45 @@ Current Location-->
                 "id": "<xsl:copy-of select="$baseURI"/>thesauri/location/on-loan",
                 "type": "Place",
                 "_label": "On Loan"
-            }</xsl:when><xsl:when test="contains(atom[@name='LocMovementType'], 'Exhibition') and tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel1'] != 'On Loan'">,
+                }</xsl:when><xsl:when test="contains(tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel2'], 'Galler') or contains(tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel2'], 'Suite')">,
             "current_location": {
-                "id": "<xsl:copy-of select="$baseURI"/>thesauri/location/<xsl:value-of select="lower-case(translate(tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel2'], ' ', '-'))"/>",
+            "id": "<xsl:copy-of select="$baseURI"/>thesauri/location/<xsl:value-of select="tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel3']"/>",
                 "type": "Place",
-                "_label": "<xsl:value-of select="tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel2']"/>"<xsl:if test="contains(lower-case(tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel2']), 'gallery')">,
+                "_label": "<xsl:value-of select="tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel2']"/>",
                 "clasified_as": [
                     {
                         "id": "http://vocab.getty.edu/aat/300240057",
                         "type": "Type",
                         "_label": "galleries (display spaces)"
                     }
-                ]</xsl:if>
+                ]
+            }</xsl:when><xsl:when test="tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel2'] = 'Efroymson Family Entrance'">,
+            "current_location": {
+                "id": "<xsl:copy-of select="$baseURI"/>thesauri/location/F02",
+                "type": "Place",
+                "_label": "Efroymson Family Entrance Pavilion"
+            }</xsl:when><xsl:when test="tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel2'] = 'Nature Park'">,
+            "current_location": {
+                "id": "<xsl:copy-of select="$baseURI"/>thesauri/location/ANP",
+                "type": "Place",
+                "_label": "Virginia B. Fairbanks Art &amp; Nature Park"
+            }</xsl:when><xsl:when test="tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel2'] = 'Asian Visible Storage'">,
+            "current_location": {
+                "id": "<xsl:copy-of select="$baseURI"/>thesauri/location/K241",
+                "type": "Place",
+                "_label": "Leah and Charles Reddish Gallery - Asian Visible Storage",
+                "clasified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300240057",
+                        "type": "Type",
+                        "_label": "galleries (display spaces)"
+                    }
+                ]
+            }</xsl:when><xsl:when test="tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel2'] = 'Westerley'">,
+            "current_location": {
+                "id": "<xsl:copy-of select="$baseURI"/>thesauri/location/westerley",
+                "type": "Place",
+                "_label": "Westerley"
             }</xsl:when><xsl:otherwise>,
             "current_location": {
                 "id": "<xsl:copy-of select="$baseURI"/>thesauri/location/storage",
