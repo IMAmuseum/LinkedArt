@@ -142,19 +142,6 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/1065/old-accession-number",
-                    "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
-                    "content": "No TR Number",
-                    "classified_as": [
-                        {
-                            "id": "http://vocab.getty.edu/aat/300404626",
-                            "type": "Type",
-                            "_label": "identification numbers"
-                        }
-                    ]
-                },
-                {
                     "id": "https://data.discovernewfields.org/object/1065/title",
                     "type": "Name",
                     "_label": "Primary Title for the Artwork",
@@ -254,7 +241,7 @@
                 {
                     "id": "https://data.discovernewfields.org/object/3521/old-accession-number",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR1658/647",
                     "classified_as": [
                         {
@@ -392,7 +379,7 @@
                 {
                     "id": "https://data.discovernewfields.org/object/8407/old-accession-number",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR5417",
                     "classified_as": [
                         {
@@ -679,19 +666,6 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/16168/old-accession-number",
-                    "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
-                    "content": "No TR Number",
-                    "classified_as": [
-                        {
-                            "id": "http://vocab.getty.edu/aat/300404626",
-                            "type": "Type",
-                            "_label": "identification numbers"
-                        }
-                    ]
-                },
-                {
                     "id": "https://data.discovernewfields.org/object/16168/title",
                     "type": "Name",
                     "_label": "Primary Title for the Artwork",
@@ -785,19 +759,6 @@
                             "id": "http://vocab.getty.edu/aat/300312355",
                             "type": "Type",
                             "_label": "accession numbers"
-                        }
-                    ]
-                },
-                {
-                    "id": "https://data.discovernewfields.org/object/16356/old-accession-number",
-                    "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
-                    "content": "No TR Number",
-                    "classified_as": [
-                        {
-                            "id": "http://vocab.getty.edu/aat/300404626",
-                            "type": "Type",
-                            "_label": "identification numbers"
                         }
                     ]
                 },
@@ -906,7 +867,7 @@
                 {
                     "id": "https://data.discovernewfields.org/object/16410/old-accession-number",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "1965.14",
                     "classified_as": [
                         {
@@ -1031,7 +992,7 @@
                 {
                     "id": "https://data.discovernewfields.org/object/17425/old-accession-number",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR0329",
                     "classified_as": [
                         {
@@ -1246,7 +1207,7 @@
                 {
                     "id": "https://data.discovernewfields.org/object/20419/old-accession-number",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR8614",
                     "classified_as": [
                         {
@@ -1350,19 +1311,6 @@
                             "id": "http://vocab.getty.edu/aat/300312355",
                             "type": "Type",
                             "_label": "accession numbers"
-                        }
-                    ]
-                },
-                {
-                    "id": "https://data.discovernewfields.org/object/21137/old-accession-number",
-                    "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
-                    "content": "No TR Number",
-                    "classified_as": [
-                        {
-                            "id": "http://vocab.getty.edu/aat/300404626",
-                            "type": "Type",
-                            "_label": "identification numbers"
                         }
                     ]
                 },
@@ -1490,19 +1438,6 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/21288/old-accession-number",
-                    "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
-                    "content": "No TR Number",
-                    "classified_as": [
-                        {
-                            "id": "http://vocab.getty.edu/aat/300404626",
-                            "type": "Type",
-                            "_label": "identification numbers"
-                        }
-                    ]
-                },
-                {
                     "id": "https://data.discovernewfields.org/object/21288/title",
                     "type": "Name",
                     "_label": "Primary Title for the Artwork",
@@ -1598,19 +1533,6 @@
                             "id": "http://vocab.getty.edu/aat/300312355",
                             "type": "Type",
                             "_label": "accession numbers"
-                        }
-                    ]
-                },
-                {
-                    "id": "https://data.discovernewfields.org/object/24693/old-accession-number",
-                    "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
-                    "content": "No TR Number",
-                    "classified_as": [
-                        {
-                            "id": "http://vocab.getty.edu/aat/300404626",
-                            "type": "Type",
-                            "_label": "identification numbers"
                         }
                     ]
                 },
@@ -1810,7 +1732,7 @@
                 {
                     "id": "https://data.discovernewfields.org/object/41018/old-accession-number",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR3986/72uu",
                     "classified_as": [
                         {
@@ -1919,7 +1841,7 @@
                 {
                     "id": "https://data.discovernewfields.org/object/41019/old-accession-number",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR3986/72vv",
                     "classified_as": [
                         {
@@ -2037,19 +1959,6 @@
                             "id": "http://vocab.getty.edu/aat/300312355",
                             "type": "Type",
                             "_label": "accession numbers"
-                        }
-                    ]
-                },
-                {
-                    "id": "https://data.discovernewfields.org/object/47035/old-accession-number",
-                    "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
-                    "content": "No TR Number",
-                    "classified_as": [
-                        {
-                            "id": "http://vocab.getty.edu/aat/300404626",
-                            "type": "Type",
-                            "_label": "identification numbers"
                         }
                     ]
                 },
@@ -2248,7 +2157,7 @@
                 {
                     "id": "https://data.discovernewfields.org/object/55312/old-accession-number",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR3986/72a",
                     "classified_as": [
                         {
@@ -2366,7 +2275,7 @@
                 {
                     "id": "https://data.discovernewfields.org/object/64017/old-accession-number",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR10523/3A-B",
                     "classified_as": [
                         {
@@ -2478,7 +2387,7 @@
                 {
                     "id": "https://data.discovernewfields.org/object/64018/old-accession-number",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR10523/3A",
                     "classified_as": [
                         {
@@ -2590,7 +2499,7 @@
                 {
                     "id": "https://data.discovernewfields.org/object/64019/old-accession-number",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR10523/3B",
                     "classified_as": [
                         {
@@ -2765,10 +2674,10 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/64628/old-accession-number-1",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
-                    "content": "TR10819/2-17 | EX2009.1.29",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+                    "content": "TR10819/2-17",
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404626",
@@ -2777,6 +2686,20 @@
                         }
                     ]
                 },
+                {
+                    "id": "https://data.discovernewfields.org/object/64628/old-accession-number-3",
+                    "type": "Identifier",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+                    "content": "EX2009.1.29",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404626",
+                            "type": "Type",
+                            "_label": "identification numbers"
+                        }
+                    ]
+                },
+                ,
                 {
                     "id": "https://data.discovernewfields.org/object/64628/title",
                     "type": "Name",
@@ -2873,7 +2796,7 @@
                 {
                     "id": "https://data.discovernewfields.org/object/67743/old-accession-number",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR10985/5A-B",
                     "classified_as": [
                         {
@@ -3002,10 +2925,10 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68180/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/68180/old-accession-number-1",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
-                    "content": "TR10819/2A-B | EX2009.1.29",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+                    "content": "TR10819/2A-B",
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404626",
@@ -3014,6 +2937,20 @@
                         }
                     ]
                 },
+                {
+                    "id": "https://data.discovernewfields.org/object/68180/old-accession-number-3",
+                    "type": "Identifier",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+                    "content": "EX2009.1.29",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404626",
+                            "type": "Type",
+                            "_label": "identification numbers"
+                        }
+                    ]
+                },
+                ,
                 {
                     "id": "https://data.discovernewfields.org/object/68180/title",
                     "type": "Name",
@@ -3133,10 +3070,10 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68181/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/68181/old-accession-number-1",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
-                    "content": "TR10819/2A | EX2009.1.29",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+                    "content": "TR10819/2A",
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404626",
@@ -3145,6 +3082,20 @@
                         }
                     ]
                 },
+                {
+                    "id": "https://data.discovernewfields.org/object/68181/old-accession-number-3",
+                    "type": "Identifier",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+                    "content": "EX2009.1.29",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404626",
+                            "type": "Type",
+                            "_label": "identification numbers"
+                        }
+                    ]
+                },
+                ,
                 {
                     "id": "https://data.discovernewfields.org/object/68181/title",
                     "type": "Name",
@@ -3270,10 +3221,10 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68182/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/68182/old-accession-number-1",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
-                    "content": "TR10819/2B | EX2009.1.29",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+                    "content": "TR10819/2B",
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404626",
@@ -3282,6 +3233,20 @@
                         }
                     ]
                 },
+                {
+                    "id": "https://data.discovernewfields.org/object/68182/old-accession-number-3",
+                    "type": "Identifier",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+                    "content": "EX2009.1.29",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404626",
+                            "type": "Type",
+                            "_label": "identification numbers"
+                        }
+                    ]
+                },
+                ,
                 {
                     "id": "https://data.discovernewfields.org/object/68182/title",
                     "type": "Name",
@@ -3384,7 +3349,7 @@
                 {
                     "id": "https://data.discovernewfields.org/object/68903/old-accession-number",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR11136",
                     "classified_as": [
                         {
@@ -3494,7 +3459,7 @@
                 {
                     "id": "https://data.discovernewfields.org/object/69062/old-accession-number",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR10985/5A-B",
                     "classified_as": [
                         {
@@ -3611,7 +3576,7 @@
                 {
                     "id": "https://data.discovernewfields.org/object/69063/old-accession-number",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR10985/5A-B",
                     "classified_as": [
                         {
@@ -3723,7 +3688,7 @@
                 {
                     "id": "https://data.discovernewfields.org/object/82696/old-accession-number",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR11707A-E.4",
                     "classified_as": [
                         {
@@ -3774,9 +3739,9 @@
                 ]
             },
             "current_location": {
-                "id": "https://data.discovernewfields.org/thesauri/location/storage",
+                "id": "https://data.discovernewfields.org/thesauri/location/G",
                 "type": "Place",
-                "_label": "IMA Storage"
+                "_label": "Newfields Grounds"
             }
         }
     },
@@ -3828,7 +3793,7 @@
                 {
                     "id": "https://data.discovernewfields.org/object/85257/old-accession-number",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR11707A",
                     "classified_as": [
                         {
@@ -3879,9 +3844,9 @@
                 ]
             },
             "current_location": {
-                "id": "https://data.discovernewfields.org/thesauri/location/storage",
+                "id": "https://data.discovernewfields.org/thesauri/location/G",
                 "type": "Place",
-                "_label": "IMA Storage"
+                "_label": "Newfields Grounds"
             }
         }
     },
@@ -4263,7 +4228,7 @@
                 {
                     "id": "https://data.discovernewfields.org/object/90817/old-accession-number",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR12093A-C",
                     "classified_as": [
                         {
@@ -4364,7 +4329,7 @@
                 {
                     "id": "https://data.discovernewfields.org/object/92158/old-accession-number",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR12093A-C",
                     "classified_as": [
                         {
@@ -4469,7 +4434,7 @@
                 {
                     "id": "https://data.discovernewfields.org/object/92159/old-accession-number",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR12093A-C",
                     "classified_as": [
                         {
@@ -4574,7 +4539,7 @@
                 {
                     "id": "https://data.discovernewfields.org/object/92160/old-accession-number",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR12093A-C",
                     "classified_as": [
                         {
@@ -4677,19 +4642,6 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/92384/old-accession-number",
-                    "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
-                    "content": "No TR Number",
-                    "classified_as": [
-                        {
-                            "id": "http://vocab.getty.edu/aat/300404626",
-                            "type": "Type",
-                            "_label": "identification numbers"
-                        }
-                    ]
-                },
-                {
                     "id": "https://data.discovernewfields.org/object/92384/title",
                     "type": "Name",
                     "_label": "Primary Title for the Artwork",
@@ -4778,19 +4730,6 @@
                             "id": "http://vocab.getty.edu/aat/300312355",
                             "type": "Type",
                             "_label": "accession numbers"
-                        }
-                    ]
-                },
-                {
-                    "id": "https://data.discovernewfields.org/object/92385/old-accession-number",
-                    "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
-                    "content": "No TR Number",
-                    "classified_as": [
-                        {
-                            "id": "http://vocab.getty.edu/aat/300404626",
-                            "type": "Type",
-                            "_label": "identification numbers"
                         }
                     ]
                 },
@@ -4887,19 +4826,6 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/92386/old-accession-number",
-                    "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
-                    "content": "No TR Number",
-                    "classified_as": [
-                        {
-                            "id": "http://vocab.getty.edu/aat/300404626",
-                            "type": "Type",
-                            "_label": "identification numbers"
-                        }
-                    ]
-                },
-                {
                     "id": "https://data.discovernewfields.org/object/92386/title",
                     "type": "Name",
                     "_label": "Primary Title for the Artwork",
@@ -4992,10 +4918,10 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/93739/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/93739/old-accession-number-1",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
-                    "content": "TR9961/11 | U841A | U841B | U841C",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+                    "content": "TR9961/11",
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404626",
@@ -5004,6 +4930,46 @@
                         }
                     ]
                 },
+                {
+                    "id": "https://data.discovernewfields.org/object/93739/old-accession-number-3",
+                    "type": "Identifier",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+                    "content": "U841A",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404626",
+                            "type": "Type",
+                            "_label": "identification numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/93739/old-accession-number-5",
+                    "type": "Identifier",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+                    "content": "U841B",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404626",
+                            "type": "Type",
+                            "_label": "identification numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/93739/old-accession-number-7",
+                    "type": "Identifier",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+                    "content": "U841C",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404626",
+                            "type": "Type",
+                            "_label": "identification numbers"
+                        }
+                    ]
+                },
+                ,
                 {
                     "id": "https://data.discovernewfields.org/object/93739/title",
                     "type": "Name",

@@ -10,7 +10,7 @@
     <xsl:variable name="crm">http://www.cidoc-crm.org/cidoc-crm/</xsl:variable>
 
 <xsl:template match="/">"objects": [
-    <xsl:for-each select="table[@name='ecatalogue']/tuple">{<!--
+    <xsl:for-each select="table[@name='ecatalogue']/tuple"><xsl:variable name="irn"><xsl:value-of select="atom[@name='irn']"/></xsl:variable>{<!--
 Header-->
         "<xsl:value-of select="atom[@name='irn']"/>": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
@@ -57,11 +57,11 @@ Identifiers-->
                             "_label": "accession numbers"
                         }
                     ]
-                }<xsl:if test="atom[@name='TitPreviousAccessionNo'] != ''">,
+                }<xsl:if test="atom[@name='TitPreviousAccessionNo'] != ''"><xsl:choose><xsl:when test="not(contains(atom[@name='TitPreviousAccessionNo'], '|')) and atom[@name='TitPreviousAccessionNo'] != 'No TR Number'">,
                 {
                     "id": "<xsl:copy-of select="$baseURI"/><xsl:text>object/</xsl:text><xsl:value-of select="atom[@name='irn']"/><xsl:text>/old-accession-number</xsl:text>",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Accession",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "<xsl:value-of select="atom[@name='TitPreviousAccessionNo']"/>",
                     "classified_as": [
                         {
@@ -70,7 +70,21 @@ Identifiers-->
                             "_label": "identification numbers"
                         }
                     ]
-                }</xsl:if>,<!--
+                }</xsl:when><xsl:when test="contains(atom[@name='TitPreviousAccessionNo'], '|')"><xsl:for-each select="tokenize(atom[@name='TitPreviousAccessionNo'],' | ')"><xsl:if test="not(contains(., '|'))">,
+                {
+                    "id": "<xsl:copy-of select="$baseURI"/><xsl:text>object/</xsl:text><xsl:value-of select="$irn"/><xsl:text>/old-accession-number-</xsl:text><xsl:value-of select="position()"/>",
+                    "type": "Identifier",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+                    "content": "<xsl:value-of select="."/>",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404626",
+                            "type": "Type",
+                            "_label": "identification numbers"
+                        }
+                    ]
+                }</xsl:if></xsl:for-each>,
+                </xsl:when><xsl:otherwise/></xsl:choose></xsl:if>,<!--
 Titles-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/><xsl:text>object/</xsl:text><xsl:value-of select="atom[@name='irn']"/><xsl:text>/title</xsl:text>",
@@ -169,6 +183,11 @@ Current Location-->
                 "id": "<xsl:copy-of select="$baseURI"/>thesauri/location/ANP",
                 "type": "Place",
                 "_label": "Virginia B. Fairbanks Art &amp; Nature Park"
+            }</xsl:when><xsl:when test="tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel2'] = 'Grounds'">,
+            "current_location": {
+                "id": "<xsl:copy-of select="$baseURI"/>thesauri/location/G",
+                "type": "Place",
+                "_label": "Newfields Grounds"
             }</xsl:when><xsl:when test="tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel2'] = 'Asian Visible Storage'">,
             "current_location": {
                 "id": "<xsl:copy-of select="$baseURI"/>thesauri/location/K241",
