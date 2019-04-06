@@ -239,7 +239,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/3521/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/3521/old-accession-number/1",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR1658/647",
@@ -377,7 +377,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/8407/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/8407/old-accession-number/1",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR5417",
@@ -865,7 +865,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/16410/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/16410/old-accession-number/1",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "1965.14",
@@ -990,7 +990,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/17425/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/17425/old-accession-number/1",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR0329",
@@ -1205,7 +1205,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/20419/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/20419/old-accession-number/1",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR8614",
@@ -1575,8 +1575,7 @@
                         ]
                     }
                 ]
-            },
-        
+            }
         }
     },
     {
@@ -1687,7 +1686,29 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/25098/title-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Title(s) Associated with the Work",
+                "content": "Individual titles:  16.924A: Ichikawa Ebiz^o  (Danj^ur^o VII) as Masamune Dankur^o V
+16.924B: Ichikawa Danz^o as Masamune Gorobei
+16.924C: Sawamura Tossh^o as Rai Kunitoshi",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300417212",
+                        "type": "Type",
+                        "_label": "title statements"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "41018": {
@@ -1730,7 +1751,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/41018/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/41018/old-accession-number/1",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR3986/72uu",
@@ -1794,8 +1815,7 @@
                         ]
                     }
                 ]
-            },
-        
+            }
         }
     },
     {
@@ -1839,7 +1859,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/41019/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/41019/old-accession-number/1",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR3986/72vv",
@@ -1903,8 +1923,7 @@
                         ]
                     }
                 ]
-            },
-        
+            }
         }
     },
     {
@@ -2115,6 +2134,106 @@
         }
     },
     {
+        "52481": {
+            "@context": "https://linked.art/ns/v1/linked-art.json",
+            "id": "https://data.discovernewfields.org/object/52481",
+            "type": "ManMadeObject",
+            "_label": "Spring snow on Sumida River 隅田川　春雪",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300133025",
+                    "type": "Type",
+                    "_label": "works of art"
+                }
+            ],
+            "identified_by": [
+                {
+                    "id": "https://data.discovernewfields.org/object/52481/irn",
+                    "type": "Identifier",
+                    "_label": "IMA at Newfields Collections Database Number for the Artwork",
+                    "content": 52481,
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404621",
+                            "type": "Type",
+                            "_label": "repository numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/52481/accession-number",
+                    "type": "Identifier",
+                    "_label": "IMA at Newfields Accession Number for the Artwork",
+                    "content": "44.91",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300312355",
+                            "type": "Type",
+                            "_label": "accession numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/52481/title",
+                    "type": "Name",
+                    "_label": "Primary Title for the Artwork",
+                    "content": "Spring snow on Sumida River 隅田川　春雪",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404670",
+                            "type": "Type",
+                            "_label": "preferred terms"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/52481/portfolio-title",
+                    "type": "Name",
+                    "_label": "Title of the Portfolio of which the Artwork is a Part",
+                    "content": "",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300417225",
+                            "type": "Type",
+                            "_label": "volume titles"
+                        }
+                    ]
+                }
+            ],
+            "current_owner": {
+                "id": "http://vocab.getty.edu/ulan/500300517",
+                "type": "Group",
+                "_label": "Indianapolis Museum of Art at Newfields",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300312281",
+                        "type": "Type",
+                        "_label": "museums (institutions)"
+                    }
+                ],
+                "acquired_title_through": [
+                    {
+                        "id": "https://data.discovernewfields.org/object/52481/IMA-acquisition",
+                        "type": "Acquisition",
+                        "_label": "Acquisition of Spring snow on Sumida River 隅田川　春雪",
+                        "classified_as": [
+                            {
+                                "id": "http://vocab.getty.edu/aat/300157782",
+                                "type": "Type",
+                                "_label": "acquisition (collections management)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "current_location": {
+                "id": "https://data.discovernewfields.org/thesauri/location/storage",
+                "type": "Place",
+                "_label": "IMA Storage"
+            }
+        }
+    },
+    {
         "55312": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/55312",
@@ -2155,7 +2274,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/55312/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/55312/old-accession-number/1",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR3986/72a",
@@ -2273,7 +2392,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64017/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/64017/old-accession-number/1",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR10523/3A-B",
@@ -2385,7 +2504,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64018/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/64018/old-accession-number/1",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR10523/3A",
@@ -2497,7 +2616,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64019/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/64019/old-accession-number/1",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR10523/3B",
@@ -2687,7 +2806,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628/old-accession-number-3",
+                    "id": "https://data.discovernewfields.org/object/64628/old-accession-number-2",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "EX2009.1.29",
@@ -2739,9 +2858,28 @@
                         ]
                     }
                 ]
-            },
-        
-        }
+            }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/64628/title-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Title(s) Associated with the Work",
+                "content": ".1A-B) teapot .2A-B) sugar bowl .3) creamer .4) cup .5) cup .6) cup .7) cup .8) saucer .9) saucer .10) saucer .11) saucer .12) platter .13) plate .14) plate .15) plate .16) plate",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300417212",
+                        "type": "Type",
+                        "_label": "title statements"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "67743": {
@@ -2794,7 +2932,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/67743/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/67743/old-accession-number/1",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR10985/5A-B",
@@ -2845,9 +2983,28 @@
                         ]
                     }
                 ]
-            },
-        
-        }
+            }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/67743/title-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Title(s) Associated with the Work",
+                "content": "Also known as "La Donna"",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300417212",
+                        "type": "Type",
+                        "_label": "title statements"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "68180": {
@@ -2938,7 +3095,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68180/old-accession-number-3",
+                    "id": "https://data.discovernewfields.org/object/68180/old-accession-number-2",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "EX2009.1.29",
@@ -2990,8 +3147,7 @@
                         ]
                     }
                 ]
-            },
-        
+            }
         }
     },
     {
@@ -3083,7 +3239,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68181/old-accession-number-3",
+                    "id": "https://data.discovernewfields.org/object/68181/old-accession-number-2",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "EX2009.1.29",
@@ -3234,7 +3390,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68182/old-accession-number-3",
+                    "id": "https://data.discovernewfields.org/object/68182/old-accession-number-2",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "EX2009.1.29",
@@ -3347,7 +3503,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68903/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/68903/old-accession-number/1",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR11136",
@@ -3457,7 +3613,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/69062/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/69062/old-accession-number/1",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR10985/5A-B",
@@ -3521,7 +3677,27 @@
                     }
                 ]
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/69062/title-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Title(s) Associated with the Work",
+                "content": "Also known as "La Donna"",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300417212",
+                        "type": "Type",
+                        "_label": "title statements"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "69063": {
@@ -3574,7 +3750,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/69063/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/69063/old-accession-number/1",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR10985/5A-B",
@@ -3638,7 +3814,27 @@
                     }
                 ]
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/69063/title-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Title(s) Associated with the Work",
+                "content": "Also known as "La Donna"",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300417212",
+                        "type": "Type",
+                        "_label": "title statements"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "82696": {
@@ -3686,7 +3882,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/82696/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/82696/old-accession-number/1",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR11707A-E.4",
@@ -3743,7 +3939,27 @@
                 "type": "Place",
                 "_label": "Newfields Grounds"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/82696/title-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Title(s) Associated with the Work",
+                "content": "A) Element A / Black and Yellow Drip, B) Element B / Red and White, C) Element C / Black & White, E.1) Element E #1 / Bottom, Black & White, E.2) Element E #2 / Red & White, E.3) Element E #3 / Black &  Yellow, E.4) Element E #4 / Top, Black & White",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300417212",
+                        "type": "Type",
+                        "_label": "title statements"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "85257": {
@@ -3791,7 +4007,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/85257/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/85257/old-accession-number/1",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR11707A",
@@ -3848,7 +4064,27 @@
                 "type": "Place",
                 "_label": "Newfields Grounds"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/85257/title-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Title(s) Associated with the Work",
+                "content": "A) Element A / Black and Yellow Drip, B) Element B / Red and White, C) Element C / Black & White, E.1) Element E #1 / Bottom, Black & White, E.2) Element E #2 / Red & White, E.3) Element E #3 / Black &  Yellow, E.4) Element E #4 / Top, Black & White",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300417212",
+                        "type": "Type",
+                        "_label": "title statements"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "89367": {
@@ -3958,7 +4194,29 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/89367/title-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Title(s) Associated with the Work",
+                "content": "Individual titles:  16.924A: Ichikawa Ebiz^o  (Danj^ur^o VII) as Masamune Dankur^o V
+16.924B: Ichikawa Danz^o as Masamune Gorobei
+16.924C: Sawamura Tossh^o as Rai Kunitoshi",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300417212",
+                        "type": "Type",
+                        "_label": "title statements"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "89368": {
@@ -4068,7 +4326,29 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/89368/title-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Title(s) Associated with the Work",
+                "content": "Individual titles:  16.924A: Ichikawa Ebiz^o  (Danj^ur^o VII) as Masamune Dankur^o V
+16.924B: Ichikawa Danz^o as Masamune Gorobei
+16.924C: Sawamura Tossh^o as Rai Kunitoshi",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300417212",
+                        "type": "Type",
+                        "_label": "title statements"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "89369": {
@@ -4178,7 +4458,29 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/89369/title-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Title(s) Associated with the Work",
+                "content": "Individual titles:  16.924A: Ichikawa Ebiz^o  (Danj^ur^o VII) as Masamune Dankur^o V
+16.924B: Ichikawa Danz^o as Masamune Gorobei
+16.924C: Sawamura Tossh^o as Rai Kunitoshi",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300417212",
+                        "type": "Type",
+                        "_label": "title statements"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "90817": {
@@ -4226,7 +4528,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/90817/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/90817/old-accession-number/1",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR12093A-C",
@@ -4277,8 +4579,7 @@
                         ]
                     }
                 ]
-            },
-        
+            }
         }
     },
     {
@@ -4327,7 +4628,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/92158/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/92158/old-accession-number/1",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR12093A-C",
@@ -4432,7 +4733,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/92159/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/92159/old-accession-number/1",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR12093A-C",
@@ -4537,7 +4838,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/92160/old-accession-number",
+                    "id": "https://data.discovernewfields.org/object/92160/old-accession-number/1",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "TR12093A-C",
@@ -4931,7 +5232,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/93739/old-accession-number-3",
+                    "id": "https://data.discovernewfields.org/object/93739/old-accession-number-2",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "U841A",
@@ -4944,7 +5245,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/93739/old-accession-number-5",
+                    "id": "https://data.discovernewfields.org/object/93739/old-accession-number-3",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "U841B",
@@ -4957,7 +5258,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/93739/old-accession-number-7",
+                    "id": "https://data.discovernewfields.org/object/93739/old-accession-number-4",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "U841C",
@@ -5015,6 +5316,26 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/93739/title-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Title(s) Associated with the Work",
+                "content": "A-D in four pieces",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300417212",
+                        "type": "Type",
+                        "_label": "title statements"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     }
 ]
