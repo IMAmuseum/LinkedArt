@@ -165,7 +165,25 @@ Acquisition-->
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ]<xsl:if test="atom[@name='TitAccessionDate'] != ''">,
+                        "timespan": {
+                            "id": "<xsl:copy-of select="$baseURI"/><xsl:text>object/</xsl:text><xsl:value-of select="atom[@name='irn']"/>/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "<xsl:value-of select="atom[@name='TitAccessionDate']"/>",<xsl:choose><xsl:when test="string-length(atom[@name='TitAccessionDate']) = 4">
+                            "end_of_the_end": "<xsl:value-of select="atom[@name='TitAccessionDate']"/>-01-01T00:00:00Z", 
+                            "begin_of_the_begin": "<xsl:value-of select="atom[@name='TitAccessionDate']"/>-12-31T00:00:00Z"</xsl:when><xsl:when test="string-length(atom[@name='TitAccessionDate']) = 8">
+                            "end_of_the_end": "<xsl:value-of select="atom[@name='TitAccessionDate']"/>01T00:00:00Z", 
+                            "begin_of_the_begin": "<xsl:value-of select="atom[@name='TitAccessionDate']"/>28T00:00:00Z"</xsl:when><xsl:when test="string-length(atom[@name='TitAccessionDate']) = 10">
+                            "end_of_the_end": "<xsl:value-of select="atom[@name='TitAccessionDate']"/>T00:00:00Z", 
+                            "begin_of_the_begin": "<xsl:value-of select="atom[@name='TitAccessionDate']"/>T00:00:00Z"</xsl:when></xsl:choose>
+                        }</xsl:if>
                     }
                 ]<!--
 Current Location-->

@@ -1645,6 +1645,123 @@ Censor's seal: single kiwame</atom>
 
   <!-- Row 17 -->
   <tuple>
+    <atom name="irn">37383</atom>
+    <atom name="TitAccessionNo">89.1</atom>
+    <atom name="TitPreviousAccessionNo">No TR Number</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1889</atom>
+    <atom name="TitMainTitle">Oaks of Vernon</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Paintings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">paintings</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">oil paintings</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1887</atom>
+    <atom name="CreEarliestDate">1887</atom>
+    <atom name="CreLatestDate">1887</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Artist</atom>
+        <atom name="irn">11566</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">United States</atom>
+      </tuple>
+    </table>
+    <table name="MarkType">
+      <tuple>
+        <atom name="CreMarkType">Signature</atom>
+      </tuple>
+      <tuple>
+        <atom name="CreMarkType">Date</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions">Signed and dated, l.l.: T.C.Steele .87.</atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">oil paint</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">canvas</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">oil on canvas</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique">painting</atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">30 x 45-1/4 in. (canvas)
+36-3/4 x 51-3/4 x 3-1/4 in. (framed)</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">IMA Number Applied</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyWidth"></atom>
+        <atom name="PhyDepth"></atom>
+        <atom name="PhyUnitLength"></atom>
+        <atom name="PhyDimensionNotes">in red ink to backing in upper left corner and lower right corner</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Framed Dimensions</atom>
+        <atom name="PhyHeight">36.7500</atom>
+        <atom name="PhyWidth">51.7500</atom>
+        <atom name="PhyDepth">3.2500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 93.4 x 131.4 x 82. (framed)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Unframed Dimensions</atom>
+        <atom name="PhyHeight">30.0000</atom>
+        <atom name="PhyWidth">45.2500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 76.2 x 115 (canvas)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">John Herron Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">Purchased from the artist by the John Herron Art Institute, Indianapolis, Indiana, now the Indianapolis Museum of Art in 1889.</atom>
+    <atom name="PhyCollectionArea">901.2-American Painting and Sculpture 1800-1945</atom>
+    <atom name="LocMovementType">Storage Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">P</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="irn">43218</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">43219</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 18 -->
+  <tuple>
     <atom name="irn">41018</atom>
     <atom name="TitAccessionNo">80.1596.1</atom>
     <atom name="TitPreviousAccessionNo">TR3986/72uu</atom>
@@ -1735,7 +1852,7 @@ Censor's seal: single kiwame</atom>
     </table>
   </tuple>
 
-  <!-- Row 18 -->
+  <!-- Row 19 -->
   <tuple>
     <atom name="irn">41019</atom>
     <atom name="TitAccessionNo">80.1596.2</atom>
@@ -1826,7 +1943,66 @@ Censor's seal: single kiwame</atom>
     </table>
   </tuple>
 
-  <!-- Row 19 -->
+  <!-- Row 20 -->
+  <tuple>
+    <atom name="irn">46950</atom>
+    <atom name="TitAccessionNo">05.19</atom>
+    <atom name="TitPreviousAccessionNo">No TR Number</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1905-12-</atom>
+    <atom name="TitMainTitle">United States Flag</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Furnishings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">banners</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">flags</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated"></atom>
+    <atom name="CreEarliestDate"></atom>
+    <atom name="CreLatestDate"></atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">United States</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <atom name="PhyMediumAndSupport">bunting</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">No measurement details.</atom>
+    <atom name="SumCreditLine">Gift of Mrs. Eli Lilly</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">No Known Rights Holder</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">908-Textile and Fashion Arts</atom>
+    <atom name="LocMovementType">Inventory</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Location Not Verified</atom>
+      <atom name="LocLevel3"></atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+  </tuple>
+
+  <!-- Row 21 -->
   <tuple>
     <atom name="irn">47035</atom>
     <atom name="TitAccessionNo">08.19</atom>
@@ -1900,7 +2076,7 @@ Censor's seal: single kiwame</atom>
     <atom name="AssIsParent">No</atom>
   </tuple>
 
-  <!-- Row 20 -->
+  <!-- Row 22 -->
   <tuple>
     <atom name="irn">51330</atom>
     <atom name="TitAccessionNo">30.388</atom>
@@ -2010,7 +2186,7 @@ Engraver's seal: Horisen</atom>
     <atom name="AssIsParent">No</atom>
   </tuple>
 
-  <!-- Row 21 -->
+  <!-- Row 23 -->
   <tuple>
     <atom name="irn">52481</atom>
     <atom name="TitAccessionNo">44.91</atom>
@@ -2091,7 +2267,7 @@ Engraver's seal: Horisen</atom>
     <atom name="AssIsParent">No</atom>
   </tuple>
 
-  <!-- Row 22 -->
+  <!-- Row 24 -->
   <tuple>
     <atom name="irn">55312</atom>
     <atom name="TitAccessionNo">80.1596</atom>
@@ -2160,7 +2336,7 @@ Engraver's seal: Horisen</atom>
     </table>
   </tuple>
 
-  <!-- Row 23 -->
+  <!-- Row 25 -->
   <tuple>
     <atom name="irn">64017</atom>
     <atom name="TitAccessionNo">2007.4A-B</atom>
@@ -2242,7 +2418,7 @@ Engraver's seal: Horisen</atom>
     <atom name="AssIsParent">Yes</atom>
   </tuple>
 
-  <!-- Row 24 -->
+  <!-- Row 26 -->
   <tuple>
     <atom name="irn">64018</atom>
     <atom name="TitAccessionNo">2007.4A</atom>
@@ -2337,7 +2513,7 @@ Engraver's seal: Horisen</atom>
     </table>
   </tuple>
 
-  <!-- Row 25 -->
+  <!-- Row 27 -->
   <tuple>
     <atom name="irn">64019</atom>
     <atom name="TitAccessionNo">2007.4B</atom>
@@ -2429,7 +2605,7 @@ Engraver's seal: Horisen</atom>
     </table>
   </tuple>
 
-  <!-- Row 26 -->
+  <!-- Row 28 -->
   <tuple>
     <atom name="irn">64628</atom>
     <atom name="TitAccessionNo">2009.390.1-.16</atom>
@@ -2549,7 +2725,7 @@ Engraver's seal: Horisen</atom>
     <atom name="AssIsParent">Yes</atom>
   </tuple>
 
-  <!-- Row 27 -->
+  <!-- Row 29 -->
   <tuple>
     <atom name="irn">67743</atom>
     <atom name="TitAccessionNo">2009.646A-B</atom>
@@ -2644,7 +2820,7 @@ B) ottoman: diam.: 22 in.</atom>
     <atom name="AssIsParent">Yes</atom>
   </tuple>
 
-  <!-- Row 28 -->
+  <!-- Row 30 -->
   <tuple>
     <atom name="irn">68180</atom>
     <atom name="TitAccessionNo">2009.390.1A-B</atom>
@@ -2801,7 +2977,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 29 -->
+  <!-- Row 31 -->
   <tuple>
     <atom name="irn">68181</atom>
     <atom name="TitAccessionNo">2009.390.1A</atom>
@@ -2906,7 +3082,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 30 -->
+  <!-- Row 32 -->
   <tuple>
     <atom name="irn">68182</atom>
     <atom name="TitAccessionNo">2009.390.1B</atom>
@@ -2998,7 +3174,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 31 -->
+  <!-- Row 33 -->
   <tuple>
     <atom name="irn">68903</atom>
     <atom name="TitAccessionNo">2010.217</atom>
@@ -3074,7 +3250,7 @@ B) ottoman: diam.: 22 in.</atom>
     <atom name="AssIsParent">No</atom>
   </tuple>
 
-  <!-- Row 32 -->
+  <!-- Row 34 -->
   <tuple>
     <atom name="irn">69062</atom>
     <atom name="TitAccessionNo">2009.646A</atom>
@@ -3167,7 +3343,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 33 -->
+  <!-- Row 35 -->
   <tuple>
     <atom name="irn">69063</atom>
     <atom name="TitAccessionNo">2009.646B</atom>
@@ -3258,7 +3434,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 34 -->
+  <!-- Row 36 -->
   <tuple>
     <atom name="irn">82696</atom>
     <atom name="TitAccessionNo">2013.443A-E.4</atom>
@@ -3376,7 +3552,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
     <atom name="AssIsParent">Yes</atom>
   </tuple>
 
-  <!-- Row 35 -->
+  <!-- Row 37 -->
   <tuple>
     <atom name="irn">85257</atom>
     <atom name="TitAccessionNo">2013.443A</atom>
@@ -3496,7 +3672,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
     </table>
   </tuple>
 
-  <!-- Row 36 -->
+  <!-- Row 38 -->
   <tuple>
     <atom name="irn">89367</atom>
     <atom name="TitAccessionNo">16.924A</atom>
@@ -3596,7 +3772,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
     </table>
   </tuple>
 
-  <!-- Row 37 -->
+  <!-- Row 39 -->
   <tuple>
     <atom name="irn">89368</atom>
     <atom name="TitAccessionNo">16.924B</atom>
@@ -3696,7 +3872,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
     </table>
   </tuple>
 
-  <!-- Row 38 -->
+  <!-- Row 40 -->
   <tuple>
     <atom name="irn">89369</atom>
     <atom name="TitAccessionNo">16.924C</atom>
@@ -3805,7 +3981,7 @@ Censor's seal: single kiwame</atom>
     </table>
   </tuple>
 
-  <!-- Row 39 -->
+  <!-- Row 41 -->
   <tuple>
     <atom name="irn">90817</atom>
     <atom name="TitAccessionNo">2017.64A-C</atom>
@@ -3899,7 +4075,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
     <atom name="AssIsParent">Yes</atom>
   </tuple>
 
-  <!-- Row 40 -->
+  <!-- Row 42 -->
   <tuple>
     <atom name="irn">92158</atom>
     <atom name="TitAccessionNo">2017.64A</atom>
@@ -3985,7 +4161,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 41 -->
+  <!-- Row 43 -->
   <tuple>
     <atom name="irn">92159</atom>
     <atom name="TitAccessionNo">2017.64B</atom>
@@ -4071,7 +4247,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 42 -->
+  <!-- Row 44 -->
   <tuple>
     <atom name="irn">92160</atom>
     <atom name="TitAccessionNo">2017.64C</atom>
@@ -4157,7 +4333,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 43 -->
+  <!-- Row 45 -->
   <tuple>
     <atom name="irn">92384</atom>
     <atom name="TitAccessionNo">13.1A</atom>
@@ -4258,7 +4434,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 44 -->
+  <!-- Row 46 -->
   <tuple>
     <atom name="irn">92385</atom>
     <atom name="TitAccessionNo">13.1B</atom>
@@ -4350,7 +4526,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 45 -->
+  <!-- Row 47 -->
   <tuple>
     <atom name="irn">92386</atom>
     <atom name="TitAccessionNo">13.1C</atom>
@@ -4442,7 +4618,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 46 -->
+  <!-- Row 48 -->
   <tuple>
     <atom name="irn">93739</atom>
     <atom name="TitAccessionNo">73.131.6A</atom>

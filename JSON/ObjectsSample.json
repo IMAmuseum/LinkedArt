@@ -80,6 +80,13 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
                         ]
                     }
                 ]
@@ -177,7 +184,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/1065/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1914-02-19",
+                            "end_of_the_end": "1914-02-19T00:00:00Z", 
+                            "begin_of_the_begin": "1914-02-19T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -300,7 +321,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/3521/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1942-02-17",
+                            "end_of_the_end": "1942-02-17T00:00:00Z", 
+                            "begin_of_the_begin": "1942-02-17T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -425,7 +460,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/8407/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1984-09-20",
+                            "end_of_the_end": "1984-09-20T00:00:00Z", 
+                            "begin_of_the_begin": "1984-09-20T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -512,7 +561,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/14365/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1933-11-21",
+                            "end_of_the_end": "1933-11-21T00:00:00Z", 
+                            "begin_of_the_begin": "1933-11-21T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -603,6 +666,13 @@
                                 "id": "http://vocab.getty.edu/aat/300157782",
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
+                            }
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
                             }
                         ]
                     }
@@ -701,7 +771,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/16168/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1909-01-25",
+                            "end_of_the_end": "1909-01-25T00:00:00Z", 
+                            "begin_of_the_begin": "1909-01-25T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -798,7 +882,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/16356/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1907-01-04",
+                            "end_of_the_end": "1907-01-04T00:00:00Z", 
+                            "begin_of_the_begin": "1907-01-04T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -913,7 +1011,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/16410/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1914-06-01",
+                            "end_of_the_end": "1914-06-01T00:00:00Z", 
+                            "begin_of_the_begin": "1914-06-01T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -1051,7 +1163,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/17425/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1974-03-21",
+                            "end_of_the_end": "1974-03-21T00:00:00Z", 
+                            "begin_of_the_begin": "1974-03-21T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -1147,6 +1273,13 @@
                                 "id": "http://vocab.getty.edu/aat/300157782",
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
+                            }
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
                             }
                         ]
                     }
@@ -1252,6 +1385,13 @@
                                 "id": "http://vocab.getty.edu/aat/300157782",
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
+                            }
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
                             }
                         ]
                     }
@@ -1376,7 +1516,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/21137/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1906-05-01",
+                            "end_of_the_end": "1906-05-01T00:00:00Z", 
+                            "begin_of_the_begin": "1906-05-01T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -1473,7 +1627,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/21288/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1910-05-12",
+                            "end_of_the_end": "1910-05-12T00:00:00Z", 
+                            "begin_of_the_begin": "1910-05-12T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -1572,7 +1740,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/24693/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1913-01-02",
+                            "end_of_the_end": "1913-01-02T00:00:00Z", 
+                            "begin_of_the_begin": "1913-01-02T00:00:00Z"
+                        }
                     }
                 ]
             }
@@ -1677,6 +1859,13 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
                         ]
                     }
                 ]
@@ -1709,6 +1898,117 @@
                 ]
             }
         ]
+    },
+    {
+        "37383": {
+            "@context": "https://linked.art/ns/v1/linked-art.json",
+            "id": "https://data.discovernewfields.org/object/37383",
+            "type": "ManMadeObject",
+            "_label": "Oaks of Vernon",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300133025",
+                    "type": "Type",
+                    "_label": "works of art"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/thesauri/type/paintings",
+                    "type": "Type",
+                    "_label": "paintings"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/thesauri/type/oil-paintings",
+                    "type": "Type",
+                    "_label": "oil paintings"
+                }
+            ],
+            "identified_by": [
+                {
+                    "id": "https://data.discovernewfields.org/object/37383/irn",
+                    "type": "Identifier",
+                    "_label": "IMA at Newfields Collections Database Number for the Artwork",
+                    "content": 37383,
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404621",
+                            "type": "Type",
+                            "_label": "repository numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/37383/accession-number",
+                    "type": "Identifier",
+                    "_label": "IMA at Newfields Accession Number for the Artwork",
+                    "content": "89.1",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300312355",
+                            "type": "Type",
+                            "_label": "accession numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/37383/title",
+                    "type": "Name",
+                    "_label": "Primary Title for the Artwork",
+                    "content": "Oaks of Vernon",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404670",
+                            "type": "Type",
+                            "_label": "preferred terms"
+                        }
+                    ]
+                }
+            ],
+            "current_owner": {
+                "id": "http://vocab.getty.edu/ulan/500300517",
+                "type": "Group",
+                "_label": "Indianapolis Museum of Art at Newfields",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300312281",
+                        "type": "Type",
+                        "_label": "museums (institutions)"
+                    }
+                ],
+                "acquired_title_through": [
+                    {
+                        "id": "https://data.discovernewfields.org/object/37383/IMA-acquisition",
+                        "type": "Acquisition",
+                        "_label": "Acquisition of Oaks of Vernon",
+                        "classified_as": [
+                            {
+                                "id": "http://vocab.getty.edu/aat/300157782",
+                                "type": "Type",
+                                "_label": "acquisition (collections management)"
+                            }
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/37383/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1889",
+                            "end_of_the_end": "1889-01-01T00:00:00Z", 
+                            "begin_of_the_begin": "1889-12-31T00:00:00Z"
+                        }
+                    }
+                ]
+            },
+            "current_location": {
+                "id": "https://data.discovernewfields.org/thesauri/location/storage",
+                "type": "Place",
+                "_label": "IMA Storage"
+            }
+        }
     },
     {
         "41018": {
@@ -1812,7 +2112,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/41018/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1980-01-01",
+                            "end_of_the_end": "1980-01-01T00:00:00Z", 
+                            "begin_of_the_begin": "1980-01-01T00:00:00Z"
+                        }
                     }
                 ]
             }
@@ -1920,9 +2234,134 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/41019/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1980-01-01",
+                            "end_of_the_end": "1980-01-01T00:00:00Z", 
+                            "begin_of_the_begin": "1980-01-01T00:00:00Z"
+                        }
                     }
                 ]
+            }
+        }
+    },
+    {
+        "46950": {
+            "@context": "https://linked.art/ns/v1/linked-art.json",
+            "id": "https://data.discovernewfields.org/object/46950",
+            "type": "ManMadeObject",
+            "_label": "United States Flag",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300133025",
+                    "type": "Type",
+                    "_label": "works of art"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/thesauri/type/banners",
+                    "type": "Type",
+                    "_label": "banners"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/thesauri/type/flags",
+                    "type": "Type",
+                    "_label": "flags"
+                }
+            ],
+            "identified_by": [
+                {
+                    "id": "https://data.discovernewfields.org/object/46950/irn",
+                    "type": "Identifier",
+                    "_label": "IMA at Newfields Collections Database Number for the Artwork",
+                    "content": 46950,
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404621",
+                            "type": "Type",
+                            "_label": "repository numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/46950/accession-number",
+                    "type": "Identifier",
+                    "_label": "IMA at Newfields Accession Number for the Artwork",
+                    "content": "05.19",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300312355",
+                            "type": "Type",
+                            "_label": "accession numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/46950/title",
+                    "type": "Name",
+                    "_label": "Primary Title for the Artwork",
+                    "content": "United States Flag",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404670",
+                            "type": "Type",
+                            "_label": "preferred terms"
+                        }
+                    ]
+                }
+            ],
+            "current_owner": {
+                "id": "http://vocab.getty.edu/ulan/500300517",
+                "type": "Group",
+                "_label": "Indianapolis Museum of Art at Newfields",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300312281",
+                        "type": "Type",
+                        "_label": "museums (institutions)"
+                    }
+                ],
+                "acquired_title_through": [
+                    {
+                        "id": "https://data.discovernewfields.org/object/46950/IMA-acquisition",
+                        "type": "Acquisition",
+                        "_label": "Acquisition of United States Flag",
+                        "classified_as": [
+                            {
+                                "id": "http://vocab.getty.edu/aat/300157782",
+                                "type": "Type",
+                                "_label": "acquisition (collections management)"
+                            }
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/46950/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1905-12-",
+                            "end_of_the_end": "1905-12-01T00:00:00Z", 
+                            "begin_of_the_begin": "1905-12-28T00:00:00Z"
+                        }
+                    }
+                ]
+            },
+            "current_location": {
+                "id": "https://data.discovernewfields.org/thesauri/location/storage",
+                "type": "Place",
+                "_label": "IMA Storage"
             }
         }
     },
@@ -2017,7 +2456,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/47035/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1919",
+                            "end_of_the_end": "1919-01-01T00:00:00Z", 
+                            "begin_of_the_begin": "1919-12-31T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -2122,6 +2575,13 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
                         ]
                     }
                 ]
@@ -2221,6 +2681,13 @@
                                 "id": "http://vocab.getty.edu/aat/300157782",
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
+                            }
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
                             }
                         ]
                     }
@@ -2335,7 +2802,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/55312/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1980-01-01",
+                            "end_of_the_end": "1980-01-01T00:00:00Z", 
+                            "begin_of_the_begin": "1980-01-01T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -2440,7 +2921,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/64017/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "2007-04-10",
+                            "end_of_the_end": "2007-04-10T00:00:00Z", 
+                            "begin_of_the_begin": "2007-04-10T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -2552,7 +3047,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/64018/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "2007-04-10",
+                            "end_of_the_end": "2007-04-10T00:00:00Z", 
+                            "begin_of_the_begin": "2007-04-10T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -2664,7 +3173,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/64019/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "2007-04-10",
+                            "end_of_the_end": "2007-04-10T00:00:00Z", 
+                            "begin_of_the_begin": "2007-04-10T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -2855,7 +3378,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/64628/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "2009-12-17",
+                            "end_of_the_end": "2009-12-17T00:00:00Z", 
+                            "begin_of_the_begin": "2009-12-17T00:00:00Z"
+                        }
                     }
                 ]
             }
@@ -2980,7 +3517,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/67743/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "2009-12-31",
+                            "end_of_the_end": "2009-12-31T00:00:00Z", 
+                            "begin_of_the_begin": "2009-12-31T00:00:00Z"
+                        }
                     }
                 ]
             }
@@ -3144,7 +3695,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/68180/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "2009-12-17",
+                            "end_of_the_end": "2009-12-17T00:00:00Z", 
+                            "begin_of_the_begin": "2009-12-17T00:00:00Z"
+                        }
                     }
                 ]
             }
@@ -3288,7 +3853,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/68181/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "2009-12-17",
+                            "end_of_the_end": "2009-12-17T00:00:00Z", 
+                            "begin_of_the_begin": "2009-12-17T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -3439,7 +4018,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/68182/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "2009-12-17",
+                            "end_of_the_end": "2009-12-17T00:00:00Z", 
+                            "begin_of_the_begin": "2009-12-17T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -3551,7 +4144,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/68903/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "2010-09-16",
+                            "end_of_the_end": "2010-09-16T00:00:00Z", 
+                            "begin_of_the_begin": "2010-09-16T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -3661,7 +4268,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/69062/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "2009-12-31",
+                            "end_of_the_end": "2009-12-31T00:00:00Z", 
+                            "begin_of_the_begin": "2009-12-31T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -3798,7 +4419,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/69063/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "2009-12-31",
+                            "end_of_the_end": "2009-12-31T00:00:00Z", 
+                            "begin_of_the_begin": "2009-12-31T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -3930,7 +4565,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/82696/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "2013-12-12",
+                            "end_of_the_end": "2013-12-12T00:00:00Z", 
+                            "begin_of_the_begin": "2013-12-12T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -4055,7 +4704,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/85257/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "2013-12-12",
+                            "end_of_the_end": "2013-12-12T00:00:00Z", 
+                            "begin_of_the_begin": "2013-12-12T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -4184,6 +4847,13 @@
                                 "id": "http://vocab.getty.edu/aat/300157782",
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
+                            }
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
                             }
                         ]
                     }
@@ -4317,6 +4987,13 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
                         ]
                     }
                 ]
@@ -4449,6 +5126,13 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
                         ]
                     }
                 ]
@@ -4576,7 +5260,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/90817/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "2017-04-13",
+                            "end_of_the_end": "2017-04-13T00:00:00Z", 
+                            "begin_of_the_begin": "2017-04-13T00:00:00Z"
+                        }
                     }
                 ]
             }
@@ -4676,7 +5374,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/92158/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "2017-04-13",
+                            "end_of_the_end": "2017-04-13T00:00:00Z", 
+                            "begin_of_the_begin": "2017-04-13T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -4781,7 +5493,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/92159/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "2017-04-13",
+                            "end_of_the_end": "2017-04-13T00:00:00Z", 
+                            "begin_of_the_begin": "2017-04-13T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -4886,7 +5612,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/92160/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "2017-04-13",
+                            "end_of_the_end": "2017-04-13T00:00:00Z", 
+                            "begin_of_the_begin": "2017-04-13T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -4978,7 +5718,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/92384/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1913-01-02",
+                            "end_of_the_end": "1913-01-02T00:00:00Z", 
+                            "begin_of_the_begin": "1913-01-02T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -5070,7 +5824,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/92385/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1913-01-02",
+                            "end_of_the_end": "1913-01-02T00:00:00Z", 
+                            "begin_of_the_begin": "1913-01-02T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -5162,7 +5930,21 @@
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
                             }
-                        ]
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/92386/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1913-01-02",
+                            "end_of_the_end": "1913-01-02T00:00:00Z", 
+                            "begin_of_the_begin": "1913-01-02T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -5306,6 +6088,13 @@
                                 "id": "http://vocab.getty.edu/aat/300157782",
                                 "type": "Type",
                                 "_label": "acquisition (collections management)"
+                            }
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
                             }
                         ]
                     }
