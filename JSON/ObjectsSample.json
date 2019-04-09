@@ -1,4 +1,4 @@
-"objects": [
+{"objects": [
     {
         "1032": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
@@ -298,6 +298,7 @@
                         }
                     ]
                 }
+            
             ],
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
@@ -1140,6 +1141,7 @@
                         }
                     ]
                 }
+            
             ],
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
@@ -1479,7 +1481,8 @@
                             "_label": "alternate titles"
                         }
                     ]
-                },
+                }
+            ,
                 {
                     "id": "https://data.discovernewfields.org/object/21137/series-title",
                     "type": "Name",
@@ -1881,14 +1884,30 @@
                 "id": "https://data.discovernewfields.org/object/25098/title-statement",
                 "type": "LinguisticObject",
                 "_label": "Notes about the Title(s) Associated with the Work",
-                "content": "Individual titles:  16.924A: Ichikawa Ebiz^o  (Danj^ur^o VII) as Masamune Dankur^o V
-16.924B: Ichikawa Danz^o as Masamune Gorobei
-16.924C: Sawamura Tossh^o as Rai Kunitoshi",
+                "content": "Individual titles:  16.924A: Ichikawa Ebiz^o  (Danj^ur^o VII) as Masamune Dankur^o V\n16.924B: Ichikawa Danz^o as Masamune Gorobei\n16.924C: Sawamura Tossh^o as Rai Kunitoshi",
                 "classified_as": [
                     {
                         "id": "http://vocab.getty.edu/aat/300417212",
                         "type": "Type",
                         "_label": "title statements"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/25098/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "15-1/4 x 10-1/8 in. (image, each, trimmed width)\n24-1/2 x 38-1/2 in. (framed)",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
                     },
                     {
                         "id": "http://vocab.getty.edu/aat/300418049",
@@ -3341,7 +3360,6 @@
                         }
                     ]
                 },
-                ,
                 {
                     "id": "https://data.discovernewfields.org/object/64628/title",
                     "type": "Name",
@@ -3408,6 +3426,24 @@
                         "id": "http://vocab.getty.edu/aat/300417212",
                         "type": "Type",
                         "_label": "title statements"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/64628/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "Largest: 7-7/8 × 8-3/4 × 4-3/4 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
                     },
                     {
                         "id": "http://vocab.getty.edu/aat/300418049",
@@ -3554,6 +3590,24 @@
                         "_label": "brief texts"
                     }
                 ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/67743/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "A) chair: 41 x 36 x 45 in.\nB) ottoman: diam.: 22 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
             }
         ]
     },
@@ -3658,7 +3712,6 @@
                         }
                     ]
                 },
-                ,
                 {
                     "id": "https://data.discovernewfields.org/object/68180/title",
                     "type": "Name",
@@ -3816,7 +3869,6 @@
                         }
                     ]
                 },
-                ,
                 {
                     "id": "https://data.discovernewfields.org/object/68181/title",
                     "type": "Name",
@@ -3981,7 +4033,6 @@
                         }
                     ]
                 },
-                ,
                 {
                     "id": "https://data.discovernewfields.org/object/68182/title",
                     "type": "Name",
@@ -4317,6 +4368,24 @@
                         "_label": "brief texts"
                     }
                 ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/69062/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "41 x 36 x 45 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
             }
         ]
     },
@@ -4468,6 +4537,24 @@
                         "_label": "brief texts"
                     }
                 ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/69063/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "diam.: 22 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
             }
         ]
     },
@@ -4600,6 +4687,24 @@
                         "id": "http://vocab.getty.edu/aat/300417212",
                         "type": "Type",
                         "_label": "title statements"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/82696/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "Element A) 372 x 36 x 11 in.\nElement B) 98 x 357 x 10-1/4 in.\nElement C) 104 x 271 x 12 in.\nElement D) 228 x 100 x 11 in.\nElement E.1-.4) 480 x 77 x 15 in. (assembled)",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
                     },
                     {
                         "id": "http://vocab.getty.edu/aat/300418049",
@@ -4746,6 +4851,24 @@
                         "_label": "brief texts"
                     }
                 ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/85257/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "Element A) 372 x 36 x 11 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
             }
         ]
     },
@@ -4870,14 +4993,30 @@
                 "id": "https://data.discovernewfields.org/object/89367/title-statement",
                 "type": "LinguisticObject",
                 "_label": "Notes about the Title(s) Associated with the Work",
-                "content": "Individual titles:  16.924A: Ichikawa Ebiz^o  (Danj^ur^o VII) as Masamune Dankur^o V
-16.924B: Ichikawa Danz^o as Masamune Gorobei
-16.924C: Sawamura Tossh^o as Rai Kunitoshi",
+                "content": "Individual titles:  16.924A: Ichikawa Ebiz^o  (Danj^ur^o VII) as Masamune Dankur^o V\n16.924B: Ichikawa Danz^o as Masamune Gorobei\n16.924C: Sawamura Tossh^o as Rai Kunitoshi",
                 "classified_as": [
                     {
                         "id": "http://vocab.getty.edu/aat/300417212",
                         "type": "Type",
                         "_label": "title statements"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/89367/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "15-1/4 x 10-1/8 in. (image, each, trimmed width)\n24-1/2 x 38-1/2 in. (framed)",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
                     },
                     {
                         "id": "http://vocab.getty.edu/aat/300418049",
@@ -5009,14 +5148,30 @@
                 "id": "https://data.discovernewfields.org/object/89368/title-statement",
                 "type": "LinguisticObject",
                 "_label": "Notes about the Title(s) Associated with the Work",
-                "content": "Individual titles:  16.924A: Ichikawa Ebiz^o  (Danj^ur^o VII) as Masamune Dankur^o V
-16.924B: Ichikawa Danz^o as Masamune Gorobei
-16.924C: Sawamura Tossh^o as Rai Kunitoshi",
+                "content": "Individual titles:  16.924A: Ichikawa Ebiz^o  (Danj^ur^o VII) as Masamune Dankur^o V\n16.924B: Ichikawa Danz^o as Masamune Gorobei\n16.924C: Sawamura Tossh^o as Rai Kunitoshi",
                 "classified_as": [
                     {
                         "id": "http://vocab.getty.edu/aat/300417212",
                         "type": "Type",
                         "_label": "title statements"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/89368/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "15-1/4 x 10-1/8 in. (image, each, trimmed width)\n24-1/2 x 38-1/2 in. (framed)",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
                     },
                     {
                         "id": "http://vocab.getty.edu/aat/300418049",
@@ -5148,14 +5303,30 @@
                 "id": "https://data.discovernewfields.org/object/89369/title-statement",
                 "type": "LinguisticObject",
                 "_label": "Notes about the Title(s) Associated with the Work",
-                "content": "Individual titles:  16.924A: Ichikawa Ebiz^o  (Danj^ur^o VII) as Masamune Dankur^o V
-16.924B: Ichikawa Danz^o as Masamune Gorobei
-16.924C: Sawamura Tossh^o as Rai Kunitoshi",
+                "content": "Individual titles:  16.924A: Ichikawa Ebiz^o  (Danj^ur^o VII) as Masamune Dankur^o V\n16.924B: Ichikawa Danz^o as Masamune Gorobei\n16.924C: Sawamura Tossh^o as Rai Kunitoshi",
                 "classified_as": [
                     {
                         "id": "http://vocab.getty.edu/aat/300417212",
                         "type": "Type",
                         "_label": "title statements"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/89369/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "15-1/4 x 10-1/8 in. (image, each, trimmed width)\n24-1/2 x 38-1/2 in. (framed)",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
                     },
                     {
                         "id": "http://vocab.getty.edu/aat/300418049",
@@ -6052,7 +6223,6 @@
                         }
                     ]
                 },
-                ,
                 {
                     "id": "https://data.discovernewfields.org/object/93739/title",
                     "type": "Name",
@@ -6124,7 +6294,25 @@
                         "_label": "brief texts"
                     }
                 ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/93739/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "32 x 42 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
             }
         ]
     }
-]
+]}

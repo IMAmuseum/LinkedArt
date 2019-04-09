@@ -9,7 +9,7 @@
     <xsl:variable name="baseURI">https://data.discovernewfields.org/</xsl:variable>
     <xsl:variable name="crm">http://www.cidoc-crm.org/cidoc-crm/</xsl:variable>
 
-<xsl:template match="/">"objects": [
+<xsl:template match="/">{"objects": [
     <xsl:for-each select="table[@name='ecatalogue']/tuple"><xsl:sort select="atom[@name='irn']" data-type="number"/><xsl:variable name="irn"><xsl:value-of select="atom[@name='irn']"/></xsl:variable>{<!--
 Header-->
         "<xsl:value-of select="atom[@name='irn']"/>": {
@@ -33,7 +33,7 @@ Classification-->
 Identifiers-->
             "identified_by": [
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/><xsl:text>object/</xsl:text><xsl:value-of select="atom[@name='irn']"/><xsl:text>/irn</xsl:text>",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
                     "content": <xsl:value-of select="atom[@name='irn']"/>,
@@ -46,7 +46,7 @@ Identifiers-->
                     ]
                 },
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/><xsl:text>object/</xsl:text><xsl:value-of select="atom[@name='irn']"/><xsl:text>/accession-number</xsl:text>",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/accession-number",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Accession Number for the Artwork",
                     "content": "<xsl:value-of select="atom[@name='TitAccessionNo']"/>",
@@ -59,7 +59,7 @@ Identifiers-->
                     ]
                 }<xsl:if test="atom[@name='TitPreviousAccessionNo'] != ''"><xsl:choose><xsl:when test="not(contains(atom[@name='TitPreviousAccessionNo'], '|')) and atom[@name='TitPreviousAccessionNo'] != 'No TR Number'">,
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/><xsl:text>object/</xsl:text><xsl:value-of select="atom[@name='irn']"/><xsl:text>/old-accession-number/1</xsl:text>",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/old-accession-number/1",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "<xsl:value-of select="atom[@name='TitPreviousAccessionNo']"/>",
@@ -72,7 +72,7 @@ Identifiers-->
                     ]
                 }</xsl:when><xsl:when test="contains(atom[@name='TitPreviousAccessionNo'], '|')"><xsl:for-each select="tokenize(atom[@name='TitPreviousAccessionNo'],' \| ')"><xsl:if test="not(contains(., '|'))">,
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/><xsl:text>object/</xsl:text><xsl:value-of select="$irn"/><xsl:text>/old-accession-number-</xsl:text><xsl:value-of select="position()"/>",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="$irn"/>/old-accession-number-<xsl:value-of select="position()"/>",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "<xsl:value-of select="."/>",
@@ -83,11 +83,11 @@ Identifiers-->
                             "_label": "identification numbers"
                         }
                     ]
-                }</xsl:if></xsl:for-each>,
+                }</xsl:if></xsl:for-each>
                 </xsl:when><xsl:otherwise/></xsl:choose></xsl:if>,<!--
 Titles-->
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/><xsl:text>object/</xsl:text><xsl:value-of select="atom[@name='irn']"/><xsl:text>/title</xsl:text>",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/title",
                     "type": "Name",
                     "_label": "Primary Title for the Artwork",
                     "content": "<xsl:value-of select="atom[@name='TitMainTitle']"/>",
@@ -98,9 +98,9 @@ Titles-->
                             "_label": "preferred terms"
                         }
                     ]
-                }<xsl:if test="table[@name='AltTitles']">,<xsl:for-each select="table[@name='AltTitles']/tuple">
+                }<xsl:if test="table[@name='AltTitles']"><xsl:for-each select="table[@name='AltTitles']/tuple">,
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/><xsl:text>object/</xsl:text><xsl:value-of select="atom[@name='irn']"/><xsl:text>/alt-title-</xsl:text><xsl:value-of select="position()"/>",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/alt-title-<xsl:value-of select="position()"/>",
                     "type": "Name",
                     "_label": "Alternate Title for the Artwork",
                     "content": "<xsl:value-of select="atom[@name='TitAlternateTitles']"/>",
@@ -111,11 +111,11 @@ Titles-->
                             "_label": "alternate titles"
                         }
                     ]
-                }<xsl:if test="position() != last()">,</xsl:if>
+                }
             </xsl:for-each>
             </xsl:if><xsl:if test="atom[@name='TitSeriesTitle'] != ''">,
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/><xsl:text>object/</xsl:text><xsl:value-of select="atom[@name='irn']"/><xsl:text>/series-title</xsl:text>",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/series-title",
                     "type": "Name",
                     "_label": "Title of the Series of Works of which the Artwork is a Part",
                     "content": "<xsl:value-of select="atom[@name='TitSeriesTitle']"/>",
@@ -128,7 +128,7 @@ Titles-->
                     ]
                 }</xsl:if><xsl:if test="atom[@name='TitCollectionTitle'] != ''">,
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/><xsl:text>object/</xsl:text><xsl:value-of select="atom[@name='irn']"/><xsl:text>/portfolio-title</xsl:text>",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/portfolio-title",
                     "type": "Name",
                     "_label": "Title of the Portfolio of which the Artwork is a Part",
                     "content": "<xsl:value-of select="atom[@name='TitSeriesTitle']"/>",
@@ -156,7 +156,7 @@ Owner-->
 Acquisition-->
                 "acquired_title_through": [
                     {
-                        "id": "<xsl:copy-of select="$baseURI"/><xsl:text>object/</xsl:text><xsl:value-of select="atom[@name='irn']"/><xsl:text>/IMA-acquisition</xsl:text>",
+                        "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/IMA-acquisition",
                         "type": "Acquisition",
                         "_label": "Acquisition of <xsl:value-of select="atom[@name='TitMainTitle']"/>",
                         "classified_as": [
@@ -174,7 +174,7 @@ Acquisition-->
                             }
                         ]<xsl:if test="atom[@name='TitAccessionDate'] != ''">,
                         "timespan": {
-                            "id": "<xsl:copy-of select="$baseURI"/><xsl:text>object/</xsl:text><xsl:value-of select="atom[@name='irn']"/>/IMA-acquisition-timespan", 
+                            "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "<xsl:value-of select="atom[@name='TitAccessionDate']"/>",<xsl:choose><xsl:when test="string-length(atom[@name='TitAccessionDate']) = 4">
                             "begin_of_the_begin": "<xsl:value-of select="atom[@name='TitAccessionDate']"/>-01-01T00:00:00Z", 
@@ -249,7 +249,7 @@ Linquistic Objects--><xsl:if test="atom[@name='TitTitleNotes'] != ''">,
                 "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/title-statement",
                 "type": "LinguisticObject",
                 "_label": "Notes about the Title(s) Associated with the Work",
-                "content": "<xsl:value-of select="atom[@name='TitTitleNotes']"/>",
+                "content": "<xsl:value-of select="replace(atom[@name='TitTitleNotes'], '\n', '\\n')"/>",
                 "classified_as": [
                     {
                         "id": "http://vocab.getty.edu/aat/300417212",
@@ -262,10 +262,28 @@ Linquistic Objects--><xsl:if test="atom[@name='TitTitleNotes'] != ''">,
                         "_label": "brief texts"
                     }
                 ]
-            }
+            }<xsl:if test="atom[@name='PhyConvertedDims'] != ''">,
+            {
+                "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "<xsl:value-of select="replace(atom[@name='PhyConvertedDims'], '\n', '\\n')"/>",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }</xsl:if>
         ]</xsl:if>
     }<xsl:if test="position() != last()">,
     </xsl:if>
         </xsl:for-each>
-]</xsl:template>
+]}</xsl:template>
 </xsl:stylesheet>
