@@ -242,9 +242,27 @@ Current Location-->
                 "type": "Place",
                 "_label": "IMA Storage"
             }</xsl:otherwise></xsl:choose></xsl:if><xsl:if test="tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel2'] = 'see related parts'"></xsl:if>
-        }<!--
-Linquistic Objects--><xsl:if test="atom[@name='TitTitleNotes'] != ''">,
-        "referred_to_by": [
+        }<xsl:if test="atom[@name='SumCreditLine'] != '' or atom[@name='TitTitleNotes'] != '' or atom[@name='PhyConvertedDims'] != ''">,<!--
+Linquistic Objects-->
+        "referred_to_by": [<xsl:if test="atom[@name='SumCreditLine'] != ''">
+            {
+                "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "<xsl:value-of select="replace(atom[@name='SumCreditLine'], '\n', '\\n')"/>",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }</xsl:if><xsl:if test="atom[@name='TitTitleNotes'] != ''">,
             {
                 "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/title-statement",
                 "type": "LinguisticObject",
@@ -262,7 +280,7 @@ Linquistic Objects--><xsl:if test="atom[@name='TitTitleNotes'] != ''">,
                         "_label": "brief texts"
                     }
                 ]
-            }<xsl:if test="atom[@name='PhyConvertedDims'] != ''">,
+            }</xsl:if><xsl:if test="atom[@name='PhyConvertedDims'] != ''">,
             {
                 "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/dimension-statement",
                 "type": "LinguisticObject",

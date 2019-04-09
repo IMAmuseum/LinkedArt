@@ -96,7 +96,45 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/1032/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of Mr. and Mrs. Eli Lilly",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/1032/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "17-1/4 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "1065": {
@@ -207,7 +245,45 @@
                 "type": "Place",
                 "_label": "Westerley"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/1065/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of the Artist's mother, Mrs. E. J. Fiscus",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/1065/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "27-1/4 x 16-1/4 in. (canvas)\n34-3/4 x 24-3/4 x 4 in. (framed)",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "3521": {
@@ -345,7 +421,45 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/3521/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of Hugh McK. Landon",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/3521/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "22 x 24 in. (canvas)\n29 x 31 x 2-3/4 in. (framed)",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "8407": {
@@ -484,7 +598,45 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/8407/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of Mrs. J. Irwin Miller",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/8407/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "70 x 72-1/2 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "14365": {
@@ -585,7 +737,45 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/14365/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "The Eliza M. and Sarah L. Niblack Collection",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/14365/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "22 x 23-1/2 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "14617": {
@@ -684,7 +874,45 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/14617/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of the Children of J.K. Lilly, Jr.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/14617/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "39-3/16 x 33-1/4 in.\n45-1/8 x 39 in. (framed)",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "16168": {
@@ -795,7 +1023,45 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/16168/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of Mrs. Anna J. Brownell and Miss Frances J. Brownell",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/16168/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "4-3/8 x 5-1/2 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "16356": {
@@ -906,7 +1172,45 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/16356/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "John Herron Fund",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/16356/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "8 x 9-1/16 in. (image)\n11-1/4 x 12-1/4 in. (sheet)",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "16410": {
@@ -1035,7 +1339,45 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/16410/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of Hugh McKennan Landon",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/16410/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "26 x 3/8 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "17425": {
@@ -1188,7 +1530,45 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/17425/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Robert G. Wolcott Fund",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/17425/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "76-1/2 x 75-3/4 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "17577": {
@@ -1292,7 +1672,45 @@
                 "type": "Place",
                 "_label": "Westerley"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/17577/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of Dr. Gilbert Erlechman",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/17577/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "32-1/8 x 26-1/4 in. (canvas)\n38-3/4 x 33 x 2-1/2 in. (framed)",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "20419": {
@@ -1404,7 +1822,45 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/20419/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of the Friends of the Indianapolis Museum of Art in memory of Henry F. DeBoest.  Restoration was made possible by Patricia J. and James E. LaCrosse.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/20419/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "144 x 144 x 72 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "21137": {
@@ -1542,7 +1998,45 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/21137/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "John Herron Fund",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/21137/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "9 x 13-15/16 in. (image, sheet trimmed to image on all sides)",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "21288": {
@@ -1660,7 +2154,45 @@
                     }
                 ]
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/21288/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of the Artist",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/21288/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "78 x 38 in.\n85-1/2 x 45-1/8 in. (framed)",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "24693": {
@@ -1761,7 +2293,45 @@
                     }
                 ]
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/24693/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "John Herron Fund",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/24693/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "A) 8-1/2 x 9-3/4 x 7-3/4 in. \nB) 4-1/8 x 4-1/2 x 5-1/2 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "25098": {
@@ -1880,6 +2450,24 @@
             }
         },
         "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/25098/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of Eliza M. Niblack",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
             {
                 "id": "https://data.discovernewfields.org/object/25098/title-statement",
                 "type": "LinguisticObject",
@@ -2027,7 +2615,45 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/37383/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "John Herron Fund",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/37383/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "30 x 45-1/4 in. (canvas)\n36-3/4 x 51-3/4 x 3-1/4 in. (framed)",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "41018": {
@@ -2149,7 +2775,27 @@
                     }
                 ]
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/41018/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Bequest of Kurt F. Pantzer",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "41019": {
@@ -2271,7 +2917,27 @@
                     }
                 ]
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/41019/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Bequest of Kurt F. Pantzer",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "46950": {
@@ -2382,7 +3048,45 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/46950/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of Mrs. Eli Lilly",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/46950/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "No measurement details.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "47035": {
@@ -2498,7 +3202,45 @@
                 "type": "Place",
                 "_label": "On Loan"
                 }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/47035/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of Mary E. Nicholson",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/47035/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "87 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "51330": {
@@ -2610,7 +3352,45 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/51330/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of Eliza M. Niblack",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/51330/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "13-3/16 x 8-9/16 in. (image)\n13-11/16 x 9-3/8 in. (sheet)",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "52481": {
@@ -2717,7 +3497,45 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/52481/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of Charles C. Kryter",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/52481/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "8-3/4 x 12 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "55312": {
@@ -2844,7 +3662,27 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/55312/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Bequest of Kurt F. Pantzer",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "64017": {
@@ -2970,7 +3808,45 @@
                     }
                 ]
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/64017/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "General Memorial Art Fund",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/64017/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "1/2 x 2 (diam.) in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "64018": {
@@ -3096,7 +3972,45 @@
                     }
                 ]
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/64018/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "General Memorial Art Fund",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/64018/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "1/2 x 2 (diam.) in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "64019": {
@@ -3222,7 +4136,45 @@
                     }
                 ]
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/64019/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "General Memorial Art Fund",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/64019/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "1/2 x 2 (diam.) in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "64628": {
@@ -3417,6 +4369,24 @@
         },
         "referred_to_by": [
             {
+                "id": "https://data.discovernewfields.org/object/64628/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Deaccessioned Decorative/Design Arts Fund",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
                 "id": "https://data.discovernewfields.org/object/64628/title-statement",
                 "type": "LinguisticObject",
                 "_label": "Notes about the Title(s) Associated with the Work",
@@ -3573,6 +4543,24 @@
             }
         },
         "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/67743/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of Dr. Michael Sze",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
             {
                 "id": "https://data.discovernewfields.org/object/67743/title-statement",
                 "type": "LinguisticObject",
@@ -3766,7 +4754,45 @@
                     }
                 ]
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/68180/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Deaccessioned Decorative/Design Arts Fund",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/68180/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "7-1/2 x 5 x 3-1/2 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "68181": {
@@ -3935,7 +4961,45 @@
                     }
                 ]
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/68181/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Deaccessioned Decorative/Design Arts Fund",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/68181/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "7-1/2 x 5 x 3-1/2 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "68182": {
@@ -4099,7 +5163,45 @@
                     }
                 ]
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/68182/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Deaccessioned Decorative/Design Arts Fund",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/68182/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "No measurement details.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "68903": {
@@ -4218,7 +5320,45 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/68903/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Commissioned by the Indianapolis Museum of Art, purchased with funds provided by the Griffith Foundation Gift, in memory of Melvin Simon",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/68903/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "various dimensions",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "69062": {
@@ -4351,6 +5491,24 @@
             }
         },
         "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/69062/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of Dr. Michael Sze",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
             {
                 "id": "https://data.discovernewfields.org/object/69062/title-statement",
                 "type": "LinguisticObject",
@@ -4521,6 +5679,24 @@
         },
         "referred_to_by": [
             {
+                "id": "https://data.discovernewfields.org/object/69063/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of Dr. Michael Sze",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
                 "id": "https://data.discovernewfields.org/object/69063/title-statement",
                 "type": "LinguisticObject",
                 "_label": "Notes about the Title(s) Associated with the Work",
@@ -4677,6 +5853,24 @@
             }
         },
         "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/82696/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Robert L. and Marjorie J. Mann Fund, Partial Gift of the Roy Lichtenstein Foundation",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
             {
                 "id": "https://data.discovernewfields.org/object/82696/title-statement",
                 "type": "LinguisticObject",
@@ -4835,6 +6029,24 @@
         },
         "referred_to_by": [
             {
+                "id": "https://data.discovernewfields.org/object/85257/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Robert L. and Marjorie J. Mann Fund, Partial Gift of the Roy Lichtenstein Foundation",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
                 "id": "https://data.discovernewfields.org/object/85257/title-statement",
                 "type": "LinguisticObject",
                 "_label": "Notes about the Title(s) Associated with the Work",
@@ -4989,6 +6201,24 @@
             }
         },
         "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/89367/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of Eliza M. Niblack",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
             {
                 "id": "https://data.discovernewfields.org/object/89367/title-statement",
                 "type": "LinguisticObject",
@@ -5145,6 +6375,24 @@
         },
         "referred_to_by": [
             {
+                "id": "https://data.discovernewfields.org/object/89368/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of Eliza M. Niblack",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
                 "id": "https://data.discovernewfields.org/object/89368/title-statement",
                 "type": "LinguisticObject",
                 "_label": "Notes about the Title(s) Associated with the Work",
@@ -5300,6 +6548,24 @@
         },
         "referred_to_by": [
             {
+                "id": "https://data.discovernewfields.org/object/89369/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of Eliza M. Niblack",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
                 "id": "https://data.discovernewfields.org/object/89369/title-statement",
                 "type": "LinguisticObject",
                 "_label": "Notes about the Title(s) Associated with the Work",
@@ -5449,7 +6715,45 @@
                     }
                 ]
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/90817/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of Jewel Stern in honor of Shelley Selim",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/90817/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "A) 5-3/4 x 3-3/4 x 3-1/2 in.\nB) 4-1/2 x 3-3/4 x 3-1/4 in.\nC) 3-1/4 x 3-1/2 x 3-3/8 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "92158": {
@@ -5568,7 +6872,45 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/92158/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of Jewel Stern in honor of Shelley Selim",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/92158/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "A) 5-3/4 x 3-3/4 x 3-1/2 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "92159": {
@@ -5687,7 +7029,45 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/92159/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of Jewel Stern in honor of Shelley Selim",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/92159/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "B) 4-1/2 x 3-3/4 x 3-1/4 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "92160": {
@@ -5806,7 +7186,45 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/92160/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of Jewel Stern in honor of Shelley Selim",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/92160/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "C) 3-1/4 x 3-1/2 x 3-3/8 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "92384": {
@@ -5912,7 +7330,45 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/92384/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "John Herron Fund",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/92384/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "A) 8-1/2 x 9-3/4 x 7-3/4 in. \nB) 4-1/8 x 4-1/2 x 5-1/2 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "92385": {
@@ -6018,7 +7474,45 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/92385/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "John Herron Fund",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/92385/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "B) 4-1/8 x 4-1/2 x 5-1/2 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "92386": {
@@ -6124,7 +7618,45 @@
                 "type": "Place",
                 "_label": "IMA Storage"
             }
-        }
+        },
+        "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/92386/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "John Herron Fund",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
+            {
+                "id": "https://data.discovernewfields.org/object/92386/dimension-statement",
+                "type": "LinguisticObject",
+                "_label": "Notes about the Dimensions of the Work",
+                "content": "B) 4-1/8 x 4-1/2 x 5-1/2 in.",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300266036",
+                        "type": "Type",
+                        "_label": "dimensions"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            }
+        ]
     },
     {
         "93739": {
@@ -6277,6 +7809,24 @@
             }
         },
         "referred_to_by": [
+            {
+                "id": "https://data.discovernewfields.org/object/93739/credit-line",
+                "type": "LinguisticObject",
+                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                "content": "Gift of Mr. and Mrs. Gus Mascari",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300026687",
+                        "type": "Type",
+                        "_label": "acknowledgments"
+                    },
+                    {
+                        "id": "http://vocab.getty.edu/aat/300418049",
+                        "type": "Type",
+                        "_label": "brief texts"
+                    }
+                ]
+            },
             {
                 "id": "https://data.discovernewfields.org/object/93739/title-statement",
                 "type": "LinguisticObject",
