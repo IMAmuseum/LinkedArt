@@ -196,8 +196,8 @@
                             "id": "https://data.discovernewfields.org/object/1065/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "1914-02-19",
-                            "end_of_the_end": "1914-02-19T00:00:00Z", 
-                            "begin_of_the_begin": "1914-02-19T00:00:00Z"
+                            "begin_of_the_begin": "1914-02-19T00:00:00Z", 
+                            "end_of_the_end": "1914-02-19T00:00:00Z"
                         }
                     }
                 ]
@@ -333,8 +333,8 @@
                             "id": "https://data.discovernewfields.org/object/3521/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "1942-02-17",
-                            "end_of_the_end": "1942-02-17T00:00:00Z", 
-                            "begin_of_the_begin": "1942-02-17T00:00:00Z"
+                            "begin_of_the_begin": "1942-02-17T00:00:00Z", 
+                            "end_of_the_end": "1942-02-17T00:00:00Z"
                         }
                     }
                 ]
@@ -472,8 +472,8 @@
                             "id": "https://data.discovernewfields.org/object/8407/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "1984-09-20",
-                            "end_of_the_end": "1984-09-20T00:00:00Z", 
-                            "begin_of_the_begin": "1984-09-20T00:00:00Z"
+                            "begin_of_the_begin": "1984-09-20T00:00:00Z", 
+                            "end_of_the_end": "1984-09-20T00:00:00Z"
                         }
                     }
                 ]
@@ -573,8 +573,8 @@
                             "id": "https://data.discovernewfields.org/object/14365/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "1933-11-21",
-                            "end_of_the_end": "1933-11-21T00:00:00Z", 
-                            "begin_of_the_begin": "1933-11-21T00:00:00Z"
+                            "begin_of_the_begin": "1933-11-21T00:00:00Z", 
+                            "end_of_the_end": "1933-11-21T00:00:00Z"
                         }
                     }
                 ]
@@ -783,8 +783,8 @@
                             "id": "https://data.discovernewfields.org/object/16168/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "1909-01-25",
-                            "end_of_the_end": "1909-01-25T00:00:00Z", 
-                            "begin_of_the_begin": "1909-01-25T00:00:00Z"
+                            "begin_of_the_begin": "1909-01-25T00:00:00Z", 
+                            "end_of_the_end": "1909-01-25T00:00:00Z"
                         }
                     }
                 ]
@@ -894,8 +894,8 @@
                             "id": "https://data.discovernewfields.org/object/16356/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "1907-01-04",
-                            "end_of_the_end": "1907-01-04T00:00:00Z", 
-                            "begin_of_the_begin": "1907-01-04T00:00:00Z"
+                            "begin_of_the_begin": "1907-01-04T00:00:00Z", 
+                            "end_of_the_end": "1907-01-04T00:00:00Z"
                         }
                     }
                 ]
@@ -1023,8 +1023,8 @@
                             "id": "https://data.discovernewfields.org/object/16410/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "1914-06-01",
-                            "end_of_the_end": "1914-06-01T00:00:00Z", 
-                            "begin_of_the_begin": "1914-06-01T00:00:00Z"
+                            "begin_of_the_begin": "1914-06-01T00:00:00Z", 
+                            "end_of_the_end": "1914-06-01T00:00:00Z"
                         }
                     }
                 ]
@@ -1175,8 +1175,8 @@
                             "id": "https://data.discovernewfields.org/object/17425/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "1974-03-21",
-                            "end_of_the_end": "1974-03-21T00:00:00Z", 
-                            "begin_of_the_begin": "1974-03-21T00:00:00Z"
+                            "begin_of_the_begin": "1974-03-21T00:00:00Z", 
+                            "end_of_the_end": "1974-03-21T00:00:00Z"
                         }
                     }
                 ]
@@ -1528,8 +1528,8 @@
                             "id": "https://data.discovernewfields.org/object/21137/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "1906-05-01",
-                            "end_of_the_end": "1906-05-01T00:00:00Z", 
-                            "begin_of_the_begin": "1906-05-01T00:00:00Z"
+                            "begin_of_the_begin": "1906-05-01T00:00:00Z", 
+                            "end_of_the_end": "1906-05-01T00:00:00Z"
                         }
                     }
                 ]
@@ -1639,8 +1639,8 @@
                             "id": "https://data.discovernewfields.org/object/21288/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "1910-05-12",
-                            "end_of_the_end": "1910-05-12T00:00:00Z", 
-                            "begin_of_the_begin": "1910-05-12T00:00:00Z"
+                            "begin_of_the_begin": "1910-05-12T00:00:00Z", 
+                            "end_of_the_end": "1910-05-12T00:00:00Z"
                         }
                     }
                 ]
@@ -1752,8 +1752,8 @@
                             "id": "https://data.discovernewfields.org/object/24693/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "1913-01-02",
-                            "end_of_the_end": "1913-01-02T00:00:00Z", 
-                            "begin_of_the_begin": "1913-01-02T00:00:00Z"
+                            "begin_of_the_begin": "1913-01-02T00:00:00Z", 
+                            "end_of_the_end": "1913-01-02T00:00:00Z"
                         }
                     }
                 ]
@@ -1997,8 +1997,8 @@
                             "id": "https://data.discovernewfields.org/object/37383/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "1889",
-                            "end_of_the_end": "1889-01-01T00:00:00Z", 
-                            "begin_of_the_begin": "1889-12-31T00:00:00Z"
+                            "begin_of_the_begin": "1889-01-01T00:00:00Z", 
+                            "end_of_the_end": "1889-12-31T00:00:00Z"
                         }
                     }
                 ]
@@ -2124,8 +2124,8 @@
                             "id": "https://data.discovernewfields.org/object/41018/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "1980-01-01",
-                            "end_of_the_end": "1980-01-01T00:00:00Z", 
-                            "begin_of_the_begin": "1980-01-01T00:00:00Z"
+                            "begin_of_the_begin": "1980-01-01T00:00:00Z", 
+                            "end_of_the_end": "1980-01-01T00:00:00Z"
                         }
                     }
                 ]
@@ -2246,8 +2246,8 @@
                             "id": "https://data.discovernewfields.org/object/41019/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "1980-01-01",
-                            "end_of_the_end": "1980-01-01T00:00:00Z", 
-                            "begin_of_the_begin": "1980-01-01T00:00:00Z"
+                            "begin_of_the_begin": "1980-01-01T00:00:00Z", 
+                            "end_of_the_end": "1980-01-01T00:00:00Z"
                         }
                     }
                 ]
@@ -2352,8 +2352,8 @@
                             "id": "https://data.discovernewfields.org/object/46950/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "1905-12-",
-                            "end_of_the_end": "1905-12-01T00:00:00Z", 
-                            "begin_of_the_begin": "1905-12-28T00:00:00Z"
+                            "begin_of_the_begin": "1905-12-01T00:00:00Z", 
+                            "end_of_the_end": "1905-12-28T00:00:00Z"
                         }
                     }
                 ]
@@ -2468,8 +2468,8 @@
                             "id": "https://data.discovernewfields.org/object/47035/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "1919",
-                            "end_of_the_end": "1919-01-01T00:00:00Z", 
-                            "begin_of_the_begin": "1919-12-31T00:00:00Z"
+                            "begin_of_the_begin": "1919-01-01T00:00:00Z", 
+                            "end_of_the_end": "1919-12-31T00:00:00Z"
                         }
                     }
                 ]
@@ -2814,8 +2814,8 @@
                             "id": "https://data.discovernewfields.org/object/55312/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "1980-01-01",
-                            "end_of_the_end": "1980-01-01T00:00:00Z", 
-                            "begin_of_the_begin": "1980-01-01T00:00:00Z"
+                            "begin_of_the_begin": "1980-01-01T00:00:00Z", 
+                            "end_of_the_end": "1980-01-01T00:00:00Z"
                         }
                     }
                 ]
@@ -2933,8 +2933,8 @@
                             "id": "https://data.discovernewfields.org/object/64017/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "2007-04-10",
-                            "end_of_the_end": "2007-04-10T00:00:00Z", 
-                            "begin_of_the_begin": "2007-04-10T00:00:00Z"
+                            "begin_of_the_begin": "2007-04-10T00:00:00Z", 
+                            "end_of_the_end": "2007-04-10T00:00:00Z"
                         }
                     }
                 ]
@@ -3059,8 +3059,8 @@
                             "id": "https://data.discovernewfields.org/object/64018/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "2007-04-10",
-                            "end_of_the_end": "2007-04-10T00:00:00Z", 
-                            "begin_of_the_begin": "2007-04-10T00:00:00Z"
+                            "begin_of_the_begin": "2007-04-10T00:00:00Z", 
+                            "end_of_the_end": "2007-04-10T00:00:00Z"
                         }
                     }
                 ]
@@ -3185,8 +3185,8 @@
                             "id": "https://data.discovernewfields.org/object/64019/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "2007-04-10",
-                            "end_of_the_end": "2007-04-10T00:00:00Z", 
-                            "begin_of_the_begin": "2007-04-10T00:00:00Z"
+                            "begin_of_the_begin": "2007-04-10T00:00:00Z", 
+                            "end_of_the_end": "2007-04-10T00:00:00Z"
                         }
                     }
                 ]
@@ -3390,8 +3390,8 @@
                             "id": "https://data.discovernewfields.org/object/64628/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "2009-12-17",
-                            "end_of_the_end": "2009-12-17T00:00:00Z", 
-                            "begin_of_the_begin": "2009-12-17T00:00:00Z"
+                            "begin_of_the_begin": "2009-12-17T00:00:00Z", 
+                            "end_of_the_end": "2009-12-17T00:00:00Z"
                         }
                     }
                 ]
@@ -3529,8 +3529,8 @@
                             "id": "https://data.discovernewfields.org/object/67743/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "2009-12-31",
-                            "end_of_the_end": "2009-12-31T00:00:00Z", 
-                            "begin_of_the_begin": "2009-12-31T00:00:00Z"
+                            "begin_of_the_begin": "2009-12-31T00:00:00Z", 
+                            "end_of_the_end": "2009-12-31T00:00:00Z"
                         }
                     }
                 ]
@@ -3707,8 +3707,8 @@
                             "id": "https://data.discovernewfields.org/object/68180/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "2009-12-17",
-                            "end_of_the_end": "2009-12-17T00:00:00Z", 
-                            "begin_of_the_begin": "2009-12-17T00:00:00Z"
+                            "begin_of_the_begin": "2009-12-17T00:00:00Z", 
+                            "end_of_the_end": "2009-12-17T00:00:00Z"
                         }
                     }
                 ]
@@ -3865,8 +3865,8 @@
                             "id": "https://data.discovernewfields.org/object/68181/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "2009-12-17",
-                            "end_of_the_end": "2009-12-17T00:00:00Z", 
-                            "begin_of_the_begin": "2009-12-17T00:00:00Z"
+                            "begin_of_the_begin": "2009-12-17T00:00:00Z", 
+                            "end_of_the_end": "2009-12-17T00:00:00Z"
                         }
                     }
                 ]
@@ -4030,8 +4030,8 @@
                             "id": "https://data.discovernewfields.org/object/68182/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "2009-12-17",
-                            "end_of_the_end": "2009-12-17T00:00:00Z", 
-                            "begin_of_the_begin": "2009-12-17T00:00:00Z"
+                            "begin_of_the_begin": "2009-12-17T00:00:00Z", 
+                            "end_of_the_end": "2009-12-17T00:00:00Z"
                         }
                     }
                 ]
@@ -4156,8 +4156,8 @@
                             "id": "https://data.discovernewfields.org/object/68903/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "2010-09-16",
-                            "end_of_the_end": "2010-09-16T00:00:00Z", 
-                            "begin_of_the_begin": "2010-09-16T00:00:00Z"
+                            "begin_of_the_begin": "2010-09-16T00:00:00Z", 
+                            "end_of_the_end": "2010-09-16T00:00:00Z"
                         }
                     }
                 ]
@@ -4280,8 +4280,8 @@
                             "id": "https://data.discovernewfields.org/object/69062/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "2009-12-31",
-                            "end_of_the_end": "2009-12-31T00:00:00Z", 
-                            "begin_of_the_begin": "2009-12-31T00:00:00Z"
+                            "begin_of_the_begin": "2009-12-31T00:00:00Z", 
+                            "end_of_the_end": "2009-12-31T00:00:00Z"
                         }
                     }
                 ]
@@ -4431,8 +4431,8 @@
                             "id": "https://data.discovernewfields.org/object/69063/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "2009-12-31",
-                            "end_of_the_end": "2009-12-31T00:00:00Z", 
-                            "begin_of_the_begin": "2009-12-31T00:00:00Z"
+                            "begin_of_the_begin": "2009-12-31T00:00:00Z", 
+                            "end_of_the_end": "2009-12-31T00:00:00Z"
                         }
                     }
                 ]
@@ -4577,8 +4577,8 @@
                             "id": "https://data.discovernewfields.org/object/82696/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "2013-12-12",
-                            "end_of_the_end": "2013-12-12T00:00:00Z", 
-                            "begin_of_the_begin": "2013-12-12T00:00:00Z"
+                            "begin_of_the_begin": "2013-12-12T00:00:00Z", 
+                            "end_of_the_end": "2013-12-12T00:00:00Z"
                         }
                     }
                 ]
@@ -4716,8 +4716,8 @@
                             "id": "https://data.discovernewfields.org/object/85257/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "2013-12-12",
-                            "end_of_the_end": "2013-12-12T00:00:00Z", 
-                            "begin_of_the_begin": "2013-12-12T00:00:00Z"
+                            "begin_of_the_begin": "2013-12-12T00:00:00Z", 
+                            "end_of_the_end": "2013-12-12T00:00:00Z"
                         }
                     }
                 ]
@@ -5272,8 +5272,8 @@
                             "id": "https://data.discovernewfields.org/object/90817/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "2017-04-13",
-                            "end_of_the_end": "2017-04-13T00:00:00Z", 
-                            "begin_of_the_begin": "2017-04-13T00:00:00Z"
+                            "begin_of_the_begin": "2017-04-13T00:00:00Z", 
+                            "end_of_the_end": "2017-04-13T00:00:00Z"
                         }
                     }
                 ]
@@ -5386,8 +5386,8 @@
                             "id": "https://data.discovernewfields.org/object/92158/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "2017-04-13",
-                            "end_of_the_end": "2017-04-13T00:00:00Z", 
-                            "begin_of_the_begin": "2017-04-13T00:00:00Z"
+                            "begin_of_the_begin": "2017-04-13T00:00:00Z", 
+                            "end_of_the_end": "2017-04-13T00:00:00Z"
                         }
                     }
                 ]
@@ -5505,8 +5505,8 @@
                             "id": "https://data.discovernewfields.org/object/92159/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "2017-04-13",
-                            "end_of_the_end": "2017-04-13T00:00:00Z", 
-                            "begin_of_the_begin": "2017-04-13T00:00:00Z"
+                            "begin_of_the_begin": "2017-04-13T00:00:00Z", 
+                            "end_of_the_end": "2017-04-13T00:00:00Z"
                         }
                     }
                 ]
@@ -5624,8 +5624,8 @@
                             "id": "https://data.discovernewfields.org/object/92160/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "2017-04-13",
-                            "end_of_the_end": "2017-04-13T00:00:00Z", 
-                            "begin_of_the_begin": "2017-04-13T00:00:00Z"
+                            "begin_of_the_begin": "2017-04-13T00:00:00Z", 
+                            "end_of_the_end": "2017-04-13T00:00:00Z"
                         }
                     }
                 ]
@@ -5730,8 +5730,8 @@
                             "id": "https://data.discovernewfields.org/object/92384/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "1913-01-02",
-                            "end_of_the_end": "1913-01-02T00:00:00Z", 
-                            "begin_of_the_begin": "1913-01-02T00:00:00Z"
+                            "begin_of_the_begin": "1913-01-02T00:00:00Z", 
+                            "end_of_the_end": "1913-01-02T00:00:00Z"
                         }
                     }
                 ]
@@ -5836,8 +5836,8 @@
                             "id": "https://data.discovernewfields.org/object/92385/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "1913-01-02",
-                            "end_of_the_end": "1913-01-02T00:00:00Z", 
-                            "begin_of_the_begin": "1913-01-02T00:00:00Z"
+                            "begin_of_the_begin": "1913-01-02T00:00:00Z", 
+                            "end_of_the_end": "1913-01-02T00:00:00Z"
                         }
                     }
                 ]
@@ -5942,8 +5942,8 @@
                             "id": "https://data.discovernewfields.org/object/92386/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "1913-01-02",
-                            "end_of_the_end": "1913-01-02T00:00:00Z", 
-                            "begin_of_the_begin": "1913-01-02T00:00:00Z"
+                            "begin_of_the_begin": "1913-01-02T00:00:00Z", 
+                            "end_of_the_end": "1913-01-02T00:00:00Z"
                         }
                     }
                 ]
