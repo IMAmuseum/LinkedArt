@@ -11,12 +11,14 @@
 
 <xsl:template match="/">{"objects": [
     <xsl:for-each select="table[@name='ecatalogue']/tuple"><xsl:sort select="atom[@name='irn']" data-type="number"/><xsl:variable name="irn"><xsl:value-of select="atom[@name='irn']"/></xsl:variable>{<!--
+        
 Header-->
         "<xsl:value-of select="atom[@name='irn']"/>": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>",
             "type": "ManMadeObject",
-            "_label": "<xsl:value-of select="atom[@name='TitMainTitle']"/>",<!--
+            "_label": "<xsl:value-of select="replace(atom[@name='TitMainTitle'], '&quot;', '\\&quot;')"/>",<!--
+                
 Classification-->
             "classified_as": [
                 {
@@ -30,6 +32,7 @@ Classification-->
                     "_label": "<xsl:value-of select="atom[@name='PhyMediaCategory']"/>"
                 }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each></xsl:if>
             ],<!--
+                
 Identifiers-->
             "identified_by": [
                 {
@@ -85,6 +88,7 @@ Identifiers-->
                     ]
                 }</xsl:if></xsl:for-each>
                 </xsl:when><xsl:otherwise/></xsl:choose></xsl:if>,<!--
+                    
 Titles-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/title",
@@ -141,6 +145,7 @@ Titles-->
                     ]
                 }</xsl:if>
             ],<!--
+                
 Owner-->
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
@@ -153,6 +158,7 @@ Owner-->
                         "_label": "museums (institutions)"
                     }
                 ],<!--
+                    
 Acquisition-->
                 "acquired_title_through": [
                     {
@@ -186,6 +192,7 @@ Acquisition-->
                         }</xsl:if>
                     }
                 ]<!--
+                    
 Current Location-->
             }<xsl:if test="tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel2'] != 'see related parts'"><xsl:choose><xsl:when test="tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel1'] = 'On Loan'">,
             "current_location": {
@@ -241,65 +248,84 @@ Current Location-->
                 "id": "<xsl:copy-of select="$baseURI"/>thesauri/location/storage",
                 "type": "Place",
                 "_label": "IMA Storage"
-            }</xsl:otherwise></xsl:choose></xsl:if><xsl:if test="tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel2'] = 'see related parts'"></xsl:if>
-        }<xsl:if test="atom[@name='SumCreditLine'] != '' or atom[@name='TitTitleNotes'] != '' or atom[@name='PhyConvertedDims'] != ''">,<!--
+            }</xsl:otherwise></xsl:choose></xsl:if><xsl:if test="tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel2'] = 'see related parts'"></xsl:if><xsl:if test="atom[@name='SumCreditLine'] != '' or atom[@name='TitTitleNotes'] != '' or atom[@name='PhyConvertedDims'] != '' or atom[@name='PhyMediumAndSupport'] != ''">,<!--
+            
 Linquistic Objects-->
-        "referred_to_by": [<xsl:if test="atom[@name='SumCreditLine'] != ''">
-            {
-                "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/credit-line",
-                "type": "LinguisticObject",
-                "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
-                "content": "<xsl:value-of select="replace(atom[@name='SumCreditLine'], '\n', '\\n')"/>",
-                "classified_as": [
-                    {
-                        "id": "http://vocab.getty.edu/aat/300026687",
-                        "type": "Type",
-                        "_label": "acknowledgments"
-                    },
-                    {
-                        "id": "http://vocab.getty.edu/aat/300418049",
-                        "type": "Type",
-                        "_label": "brief texts"
-                    }
-                ]
-            }</xsl:if><xsl:if test="atom[@name='TitTitleNotes'] != ''">,
-            {
-                "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/title-statement",
-                "type": "LinguisticObject",
-                "_label": "Notes about the Title(s) Associated with the Work",
-                "content": "<xsl:value-of select="replace(atom[@name='TitTitleNotes'], '\n', '\\n')"/>",
-                "classified_as": [
-                    {
-                        "id": "http://vocab.getty.edu/aat/300417212",
-                        "type": "Type",
-                        "_label": "title statements"
-                    },
-                    {
-                        "id": "http://vocab.getty.edu/aat/300418049",
-                        "type": "Type",
-                        "_label": "brief texts"
-                    }
-                ]
-            }</xsl:if><xsl:if test="atom[@name='PhyConvertedDims'] != ''">,
-            {
-                "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/dimension-statement",
-                "type": "LinguisticObject",
-                "_label": "Notes about the Dimensions of the Work",
-                "content": "<xsl:value-of select="replace(atom[@name='PhyConvertedDims'], '\n', '\\n')"/>",
-                "classified_as": [
-                    {
-                        "id": "http://vocab.getty.edu/aat/300266036",
-                        "type": "Type",
-                        "_label": "dimensions"
-                    },
-                    {
-                        "id": "http://vocab.getty.edu/aat/300418049",
-                        "type": "Type",
-                        "_label": "brief texts"
-                    }
-                ]
-            }</xsl:if>
-        ]</xsl:if>
+            "referred_to_by": [<xsl:if test="atom[@name='SumCreditLine'] != ''">
+                {
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/credit-line",
+                    "type": "LinguisticObject",
+                    "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                    "content": "<xsl:value-of select="replace(replace(atom[@name='SumCreditLine'], '\n', '\\n'), '&quot;', '\\&quot;')"/>",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300026687",
+                            "type": "Type",
+                            "_label": "acknowledgments"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                }<xsl:if test="atom[@name='TitTitleNotes'] != '' or atom[@name='PhyConvertedDimes'] != '' or atom[@name='PhyMediumAndSupport'] != ''">,</xsl:if></xsl:if><xsl:if test="atom[@name='TitTitleNotes'] != ''">
+                {
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/title-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Notes about the Title(s) Associated with the Work",
+                    "content": "<xsl:value-of select="replace(replace(atom[@name='TitTitleNotes'], '\n', '\\n'), '&quot;', '\\&quot;')"/>",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300417212",
+                            "type": "Type",
+                            "_label": "title statements"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                }<xsl:if test="atom[@name='PhyConvertedDims'] != '' or atom[@name='PhyMediumAndSupport'] != ''">,</xsl:if></xsl:if><xsl:if test="atom[@name='PhyConvertedDims'] != ''">
+                {
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/dimension-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Notes about the Dimensions of the Work",
+                    "content": "<xsl:value-of select="replace(replace(atom[@name='PhyConvertedDims'], '\n', '\\n'), '&quot;', '\\&quot;')"/>",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300266036",
+                            "type": "Type",
+                            "_label": "dimensions"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                }<xsl:if test="atom[@name='PhyMediumAndSupport'] != ''">,</xsl:if></xsl:if><xsl:if test="atom[@name='PhyMediumAndSupport'] != ''">
+                {
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/materials-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Notes about the Materials in the Work",
+                    "content": "<xsl:value-of select="replace(replace(atom[@name='PhyMediumAndSupport'], '\n', '\\n'), '&quot;', '\\&quot;')"/>",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300010358",
+                            "type": "Type",
+                            "_label": "materials (substances)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                }</xsl:if>
+            ]</xsl:if>
+        }
     }<xsl:if test="position() != last()">,
     </xsl:if>
         </xsl:for-each>
