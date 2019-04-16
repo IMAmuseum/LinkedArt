@@ -102,6 +102,14 @@
       integer         irn
     end
     text short      AssIsParent
+    table           Children
+      integer         irn
+      text long       TitMainTitle
+      table           Grandchildren
+        integer         irn
+        text long       TitMainTitle
+      end
+    end
     table           Related
       text short      AssRelationship
       integer         irn
@@ -1542,6 +1550,20 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">Yes</atom>
+    <table name="Children">
+      <tuple>
+        <atom name="irn">92384</atom>
+        <atom name="TitMainTitle">censer in form of teahouse</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">92385</atom>
+        <atom name="TitMainTitle">censer in form of teahouse</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">92386</atom>
+        <atom name="TitMainTitle">censer in form of teahouse</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 16 -->
@@ -1641,6 +1663,20 @@ Censor's seal: single kiwame</atom>
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">Yes</atom>
+    <table name="Children">
+      <tuple>
+        <atom name="irn">89367</atom>
+        <atom name="TitMainTitle">Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left)</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">89368</atom>
+        <atom name="TitMainTitle">(C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">89369</atom>
+        <atom name="TitMainTitle">Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 17 -->
@@ -2416,6 +2452,16 @@ Engraver's seal: Horisen</atom>
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">Yes</atom>
+    <table name="Children">
+      <tuple>
+        <atom name="irn">64018</atom>
+        <atom name="TitMainTitle">earplug</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">64019</atom>
+        <atom name="TitMainTitle">earplug (for man or woman)</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 26 -->
@@ -2723,6 +2769,92 @@ Engraver's seal: Horisen</atom>
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">Yes</atom>
+    <table name="Children">
+      <tuple>
+        <atom name="irn">68180</atom>
+        <atom name="TitMainTitle">Broken Family teapot</atom>
+        <table name="Grandchildren">
+          <tuple>
+            <atom name="irn">68181</atom>
+            <atom name="TitMainTitle">Broken Family teapot</atom>
+          </tuple>
+          <tuple>
+            <atom name="irn">68182</atom>
+            <atom name="TitMainTitle">lid for Broken Family teapot</atom>
+          </tuple>
+        </table>
+      </tuple>
+      <tuple>
+        <atom name="irn">68183</atom>
+        <atom name="TitMainTitle">Broken Family sugar bowl</atom>
+        <table name="Grandchildren">
+          <tuple>
+            <atom name="irn">68184</atom>
+            <atom name="TitMainTitle">Broken Family sugar bowl</atom>
+          </tuple>
+          <tuple>
+            <atom name="irn">68185</atom>
+            <atom name="TitMainTitle">lid for Broken Family sugar bowl</atom>
+          </tuple>
+        </table>
+      </tuple>
+      <tuple>
+        <atom name="irn">68186</atom>
+        <atom name="TitMainTitle">Broken Family creamer</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68187</atom>
+        <atom name="TitMainTitle">Broken Family cup</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68188</atom>
+        <atom name="TitMainTitle">Broken Family cup</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68189</atom>
+        <atom name="TitMainTitle">Broken Family cup</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68190</atom>
+        <atom name="TitMainTitle">Broken Family cup</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68191</atom>
+        <atom name="TitMainTitle">Broken Family saucer</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68192</atom>
+        <atom name="TitMainTitle">Broken Family saucer</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68193</atom>
+        <atom name="TitMainTitle">Broken Family saucer</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68194</atom>
+        <atom name="TitMainTitle">Broken Family saucer</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68195</atom>
+        <atom name="TitMainTitle">Broken Family platter</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68196</atom>
+        <atom name="TitMainTitle">Broken Family plate</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68197</atom>
+        <atom name="TitMainTitle">Broken Family plate</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68198</atom>
+        <atom name="TitMainTitle">Broken Family plate</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68199</atom>
+        <atom name="TitMainTitle">Broken Family plate</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 29 -->
@@ -2818,6 +2950,16 @@ B) ottoman: diam.: 22 in.</atom>
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">Yes</atom>
+    <table name="Children">
+      <tuple>
+        <atom name="irn">69062</atom>
+        <atom name="TitMainTitle">UP5 chair</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">69063</atom>
+        <atom name="TitMainTitle">UP6 ottoman</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 30 -->
@@ -2913,6 +3055,16 @@ B) ottoman: diam.: 22 in.</atom>
       <atom name="irn">64628</atom>
     </tuple>
     <atom name="AssIsParent">Yes</atom>
+    <table name="Children">
+      <tuple>
+        <atom name="irn">68181</atom>
+        <atom name="TitMainTitle">Broken Family teapot</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68182</atom>
+        <atom name="TitMainTitle">lid for Broken Family teapot</atom>
+      </tuple>
+    </table>
     <table name="Related">
       <tuple>
         <atom name="AssRelationship">part</atom>
@@ -3550,6 +3702,40 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">Yes</atom>
+    <table name="Children">
+      <tuple>
+        <atom name="irn">85257</atom>
+        <atom name="TitMainTitle">element A for Five Brushstrokes</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">85258</atom>
+        <atom name="TitMainTitle">element B for Five Brushstrokes</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">85259</atom>
+        <atom name="TitMainTitle">element C for Five Brushstrokes</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">85260</atom>
+        <atom name="TitMainTitle">element D for Five Brushstrokes</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">85261</atom>
+        <atom name="TitMainTitle">element E.1 for Five Brushstrokes</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">85262</atom>
+        <atom name="TitMainTitle">element E.2 for Five Brushstrokes</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">85263</atom>
+        <atom name="TitMainTitle">element E.3 for Five Brushstrokes</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">85264</atom>
+        <atom name="TitMainTitle">element E.4 for Five Brushstrokes</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 37 -->
@@ -4073,6 +4259,20 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">Yes</atom>
+    <table name="Children">
+      <tuple>
+        <atom name="irn">92160</atom>
+        <atom name="TitMainTitle">Tricorne candleholder</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">92158</atom>
+        <atom name="TitMainTitle">Tricorne candleholder</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">92159</atom>
+        <atom name="TitMainTitle">Tricorne candleholders</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 42 -->

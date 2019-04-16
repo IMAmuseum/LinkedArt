@@ -248,7 +248,7 @@ Current Location-->
                 "id": "<xsl:copy-of select="$baseURI"/>thesauri/location/storage",
                 "type": "Place",
                 "_label": "IMA Storage"
-            }</xsl:otherwise></xsl:choose></xsl:if><xsl:if test="tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel2'] = 'see related parts'"></xsl:if><xsl:if test="atom[@name='SumCreditLine'] != '' or atom[@name='TitTitleNotes'] != '' or atom[@name='PhyConvertedDims'] != '' or atom[@name='PhyMediumAndSupport'] != ''">,<!--
+            }</xsl:otherwise></xsl:choose></xsl:if><xsl:if test="tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel2'] = 'see related parts'"></xsl:if><xsl:if test="atom[@name='SumCreditLine'] != '' or atom[@name='TitTitleNotes'] != '' or atom[@name='PhyConvertedDims'] != '' or atom[@name='PhyMediumAndSupport'] != '' or table[@name='Rights']">,<!--
             
 Linquistic Objects-->
             "referred_to_by": [<xsl:if test="atom[@name='SumCreditLine'] != ''">
@@ -269,7 +269,7 @@ Linquistic Objects-->
                             "_label": "brief texts"
                         }
                     ]
-                }<xsl:if test="atom[@name='TitTitleNotes'] != '' or atom[@name='PhyConvertedDimes'] != '' or atom[@name='PhyMediumAndSupport'] != ''">,</xsl:if></xsl:if><xsl:if test="atom[@name='TitTitleNotes'] != ''">
+                }<xsl:if test="atom[@name='TitTitleNotes'] != '' or atom[@name='PhyConvertedDimes'] != '' or atom[@name='PhyMediumAndSupport'] != '' or table[@name='Rights']">,</xsl:if></xsl:if><xsl:if test="atom[@name='TitTitleNotes'] != ''">
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/title-statement",
                     "type": "LinguisticObject",
@@ -287,7 +287,7 @@ Linquistic Objects-->
                             "_label": "brief texts"
                         }
                     ]
-                }<xsl:if test="atom[@name='PhyConvertedDims'] != '' or atom[@name='PhyMediumAndSupport'] != ''">,</xsl:if></xsl:if><xsl:if test="atom[@name='PhyConvertedDims'] != ''">
+                }<xsl:if test="atom[@name='PhyConvertedDims'] != '' or atom[@name='PhyMediumAndSupport'] != '' or table[@name='Rights']">,</xsl:if></xsl:if><xsl:if test="atom[@name='PhyConvertedDims'] != ''">
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/dimension-statement",
                     "type": "LinguisticObject",
@@ -305,7 +305,7 @@ Linquistic Objects-->
                             "_label": "brief texts"
                         }
                     ]
-                }<xsl:if test="atom[@name='PhyMediumAndSupport'] != ''">,</xsl:if></xsl:if><xsl:if test="atom[@name='PhyMediumAndSupport'] != ''">
+                }<xsl:if test="atom[@name='PhyMediumAndSupport'] != '' or table[@name='Rights']">,</xsl:if></xsl:if><xsl:if test="atom[@name='PhyMediumAndSupport'] != ''">
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/materials-statement",
                     "type": "LinguisticObject",
@@ -323,7 +323,90 @@ Linquistic Objects-->
                             "_label": "brief texts"
                         }
                     ]
-                }</xsl:if>
+                }<xsl:if test="table[@name='Rights']">,</xsl:if></xsl:if><xsl:if test="table[@name='Rights']">
+                {
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "<xsl:value-of select="replace(replace(table[@name='Rights']/tuple[1]/atom[@name='RigAcknowledgement'], '\n', '\\n'), '&quot;', '\\&quot;')"/>",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                }<xsl:if test="table[@name='Rights']/tuple[1]/atom[@name='RigAcknowledgement'] = 'Public Domain'">,
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                }</xsl:if><xsl:if test="table[@name='Rights']/tuple[1]/atom[@name='RigAcknowledgement'] = 'No Known Rights Holder'">,
+                {
+                    "id": "http://rightsstatements.org/vocab/NKC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "No Known Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                }</xsl:if><xsl:if test="contains(table[@name='Rights']/tuple[1]/atom[@name='RigAcknowledgement'], '©')">,
+                {
+                    "id": "http://rightsstatements.org/vocab/InC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "In Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                }</xsl:if></xsl:if>
+            ]</xsl:if><xsl:if test="atom[@name='AssIsParent'] = 'Yes' and table[@name='Children']">,<!--
+
+Parts-->
+            "part": [<xsl:for-each select="table[@name='Children']/tuple">
+                {
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>",
+                    "type": "ManMadeObject",
+                    "_label": "<xsl:value-of select="atom[@name='TitMainTitle']"/>"
+                }<xsl:if test="table[@name='Grandchildren']"><xsl:for-each select="table[@name='Grandchildren']/tuple">,
+                {
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>",
+                    "type": "ManMadeObject",
+                    "_label": "<xsl:value-of select="atom[@name='TitMainTitle']"/>"
+                }</xsl:for-each></xsl:if><xsl:if test="position() != last()">,</xsl:if></xsl:for-each>
             ]</xsl:if>
         }
     }<xsl:if test="position() != last()">,

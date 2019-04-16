@@ -1,0 +1,3281 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE table
+[
+  <!ELEMENT table	(tuple)*>
+  <!ATTLIST table
+            name	CDATA #REQUIRED
+  >
+
+  <!ELEMENT tuple	(table|tuple|atom)*>
+  <!ATTLIST tuple
+            name	CDATA #IMPLIED
+  >
+
+  <!ELEMENT atom	(#PCDATA)*>
+  <!ATTLIST atom
+            name	CDATA #REQUIRED
+            type	CDATA "text"
+            size	CDATA "short"
+  >
+]
+>
+<?schema
+  table           ecatalogue
+    integer         irn
+    text short      TitAccessionNo
+    text short      TitPreviousAccessionNo
+    text short      TitObjectStatus
+    date            TitAccessionDate
+    text long       TitMainTitle
+    text long       TitSeriesTitle
+    text long       TitCollectionTitle
+    table           AltTitles
+      text long       TitAlternateTitles
+    end
+    text long       TitTitleNotes
+    text short      TitObjectType
+    table           ObjectTypes
+      text short      PhyMediaCategory
+    end
+    text short      CreDateCreated
+    date            CreEarliestDate
+    date            CreLatestDate
+    text short      CreCreationPeriod
+    text long       CreCreationDynasty
+    table           Creator1
+      text short      CreRole
+      integer         irn
+    end
+    table           Creator2
+      text long       CreCreatorAttribution
+      text long       CreCreationCultureOrPeople
+      text long       CreCreationNationality2
+    end
+    table           CreLocation
+      text short      CreCountry
+      text short      CreState
+      text short      CreDistrict
+      text short      CreCity
+    end
+    table           MarkType
+      text short      CreMarkType
+    end
+    text long       CrePrimaryInscriptions
+    text long       CreCreationNotes
+    date            EdiPublisherDate
+    table           Medium
+      text long       PhyMedium
+    end
+    table           Support
+      text short      PhySupport
+    end
+    text long       PhyMediumAndSupport
+    text short      PhyStyle
+    text short      PhyTechnique
+    text short      EdiImpression
+    text long       PhyDescription
+    text long       PhyConvertedDims
+    table           Dimensions
+      text short      PhyType
+      float           PhyHeight
+      float           PhyWidth
+      float           PhyDepth
+      float           PhyDiameter
+      text short      PhyUnitLength
+      float           PhyWeight
+      text short      PhyUnitWeight
+      text short      PhyDimensionNotes
+    end
+    text long       SumCreditLine
+    table           Rights
+      text long       RigAcknowledgement
+    end
+    text long       CreProvenance
+    text short      PhyCollectionArea
+    text short      LocMovementType
+    tuple           LocCurrentLocationRef
+      text short      LocLevel1
+      text short      LocLevel2
+      text short      LocLevel3
+    end
+    tuple           AssParentObjectRef
+      integer         irn
+    end
+    text short      AssIsParent
+    table           Children
+      integer         irn
+      text long       TitMainTitle
+      table           Grandchildren
+        integer         irn
+        text long       TitMainTitle
+      end
+    end
+    table           Related
+      text short      AssRelationship
+      integer         irn
+    end
+  end
+?>
+<!-- Data -->
+<table name="ecatalogue">
+
+  <!-- Row 1 -->
+  <tuple>
+    <atom name="irn">64628</atom>
+    <atom name="TitAccessionNo">2009.390.1-.16</atom>
+    <atom name="TitPreviousAccessionNo">TR10819/2-17 | EX2009.1.29</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2009-12-17</atom>
+    <atom name="TitMainTitle">Broken Family tea set</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes">.1A-B) teapot .2A-B) sugar bowl .3) creamer .4) cup .5) cup .6) cup .7) cup .8) saucer .9) saucer .10) saucer .11) saucer .12) platter .13) plate .14) plate .15) plate .16) plate</atom>
+    <atom name="TitObjectType">Containers</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">ceramics</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">metalwork</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">tableware</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dishes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">pottery</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">tea services</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">teapots</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">lids</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">creamers</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">sugar bowls</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">cups</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">saucers</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">platters</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">plates</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1999</atom>
+    <atom name="CreEarliestDate">1999</atom>
+    <atom name="CreLatestDate">1999</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">5679</atom>
+      </tuple>
+      <tuple>
+        <atom name="CreRole">Manufacturer</atom>
+        <atom name="irn">5679</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">silver plate</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">ceramic</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">silver plate over existing ceramics</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique">metalworking</atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">.1A-B) teapot .2A-B) sugar bowl .3) creamer .4) cup .5) cup .6) cup .7) cup .8) saucer .9) saucer .10) saucer .11) saucer .12) platter .13) plate .14) plate .15) plate .16) plate</atom>
+    <atom name="PhyConvertedDims">Largest: 7-7/8 × 8-3/4 × 4-3/4 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">7.8750</atom>
+        <atom name="PhyWidth">8.7500</atom>
+        <atom name="PhyDepth">4.7500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 20 × 22 × 12 (largest)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Deaccessioned Decorative/Design Arts Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Jurgen Bey</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">(Studio Makkink &amp; Bey, Rotterdam, The Netherlands); purchased by the Indianapolis Museum of Art in 2009.</atom>
+    <atom name="PhyCollectionArea">903.2-Design Arts</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">see related parts</atom>
+      <atom name="LocLevel3"></atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">Yes</atom>
+    <table name="Children">
+      <tuple>
+        <atom name="irn">68180</atom>
+        <atom name="TitMainTitle">Broken Family teapot</atom>
+        <table name="Grandchildren">
+          <tuple>
+            <atom name="irn">68181</atom>
+            <atom name="TitMainTitle">Broken Family teapot</atom>
+          </tuple>
+          <tuple>
+            <atom name="irn">68182</atom>
+            <atom name="TitMainTitle">lid for Broken Family teapot</atom>
+          </tuple>
+        </table>
+      </tuple>
+      <tuple>
+        <atom name="irn">68183</atom>
+        <atom name="TitMainTitle">Broken Family sugar bowl</atom>
+        <table name="Grandchildren">
+          <tuple>
+            <atom name="irn">68184</atom>
+            <atom name="TitMainTitle">Broken Family sugar bowl</atom>
+          </tuple>
+          <tuple>
+            <atom name="irn">68185</atom>
+            <atom name="TitMainTitle">lid for Broken Family sugar bowl</atom>
+          </tuple>
+        </table>
+      </tuple>
+      <tuple>
+        <atom name="irn">68186</atom>
+        <atom name="TitMainTitle">Broken Family creamer</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68187</atom>
+        <atom name="TitMainTitle">Broken Family cup</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68188</atom>
+        <atom name="TitMainTitle">Broken Family cup</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68189</atom>
+        <atom name="TitMainTitle">Broken Family cup</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68190</atom>
+        <atom name="TitMainTitle">Broken Family cup</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68191</atom>
+        <atom name="TitMainTitle">Broken Family saucer</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68192</atom>
+        <atom name="TitMainTitle">Broken Family saucer</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68193</atom>
+        <atom name="TitMainTitle">Broken Family saucer</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68194</atom>
+        <atom name="TitMainTitle">Broken Family saucer</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68195</atom>
+        <atom name="TitMainTitle">Broken Family platter</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68196</atom>
+        <atom name="TitMainTitle">Broken Family plate</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68197</atom>
+        <atom name="TitMainTitle">Broken Family plate</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68198</atom>
+        <atom name="TitMainTitle">Broken Family plate</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68199</atom>
+        <atom name="TitMainTitle">Broken Family plate</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 2 -->
+  <tuple>
+    <atom name="irn">68180</atom>
+    <atom name="TitAccessionNo">2009.390.1A-B</atom>
+    <atom name="TitPreviousAccessionNo">TR10819/2A-B | EX2009.1.29</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2009-12-17</atom>
+    <atom name="TitMainTitle">Broken Family teapot</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Furnishings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">ceramics</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">metalwork</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">tableware</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dishes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">pottery</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">teapots</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">lids</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1999</atom>
+    <atom name="CreEarliestDate">1999</atom>
+    <atom name="CreLatestDate">1999</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">5679</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">silver plate</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">ceramic</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">silver plate over existing ceramics</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">7-1/2 x 5 x 3-1/2 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">7.5000</atom>
+        <atom name="PhyWidth">5.0000</atom>
+        <atom name="PhyDepth">3.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 26 x 12.7 x 8.9</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Deaccessioned Decorative/Design Arts Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Jurgen Bey</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">903.2-Design Arts</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">see related parts</atom>
+      <atom name="LocLevel3"></atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">64628</atom>
+    </tuple>
+    <atom name="AssIsParent">Yes</atom>
+    <table name="Children">
+      <tuple>
+        <atom name="irn">68181</atom>
+        <atom name="TitMainTitle">Broken Family teapot</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68182</atom>
+        <atom name="TitMainTitle">lid for Broken Family teapot</atom>
+      </tuple>
+    </table>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68183</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68186</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68187</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68188</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68189</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68190</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68191</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68192</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68193</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68194</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68195</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68196</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68197</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68198</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68199</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 3 -->
+  <tuple>
+    <atom name="irn">68181</atom>
+    <atom name="TitAccessionNo">2009.390.1A</atom>
+    <atom name="TitPreviousAccessionNo">TR10819/2A | EX2009.1.29</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2009-12-17</atom>
+    <atom name="TitMainTitle">Broken Family teapot</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Furnishings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">ceramics</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">metalwork</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">tableware</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dishes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">pottery</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">tea services</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">teapots</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1999</atom>
+    <atom name="CreEarliestDate">1999</atom>
+    <atom name="CreLatestDate">1999</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">5679</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">silver plate</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">ceramic</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">silver plate over existing ceramics</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">7-1/2 x 5 x 3-1/2 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">7.5000</atom>
+        <atom name="PhyWidth">5.0000</atom>
+        <atom name="PhyDepth">3.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 26 x 12.7 x 8.9</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Deaccessioned Decorative/Design Arts Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Jurgen Bey</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">903.2-Design Arts</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Contemporary Design Gallery</atom>
+      <atom name="LocLevel3">H302</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">68180</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">blanket record</atom>
+        <atom name="irn">68180</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68182</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 4 -->
+  <tuple>
+    <atom name="irn">68182</atom>
+    <atom name="TitAccessionNo">2009.390.1B</atom>
+    <atom name="TitPreviousAccessionNo">TR10819/2B | EX2009.1.29</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2009-12-17</atom>
+    <atom name="TitMainTitle">lid for Broken Family teapot</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Furnishings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">ceramics</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">metalwork</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">tableware</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dishes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">pottery</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">lids</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1999</atom>
+    <atom name="CreEarliestDate">1999</atom>
+    <atom name="CreLatestDate">1999</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">5679</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">silver plate</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">ceramic</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">silver plate over existing ceramics</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">No measurement details.</atom>
+    <atom name="SumCreditLine">Deaccessioned Decorative/Design Arts Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Jurgen Bey</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">903.2-Design Arts</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Contemporary Design Gallery</atom>
+      <atom name="LocLevel3">H302</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">68180</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">blanket record</atom>
+        <atom name="irn">68180</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68181</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 5 -->
+  <tuple>
+    <atom name="irn">68183</atom>
+    <atom name="TitAccessionNo">2009.390.2A-B</atom>
+    <atom name="TitPreviousAccessionNo">TR10819/3A-B | EX2009.1.29</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2009-12-17</atom>
+    <atom name="TitMainTitle">Broken Family sugar bowl</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Furnishings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">ceramics</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">metalwork</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">tableware</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dishes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">pottery</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">sugar bowls</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">lids</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1999</atom>
+    <atom name="CreEarliestDate">1999</atom>
+    <atom name="CreLatestDate">1999</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">5679</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">silver plate</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">ceramic</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">silver plate over existing ceramics</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">5-3/4 x 5 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">5.7500</atom>
+        <atom name="PhyDiameter">5.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 14.6 x 12.7</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Deaccessioned Decorative/Design Arts Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Jurgen Bey</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">903.2-Design Arts</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">see related parts</atom>
+      <atom name="LocLevel3"></atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">64628</atom>
+    </tuple>
+    <atom name="AssIsParent">Yes</atom>
+    <table name="Children">
+      <tuple>
+        <atom name="irn">68184</atom>
+        <atom name="TitMainTitle">Broken Family sugar bowl</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">68185</atom>
+        <atom name="TitMainTitle">lid for Broken Family sugar bowl</atom>
+      </tuple>
+    </table>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68180</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68186</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68187</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68188</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68189</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68190</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68191</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68192</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68193</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68194</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68195</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68196</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68197</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68198</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68199</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 6 -->
+  <tuple>
+    <atom name="irn">68184</atom>
+    <atom name="TitAccessionNo">2009.390.2A</atom>
+    <atom name="TitPreviousAccessionNo">TR10819/3A | EX2009.1.29</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2009-12-17</atom>
+    <atom name="TitMainTitle">Broken Family sugar bowl</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Furnishings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">ceramics</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">metalwork</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">tableware</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dishes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">pottery</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">sugar bowls</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1999</atom>
+    <atom name="CreEarliestDate">1999</atom>
+    <atom name="CreLatestDate">1999</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">5679</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">silver plate</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">ceramic</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">silver plate over existing ceramics</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">No measurement details.</atom>
+    <atom name="SumCreditLine">Deaccessioned Decorative/Design Arts Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Jurgen Bey</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">903.2-Design Arts</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Contemporary Design Gallery</atom>
+      <atom name="LocLevel3">H302</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">68183</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68185</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 7 -->
+  <tuple>
+    <atom name="irn">68185</atom>
+    <atom name="TitAccessionNo">2009.390.2B</atom>
+    <atom name="TitPreviousAccessionNo">TR10819/3B | EX2009.1.29</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2009-12-17</atom>
+    <atom name="TitMainTitle">lid for Broken Family sugar bowl</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Furnishings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">ceramics</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">metalwork</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">tableware</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dishes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">pottery</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">lids</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1999</atom>
+    <atom name="CreEarliestDate">1999</atom>
+    <atom name="CreLatestDate">1999</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">5679</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">silver plate</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">ceramic</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">silver plate over existing ceramics</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">No measurement details.</atom>
+    <atom name="SumCreditLine">Deaccessioned Decorative/Design Arts Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Jurgen Bey</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">903.2-Design Arts</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Contemporary Design Gallery</atom>
+      <atom name="LocLevel3">H302</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">68183</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">blanket record</atom>
+        <atom name="irn">68183</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68184</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 8 -->
+  <tuple>
+    <atom name="irn">68186</atom>
+    <atom name="TitAccessionNo">2009.390.3</atom>
+    <atom name="TitPreviousAccessionNo">TR10819/4 | EX2009.1.29</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2009-12-17</atom>
+    <atom name="TitMainTitle">Broken Family creamer</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Furnishings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">ceramics</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">metalwork</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">tableware</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dishes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">pottery</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">creamers</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1999</atom>
+    <atom name="CreEarliestDate">1999</atom>
+    <atom name="CreLatestDate">1999</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">5679</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">silver plate</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">glass</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">silver plate over existing ceramics</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">2-3/4 x 3 x 2 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">IMA Number Applied</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyWidth"></atom>
+        <atom name="PhyDepth"></atom>
+        <atom name="PhyUnitLength"></atom>
+        <atom name="PhyDimensionNotes">number applied on bottom</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">2.7500</atom>
+        <atom name="PhyWidth">3.0000</atom>
+        <atom name="PhyDepth">2.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 7 x 7.6 x 5.1</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Deaccessioned Decorative/Design Arts Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Jurgen Bey</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">903.2-Design Arts</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Contemporary Design Gallery</atom>
+      <atom name="LocLevel3">H302</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">64628</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68180</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68183</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68187</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68188</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68189</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68190</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68191</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68192</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68193</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68194</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68195</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68196</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68197</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68198</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68199</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 9 -->
+  <tuple>
+    <atom name="irn">68187</atom>
+    <atom name="TitAccessionNo">2009.390.4</atom>
+    <atom name="TitPreviousAccessionNo">TR10819/5 | EX2009.1.29</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2009-12-17</atom>
+    <atom name="TitMainTitle">Broken Family cup</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Furnishings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">ceramics</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">metalwork</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">tableware</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dishes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">pottery</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">cups</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1999</atom>
+    <atom name="CreEarliestDate">1999</atom>
+    <atom name="CreLatestDate">1999</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">5679</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">silver plate</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">glass</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">silver plate over existing ceramics</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">2-1/4 x 2-3/4 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">IMA Number Applied</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyDiameter"></atom>
+        <atom name="PhyUnitLength"></atom>
+        <atom name="PhyDimensionNotes">number applied on bottom</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">2.2500</atom>
+        <atom name="PhyDiameter">2.7500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 5.8 x 7</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Deaccessioned Decorative/Design Arts Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Jurgen Bey</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">903.2-Design Arts</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Contemporary Design Gallery</atom>
+      <atom name="LocLevel3">H302</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">64628</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68180</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68183</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68186</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68188</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68189</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68190</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68191</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68192</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68193</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68194</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68195</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68196</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68197</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68198</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68199</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 10 -->
+  <tuple>
+    <atom name="irn">68188</atom>
+    <atom name="TitAccessionNo">2009.390.5</atom>
+    <atom name="TitPreviousAccessionNo">TR10819/6 | EX2009.1.29</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2009-12-17</atom>
+    <atom name="TitMainTitle">Broken Family cup</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Furnishings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">ceramics</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">metalwork</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">tableware</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dishes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">pottery</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">cups</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1999</atom>
+    <atom name="CreEarliestDate">1999</atom>
+    <atom name="CreLatestDate">1999</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">5679</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">silver plate</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">ceramic</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">silver plate over existing ceramics</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">2-1/4 x 2-3/4 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">IMA Number Applied</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyDiameter"></atom>
+        <atom name="PhyUnitLength"></atom>
+        <atom name="PhyDimensionNotes">incorrect number of 2009.390.6 applied on bottom</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">2.2500</atom>
+        <atom name="PhyDiameter">2.7500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 5.8 x 7</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Deaccessioned Decorative/Design Arts Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Jurgen Bey</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">903.2-Design Arts</atom>
+    <atom name="LocMovementType">Inventory Beginning 2018 - ten year schedule for upcoming reaccreditation</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Hc2</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">64628</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68180</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68183</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68186</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68187</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68189</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68190</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68191</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68192</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68193</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68194</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68195</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68196</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68197</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68198</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68199</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 11 -->
+  <tuple>
+    <atom name="irn">68189</atom>
+    <atom name="TitAccessionNo">2009.390.6</atom>
+    <atom name="TitPreviousAccessionNo">TR10819/7 | EX2009.1.29</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2009-12-17</atom>
+    <atom name="TitMainTitle">Broken Family cup</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Furnishings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">ceramics</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">metalwork</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">tableware</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dishes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">pottery</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">cups</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1999</atom>
+    <atom name="CreEarliestDate">1999</atom>
+    <atom name="CreLatestDate">1999</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">5679</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">silver plate</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">porcelain</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">silver plate over existing ceramics</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">2 x 2-1/2 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">IMA Number Not Yet Applied</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyDiameter"></atom>
+        <atom name="PhyUnitLength"></atom>
+        <atom name="PhyDimensionNotes"></atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">2.0000</atom>
+        <atom name="PhyDiameter">2.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 5.1 x 6.4</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Deaccessioned Decorative/Design Arts Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Jurgen Bey</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">903.2-Design Arts</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Contemporary Design Gallery</atom>
+      <atom name="LocLevel3">H302</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">64628</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68180</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68183</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68186</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68187</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68188</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68190</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68191</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68192</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68193</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68194</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68195</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68196</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68197</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68198</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68199</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 12 -->
+  <tuple>
+    <atom name="irn">68190</atom>
+    <atom name="TitAccessionNo">2009.390.7</atom>
+    <atom name="TitPreviousAccessionNo">TR10819/8 | EX2009.1.29</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2009-12-17</atom>
+    <atom name="TitMainTitle">Broken Family cup</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Containers</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">ceramics</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">metalwork</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">tableware</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dishes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">pottery</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">cups</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1999</atom>
+    <atom name="CreEarliestDate">1999</atom>
+    <atom name="CreLatestDate">1999</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">5679</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">silver plate</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">porcelain</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">silver plate over existing ceramics</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">2 x 2-1/2 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">IMA Number Applied</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyDiameter"></atom>
+        <atom name="PhyUnitLength"></atom>
+        <atom name="PhyDimensionNotes">incorrect number of 2009.390.5 applied to bottom</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">2.0000</atom>
+        <atom name="PhyDiameter">2.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 5.1 x 6.4</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Deaccessioned Decorative/Design Arts Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Jurgen Bey</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">903.2-Design Arts</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Contemporary Design Gallery</atom>
+      <atom name="LocLevel3">H302</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">64628</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68180</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68183</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68186</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68187</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68188</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68189</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68191</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68192</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68193</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68194</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68195</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68196</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68197</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68198</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68199</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 13 -->
+  <tuple>
+    <atom name="irn">68191</atom>
+    <atom name="TitAccessionNo">2009.390.8</atom>
+    <atom name="TitPreviousAccessionNo">TR10819/9 | EX2009.1.29</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2009-12-17</atom>
+    <atom name="TitMainTitle">Broken Family saucer</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Furnishings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">ceramics</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">metalwork</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">tableware</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dishes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">pottery</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">saucers</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1999</atom>
+    <atom name="CreEarliestDate">1999</atom>
+    <atom name="CreLatestDate">1999</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">5679</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">silver plate</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">porcelain</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">silver plate over existing ceramics</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">1/2 x 4-1/2 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">IMA Number Applied</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyDiameter"></atom>
+        <atom name="PhyUnitLength"></atom>
+        <atom name="PhyDimensionNotes">incorrect number of 2009.390.9 applied on bottom</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">0.5000</atom>
+        <atom name="PhyDiameter">4.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 1.3 x 11.4</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Deaccessioned Decorative/Design Arts Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Jurgen Bey</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">903.2-Design Arts</atom>
+    <atom name="LocMovementType">Inventory Beginning 2018 - ten year schedule for upcoming reaccreditation</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Hc2</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">64628</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68180</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68183</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68186</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68187</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68188</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68189</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68190</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68192</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68193</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68194</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68195</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68196</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68197</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68198</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68199</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 14 -->
+  <tuple>
+    <atom name="irn">68192</atom>
+    <atom name="TitAccessionNo">2009.390.9</atom>
+    <atom name="TitPreviousAccessionNo">TR108191/10 | EX2009.1.29</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2009-12-17</atom>
+    <atom name="TitMainTitle">Broken Family saucer</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Furnishings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">ceramics</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">metalwork</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">tableware</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dishes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">pottery</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">saucers</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1999</atom>
+    <atom name="CreEarliestDate">1999</atom>
+    <atom name="CreLatestDate">1999</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">5679</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">silver plate</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">porcelain</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">silver plate over existing ceramics</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">7/8 x 4-1/2 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">IMA Number Applied</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyDiameter"></atom>
+        <atom name="PhyUnitLength"></atom>
+        <atom name="PhyDimensionNotes">number applied on bottom</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">0.8750</atom>
+        <atom name="PhyDiameter">4.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 2.2 x 11.4</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Deaccessioned Decorative/Design Arts Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Jurgen Bey</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">903.2-Design Arts</atom>
+    <atom name="LocMovementType">Inventory Beginning 2018 - ten year schedule for upcoming reaccreditation</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Hc2</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">64628</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68180</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68183</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68186</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68187</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68188</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68189</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68190</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68191</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68193</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68194</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68195</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68196</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68197</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68198</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68199</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 15 -->
+  <tuple>
+    <atom name="irn">68193</atom>
+    <atom name="TitAccessionNo">2009.390.10</atom>
+    <atom name="TitPreviousAccessionNo">TR108191/11 | EX2009.1.29</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2009-12-17</atom>
+    <atom name="TitMainTitle">Broken Family saucer</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Furnishings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">ceramics</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">metalwork</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">tableware</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dishes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">pottery</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">saucers</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1999</atom>
+    <atom name="CreEarliestDate">1999</atom>
+    <atom name="CreLatestDate">1999</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">5679</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">silver plate</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">ceramic</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">silver plate over existing ceramics</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">3/4 x 4 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">IMA Number Applied</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyDiameter"></atom>
+        <atom name="PhyUnitLength"></atom>
+        <atom name="PhyDimensionNotes">incorrect number of 2009.390.8 applied on bottom</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">0.7500</atom>
+        <atom name="PhyDiameter">4.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 1.9 x 10.2</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Deaccessioned Decorative/Design Arts Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Jurgen Bey</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">903.2-Design Arts</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Contemporary Design Gallery</atom>
+      <atom name="LocLevel3">H302</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">64628</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68180</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68183</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68186</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68187</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68188</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68189</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68190</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68191</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68192</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68194</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68195</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68196</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68197</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68198</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68199</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 16 -->
+  <tuple>
+    <atom name="irn">68194</atom>
+    <atom name="TitAccessionNo">2009.390.11</atom>
+    <atom name="TitPreviousAccessionNo">TR108191/12 | EX2009.1.29</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2009-12-17</atom>
+    <atom name="TitMainTitle">Broken Family saucer</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Containers</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">ceramics</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">metalwork</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">tableware</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dishes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">pottery</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">saucers</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1999</atom>
+    <atom name="CreEarliestDate">1999</atom>
+    <atom name="CreLatestDate">1999</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">5679</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">silver plate</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">ceramic</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">silver plate over existing ceramics</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">3/4 x 4 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">IMA Number Applied</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyDiameter"></atom>
+        <atom name="PhyUnitLength"></atom>
+        <atom name="PhyDimensionNotes">incorrect number of 2009.390.10 applied on bottom</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">0.7500</atom>
+        <atom name="PhyDiameter">4.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 1.9 x 10.2</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Deaccessioned Decorative/Design Arts Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Jurgen Bey</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">903.2-Design Arts</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Contemporary Design Gallery</atom>
+      <atom name="LocLevel3">H302</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">64628</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68180</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68183</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68186</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68187</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68188</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68189</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68190</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68191</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68192</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68193</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68195</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68196</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68197</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68198</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68199</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 17 -->
+  <tuple>
+    <atom name="irn">68195</atom>
+    <atom name="TitAccessionNo">2009.390.12</atom>
+    <atom name="TitPreviousAccessionNo">TR108191/13 | EX2009.1.29</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2009-12-17</atom>
+    <atom name="TitMainTitle">Broken Family platter</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Furnishings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">ceramics</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">metalwork</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">tableware</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dishes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">pottery</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">platters</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1999</atom>
+    <atom name="CreEarliestDate">1999</atom>
+    <atom name="CreLatestDate">1999</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">5679</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">silver plate</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">ceramic</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">silver plate over existing ceramics</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">2-1/2 x 6 x 13 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">IMA Number Applied</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyWidth"></atom>
+        <atom name="PhyDepth"></atom>
+        <atom name="PhyUnitLength"></atom>
+        <atom name="PhyDimensionNotes">number applied on bottom</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">2.5000</atom>
+        <atom name="PhyWidth">6.0000</atom>
+        <atom name="PhyDepth">13.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 6.4 x 15.2 x 33</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Deaccessioned Decorative/Design Arts Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Jurgen Bey</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">903.2-Design Arts</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Contemporary Design Gallery</atom>
+      <atom name="LocLevel3">H302</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">64628</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68180</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68183</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68186</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68187</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68188</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68189</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68190</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68191</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68192</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68193</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68194</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68196</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68197</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68198</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68199</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 18 -->
+  <tuple>
+    <atom name="irn">68196</atom>
+    <atom name="TitAccessionNo">2009.390.13</atom>
+    <atom name="TitPreviousAccessionNo">TR108191/14 | EX2009.1.29</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2009-12-17</atom>
+    <atom name="TitMainTitle">Broken Family plate</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Furnishings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">ceramics</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">metalwork</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">tableware</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dishes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">pottery</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">plates</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1999</atom>
+    <atom name="CreEarliestDate">1999</atom>
+    <atom name="CreLatestDate">1999</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">5679</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">silver plate</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">ceramic</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">silver plate over existing ceramics</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">3/4 x 6-1/2 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">IMA Number Applied</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyDiameter"></atom>
+        <atom name="PhyUnitLength"></atom>
+        <atom name="PhyDimensionNotes">incorrect number of 2009.390.14 applied on bottom</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">0.7500</atom>
+        <atom name="PhyDiameter">6.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 1.9 x 16.5</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Deaccessioned Decorative/Design Arts Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Jurgen Bey</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">903.2-Design Arts</atom>
+    <atom name="LocMovementType">Inventory Beginning 2018 - ten year schedule for upcoming reaccreditation</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Hc2</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">64628</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68180</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68183</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68186</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68187</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68188</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68189</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68190</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68191</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68192</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68193</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68194</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68195</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68197</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68198</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68199</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 19 -->
+  <tuple>
+    <atom name="irn">68197</atom>
+    <atom name="TitAccessionNo">2009.390.14</atom>
+    <atom name="TitPreviousAccessionNo">TR108191/15 | EX2009.1.29</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2009-12-17</atom>
+    <atom name="TitMainTitle">Broken Family plate</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Containers</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">ceramics</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">metalwork</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">tableware</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dishes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">pottery</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">plates</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1999</atom>
+    <atom name="CreEarliestDate">1999</atom>
+    <atom name="CreLatestDate">1999</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">5679</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">silver plate</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">aluminum</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">silver plate over existing ceramics</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">3/4 x 6-1/2 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">IMA Number Applied</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyDiameter"></atom>
+        <atom name="PhyUnitLength"></atom>
+        <atom name="PhyDimensionNotes">number applied on bottom</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">0.7500</atom>
+        <atom name="PhyDiameter">6.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 1.9 x 16.5</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Deaccessioned Decorative/Design Arts Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Jurgen Bey</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">903.2-Design Arts</atom>
+    <atom name="LocMovementType">Inventory Beginning 2018 - ten year schedule for upcoming reaccreditation</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Hc2</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">64628</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68180</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68183</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68186</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68187</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68188</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68189</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68190</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68191</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68192</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68193</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68194</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68195</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68196</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68198</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68199</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 20 -->
+  <tuple>
+    <atom name="irn">68198</atom>
+    <atom name="TitAccessionNo">2009.390.15</atom>
+    <atom name="TitPreviousAccessionNo">TR108191/16 | EX2009.1.29</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2009-12-17</atom>
+    <atom name="TitMainTitle">Broken Family plate</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Containers</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">ceramics</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">metalwork</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">tableware</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dishes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">pottery</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">plates</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1999</atom>
+    <atom name="CreEarliestDate">1999</atom>
+    <atom name="CreLatestDate">1999</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">5679</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">silver plate</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">ceramic</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">silver plate over existing ceramics</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">3/4 x 6-1/2 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">IMA Number Applied</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyDiameter"></atom>
+        <atom name="PhyUnitLength"></atom>
+        <atom name="PhyDimensionNotes">incorrect number of 2009.390.13 applied on bottom</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">0.7500</atom>
+        <atom name="PhyDiameter">6.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 1.9 x 16.5</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Deaccessioned Decorative/Design Arts Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Jurgen Bey</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">903.2-Design Arts</atom>
+    <atom name="LocMovementType">Inventory Beginning 2018 - ten year schedule for upcoming reaccreditation</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Hc2</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">64628</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68180</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68183</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68186</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68187</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68188</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68189</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68190</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68191</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68192</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68193</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68194</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68195</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68196</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68197</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68199</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 21 -->
+  <tuple>
+    <atom name="irn">68199</atom>
+    <atom name="TitAccessionNo">2009.390.16</atom>
+    <atom name="TitPreviousAccessionNo">TR108191/17 | EX2009.1.29</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2009-12-17</atom>
+    <atom name="TitMainTitle">Broken Family plate</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Containers</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">ceramics</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">metalwork</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">tableware</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dishes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">pottery</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">plates</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1999</atom>
+    <atom name="CreEarliestDate">1999</atom>
+    <atom name="CreLatestDate">1999</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">5679</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">silver plate</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">ceramic</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">silver plate over existing ceramics</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">3/4 x 6-1/2 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">IMA Number Applied</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyDiameter"></atom>
+        <atom name="PhyUnitLength"></atom>
+        <atom name="PhyDimensionNotes">number applied on bottom</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">0.7500</atom>
+        <atom name="PhyDiameter">6.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 1.9 x 16.5</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Deaccessioned Decorative/Design Arts Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Jurgen Bey</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">903.2-Design Arts</atom>
+    <atom name="LocMovementType">Inventory Beginning 2018 - ten year schedule for upcoming reaccreditation</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Hc2</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">64628</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68180</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68183</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68186</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68187</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68188</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68189</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68190</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68191</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68192</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68193</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68194</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68195</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68196</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68197</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part</atom>
+        <atom name="irn">68198</atom>
+      </tuple>
+    </table>
+  </tuple>
+</table>

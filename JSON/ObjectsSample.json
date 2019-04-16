@@ -150,6 +150,41 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/1032/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
                 }
             ]
         }
@@ -310,6 +345,41 @@
                             "id": "http://vocab.getty.edu/aat/300010358",
                             "type": "Type",
                             "_label": "materials (substances)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/1065/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
                         },
                         {
                             "id": "http://vocab.getty.edu/aat/300418049",
@@ -504,6 +574,41 @@
                             "id": "http://vocab.getty.edu/aat/300010358",
                             "type": "Type",
                             "_label": "materials (substances)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/3521/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "© Paul Edward Beem",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/InC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "In Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
                         },
                         {
                             "id": "http://vocab.getty.edu/aat/300418049",
@@ -706,6 +811,41 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/8407/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
                 }
             ]
         }
@@ -863,6 +1003,41 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/14365/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
                 }
             ]
         }
@@ -1011,6 +1186,41 @@
                             "id": "http://vocab.getty.edu/aat/300010358",
                             "type": "Type",
                             "_label": "materials (substances)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/14617/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "No Known Rights Holder",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/NKC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "No Known Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
                         },
                         {
                             "id": "http://vocab.getty.edu/aat/300418049",
@@ -1185,6 +1395,41 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/16168/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
                 }
             ]
         }
@@ -1345,6 +1590,41 @@
                             "id": "http://vocab.getty.edu/aat/300010358",
                             "type": "Type",
                             "_label": "materials (substances)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/16356/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
                         },
                         {
                             "id": "http://vocab.getty.edu/aat/300418049",
@@ -1530,6 +1810,41 @@
                             "id": "http://vocab.getty.edu/aat/300010358",
                             "type": "Type",
                             "_label": "materials (substances)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/16410/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "No Known Rights Holder",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/NKC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "No Known Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
                         },
                         {
                             "id": "http://vocab.getty.edu/aat/300418049",
@@ -1746,6 +2061,41 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/17425/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
                 }
             ]
         }
@@ -1899,6 +2249,41 @@
                             "id": "http://vocab.getty.edu/aat/300010358",
                             "type": "Type",
                             "_label": "materials (substances)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/17577/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "© Dines Carlsen",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/InC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "In Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
                         },
                         {
                             "id": "http://vocab.getty.edu/aat/300418049",
@@ -2067,6 +2452,41 @@
                             "id": "http://vocab.getty.edu/aat/300010358",
                             "type": "Type",
                             "_label": "materials (substances)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/20419/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "© Morgan Art Foundation/Artists Rights Society (ARS), New York",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/InC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "In Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
                         },
                         {
                             "id": "http://vocab.getty.edu/aat/300418049",
@@ -2268,6 +2688,41 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/21137/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
                 }
             ]
         }
@@ -2442,6 +2897,41 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/21288/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
                 }
             ]
         }
@@ -2599,6 +3089,58 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/24693/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/92384",
+                    "type": "ManMadeObject",
+                    "_label": "censer in form of teahouse"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/92385",
+                    "type": "ManMadeObject",
+                    "_label": "censer in form of teahouse"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/92386",
+                    "type": "ManMadeObject",
+                    "_label": "censer in form of teahouse"
                 }
             ]
         }
@@ -2790,6 +3332,58 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/25098/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/89367",
+                    "type": "ManMadeObject",
+                    "_label": "Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left)"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89368",
+                    "type": "ManMadeObject",
+                    "_label": "(C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89369",
+                    "type": "ManMadeObject",
+                    "_label": "Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊"
                 }
             ]
         }
@@ -2957,6 +3551,41 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/37383/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
                 }
             ]
         }
@@ -3110,6 +3739,41 @@
                             "id": "http://vocab.getty.edu/aat/300010358",
                             "type": "Type",
                             "_label": "materials (substances)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/41018/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
                         },
                         {
                             "id": "http://vocab.getty.edu/aat/300418049",
@@ -3277,6 +3941,41 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/41019/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
                 }
             ]
         }
@@ -3437,6 +4136,41 @@
                             "id": "http://vocab.getty.edu/aat/300010358",
                             "type": "Type",
                             "_label": "materials (substances)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/46950/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "No Known Rights Holder",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/NKC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "No Known Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
                         },
                         {
                             "id": "http://vocab.getty.edu/aat/300418049",
@@ -3616,6 +4350,41 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/47035/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
                 }
             ]
         }
@@ -3777,6 +4546,41 @@
                             "id": "http://vocab.getty.edu/aat/300010358",
                             "type": "Type",
                             "_label": "materials (substances)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/51330/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
                         },
                         {
                             "id": "http://vocab.getty.edu/aat/300418049",
@@ -3947,6 +4751,41 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/52481/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "No Known Rights Holder",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/NKC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "No Known Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
                 }
             ]
         }
@@ -4105,6 +4944,41 @@
                             "id": "http://vocab.getty.edu/aat/300010358",
                             "type": "Type",
                             "_label": "materials (substances)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/55312/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "No Known Rights Holder",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/NKC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "No Known Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
                         },
                         {
                             "id": "http://vocab.getty.edu/aat/300418049",
@@ -4294,6 +5168,53 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/64017/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "No Known Rights Holder",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/NKC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "No Known Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/64018",
+                    "type": "ManMadeObject",
+                    "_label": "earplug"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/64019",
+                    "type": "ManMadeObject",
+                    "_label": "earplug (for man or woman)"
                 }
             ]
         }
@@ -4476,6 +5397,41 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/64018/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "No Known Rights Holder",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/NKC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "No Known Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
                 }
             ]
         }
@@ -4651,6 +5607,41 @@
                             "id": "http://vocab.getty.edu/aat/300010358",
                             "type": "Type",
                             "_label": "materials (substances)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/64019/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "No Known Rights Holder",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/NKC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "No Known Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
                         },
                         {
                             "id": "http://vocab.getty.edu/aat/300418049",
@@ -4924,6 +5915,143 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/64628/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "© Jurgen Bey",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/InC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "In Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/68180",
+                    "type": "ManMadeObject",
+                    "_label": "Broken Family teapot"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68181",
+                    "type": "ManMadeObject",
+                    "_label": "Broken Family teapot"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68182",
+                    "type": "ManMadeObject",
+                    "_label": "lid for Broken Family teapot"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68183",
+                    "type": "ManMadeObject",
+                    "_label": "Broken Family sugar bowl"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68184",
+                    "type": "ManMadeObject",
+                    "_label": "Broken Family sugar bowl"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68185",
+                    "type": "ManMadeObject",
+                    "_label": "lid for Broken Family sugar bowl"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68186",
+                    "type": "ManMadeObject",
+                    "_label": "Broken Family creamer"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68187",
+                    "type": "ManMadeObject",
+                    "_label": "Broken Family cup"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68188",
+                    "type": "ManMadeObject",
+                    "_label": "Broken Family cup"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68189",
+                    "type": "ManMadeObject",
+                    "_label": "Broken Family cup"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68190",
+                    "type": "ManMadeObject",
+                    "_label": "Broken Family cup"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68191",
+                    "type": "ManMadeObject",
+                    "_label": "Broken Family saucer"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68192",
+                    "type": "ManMadeObject",
+                    "_label": "Broken Family saucer"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68193",
+                    "type": "ManMadeObject",
+                    "_label": "Broken Family saucer"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68194",
+                    "type": "ManMadeObject",
+                    "_label": "Broken Family saucer"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68195",
+                    "type": "ManMadeObject",
+                    "_label": "Broken Family platter"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68196",
+                    "type": "ManMadeObject",
+                    "_label": "Broken Family plate"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68197",
+                    "type": "ManMadeObject",
+                    "_label": "Broken Family plate"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68198",
+                    "type": "ManMadeObject",
+                    "_label": "Broken Family plate"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68199",
+                    "type": "ManMadeObject",
+                    "_label": "Broken Family plate"
                 }
             ]
         }
@@ -5117,6 +6245,53 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/67743/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "© Gaetano Pesce",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/InC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "In Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/69062",
+                    "type": "ManMadeObject",
+                    "_label": "UP5 chair"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/69063",
+                    "type": "ManMadeObject",
+                    "_label": "UP6 ottoman"
                 }
             ]
         }
@@ -5330,6 +6505,53 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68180/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "© Jurgen Bey",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/InC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "In Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/68181",
+                    "type": "ManMadeObject",
+                    "_label": "Broken Family teapot"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68182",
+                    "type": "ManMadeObject",
+                    "_label": "lid for Broken Family teapot"
                 }
             ]
         }
@@ -5548,6 +6770,41 @@
                             "id": "http://vocab.getty.edu/aat/300010358",
                             "type": "Type",
                             "_label": "materials (substances)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68181/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "© Jurgen Bey",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/InC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "In Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
                         },
                         {
                             "id": "http://vocab.getty.edu/aat/300418049",
@@ -5775,6 +7032,41 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68182/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "© Jurgen Bey",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/InC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "In Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
                 }
             ]
         }
@@ -5943,6 +7235,41 @@
                             "id": "http://vocab.getty.edu/aat/300010358",
                             "type": "Type",
                             "_label": "materials (substances)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/68903/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "© Los Carpinteros. Courtesy Sean Kelly Gallery, New York.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/InC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "In Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
                         },
                         {
                             "id": "http://vocab.getty.edu/aat/300418049",
@@ -6155,6 +7482,41 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/69062/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "© Gaetano Pesce",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/InC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "In Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
                 }
             ]
         }
@@ -6360,6 +7722,41 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/69063/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "© Gaetano Pesce",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/InC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "In Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
                 }
             ]
         }
@@ -6553,6 +7950,83 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/82696/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "© Roy Lichtenstein Foundation",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/InC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "In Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/85257",
+                    "type": "ManMadeObject",
+                    "_label": "element A for Five Brushstrokes"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/85258",
+                    "type": "ManMadeObject",
+                    "_label": "element B for Five Brushstrokes"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/85259",
+                    "type": "ManMadeObject",
+                    "_label": "element C for Five Brushstrokes"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/85260",
+                    "type": "ManMadeObject",
+                    "_label": "element D for Five Brushstrokes"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/85261",
+                    "type": "ManMadeObject",
+                    "_label": "element E.1 for Five Brushstrokes"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/85262",
+                    "type": "ManMadeObject",
+                    "_label": "element E.2 for Five Brushstrokes"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/85263",
+                    "type": "ManMadeObject",
+                    "_label": "element E.3 for Five Brushstrokes"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/85264",
+                    "type": "ManMadeObject",
+                    "_label": "element E.4 for Five Brushstrokes"
                 }
             ]
         }
@@ -6739,6 +8213,41 @@
                             "id": "http://vocab.getty.edu/aat/300010358",
                             "type": "Type",
                             "_label": "materials (substances)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/85257/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "© Roy Lichtenstein Foundation",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/InC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "In Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
                         },
                         {
                             "id": "http://vocab.getty.edu/aat/300418049",
@@ -6937,6 +8446,41 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89367/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
                 }
             ]
         }
@@ -7121,6 +8665,41 @@
                             "id": "http://vocab.getty.edu/aat/300010358",
                             "type": "Type",
                             "_label": "materials (substances)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89368/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
                         },
                         {
                             "id": "http://vocab.getty.edu/aat/300418049",
@@ -7319,6 +8898,41 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89369/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
                 }
             ]
         }
@@ -7489,6 +9103,23 @@
                             "_label": "brief texts"
                         }
                     ]
+                }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/92160",
+                    "type": "ManMadeObject",
+                    "_label": "Tricorne candleholder"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/92158",
+                    "type": "ManMadeObject",
+                    "_label": "Tricorne candleholder"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/92159",
+                    "type": "ManMadeObject",
+                    "_label": "Tricorne candleholders"
                 }
             ]
         }
@@ -8176,6 +9807,41 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/92384/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
                 }
             ]
         }
@@ -8338,6 +10004,41 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/92385/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
                 }
             ]
         }
@@ -8493,6 +10194,41 @@
                             "id": "http://vocab.getty.edu/aat/300010358",
                             "type": "Type",
                             "_label": "materials (substances)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/92386/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
                         },
                         {
                             "id": "http://vocab.getty.edu/aat/300418049",
@@ -8718,6 +10454,41 @@
                             "id": "http://vocab.getty.edu/aat/300010358",
                             "type": "Type",
                             "_label": "materials (substances)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/93739/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
                         },
                         {
                             "id": "http://vocab.getty.edu/aat/300418049",
