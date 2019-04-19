@@ -12,7 +12,7 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/stoneware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------stoneware------",
                     "type": "Type",
                     "_label": "stoneware"
                 }
@@ -202,12 +202,12 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/paintings",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------paintings------",
                     "type": "Type",
                     "_label": "paintings"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/oil-paintings",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------oil-paintings------",
                     "type": "Type",
                     "_label": "oil paintings"
                 }
@@ -388,6 +388,244 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/oil-paint",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "oil paint"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/canvas",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "canvas"
+                }
+            ]
+        }
+    },
+    {
+        "1105": {
+            "@context": "https://linked.art/ns/v1/linked-art.json",
+            "id": "https://data.discovernewfields.org/object/1105",
+            "type": "ManMadeObject",
+            "_label": "bowl",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300133025",
+                    "type": "Type",
+                    "_label": "works of art"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/type/--------bowls------",
+                    "type": "Type",
+                    "_label": "bowls"
+                }
+            ],
+            "identified_by": [
+                {
+                    "id": "https://data.discovernewfields.org/object/1105/irn",
+                    "type": "Identifier",
+                    "_label": "IMA at Newfields Collections Database Number for the Artwork",
+                    "content": 1105,
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404621",
+                            "type": "Type",
+                            "_label": "repository numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/1105/accession-number",
+                    "type": "Identifier",
+                    "_label": "IMA at Newfields Accession Number for the Artwork",
+                    "content": "1989.1569",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300312355",
+                            "type": "Type",
+                            "_label": "accession numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/1105/old-accession-number/1",
+                    "type": "Identifier",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+                    "content": "E84.43",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404626",
+                            "type": "Type",
+                            "_label": "identification numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/1105/title",
+                    "type": "Name",
+                    "_label": "Primary Title for the Artwork",
+                    "content": "bowl",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404670",
+                            "type": "Type",
+                            "_label": "preferred terms"
+                        }
+                    ]
+                }
+            ],
+            "current_owner": {
+                "id": "http://vocab.getty.edu/ulan/500300517",
+                "type": "Group",
+                "_label": "Indianapolis Museum of Art at Newfields",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300312281",
+                        "type": "Type",
+                        "_label": "museums (institutions)"
+                    }
+                ],
+                "acquired_title_through": [
+                    {
+                        "id": "https://data.discovernewfields.org/object/1105/IMA-acquisition",
+                        "type": "Acquisition",
+                        "_label": "Acquisition of bowl",
+                        "classified_as": [
+                            {
+                                "id": "http://vocab.getty.edu/aat/300157782",
+                                "type": "Type",
+                                "_label": "acquisition (collections management)"
+                            }
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "current_location": {
+            "id": "https://data.discovernewfields.org/thesauri/location/W302",
+                "type": "Place",
+                "_label": "Eiteljorg Suite of African and Oceanic Art",
+                "clasified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300240057",
+                        "type": "Type",
+                        "_label": "galleries (display spaces)"
+                    }
+                ]
+            },
+            "referred_to_by": [
+                {
+                    "id": "https://data.discovernewfields.org/object/1105/credit-line",
+                    "type": "LinguisticObject",
+                    "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                    "content": "Gift of Mr. and Mrs. Harrison Eiteljorg",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300026687",
+                            "type": "Type",
+                            "_label": "acknowledgments"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/1105/dimension-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Notes about the Dimensions of the Work",
+                    "content": "9 in.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300266036",
+                            "type": "Type",
+                            "_label": "dimensions"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/1105/materials-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Notes about the Materials in the Work",
+                    "content": "brass with gold covering",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300010358",
+                            "type": "Type",
+                            "_label": "materials (substances)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/1105/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "Public Domain",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/brass",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "brass"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/gold",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "gold"
+                }
             ]
         }
     },
@@ -404,12 +642,12 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/paintings",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------paintings------",
                     "type": "Type",
                     "_label": "paintings"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/oil-paintings",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------oil-paintings------",
                     "type": "Type",
                     "_label": "oil paintings"
                 }
@@ -617,6 +855,20 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/oil-paint",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "oil paint"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/canvas",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "canvas"
+                }
             ]
         }
     },
@@ -633,27 +885,27 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/furnishings",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------furnishings------",
                     "type": "Type",
                     "_label": "furnishings"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/textiles",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------textiles------",
                     "type": "Type",
                     "_label": "textiles"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/bed-coverings",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------bed-coverings------",
                     "type": "Type",
                     "_label": "bed coverings"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/quilts",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------quilts------",
                     "type": "Type",
                     "_label": "quilts"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/patchwork-quilts",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------patchwork-quilts------",
                     "type": "Type",
                     "_label": "patchwork quilts"
                 }
@@ -846,6 +1098,20 @@
                             "_label": "brief texts"
                         }
                     ]
+                }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/cotton-fabric",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "cotton {fabric}"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/wool-fabric",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "wool {fabric}"
                 }
             ]
         }
@@ -1055,7 +1321,7 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/oil-paintings",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------oil-paintings------",
                     "type": "Type",
                     "_label": "oil paintings"
                 }
@@ -1229,6 +1495,20 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/oil-paint",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "oil paint"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/canvas",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "canvas"
+                }
             ]
         }
     },
@@ -1245,12 +1525,12 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/prints",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------prints------",
                     "type": "Type",
                     "_label": "prints"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/woodcuts",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------woodcuts------",
                     "type": "Type",
                     "_label": "woodcuts"
                 }
@@ -1431,6 +1711,20 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/ink",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/paper",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "paper"
+                }
             ]
         }
     },
@@ -1447,12 +1741,12 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/prints",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------prints------",
                     "type": "Type",
                     "_label": "prints"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/engravings",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------engravings------",
                     "type": "Type",
                     "_label": "engravings"
                 }
@@ -1633,6 +1927,20 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/ink",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/paper",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "paper"
+                }
             ]
         }
     },
@@ -1649,17 +1957,17 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/costume-accessories-(worn)",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------costume-accessories-worn------",
                     "type": "Type",
                     "_label": "costume accessories (worn)"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/jewelry",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------jewelry------",
                     "type": "Type",
                     "_label": "jewelry"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/necklaces",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------necklaces------",
                     "type": "Type",
                     "_label": "necklaces"
                 }
@@ -1853,6 +2161,20 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/shell",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "shell"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/beads",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "beads"
+                }
             ]
         }
     },
@@ -1869,27 +2191,27 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/furnishings",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------furnishings------",
                     "type": "Type",
                     "_label": "furnishings"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/textiles",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------textiles------",
                     "type": "Type",
                     "_label": "textiles"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/bed-coverings",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------bed-coverings------",
                     "type": "Type",
                     "_label": "bed coverings"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/quilts",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------quilts------",
                     "type": "Type",
                     "_label": "quilts"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/patchwork-quilts",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------patchwork-quilts------",
                     "type": "Type",
                     "_label": "patchwork quilts"
                 }
@@ -2097,6 +2419,14 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/cotton-fabric",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "cotton {fabric}"
+                }
             ]
         }
     },
@@ -2113,12 +2443,12 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/paintings",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------paintings------",
                     "type": "Type",
                     "_label": "paintings"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/oil-paintings",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------oil-paintings------",
                     "type": "Type",
                     "_label": "oil paintings"
                 }
@@ -2292,6 +2622,20 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/oil-paint",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "oil paint"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/canvas",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "canvas"
+                }
             ]
         }
     },
@@ -2308,7 +2652,7 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/sculptures",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------sculptures------",
                     "type": "Type",
                     "_label": "sculptures"
                 }
@@ -2495,6 +2839,14 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/steel",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "steel"
+                }
             ]
         }
     },
@@ -2511,12 +2863,12 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/prints",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------prints------",
                     "type": "Type",
                     "_label": "prints"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/color-woodcuts",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------color-woodcuts------",
                     "type": "Type",
                     "_label": "color woodcuts"
                 }
@@ -2724,6 +3076,26 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/ink",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/colored-ink",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "colored ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/paper",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "paper"
+                }
             ]
         }
     },
@@ -2740,12 +3112,12 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/paintings",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------paintings------",
                     "type": "Type",
                     "_label": "paintings"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/oil-paintings",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------oil-paintings------",
                     "type": "Type",
                     "_label": "oil paintings"
                 }
@@ -2933,6 +3305,20 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/oil-paint",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "oil paint"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/canvas",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "canvas"
+                }
             ]
         }
     },
@@ -2949,7 +3335,7 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/sculptures",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------sculptures------",
                     "type": "Type",
                     "_label": "sculptures"
                 }
@@ -3126,6 +3512,20 @@
                     ]
                 }
             ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/glaze",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "glaze"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/earthenware",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "earthenware"
+                }
+            ],
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/92384",
@@ -3158,12 +3558,12 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/prints",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------prints------",
                     "type": "Type",
                     "_label": "prints"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/color-woodcuts",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------color-woodcuts------",
                     "type": "Type",
                     "_label": "color woodcuts"
                 }
@@ -3369,6 +3769,26 @@
                     ]
                 }
             ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/ink",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/colored-ink",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "colored ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/paper",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "paper"
+                }
+            ],
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/89367",
@@ -3401,12 +3821,12 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/paintings",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------paintings------",
                     "type": "Type",
                     "_label": "paintings"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/oil-paintings",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------oil-paintings------",
                     "type": "Type",
                     "_label": "oil paintings"
                 }
@@ -3586,6 +4006,20 @@
                             "_label": "brief texts"
                         }
                     ]
+                }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/oil-paint",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "oil paint"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/canvas",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "canvas"
                 }
             ]
         }
@@ -3782,6 +4216,14 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/paper",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "paper"
+                }
             ]
         }
     },
@@ -3977,6 +4419,14 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/paper",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "paper"
+                }
             ]
         }
     },
@@ -3993,12 +4443,12 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/banners",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------banners------",
                     "type": "Type",
                     "_label": "banners"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/flags",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------flags------",
                     "type": "Type",
                     "_label": "flags"
                 }
@@ -4195,17 +4645,17 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/reproductions",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------reproductions------",
                     "type": "Type",
                     "_label": "reproductions"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/sculptures",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------sculptures------",
                     "type": "Type",
                     "_label": "sculptures"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/casts",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------casts------",
                     "type": "Type",
                     "_label": "casts"
                 }
@@ -4386,6 +4836,14 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/plaster",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "plaster"
+                }
             ]
         }
     },
@@ -4402,7 +4860,7 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/color-woodcuts",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------color-woodcuts------",
                     "type": "Type",
                     "_label": "color woodcuts"
                 }
@@ -4588,6 +5046,26 @@
                             "_label": "brief texts"
                         }
                     ]
+                }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/ink",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/color",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "color"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/paper",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "paper"
                 }
             ]
         }
@@ -4786,6 +5264,20 @@
                             "_label": "brief texts"
                         }
                     ]
+                }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/ink",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/paper",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "paper"
                 }
             ]
         }
@@ -5003,7 +5495,7 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/earplugs",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------earplugs------",
                     "type": "Type",
                     "_label": "earplugs"
                 }
@@ -5205,6 +5697,20 @@
                     ]
                 }
             ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/pigment",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "pigment"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/wood",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "wood"
+                }
+            ],
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/64018",
@@ -5232,7 +5738,7 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/earplugs",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------earplugs------",
                     "type": "Type",
                     "_label": "earplugs"
                 }
@@ -5433,6 +5939,26 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/synthetic-resin",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "synthetic resin"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/metal",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "metal"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/wood",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "wood"
+                }
             ]
         }
     },
@@ -5449,7 +5975,7 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/earplugs",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------earplugs------",
                     "type": "Type",
                     "_label": "earplugs"
                 }
@@ -5650,6 +6176,20 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/pigment",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "pigment"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/wood",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "wood"
+                }
             ]
         }
     },
@@ -5666,72 +6206,72 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tea-services",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tea-services------",
                     "type": "Type",
                     "_label": "tea services"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/teapots",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------teapots------",
                     "type": "Type",
                     "_label": "teapots"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/lids",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------lids------",
                     "type": "Type",
                     "_label": "lids"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/creamers",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------creamers------",
                     "type": "Type",
                     "_label": "creamers"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/sugar-bowls",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------sugar-bowls------",
                     "type": "Type",
                     "_label": "sugar bowls"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/cups",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------cups------",
                     "type": "Type",
                     "_label": "cups"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/saucers",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------saucers------",
                     "type": "Type",
                     "_label": "saucers"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/platters",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------platters------",
                     "type": "Type",
                     "_label": "platters"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/plates",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------plates------",
                     "type": "Type",
                     "_label": "plates"
                 }
@@ -5952,6 +6492,20 @@
                     ]
                 }
             ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/silver-plate",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/ceramic",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "ceramic"
+                }
+            ],
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/68180",
@@ -6069,12 +6623,12 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/furniture",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------furniture------",
                     "type": "Type",
                     "_label": "furniture"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/chairs",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------chairs------",
                     "type": "Type",
                     "_label": "chairs"
                 }
@@ -6282,6 +6836,26 @@
                     ]
                 }
             ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/fabric",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "fabric"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/plastic",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "plastic"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/structural-foam",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "structural foam"
+                }
+            ],
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/69062",
@@ -6309,37 +6883,37 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/teapots",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------teapots------",
                     "type": "Type",
                     "_label": "teapots"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/lids",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------lids------",
                     "type": "Type",
                     "_label": "lids"
                 }
@@ -6542,6 +7116,20 @@
                     ]
                 }
             ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/silver-plate",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/ceramic",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "ceramic"
+                }
+            ],
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/68181",
@@ -6569,37 +7157,37 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tea-services",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tea-services------",
                     "type": "Type",
                     "_label": "tea services"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/teapots",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------teapots------",
                     "type": "Type",
                     "_label": "teapots"
                 }
@@ -6813,6 +7401,20 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/silver-plate",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/ceramic",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "ceramic"
+                }
             ]
         }
     },
@@ -6829,32 +7431,32 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/lids",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------lids------",
                     "type": "Type",
                     "_label": "lids"
                 }
@@ -7068,6 +7670,20 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/silver-plate",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/ceramic",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "ceramic"
+                }
             ]
         }
     },
@@ -7084,7 +7700,7 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/installations",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------installations------",
                     "type": "Type",
                     "_label": "installations"
                 }
@@ -7278,6 +7894,26 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/plastic",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "plastic"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/paint",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "paint"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/steel",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "steel"
+                }
             ]
         }
     },
@@ -7294,12 +7930,12 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/furniture",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------furniture------",
                     "type": "Type",
                     "_label": "furniture"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/chairs",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------chairs------",
                     "type": "Type",
                     "_label": "chairs"
                 }
@@ -7518,6 +8154,26 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/fabric",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "fabric"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/plastic",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "plastic"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/structural-foam",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "structural foam"
+                }
             ]
         }
     },
@@ -7534,12 +8190,12 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/furniture",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------furniture------",
                     "type": "Type",
                     "_label": "furniture"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/chairs",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------chairs------",
                     "type": "Type",
                     "_label": "chairs"
                 }
@@ -7758,6 +8414,26 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/fabric",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "fabric"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/plastic",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "plastic"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/structural-foam",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "structural foam"
+                }
             ]
         }
     },
@@ -7774,7 +8450,7 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/outdoor-sculpture",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------outdoor-sculpture------",
                     "type": "Type",
                     "_label": "outdoor sculpture"
                 }
@@ -7987,6 +8663,20 @@
                     ]
                 }
             ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/paint",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "paint"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/aluminum",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "aluminum"
+                }
+            ],
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/85257",
@@ -8044,7 +8734,7 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/outdoor-sculpture",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------outdoor-sculpture------",
                     "type": "Type",
                     "_label": "outdoor sculpture"
                 }
@@ -8256,6 +8946,20 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/paint",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "paint"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/aluminum",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "aluminum"
+                }
             ]
         }
     },
@@ -8272,12 +8976,12 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/prints",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------prints------",
                     "type": "Type",
                     "_label": "prints"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/color-woodcuts",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------color-woodcuts------",
                     "type": "Type",
                     "_label": "color woodcuts"
                 }
@@ -8482,6 +9186,26 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/ink",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/colored-ink",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "colored ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/paper",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "paper"
+                }
             ]
         }
     },
@@ -8498,12 +9222,12 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/prints",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------prints------",
                     "type": "Type",
                     "_label": "prints"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/color-woodcuts",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------color-woodcuts------",
                     "type": "Type",
                     "_label": "color woodcuts"
                 }
@@ -8708,6 +9432,26 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/ink",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/colored-ink",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "colored ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/paper",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "paper"
+                }
             ]
         }
     },
@@ -8724,12 +9468,12 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/prints",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------prints------",
                     "type": "Type",
                     "_label": "prints"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/color-woodcuts",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------color-woodcuts------",
                     "type": "Type",
                     "_label": "color woodcuts"
                 }
@@ -8934,6 +9678,26 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/ink",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/colored-ink",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "colored ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/paper",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "paper"
+                }
             ]
         }
     },
@@ -8950,7 +9714,7 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/candelabras",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------candelabras------",
                     "type": "Type",
                     "_label": "candelabras"
                 }
@@ -9105,6 +9869,14 @@
                     ]
                 }
             ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/glass",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "glass"
+                }
+            ],
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/92160",
@@ -9137,7 +9909,7 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/candelabras",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------candelabras------",
                     "type": "Type",
                     "_label": "candelabras"
                 }
@@ -9296,6 +10068,14 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/glass",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "glass"
+                }
             ]
         }
     },
@@ -9312,7 +10092,7 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/candelabras",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------candelabras------",
                     "type": "Type",
                     "_label": "candelabras"
                 }
@@ -9471,6 +10251,14 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/glass",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "glass"
+                }
             ]
         }
     },
@@ -9487,7 +10275,7 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/candelabras",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------candelabras------",
                     "type": "Type",
                     "_label": "candelabras"
                 }
@@ -9646,6 +10434,14 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/glass",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "glass"
+                }
             ]
         }
     },
@@ -9662,7 +10458,7 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/sculptures",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------sculptures------",
                     "type": "Type",
                     "_label": "sculptures"
                 }
@@ -9843,6 +10639,20 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/glaze",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "glaze"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/earthenware",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "earthenware"
+                }
             ]
         }
     },
@@ -9859,7 +10669,7 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/sculptures",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------sculptures------",
                     "type": "Type",
                     "_label": "sculptures"
                 }
@@ -10040,6 +10850,20 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/glaze",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "glaze"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/earthenware",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "earthenware"
+                }
             ]
         }
     },
@@ -10056,7 +10880,7 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/sculptures",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------sculptures------",
                     "type": "Type",
                     "_label": "sculptures"
                 }
@@ -10237,6 +11061,20 @@
                         }
                     ]
                 }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/glaze",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "glaze"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/earthenware",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "earthenware"
+                }
             ]
         }
     },
@@ -10253,7 +11091,7 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/fountains",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------fountains------",
                     "type": "Type",
                     "_label": "fountains"
                 }
@@ -10496,6 +11334,14 @@
                             "_label": "brief texts"
                         }
                     ]
+                }
+            ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/marble",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "marble"
                 }
             ]
         }

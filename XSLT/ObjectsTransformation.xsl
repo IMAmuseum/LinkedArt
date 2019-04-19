@@ -27,7 +27,7 @@ Classification-->
                     "_label": "works of art"
                 }<xsl:if test="table[@name='ObjectTypes']/tuple/atom[@name='PhyMediaCategory'] != '' ">,<xsl:for-each select="table[@name='ObjectTypes']/tuple">
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/>thesauri/type/<xsl:value-of select="lower-case(translate(atom[@name='PhyMediaCategory'], ' ', '-'))"/>",
+                "id": "<xsl:copy-of select="$baseURI"/>thesauri/type/<xsl:value-of select="lower-case(translate(replace(.,'[^a-zA-Z0-9 ]',''), ' ', '-'))"/>",
                     "type": "Type",
                     "_label": "<xsl:value-of select="atom[@name='PhyMediaCategory']"/>"
                 }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each></xsl:if>
@@ -393,6 +393,16 @@ Linquistic Objects-->
                         }
                     ]
                 }</xsl:if></xsl:if>
+            ]</xsl:if><xsl:if test="table[@name='Medium'] or table[@name='Support']">,<!--  
+            
+Materials-->
+            "made_of": [<xsl:for-each select="distinct-values(table[@name='Medium']/tuple/atom[@name='PhyMedium'] | table[@name='Support']/tuple/atom[@name='PhySupport'])">
+                {
+                "id": "<xsl:copy-of select="$baseURI"/>thesauri/<xsl:value-of select="lower-case(translate(replace(.,'[^a-zA-Z0-9 ]',''), ' ', '-'))"/>",
+                    "type": "Material",
+                    "_label": "Material of Which the Object is Composed",
+                    "content": "<xsl:value-of select="."/>"
+                }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each>
             ]</xsl:if><xsl:if test="atom[@name='AssIsParent'] = 'Yes' and table[@name='Children']">,<!--
 
 Parts-->
