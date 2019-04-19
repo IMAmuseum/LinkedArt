@@ -10,7 +10,8 @@
 This transformation outputs a bash script with a cat command per object in the input file. Each command includes the input filename, which will need to be modified when the workflow is set with a final filename for combined JSON file.-->
 <xsl:template match="/">#!/bin/bash
 <xsl:for-each select="table[@name='ecatalogue']/tuple">
-cat ObjectsSample.json | jq '.objects[]."<xsl:value-of select="atom[@name='irn']"/>"//empty' > <xsl:value-of select="atom[@name='irn']"/>.json
+mkdir -p objects/<xsl:value-of select="round(atom[@name='irn'] div 100) * 100"/>/<xsl:value-of select="atom[@name='irn']"/>
+cat ObjectsSample.json | jq '.objects[]."<xsl:value-of select="atom[@name='irn']"/>"//empty' > objects/<xsl:value-of select="round(atom[@name='irn'] div 100) * 100"/>/<xsl:value-of select="atom[@name='irn']"/>/<xsl:value-of select="atom[@name='irn']"/>.json
 </xsl:for-each>
 </xsl:template>
 </xsl:stylesheet>
