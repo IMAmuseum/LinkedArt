@@ -44,7 +44,9 @@
     text long       CreCreationDynasty
     table           Creator1
       text short      CreRole
+      text long       CreCreatorAfterFollower
       integer         irn
+      text long       SummaryData
     end
     table           Creator2
       text long       CreCreatorAttribution
@@ -184,10 +186,12 @@
       <tuple>
         <atom name="CreRole">Designer</atom>
         <atom name="irn">5679</atom>
+        <atom name="SummaryData">Bey, Jurgen</atom>
       </tuple>
       <tuple>
         <atom name="CreRole">Manufacturer</atom>
         <atom name="irn">5679</atom>
+        <atom name="SummaryData">Bey, Jurgen</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>
@@ -369,6 +373,7 @@
       <tuple>
         <atom name="CreRole">Designer</atom>
         <atom name="irn">5679</atom>
+        <atom name="SummaryData">Bey, Jurgen</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>
@@ -536,6 +541,7 @@
       <tuple>
         <atom name="CreRole">Designer</atom>
         <atom name="irn">5679</atom>
+        <atom name="SummaryData">Bey, Jurgen</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>
@@ -638,6 +644,7 @@
       <tuple>
         <atom name="CreRole">Designer</atom>
         <atom name="irn">5679</atom>
+        <atom name="SummaryData">Bey, Jurgen</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>
@@ -733,6 +740,7 @@
       <tuple>
         <atom name="CreRole">Designer</atom>
         <atom name="irn">5679</atom>
+        <atom name="SummaryData">Bey, Jurgen</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>
@@ -896,6 +904,7 @@
       <tuple>
         <atom name="CreRole">Designer</atom>
         <atom name="irn">5679</atom>
+        <atom name="SummaryData">Bey, Jurgen</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>
@@ -984,6 +993,7 @@
       <tuple>
         <atom name="CreRole">Designer</atom>
         <atom name="irn">5679</atom>
+        <atom name="SummaryData">Bey, Jurgen</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>
@@ -1076,6 +1086,7 @@
       <tuple>
         <atom name="CreRole">Designer</atom>
         <atom name="irn">5679</atom>
+        <atom name="SummaryData">Bey, Jurgen</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>
@@ -1238,6 +1249,7 @@
       <tuple>
         <atom name="CreRole">Designer</atom>
         <atom name="irn">5679</atom>
+        <atom name="SummaryData">Bey, Jurgen</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>
@@ -1398,6 +1410,7 @@
       <tuple>
         <atom name="CreRole">Designer</atom>
         <atom name="irn">5679</atom>
+        <atom name="SummaryData">Bey, Jurgen</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>
@@ -1558,6 +1571,7 @@
       <tuple>
         <atom name="CreRole">Designer</atom>
         <atom name="irn">5679</atom>
+        <atom name="SummaryData">Bey, Jurgen</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>
@@ -1718,6 +1732,7 @@
       <tuple>
         <atom name="CreRole">Designer</atom>
         <atom name="irn">5679</atom>
+        <atom name="SummaryData">Bey, Jurgen</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>
@@ -1878,6 +1893,7 @@
       <tuple>
         <atom name="CreRole">Designer</atom>
         <atom name="irn">5679</atom>
+        <atom name="SummaryData">Bey, Jurgen</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>
@@ -2038,6 +2054,7 @@
       <tuple>
         <atom name="CreRole">Designer</atom>
         <atom name="irn">5679</atom>
+        <atom name="SummaryData">Bey, Jurgen</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>
@@ -2198,6 +2215,7 @@
       <tuple>
         <atom name="CreRole">Designer</atom>
         <atom name="irn">5679</atom>
+        <atom name="SummaryData">Bey, Jurgen</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>
@@ -2358,6 +2376,7 @@
       <tuple>
         <atom name="CreRole">Designer</atom>
         <atom name="irn">5679</atom>
+        <atom name="SummaryData">Bey, Jurgen</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>
@@ -2518,6 +2537,7 @@
       <tuple>
         <atom name="CreRole">Designer</atom>
         <atom name="irn">5679</atom>
+        <atom name="SummaryData">Bey, Jurgen</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>
@@ -2680,6 +2700,7 @@
       <tuple>
         <atom name="CreRole">Designer</atom>
         <atom name="irn">5679</atom>
+        <atom name="SummaryData">Bey, Jurgen</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>
@@ -2840,6 +2861,7 @@
       <tuple>
         <atom name="CreRole">Designer</atom>
         <atom name="irn">5679</atom>
+        <atom name="SummaryData">Bey, Jurgen</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>
@@ -3000,6 +3022,7 @@
       <tuple>
         <atom name="CreRole">Designer</atom>
         <atom name="irn">5679</atom>
+        <atom name="SummaryData">Bey, Jurgen</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>
@@ -3160,6 +3183,7 @@
       <tuple>
         <atom name="CreRole">Designer</atom>
         <atom name="irn">5679</atom>
+        <atom name="SummaryData">Bey, Jurgen</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>

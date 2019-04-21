@@ -144,7 +144,37 @@ Titles-->
                         }
                     ]
                 }</xsl:if>
-            ],<!--
+        ]<xsl:if test="table[@name='Medium'] or table[@name='Support']">,<!--  
+            
+Materials-->
+            "made_of": [<xsl:for-each select="distinct-values(table[@name='Medium']/tuple/atom[@name='PhyMedium'] | table[@name='Support']/tuple/atom[@name='PhySupport'])">
+                {
+                "id": "<xsl:copy-of select="$baseURI"/>thesauri/material/<xsl:value-of select="lower-case(translate(replace(.,'[^a-zA-Z0-9 ]',''), ' ', '-'))"/>",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "<xsl:value-of select="."/>"
+                }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each>
+            ]</xsl:if>,<!--
+
+Production-->
+            "produced_by": {
+                "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/production",
+                "type": "Production",
+                "_label": "Production of <xsl:value-of select="atom[@name='TitMainTitle']"/>"<xsl:if test="table[@name='Creator1'] or table[@name='Creator2']"><xsl:choose><xsl:when test="table[@name='Creator1']">,
+                "carried_out_by": [<xsl:for-each select="table[@name='Creator1']/tuple[atom[@name='irn'] != '2741'] | table[@name='Creator1']/tuple[atom[@name='irn'] != '10661'] | table[@name='Creator1']/tuple[not(exists(atom[@name='CreCreatorAfterFollower']))]">
+                    {
+                        "id": "<xsl:copy-of select="$baseURI"/>actor/<xsl:value-of select="atom[@name='irn']"/>",
+                        "type": "Actor",
+                        "_label": "<xsl:value-of select="atom[@name='SummaryData']"/>"
+                    }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each></xsl:when><xsl:when test="table[@name='Creator2']/tuple[atom[@name='CreCreationCultureOrPeople']]">,
+                "carried_out_by": [<xsl:for-each select="table[@name='Creator2']/tuple[atom[@name='CreCreationCultureOrPeople']]">
+                    {
+                    "id": "<xsl:copy-of select="$baseURI"/>thesauri/culture/<xsl:value-of select="lower-case(translate(replace(atom[@name='CreCreationCultureOrPeople'],'[^a-zA-Z0-9 ]',''), ' ', '-'))"/>",
+                        "type": "Actor",
+                        "_label": "<xsl:value-of select="atom[@name='CreCreationCultureOrPeople']"/>"
+                    }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each></xsl:when><xsl:otherwise/></xsl:choose>             
+                ]</xsl:if>
+            },<!--
                 
 Owner-->
             "current_owner": {
@@ -393,16 +423,6 @@ Linquistic Objects-->
                         }
                     ]
                 }</xsl:if></xsl:if>
-            ]</xsl:if><xsl:if test="table[@name='Medium'] or table[@name='Support']">,<!--  
-            
-Materials-->
-            "made_of": [<xsl:for-each select="distinct-values(table[@name='Medium']/tuple/atom[@name='PhyMedium'] | table[@name='Support']/tuple/atom[@name='PhySupport'])">
-                {
-                "id": "<xsl:copy-of select="$baseURI"/>thesauri/<xsl:value-of select="lower-case(translate(replace(.,'[^a-zA-Z0-9 ]',''), ' ', '-'))"/>",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "<xsl:value-of select="."/>"
-                }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each>
             ]</xsl:if><xsl:if test="atom[@name='AssIsParent'] = 'Yes' and table[@name='Children']">,<!--
 
 Parts-->

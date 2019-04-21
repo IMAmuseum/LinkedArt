@@ -57,7 +57,12 @@
                         }
                     ]
                 }
-            ],
+        ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/1032/production",
+                "type": "Production",
+                "_label": "Production of long-neck vase with cup mouth"
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -252,7 +257,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/oil-paint",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "oil paint"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/canvas",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "canvas"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/1065/production",
+                "type": "Production",
+                "_label": "Production of The Bachelor Boudoir (Corner of the Studio)",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/733",
+                        "type": "Actor",
+                        "_label": "Fiscus, Charles J."
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -388,20 +419,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/oil-paint",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "oil paint"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/canvas",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "canvas"
-                }
             ]
         }
     },
@@ -476,7 +493,38 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/brass",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "brass"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/gold",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "gold"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/1105/production",
+                "type": "Production",
+                "_label": "Production of bowl",
+                "carried_out_by": [
+                    {
+                    "id": "https://data.discovernewfields.org/thesauri/culture/benin-kingdom",
+                        "type": "Actor",
+                        "_label": "Benin Kingdom"
+                    },
+                    {
+                    "id": "https://data.discovernewfields.org/thesauri/culture/edo-people",
+                        "type": "Actor",
+                        "_label": "Edo people"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -612,20 +660,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/brass",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "brass"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/gold",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "gold"
-                }
             ]
         }
     },
@@ -719,7 +753,33 @@
                     ]
                 }
             
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/oil-paint",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "oil paint"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/canvas",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "canvas"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/3521/production",
+                "type": "Production",
+                "_label": "Production of Still Life with Flowerpot",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5060",
+                        "type": "Actor",
+                        "_label": "Beem, Paul Edward"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -855,20 +915,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/oil-paint",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "oil paint"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/canvas",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "canvas"
-                }
             ]
         }
     },
@@ -963,7 +1009,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/cotton-fabric",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "cotton {fabric}"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/wool-fabric",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "wool {fabric}"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/8407/production",
+                "type": "Production",
+                "_label": "Production of quilt (Diamond in Square)",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/2741",
+                        "type": "Actor",
+                        "_label": "Unknown"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -1099,20 +1171,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/cotton-fabric",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "cotton {fabric}"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/wool-fabric",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "wool {fabric}"
-                }
             ]
         }
     },
@@ -1169,7 +1227,19 @@
                         }
                     ]
                 }
-            ],
+        ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/14365/production",
+                "type": "Production",
+                "_label": "Production of fragment",
+                "carried_out_by": [
+                    {
+                    "id": "https://data.discovernewfields.org/thesauri/culture/chim-culture",
+                        "type": "Actor",
+                        "_label": "Chimú culture"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -1366,7 +1436,38 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/oil-paint",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "oil paint"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/canvas",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "canvas"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/14617/production",
+                "type": "Production",
+                "_label": "Production of Matthew Prior",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/2741",
+                        "type": "Actor",
+                        "_label": "Unknown"
+                    },
+                    {
+                        "id": "https://data.discovernewfields.org/actor/619988",
+                        "type": "Actor",
+                        "_label": "Richardson, Jonathan the elder"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -1495,20 +1596,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/oil-paint",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "oil paint"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/canvas",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "canvas"
-                }
             ]
         }
     },
@@ -1575,7 +1662,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ink",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/paper",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "paper"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/16168/production",
+                "type": "Production",
+                "_label": "Production of Jesus and the Apostles",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/2741",
+                        "type": "Actor",
+                        "_label": "Unknown"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -1711,20 +1824,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/ink",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "ink"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/paper",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "paper"
-                }
             ]
         }
     },
@@ -1791,7 +1890,38 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ink",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/paper",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "paper"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/16356/production",
+                "type": "Production",
+                "_label": "Production of Whistler's Mother",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/737",
+                        "type": "Actor",
+                        "_label": "Wolf, Henry"
+                    },
+                    {
+                        "id": "https://data.discovernewfields.org/actor/612140",
+                        "type": "Actor",
+                        "_label": "Whistler, James Abbott McNeill"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -1927,20 +2057,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/ink",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "ink"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/paper",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "paper"
-                }
             ]
         }
     },
@@ -2025,7 +2141,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/shell",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "shell"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/beads",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "beads"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/16410/production",
+                "type": "Production",
+                "_label": "Production of necklace",
+                "carried_out_by": [
+                    {
+                    "id": "https://data.discovernewfields.org/thesauri/culture/pueblo-people",
+                        "type": "Actor",
+                        "_label": "Pueblo people"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -2161,20 +2303,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/shell",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "shell"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/beads",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "beads"
-                }
             ]
         }
     },
@@ -2283,7 +2411,27 @@
                     ]
                 }
             
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/cotton-fabric",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "cotton {fabric}"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/17425/production",
+                "type": "Production",
+                "_label": "Production of quilt (Sawtooth Diamond in Square)",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/2741",
+                        "type": "Actor",
+                        "_label": "Unknown"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -2419,14 +2567,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/cotton-fabric",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "cotton {fabric}"
-                }
             ]
         }
     },
@@ -2493,7 +2633,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/oil-paint",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "oil paint"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/canvas",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "canvas"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/17577/production",
+                "type": "Production",
+                "_label": "Production of Dines with Writing Material",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/510",
+                        "type": "Actor",
+                        "_label": "Carlsen, Dines"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -2622,20 +2788,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/oil-paint",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "oil paint"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/canvas",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "canvas"
-                }
             ]
         }
     },
@@ -2710,7 +2862,32 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/steel",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "steel"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/20419/production",
+                "type": "Production",
+                "_label": "Production of Love",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/615130",
+                        "type": "Actor",
+                        "_label": "Indiana, Robert"
+                    },
+                    {
+                        "id": "https://data.discovernewfields.org/actor/10433",
+                        "type": "Actor",
+                        "_label": "Lippincott, LLC"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -2839,14 +3016,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/steel",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "steel"
-                }
             ]
         }
     },
@@ -2940,7 +3109,39 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ink",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/colored-ink",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "colored ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/paper",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "paper"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/21137/production",
+                "type": "Production",
+                "_label": "Production of Hakone",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/592",
+                        "type": "Actor",
+                        "_label": "Utagawa Hiroshige 歌川広重"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -3076,26 +3277,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/ink",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "ink"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/colored-ink",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "colored ink"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/paper",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "paper"
-                }
             ]
         }
     },
@@ -3162,7 +3343,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/oil-paint",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "oil paint"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/canvas",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "canvas"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/21288/production",
+                "type": "Production",
+                "_label": "Production of Portrait of William Merritt Chase",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/345",
+                        "type": "Actor",
+                        "_label": "Beckwith, James Carroll"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -3305,20 +3512,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/oil-paint",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "oil paint"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/canvas",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "canvas"
-                }
             ]
         }
     },
@@ -3380,7 +3573,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/glaze",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "glaze"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/earthenware",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "earthenware"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/24693/production",
+                "type": "Production",
+                "_label": "Production of censer in form of teahouse",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/10661",
+                        "type": "Actor",
+                        "_label": "Unknown 作者不詳"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -3512,20 +3731,6 @@
                     ]
                 }
             ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/glaze",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "glaze"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/earthenware",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "earthenware"
-                }
-            ],
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/92384",
@@ -3621,7 +3826,39 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ink",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/colored-ink",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "colored ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/paper",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "paper"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/25098/production",
+                "type": "Production",
+                "_label": "Production of (L) Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left);  (C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛;  (R) Sawamura Tosshō　沢村訥升 as Rai Kunitoshi  来国俊",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/11366",
+                        "type": "Actor",
+                        "_label": "Utagawa Kunisada 歌川国貞"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -3769,26 +4006,6 @@
                     ]
                 }
             ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/ink",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "ink"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/colored-ink",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "colored ink"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/paper",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "paper"
-                }
-            ],
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/89367",
@@ -3871,7 +4088,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/oil-paint",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "oil paint"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/canvas",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "canvas"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/37383/production",
+                "type": "Production",
+                "_label": "Production of Oaks of Vernon",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/11566",
+                        "type": "Actor",
+                        "_label": "Steele, Theodore Clement"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -4007,20 +4250,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/oil-paint",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "oil paint"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/canvas",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "canvas"
-                }
             ]
         }
     },
@@ -4103,7 +4332,32 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/paper",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "paper"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/41018/production",
+                "type": "Production",
+                "_label": "Production of Glencoe",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/626263",
+                        "type": "Actor",
+                        "_label": "Turner, Joseph Mallord William"
+                    },
+                    {
+                        "id": "https://data.discovernewfields.org/actor/832",
+                        "type": "Actor",
+                        "_label": "Miller, William"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -4216,14 +4470,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/paper",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "paper"
-                }
             ]
         }
     },
@@ -4306,7 +4552,32 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/paper",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "paper"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/41019/production",
+                "type": "Production",
+                "_label": "Production of Killiecrankie",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/626263",
+                        "type": "Actor",
+                        "_label": "Turner, Joseph Mallord William"
+                    },
+                    {
+                        "id": "https://data.discovernewfields.org/actor/832",
+                        "type": "Actor",
+                        "_label": "Miller, William"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -4419,14 +4690,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/paper",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "paper"
-                }
             ]
         }
     },
@@ -4493,7 +4756,12 @@
                         }
                     ]
                 }
-            ],
+        ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/46950/production",
+                "type": "Production",
+                "_label": "Production of United States Flag"
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -4700,7 +4968,27 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/plaster",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "plaster"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/47035/production",
+                "type": "Production",
+                "_label": "Production of Statue of Augustus Caesar",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/2741",
+                        "type": "Actor",
+                        "_label": "Unknown"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -4836,14 +5124,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/plaster",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "plaster"
-                }
             ]
         }
     },
@@ -4918,7 +5198,39 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ink",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/color",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "color"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/paper",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "paper"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/51330/production",
+                "type": "Production",
+                "_label": "Production of Towing Boat at Yotsugi Dōri [40] (Yotsugi dōri no hikifune)",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/8686",
+                        "type": "Actor",
+                        "_label": "Utagawa Hirokage"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -5047,26 +5359,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/ink",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "ink"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/color",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "color"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/paper",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "paper"
-                }
             ]
         }
     },
@@ -5136,7 +5428,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ink",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/paper",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "paper"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/52481/production",
+                "type": "Production",
+                "_label": "Production of Spring snow on Sumida River 隅田川　春雪",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/11362",
+                        "type": "Actor",
+                        "_label": "Katsushika Hokusai 葛飾北斎"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -5265,20 +5583,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/ink",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "ink"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/paper",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "paper"
-                }
             ]
         }
     },
@@ -5361,7 +5665,12 @@
                         }
                     ]
                 }
-            ],
+        ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/55312/production",
+                "type": "Production",
+                "_label": "Production of "
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -5553,7 +5862,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/pigment",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "pigment"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/wood",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "wood"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/64017/production",
+                "type": "Production",
+                "_label": "Production of pair of earplugs (for man or woman)",
+                "carried_out_by": [
+                    {
+                    "id": "https://data.discovernewfields.org/thesauri/culture/zulu-people",
+                        "type": "Actor",
+                        "_label": "Zulu people"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -5697,20 +6032,6 @@
                     ]
                 }
             ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/pigment",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "pigment"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/wood",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "wood"
-                }
-            ],
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/64018",
@@ -5796,7 +6117,39 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/synthetic-resin",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "synthetic resin"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/metal",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "metal"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/wood",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "wood"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/64018/production",
+                "type": "Production",
+                "_label": "Production of earplug",
+                "carried_out_by": [
+                    {
+                    "id": "https://data.discovernewfields.org/thesauri/culture/zulu-people",
+                        "type": "Actor",
+                        "_label": "Zulu people"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -5939,26 +6292,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/synthetic-resin",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "synthetic resin"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/metal",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "metal"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/wood",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "wood"
-                }
             ]
         }
     },
@@ -6033,7 +6366,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/pigment",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "pigment"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/wood",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "wood"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/64019/production",
+                "type": "Production",
+                "_label": "Production of earplug (for man or woman)",
+                "carried_out_by": [
+                    {
+                    "id": "https://data.discovernewfields.org/thesauri/culture/zulu-people",
+                        "type": "Actor",
+                        "_label": "Zulu people"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -6175,20 +6534,6 @@
                             "_label": "brief texts"
                         }
                     ]
-                }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/pigment",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "pigment"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/wood",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "wood"
                 }
             ]
         }
@@ -6342,7 +6687,38 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ceramic",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ceramic"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/64628/production",
+                "type": "Production",
+                "_label": "Production of Broken Family tea set",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    },
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -6490,20 +6866,6 @@
                             "_label": "brief texts"
                         }
                     ]
-                }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/silver-plate",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "silver plate"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/ceramic",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "ceramic"
                 }
             ],
             "part": [
@@ -6686,7 +7048,44 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/fabric",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "fabric"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/plastic",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "plastic"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/structural-foam",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "structural foam"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/67743/production",
+                "type": "Production",
+                "_label": "Production of UP5 chair and UP6 ottoman",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/612112",
+                        "type": "Actor",
+                        "_label": "Pesce, Gaetano"
+                    },
+                    {
+                        "id": "https://data.discovernewfields.org/actor/6507",
+                        "type": "Actor",
+                        "_label": "B&B Italia, S.p.A."
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -6836,26 +7235,6 @@
                     ]
                 }
             ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/fabric",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "fabric"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/plastic",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "plastic"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/structural-foam",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "structural foam"
-                }
-            ],
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/69062",
@@ -6984,7 +7363,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ceramic",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ceramic"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68180/production",
+                "type": "Production",
+                "_label": "Production of Broken Family teapot",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -7116,20 +7521,6 @@
                     ]
                 }
             ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/silver-plate",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "silver plate"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/ceramic",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "ceramic"
-                }
-            ],
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/68181",
@@ -7258,7 +7649,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ceramic",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ceramic"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68181/production",
+                "type": "Production",
+                "_label": "Production of Broken Family teapot",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -7401,20 +7818,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/silver-plate",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "silver plate"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/ceramic",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "ceramic"
-                }
             ]
         }
     },
@@ -7527,7 +7930,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ceramic",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ceramic"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68182/production",
+                "type": "Production",
+                "_label": "Production of lid for Broken Family teapot",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -7670,20 +8099,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/silver-plate",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "silver plate"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/ceramic",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "ceramic"
-                }
             ]
         }
     },
@@ -7758,7 +8173,39 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/plastic",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "plastic"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/paint",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "paint"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/steel",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "steel"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68903/production",
+                "type": "Production",
+                "_label": "Production of Free Basket",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/7052",
+                        "type": "Actor",
+                        "_label": "Los Carpinteros"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -7894,26 +8341,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/plastic",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "plastic"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/paint",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "paint"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/steel",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "steel"
-                }
             ]
         }
     },
@@ -7993,7 +8420,44 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/fabric",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "fabric"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/plastic",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "plastic"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/structural-foam",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "structural foam"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/69062/production",
+                "type": "Production",
+                "_label": "Production of UP5 chair",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/612112",
+                        "type": "Actor",
+                        "_label": "Pesce, Gaetano"
+                    },
+                    {
+                        "id": "https://data.discovernewfields.org/actor/6507",
+                        "type": "Actor",
+                        "_label": "B&B Italia, S.p.A."
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -8154,26 +8618,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/fabric",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "fabric"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/plastic",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "plastic"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/structural-foam",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "structural foam"
-                }
             ]
         }
     },
@@ -8253,7 +8697,44 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/fabric",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "fabric"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/plastic",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "plastic"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/structural-foam",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "structural foam"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/69063/production",
+                "type": "Production",
+                "_label": "Production of UP6 ottoman",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/612112",
+                        "type": "Actor",
+                        "_label": "Pesce, Gaetano"
+                    },
+                    {
+                        "id": "https://data.discovernewfields.org/actor/6507",
+                        "type": "Actor",
+                        "_label": "B&B Italia, S.p.A."
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -8414,26 +8895,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/fabric",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "fabric"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/plastic",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "plastic"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/structural-foam",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "structural foam"
-                }
             ]
         }
     },
@@ -8508,7 +8969,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/paint",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "paint"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/aluminum",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "aluminum"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/82696/production",
+                "type": "Production",
+                "_label": "Production of Five Brushstrokes",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/613279",
+                        "type": "Actor",
+                        "_label": "Lichtenstein, Roy"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -8663,20 +9150,6 @@
                     ]
                 }
             ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/paint",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "paint"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/aluminum",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "aluminum"
-                }
-            ],
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/85257",
@@ -8792,7 +9265,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/paint",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "paint"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/aluminum",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "aluminum"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/85257/production",
+                "type": "Production",
+                "_label": "Production of element A for Five Brushstrokes",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/613279",
+                        "type": "Actor",
+                        "_label": "Lichtenstein, Roy"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -8946,20 +9445,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/paint",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "paint"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/aluminum",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "aluminum"
-                }
             ]
         }
     },
@@ -9039,7 +9524,39 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ink",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/colored-ink",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "colored ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/paper",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "paper"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/89367/production",
+                "type": "Production",
+                "_label": "Production of Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left)",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/11366",
+                        "type": "Actor",
+                        "_label": "Utagawa Kunisada 歌川国貞"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -9186,26 +9703,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/ink",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "ink"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/colored-ink",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "colored ink"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/paper",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "paper"
-                }
             ]
         }
     },
@@ -9285,7 +9782,39 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ink",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/colored-ink",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "colored ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/paper",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "paper"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/89368/production",
+                "type": "Production",
+                "_label": "Production of (C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/11366",
+                        "type": "Actor",
+                        "_label": "Utagawa Kunisada 歌川国貞"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -9432,26 +9961,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/ink",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "ink"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/colored-ink",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "colored ink"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/paper",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "paper"
-                }
             ]
         }
     },
@@ -9531,7 +10040,39 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ink",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/colored-ink",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "colored ink"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/paper",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "paper"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/89369/production",
+                "type": "Production",
+                "_label": "Production of Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/11366",
+                        "type": "Actor",
+                        "_label": "Utagawa Kunisada 歌川国貞"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -9678,26 +10219,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/ink",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "ink"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/colored-ink",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "colored ink"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/paper",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "paper"
-                }
             ]
         }
     },
@@ -9772,7 +10293,32 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/glass",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "glass"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/90817/production",
+                "type": "Production",
+                "_label": "Production of Tricorne candleholders",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/7062",
+                        "type": "Actor",
+                        "_label": "Muller-Munk, Peter"
+                    },
+                    {
+                        "id": "https://data.discovernewfields.org/actor/12032",
+                        "type": "Actor",
+                        "_label": "Val Saint Lambert"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -9869,14 +10415,6 @@
                     ]
                 }
             ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/glass",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "glass"
-                }
-            ],
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/92160",
@@ -9967,7 +10505,32 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/glass",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "glass"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/92158/production",
+                "type": "Production",
+                "_label": "Production of Tricorne candleholder",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/7062",
+                        "type": "Actor",
+                        "_label": "Muller-Munk, Peter"
+                    },
+                    {
+                        "id": "https://data.discovernewfields.org/actor/12032",
+                        "type": "Actor",
+                        "_label": "Val Saint Lambert"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -10068,14 +10631,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/glass",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "glass"
-                }
             ]
         }
     },
@@ -10150,7 +10705,32 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/glass",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "glass"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/92159/production",
+                "type": "Production",
+                "_label": "Production of Tricorne candleholders",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/7062",
+                        "type": "Actor",
+                        "_label": "Muller-Munk, Peter"
+                    },
+                    {
+                        "id": "https://data.discovernewfields.org/actor/12032",
+                        "type": "Actor",
+                        "_label": "Val Saint Lambert"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -10251,14 +10831,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/glass",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "glass"
-                }
             ]
         }
     },
@@ -10333,7 +10905,32 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/glass",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "glass"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/92160/production",
+                "type": "Production",
+                "_label": "Production of Tricorne candleholder",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/7062",
+                        "type": "Actor",
+                        "_label": "Muller-Munk, Peter"
+                    },
+                    {
+                        "id": "https://data.discovernewfields.org/actor/12032",
+                        "type": "Actor",
+                        "_label": "Val Saint Lambert"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -10434,14 +11031,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/glass",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "glass"
-                }
             ]
         }
     },
@@ -10503,7 +11092,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/glaze",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "glaze"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/earthenware",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "earthenware"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/92384/production",
+                "type": "Production",
+                "_label": "Production of censer in form of teahouse",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/10661",
+                        "type": "Actor",
+                        "_label": "Unknown 作者不詳"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -10639,20 +11254,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/glaze",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "glaze"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/earthenware",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "earthenware"
-                }
             ]
         }
     },
@@ -10714,7 +11315,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/glaze",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "glaze"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/earthenware",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "earthenware"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/92385/production",
+                "type": "Production",
+                "_label": "Production of censer in form of teahouse",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/10661",
+                        "type": "Actor",
+                        "_label": "Unknown 作者不詳"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -10850,20 +11477,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/glaze",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "glaze"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/earthenware",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "earthenware"
-                }
             ]
         }
     },
@@ -10925,7 +11538,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/glaze",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "glaze"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/earthenware",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "earthenware"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/92386/production",
+                "type": "Production",
+                "_label": "Production of censer in form of teahouse",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/10661",
+                        "type": "Actor",
+                        "_label": "Unknown 作者不詳"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -11061,20 +11700,6 @@
                         }
                     ]
                 }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/glaze",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "glaze"
-                },
-                {
-                "id": "https://data.discovernewfields.org/thesauri/earthenware",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "earthenware"
-                }
             ]
         }
     },
@@ -11188,7 +11813,20 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/marble",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "marble"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/93739/production",
+                "type": "Production",
+                "_label": "Production of wall fountain"
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -11334,14 +11972,6 @@
                             "_label": "brief texts"
                         }
                     ]
-                }
-            ],
-            "made_of": [
-                {
-                "id": "https://data.discovernewfields.org/thesauri/marble",
-                    "type": "Material",
-                    "_label": "Material of Which the Object is Composed",
-                    "content": "marble"
                 }
             ]
         }

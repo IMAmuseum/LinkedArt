@@ -12,72 +12,72 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tea-services",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tea-services------",
                     "type": "Type",
                     "_label": "tea services"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/teapots",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------teapots------",
                     "type": "Type",
                     "_label": "teapots"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/lids",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------lids------",
                     "type": "Type",
                     "_label": "lids"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/creamers",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------creamers------",
                     "type": "Type",
                     "_label": "creamers"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/sugar-bowls",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------sugar-bowls------",
                     "type": "Type",
                     "_label": "sugar bowls"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/cups",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------cups------",
                     "type": "Type",
                     "_label": "cups"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/saucers",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------saucers------",
                     "type": "Type",
                     "_label": "saucers"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/platters",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------platters------",
                     "type": "Type",
                     "_label": "platters"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/plates",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------plates------",
                     "type": "Type",
                     "_label": "plates"
                 }
@@ -148,7 +148,38 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ceramic",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ceramic"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/64628/production",
+                "type": "Production",
+                "_label": "Production of Broken Family tea set",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    },
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -415,37 +446,37 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/teapots",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------teapots------",
                     "type": "Type",
                     "_label": "teapots"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/lids",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------lids------",
                     "type": "Type",
                     "_label": "lids"
                 }
@@ -516,7 +547,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ceramic",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ceramic"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68180/production",
+                "type": "Production",
+                "_label": "Production of Broken Family teapot",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -675,37 +732,37 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tea-services",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tea-services------",
                     "type": "Type",
                     "_label": "tea services"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/teapots",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------teapots------",
                     "type": "Type",
                     "_label": "teapots"
                 }
@@ -776,7 +833,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ceramic",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ceramic"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68181/production",
+                "type": "Production",
+                "_label": "Production of Broken Family teapot",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -935,32 +1018,32 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/lids",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------lids------",
                     "type": "Type",
                     "_label": "lids"
                 }
@@ -1031,7 +1114,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ceramic",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ceramic"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68182/production",
+                "type": "Production",
+                "_label": "Production of lid for Broken Family teapot",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -1190,37 +1299,37 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/sugar-bowls",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------sugar-bowls------",
                     "type": "Type",
                     "_label": "sugar bowls"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/lids",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------lids------",
                     "type": "Type",
                     "_label": "lids"
                 }
@@ -1291,7 +1400,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ceramic",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ceramic"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68183/production",
+                "type": "Production",
+                "_label": "Production of Broken Family sugar bowl",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -1450,32 +1585,32 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/sugar-bowls",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------sugar-bowls------",
                     "type": "Type",
                     "_label": "sugar bowls"
                 }
@@ -1546,7 +1681,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ceramic",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ceramic"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68184/production",
+                "type": "Production",
+                "_label": "Production of Broken Family sugar bowl",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -1705,32 +1866,32 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/lids",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------lids------",
                     "type": "Type",
                     "_label": "lids"
                 }
@@ -1801,7 +1962,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ceramic",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ceramic"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68185/production",
+                "type": "Production",
+                "_label": "Production of lid for Broken Family sugar bowl",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -1960,32 +2147,32 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/creamers",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------creamers------",
                     "type": "Type",
                     "_label": "creamers"
                 }
@@ -2056,7 +2243,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/glass",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "glass"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68186/production",
+                "type": "Production",
+                "_label": "Production of Broken Family creamer",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -2215,32 +2428,32 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/cups",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------cups------",
                     "type": "Type",
                     "_label": "cups"
                 }
@@ -2311,7 +2524,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/glass",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "glass"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68187/production",
+                "type": "Production",
+                "_label": "Production of Broken Family cup",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -2470,32 +2709,32 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/cups",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------cups------",
                     "type": "Type",
                     "_label": "cups"
                 }
@@ -2566,7 +2805,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ceramic",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ceramic"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68188/production",
+                "type": "Production",
+                "_label": "Production of Broken Family cup",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -2718,32 +2983,32 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/cups",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------cups------",
                     "type": "Type",
                     "_label": "cups"
                 }
@@ -2814,7 +3079,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/porcelain",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "porcelain"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68189/production",
+                "type": "Production",
+                "_label": "Production of Broken Family cup",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -2973,32 +3264,32 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/cups",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------cups------",
                     "type": "Type",
                     "_label": "cups"
                 }
@@ -3069,7 +3360,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/porcelain",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "porcelain"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68190/production",
+                "type": "Production",
+                "_label": "Production of Broken Family cup",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -3228,32 +3545,32 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/saucers",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------saucers------",
                     "type": "Type",
                     "_label": "saucers"
                 }
@@ -3324,7 +3641,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/porcelain",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "porcelain"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68191/production",
+                "type": "Production",
+                "_label": "Production of Broken Family saucer",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -3476,32 +3819,32 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/saucers",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------saucers------",
                     "type": "Type",
                     "_label": "saucers"
                 }
@@ -3572,7 +3915,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/porcelain",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "porcelain"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68192/production",
+                "type": "Production",
+                "_label": "Production of Broken Family saucer",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -3724,32 +4093,32 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/saucers",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------saucers------",
                     "type": "Type",
                     "_label": "saucers"
                 }
@@ -3820,7 +4189,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ceramic",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ceramic"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68193/production",
+                "type": "Production",
+                "_label": "Production of Broken Family saucer",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -3979,32 +4374,32 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/saucers",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------saucers------",
                     "type": "Type",
                     "_label": "saucers"
                 }
@@ -4075,7 +4470,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ceramic",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ceramic"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68194/production",
+                "type": "Production",
+                "_label": "Production of Broken Family saucer",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -4234,32 +4655,32 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/platters",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------platters------",
                     "type": "Type",
                     "_label": "platters"
                 }
@@ -4330,7 +4751,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ceramic",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ceramic"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68195/production",
+                "type": "Production",
+                "_label": "Production of Broken Family platter",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -4489,32 +4936,32 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/plates",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------plates------",
                     "type": "Type",
                     "_label": "plates"
                 }
@@ -4585,7 +5032,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ceramic",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ceramic"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68196/production",
+                "type": "Production",
+                "_label": "Production of Broken Family plate",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -4737,32 +5210,32 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/plates",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------plates------",
                     "type": "Type",
                     "_label": "plates"
                 }
@@ -4833,7 +5306,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/aluminum",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "aluminum"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68197/production",
+                "type": "Production",
+                "_label": "Production of Broken Family plate",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -4985,32 +5484,32 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/plates",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------plates------",
                     "type": "Type",
                     "_label": "plates"
                 }
@@ -5081,7 +5580,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ceramic",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ceramic"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68198/production",
+                "type": "Production",
+                "_label": "Production of Broken Family plate",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -5233,32 +5758,32 @@
                     "_label": "works of art"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/thesauri/type/plates",
+                "id": "https://data.discovernewfields.org/thesauri/type/--------plates------",
                     "type": "Type",
                     "_label": "plates"
                 }
@@ -5329,7 +5854,33 @@
                         }
                     ]
                 }
+        ],
+            "made_of": [
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/silver-plate",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "silver plate"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/material/ceramic",
+                "type": "Material",
+                "_label": "Material of Which the Object is Composed",
+                "content": "ceramic"
+                }
             ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/68199/production",
+                "type": "Production",
+                "_label": "Production of Broken Family plate",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "type": "Actor",
+                        "_label": "Bey, Jurgen"
+                    }             
+                ]
+            },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
