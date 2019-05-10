@@ -76,6 +76,9 @@
     text short      PhyTechnique
     text short      EdiImpression
     text long       PhyDescription
+    table           Color
+      text short      PhyColor
+    end
     text long       PhyConvertedDims
     table           Dimensions
       text short      PhyType
@@ -3035,6 +3038,11 @@ Engraver's seal: Horisen</atom>
     <atom name="PhyTechnique"></atom>
     <atom name="EdiImpression"></atom>
     <atom name="PhyDescription"></atom>
+    <table name="Color">
+      <tuple>
+        <atom name="PhyColor">red</atom>
+      </tuple>
+    </table>
     <atom name="PhyConvertedDims">A) chair: 41 x 36 x 45 in.
 B) ottoman: diam.: 22 in.</atom>
     <table name="Dimensions">
@@ -3718,6 +3726,108 @@ B) ottoman: diam.: 22 in.</atom>
 
   <!-- Row 37 -->
   <tuple>
+    <atom name="irn">81052</atom>
+    <atom name="TitAccessionNo">2013.298</atom>
+    <atom name="TitPreviousAccessionNo">TR11642/2</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2013-12-12</atom>
+    <atom name="TitMainTitle">dress</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Costume</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">dresses</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">Fall 2006-2007</atom>
+    <atom name="CreEarliestDate"></atom>
+    <atom name="CreLatestDate"></atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">12571</atom>
+        <atom name="SummaryData">Naoki Takizawa</atom>
+      </tuple>
+      <tuple>
+        <atom name="CreRole">Design House</atom>
+        <atom name="irn">683459</atom>
+        <atom name="SummaryData">Miyake, Issey</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">Japan</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">shoelaces</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">silk</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhySupport">cotton</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">silk, cotton, and shoelaces</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">black silk dress with neon fringe draped horizontally across bodice with proper right ends tassled below waistline, neon fringe hanging downward from both side panels beginning below hips,  tank top, scooped neckline, shin length, size 3</atom>
+    <table name="Color">
+      <tuple>
+        <atom name="PhyColor">black</atom>
+      </tuple>
+    </table>
+    <atom name="PhyConvertedDims">54 x 22-1/2 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">IMA Number Applied</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyWidth"></atom>
+        <atom name="PhyUnitLength"></atom>
+        <atom name="PhyDimensionNotes">Sewn center back neck</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">54.0000</atom>
+        <atom name="PhyWidth">22.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 137.2 x 57.2</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Fashion Arts Society Acquisition Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Issey Miyake</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">The Ebony Fashion Fair Collection; (Leslie Hindman Auctioneers, Chicago, Illinois), 19 March 2013, lot 334A; purchased by the Indianapolis Museum of Art in 2013.</atom>
+    <atom name="PhyCollectionArea">908-Textile and Fashion Arts</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Gerald and Dorit Paul Galleries</atom>
+      <atom name="LocLevel3">W309</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+  </tuple>
+
+  <!-- Row 38 -->
+  <tuple>
     <atom name="irn">82696</atom>
     <atom name="TitAccessionNo">2013.443A-E.4</atom>
     <atom name="TitPreviousAccessionNo">TR11707A-E.4</atom>
@@ -3869,7 +3979,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
     </table>
   </tuple>
 
-  <!-- Row 38 -->
+  <!-- Row 39 -->
   <tuple>
     <atom name="irn">85257</atom>
     <atom name="TitAccessionNo">2013.443A</atom>
@@ -3990,7 +4100,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
     </table>
   </tuple>
 
-  <!-- Row 39 -->
+  <!-- Row 40 -->
   <tuple>
     <atom name="irn">89367</atom>
     <atom name="TitAccessionNo">16.924A</atom>
@@ -4091,7 +4201,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
     </table>
   </tuple>
 
-  <!-- Row 40 -->
+  <!-- Row 41 -->
   <tuple>
     <atom name="irn">89368</atom>
     <atom name="TitAccessionNo">16.924B</atom>
@@ -4192,7 +4302,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
     </table>
   </tuple>
 
-  <!-- Row 41 -->
+  <!-- Row 42 -->
   <tuple>
     <atom name="irn">89369</atom>
     <atom name="TitAccessionNo">16.924C</atom>
@@ -4302,7 +4412,7 @@ Censor's seal: single kiwame</atom>
     </table>
   </tuple>
 
-  <!-- Row 42 -->
+  <!-- Row 43 -->
   <tuple>
     <atom name="irn">90817</atom>
     <atom name="TitAccessionNo">2017.64A-C</atom>
@@ -4412,7 +4522,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 43 -->
+  <!-- Row 44 -->
   <tuple>
     <atom name="irn">92158</atom>
     <atom name="TitAccessionNo">2017.64A</atom>
@@ -4500,7 +4610,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 44 -->
+  <!-- Row 45 -->
   <tuple>
     <atom name="irn">92159</atom>
     <atom name="TitAccessionNo">2017.64B</atom>
@@ -4588,7 +4698,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 45 -->
+  <!-- Row 46 -->
   <tuple>
     <atom name="irn">92160</atom>
     <atom name="TitAccessionNo">2017.64C</atom>
@@ -4676,7 +4786,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 46 -->
+  <!-- Row 47 -->
   <tuple>
     <atom name="irn">92384</atom>
     <atom name="TitAccessionNo">13.1A</atom>
@@ -4778,7 +4888,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 47 -->
+  <!-- Row 48 -->
   <tuple>
     <atom name="irn">92385</atom>
     <atom name="TitAccessionNo">13.1B</atom>
@@ -4871,7 +4981,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 48 -->
+  <!-- Row 49 -->
   <tuple>
     <atom name="irn">92386</atom>
     <atom name="TitAccessionNo">13.1C</atom>
@@ -4964,7 +5074,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 49 -->
+  <!-- Row 50 -->
   <tuple>
     <atom name="irn">93739</atom>
     <atom name="TitAccessionNo">73.131.6A</atom>

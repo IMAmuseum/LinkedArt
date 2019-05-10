@@ -5,7 +5,7 @@
     version="2.0">
     
     <xsl:output method="text"/>
-<!--Note: Ideally, this transformation would not be necessary. Instead, we hope to use a bash script with a for loop that stores the object keys as an array and runs the cat command per key as f variable to output a json file [key].json. Having trouble getting the stand-alone bash script to work at this time.
+<!--Note: Ideally, this transformation would not be necessary. Instead, we hope to use a script with a for loop that stores the object keys as an array and runs the cat command per key as f variable to output a json file [key].json. Having trouble getting the stand-alone script to work at this time.
 
 This transformation outputs a bash script with a cat command per object in the input file. Each command includes the input filename, which will need to be modified when the workflow is set with a final filename for combined JSON file.-->
 <xsl:template match="/">#!/bin/bash

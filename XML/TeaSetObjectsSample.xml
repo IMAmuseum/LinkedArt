@@ -76,6 +76,9 @@
     text short      PhyTechnique
     text short      EdiImpression
     text long       PhyDescription
+    table           Color
+      text short      PhyColor
+    end
     text long       PhyConvertedDims
     table           Dimensions
       text short      PhyType
