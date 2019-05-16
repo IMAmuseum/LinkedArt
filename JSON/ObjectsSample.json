@@ -278,7 +278,7 @@
                 "_label": "Production of The Bachelor Boudoir (Corner of the Studio)",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/733",
+                        "id": "https://data.discovernewfields.org/actor/1065",
                         "type": "Actor",
                         "_label": "Fiscus, Charles J."
                     }             
@@ -740,7 +740,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object//alt-title-1",
+                    "id": "https://data.discovernewfields.org/object/3521/alt-title-1",
                     "type": "Name",
                     "_label": "Alternate Title for the Artwork",
                     "content": "Still Life",
@@ -774,7 +774,7 @@
                 "_label": "Production of Still Life with Flowerpot",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/5060",
+                        "id": "https://data.discovernewfields.org/actor/3521",
                         "type": "Actor",
                         "_label": "Beem, Paul Edward"
                     }             
@@ -1030,7 +1030,7 @@
                 "_label": "Production of quilt (Diamond in Square)",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/2741",
+                        "id": "https://data.discovernewfields.org/actor/8407",
                         "type": "Actor",
                         "_label": "Unknown"
                     }             
@@ -1457,12 +1457,12 @@
                 "_label": "Production of Matthew Prior",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/2741",
+                        "id": "https://data.discovernewfields.org/actor/14617",
                         "type": "Actor",
                         "_label": "Unknown"
                     },
                     {
-                        "id": "https://data.discovernewfields.org/actor/619988",
+                        "id": "https://data.discovernewfields.org/actor/14617",
                         "type": "Actor",
                         "_label": "Richardson, Jonathan the elder"
                     }             
@@ -1683,7 +1683,7 @@
                 "_label": "Production of Jesus and the Apostles",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/2741",
+                        "id": "https://data.discovernewfields.org/actor/16168",
                         "type": "Actor",
                         "_label": "Unknown"
                     }             
@@ -1911,12 +1911,12 @@
                 "_label": "Production of Whistler's Mother",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/737",
+                        "id": "https://data.discovernewfields.org/actor/16356",
                         "type": "Actor",
                         "_label": "Wolf, Henry"
                     },
                     {
-                        "id": "https://data.discovernewfields.org/actor/612140",
+                        "id": "https://data.discovernewfields.org/actor/16356",
                         "type": "Actor",
                         "_label": "Whistler, James Abbott McNeill"
                     }             
@@ -2398,7 +2398,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object//alt-title-1",
+                    "id": "https://data.discovernewfields.org/object/17425/alt-title-1",
                     "type": "Name",
                     "_label": "Alternate Title for the Artwork",
                     "content": "Diamond in Square",
@@ -2426,7 +2426,7 @@
                 "_label": "Production of quilt (Sawtooth Diamond in Square)",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/2741",
+                        "id": "https://data.discovernewfields.org/actor/17425",
                         "type": "Actor",
                         "_label": "Unknown"
                     }             
@@ -2621,6 +2621,19 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/17577/old-accession-number/1",
+                    "type": "Identifier",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+                    "content": "TR3950/7",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404626",
+                            "type": "Type",
+                            "_label": "identification numbers"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/17577/title",
                     "type": "Name",
                     "_label": "Primary Title for the Artwork",
@@ -2654,7 +2667,7 @@
                 "_label": "Production of Dines with Writing Material",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/510",
+                        "id": "https://data.discovernewfields.org/actor/17577",
                         "type": "Actor",
                         "_label": "Carlsen, Dines"
                     }             
@@ -2689,7 +2702,14 @@
                                 "type": "Place", 
                                 "_label": "Indianapolis, Indiana"
                             }
-                        ]
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/17577/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1980-12-31",
+                            "begin_of_the_begin": "1980-12-31T00:00:00Z", 
+                            "end_of_the_end": "1980-12-31T00:00:00Z"
+                        }
                     }
                 ]
             },
@@ -2877,12 +2897,12 @@
                 "_label": "Production of Love",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/615130",
+                        "id": "https://data.discovernewfields.org/actor/20419",
                         "type": "Actor",
                         "_label": "Indiana, Robert"
                     },
                     {
-                        "id": "https://data.discovernewfields.org/actor/10433",
+                        "id": "https://data.discovernewfields.org/actor/20419",
                         "type": "Actor",
                         "_label": "Lippincott, LLC"
                     }             
@@ -3083,7 +3103,7 @@
                     ]
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object//alt-title-1",
+                    "id": "https://data.discovernewfields.org/object/21137/alt-title-1",
                     "type": "Name",
                     "_label": "Alternate Title for the Artwork",
                     "content": "subtitle:  The Lake",
@@ -3136,7 +3156,7 @@
                 "_label": "Production of Hakone",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/592",
+                        "id": "https://data.discovernewfields.org/actor/21137",
                         "type": "Actor",
                         "_label": "Utagawa Hiroshige 歌川広重"
                     }             
@@ -3364,7 +3384,7 @@
                 "_label": "Production of Portrait of William Merritt Chase",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/345",
+                        "id": "https://data.discovernewfields.org/actor/21288",
                         "type": "Actor",
                         "_label": "Beckwith, James Carroll"
                     }             
@@ -3594,7 +3614,7 @@
                 "_label": "Production of censer in form of teahouse",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/10661",
+                        "id": "https://data.discovernewfields.org/actor/24693",
                         "type": "Actor",
                         "_label": "Unknown 作者不詳"
                     }             
@@ -3733,19 +3753,317 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/92384",
+                    "id": "https://data.discovernewfields.org/object/24693",
                     "type": "ManMadeObject",
                     "_label": "censer in form of teahouse"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/92385",
+                    "id": "https://data.discovernewfields.org/object/24693",
                     "type": "ManMadeObject",
                     "_label": "censer in form of teahouse"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/92386",
+                    "id": "https://data.discovernewfields.org/object/24693",
                     "type": "ManMadeObject",
                     "_label": "censer in form of teahouse"
+                }
+            ]
+        }
+    },
+    {
+        "24892": {
+            "@context": "https://linked.art/ns/v1/linked-art.json",
+            "id": "https://data.discovernewfields.org/object/24892",
+            "type": "ManMadeObject",
+            "_label": "evening dress",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300133025",
+                    "type": "Type",
+                    "_label": "works of art"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/type/--------costumes------",
+                    "type": "Type",
+                    "_label": "costumes"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/type/--------dresses------",
+                    "type": "Type",
+                    "_label": "dresses"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/type/--------evening-dresses------",
+                    "type": "Type",
+                    "_label": "evening dresses"
+                }
+            ],
+            "identified_by": [
+                {
+                    "id": "https://data.discovernewfields.org/object/24892/irn",
+                    "type": "Identifier",
+                    "_label": "IMA at Newfields Collections Database Number for the Artwork",
+                    "content": 24892,
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404621",
+                            "type": "Type",
+                            "_label": "repository numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/24892/accession-number",
+                    "type": "Identifier",
+                    "_label": "IMA at Newfields Accession Number for the Artwork",
+                    "content": "80.262A-C",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300312355",
+                            "type": "Type",
+                            "_label": "accession numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/24892/old-accession-number/1",
+                    "type": "Identifier",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+                    "content": "TR3673",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404626",
+                            "type": "Type",
+                            "_label": "identification numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/24892/title",
+                    "type": "Name",
+                    "_label": "Primary Title for the Artwork",
+                    "content": "evening dress",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404670",
+                            "type": "Type",
+                            "_label": "preferred terms"
+                        }
+                    ]
+                }
+        ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/24892/production",
+                "type": "Production",
+                "_label": "Production of evening dress",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/24892",
+                        "type": "Actor",
+                        "_label": "Halston"
+                    }             
+                ]
+            },
+            "dimension": [
+                {
+                    "type": "Dimension",
+                    "id": "https://data.discovernewfields.org/object/24892/color-1",
+                    "_label": "Color Visibly Identified by IMA staff on Part of the Work",
+                    "classified_as": [ 
+                        {
+                            "id": "https://data.discovernewfields.org/thesauri/color/ivory",
+                            "type": "Type",
+                            "_label": "ivory"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/colorness",
+                            "type": "Type",
+                            "_label": "Color"
+                        }
+                    ]
+                },
+                {
+                    "type": "Dimension",
+                    "id": "https://data.discovernewfields.org/object/24892/color-2",
+                    "_label": "Color Visibly Identified by IMA staff on Part of the Work",
+                    "classified_as": [ 
+                        {
+                            "id": "https://data.discovernewfields.org/thesauri/color/black",
+                            "type": "Type",
+                            "_label": "black"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/colorness",
+                            "type": "Type",
+                            "_label": "Color"
+                        }
+                    ]
+                }
+            ],
+            "current_owner": {
+                "id": "http://vocab.getty.edu/ulan/500300517",
+                "type": "Group",
+                "_label": "Indianapolis Museum of Art at Newfields",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300312281",
+                        "type": "Type",
+                        "_label": "museums (institutions)"
+                    }
+                ],
+                "acquired_title_through": [
+                    {
+                        "id": "https://data.discovernewfields.org/object/24892/IMA-acquisition",
+                        "type": "Acquisition",
+                        "_label": "Acquisition of evening dress",
+                        "classified_as": [
+                            {
+                                "id": "http://vocab.getty.edu/aat/300157782",
+                                "type": "Type",
+                                "_label": "acquisition (collections management)"
+                            }
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/24892/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1980-09-18",
+                            "begin_of_the_begin": "1980-09-18T00:00:00Z", 
+                            "end_of_the_end": "1980-09-18T00:00:00Z"
+                        }
+                    }
+                ]
+            },
+            "referred_to_by": [
+                {
+                    "id": "https://data.discovernewfields.org/object/24892/credit-line",
+                    "type": "LinguisticObject",
+                    "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                    "content": "Gift of Halston Limited",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300026687",
+                            "type": "Type",
+                            "_label": "acknowledgments"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/24892/title-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Notes about the Title(s) Associated with the Work",
+                    "content": "A) blouse B) skirt C) sash",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300417212",
+                            "type": "Type",
+                            "_label": "title statements"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/24892/dimension-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Notes about the Dimensions of the Work",
+                    "content": "A) blouse: length 22-1/2 in.\nB) skirt: length 50-1/2 in. \nC) sash: length 81 in.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300266036",
+                            "type": "Type",
+                            "_label": "dimensions"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/24892/materials-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Notes about the Materials in the Work",
+                    "content": "silk organza, silk velvet",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300010358",
+                            "type": "Type",
+                            "_label": "materials (substances)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/24892/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "© Halston",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/InC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "In Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/24892",
+                    "type": "ManMadeObject",
+                    "_label": "blouse for evening dress"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/24892",
+                    "type": "ManMadeObject",
+                    "_label": "skirt for evening dress"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/24892",
+                    "type": "ManMadeObject",
+                    "_label": "sash for evening dress"
                 }
             ]
         }
@@ -3853,7 +4171,7 @@
                 "_label": "Production of (L) Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left);  (C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛;  (R) Sawamura Tosshō　沢村訥升 as Rai Kunitoshi  来国俊",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/11366",
+                        "id": "https://data.discovernewfields.org/actor/25098",
                         "type": "Actor",
                         "_label": "Utagawa Kunisada 歌川国貞"
                     }             
@@ -4008,17 +4326,17 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/89367",
+                    "id": "https://data.discovernewfields.org/object/25098",
                     "type": "ManMadeObject",
                     "_label": "Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left)"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/89368",
+                    "id": "https://data.discovernewfields.org/object/25098",
                     "type": "ManMadeObject",
                     "_label": "(C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/89369",
+                    "id": "https://data.discovernewfields.org/object/25098",
                     "type": "ManMadeObject",
                     "_label": "Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊"
                 }
@@ -4109,7 +4427,7 @@
                 "_label": "Production of Oaks of Vernon",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/11566",
+                        "id": "https://data.discovernewfields.org/actor/37383",
                         "type": "Actor",
                         "_label": "Steele, Theodore Clement"
                     }             
@@ -4347,12 +4665,12 @@
                 "_label": "Production of Glencoe",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/626263",
+                        "id": "https://data.discovernewfields.org/actor/41018",
                         "type": "Actor",
                         "_label": "Turner, Joseph Mallord William"
                     },
                     {
-                        "id": "https://data.discovernewfields.org/actor/832",
+                        "id": "https://data.discovernewfields.org/actor/41018",
                         "type": "Actor",
                         "_label": "Miller, William"
                     }             
@@ -4567,12 +4885,12 @@
                 "_label": "Production of Killiecrankie",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/626263",
+                        "id": "https://data.discovernewfields.org/actor/41019",
                         "type": "Actor",
                         "_label": "Turner, Joseph Mallord William"
                     },
                     {
-                        "id": "https://data.discovernewfields.org/actor/832",
+                        "id": "https://data.discovernewfields.org/actor/41019",
                         "type": "Actor",
                         "_label": "Miller, William"
                     }             
@@ -4983,7 +5301,7 @@
                 "_label": "Production of Statue of Augustus Caesar",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/2741",
+                        "id": "https://data.discovernewfields.org/actor/47035",
                         "type": "Actor",
                         "_label": "Unknown"
                     }             
@@ -5225,7 +5543,7 @@
                 "_label": "Production of Towing Boat at Yotsugi Dōri [40] (Yotsugi dōri no hikifune)",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/8686",
+                        "id": "https://data.discovernewfields.org/actor/51330",
                         "type": "Actor",
                         "_label": "Utagawa Hirokage"
                     }             
@@ -5449,7 +5767,7 @@
                 "_label": "Production of Spring snow on Sumida River 隅田川　春雪",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/11362",
+                        "id": "https://data.discovernewfields.org/actor/52481",
                         "type": "Actor",
                         "_label": "Katsushika Hokusai 葛飾北斎"
                     }             
@@ -6034,12 +6352,12 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/64018",
+                    "id": "https://data.discovernewfields.org/object/64017",
                     "type": "ManMadeObject",
                     "_label": "earplug"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64019",
+                    "id": "https://data.discovernewfields.org/object/64017",
                     "type": "ManMadeObject",
                     "_label": "earplug (for man or woman)"
                 }
@@ -6708,12 +7026,12 @@
                 "_label": "Production of Broken Family tea set",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "id": "https://data.discovernewfields.org/actor/64628",
                         "type": "Actor",
                         "_label": "Bey, Jurgen"
                     },
                     {
-                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "id": "https://data.discovernewfields.org/actor/64628",
                         "type": "Actor",
                         "_label": "Bey, Jurgen"
                     }             
@@ -6870,102 +7188,102 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/68180",
+                    "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "Broken Family teapot"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68181",
+                    "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "Broken Family teapot"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68182",
+                    "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "lid for Broken Family teapot"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68183",
+                    "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "Broken Family sugar bowl"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68184",
+                    "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "Broken Family sugar bowl"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68185",
+                    "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "lid for Broken Family sugar bowl"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68186",
+                    "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "Broken Family creamer"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68187",
+                    "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "Broken Family cup"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68188",
+                    "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "Broken Family cup"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68189",
+                    "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "Broken Family cup"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68190",
+                    "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "Broken Family cup"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68191",
+                    "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "Broken Family saucer"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68192",
+                    "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "Broken Family saucer"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68193",
+                    "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "Broken Family saucer"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68194",
+                    "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "Broken Family saucer"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68195",
+                    "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "Broken Family platter"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68196",
+                    "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "Broken Family plate"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68197",
+                    "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "Broken Family plate"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68198",
+                    "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "Broken Family plate"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68199",
+                    "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "Broken Family plate"
                 }
@@ -7075,17 +7393,36 @@
                 "_label": "Production of UP5 chair and UP6 ottoman",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/612112",
+                        "id": "https://data.discovernewfields.org/actor/67743",
                         "type": "Actor",
                         "_label": "Pesce, Gaetano"
                     },
                     {
-                        "id": "https://data.discovernewfields.org/actor/6507",
+                        "id": "https://data.discovernewfields.org/actor/67743",
                         "type": "Actor",
                         "_label": "B&B Italia, S.p.A."
                     }             
                 ]
             },
+            "dimension": [
+                {
+                    "type": "Dimension",
+                    "id": "https://data.discovernewfields.org/object/67743/color-1",
+                    "_label": "Color Visibly Identified by IMA staff on Part of the Work",
+                    "classified_as": [ 
+                        {
+                            "id": "https://data.discovernewfields.org/thesauri/color/red",
+                            "type": "Type",
+                            "_label": "red"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/colorness",
+                            "type": "Type",
+                            "_label": "Color"
+                        }
+                    ]
+                }
+            ],
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -7237,12 +7574,12 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/69062",
+                    "id": "https://data.discovernewfields.org/object/67743",
                     "type": "ManMadeObject",
                     "_label": "UP5 chair"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/69063",
+                    "id": "https://data.discovernewfields.org/object/67743",
                     "type": "ManMadeObject",
                     "_label": "UP6 ottoman"
                 }
@@ -7384,7 +7721,7 @@
                 "_label": "Production of Broken Family teapot",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "id": "https://data.discovernewfields.org/actor/68180",
                         "type": "Actor",
                         "_label": "Bey, Jurgen"
                     }             
@@ -7523,12 +7860,12 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/68181",
+                    "id": "https://data.discovernewfields.org/object/68180",
                     "type": "ManMadeObject",
                     "_label": "Broken Family teapot"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68182",
+                    "id": "https://data.discovernewfields.org/object/68180",
                     "type": "ManMadeObject",
                     "_label": "lid for Broken Family teapot"
                 }
@@ -7670,7 +8007,7 @@
                 "_label": "Production of Broken Family teapot",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "id": "https://data.discovernewfields.org/actor/68181",
                         "type": "Actor",
                         "_label": "Bey, Jurgen"
                     }             
@@ -7951,7 +8288,7 @@
                 "_label": "Production of lid for Broken Family teapot",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/5679",
+                        "id": "https://data.discovernewfields.org/actor/68182",
                         "type": "Actor",
                         "_label": "Bey, Jurgen"
                     }             
@@ -8200,7 +8537,7 @@
                 "_label": "Production of Free Basket",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/7052",
+                        "id": "https://data.discovernewfields.org/actor/68903",
                         "type": "Actor",
                         "_label": "Los Carpinteros"
                     }             
@@ -8447,12 +8784,12 @@
                 "_label": "Production of UP5 chair",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/612112",
+                        "id": "https://data.discovernewfields.org/actor/69062",
                         "type": "Actor",
                         "_label": "Pesce, Gaetano"
                     },
                     {
-                        "id": "https://data.discovernewfields.org/actor/6507",
+                        "id": "https://data.discovernewfields.org/actor/69062",
                         "type": "Actor",
                         "_label": "B&B Italia, S.p.A."
                     }             
@@ -8724,12 +9061,12 @@
                 "_label": "Production of UP6 ottoman",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/612112",
+                        "id": "https://data.discovernewfields.org/actor/69063",
                         "type": "Actor",
                         "_label": "Pesce, Gaetano"
                     },
                     {
-                        "id": "https://data.discovernewfields.org/actor/6507",
+                        "id": "https://data.discovernewfields.org/actor/69063",
                         "type": "Actor",
                         "_label": "B&B Italia, S.p.A."
                     }             
@@ -8996,17 +9333,36 @@
                 "_label": "Production of dress",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/12571",
+                        "id": "https://data.discovernewfields.org/actor/81052",
                         "type": "Actor",
                         "_label": "Naoki Takizawa"
                     },
                     {
-                        "id": "https://data.discovernewfields.org/actor/683459",
+                        "id": "https://data.discovernewfields.org/actor/81052",
                         "type": "Actor",
                         "_label": "Miyake, Issey"
                     }             
                 ]
             },
+            "dimension": [
+                {
+                    "type": "Dimension",
+                    "id": "https://data.discovernewfields.org/object/81052/color-1",
+                    "_label": "Color Visibly Identified by IMA staff on Part of the Work",
+                    "classified_as": [ 
+                        {
+                            "id": "https://data.discovernewfields.org/thesauri/color/black",
+                            "type": "Type",
+                            "_label": "black"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/colorness",
+                            "type": "Type",
+                            "_label": "Color"
+                        }
+                    ]
+                }
+            ],
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -9244,7 +9600,7 @@
                 "_label": "Production of Five Brushstrokes",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/613279",
+                        "id": "https://data.discovernewfields.org/actor/82696",
                         "type": "Actor",
                         "_label": "Lichtenstein, Roy"
                     }             
@@ -9406,42 +9762,42 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/85257",
+                    "id": "https://data.discovernewfields.org/object/82696",
                     "type": "ManMadeObject",
                     "_label": "element A for Five Brushstrokes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/85258",
+                    "id": "https://data.discovernewfields.org/object/82696",
                     "type": "ManMadeObject",
                     "_label": "element B for Five Brushstrokes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/85259",
+                    "id": "https://data.discovernewfields.org/object/82696",
                     "type": "ManMadeObject",
                     "_label": "element C for Five Brushstrokes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/85260",
+                    "id": "https://data.discovernewfields.org/object/82696",
                     "type": "ManMadeObject",
                     "_label": "element D for Five Brushstrokes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/85261",
+                    "id": "https://data.discovernewfields.org/object/82696",
                     "type": "ManMadeObject",
                     "_label": "element E.1 for Five Brushstrokes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/85262",
+                    "id": "https://data.discovernewfields.org/object/82696",
                     "type": "ManMadeObject",
                     "_label": "element E.2 for Five Brushstrokes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/85263",
+                    "id": "https://data.discovernewfields.org/object/82696",
                     "type": "ManMadeObject",
                     "_label": "element E.3 for Five Brushstrokes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/85264",
+                    "id": "https://data.discovernewfields.org/object/82696",
                     "type": "ManMadeObject",
                     "_label": "element E.4 for Five Brushstrokes"
                 }
@@ -9540,7 +9896,7 @@
                 "_label": "Production of element A for Five Brushstrokes",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/613279",
+                        "id": "https://data.discovernewfields.org/actor/85257",
                         "type": "Actor",
                         "_label": "Lichtenstein, Roy"
                     }             
@@ -9703,6 +10059,553 @@
         }
     },
     {
+        "89163": {
+            "@context": "https://linked.art/ns/v1/linked-art.json",
+            "id": "https://data.discovernewfields.org/object/89163",
+            "type": "ManMadeObject",
+            "_label": "blouse for evening dress",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300133025",
+                    "type": "Type",
+                    "_label": "works of art"
+                }
+            ],
+            "identified_by": [
+                {
+                    "id": "https://data.discovernewfields.org/object/89163/irn",
+                    "type": "Identifier",
+                    "_label": "IMA at Newfields Collections Database Number for the Artwork",
+                    "content": 89163,
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404621",
+                            "type": "Type",
+                            "_label": "repository numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89163/accession-number",
+                    "type": "Identifier",
+                    "_label": "IMA at Newfields Accession Number for the Artwork",
+                    "content": "80.262A",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300312355",
+                            "type": "Type",
+                            "_label": "accession numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89163/old-accession-number/1",
+                    "type": "Identifier",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+                    "content": "TR3673",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404626",
+                            "type": "Type",
+                            "_label": "identification numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89163/title",
+                    "type": "Name",
+                    "_label": "Primary Title for the Artwork",
+                    "content": "blouse for evening dress",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404670",
+                            "type": "Type",
+                            "_label": "preferred terms"
+                        }
+                    ]
+                }
+        ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/89163/production",
+                "type": "Production",
+                "_label": "Production of blouse for evening dress",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/89163",
+                        "type": "Actor",
+                        "_label": "Halston"
+                    }             
+                ]
+            },
+            "dimension": [
+                {
+                    "type": "Dimension",
+                    "id": "https://data.discovernewfields.org/object/89163/color-1",
+                    "_label": "Color Visibly Identified by IMA staff on Part of the Work",
+                    "classified_as": [ 
+                        {
+                            "id": "https://data.discovernewfields.org/thesauri/color/ivory",
+                            "type": "Type",
+                            "_label": "ivory"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/colorness",
+                            "type": "Type",
+                            "_label": "Color"
+                        }
+                    ]
+                },
+                {
+                    "type": "Dimension",
+                    "id": "https://data.discovernewfields.org/object/89163/color-2",
+                    "_label": "Color Visibly Identified by IMA staff on Part of the Work",
+                    "classified_as": [ 
+                        {
+                            "id": "https://data.discovernewfields.org/thesauri/color/black",
+                            "type": "Type",
+                            "_label": "black"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/colorness",
+                            "type": "Type",
+                            "_label": "Color"
+                        }
+                    ]
+                }
+            ],
+            "current_owner": {
+                "id": "http://vocab.getty.edu/ulan/500300517",
+                "type": "Group",
+                "_label": "Indianapolis Museum of Art at Newfields",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300312281",
+                        "type": "Type",
+                        "_label": "museums (institutions)"
+                    }
+                ],
+                "acquired_title_through": [
+                    {
+                        "id": "https://data.discovernewfields.org/object/89163/IMA-acquisition",
+                        "type": "Acquisition",
+                        "_label": "Acquisition of blouse for evening dress",
+                        "classified_as": [
+                            {
+                                "id": "http://vocab.getty.edu/aat/300157782",
+                                "type": "Type",
+                                "_label": "acquisition (collections management)"
+                            }
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/89163/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1980-09-18",
+                            "begin_of_the_begin": "1980-09-18T00:00:00Z", 
+                            "end_of_the_end": "1980-09-18T00:00:00Z"
+                        }
+                    }
+                ]
+            },
+            "current_location": {
+                "id": "https://data.discovernewfields.org/thesauri/location/storage",
+                "type": "Place",
+                "_label": "IMA Storage"
+            },
+            "referred_to_by": [
+                {
+                    "id": "https://data.discovernewfields.org/object/89163/credit-line",
+                    "type": "LinguisticObject",
+                    "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                    "content": "Gift of Halston Limited",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300026687",
+                            "type": "Type",
+                            "_label": "acknowledgments"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89163/title-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Notes about the Title(s) Associated with the Work",
+                    "content": "A) blouse B) skirt C) sash",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300417212",
+                            "type": "Type",
+                            "_label": "title statements"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89163/dimension-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Notes about the Dimensions of the Work",
+                    "content": "A) blouse: length 22-1/2 in.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300266036",
+                            "type": "Type",
+                            "_label": "dimensions"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89163/materials-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Notes about the Materials in the Work",
+                    "content": "silk organza, silk velvet",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300010358",
+                            "type": "Type",
+                            "_label": "materials (substances)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89163/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "© Halston",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/InC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "In Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "89164": {
+            "@context": "https://linked.art/ns/v1/linked-art.json",
+            "id": "https://data.discovernewfields.org/object/89164",
+            "type": "ManMadeObject",
+            "_label": "skirt for evening dress",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300133025",
+                    "type": "Type",
+                    "_label": "works of art"
+                },
+                {
+                "id": "https://data.discovernewfields.org/thesauri/type/--------skirts------",
+                    "type": "Type",
+                    "_label": "skirts"
+                }
+            ],
+            "identified_by": [
+                {
+                    "id": "https://data.discovernewfields.org/object/89164/irn",
+                    "type": "Identifier",
+                    "_label": "IMA at Newfields Collections Database Number for the Artwork",
+                    "content": 89164,
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404621",
+                            "type": "Type",
+                            "_label": "repository numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89164/accession-number",
+                    "type": "Identifier",
+                    "_label": "IMA at Newfields Accession Number for the Artwork",
+                    "content": "80.262B",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300312355",
+                            "type": "Type",
+                            "_label": "accession numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89164/old-accession-number/1",
+                    "type": "Identifier",
+                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+                    "content": "TR3673",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404626",
+                            "type": "Type",
+                            "_label": "identification numbers"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89164/title",
+                    "type": "Name",
+                    "_label": "Primary Title for the Artwork",
+                    "content": "skirt for evening dress",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404670",
+                            "type": "Type",
+                            "_label": "preferred terms"
+                        }
+                    ]
+                }
+        ],
+            "produced_by": {
+                "id": "https://data.discovernewfields.org/object/89164/production",
+                "type": "Production",
+                "_label": "Production of skirt for evening dress",
+                "carried_out_by": [
+                    {
+                        "id": "https://data.discovernewfields.org/actor/89164",
+                        "type": "Actor",
+                        "_label": "Halston"
+                    }             
+                ]
+            },
+            "dimension": [
+                {
+                    "type": "Dimension",
+                    "id": "https://data.discovernewfields.org/object/89164/color-1",
+                    "_label": "Color Visibly Identified by IMA staff on Part of the Work",
+                    "classified_as": [ 
+                        {
+                            "id": "https://data.discovernewfields.org/thesauri/color/ivory",
+                            "type": "Type",
+                            "_label": "ivory"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/colorness",
+                            "type": "Type",
+                            "_label": "Color"
+                        }
+                    ]
+                },
+                {
+                    "type": "Dimension",
+                    "id": "https://data.discovernewfields.org/object/89164/color-2",
+                    "_label": "Color Visibly Identified by IMA staff on Part of the Work",
+                    "classified_as": [ 
+                        {
+                            "id": "https://data.discovernewfields.org/thesauri/color/black",
+                            "type": "Type",
+                            "_label": "black"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/colorness",
+                            "type": "Type",
+                            "_label": "Color"
+                        }
+                    ]
+                }
+            ],
+            "current_owner": {
+                "id": "http://vocab.getty.edu/ulan/500300517",
+                "type": "Group",
+                "_label": "Indianapolis Museum of Art at Newfields",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300312281",
+                        "type": "Type",
+                        "_label": "museums (institutions)"
+                    }
+                ],
+                "acquired_title_through": [
+                    {
+                        "id": "https://data.discovernewfields.org/object/89164/IMA-acquisition",
+                        "type": "Acquisition",
+                        "_label": "Acquisition of skirt for evening dress",
+                        "classified_as": [
+                            {
+                                "id": "http://vocab.getty.edu/aat/300157782",
+                                "type": "Type",
+                                "_label": "acquisition (collections management)"
+                            }
+                        ],
+                        "took_place_at": [
+                            {
+                                "id": "http://vocab.getty.edu/tgn/7012924", 
+                                "type": "Place", 
+                                "_label": "Indianapolis, Indiana"
+                            }
+                        ],
+                        "timespan": {
+                            "id": "https://data.discovernewfields.org/object/89164/IMA-acquisition-timespan", 
+                            "type": "TimeSpan", 
+                            "_label": "1980-09-18",
+                            "begin_of_the_begin": "1980-09-18T00:00:00Z", 
+                            "end_of_the_end": "1980-09-18T00:00:00Z"
+                        }
+                    }
+                ]
+            },
+            "current_location": {
+                "id": "https://data.discovernewfields.org/thesauri/location/storage",
+                "type": "Place",
+                "_label": "IMA Storage"
+            },
+            "referred_to_by": [
+                {
+                    "id": "https://data.discovernewfields.org/object/89164/credit-line",
+                    "type": "LinguisticObject",
+                    "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                    "content": "Gift of Halston Limited",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300026687",
+                            "type": "Type",
+                            "_label": "acknowledgments"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89164/title-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Notes about the Title(s) Associated with the Work",
+                    "content": "A) blouse B) skirt C) sash",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300417212",
+                            "type": "Type",
+                            "_label": "title statements"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89164/dimension-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Notes about the Dimensions of the Work",
+                    "content": "B) skirt: length 50-1/2 in.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300266036",
+                            "type": "Type",
+                            "_label": "dimensions"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89164/materials-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Notes about the Materials in the Work",
+                    "content": "silk organza, silk velvet",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300010358",
+                            "type": "Type",
+                            "_label": "materials (substances)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89164/rights-statement",
+                    "type": "LinguisticObject",
+                    "_label": "Rights Statement",
+                    "content": "© Halston",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "http://rightsstatements.org/vocab/InC/1.0/",
+                    "type": "LinguisticObject",
+                    "_label": "In Copyright",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055547",
+                            "type": "Type",
+                            "_label": "legal concepts"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
         "89367": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/89367",
@@ -9805,7 +10708,7 @@
                 "_label": "Production of Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left)",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/11366",
+                        "id": "https://data.discovernewfields.org/actor/89367",
                         "type": "Actor",
                         "_label": "Utagawa Kunisada 歌川国貞"
                     }             
@@ -10063,7 +10966,7 @@
                 "_label": "Production of (C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/11366",
+                        "id": "https://data.discovernewfields.org/actor/89368",
                         "type": "Actor",
                         "_label": "Utagawa Kunisada 歌川国貞"
                     }             
@@ -10321,7 +11224,7 @@
                 "_label": "Production of Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/11366",
+                        "id": "https://data.discovernewfields.org/actor/89369",
                         "type": "Actor",
                         "_label": "Utagawa Kunisada 歌川国貞"
                     }             
@@ -10562,12 +11465,12 @@
                 "_label": "Production of Tricorne candleholders",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/7062",
+                        "id": "https://data.discovernewfields.org/actor/90817",
                         "type": "Actor",
                         "_label": "Muller-Munk, Peter"
                     },
                     {
-                        "id": "https://data.discovernewfields.org/actor/12032",
+                        "id": "https://data.discovernewfields.org/actor/90817",
                         "type": "Actor",
                         "_label": "Val Saint Lambert"
                     }             
@@ -10671,17 +11574,17 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/92160",
+                    "id": "https://data.discovernewfields.org/object/90817",
                     "type": "ManMadeObject",
                     "_label": "Tricorne candleholder"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/92158",
+                    "id": "https://data.discovernewfields.org/object/90817",
                     "type": "ManMadeObject",
                     "_label": "Tricorne candleholder"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/92159",
+                    "id": "https://data.discovernewfields.org/object/90817",
                     "type": "ManMadeObject",
                     "_label": "Tricorne candleholders"
                 }
@@ -10774,12 +11677,12 @@
                 "_label": "Production of Tricorne candleholder",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/7062",
+                        "id": "https://data.discovernewfields.org/actor/92158",
                         "type": "Actor",
                         "_label": "Muller-Munk, Peter"
                     },
                     {
-                        "id": "https://data.discovernewfields.org/actor/12032",
+                        "id": "https://data.discovernewfields.org/actor/92158",
                         "type": "Actor",
                         "_label": "Val Saint Lambert"
                     }             
@@ -10974,12 +11877,12 @@
                 "_label": "Production of Tricorne candleholders",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/7062",
+                        "id": "https://data.discovernewfields.org/actor/92159",
                         "type": "Actor",
                         "_label": "Muller-Munk, Peter"
                     },
                     {
-                        "id": "https://data.discovernewfields.org/actor/12032",
+                        "id": "https://data.discovernewfields.org/actor/92159",
                         "type": "Actor",
                         "_label": "Val Saint Lambert"
                     }             
@@ -11174,12 +12077,12 @@
                 "_label": "Production of Tricorne candleholder",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/7062",
+                        "id": "https://data.discovernewfields.org/actor/92160",
                         "type": "Actor",
                         "_label": "Muller-Munk, Peter"
                     },
                     {
-                        "id": "https://data.discovernewfields.org/actor/12032",
+                        "id": "https://data.discovernewfields.org/actor/92160",
                         "type": "Actor",
                         "_label": "Val Saint Lambert"
                     }             
@@ -11367,7 +12270,7 @@
                 "_label": "Production of censer in form of teahouse",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/10661",
+                        "id": "https://data.discovernewfields.org/actor/92384",
                         "type": "Actor",
                         "_label": "Unknown 作者不詳"
                     }             
@@ -11590,7 +12493,7 @@
                 "_label": "Production of censer in form of teahouse",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/10661",
+                        "id": "https://data.discovernewfields.org/actor/92385",
                         "type": "Actor",
                         "_label": "Unknown 作者不詳"
                     }             
@@ -11813,7 +12716,7 @@
                 "_label": "Production of censer in form of teahouse",
                 "carried_out_by": [
                     {
-                        "id": "https://data.discovernewfields.org/actor/10661",
+                        "id": "https://data.discovernewfields.org/actor/92386",
                         "type": "Actor",
                         "_label": "Unknown 作者不詳"
                     }             

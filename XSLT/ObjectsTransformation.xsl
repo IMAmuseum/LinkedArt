@@ -13,9 +13,9 @@
     <xsl:for-each select="table[@name='ecatalogue']/tuple"><xsl:sort select="atom[@name='irn']" data-type="number"/><xsl:variable name="irn"><xsl:value-of select="atom[@name='irn']"/></xsl:variable>{<!--
         
 Header-->
-        "<xsl:value-of select="atom[@name='irn']"/>": {
+        "<xsl:copy-of select="$irn"/>": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
-            "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>",
+            "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>",
             "type": "ManMadeObject",
             "_label": "<xsl:value-of select="replace(atom[@name='TitMainTitle'], '&quot;', '\\&quot;')"/>",<!--
                 
@@ -36,10 +36,10 @@ Classification-->
 Identifiers-->
             "identified_by": [
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/irn",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/irn",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Collections Database Number for the Artwork",
-                    "content": <xsl:value-of select="atom[@name='irn']"/>,
+                    "content": <xsl:copy-of select="$irn"/>,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404621",
@@ -49,7 +49,7 @@ Identifiers-->
                     ]
                 },
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/accession-number",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/accession-number",
                     "type": "Identifier",
                     "_label": "IMA at Newfields Accession Number for the Artwork",
                     "content": "<xsl:value-of select="atom[@name='TitAccessionNo']"/>",
@@ -62,7 +62,7 @@ Identifiers-->
                     ]
                 }<xsl:if test="atom[@name='TitPreviousAccessionNo'] != ''"><xsl:choose><xsl:when test="not(contains(atom[@name='TitPreviousAccessionNo'], '|')) and atom[@name='TitPreviousAccessionNo'] != 'No TR Number'">,
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/old-accession-number/1",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/old-accession-number/1",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "<xsl:value-of select="atom[@name='TitPreviousAccessionNo']"/>",
@@ -75,7 +75,7 @@ Identifiers-->
                     ]
                 }</xsl:when><xsl:when test="contains(atom[@name='TitPreviousAccessionNo'], '|')"><xsl:for-each select="tokenize(atom[@name='TitPreviousAccessionNo'],' \| ')"><xsl:if test="not(contains(., '|'))">,
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="$irn"/>/old-accession-number-<xsl:value-of select="position()"/>",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/old-accession-number-<xsl:value-of select="position()"/>",
                     "type": "Identifier",
                     "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
                     "content": "<xsl:value-of select="."/>",
@@ -91,7 +91,7 @@ Identifiers-->
                     
 Titles-->
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/title",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/title",
                     "type": "Name",
                     "_label": "Primary Title for the Artwork",
                     "content": "<xsl:value-of select="atom[@name='TitMainTitle']"/>",
@@ -104,7 +104,7 @@ Titles-->
                     ]
                 }<xsl:if test="table[@name='AltTitles']"><xsl:for-each select="table[@name='AltTitles']/tuple">,
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/alt-title-<xsl:value-of select="position()"/>",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/alt-title-<xsl:value-of select="position()"/>",
                     "type": "Name",
                     "_label": "Alternate Title for the Artwork",
                     "content": "<xsl:value-of select="atom[@name='TitAlternateTitles']"/>",
@@ -119,7 +119,7 @@ Titles-->
             </xsl:for-each>
             </xsl:if><xsl:if test="atom[@name='TitSeriesTitle'] != ''">,
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/series-title",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/series-title",
                     "type": "Name",
                     "_label": "Title of the Series of Works of which the Artwork is a Part",
                     "content": "<xsl:value-of select="atom[@name='TitSeriesTitle']"/>",
@@ -132,7 +132,7 @@ Titles-->
                     ]
                 }</xsl:if><xsl:if test="atom[@name='TitCollectionTitle'] != ''">,
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/portfolio-title",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/portfolio-title",
                     "type": "Name",
                     "_label": "Title of the Portfolio of which the Artwork is a Part",
                     "content": "<xsl:value-of select="atom[@name='TitSeriesTitle']"/>",
@@ -158,12 +158,12 @@ Materials-->
 
 Production-->
             "produced_by": {
-                "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/production",
+                "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/production",
                 "type": "Production",
                 "_label": "Production of <xsl:value-of select="atom[@name='TitMainTitle']"/>"<xsl:if test="table[@name='Creator1'] or table[@name='Creator2']"><xsl:choose><xsl:when test="table[@name='Creator1']">,
                 "carried_out_by": [<xsl:for-each select="table[@name='Creator1']/tuple[atom[@name='irn'] != '2741'] | table[@name='Creator1']/tuple[atom[@name='irn'] != '10661'] | table[@name='Creator1']/tuple[not(exists(atom[@name='CreCreatorAfterFollower']))]">
                     {
-                        "id": "<xsl:copy-of select="$baseURI"/>actor/<xsl:value-of select="atom[@name='irn']"/>",
+                        "id": "<xsl:copy-of select="$baseURI"/>actor/<xsl:copy-of select="$irn"/>",
                         "type": "Actor",
                         "_label": "<xsl:value-of select="atom[@name='SummaryData']"/>"
                     }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each></xsl:when><xsl:when test="table[@name='Creator2']/tuple[atom[@name='CreCreationCultureOrPeople']]">,
@@ -174,7 +174,47 @@ Production-->
                         "_label": "<xsl:value-of select="atom[@name='CreCreationCultureOrPeople']"/>"
                     }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each></xsl:when><xsl:otherwise/></xsl:choose>             
                 ]</xsl:if>
-            },<!--
+            },<xsl:if test="table[@name='Color']"><!--
+
+Dimensions--><xsl:if test="table[@name='Color']"><xsl:choose><xsl:when test="not(contains(table[@name='Color']/tuple/atom[@name='PhyColor'], '|'))">
+            "dimension": [
+                {
+                    "type": "Dimension",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/color-1",
+                    "_label": "Color Visibly Identified by IMA staff on Part of the Work",
+                    "classified_as": [ 
+                        {
+                            "id": "<xsl:copy-of select="$baseURI"/>thesauri/color/<xsl:value-of select="lower-case(translate(replace(table[@name='Color']/tuple/atom[@name='PhyColor'],'[^a-zA-Z0-9 ]',''), ' ', '-'))"/>",
+                            "type": "Type",
+                            "_label": "<xsl:value-of select="lower-case(table[@name='Color']/tuple/atom[@name='PhyColor'])"/>"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/colorness",
+                            "type": "Type",
+                            "_label": "Color"
+                        }
+                    ]
+                }
+            ],</xsl:when><xsl:otherwise>
+            "dimension": [<xsl:for-each select="tokenize(table[@name='Color']/tuple/atom[@name='PhyColor'],' \| ')">
+                {
+                    "type": "Dimension",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/color-<xsl:value-of select="position()"/>",
+                    "_label": "Color Visibly Identified by IMA staff on Part of the Work",
+                    "classified_as": [ 
+                        {
+                            "id": "<xsl:copy-of select="$baseURI"/>thesauri/color/<xsl:value-of select="lower-case(translate(replace(.,'[^a-zA-Z0-9 ]',''), ' ', '-'))"/>",
+                            "type": "Type",
+                            "_label": "<xsl:value-of select="lower-case(.)"/>"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/colorness",
+                            "type": "Type",
+                            "_label": "Color"
+                        }
+                    ]
+                }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each>
+            ],</xsl:otherwise></xsl:choose></xsl:if></xsl:if><!--
                 
 Owner-->
             "current_owner": {
@@ -192,7 +232,7 @@ Owner-->
 Acquisition-->
                 "acquired_title_through": [
                     {
-                        "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/IMA-acquisition",
+                        "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/IMA-acquisition",
                         "type": "Acquisition",
                         "_label": "Acquisition of <xsl:value-of select="atom[@name='TitMainTitle']"/>",
                         "classified_as": [
@@ -210,7 +250,7 @@ Acquisition-->
                             }
                         ]<xsl:if test="atom[@name='TitAccessionDate'] != ''">,
                         "timespan": {
-                            "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/IMA-acquisition-timespan", 
+                            "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/IMA-acquisition-timespan", 
                             "type": "TimeSpan", 
                             "_label": "<xsl:value-of select="atom[@name='TitAccessionDate']"/>",<xsl:choose><xsl:when test="string-length(atom[@name='TitAccessionDate']) = 4">
                             "begin_of_the_begin": "<xsl:value-of select="atom[@name='TitAccessionDate']"/>-01-01T00:00:00Z", 
@@ -283,7 +323,7 @@ Current Location-->
 Linquistic Objects-->
             "referred_to_by": [<xsl:if test="atom[@name='SumCreditLine'] != ''">
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/credit-line",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/credit-line",
                     "type": "LinguisticObject",
                     "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
                     "content": "<xsl:value-of select="replace(replace(atom[@name='SumCreditLine'], '\n', '\\n'), '&quot;', '\\&quot;')"/>",
@@ -301,7 +341,7 @@ Linquistic Objects-->
                     ]
                 }<xsl:if test="atom[@name='TitTitleNotes'] != '' or atom[@name='PhyConvertedDimes'] != '' or atom[@name='PhyMediumAndSupport'] != '' or table[@name='Rights']">,</xsl:if></xsl:if><xsl:if test="atom[@name='TitTitleNotes'] != ''">
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/title-statement",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/title-statement",
                     "type": "LinguisticObject",
                     "_label": "Notes about the Title(s) Associated with the Work",
                     "content": "<xsl:value-of select="replace(replace(atom[@name='TitTitleNotes'], '\n', '\\n'), '&quot;', '\\&quot;')"/>",
@@ -319,7 +359,7 @@ Linquistic Objects-->
                     ]
                 }<xsl:if test="atom[@name='PhyConvertedDims'] != '' or atom[@name='PhyMediumAndSupport'] != '' or table[@name='Rights']">,</xsl:if></xsl:if><xsl:if test="atom[@name='PhyConvertedDims'] != ''">
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/dimension-statement",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/dimension-statement",
                     "type": "LinguisticObject",
                     "_label": "Notes about the Dimensions of the Work",
                     "content": "<xsl:value-of select="replace(replace(atom[@name='PhyConvertedDims'], '\n', '\\n'), '&quot;', '\\&quot;')"/>",
@@ -337,7 +377,7 @@ Linquistic Objects-->
                     ]
                 }<xsl:if test="atom[@name='PhyMediumAndSupport'] != '' or table[@name='Rights']">,</xsl:if></xsl:if><xsl:if test="atom[@name='PhyMediumAndSupport'] != ''">
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/materials-statement",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/materials-statement",
                     "type": "LinguisticObject",
                     "_label": "Notes about the Materials in the Work",
                     "content": "<xsl:value-of select="replace(replace(atom[@name='PhyMediumAndSupport'], '\n', '\\n'), '&quot;', '\\&quot;')"/>",
@@ -355,7 +395,7 @@ Linquistic Objects-->
                     ]
                 }<xsl:if test="table[@name='Rights']">,</xsl:if></xsl:if><xsl:if test="table[@name='Rights']">
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>/rights-statement",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
                     "content": "<xsl:value-of select="replace(replace(table[@name='Rights']/tuple[1]/atom[@name='RigAcknowledgement'], '\n', '\\n'), '&quot;', '\\&quot;')"/>",
@@ -428,12 +468,12 @@ Linquistic Objects-->
 Parts-->
             "part": [<xsl:for-each select="table[@name='Children']/tuple">
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>",
                     "type": "ManMadeObject",
                     "_label": "<xsl:value-of select="atom[@name='TitMainTitle']"/>"
                 }<xsl:if test="table[@name='Grandchildren']"><xsl:for-each select="table[@name='Grandchildren']/tuple">,
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>",
                     "type": "ManMadeObject",
                     "_label": "<xsl:value-of select="atom[@name='TitMainTitle']"/>"
                 }</xsl:for-each></xsl:if><xsl:if test="position() != last()">,</xsl:if></xsl:for-each>

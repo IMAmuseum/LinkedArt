@@ -1145,9 +1145,9 @@
   <tuple>
     <atom name="irn">17577</atom>
     <atom name="TitAccessionNo">80.650</atom>
-    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitPreviousAccessionNo">TR3950/7</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
-    <atom name="TitAccessionDate"></atom>
+    <atom name="TitAccessionDate">1980-12-31</atom>
     <atom name="TitMainTitle">Dines with Writing Material</atom>
     <atom name="TitSeriesTitle"></atom>
     <atom name="TitCollectionTitle"></atom>
@@ -1680,6 +1680,119 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
 
   <!-- Row 17 -->
   <tuple>
+    <atom name="irn">24892</atom>
+    <atom name="TitAccessionNo">80.262A-C</atom>
+    <atom name="TitPreviousAccessionNo">TR3673</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1980-09-18</atom>
+    <atom name="TitMainTitle">evening dress</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes">A) blouse B) skirt C) sash</atom>
+    <atom name="TitObjectType">Costume</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">costumes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dresses</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">evening dresses</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1980</atom>
+    <atom name="CreEarliestDate">1980</atom>
+    <atom name="CreLatestDate">1980</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">11481</atom>
+        <atom name="SummaryData">Halston</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">United States</atom>
+        <atom name="CreState">New York</atom>
+        <atom name="CreDistrict">New York County</atom>
+        <atom name="CreCity">New York</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <atom name="PhyMediumAndSupport">silk organza, silk velvet</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">Top all in one piece with an elastic, collar extends out of the fabric with slashing, crossover V shape neckline with crossover V shaped skirt opening</atom>
+    <table name="Color">
+      <tuple>
+        <atom name="PhyColor">ivory | black</atom>
+      </tuple>
+    </table>
+    <atom name="PhyConvertedDims">A) blouse: length 22-1/2 in.
+B) skirt: length 50-1/2 in. 
+C) sash: length 81 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions A</atom>
+        <atom name="PhyHeight">22.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">A) Metric: 57.15 (blouse)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions B</atom>
+        <atom name="PhyHeight">50.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">B) Metric: 128.27 (skirt)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions C</atom>
+        <atom name="PhyHeight">81.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">C) Metric: 205.74 (sash)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Halston Limited</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Halston</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">Halston Limited in care of Micheal Lichtenstien, New York, New York ; given to the Indianapolis Museum of Art in 1980.</atom>
+    <atom name="PhyCollectionArea">908-Textile and Fashion Arts</atom>
+    <atom name="LocMovementType"></atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">see related parts</atom>
+      <atom name="LocLevel3"></atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">Yes</atom>
+    <table name="Children">
+      <tuple>
+        <atom name="irn">89163</atom>
+        <atom name="TitMainTitle">blouse for evening dress</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">89164</atom>
+        <atom name="TitMainTitle">skirt for evening dress</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">89165</atom>
+        <atom name="TitMainTitle">sash for evening dress</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 18 -->
+  <tuple>
     <atom name="irn">25098</atom>
     <atom name="TitAccessionNo">16.924A-C</atom>
     <atom name="TitPreviousAccessionNo"></atom>
@@ -1792,7 +1905,7 @@ Censor's seal: single kiwame</atom>
     </table>
   </tuple>
 
-  <!-- Row 18 -->
+  <!-- Row 19 -->
   <tuple>
     <atom name="irn">37383</atom>
     <atom name="TitAccessionNo">89.1</atom>
@@ -1910,7 +2023,7 @@ Censor's seal: single kiwame</atom>
     </table>
   </tuple>
 
-  <!-- Row 19 -->
+  <!-- Row 20 -->
   <tuple>
     <atom name="irn">41018</atom>
     <atom name="TitAccessionNo">80.1596.1</atom>
@@ -2004,7 +2117,7 @@ Censor's seal: single kiwame</atom>
     </table>
   </tuple>
 
-  <!-- Row 20 -->
+  <!-- Row 21 -->
   <tuple>
     <atom name="irn">41019</atom>
     <atom name="TitAccessionNo">80.1596.2</atom>
@@ -2097,7 +2210,7 @@ Censor's seal: single kiwame</atom>
     </table>
   </tuple>
 
-  <!-- Row 21 -->
+  <!-- Row 22 -->
   <tuple>
     <atom name="irn">46950</atom>
     <atom name="TitAccessionNo">05.19</atom>
@@ -2156,7 +2269,7 @@ Censor's seal: single kiwame</atom>
     <atom name="AssIsParent">No</atom>
   </tuple>
 
-  <!-- Row 22 -->
+  <!-- Row 23 -->
   <tuple>
     <atom name="irn">47035</atom>
     <atom name="TitAccessionNo">08.19</atom>
@@ -2231,7 +2344,7 @@ Censor's seal: single kiwame</atom>
     <atom name="AssIsParent">No</atom>
   </tuple>
 
-  <!-- Row 23 -->
+  <!-- Row 24 -->
   <tuple>
     <atom name="irn">51330</atom>
     <atom name="TitAccessionNo">30.388</atom>
@@ -2342,7 +2455,7 @@ Engraver's seal: Horisen</atom>
     <atom name="AssIsParent">No</atom>
   </tuple>
 
-  <!-- Row 24 -->
+  <!-- Row 25 -->
   <tuple>
     <atom name="irn">52481</atom>
     <atom name="TitAccessionNo">44.91</atom>
@@ -2424,7 +2537,7 @@ Engraver's seal: Horisen</atom>
     <atom name="AssIsParent">No</atom>
   </tuple>
 
-  <!-- Row 25 -->
+  <!-- Row 26 -->
   <tuple>
     <atom name="irn">55312</atom>
     <atom name="TitAccessionNo">80.1596</atom>
@@ -2493,7 +2606,7 @@ Engraver's seal: Horisen</atom>
     </table>
   </tuple>
 
-  <!-- Row 26 -->
+  <!-- Row 27 -->
   <tuple>
     <atom name="irn">64017</atom>
     <atom name="TitAccessionNo">2007.4A-B</atom>
@@ -2585,7 +2698,7 @@ Engraver's seal: Horisen</atom>
     </table>
   </tuple>
 
-  <!-- Row 27 -->
+  <!-- Row 28 -->
   <tuple>
     <atom name="irn">64018</atom>
     <atom name="TitAccessionNo">2007.4A</atom>
@@ -2680,7 +2793,7 @@ Engraver's seal: Horisen</atom>
     </table>
   </tuple>
 
-  <!-- Row 28 -->
+  <!-- Row 29 -->
   <tuple>
     <atom name="irn">64019</atom>
     <atom name="TitAccessionNo">2007.4B</atom>
@@ -2772,7 +2885,7 @@ Engraver's seal: Horisen</atom>
     </table>
   </tuple>
 
-  <!-- Row 29 -->
+  <!-- Row 30 -->
   <tuple>
     <atom name="irn">64628</atom>
     <atom name="TitAccessionNo">2009.390.1-.16</atom>
@@ -2980,7 +3093,7 @@ Engraver's seal: Horisen</atom>
     </table>
   </tuple>
 
-  <!-- Row 30 -->
+  <!-- Row 31 -->
   <tuple>
     <atom name="irn">67743</atom>
     <atom name="TitAccessionNo">2009.646A-B</atom>
@@ -3092,7 +3205,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 31 -->
+  <!-- Row 32 -->
   <tuple>
     <atom name="irn">68180</atom>
     <atom name="TitAccessionNo">2009.390.1A-B</atom>
@@ -3260,7 +3373,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 32 -->
+  <!-- Row 33 -->
   <tuple>
     <atom name="irn">68181</atom>
     <atom name="TitAccessionNo">2009.390.1A</atom>
@@ -3366,7 +3479,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 33 -->
+  <!-- Row 34 -->
   <tuple>
     <atom name="irn">68182</atom>
     <atom name="TitAccessionNo">2009.390.1B</atom>
@@ -3459,7 +3572,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 34 -->
+  <!-- Row 35 -->
   <tuple>
     <atom name="irn">68903</atom>
     <atom name="TitAccessionNo">2010.217</atom>
@@ -3536,7 +3649,7 @@ B) ottoman: diam.: 22 in.</atom>
     <atom name="AssIsParent">No</atom>
   </tuple>
 
-  <!-- Row 35 -->
+  <!-- Row 36 -->
   <tuple>
     <atom name="irn">69062</atom>
     <atom name="TitAccessionNo">2009.646A</atom>
@@ -3631,7 +3744,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 36 -->
+  <!-- Row 37 -->
   <tuple>
     <atom name="irn">69063</atom>
     <atom name="TitAccessionNo">2009.646B</atom>
@@ -3724,7 +3837,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 37 -->
+  <!-- Row 38 -->
   <tuple>
     <atom name="irn">81052</atom>
     <atom name="TitAccessionNo">2013.298</atom>
@@ -3826,7 +3939,7 @@ B) ottoman: diam.: 22 in.</atom>
     <atom name="AssIsParent">No</atom>
   </tuple>
 
-  <!-- Row 38 -->
+  <!-- Row 39 -->
   <tuple>
     <atom name="irn">82696</atom>
     <atom name="TitAccessionNo">2013.443A-E.4</atom>
@@ -3979,7 +4092,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
     </table>
   </tuple>
 
-  <!-- Row 39 -->
+  <!-- Row 40 -->
   <tuple>
     <atom name="irn">85257</atom>
     <atom name="TitAccessionNo">2013.443A</atom>
@@ -4100,7 +4213,180 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
     </table>
   </tuple>
 
-  <!-- Row 40 -->
+  <!-- Row 41 -->
+  <tuple>
+    <atom name="irn">89163</atom>
+    <atom name="TitAccessionNo">80.262A</atom>
+    <atom name="TitPreviousAccessionNo">TR3673</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1980-09-18</atom>
+    <atom name="TitMainTitle">blouse for evening dress</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes">A) blouse B) skirt C) sash</atom>
+    <atom name="TitObjectType">Costume</atom>
+    <atom name="CreDateCreated">1980</atom>
+    <atom name="CreEarliestDate">1980</atom>
+    <atom name="CreLatestDate">1980</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">11481</atom>
+        <atom name="SummaryData">Halston</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">United States</atom>
+        <atom name="CreState">New York</atom>
+        <atom name="CreDistrict">New York County</atom>
+        <atom name="CreCity">New York</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <atom name="PhyMediumAndSupport">silk organza, silk velvet</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">Top all in one piece with an elastic, collar extends out of the fabric with slashing, crossover V shape neckline with crossover V shaped skirt opening</atom>
+    <table name="Color">
+      <tuple>
+        <atom name="PhyColor">ivory | black</atom>
+      </tuple>
+    </table>
+    <atom name="PhyConvertedDims">A) blouse: length 22-1/2 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions A</atom>
+        <atom name="PhyHeight">22.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">A) Metric: 57.15 (blouse)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Halston Limited</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Halston</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">Halston Limited c/o Micheal Lichtenstien, New York, New York ; given to the Indianapolis Museum of Art in 1980.</atom>
+    <atom name="PhyCollectionArea">908-Textile and Fashion Arts</atom>
+    <atom name="LocMovementType">Storage Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Tc46</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">24892</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">part (ensemble)</atom>
+        <atom name="irn">89164</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part (ensemble)</atom>
+        <atom name="irn">89165</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 42 -->
+  <tuple>
+    <atom name="irn">89164</atom>
+    <atom name="TitAccessionNo">80.262B</atom>
+    <atom name="TitPreviousAccessionNo">TR3673</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1980-09-18</atom>
+    <atom name="TitMainTitle">skirt for evening dress</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes">A) blouse B) skirt C) sash</atom>
+    <atom name="TitObjectType">Costume</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">skirts</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1980</atom>
+    <atom name="CreEarliestDate">1980</atom>
+    <atom name="CreLatestDate">1980</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">11481</atom>
+        <atom name="SummaryData">Halston</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">United States</atom>
+        <atom name="CreState">New York</atom>
+        <atom name="CreDistrict">New York County</atom>
+        <atom name="CreCity">New York</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <atom name="PhyMediumAndSupport">silk organza, silk velvet</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">Top all in one piece with an elastic, collar extends out of the fabric with slashing, crossover V shape neckline with crossover V shaped skirt opening</atom>
+    <table name="Color">
+      <tuple>
+        <atom name="PhyColor">ivory | black</atom>
+      </tuple>
+    </table>
+    <atom name="PhyConvertedDims">B) skirt: length 50-1/2 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions B</atom>
+        <atom name="PhyHeight">50.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">B) Metric: 128.27 (skirt)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Halston Limited</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Halston</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">Halston Limited c/o Micheal Lichtenstien, New York, New York ; given to the Indianapolis Museum of Art in 1980.</atom>
+    <atom name="PhyCollectionArea">908-Textile and Fashion Arts</atom>
+    <atom name="LocMovementType">Storage Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Tc46</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">24892</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">part (ensemble)</atom>
+        <atom name="irn">89163</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">part (ensemble)</atom>
+        <atom name="irn">89165</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 43 -->
   <tuple>
     <atom name="irn">89367</atom>
     <atom name="TitAccessionNo">16.924A</atom>
@@ -4201,7 +4487,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
     </table>
   </tuple>
 
-  <!-- Row 41 -->
+  <!-- Row 44 -->
   <tuple>
     <atom name="irn">89368</atom>
     <atom name="TitAccessionNo">16.924B</atom>
@@ -4302,7 +4588,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
     </table>
   </tuple>
 
-  <!-- Row 42 -->
+  <!-- Row 45 -->
   <tuple>
     <atom name="irn">89369</atom>
     <atom name="TitAccessionNo">16.924C</atom>
@@ -4412,7 +4698,7 @@ Censor's seal: single kiwame</atom>
     </table>
   </tuple>
 
-  <!-- Row 43 -->
+  <!-- Row 46 -->
   <tuple>
     <atom name="irn">90817</atom>
     <atom name="TitAccessionNo">2017.64A-C</atom>
@@ -4522,7 +4808,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 44 -->
+  <!-- Row 47 -->
   <tuple>
     <atom name="irn">92158</atom>
     <atom name="TitAccessionNo">2017.64A</atom>
@@ -4610,7 +4896,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 45 -->
+  <!-- Row 48 -->
   <tuple>
     <atom name="irn">92159</atom>
     <atom name="TitAccessionNo">2017.64B</atom>
@@ -4698,7 +4984,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 46 -->
+  <!-- Row 49 -->
   <tuple>
     <atom name="irn">92160</atom>
     <atom name="TitAccessionNo">2017.64C</atom>
@@ -4786,7 +5072,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 47 -->
+  <!-- Row 50 -->
   <tuple>
     <atom name="irn">92384</atom>
     <atom name="TitAccessionNo">13.1A</atom>
@@ -4888,7 +5174,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 48 -->
+  <!-- Row 51 -->
   <tuple>
     <atom name="irn">92385</atom>
     <atom name="TitAccessionNo">13.1B</atom>
@@ -4981,7 +5267,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 49 -->
+  <!-- Row 52 -->
   <tuple>
     <atom name="irn">92386</atom>
     <atom name="TitAccessionNo">13.1C</atom>
@@ -5074,7 +5360,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 50 -->
+  <!-- Row 53 -->
   <tuple>
     <atom name="irn">93739</atom>
     <atom name="TitAccessionNo">73.131.6A</atom>
