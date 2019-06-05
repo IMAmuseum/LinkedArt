@@ -232,7 +232,7 @@ Owner-->
 Acquisition-->
                 "acquired_title_through": [
                     {
-                        "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/IMA-acquisition",
+            Parts            "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/IMA-acquisition",
                         "type": "Acquisition",
                         "_label": "Acquisition of <xsl:value-of select="atom[@name='TitMainTitle']"/>",
                         "classified_as": [
@@ -463,10 +463,10 @@ Linquistic Objects-->
                         }
                     ]
                 }</xsl:if></xsl:if>
-            ]</xsl:if><xsl:if test="atom[@name='AssIsParent'] = 'Yes' and table[@name='Children']">,<!--
+            ]</xsl:if><xsl:if test="(atom[@name='AssIsParent'] = 'Yes' and table[@name='Children'])">,<!--
 
 Parts-->
-            "part": [<xsl:for-each select="table[@name='Children']/tuple">
+            "part": [<xsl:if test="atom[@name='AssIsParent'] = 'Yes' and table[@name='Children']"><xsl:for-each select="table[@name='Children']/tuple">
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>",
                     "type": "ManMadeObject",
@@ -476,7 +476,7 @@ Parts-->
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>",
                     "type": "ManMadeObject",
                     "_label": "<xsl:value-of select="atom[@name='TitMainTitle']"/>"
-                }</xsl:for-each></xsl:if><xsl:if test="position() != last()">,</xsl:if></xsl:for-each>
+                }</xsl:for-each></xsl:if><xsl:if test="position() != last()">,</xsl:if></xsl:for-each></xsl:if>
             ]</xsl:if>
         }
     }<xsl:if test="position() != last()">,

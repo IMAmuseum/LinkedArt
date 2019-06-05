@@ -22,6 +22,7 @@
 <?schema
   table           ecatalogue
     integer         irn
+    text short      AdmPublishWebNoPassword
     text short      TitAccessionNo
     text short      TitPreviousAccessionNo
     text short      TitObjectStatus
@@ -127,6 +128,7 @@
   <!-- Row 1 -->
   <tuple>
     <atom name="irn">1032</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">60.63</atom>
     <atom name="TitPreviousAccessionNo"></atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -191,6 +193,7 @@
   <!-- Row 2 -->
   <tuple>
     <atom name="irn">1065</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">14.55</atom>
     <atom name="TitPreviousAccessionNo">No TR Number</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -290,6 +293,7 @@
   <!-- Row 3 -->
   <tuple>
     <atom name="irn">1105</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">1989.1569</atom>
     <atom name="TitPreviousAccessionNo">E84.43</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -378,6 +382,7 @@
   <!-- Row 4 -->
   <tuple>
     <atom name="irn">3521</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">42.07</atom>
     <atom name="TitPreviousAccessionNo">TR1658/647</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -490,6 +495,7 @@
   <!-- Row 5 -->
   <tuple>
     <atom name="irn">8407</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">1984.124</atom>
     <atom name="TitPreviousAccessionNo">TR5417</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -594,6 +600,7 @@
   <!-- Row 6 -->
   <tuple>
     <atom name="irn">14365</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">33.1812</atom>
     <atom name="TitPreviousAccessionNo"></atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -650,6 +657,7 @@
   <!-- Row 7 -->
   <tuple>
     <atom name="irn">14617</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">67.10.48</atom>
     <atom name="TitPreviousAccessionNo"></atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -747,6 +755,7 @@
   <!-- Row 8 -->
   <tuple>
     <atom name="irn">16168</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">09.28C</atom>
     <atom name="TitPreviousAccessionNo">No TR Number</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -845,6 +854,7 @@
   <!-- Row 9 -->
   <tuple>
     <atom name="irn">16356</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">07.7</atom>
     <atom name="TitPreviousAccessionNo">No TR Number</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -950,6 +960,7 @@
   <!-- Row 10 -->
   <tuple>
     <atom name="irn">16410</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">14.231</atom>
     <atom name="TitPreviousAccessionNo">1965.14</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -1043,6 +1054,7 @@
   <!-- Row 11 -->
   <tuple>
     <atom name="irn">17425</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">74.10</atom>
     <atom name="TitPreviousAccessionNo">TR0329</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -1144,6 +1156,7 @@
   <!-- Row 12 -->
   <tuple>
     <atom name="irn">17577</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">80.650</atom>
     <atom name="TitPreviousAccessionNo">TR3950/7</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -1246,6 +1259,7 @@
   <!-- Row 13 -->
   <tuple>
     <atom name="irn">20419</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">75.174</atom>
     <atom name="TitPreviousAccessionNo">TR8614</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -1369,6 +1383,7 @@
   <!-- Row 14 -->
   <tuple>
     <atom name="irn">21137</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">06.137</atom>
     <atom name="TitPreviousAccessionNo">No TR Number</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -1477,6 +1492,7 @@ Inscribed: title and series title</atom>
   <!-- Row 15 -->
   <tuple>
     <atom name="irn">21288</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">10.8</atom>
     <atom name="TitPreviousAccessionNo">No TR Number</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -1575,6 +1591,7 @@ Inscribed: title and series title</atom>
   <!-- Row 16 -->
   <tuple>
     <atom name="irn">24693</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">13.1A-C</atom>
     <atom name="TitPreviousAccessionNo">No TR Number</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -1681,6 +1698,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
   <!-- Row 17 -->
   <tuple>
     <atom name="irn">24892</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">80.262A-C</atom>
     <atom name="TitPreviousAccessionNo">TR3673</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -1794,6 +1812,7 @@ C) sash: length 81 in.</atom>
   <!-- Row 18 -->
   <tuple>
     <atom name="irn">25098</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">16.924A-C</atom>
     <atom name="TitPreviousAccessionNo"></atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -1908,6 +1927,7 @@ Censor's seal: single kiwame</atom>
   <!-- Row 19 -->
   <tuple>
     <atom name="irn">37383</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">89.1</atom>
     <atom name="TitPreviousAccessionNo">No TR Number</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -2026,6 +2046,7 @@ Censor's seal: single kiwame</atom>
   <!-- Row 20 -->
   <tuple>
     <atom name="irn">41018</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">80.1596.1</atom>
     <atom name="TitPreviousAccessionNo">TR3986/72uu</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -2120,6 +2141,7 @@ Censor's seal: single kiwame</atom>
   <!-- Row 21 -->
   <tuple>
     <atom name="irn">41019</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">80.1596.2</atom>
     <atom name="TitPreviousAccessionNo">TR3986/72vv</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -2213,6 +2235,7 @@ Censor's seal: single kiwame</atom>
   <!-- Row 22 -->
   <tuple>
     <atom name="irn">46950</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">05.19</atom>
     <atom name="TitPreviousAccessionNo">No TR Number</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -2272,6 +2295,7 @@ Censor's seal: single kiwame</atom>
   <!-- Row 23 -->
   <tuple>
     <atom name="irn">47035</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">08.19</atom>
     <atom name="TitPreviousAccessionNo">No TR Number</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -2347,6 +2371,7 @@ Censor's seal: single kiwame</atom>
   <!-- Row 24 -->
   <tuple>
     <atom name="irn">51330</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">30.388</atom>
     <atom name="TitPreviousAccessionNo"></atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -2458,6 +2483,7 @@ Engraver's seal: Horisen</atom>
   <!-- Row 25 -->
   <tuple>
     <atom name="irn">52481</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">44.91</atom>
     <atom name="TitPreviousAccessionNo"></atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -2540,6 +2566,7 @@ Engraver's seal: Horisen</atom>
   <!-- Row 26 -->
   <tuple>
     <atom name="irn">55312</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">80.1596</atom>
     <atom name="TitPreviousAccessionNo">TR3986/72a</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -2609,6 +2636,7 @@ Engraver's seal: Horisen</atom>
   <!-- Row 27 -->
   <tuple>
     <atom name="irn">64017</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">2007.4A-B</atom>
     <atom name="TitPreviousAccessionNo">TR10523/3A-B</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -2701,6 +2729,7 @@ Engraver's seal: Horisen</atom>
   <!-- Row 28 -->
   <tuple>
     <atom name="irn">64018</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2007.4A</atom>
     <atom name="TitPreviousAccessionNo">TR10523/3A</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -2796,6 +2825,7 @@ Engraver's seal: Horisen</atom>
   <!-- Row 29 -->
   <tuple>
     <atom name="irn">64019</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2007.4B</atom>
     <atom name="TitPreviousAccessionNo">TR10523/3B</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -2888,6 +2918,7 @@ Engraver's seal: Horisen</atom>
   <!-- Row 30 -->
   <tuple>
     <atom name="irn">64628</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">2009.390.1-.16</atom>
     <atom name="TitPreviousAccessionNo">TR10819/2-17 | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -3096,6 +3127,7 @@ Engraver's seal: Horisen</atom>
   <!-- Row 31 -->
   <tuple>
     <atom name="irn">67743</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">2009.646A-B</atom>
     <atom name="TitPreviousAccessionNo">TR10985/5A-B</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -3208,6 +3240,7 @@ B) ottoman: diam.: 22 in.</atom>
   <!-- Row 32 -->
   <tuple>
     <atom name="irn">68180</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.390.1A-B</atom>
     <atom name="TitPreviousAccessionNo">TR10819/2A-B | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -3376,6 +3409,7 @@ B) ottoman: diam.: 22 in.</atom>
   <!-- Row 33 -->
   <tuple>
     <atom name="irn">68181</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.390.1A</atom>
     <atom name="TitPreviousAccessionNo">TR10819/2A | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -3482,6 +3516,7 @@ B) ottoman: diam.: 22 in.</atom>
   <!-- Row 34 -->
   <tuple>
     <atom name="irn">68182</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.390.1B</atom>
     <atom name="TitPreviousAccessionNo">TR10819/2B | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -3575,6 +3610,7 @@ B) ottoman: diam.: 22 in.</atom>
   <!-- Row 35 -->
   <tuple>
     <atom name="irn">68903</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">2010.217</atom>
     <atom name="TitPreviousAccessionNo">TR11136</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -3652,6 +3688,7 @@ B) ottoman: diam.: 22 in.</atom>
   <!-- Row 36 -->
   <tuple>
     <atom name="irn">69062</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.646A</atom>
     <atom name="TitPreviousAccessionNo">TR10985/5A-B</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -3747,6 +3784,7 @@ B) ottoman: diam.: 22 in.</atom>
   <!-- Row 37 -->
   <tuple>
     <atom name="irn">69063</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.646B</atom>
     <atom name="TitPreviousAccessionNo">TR10985/5A-B</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -3840,6 +3878,7 @@ B) ottoman: diam.: 22 in.</atom>
   <!-- Row 38 -->
   <tuple>
     <atom name="irn">81052</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">2013.298</atom>
     <atom name="TitPreviousAccessionNo">TR11642/2</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -3942,6 +3981,7 @@ B) ottoman: diam.: 22 in.</atom>
   <!-- Row 39 -->
   <tuple>
     <atom name="irn">82696</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">2013.443A-E.4</atom>
     <atom name="TitPreviousAccessionNo">TR11707A-E.4</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -4095,6 +4135,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
   <!-- Row 40 -->
   <tuple>
     <atom name="irn">85257</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2013.443A</atom>
     <atom name="TitPreviousAccessionNo">TR11707A</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -4216,6 +4257,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
   <!-- Row 41 -->
   <tuple>
     <atom name="irn">89163</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">80.262A</atom>
     <atom name="TitPreviousAccessionNo">TR3673</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -4300,6 +4342,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
   <!-- Row 42 -->
   <tuple>
     <atom name="irn">89164</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">80.262B</atom>
     <atom name="TitPreviousAccessionNo">TR3673</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -4389,6 +4432,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
   <!-- Row 43 -->
   <tuple>
     <atom name="irn">89367</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">16.924A</atom>
     <atom name="TitPreviousAccessionNo"></atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -4490,6 +4534,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
   <!-- Row 44 -->
   <tuple>
     <atom name="irn">89368</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">16.924B</atom>
     <atom name="TitPreviousAccessionNo"></atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -4591,6 +4636,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
   <!-- Row 45 -->
   <tuple>
     <atom name="irn">89369</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">16.924C</atom>
     <atom name="TitPreviousAccessionNo"></atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -4701,6 +4747,7 @@ Censor's seal: single kiwame</atom>
   <!-- Row 46 -->
   <tuple>
     <atom name="irn">90817</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">2017.64A-C</atom>
     <atom name="TitPreviousAccessionNo">TR12093A-C</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -4811,6 +4858,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
   <!-- Row 47 -->
   <tuple>
     <atom name="irn">92158</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2017.64A</atom>
     <atom name="TitPreviousAccessionNo">TR12093A-C</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -4899,6 +4947,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
   <!-- Row 48 -->
   <tuple>
     <atom name="irn">92159</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2017.64B</atom>
     <atom name="TitPreviousAccessionNo">TR12093A-C</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -4987,6 +5036,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
   <!-- Row 49 -->
   <tuple>
     <atom name="irn">92160</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2017.64C</atom>
     <atom name="TitPreviousAccessionNo">TR12093A-C</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -5075,6 +5125,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
   <!-- Row 50 -->
   <tuple>
     <atom name="irn">92384</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">13.1A</atom>
     <atom name="TitPreviousAccessionNo">No TR Number</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -5177,6 +5228,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
   <!-- Row 51 -->
   <tuple>
     <atom name="irn">92385</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">13.1B</atom>
     <atom name="TitPreviousAccessionNo">No TR Number</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -5270,6 +5322,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
   <!-- Row 52 -->
   <tuple>
     <atom name="irn">92386</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">13.1C</atom>
     <atom name="TitPreviousAccessionNo">No TR Number</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -5363,6 +5416,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
   <!-- Row 53 -->
   <tuple>
     <atom name="irn">93739</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">73.131.6A</atom>
     <atom name="TitPreviousAccessionNo">TR9961/11 | U841A | U841B | U841C</atom>
     <atom name="TitObjectStatus">Accessioned</atom>

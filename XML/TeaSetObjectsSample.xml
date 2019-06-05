@@ -22,6 +22,7 @@
 <?schema
   table           ecatalogue
     integer         irn
+    text short      AdmPublishWebNoPassword
     text short      TitAccessionNo
     text short      TitPreviousAccessionNo
     text short      TitObjectStatus
@@ -127,6 +128,7 @@
   <!-- Row 1 -->
   <tuple>
     <atom name="irn">64628</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">2009.390.1-.16</atom>
     <atom name="TitPreviousAccessionNo">TR10819/2-17 | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -335,6 +337,7 @@
   <!-- Row 2 -->
   <tuple>
     <atom name="irn">68180</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.390.1A-B</atom>
     <atom name="TitPreviousAccessionNo">TR10819/2A-B | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -503,6 +506,7 @@
   <!-- Row 3 -->
   <tuple>
     <atom name="irn">68181</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.390.1A</atom>
     <atom name="TitPreviousAccessionNo">TR10819/2A | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -609,6 +613,7 @@
   <!-- Row 4 -->
   <tuple>
     <atom name="irn">68182</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.390.1B</atom>
     <atom name="TitPreviousAccessionNo">TR10819/2B | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -702,6 +707,7 @@
   <!-- Row 5 -->
   <tuple>
     <atom name="irn">68183</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.390.2A-B</atom>
     <atom name="TitPreviousAccessionNo">TR10819/3A-B | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -869,6 +875,7 @@
   <!-- Row 6 -->
   <tuple>
     <atom name="irn">68184</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.390.2A</atom>
     <atom name="TitPreviousAccessionNo">TR10819/3A | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -958,6 +965,7 @@
   <!-- Row 7 -->
   <tuple>
     <atom name="irn">68185</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.390.2B</atom>
     <atom name="TitPreviousAccessionNo">TR10819/3B | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -1051,6 +1059,7 @@
   <!-- Row 8 -->
   <tuple>
     <atom name="irn">68186</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.390.3</atom>
     <atom name="TitPreviousAccessionNo">TR10819/4 | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -1214,6 +1223,7 @@
   <!-- Row 9 -->
   <tuple>
     <atom name="irn">68187</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.390.4</atom>
     <atom name="TitPreviousAccessionNo">TR10819/5 | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -1375,6 +1385,7 @@
   <!-- Row 10 -->
   <tuple>
     <atom name="irn">68188</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.390.5</atom>
     <atom name="TitPreviousAccessionNo">TR10819/6 | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -1536,6 +1547,7 @@
   <!-- Row 11 -->
   <tuple>
     <atom name="irn">68189</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.390.6</atom>
     <atom name="TitPreviousAccessionNo">TR10819/7 | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -1697,6 +1709,7 @@
   <!-- Row 12 -->
   <tuple>
     <atom name="irn">68190</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.390.7</atom>
     <atom name="TitPreviousAccessionNo">TR10819/8 | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -1858,6 +1871,7 @@
   <!-- Row 13 -->
   <tuple>
     <atom name="irn">68191</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.390.8</atom>
     <atom name="TitPreviousAccessionNo">TR10819/9 | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -2019,6 +2033,7 @@
   <!-- Row 14 -->
   <tuple>
     <atom name="irn">68192</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.390.9</atom>
     <atom name="TitPreviousAccessionNo">TR108191/10 | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -2180,6 +2195,7 @@
   <!-- Row 15 -->
   <tuple>
     <atom name="irn">68193</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.390.10</atom>
     <atom name="TitPreviousAccessionNo">TR108191/11 | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -2341,6 +2357,7 @@
   <!-- Row 16 -->
   <tuple>
     <atom name="irn">68194</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.390.11</atom>
     <atom name="TitPreviousAccessionNo">TR108191/12 | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -2502,6 +2519,7 @@
   <!-- Row 17 -->
   <tuple>
     <atom name="irn">68195</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.390.12</atom>
     <atom name="TitPreviousAccessionNo">TR108191/13 | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -2665,6 +2683,7 @@
   <!-- Row 18 -->
   <tuple>
     <atom name="irn">68196</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.390.13</atom>
     <atom name="TitPreviousAccessionNo">TR108191/14 | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -2826,6 +2845,7 @@
   <!-- Row 19 -->
   <tuple>
     <atom name="irn">68197</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.390.14</atom>
     <atom name="TitPreviousAccessionNo">TR108191/15 | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -2987,6 +3007,7 @@
   <!-- Row 20 -->
   <tuple>
     <atom name="irn">68198</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.390.15</atom>
     <atom name="TitPreviousAccessionNo">TR108191/16 | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
@@ -3148,6 +3169,7 @@
   <!-- Row 21 -->
   <tuple>
     <atom name="irn">68199</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">2009.390.16</atom>
     <atom name="TitPreviousAccessionNo">TR108191/17 | EX2009.1.29</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
