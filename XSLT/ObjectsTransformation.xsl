@@ -10,7 +10,7 @@
     <xsl:variable name="crm">http://www.cidoc-crm.org/cidoc-crm/</xsl:variable>
 
 <xsl:template match="/">{"objects": [
-    <xsl:for-each select="table[@name='ecatalogue']/tuple"><xsl:sort select="atom[@name='irn']" data-type="number"/><xsl:variable name="irn"><xsl:value-of select="atom[@name='irn']"/></xsl:variable>{<!--
+    <xsl:for-each select="table[@name='ecatalogue']/tuple"><xsl:sort select="atom[@name='irn']" data-type="number"/><xsl:variable name="irn"><xsl:value-of select="atom[@name='irn']"/></xsl:variable><xsl:variable name="title"><xsl:value-of select="atom[@name='TitMainTitle']"/></xsl:variable>{<!--
         
 Header-->
         "<xsl:copy-of select="$irn"/>": {
@@ -232,7 +232,7 @@ Owner-->
 Acquisition-->
                 "acquired_title_through": [
                     {
-            Parts            "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/IMA-acquisition",
+                        "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/IMA-acquisition",
                         "type": "Acquisition",
                         "_label": "Acquisition of <xsl:value-of select="atom[@name='TitMainTitle']"/>",
                         "classified_as": [
@@ -463,7 +463,8 @@ Linquistic Objects-->
                         }
                     ]
                 }</xsl:if></xsl:if>
-            ]</xsl:if><xsl:if test="(atom[@name='AssIsParent'] = 'Yes' and table[@name='Children'])">,<!--
+            ]</xsl:if><xsl:if test="(atom[@name='AssIsParent'] = 'Yes' and table[@name='Children']) or (table[@name='Dimensions']/tuple/atom[@name=
+                'PhyType'] = 'Framed Dimensions')">,<!--
 
 Parts-->
             "part": [<xsl:if test="atom[@name='AssIsParent'] = 'Yes' and table[@name='Children']"><xsl:for-each select="table[@name='Children']/tuple">
@@ -476,7 +477,89 @@ Parts-->
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>",
                     "type": "ManMadeObject",
                     "_label": "<xsl:value-of select="atom[@name='TitMainTitle']"/>"
-                }</xsl:for-each></xsl:if><xsl:if test="position() != last()">,</xsl:if></xsl:for-each></xsl:if>
+                    }</xsl:for-each></xsl:if><xsl:if test="position() != last()">,</xsl:if></xsl:for-each><xsl:if test="table[@name='Dimensions']/tuple/atom[@name='PhyType'] = 'Framed Dimensions'"/>,</xsl:if><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Framed Dimensions']"><xsl:if test="atom[@name='PhyHeight'] != '' or atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">
+                {
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/frame-<xsl:value-of select="position()"/>",
+                    "type": "ManMadeObject",
+                    "_label": "Frame for <xsl:copy-of select="$title"/>",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300189814",
+                            "type": "Type",
+                            "_label": "frames (protective furnishings)"
+                        }
+                    ],
+                    "dimension": [<xsl:if test="atom[@name='PhyHeight'] != ''">
+                        {
+                            "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/frame-<xsl:value-of select="position()"/>/height",
+                            "type": "Dimension",
+                            "value": "<xsl:value-of select="atom[@name='PhyHeight']"/>",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ]<xsl:if test="atom[@name='PhyUnitLength'] = 'in.'">,
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }</xsl:if>
+                        }<xsl:if test="atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''"/>,</xsl:if><xsl:if test="atom[@name='PhyWidth'] != ''">
+                        {
+                            "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/frame-<xsl:value-of select="position()"/>/width",
+                            "type": "Dimension",
+                            "value": "<xsl:value-of select="atom[@name='PhyWidth']"/>",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ]<xsl:if test="atom[@name='PhyUnitLength'] = 'in.'">,
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }</xsl:if>
+                        }<xsl:if test="atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">,</xsl:if></xsl:if><xsl:if test="atom[@name='PhyDepth'] != ''">
+                        {
+                            "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/frame-<xsl:value-of select="position()"/>/depth",
+                            "type": "Dimension",
+                            "value": "<xsl:value-of select="atom[@name='PhyDepth']"/>",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300072633",
+                                    "type": "Type",
+                                    "_label": "depth (size/dimension)"
+                                }
+                            ]<xsl:if test="atom[@name='PhyUnitLength'] = 'in.'">,
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }</xsl:if>
+                        }<xsl:if test="atom[@name='PhyDiameter'] != ''">,</xsl:if></xsl:if><xsl:if test="atom[@name='PhyDiameter'] != ''">
+                        {
+                            "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/frame-<xsl:value-of select="position()"/>/depth",
+                            "type": "Dimension",
+                            "value": "<xsl:value-of select="atom[@name='PhyDiameter']"/>",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055624",
+                                    "type": "Type",
+                                    "_label": "diameter"
+                                }
+                            ]<xsl:if test="atom[@name='PhyUnitLength'] = 'in.'">,
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }</xsl:if>
+                        }</xsl:if>
+                    ]
+                }</xsl:if><xsl:if test="position() != last()">,</xsl:if></xsl:for-each>
             ]</xsl:if>
         }
     }<xsl:if test="position() != last()">,

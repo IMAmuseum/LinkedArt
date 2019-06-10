@@ -419,6 +419,73 @@
                         }
                     ]
                 }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/1065/frame-1",
+                    "type": "ManMadeObject",
+                    "_label": "Frame for The Bachelor Boudoir (Corner of the Studio)",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300189814",
+                            "type": "Type",
+                            "_label": "frames (protective furnishings)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/1065/frame-1/height",
+                            "type": "Dimension",
+                            "value": "34.7500",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/1065/frame-1/width",
+                            "type": "Dimension",
+                            "value": "24.7500",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/1065/frame-1/depth",
+                            "type": "Dimension",
+                            "value": "4.0000",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300072633",
+                                    "type": "Type",
+                                    "_label": "depth (size/dimension)"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        }
+                    ]
+                }
             ]
         }
     },
@@ -912,6 +979,73 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/3521/frame-1",
+                    "type": "ManMadeObject",
+                    "_label": "Frame for Still Life with Flowerpot",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300189814",
+                            "type": "Type",
+                            "_label": "frames (protective furnishings)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/3521/frame-1/height",
+                            "type": "Dimension",
+                            "value": "29.0000",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/3521/frame-1/width",
+                            "type": "Dimension",
+                            "value": "31.0000",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/3521/frame-1/depth",
+                            "type": "Dimension",
+                            "value": "2.7500",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300072633",
+                                    "type": "Type",
+                                    "_label": "depth (size/dimension)"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
                         }
                     ]
                 }
@@ -1593,6 +1727,56 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/14617/frame-1",
+                    "type": "ManMadeObject",
+                    "_label": "Frame for Matthew Prior",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300189814",
+                            "type": "Type",
+                            "_label": "frames (protective furnishings)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/14617/frame-1/height",
+                            "type": "Dimension",
+                            "value": "45.1250",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/14617/frame-1/width",
+                            "type": "Dimension",
+                            "value": "39.0000",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
                         }
                     ]
                 }
@@ -2808,6 +2992,73 @@
                         }
                     ]
                 }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/17577/frame-1",
+                    "type": "ManMadeObject",
+                    "_label": "Frame for Dines with Writing Material",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300189814",
+                            "type": "Type",
+                            "_label": "frames (protective furnishings)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/17577/frame-1/height",
+                            "type": "Dimension",
+                            "value": "38.7500",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/17577/frame-1/width",
+                            "type": "Dimension",
+                            "value": "33.0000",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/17577/frame-1/depth",
+                            "type": "Dimension",
+                            "value": "2.5000",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300072633",
+                                    "type": "Type",
+                                    "_label": "depth (size/dimension)"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        }
+                    ]
+                }
             ]
         }
     },
@@ -3532,6 +3783,56 @@
                         }
                     ]
                 }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/21288/frame-1",
+                    "type": "ManMadeObject",
+                    "_label": "Frame for Portrait of William Merritt Chase",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300189814",
+                            "type": "Type",
+                            "_label": "frames (protective furnishings)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/21288/frame-1/height",
+                            "type": "Dimension",
+                            "value": "85.5000",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/21288/frame-1/width",
+                            "type": "Dimension",
+                            "value": "45.1250",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        }
+                    ]
+                }
             ]
         }
     },
@@ -3766,7 +4067,7 @@
                     "id": "https://data.discovernewfields.org/object/24693",
                     "type": "ManMadeObject",
                     "_label": "censer in form of teahouse"
-                }
+                },
             ]
         }
     },
@@ -4064,7 +4365,7 @@
                     "id": "https://data.discovernewfields.org/object/24892",
                     "type": "ManMadeObject",
                     "_label": "sash for evening dress"
-                }
+                },
             ]
         }
     },
@@ -4339,7 +4640,7 @@
                     "id": "https://data.discovernewfields.org/object/25098",
                     "type": "ManMadeObject",
                     "_label": "Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊"
-                }
+                },
             ]
         }
     },
@@ -4565,6 +4866,73 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/37383/frame-1",
+                    "type": "ManMadeObject",
+                    "_label": "Frame for Oaks of Vernon",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300189814",
+                            "type": "Type",
+                            "_label": "frames (protective furnishings)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/37383/frame-1/height",
+                            "type": "Dimension",
+                            "value": "36.7500",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/37383/frame-1/width",
+                            "type": "Dimension",
+                            "value": "51.7500",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/37383/frame-1/depth",
+                            "type": "Dimension",
+                            "value": "3.2500",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300072633",
+                                    "type": "Type",
+                                    "_label": "depth (size/dimension)"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
                         }
                     ]
                 }
@@ -6360,7 +6728,7 @@
                     "id": "https://data.discovernewfields.org/object/64017",
                     "type": "ManMadeObject",
                     "_label": "earplug (for man or woman)"
-                }
+                },
             ]
         }
     },
@@ -7196,12 +7564,12 @@
                     "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "Broken Family teapot"
-                },
+                    },
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "lid for Broken Family teapot"
-                },
+                    },
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
@@ -7211,12 +7579,12 @@
                     "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "Broken Family sugar bowl"
-                },
+                    },
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "lid for Broken Family sugar bowl"
-                },
+                    },
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
@@ -7286,7 +7654,7 @@
                     "id": "https://data.discovernewfields.org/object/64628",
                     "type": "ManMadeObject",
                     "_label": "Broken Family plate"
-                }
+                },
             ]
         }
     },
@@ -7582,7 +7950,7 @@
                     "id": "https://data.discovernewfields.org/object/67743",
                     "type": "ManMadeObject",
                     "_label": "UP6 ottoman"
-                }
+                },
             ]
         }
     },
@@ -7868,7 +8236,7 @@
                     "id": "https://data.discovernewfields.org/object/68180",
                     "type": "ManMadeObject",
                     "_label": "lid for Broken Family teapot"
-                }
+                },
             ]
         }
     },
@@ -9800,7 +10168,7 @@
                     "id": "https://data.discovernewfields.org/object/82696",
                     "type": "ManMadeObject",
                     "_label": "element E.4 for Five Brushstrokes"
-                }
+                },
             ]
         }
     },
@@ -11587,7 +11955,7 @@
                     "id": "https://data.discovernewfields.org/object/90817",
                     "type": "ManMadeObject",
                     "_label": "Tricorne candleholders"
-                }
+                },
             ]
         }
     },
