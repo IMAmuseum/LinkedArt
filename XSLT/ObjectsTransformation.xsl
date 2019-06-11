@@ -25,11 +25,11 @@ Classification-->
                     "id": "http://vocab.getty.edu/aat/300133025",
                     "type": "Type",
                     "_label": "works of art"
-                }<xsl:if test="table[@name='ObjectTypes']/tuple/atom[@name='PhyMediaCategory'] != '' ">,<xsl:for-each select="table[@name='ObjectTypes']/tuple">
+                }<xsl:if test="table[@name='ObjectTypes']/tuple/atom[@name='PhyMediaCategory'] != '' ">,<xsl:for-each select="distinct-values(table[@name='ObjectTypes']/tuple/atom[@name='PhyMediaCategory'])">
                 {
-                "id": "<xsl:copy-of select="$baseURI"/>thesauri/type/<xsl:value-of select="lower-case(translate(replace(.,'[^a-zA-Z0-9 ]',''), ' ', '-'))"/>",
+                    "id": "<xsl:copy-of select="$baseURI"/>thesauri/type/<xsl:value-of select="lower-case(translate(replace(.,'[^a-zA-Z0-9 ]',''), ' ', '-'))"/>",
                     "type": "Type",
-                    "_label": "<xsl:value-of select="atom[@name='PhyMediaCategory']"/>"
+                    "_label": "<xsl:value-of select="."/>"
                 }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each></xsl:if>
             ],<!--
                 
@@ -469,15 +469,15 @@ Linquistic Objects-->
 Parts-->
             "part": [<xsl:if test="atom[@name='AssIsParent'] = 'Yes' and table[@name='Children']"><xsl:for-each select="table[@name='Children']/tuple">
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>",
                     "type": "HumanMadeObject",
                     "_label": "<xsl:value-of select="atom[@name='TitMainTitle']"/>"
                 }<xsl:if test="table[@name='Grandchildren']"><xsl:for-each select="table[@name='Grandchildren']/tuple">,
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>",
                     "type": "HumanMadeObject",
                     "_label": "<xsl:value-of select="atom[@name='TitMainTitle']"/>"
-                    }</xsl:for-each></xsl:if><xsl:if test="position() != last()">,</xsl:if></xsl:for-each><xsl:if test="table[@name='Dimensions']/tuple/atom[@name='PhyType'] = 'Framed Dimensions'"/>,</xsl:if><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Framed Dimensions']"><xsl:if test="atom[@name='PhyHeight'] != '' or atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">
+                }</xsl:for-each></xsl:if><xsl:if test="position() != last()">,</xsl:if></xsl:for-each><xsl:if test="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Framed Dimensions']">,</xsl:if></xsl:if><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Framed Dimensions']"><xsl:if test="atom[@name='PhyHeight'] != '' or atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/frame-<xsl:value-of select="position()"/>",
                     "type": "HumanMadeObject",

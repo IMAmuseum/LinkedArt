@@ -12,72 +12,72 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tea-services------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tea-services",
                     "type": "Type",
                     "_label": "tea services"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------teapots------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/teapots",
                     "type": "Type",
                     "_label": "teapots"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------lids------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/lids",
                     "type": "Type",
                     "_label": "lids"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------creamers------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/creamers",
                     "type": "Type",
                     "_label": "creamers"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------sugar-bowls------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/sugar-bowls",
                     "type": "Type",
                     "_label": "sugar bowls"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------cups------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/cups",
                     "type": "Type",
                     "_label": "cups"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------saucers------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/saucers",
                     "type": "Type",
                     "_label": "saucers"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------platters------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/platters",
                     "type": "Type",
                     "_label": "platters"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------plates------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/plates",
                     "type": "Type",
                     "_label": "plates"
                 }
@@ -331,105 +331,105 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68180",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family teapot"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68181",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family teapot"
-                    },
+                },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68182",
                     "type": "HumanMadeObject",
                     "_label": "lid for Broken Family teapot"
-                    },
+                },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68183",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family sugar bowl"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68184",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family sugar bowl"
-                    },
+                },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68185",
                     "type": "HumanMadeObject",
                     "_label": "lid for Broken Family sugar bowl"
-                    },
+                },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68186",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family creamer"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68187",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family cup"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68188",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family cup"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68189",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family cup"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68190",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family cup"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68191",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family saucer"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68192",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family saucer"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68193",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family saucer"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68194",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family saucer"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68195",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family platter"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68196",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family plate"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68197",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family plate"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68198",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family plate"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68199",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family plate"
-                },
+                }
             ]
         }
     },
@@ -446,37 +446,37 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------teapots------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/teapots",
                     "type": "Type",
                     "_label": "teapots"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------lids------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/lids",
                     "type": "Type",
                     "_label": "lids"
                 }
@@ -707,15 +707,15 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/68180",
+                    "id": "https://data.discovernewfields.org/object/68181",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family teapot"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68180",
+                    "id": "https://data.discovernewfields.org/object/68182",
                     "type": "HumanMadeObject",
                     "_label": "lid for Broken Family teapot"
-                },
+                }
             ]
         }
     },
@@ -732,37 +732,37 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tea-services------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tea-services",
                     "type": "Type",
                     "_label": "tea services"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------teapots------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/teapots",
                     "type": "Type",
                     "_label": "teapots"
                 }
@@ -1018,32 +1018,32 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------lids------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/lids",
                     "type": "Type",
                     "_label": "lids"
                 }
@@ -1299,37 +1299,37 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------sugar-bowls------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/sugar-bowls",
                     "type": "Type",
                     "_label": "sugar bowls"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------lids------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/lids",
                     "type": "Type",
                     "_label": "lids"
                 }
@@ -1560,15 +1560,15 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/68183",
+                    "id": "https://data.discovernewfields.org/object/68184",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family sugar bowl"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68183",
+                    "id": "https://data.discovernewfields.org/object/68185",
                     "type": "HumanMadeObject",
                     "_label": "lid for Broken Family sugar bowl"
-                },
+                }
             ]
         }
     },
@@ -1585,32 +1585,32 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------sugar-bowls------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/sugar-bowls",
                     "type": "Type",
                     "_label": "sugar bowls"
                 }
@@ -1866,32 +1866,32 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------lids------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/lids",
                     "type": "Type",
                     "_label": "lids"
                 }
@@ -2147,32 +2147,32 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------creamers------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/creamers",
                     "type": "Type",
                     "_label": "creamers"
                 }
@@ -2428,32 +2428,32 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------cups------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/cups",
                     "type": "Type",
                     "_label": "cups"
                 }
@@ -2709,32 +2709,32 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------cups------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/cups",
                     "type": "Type",
                     "_label": "cups"
                 }
@@ -2983,32 +2983,32 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------cups------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/cups",
                     "type": "Type",
                     "_label": "cups"
                 }
@@ -3264,32 +3264,32 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------cups------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/cups",
                     "type": "Type",
                     "_label": "cups"
                 }
@@ -3545,32 +3545,32 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------saucers------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/saucers",
                     "type": "Type",
                     "_label": "saucers"
                 }
@@ -3819,32 +3819,32 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------saucers------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/saucers",
                     "type": "Type",
                     "_label": "saucers"
                 }
@@ -4093,32 +4093,32 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------saucers------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/saucers",
                     "type": "Type",
                     "_label": "saucers"
                 }
@@ -4374,32 +4374,32 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------saucers------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/saucers",
                     "type": "Type",
                     "_label": "saucers"
                 }
@@ -4655,32 +4655,32 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------platters------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/platters",
                     "type": "Type",
                     "_label": "platters"
                 }
@@ -4936,32 +4936,32 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------plates------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/plates",
                     "type": "Type",
                     "_label": "plates"
                 }
@@ -5210,32 +5210,32 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------plates------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/plates",
                     "type": "Type",
                     "_label": "plates"
                 }
@@ -5484,32 +5484,32 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------plates------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/plates",
                     "type": "Type",
                     "_label": "plates"
                 }
@@ -5758,32 +5758,32 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------plates------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/plates",
                     "type": "Type",
                     "_label": "plates"
                 }

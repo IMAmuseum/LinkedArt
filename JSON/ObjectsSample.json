@@ -12,7 +12,7 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------stoneware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/stoneware",
                     "type": "Type",
                     "_label": "stoneware"
                 }
@@ -207,12 +207,12 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------paintings------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/paintings",
                     "type": "Type",
                     "_label": "paintings"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------oil-paintings------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/oil-paintings",
                     "type": "Type",
                     "_label": "oil paintings"
                 }
@@ -502,7 +502,7 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------bowls------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/bowls",
                     "type": "Type",
                     "_label": "bowls"
                 }
@@ -743,12 +743,12 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------paintings------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/paintings",
                     "type": "Type",
                     "_label": "paintings"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------oil-paintings------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/oil-paintings",
                     "type": "Type",
                     "_label": "oil paintings"
                 }
@@ -1065,27 +1065,27 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------furnishings------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/furnishings",
                     "type": "Type",
                     "_label": "furnishings"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------textiles------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/textiles",
                     "type": "Type",
                     "_label": "textiles"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------bed-coverings------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/bed-coverings",
                     "type": "Type",
                     "_label": "bed coverings"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------quilts------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/quilts",
                     "type": "Type",
                     "_label": "quilts"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------patchwork-quilts------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/patchwork-quilts",
                     "type": "Type",
                     "_label": "patchwork quilts"
                 }
@@ -1525,7 +1525,7 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------oil-paintings------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/oil-paintings",
                     "type": "Type",
                     "_label": "oil paintings"
                 }
@@ -1796,12 +1796,12 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------prints------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/prints",
                     "type": "Type",
                     "_label": "prints"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------woodcuts------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/woodcuts",
                     "type": "Type",
                     "_label": "woodcuts"
                 }
@@ -2024,12 +2024,12 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------prints------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/prints",
                     "type": "Type",
                     "_label": "prints"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------engravings------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/engravings",
                     "type": "Type",
                     "_label": "engravings"
                 }
@@ -2257,17 +2257,17 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------costume-accessories-worn------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/costume-accessories-worn",
                     "type": "Type",
                     "_label": "costume accessories (worn)"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------jewelry------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/jewelry",
                     "type": "Type",
                     "_label": "jewelry"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------necklaces------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/necklaces",
                     "type": "Type",
                     "_label": "necklaces"
                 }
@@ -2503,27 +2503,27 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------furnishings------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/furnishings",
                     "type": "Type",
                     "_label": "furnishings"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------textiles------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/textiles",
                     "type": "Type",
                     "_label": "textiles"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------bed-coverings------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/bed-coverings",
                     "type": "Type",
                     "_label": "bed coverings"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------quilts------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/quilts",
                     "type": "Type",
                     "_label": "quilts"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------patchwork-quilts------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/patchwork-quilts",
                     "type": "Type",
                     "_label": "patchwork quilts"
                 }
@@ -2767,12 +2767,12 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------paintings------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/paintings",
                     "type": "Type",
                     "_label": "paintings"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------oil-paintings------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/oil-paintings",
                     "type": "Type",
                     "_label": "oil paintings"
                 }
@@ -3075,7 +3075,7 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------sculptures------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/sculptures",
                     "type": "Type",
                     "_label": "sculptures"
                 }
@@ -3303,12 +3303,12 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------prints------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/prints",
                     "type": "Type",
                     "_label": "prints"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------color-woodcuts------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/color-woodcuts",
                     "type": "Type",
                     "_label": "color woodcuts"
                 }
@@ -3564,12 +3564,12 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------paintings------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/paintings",
                     "type": "Type",
                     "_label": "paintings"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------oil-paintings------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/oil-paintings",
                     "type": "Type",
                     "_label": "oil paintings"
                 }
@@ -3849,7 +3849,7 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------sculptures------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/sculptures",
                     "type": "Type",
                     "_label": "sculptures"
                 }
@@ -4054,20 +4054,20 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/24693",
+                    "id": "https://data.discovernewfields.org/object/92384",
                     "type": "HumanMadeObject",
                     "_label": "censer in form of teahouse"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/24693",
+                    "id": "https://data.discovernewfields.org/object/92385",
                     "type": "HumanMadeObject",
                     "_label": "censer in form of teahouse"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/24693",
+                    "id": "https://data.discovernewfields.org/object/92386",
                     "type": "HumanMadeObject",
                     "_label": "censer in form of teahouse"
-                },
+                }
             ]
         }
     },
@@ -4084,17 +4084,17 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------costumes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/costumes",
                     "type": "Type",
                     "_label": "costumes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dresses------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dresses",
                     "type": "Type",
                     "_label": "dresses"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------evening-dresses------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/evening-dresses",
                     "type": "Type",
                     "_label": "evening dresses"
                 }
@@ -4352,20 +4352,20 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/24892",
+                    "id": "https://data.discovernewfields.org/object/89163",
                     "type": "HumanMadeObject",
                     "_label": "blouse for evening dress"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/24892",
+                    "id": "https://data.discovernewfields.org/object/89164",
                     "type": "HumanMadeObject",
                     "_label": "skirt for evening dress"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/24892",
+                    "id": "https://data.discovernewfields.org/object/89165",
                     "type": "HumanMadeObject",
                     "_label": "sash for evening dress"
-                },
+                }
             ]
         }
     },
@@ -4382,12 +4382,12 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------prints------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/prints",
                     "type": "Type",
                     "_label": "prints"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------color-woodcuts------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/color-woodcuts",
                     "type": "Type",
                     "_label": "color woodcuts"
                 }
@@ -4627,20 +4627,20 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/25098",
+                    "id": "https://data.discovernewfields.org/object/89367",
                     "type": "HumanMadeObject",
                     "_label": "Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left)"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/25098",
+                    "id": "https://data.discovernewfields.org/object/89368",
                     "type": "HumanMadeObject",
                     "_label": "(C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/25098",
+                    "id": "https://data.discovernewfields.org/object/89369",
                     "type": "HumanMadeObject",
                     "_label": "Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊"
-                },
+                }
             ]
         }
     },
@@ -4657,12 +4657,12 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------paintings------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/paintings",
                     "type": "Type",
                     "_label": "paintings"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------oil-paintings------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/oil-paintings",
                     "type": "Type",
                     "_label": "oil paintings"
                 }
@@ -5392,12 +5392,12 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------banners------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/banners",
                     "type": "Type",
                     "_label": "banners"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------flags------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/flags",
                     "type": "Type",
                     "_label": "flags"
                 }
@@ -5599,17 +5599,17 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------reproductions------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/reproductions",
                     "type": "Type",
                     "_label": "reproductions"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------sculptures------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/sculptures",
                     "type": "Type",
                     "_label": "sculptures"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------casts------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/casts",
                     "type": "Type",
                     "_label": "casts"
                 }
@@ -5826,7 +5826,7 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------color-woodcuts------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/color-woodcuts",
                     "type": "Type",
                     "_label": "color woodcuts"
                 }
@@ -6490,7 +6490,7 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------earplugs------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/earplugs",
                     "type": "Type",
                     "_label": "earplugs"
                 }
@@ -6720,15 +6720,15 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/64017",
+                    "id": "https://data.discovernewfields.org/object/64018",
                     "type": "HumanMadeObject",
                     "_label": "earplug"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64017",
+                    "id": "https://data.discovernewfields.org/object/64019",
                     "type": "HumanMadeObject",
                     "_label": "earplug (for man or woman)"
-                },
+                }
             ]
         }
     },
@@ -6745,7 +6745,7 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------earplugs------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/earplugs",
                     "type": "Type",
                     "_label": "earplugs"
                 }
@@ -6994,7 +6994,7 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------earplugs------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/earplugs",
                     "type": "Type",
                     "_label": "earplugs"
                 }
@@ -7237,72 +7237,72 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tea-services------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tea-services",
                     "type": "Type",
                     "_label": "tea services"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------teapots------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/teapots",
                     "type": "Type",
                     "_label": "teapots"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------lids------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/lids",
                     "type": "Type",
                     "_label": "lids"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------creamers------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/creamers",
                     "type": "Type",
                     "_label": "creamers"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------sugar-bowls------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/sugar-bowls",
                     "type": "Type",
                     "_label": "sugar bowls"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------cups------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/cups",
                     "type": "Type",
                     "_label": "cups"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------saucers------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/saucers",
                     "type": "Type",
                     "_label": "saucers"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------platters------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/platters",
                     "type": "Type",
                     "_label": "platters"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------plates------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/plates",
                     "type": "Type",
                     "_label": "plates"
                 }
@@ -7556,105 +7556,105 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68180",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family teapot"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68181",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family teapot"
-                    },
+                },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68182",
                     "type": "HumanMadeObject",
                     "_label": "lid for Broken Family teapot"
-                    },
+                },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68183",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family sugar bowl"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68184",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family sugar bowl"
-                    },
+                },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68185",
                     "type": "HumanMadeObject",
                     "_label": "lid for Broken Family sugar bowl"
-                    },
+                },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68186",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family creamer"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68187",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family cup"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68188",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family cup"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68189",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family cup"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68190",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family cup"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68191",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family saucer"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68192",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family saucer"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68193",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family saucer"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68194",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family saucer"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68195",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family platter"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68196",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family plate"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68197",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family plate"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68198",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family plate"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/64628",
+                    "id": "https://data.discovernewfields.org/object/68199",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family plate"
-                },
+                }
             ]
         }
     },
@@ -7671,12 +7671,12 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------furniture------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/furniture",
                     "type": "Type",
                     "_label": "furniture"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------chairs------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/chairs",
                     "type": "Type",
                     "_label": "chairs"
                 }
@@ -7942,15 +7942,15 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/67743",
+                    "id": "https://data.discovernewfields.org/object/69062",
                     "type": "HumanMadeObject",
                     "_label": "UP5 chair"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/67743",
+                    "id": "https://data.discovernewfields.org/object/69063",
                     "type": "HumanMadeObject",
                     "_label": "UP6 ottoman"
-                },
+                }
             ]
         }
     },
@@ -7967,37 +7967,37 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------teapots------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/teapots",
                     "type": "Type",
                     "_label": "teapots"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------lids------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/lids",
                     "type": "Type",
                     "_label": "lids"
                 }
@@ -8228,15 +8228,15 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/68180",
+                    "id": "https://data.discovernewfields.org/object/68181",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family teapot"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/68180",
+                    "id": "https://data.discovernewfields.org/object/68182",
                     "type": "HumanMadeObject",
                     "_label": "lid for Broken Family teapot"
-                },
+                }
             ]
         }
     },
@@ -8253,37 +8253,37 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tea-services------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tea-services",
                     "type": "Type",
                     "_label": "tea services"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------teapots------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/teapots",
                     "type": "Type",
                     "_label": "teapots"
                 }
@@ -8539,32 +8539,32 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------ceramics------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/ceramics",
                     "type": "Type",
                     "_label": "ceramics"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------metalwork------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/metalwork",
                     "type": "Type",
                     "_label": "metalwork"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------tableware------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/tableware",
                     "type": "Type",
                     "_label": "tableware"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dishes------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dishes",
                     "type": "Type",
                     "_label": "dishes"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------pottery------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/pottery",
                     "type": "Type",
                     "_label": "pottery"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------lids------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/lids",
                     "type": "Type",
                     "_label": "lids"
                 }
@@ -8820,7 +8820,7 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------installations------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/installations",
                     "type": "Type",
                     "_label": "installations"
                 }
@@ -9062,12 +9062,12 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------furniture------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/furniture",
                     "type": "Type",
                     "_label": "furniture"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------chairs------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/chairs",
                     "type": "Type",
                     "_label": "chairs"
                 }
@@ -9339,12 +9339,12 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------furniture------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/furniture",
                     "type": "Type",
                     "_label": "furniture"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------chairs------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/chairs",
                     "type": "Type",
                     "_label": "chairs"
                 }
@@ -9616,7 +9616,7 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------dresses------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/dresses",
                     "type": "Type",
                     "_label": "dresses"
                 }
@@ -9889,7 +9889,7 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------outdoor-sculpture------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/outdoor-sculpture",
                     "type": "Type",
                     "_label": "outdoor sculpture"
                 }
@@ -10130,45 +10130,45 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/82696",
+                    "id": "https://data.discovernewfields.org/object/85257",
                     "type": "HumanMadeObject",
                     "_label": "element A for Five Brushstrokes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/82696",
+                    "id": "https://data.discovernewfields.org/object/85258",
                     "type": "HumanMadeObject",
                     "_label": "element B for Five Brushstrokes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/82696",
+                    "id": "https://data.discovernewfields.org/object/85259",
                     "type": "HumanMadeObject",
                     "_label": "element C for Five Brushstrokes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/82696",
+                    "id": "https://data.discovernewfields.org/object/85260",
                     "type": "HumanMadeObject",
                     "_label": "element D for Five Brushstrokes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/82696",
+                    "id": "https://data.discovernewfields.org/object/85261",
                     "type": "HumanMadeObject",
                     "_label": "element E.1 for Five Brushstrokes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/82696",
+                    "id": "https://data.discovernewfields.org/object/85262",
                     "type": "HumanMadeObject",
                     "_label": "element E.2 for Five Brushstrokes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/82696",
+                    "id": "https://data.discovernewfields.org/object/85263",
                     "type": "HumanMadeObject",
                     "_label": "element E.3 for Five Brushstrokes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/82696",
+                    "id": "https://data.discovernewfields.org/object/85264",
                     "type": "HumanMadeObject",
                     "_label": "element E.4 for Five Brushstrokes"
-                },
+                }
             ]
         }
     },
@@ -10185,7 +10185,7 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------outdoor-sculpture------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/outdoor-sculpture",
                     "type": "Type",
                     "_label": "outdoor sculpture"
                 }
@@ -10710,7 +10710,7 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------skirts------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/skirts",
                     "type": "Type",
                     "_label": "skirts"
                 }
@@ -10986,12 +10986,12 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------prints------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/prints",
                     "type": "Type",
                     "_label": "prints"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------color-woodcuts------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/color-woodcuts",
                     "type": "Type",
                     "_label": "color woodcuts"
                 }
@@ -11244,12 +11244,12 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------prints------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/prints",
                     "type": "Type",
                     "_label": "prints"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------color-woodcuts------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/color-woodcuts",
                     "type": "Type",
                     "_label": "color woodcuts"
                 }
@@ -11502,12 +11502,12 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------prints------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/prints",
                     "type": "Type",
                     "_label": "prints"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------color-woodcuts------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/color-woodcuts",
                     "type": "Type",
                     "_label": "color woodcuts"
                 }
@@ -11760,7 +11760,7 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------candelabras------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/candelabras",
                     "type": "Type",
                     "_label": "candelabras"
                 }
@@ -11942,20 +11942,20 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/90817",
+                    "id": "https://data.discovernewfields.org/object/92160",
                     "type": "HumanMadeObject",
                     "_label": "Tricorne candleholder"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/90817",
+                    "id": "https://data.discovernewfields.org/object/92158",
                     "type": "HumanMadeObject",
                     "_label": "Tricorne candleholder"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/90817",
+                    "id": "https://data.discovernewfields.org/object/92159",
                     "type": "HumanMadeObject",
                     "_label": "Tricorne candleholders"
-                },
+                }
             ]
         }
     },
@@ -11972,7 +11972,7 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------candelabras------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/candelabras",
                     "type": "Type",
                     "_label": "candelabras"
                 }
@@ -12172,7 +12172,7 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------candelabras------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/candelabras",
                     "type": "Type",
                     "_label": "candelabras"
                 }
@@ -12372,7 +12372,7 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------candelabras------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/candelabras",
                     "type": "Type",
                     "_label": "candelabras"
                 }
@@ -12572,7 +12572,7 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------sculptures------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/sculptures",
                     "type": "Type",
                     "_label": "sculptures"
                 }
@@ -12795,7 +12795,7 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------sculptures------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/sculptures",
                     "type": "Type",
                     "_label": "sculptures"
                 }
@@ -13018,7 +13018,7 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------sculptures------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/sculptures",
                     "type": "Type",
                     "_label": "sculptures"
                 }
@@ -13241,7 +13241,7 @@
                     "_label": "works of art"
                 },
                 {
-                "id": "https://data.discovernewfields.org/thesauri/type/--------fountains------",
+                    "id": "https://data.discovernewfields.org/thesauri/type/fountains",
                     "type": "Type",
                     "_label": "fountains"
                 }
