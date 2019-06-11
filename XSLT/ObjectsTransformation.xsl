@@ -16,7 +16,7 @@ Header-->
         "<xsl:copy-of select="$irn"/>": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "<xsl:value-of select="replace(atom[@name='TitMainTitle'], '&quot;', '\\&quot;')"/>",<!--
                 
 Classification-->
@@ -470,17 +470,17 @@ Parts-->
             "part": [<xsl:if test="atom[@name='AssIsParent'] = 'Yes' and table[@name='Children']"><xsl:for-each select="table[@name='Children']/tuple">
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "<xsl:value-of select="atom[@name='TitMainTitle']"/>"
                 }<xsl:if test="table[@name='Grandchildren']"><xsl:for-each select="table[@name='Grandchildren']/tuple">,
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "<xsl:value-of select="atom[@name='TitMainTitle']"/>"
                     }</xsl:for-each></xsl:if><xsl:if test="position() != last()">,</xsl:if></xsl:for-each><xsl:if test="table[@name='Dimensions']/tuple/atom[@name='PhyType'] = 'Framed Dimensions'"/>,</xsl:if><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Framed Dimensions']"><xsl:if test="atom[@name='PhyHeight'] != '' or atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/frame-<xsl:value-of select="position()"/>",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Frame for <xsl:copy-of select="$title"/>",
                     "classified_as": [
                         {
