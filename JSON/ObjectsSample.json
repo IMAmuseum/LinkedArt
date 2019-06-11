@@ -3,7 +3,7 @@
         "1032": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/1032",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "long-neck vase with cup mouth",
             "classified_as": [
                 {
@@ -198,7 +198,7 @@
         "1065": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/1065",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "The Bachelor Boudoir (Corner of the Studio)",
             "classified_as": [
                 {
@@ -423,7 +423,7 @@
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/1065/frame-1",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Frame for The Bachelor Boudoir (Corner of the Studio)",
                     "classified_as": [
                         {
@@ -493,7 +493,7 @@
         "1105": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/1105",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "bowl",
             "classified_as": [
                 {
@@ -734,7 +734,7 @@
         "3521": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/3521",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Still Life with Flowerpot",
             "classified_as": [
                 {
@@ -986,7 +986,7 @@
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/3521/frame-1",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Frame for Still Life with Flowerpot",
                     "classified_as": [
                         {
@@ -1056,7 +1056,7 @@
         "8407": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/8407",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "quilt (Diamond in Square)",
             "classified_as": [
                 {
@@ -1312,7 +1312,7 @@
         "14365": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/14365",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "fragment",
             "classified_as": [
                 {
@@ -1516,7 +1516,7 @@
         "14617": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/14617",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Matthew Prior",
             "classified_as": [
                 {
@@ -1734,7 +1734,7 @@
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/14617/frame-1",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Frame for Matthew Prior",
                     "classified_as": [
                         {
@@ -1787,7 +1787,7 @@
         "16168": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/16168",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Jesus and the Apostles",
             "classified_as": [
                 {
@@ -2015,7 +2015,7 @@
         "16356": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/16356",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Whistler's Mother",
             "classified_as": [
                 {
@@ -2248,7 +2248,7 @@
         "16410": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/16410",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "necklace",
             "classified_as": [
                 {
@@ -2494,7 +2494,7 @@
         "17425": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/17425",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "quilt (Sawtooth Diamond in Square)",
             "classified_as": [
                 {
@@ -2758,7 +2758,7 @@
         "17577": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/17577",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Dines with Writing Material",
             "classified_as": [
                 {
@@ -2996,7 +2996,7 @@
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/17577/frame-1",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Frame for Dines with Writing Material",
                     "classified_as": [
                         {
@@ -3066,7 +3066,7 @@
         "20419": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/20419",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Love",
             "classified_as": [
                 {
@@ -3294,7 +3294,7 @@
         "21137": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/21137",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Hakone",
             "classified_as": [
                 {
@@ -3555,7 +3555,7 @@
         "21288": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/21288",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Portrait of William Merritt Chase",
             "classified_as": [
                 {
@@ -3787,7 +3787,7 @@
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/21288/frame-1",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Frame for Portrait of William Merritt Chase",
                     "classified_as": [
                         {
@@ -3840,7 +3840,7 @@
         "24693": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/24693",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "censer in form of teahouse",
             "classified_as": [
                 {
@@ -4055,17 +4055,17 @@
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/24693",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "censer in form of teahouse"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/24693",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "censer in form of teahouse"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/24693",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "censer in form of teahouse"
                 },
             ]
@@ -4075,7 +4075,7 @@
         "24892": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/24892",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "evening dress",
             "classified_as": [
                 {
@@ -4353,17 +4353,17 @@
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/24892",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "blouse for evening dress"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/24892",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "skirt for evening dress"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/24892",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "sash for evening dress"
                 },
             ]
@@ -4373,7 +4373,7 @@
         "25098": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/25098",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "(L) Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left);  (C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛;  (R) Sawamura Tosshō　沢村訥升 as Rai Kunitoshi  来国俊",
             "classified_as": [
                 {
@@ -4628,17 +4628,17 @@
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/25098",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left)"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/25098",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "(C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/25098",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊"
                 },
             ]
@@ -4648,7 +4648,7 @@
         "37383": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/37383",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Oaks of Vernon",
             "classified_as": [
                 {
@@ -4873,7 +4873,7 @@
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/37383/frame-1",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Frame for Oaks of Vernon",
                     "classified_as": [
                         {
@@ -4943,7 +4943,7 @@
         "41018": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/41018",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Glencoe",
             "classified_as": [
                 {
@@ -5163,7 +5163,7 @@
         "41019": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/41019",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Killiecrankie",
             "classified_as": [
                 {
@@ -5383,7 +5383,7 @@
         "46950": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/46950",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "United States Flag",
             "classified_as": [
                 {
@@ -5590,7 +5590,7 @@
         "47035": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/47035",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Statue of Augustus Caesar",
             "classified_as": [
                 {
@@ -5817,7 +5817,7 @@
         "51330": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/51330",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Towing Boat at Yotsugi Dōri [40] (Yotsugi dōri no hikifune)",
             "classified_as": [
                 {
@@ -6052,7 +6052,7 @@
         "52481": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/52481",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Spring snow on Sumida River 隅田川　春雪",
             "classified_as": [
                 {
@@ -6276,7 +6276,7 @@
         "55312": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/55312",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "",
             "classified_as": [
                 {
@@ -6481,7 +6481,7 @@
         "64017": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/64017",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "pair of earplugs (for man or woman)",
             "classified_as": [
                 {
@@ -6721,12 +6721,12 @@
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/64017",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "earplug"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/64017",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "earplug (for man or woman)"
                 },
             ]
@@ -6736,7 +6736,7 @@
         "64018": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/64018",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "earplug",
             "classified_as": [
                 {
@@ -6985,7 +6985,7 @@
         "64019": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/64019",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "earplug (for man or woman)",
             "classified_as": [
                 {
@@ -7228,7 +7228,7 @@
         "64628": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/64628",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Broken Family tea set",
             "classified_as": [
                 {
@@ -7557,102 +7557,102 @@
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Broken Family teapot"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Broken Family teapot"
                     },
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "lid for Broken Family teapot"
                     },
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Broken Family sugar bowl"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Broken Family sugar bowl"
                     },
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "lid for Broken Family sugar bowl"
                     },
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Broken Family creamer"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Broken Family cup"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Broken Family cup"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Broken Family cup"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Broken Family cup"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Broken Family saucer"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Broken Family saucer"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Broken Family saucer"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Broken Family saucer"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Broken Family platter"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Broken Family plate"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Broken Family plate"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Broken Family plate"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/64628",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Broken Family plate"
                 },
             ]
@@ -7662,7 +7662,7 @@
         "67743": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/67743",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "UP5 chair and UP6 ottoman",
             "classified_as": [
                 {
@@ -7943,12 +7943,12 @@
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/67743",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "UP5 chair"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/67743",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "UP6 ottoman"
                 },
             ]
@@ -7958,7 +7958,7 @@
         "68180": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/68180",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Broken Family teapot",
             "classified_as": [
                 {
@@ -8229,12 +8229,12 @@
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/68180",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Broken Family teapot"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/68180",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "lid for Broken Family teapot"
                 },
             ]
@@ -8244,7 +8244,7 @@
         "68181": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/68181",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Broken Family teapot",
             "classified_as": [
                 {
@@ -8530,7 +8530,7 @@
         "68182": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/68182",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "lid for Broken Family teapot",
             "classified_as": [
                 {
@@ -8811,7 +8811,7 @@
         "68903": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/68903",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Free Basket",
             "classified_as": [
                 {
@@ -9053,7 +9053,7 @@
         "69062": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/69062",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "UP5 chair",
             "classified_as": [
                 {
@@ -9330,7 +9330,7 @@
         "69063": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/69063",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "UP6 ottoman",
             "classified_as": [
                 {
@@ -9607,7 +9607,7 @@
         "81052": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/81052",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "dress",
             "classified_as": [
                 {
@@ -9880,7 +9880,7 @@
         "82696": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/82696",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Five Brushstrokes",
             "classified_as": [
                 {
@@ -10131,42 +10131,42 @@
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/82696",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "element A for Five Brushstrokes"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/82696",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "element B for Five Brushstrokes"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/82696",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "element C for Five Brushstrokes"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/82696",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "element D for Five Brushstrokes"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/82696",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "element E.1 for Five Brushstrokes"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/82696",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "element E.2 for Five Brushstrokes"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/82696",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "element E.3 for Five Brushstrokes"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/82696",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "element E.4 for Five Brushstrokes"
                 },
             ]
@@ -10176,7 +10176,7 @@
         "85257": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/85257",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "element A for Five Brushstrokes",
             "classified_as": [
                 {
@@ -10430,7 +10430,7 @@
         "89163": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/89163",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "blouse for evening dress",
             "classified_as": [
                 {
@@ -10701,7 +10701,7 @@
         "89164": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/89164",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "skirt for evening dress",
             "classified_as": [
                 {
@@ -10977,7 +10977,7 @@
         "89367": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/89367",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left)",
             "classified_as": [
                 {
@@ -11235,7 +11235,7 @@
         "89368": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/89368",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "(C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛",
             "classified_as": [
                 {
@@ -11493,7 +11493,7 @@
         "89369": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/89369",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊",
             "classified_as": [
                 {
@@ -11751,7 +11751,7 @@
         "90817": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/90817",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Tricorne candleholders",
             "classified_as": [
                 {
@@ -11943,17 +11943,17 @@
             "part": [
                 {
                     "id": "https://data.discovernewfields.org/object/90817",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Tricorne candleholder"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/90817",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Tricorne candleholder"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/90817",
-                    "type": "ManMadeObject",
+                    "type": "HumanMadeObject",
                     "_label": "Tricorne candleholders"
                 },
             ]
@@ -11963,7 +11963,7 @@
         "92158": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/92158",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Tricorne candleholder",
             "classified_as": [
                 {
@@ -12163,7 +12163,7 @@
         "92159": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/92159",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Tricorne candleholders",
             "classified_as": [
                 {
@@ -12363,7 +12363,7 @@
         "92160": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/92160",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "Tricorne candleholder",
             "classified_as": [
                 {
@@ -12563,7 +12563,7 @@
         "92384": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/92384",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "censer in form of teahouse",
             "classified_as": [
                 {
@@ -12786,7 +12786,7 @@
         "92385": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/92385",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "censer in form of teahouse",
             "classified_as": [
                 {
@@ -13009,7 +13009,7 @@
         "92386": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/92386",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "censer in form of teahouse",
             "classified_as": [
                 {
@@ -13232,7 +13232,7 @@
         "93739": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "https://data.discovernewfields.org/object/93739",
-            "type": "ManMadeObject",
+            "type": "HumanMadeObject",
             "_label": "wall fountain",
             "classified_as": [
                 {
