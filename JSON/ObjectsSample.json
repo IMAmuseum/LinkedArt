@@ -485,6 +485,7 @@
                             }
                         }
                     ]
+
                 }
             ]
         }
@@ -1048,6 +1049,7 @@
                             }
                         }
                     ]
+
                 }
             ]
         }
@@ -1779,6 +1781,7 @@
                             }
                         }
                     ]
+
                 }
             ]
         }
@@ -2241,6 +2244,63 @@
                         }
                     ]
                 }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/16356/sheet-1",
+                    "type": "HumanMadeObject",
+                    "_label": "Sheet (support) for Whistler's Mother",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300189648",
+                            "type": "Type",
+                            "_label": "sheets (paper artifacts)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300014844",
+                            "type": "Type",
+                            "_label": "supports (artists' materials)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/16356/sheet-1/height",
+                            "type": "Dimension",
+                            "value": "11.2500",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/16356/sheet-1/width",
+                            "type": "Dimension",
+                            "value": "12.2500",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        }
+                    ]
+
+                }
+                    
             ]
         }
     },
@@ -3058,6 +3118,7 @@
                             }
                         }
                     ]
+
                 }
             ]
         }
@@ -3832,6 +3893,7 @@
                             }
                         }
                     ]
+
                 }
             ]
         }
@@ -4935,6 +4997,7 @@
                             }
                         }
                     ]
+
                 }
             ]
         }
@@ -5156,6 +5219,63 @@
                         }
                     ]
                 }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/41018/sheet-1",
+                    "type": "HumanMadeObject",
+                    "_label": "Sheet (support) for Glencoe",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300189648",
+                            "type": "Type",
+                            "_label": "sheets (paper artifacts)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300014844",
+                            "type": "Type",
+                            "_label": "supports (artists' materials)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/41018/sheet-1/height",
+                            "type": "Dimension",
+                            "value": "6.7500",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/41018/sheet-1/width",
+                            "type": "Dimension",
+                            "value": "4.2500",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        }
+                    ]
+
+                }
+                    
             ]
         }
     },
@@ -5376,6 +5496,63 @@
                         }
                     ]
                 }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/41019/sheet-1",
+                    "type": "HumanMadeObject",
+                    "_label": "Sheet (support) for Killiecrankie",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300189648",
+                            "type": "Type",
+                            "_label": "sheets (paper artifacts)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300014844",
+                            "type": "Type",
+                            "_label": "supports (artists' materials)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/41019/sheet-1/height",
+                            "type": "Dimension",
+                            "value": "6.7500",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/41019/sheet-1/width",
+                            "type": "Dimension",
+                            "value": "4.2500",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        }
+                    ]
+
+                }
+                    
             ]
         }
     },
@@ -6045,6 +6222,63 @@
                         }
                     ]
                 }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/51330/sheet-1",
+                    "type": "HumanMadeObject",
+                    "_label": "Sheet (support) for Towing Boat at Yotsugi Dōri [40] (Yotsugi dōri no hikifune)",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300189648",
+                            "type": "Type",
+                            "_label": "sheets (paper artifacts)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300014844",
+                            "type": "Type",
+                            "_label": "supports (artists' materials)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/51330/sheet-1/height",
+                            "type": "Dimension",
+                            "value": "13.6875",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/51330/sheet-1/width",
+                            "type": "Dimension",
+                            "value": "9.3750",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        }
+                    ]
+
+                }
+                    
             ]
         }
     },
@@ -6269,6 +6503,41 @@
                         }
                     ]
                 }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/52481/sheet-1",
+                    "type": "HumanMadeObject",
+                    "_label": "Sheet (support) for Spring snow on Sumida River 隅田川　春雪",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300189648",
+                            "type": "Type",
+                            "_label": "sheets (paper artifacts)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300014844",
+                            "type": "Type",
+                            "_label": "supports (artists' materials)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/52481/sheet-1/height",
+                            "type": "Dimension",
+                            "value": "22.3000",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ]
+                        },
+                    ]
+
+                }
+                    
             ]
         }
     },
@@ -7564,12 +7833,12 @@
                     "id": "https://data.discovernewfields.org/object/68181",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family teapot"
-                },
+                    },
                 {
                     "id": "https://data.discovernewfields.org/object/68182",
                     "type": "HumanMadeObject",
                     "_label": "lid for Broken Family teapot"
-                },
+                    },
                 {
                     "id": "https://data.discovernewfields.org/object/68183",
                     "type": "HumanMadeObject",
@@ -7579,12 +7848,12 @@
                     "id": "https://data.discovernewfields.org/object/68184",
                     "type": "HumanMadeObject",
                     "_label": "Broken Family sugar bowl"
-                },
+                    },
                 {
                     "id": "https://data.discovernewfields.org/object/68185",
                     "type": "HumanMadeObject",
                     "_label": "lid for Broken Family sugar bowl"
-                },
+                    },
                 {
                     "id": "https://data.discovernewfields.org/object/68186",
                     "type": "HumanMadeObject",
