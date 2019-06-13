@@ -160,7 +160,7 @@ Production-->
             "produced_by": {
                 "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/production",
                 "type": "Production",
-                "_label": "Production of <xsl:copy-of select="$title"/>"<xsl:if test="table[@name='Creator1'] or table[@name='Creator2']/tuple/atom[@name='CreCrationCultureOrPeople']"><xsl:choose><xsl:when test="table[@name='Creator1']">,
+                "_label": "Production of <xsl:copy-of select="$title"/>"<xsl:if test="table[@name='Creator1'] or table[@name='Creator2']/tuple/atom[@name='CreCreationCultureOrPeople']"><xsl:choose><xsl:when test="table[@name='Creator1']">,
                 "carried_out_by": [<xsl:for-each select="table[@name='Creator1']/tuple[atom[@name='irn'] != '2741'] | table[@name='Creator1']/tuple[atom[@name='irn'] != '10661'] | table[@name='Creator1']/tuple[not(exists(atom[@name='CreCreatorAfterFollower']))]">
                     {
                         "id": "<xsl:copy-of select="$baseURI"/>actor/<xsl:copy-of select="$irn"/>",

@@ -608,7 +608,19 @@
             "produced_by": {
                 "id": "https://data.discovernewfields.org/object/1105/production",
                 "type": "Production",
-                "_label": "Production of bowl"
+                "_label": "Production of bowl",
+                "carried_out_by": [
+                    {
+                    "id": "https://data.discovernewfields.org/thesauri/culture/benin-kingdom",
+                        "type": "Actor",
+                        "_label": "Benin Kingdom"
+                    },
+                    {
+                    "id": "https://data.discovernewfields.org/thesauri/culture/edo-people",
+                        "type": "Actor",
+                        "_label": "Edo people"
+                    }             
+                ]
             },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
@@ -1413,7 +1425,14 @@
             "produced_by": {
                 "id": "https://data.discovernewfields.org/object/14365/production",
                 "type": "Production",
-                "_label": "Production of fragment"
+                "_label": "Production of fragment",
+                "carried_out_by": [
+                    {
+                    "id": "https://data.discovernewfields.org/thesauri/culture/chim-culture",
+                        "type": "Actor",
+                        "_label": "Chimú culture"
+                    }             
+                ]
             },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
@@ -2487,7 +2506,14 @@
             "produced_by": {
                 "id": "https://data.discovernewfields.org/object/16410/production",
                 "type": "Production",
-                "_label": "Production of necklace"
+                "_label": "Production of necklace",
+                "carried_out_by": [
+                    {
+                    "id": "https://data.discovernewfields.org/thesauri/culture/pueblo-people",
+                        "type": "Actor",
+                        "_label": "Pueblo people"
+                    }             
+                ]
             },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
@@ -7193,7 +7219,14 @@
             "produced_by": {
                 "id": "https://data.discovernewfields.org/object/64017/production",
                 "type": "Production",
-                "_label": "Production of pair of earplugs (for man or woman)"
+                "_label": "Production of pair of earplugs (for man or woman)",
+                "carried_out_by": [
+                    {
+                    "id": "https://data.discovernewfields.org/thesauri/culture/zulu-people",
+                        "type": "Actor",
+                        "_label": "Zulu people"
+                    }             
+                ]
             },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
@@ -7447,7 +7480,14 @@
             "produced_by": {
                 "id": "https://data.discovernewfields.org/object/64018/production",
                 "type": "Production",
-                "_label": "Production of earplug"
+                "_label": "Production of earplug",
+                "carried_out_by": [
+                    {
+                    "id": "https://data.discovernewfields.org/thesauri/culture/zulu-people",
+                        "type": "Actor",
+                        "_label": "Zulu people"
+                    }             
+                ]
             },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
@@ -7683,7 +7723,14 @@
             "produced_by": {
                 "id": "https://data.discovernewfields.org/object/64019/production",
                 "type": "Production",
-                "_label": "Production of earplug (for man or woman)"
+                "_label": "Production of earplug (for man or woman)",
+                "carried_out_by": [
+                    {
+                    "id": "https://data.discovernewfields.org/thesauri/culture/zulu-people",
+                        "type": "Actor",
+                        "_label": "Zulu people"
+                    }             
+                ]
             },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",

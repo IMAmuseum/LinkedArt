@@ -3190,7 +3190,14 @@
             "produced_by": {
                 "id": "https://data.discovernewfields.org/object/20978/production",
                 "type": "Production",
-                "_label": "Production of pipe bag with geometric design"
+                "_label": "Production of pipe bag with geometric design",
+                "carried_out_by": [
+                    {
+                    "id": "https://data.discovernewfields.org/thesauri/culture/arapaho-people",
+                        "type": "Actor",
+                        "_label": "Arapaho people"
+                    }             
+                ]
             },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
@@ -4654,7 +4661,14 @@
             "produced_by": {
                 "id": "https://data.discovernewfields.org/object/25319/production",
                 "type": "Production",
-                "_label": "Production of jar with lid"
+                "_label": "Production of jar with lid",
+                "carried_out_by": [
+                    {
+                    "id": "https://data.discovernewfields.org/thesauri/culture/san-ildefonso-people",
+                        "type": "Actor",
+                        "_label": "San Ildefonso people"
+                    }             
+                ]
             },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
