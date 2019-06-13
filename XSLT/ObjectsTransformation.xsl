@@ -463,9 +463,9 @@ Linquistic Objects-->
                         }
                     ]
                 }</xsl:if></xsl:if>
-            ]</xsl:if><xsl:if test="(atom[@name='AssIsParent'] = 'Yes' and table[@name='Children']) or (table[@name='Dimensions']/tuple/atom[@name=
-                'PhyType'] = 'Framed Dimensions') or (table[@name='Dimensions']/tuple/atom[@name=
-                'PhyType'] = 'Sheet Dimensions')">,<!--
+            ]</xsl:if><xsl:if test="(atom[@name='AssIsParent'] = 'Yes' and table[@name='Children']) or (table[@name='Dimensions']/tuple[atom[@name=
+                'PhyType'] = 'Framed Dimensions']) or (table[@name='Dimensions']/tuple[atom[@name=
+                'PhyType'] = 'Sheet Dimensions']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Image Dimensions'])">,<!--
 
 Parts-->
             "part": [<xsl:if test="atom[@name='AssIsParent'] = 'Yes' and table[@name='Children']"><xsl:for-each select="table[@name='Children']/tuple">
@@ -479,7 +479,7 @@ Parts-->
                     "type": "HumanMadeObject",
                     "_label": "<xsl:value-of select="atom[@name='TitMainTitle']"/>"
                 }</xsl:for-each></xsl:if><xsl:if test="position() != last()">,</xsl:if></xsl:for-each><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Framed Dimensions']) or (table[@name='Dimensions']/tuple/atom[@name=
-                        'PhyType'] = 'Sheet Dimensions')">,</xsl:if></xsl:if><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Framed Dimensions']"><xsl:if test="atom[@name='PhyHeight'] != '' or atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">
+                        'PhyType'] = 'Sheet Dimensions') or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Image Dimensions'])">,</xsl:if></xsl:if><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Framed Dimensions'])"><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Framed Dimensions']"><xsl:if test="atom[@name='PhyHeight'] != '' or atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/frame-<xsl:value-of select="position()"/>",
                     "type": "HumanMadeObject",
@@ -491,8 +491,8 @@ Parts-->
                             "_label": "frames (protective furnishings)"
                         }
                     ],<xsl:call-template name="dimensions"><xsl:with-param name="dim_type">frame</xsl:with-param></xsl:call-template>
-                }</xsl:if><xsl:if test="position() != last()">,</xsl:if></xsl:for-each><xsl:if test="(table[@name='Dimensions']/tuple/atom[@name='PhyType'] = 'Framed Dimensions') and (table[@name='Dimensions']/tuple/atom[@name=
-                    'PhyType'] = 'Sheet Dimensions')">,</xsl:if><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name=
+                }</xsl:if><xsl:if test="position() != last()">,</xsl:if></xsl:for-each><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Sheet Dimensions']) or (table[@name='Dimensions']/tuple[atom[@name=
+                    'PhyType'] = 'Image Dimensions'])">,</xsl:if></xsl:if><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Sheet Dimensions'])"><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name=
                         'PhyType'] = 'Sheet Dimensions']"><xsl:if test="atom[@name='PhyHeight'] != '' or atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/sheet-<xsl:value-of select="position()"/>",
@@ -510,8 +510,19 @@ Parts-->
                             "_label": "supports (artists' materials)"
                         }
                     ],<xsl:call-template name="dimensions"><xsl:with-param name="dim_type">sheet</xsl:with-param></xsl:call-template>
-                }
-                    </xsl:if></xsl:for-each>
+                }<xsl:if test="position() != last()">,</xsl:if></xsl:if></xsl:for-each><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Image Dimensions'])">,</xsl:if></xsl:if><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Image Dimensions']"><xsl:if test="atom[@name='PhyHeight'] != '' or atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">
+                {
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/image-<xsl:value-of select="position()"/>",
+                    "type": "HumanMadeObject",
+                    "_label": "Image part of <xsl:copy-of select="$title"/>",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300264387",
+                            "type": "Type",
+                            "_label": "images (object genre)"
+                        }
+                    ],<xsl:call-template name="dimensions"><xsl:with-param name="dim_type">image</xsl:with-param></xsl:call-template>
+                }<xsl:if test="position() != last()">,</xsl:if></xsl:if></xsl:for-each>
             ]</xsl:if>
         }
     }<xsl:if test="position() != last()">,
@@ -536,8 +547,13 @@ Parts-->
                                 "id": "http://vocab.getty.edu/aat/300379100",
                                 "type": "Type",
                                 "_label": "inches"
+                            }</xsl:if><xsl:if test="atom[@name='PhyUnitLength'] = 'cm.'">,
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379098",
+                                "type": "Type",
+                                "_label": "centimeters"
                             }</xsl:if>
-                        }<xsl:if test="atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''"/>,</xsl:if><xsl:if test="atom[@name='PhyWidth'] != ''">
+                        }<xsl:if test="atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">,</xsl:if></xsl:if><xsl:if test="atom[@name='PhyWidth'] != ''">
                         {
                             "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/<xsl:value-of select="$dim_type"/>-<xsl:value-of select="position()"/>/width",
                             "type": "Dimension",
@@ -553,6 +569,11 @@ Parts-->
                                 "id": "http://vocab.getty.edu/aat/300379100",
                                 "type": "Type",
                                 "_label": "inches"
+                            }</xsl:if><xsl:if test="atom[@name='PhyUnitLength'] = 'cm.'">,
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379098",
+                                "type": "Type",
+                                "_label": "centimeters"
                             }</xsl:if>
                         }<xsl:if test="atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">,</xsl:if></xsl:if><xsl:if test="atom[@name='PhyDepth'] != ''">
                         {
@@ -570,6 +591,11 @@ Parts-->
                                 "id": "http://vocab.getty.edu/aat/300379100",
                                 "type": "Type",
                                 "_label": "inches"
+                            }</xsl:if><xsl:if test="atom[@name='PhyUnitLength'] = 'cm.'">,
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379098",
+                                "type": "Type",
+                                "_label": "centimeters"
                             }</xsl:if>
                         }<xsl:if test="atom[@name='PhyDiameter'] != ''">,</xsl:if></xsl:if><xsl:if test="atom[@name='PhyDiameter'] != ''">
                         {
@@ -587,6 +613,11 @@ Parts-->
                                 "id": "http://vocab.getty.edu/aat/300379100",
                                 "type": "Type",
                                 "_label": "inches"
+                            }</xsl:if><xsl:if test="atom[@name='PhyUnitLength'] = 'cm.'">,
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379098",
+                                "type": "Type",
+                                "_label": "centimeters"
                             }</xsl:if>
                         }</xsl:if>
                     ]</xsl:template>

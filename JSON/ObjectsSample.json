@@ -2295,8 +2295,55 @@
                             }
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/16356/image-1",
+                    "type": "HumanMadeObject",
+                    "_label": "Image part of Whistler's Mother",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300264387",
+                            "type": "Type",
+                            "_label": "images (object genre)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/16356/image-1/height",
+                            "type": "Dimension",
+                            "value": "8.0000",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/16356/image-1/width",
+                            "type": "Dimension",
+                            "value": "9.0625",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        }
+                    ]
                 }
-                    
             ]
         }
     },
@@ -3604,6 +3651,56 @@
                         }
                     ]
                 }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/21137/image-1",
+                    "type": "HumanMadeObject",
+                    "_label": "Image part of Hakone",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300264387",
+                            "type": "Type",
+                            "_label": "images (object genre)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/21137/image-1/height",
+                            "type": "Dimension",
+                            "value": "9.0000",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/21137/image-1/width",
+                            "type": "Dimension",
+                            "value": "13.9375",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        }
+                    ]
+                }
             ]
         }
     },
@@ -4696,6 +4793,54 @@
                     "id": "https://data.discovernewfields.org/object/89369",
                     "type": "HumanMadeObject",
                     "_label": "Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/25098/image-1",
+                    "type": "HumanMadeObject",
+                    "_label": "Image part of (L) Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left);  (C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛;  (R) Sawamura Tosshō　沢村訥升 as Rai Kunitoshi  来国俊",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300264387",
+                            "type": "Type",
+                            "_label": "images (object genre)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/25098/image-1/height",
+                            "type": "Dimension",
+                            "value": "15.2500",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/25098/image-1/width",
+                            "type": "Dimension",
+                            "value": "10.1250",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        }
+                    ]
                 }
             ]
         }
@@ -5266,8 +5411,55 @@
                             }
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/41018/image-1",
+                    "type": "HumanMadeObject",
+                    "_label": "Image part of Glencoe",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300264387",
+                            "type": "Type",
+                            "_label": "images (object genre)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/41018/image-1/height",
+                            "type": "Dimension",
+                            "value": "3.3750",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/41018/image-1/width",
+                            "type": "Dimension",
+                            "value": "5.5625",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        }
+                    ]
                 }
-                    
             ]
         }
     },
@@ -5542,8 +5734,55 @@
                             }
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/41019/image-1",
+                    "type": "HumanMadeObject",
+                    "_label": "Image part of Killiecrankie",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300264387",
+                            "type": "Type",
+                            "_label": "images (object genre)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/41019/image-1/height",
+                            "type": "Dimension",
+                            "value": "4.0000",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/41019/image-1/width",
+                            "type": "Dimension",
+                            "value": "3.3750",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        }
+                    ]
                 }
-                    
             ]
         }
     },
@@ -6267,8 +6506,55 @@
                             }
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/51330/image-1",
+                    "type": "HumanMadeObject",
+                    "_label": "Image part of Towing Boat at Yotsugi Dōri [40] (Yotsugi dōri no hikifune)",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300264387",
+                            "type": "Type",
+                            "_label": "images (object genre)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/51330/image-1/height",
+                            "type": "Dimension",
+                            "value": "13.1875",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/51330/image-1/width",
+                            "type": "Dimension",
+                            "value": "8.5625",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        }
+                    ]
                 }
-                    
             ]
         }
     },
@@ -6522,11 +6808,15 @@
                                     "type": "Type",
                                     "_label": "height"
                                 }
-                            ]
-                        },
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379098",
+                                "type": "Type",
+                                "_label": "centimeters"
+                            }
+                        }
                     ]
                 }
-                    
             ]
         }
     },
@@ -11486,6 +11776,56 @@
                         }
                     ]
                 }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/89367/image-1",
+                    "type": "HumanMadeObject",
+                    "_label": "Image part of Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left)",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300264387",
+                            "type": "Type",
+                            "_label": "images (object genre)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/89367/image-1/height",
+                            "type": "Dimension",
+                            "value": "15.2500",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/89367/image-1/width",
+                            "type": "Dimension",
+                            "value": "10.1250",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        }
+                    ]
+                }
             ]
         }
     },
@@ -11744,6 +12084,56 @@
                         }
                     ]
                 }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/89368/image-1",
+                    "type": "HumanMadeObject",
+                    "_label": "Image part of (C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300264387",
+                            "type": "Type",
+                            "_label": "images (object genre)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/89368/image-1/height",
+                            "type": "Dimension",
+                            "value": "15.2500",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/89368/image-1/width",
+                            "type": "Dimension",
+                            "value": "10.1250",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        }
+                    ]
+                }
             ]
         }
     },
@@ -11999,6 +12389,56 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/89369/image-1",
+                    "type": "HumanMadeObject",
+                    "_label": "Image part of Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300264387",
+                            "type": "Type",
+                            "_label": "images (object genre)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/89369/image-1/height",
+                            "type": "Dimension",
+                            "value": "15.2500",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/89369/image-1/width",
+                            "type": "Dimension",
+                            "value": "10.1250",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
                         }
                     ]
                 }
