@@ -1,13 +1,13 @@
 Dimension Types (whole string equals) that can trigger partitioning:
 
 - Backing Dimensions (part = backing)
-- Base Dimensions (part = base)
-- Framed Dimensions (part = frame)
-- Image Dimensions (part = image)
+DONE - Base Dimensions (part = base)
+DONE - Framed Dimensions (part = frame)
+DONE - Image Dimensions (part = image)
 - Mount Dimensions (part = mount)
-- Overall Image Dimensions (part = image)
+DONE - Overall Image Dimensions (part = image)
 - Plate Dimensions (part = plate)
-- Sheet Dimensions (part = sheet, support)
+DONE - Sheet Dimensions (part = sheet, support)
 
 
 Dimension Types (whole string equals) that apply to entire object:

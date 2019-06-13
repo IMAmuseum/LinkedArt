@@ -465,7 +465,7 @@ Linquistic Objects-->
                 }</xsl:if></xsl:if>
             ]</xsl:if><xsl:if test="(atom[@name='AssIsParent'] = 'Yes' and table[@name='Children']) or (table[@name='Dimensions']/tuple[atom[@name=
                 'PhyType'] = 'Framed Dimensions']) or (table[@name='Dimensions']/tuple[atom[@name=
-                'PhyType'] = 'Sheet Dimensions']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Image Dimensions'])">,<!--
+                'PhyType'] = 'Sheet Dimensions']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Image Dimensions']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Overall Image Dimensions']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Base Dimensions'])">,<!--
 
 Parts-->
             "part": [<xsl:if test="atom[@name='AssIsParent'] = 'Yes' and table[@name='Children']"><xsl:for-each select="table[@name='Children']/tuple">
@@ -479,7 +479,7 @@ Parts-->
                     "type": "HumanMadeObject",
                     "_label": "<xsl:value-of select="atom[@name='TitMainTitle']"/>"
                 }</xsl:for-each></xsl:if><xsl:if test="position() != last()">,</xsl:if></xsl:for-each><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Framed Dimensions']) or (table[@name='Dimensions']/tuple/atom[@name=
-                        'PhyType'] = 'Sheet Dimensions') or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Image Dimensions'])">,</xsl:if></xsl:if><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Framed Dimensions'])"><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Framed Dimensions']"><xsl:if test="atom[@name='PhyHeight'] != '' or atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">
+                    'PhyType'] = 'Sheet Dimensions') or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Image Dimensions']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Overall Image Dimensions']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Base Dimensions'])">,</xsl:if></xsl:if><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Framed Dimensions'])"><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Framed Dimensions']"><xsl:if test="atom[@name='PhyHeight'] != '' or atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/frame-<xsl:value-of select="position()"/>",
                     "type": "HumanMadeObject",
@@ -492,7 +492,7 @@ Parts-->
                         }
                     ],<xsl:call-template name="dimensions"><xsl:with-param name="dim_type">frame</xsl:with-param></xsl:call-template>
                 }</xsl:if><xsl:if test="position() != last()">,</xsl:if></xsl:for-each><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Sheet Dimensions']) or (table[@name='Dimensions']/tuple[atom[@name=
-                    'PhyType'] = 'Image Dimensions'])">,</xsl:if></xsl:if><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Sheet Dimensions'])"><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name=
+                    'PhyType'] = 'Image Dimensions']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Overall Image Dimensions']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Base Dimensions'])">,</xsl:if></xsl:if><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Sheet Dimensions'])"><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name=
                         'PhyType'] = 'Sheet Dimensions']"><xsl:if test="atom[@name='PhyHeight'] != '' or atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/sheet-<xsl:value-of select="position()"/>",
@@ -510,7 +510,7 @@ Parts-->
                             "_label": "supports (artists' materials)"
                         }
                     ],<xsl:call-template name="dimensions"><xsl:with-param name="dim_type">sheet</xsl:with-param></xsl:call-template>
-                }<xsl:if test="position() != last()">,</xsl:if></xsl:if></xsl:for-each><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Image Dimensions'])">,</xsl:if></xsl:if><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Image Dimensions']"><xsl:if test="atom[@name='PhyHeight'] != '' or atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">
+                }<xsl:if test="position() != last()">,</xsl:if></xsl:if></xsl:for-each><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Image Dimensions']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Overall Image Dimensions']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Base Dimensions'])">,</xsl:if></xsl:if><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Image Dimensions']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Overall Image Dimensions'])"><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Image Dimensions'] | table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Overall Image Dimensions']"><xsl:if test="atom[@name='PhyHeight'] != '' or atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/image-<xsl:value-of select="position()"/>",
                     "type": "HumanMadeObject",
@@ -522,7 +522,19 @@ Parts-->
                             "_label": "images (object genre)"
                         }
                     ],<xsl:call-template name="dimensions"><xsl:with-param name="dim_type">image</xsl:with-param></xsl:call-template>
-                }<xsl:if test="position() != last()">,</xsl:if></xsl:if></xsl:for-each>
+                }<xsl:if test="position() != last()">,</xsl:if></xsl:if></xsl:for-each><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Base Dimensions'])">,</xsl:if></xsl:if><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Base Dimensions'])"><xsl:for-each select="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Base Dimensions'])"><xsl:if test="atom[@name='PhyHeight'] != '' or atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">
+                {
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/base-<xsl:value-of select="position()"/>",
+                    "type": "HumanMadeObject",
+                    "_label": "Base part of <xsl:copy-of select="$title"/>",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300001656",
+                            "type": "Type",
+                            "_label": "bases (object components)"
+                        }
+                    ],<xsl:call-template name="dimensions"><xsl:with-param name="dim_type">base</xsl:with-param></xsl:call-template>
+                }<xsl:if test="position() != last()">,</xsl:if></xsl:if></xsl:for-each></xsl:if>
             ]</xsl:if>
         }
     }<xsl:if test="position() != last()">,
