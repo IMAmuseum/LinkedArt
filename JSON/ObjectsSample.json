@@ -191,6 +191,21 @@
                         }
                     ]
                 }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/23059/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for long-neck vase with cup mouth",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
+                }
             ]
         }
     },
@@ -486,6 +501,21 @@
                         }
                     ]
                 }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/56270/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for The Bachelor Boudoir (Corner of the Studio)",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
+                }
             ]
         }
     },
@@ -578,19 +608,7 @@
             "produced_by": {
                 "id": "https://data.discovernewfields.org/object/1105/production",
                 "type": "Production",
-                "_label": "Production of bowl",
-                "carried_out_by": [
-                    {
-                    "id": "https://data.discovernewfields.org/thesauri/culture/benin-kingdom",
-                        "type": "Actor",
-                        "_label": "Benin Kingdom"
-                    },
-                    {
-                    "id": "https://data.discovernewfields.org/thesauri/culture/edo-people",
-                        "type": "Actor",
-                        "_label": "Edo people"
-                    }             
-                ]
+                "_label": "Production of bowl"
             },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
@@ -726,6 +744,21 @@
                             "_label": "brief texts"
                         }
                     ]
+                }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/29429/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for bowl",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
                 }
             ]
         }
@@ -1049,6 +1082,21 @@
                         }
                     ]
                 }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/38014/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for Still Life with Flowerpot",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
+                }
             ]
         }
     },
@@ -1365,14 +1413,7 @@
             "produced_by": {
                 "id": "https://data.discovernewfields.org/object/14365/production",
                 "type": "Production",
-                "_label": "Production of fragment",
-                "carried_out_by": [
-                    {
-                    "id": "https://data.discovernewfields.org/thesauri/culture/chim-culture",
-                        "type": "Actor",
-                        "_label": "Chimú culture"
-                    }             
-                ]
+                "_label": "Production of fragment"
             },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
@@ -2446,14 +2487,7 @@
             "produced_by": {
                 "id": "https://data.discovernewfields.org/object/16410/production",
                 "type": "Production",
-                "_label": "Production of necklace",
-                "carried_out_by": [
-                    {
-                    "id": "https://data.discovernewfields.org/thesauri/culture/pueblo-people",
-                        "type": "Actor",
-                        "_label": "Pueblo people"
-                    }             
-                ]
+                "_label": "Production of necklace"
             },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
@@ -4221,6 +4255,21 @@
                     "type": "HumanMadeObject",
                     "_label": "censer in form of teahouse"
                 }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/5413/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for censer in form of teahouse",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
+                }
             ]
         }
     },
@@ -4518,6 +4567,21 @@
                     "id": "https://data.discovernewfields.org/object/89165",
                     "type": "HumanMadeObject",
                     "_label": "sash for evening dress"
+                }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/ 80142/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for evening dress",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
                 }
             ]
         }
@@ -4841,6 +4905,21 @@
                             }
                         }
                     ]
+                }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/70886/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for (L) Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left);  (C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛;  (R) Sawamura Tosshō　沢村訥升 as Rai Kunitoshi  来国俊",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
                 }
             ]
         }
@@ -7114,14 +7193,7 @@
             "produced_by": {
                 "id": "https://data.discovernewfields.org/object/64017/production",
                 "type": "Production",
-                "_label": "Production of pair of earplugs (for man or woman)",
-                "carried_out_by": [
-                    {
-                    "id": "https://data.discovernewfields.org/thesauri/culture/zulu-people",
-                        "type": "Actor",
-                        "_label": "Zulu people"
-                    }             
-                ]
+                "_label": "Production of pair of earplugs (for man or woman)"
             },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
@@ -7375,14 +7447,7 @@
             "produced_by": {
                 "id": "https://data.discovernewfields.org/object/64018/production",
                 "type": "Production",
-                "_label": "Production of earplug",
-                "carried_out_by": [
-                    {
-                    "id": "https://data.discovernewfields.org/thesauri/culture/zulu-people",
-                        "type": "Actor",
-                        "_label": "Zulu people"
-                    }             
-                ]
+                "_label": "Production of earplug"
             },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
@@ -7618,14 +7683,7 @@
             "produced_by": {
                 "id": "https://data.discovernewfields.org/object/64019/production",
                 "type": "Production",
-                "_label": "Production of earplug (for man or woman)",
-                "carried_out_by": [
-                    {
-                    "id": "https://data.discovernewfields.org/thesauri/culture/zulu-people",
-                        "type": "Actor",
-                        "_label": "Zulu people"
-                    }             
-                ]
+                "_label": "Production of earplug (for man or woman)"
             },
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",

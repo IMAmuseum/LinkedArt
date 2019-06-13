@@ -120,6 +120,13 @@
       text short      AssRelationship
       integer         irn
     end
+    text short      AdmPublishWebNoPassword
+    table           Homepage
+      text short      RefBibliographicNotes
+      integer         irn
+      text long       EleTitle
+      text short      EleIdentifier
+    end
   end
 ?>
 <!-- Data -->
@@ -188,6 +195,15 @@
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">23059</atom>
+        <atom name="irn">3274</atom>
+        <atom name="EleTitle">Dagwood ID for 60.63</atom>
+        <atom name="EleIdentifier">23059</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 2 -->
@@ -288,6 +304,15 @@
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">56270</atom>
+        <atom name="irn">3307</atom>
+        <atom name="EleTitle">Dagwood ID for 14.55</atom>
+        <atom name="EleIdentifier">56270</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 3 -->
@@ -377,6 +402,15 @@
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">29429</atom>
+        <atom name="irn">3347</atom>
+        <atom name="EleTitle">Dagwood ID for 1989.1569</atom>
+        <atom name="EleIdentifier">29429</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 4 -->
@@ -490,6 +524,15 @@
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">38014</atom>
+        <atom name="irn">5750</atom>
+        <atom name="EleTitle">Dagwood ID for 42.07</atom>
+        <atom name="EleIdentifier">38014</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 5 -->
@@ -595,6 +638,7 @@
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
   </tuple>
 
   <!-- Row 6 -->
@@ -652,6 +696,7 @@
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
   </tuple>
 
   <!-- Row 7 -->
@@ -750,6 +795,7 @@
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
   </tuple>
 
   <!-- Row 8 -->
@@ -849,6 +895,7 @@
         <atom name="irn">35937</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
   </tuple>
 
   <!-- Row 9 -->
@@ -955,6 +1002,7 @@
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
   </tuple>
 
   <!-- Row 10 -->
@@ -1049,6 +1097,7 @@
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
   </tuple>
 
   <!-- Row 11 -->
@@ -1151,6 +1200,15 @@
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">p. 6 (reproduced in color)</atom>
+        <atom name="irn">1903</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 12 -->
@@ -1254,6 +1312,7 @@
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
   </tuple>
 
   <!-- Row 13 -->
@@ -1378,6 +1437,15 @@
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">p. 35/reproduction is in color</atom>
+        <atom name="irn">2200</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 14 -->
@@ -1487,6 +1555,7 @@ Inscribed: title and series title</atom>
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
   </tuple>
 
   <!-- Row 15 -->
@@ -1586,6 +1655,111 @@ Inscribed: title and series title</atom>
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes"></atom>
+        <atom name="irn">1287</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes"></atom>
+        <atom name="irn">1288</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes"></atom>
+        <atom name="irn">1289</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes"></atom>
+        <atom name="irn">1290</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes"></atom>
+        <atom name="irn">1291</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes"></atom>
+        <atom name="irn">1292</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes"></atom>
+        <atom name="irn">1293</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes"></atom>
+        <atom name="irn">1294</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes"></atom>
+        <atom name="irn">1295</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes"></atom>
+        <atom name="irn">1296</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes"></atom>
+        <atom name="irn">1297</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes"></atom>
+        <atom name="irn">1298</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes"></atom>
+        <atom name="irn">1299</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes"></atom>
+        <atom name="irn">1300</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes">p. 5 (reproduced in color)</atom>
+        <atom name="irn">1809</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes">p. 105 (reproduced in color)</atom>
+        <atom name="irn">1828</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes">p. 81 (reproduced in color)</atom>
+        <atom name="irn">1287</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 16 -->
@@ -1691,6 +1865,15 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
       <tuple>
         <atom name="irn">92386</atom>
         <atom name="TitMainTitle">censer in form of teahouse</atom>
+      </tuple>
+    </table>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">5413</atom>
+        <atom name="irn">26823</atom>
+        <atom name="EleTitle">Dagwood ID for 13.1A-C</atom>
+        <atom name="EleIdentifier">5413</atom>
       </tuple>
     </table>
   </tuple>
@@ -1807,6 +1990,21 @@ C) sash: length 81 in.</atom>
         <atom name="TitMainTitle">sash for evening dress</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">p. 210 (reproduced in color)</atom>
+        <atom name="irn">1823</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes">80142</atom>
+        <atom name="irn">27021</atom>
+        <atom name="EleTitle">Dagwood ID for 80.262A-C</atom>
+        <atom name="EleIdentifier">80142</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 18 -->
@@ -1920,6 +2118,15 @@ Censor's seal: single kiwame</atom>
       <tuple>
         <atom name="irn">89369</atom>
         <atom name="TitMainTitle">Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊</atom>
+      </tuple>
+    </table>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">70886</atom>
+        <atom name="irn">27222</atom>
+        <atom name="EleTitle">Dagwood ID for 16.924A-C</atom>
+        <atom name="EleIdentifier">70886</atom>
       </tuple>
     </table>
   </tuple>
@@ -2041,6 +2248,15 @@ Censor's seal: single kiwame</atom>
         <atom name="irn">43219</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">cat. no. 34, pp. 90-91 (reproduced in color), 273</atom>
+        <atom name="irn">64</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 20 -->
@@ -2136,6 +2352,7 @@ Censor's seal: single kiwame</atom>
         <atom name="irn">41019</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
   </tuple>
 
   <!-- Row 21 -->
@@ -2230,6 +2447,7 @@ Censor's seal: single kiwame</atom>
         <atom name="irn">41018</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
   </tuple>
 
   <!-- Row 22 -->
@@ -2290,6 +2508,7 @@ Censor's seal: single kiwame</atom>
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
   </tuple>
 
   <!-- Row 23 -->
@@ -2366,6 +2585,7 @@ Censor's seal: single kiwame</atom>
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
   </tuple>
 
   <!-- Row 24 -->
@@ -2478,6 +2698,7 @@ Engraver's seal: Horisen</atom>
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
   </tuple>
 
   <!-- Row 25 -->
@@ -2561,6 +2782,7 @@ Engraver's seal: Horisen</atom>
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
   </tuple>
 
   <!-- Row 26 -->
@@ -2631,6 +2853,7 @@ Engraver's seal: Horisen</atom>
         <atom name="irn">41019</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
   </tuple>
 
   <!-- Row 27 -->
@@ -2724,6 +2947,7 @@ Engraver's seal: Horisen</atom>
         <atom name="TitMainTitle">earplug (for man or woman)</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
   </tuple>
 
   <!-- Row 28 -->
@@ -2820,6 +3044,7 @@ Engraver's seal: Horisen</atom>
         <atom name="irn">64019</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 29 -->
@@ -2913,6 +3138,7 @@ Engraver's seal: Horisen</atom>
         <atom name="irn">64018</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 30 -->
@@ -3122,6 +3348,7 @@ Engraver's seal: Horisen</atom>
         <atom name="TitMainTitle">Broken Family plate</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
   </tuple>
 
   <!-- Row 31 -->
@@ -3235,6 +3462,7 @@ B) ottoman: diam.: 22 in.</atom>
         <atom name="TitMainTitle">UP6 ottoman</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
   </tuple>
 
   <!-- Row 32 -->
@@ -3404,6 +3632,7 @@ B) ottoman: diam.: 22 in.</atom>
         <atom name="irn">68199</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 33 -->
@@ -3511,6 +3740,7 @@ B) ottoman: diam.: 22 in.</atom>
         <atom name="irn">68182</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 34 -->
@@ -3605,6 +3835,7 @@ B) ottoman: diam.: 22 in.</atom>
         <atom name="irn">68181</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 35 -->
@@ -3683,6 +3914,7 @@ B) ottoman: diam.: 22 in.</atom>
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
   </tuple>
 
   <!-- Row 36 -->
@@ -3779,6 +4011,7 @@ B) ottoman: diam.: 22 in.</atom>
         <atom name="irn">69063</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 37 -->
@@ -3873,6 +4106,7 @@ B) ottoman: diam.: 22 in.</atom>
         <atom name="irn">69062</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 38 -->
@@ -3976,6 +4210,7 @@ B) ottoman: diam.: 22 in.</atom>
         <atom name="irn"></atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
   </tuple>
 
   <!-- Row 39 -->
@@ -4130,6 +4365,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
         <atom name="TitMainTitle">element E.4 for Five Brushstrokes</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
   </tuple>
 
   <!-- Row 40 -->
@@ -4252,6 +4488,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
         <atom name="irn">85264</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 41 -->
@@ -4335,6 +4572,15 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
       <tuple>
         <atom name="AssRelationship">part (ensemble)</atom>
         <atom name="irn">89165</atom>
+      </tuple>
+    </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">p. 210 (reproduced in color)</atom>
+        <atom name="irn">1823</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
       </tuple>
     </table>
   </tuple>
@@ -4425,6 +4671,15 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
       <tuple>
         <atom name="AssRelationship">part (ensemble)</atom>
         <atom name="irn">89165</atom>
+      </tuple>
+    </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">p. 210 (reproduced in color)</atom>
+        <atom name="irn">1823</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
       </tuple>
     </table>
   </tuple>
@@ -4529,6 +4784,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
         <atom name="irn">89369</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 44 -->
@@ -4631,6 +4887,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
         <atom name="irn">89369</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 45 -->
@@ -4742,6 +4999,7 @@ Censor's seal: single kiwame</atom>
         <atom name="irn">89368</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 46 -->
@@ -4853,6 +5111,15 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
         <atom name="TitMainTitle">Tricorne candleholders</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">p. 105, 107</atom>
+        <atom name="irn">2190</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 47 -->
@@ -4940,6 +5207,15 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
       <tuple>
         <atom name="AssRelationship">part</atom>
         <atom name="irn">92160</atom>
+      </tuple>
+    </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">p. 105, 107</atom>
+        <atom name="irn">2190</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
       </tuple>
     </table>
   </tuple>
@@ -5031,6 +5307,15 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
         <atom name="irn">92160</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">p. 105, 107</atom>
+        <atom name="irn">2190</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 49 -->
@@ -5118,6 +5403,15 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
       <tuple>
         <atom name="AssRelationship">part</atom>
         <atom name="irn">92159</atom>
+      </tuple>
+    </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">p. 105, 107</atom>
+        <atom name="irn">2190</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
       </tuple>
     </table>
   </tuple>
@@ -5223,6 +5517,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
         <atom name="irn">92386</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 51 -->
@@ -5317,6 +5612,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
         <atom name="irn">92386</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 52 -->
@@ -5411,6 +5707,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
         <atom name="irn">92385</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 53 -->
@@ -5477,5 +5774,6 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
       <atom name="irn">53558</atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 </table>

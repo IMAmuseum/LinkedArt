@@ -120,6 +120,13 @@
       text short      AssRelationship
       integer         irn
     end
+    text short      AdmPublishWebNoPassword
+    table           Homepage
+      text short      RefBibliographicNotes
+      integer         irn
+      text long       EleTitle
+      text short      EleIdentifier
+    end
   end
 ?>
 <!-- Data -->
@@ -332,6 +339,7 @@
         <atom name="TitMainTitle">Broken Family plate</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
   </tuple>
 
   <!-- Row 2 -->
@@ -501,6 +509,7 @@
         <atom name="irn">68199</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 3 -->
@@ -608,6 +617,7 @@
         <atom name="irn">68182</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 4 -->
@@ -702,6 +712,7 @@
         <atom name="irn">68181</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 5 -->
@@ -870,6 +881,7 @@
         <atom name="irn">68199</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 6 -->
@@ -960,6 +972,7 @@
         <atom name="irn">68185</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 7 -->
@@ -1054,6 +1067,7 @@
         <atom name="irn">68184</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 8 -->
@@ -1218,6 +1232,7 @@
         <atom name="irn">68199</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 9 -->
@@ -1380,6 +1395,7 @@
         <atom name="irn">68199</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 10 -->
@@ -1542,6 +1558,7 @@
         <atom name="irn">68199</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 11 -->
@@ -1704,6 +1721,7 @@
         <atom name="irn">68199</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 12 -->
@@ -1866,6 +1884,7 @@
         <atom name="irn">68199</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 13 -->
@@ -2028,6 +2047,7 @@
         <atom name="irn">68199</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 14 -->
@@ -2190,6 +2210,7 @@
         <atom name="irn">68199</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 15 -->
@@ -2352,6 +2373,7 @@
         <atom name="irn">68199</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 16 -->
@@ -2514,6 +2536,7 @@
         <atom name="irn">68199</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 17 -->
@@ -2678,6 +2701,7 @@
         <atom name="irn">68199</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 18 -->
@@ -2840,6 +2864,7 @@
         <atom name="irn">68199</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 19 -->
@@ -3002,6 +3027,7 @@
         <atom name="irn">68199</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 20 -->
@@ -3164,6 +3190,7 @@
         <atom name="irn">68199</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 
   <!-- Row 21 -->
@@ -3326,5 +3353,6 @@
         <atom name="irn">68198</atom>
       </tuple>
     </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
   </tuple>
 </table>

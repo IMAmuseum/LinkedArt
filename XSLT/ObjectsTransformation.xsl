@@ -10,14 +10,14 @@
     <xsl:variable name="crm">http://www.cidoc-crm.org/cidoc-crm/</xsl:variable>
 
 <xsl:template match="/">{"objects": [
-    <xsl:for-each select="table[@name='ecatalogue']/tuple"><xsl:sort select="atom[@name='irn']" data-type="number"/><xsl:variable name="irn"><xsl:value-of select="atom[@name='irn']"/></xsl:variable><xsl:variable name="title"><xsl:value-of select="atom[@name='TitMainTitle']"/></xsl:variable>{<!--
+    <xsl:for-each select="table[@name='ecatalogue']/tuple"><xsl:sort select="atom[@name='irn']" data-type="number"/><xsl:variable name="irn"><xsl:value-of select="atom[@name='irn']"/></xsl:variable><xsl:variable name="title"><xsl:value-of select="replace(atom[@name='TitMainTitle'], '&quot;', '\\&quot;')"/></xsl:variable>{<!--
         
 Header-->
         "<xsl:copy-of select="$irn"/>": {
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>",
             "type": "HumanMadeObject",
-            "_label": "<xsl:value-of select="replace(atom[@name='TitMainTitle'], '&quot;', '\\&quot;')"/>",<!--
+            "_label": "<xsl:copy-of select="$title"/>",<!--
                 
 Classification-->
             "classified_as": [
@@ -94,7 +94,7 @@ Titles-->
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/title",
                     "type": "Name",
                     "_label": "Primary Title for the Artwork",
-                    "content": "<xsl:value-of select="atom[@name='TitMainTitle']"/>",
+                    "content": "<xsl:copy-of select="$title"/>",
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404670",
@@ -160,7 +160,7 @@ Production-->
             "produced_by": {
                 "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/production",
                 "type": "Production",
-                "_label": "Production of <xsl:value-of select="atom[@name='TitMainTitle']"/>"<xsl:if test="table[@name='Creator1'] or table[@name='Creator2']"><xsl:choose><xsl:when test="table[@name='Creator1']">,
+                "_label": "Production of <xsl:copy-of select="$title"/>"<xsl:if test="table[@name='Creator1'] or table[@name='Creator2']/tuple/atom[@name='CreCrationCultureOrPeople']"><xsl:choose><xsl:when test="table[@name='Creator1']">,
                 "carried_out_by": [<xsl:for-each select="table[@name='Creator1']/tuple[atom[@name='irn'] != '2741'] | table[@name='Creator1']/tuple[atom[@name='irn'] != '10661'] | table[@name='Creator1']/tuple[not(exists(atom[@name='CreCreatorAfterFollower']))]">
                     {
                         "id": "<xsl:copy-of select="$baseURI"/>actor/<xsl:copy-of select="$irn"/>",
@@ -234,7 +234,7 @@ Acquisition-->
                     {
                         "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/IMA-acquisition",
                         "type": "Acquisition",
-                        "_label": "Acquisition of <xsl:value-of select="atom[@name='TitMainTitle']"/>",
+                        "_label": "Acquisition of <xsl:copy-of select="$title"/>",
                         "classified_as": [
                             {
                                 "id": "http://vocab.getty.edu/aat/300157782",
@@ -472,12 +472,12 @@ Parts-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>",
                     "type": "HumanMadeObject",
-                    "_label": "<xsl:value-of select="atom[@name='TitMainTitle']"/>"
+                    "_label": "<xsl:value-of select="replace(atom[@name='TitMainTitle'], '&quot;', '\\&quot;')"/>"
                 }<xsl:if test="table[@name='Grandchildren']"><xsl:for-each select="table[@name='Grandchildren']/tuple">,
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:value-of select="atom[@name='irn']"/>",
                     "type": "HumanMadeObject",
-                    "_label": "<xsl:value-of select="atom[@name='TitMainTitle']"/>"
+                    "_label": "<xsl:value-of select="replace(atom[@name='TitMainTitle'], '&quot;', '\\&quot;')"/>"
                 }</xsl:for-each></xsl:if><xsl:if test="position() != last()">,</xsl:if></xsl:for-each><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Framed Dimensions']) or (table[@name='Dimensions']/tuple/atom[@name=
                     'PhyType'] = 'Sheet Dimensions') or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Image Dimensions']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Overall Image Dimensions']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Base Dimensions'])">,</xsl:if></xsl:if><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Framed Dimensions'])"><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Framed Dimensions']"><xsl:if test="atom[@name='PhyHeight'] != '' or atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">
                 {
@@ -535,14 +535,32 @@ Parts-->
                         }
                     ],<xsl:call-template name="dimensions"><xsl:with-param name="dim_type">base</xsl:with-param></xsl:call-template>
                 }<xsl:if test="position() != last()">,</xsl:if></xsl:if></xsl:for-each></xsl:if>
+            ]</xsl:if><xsl:if test="(atom[@name='AdmPublishWebNoPassword'] = 'Yes') and (table[@name='Homepage']/tuple[atom[@name='EleIdentifier'] != ''])">,<!--
+                
+Homepage-->
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/<xsl:value-of select="table[@name='Homepage']/tuple/atom[@name='EleIdentifier']"/>/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for <xsl:copy-of select="$title"/>",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
+                }
             ]</xsl:if>
         }
     }<xsl:if test="position() != last()">,
     </xsl:if>
         </xsl:for-each>
 ]}</xsl:template>
-    
-<xsl:template name="dimensions"><xsl:param name="dim_type"/><xsl:variable name="irn"><xsl:value-of select="ancestor::tuple/atom[@name='irn']"/></xsl:variable><xsl:variable name="title"><xsl:value-of select="ancestor::tuple/atom[@name='TitMainTitle']"/></xsl:variable>
+
+<!--Dimensions Template-->
+<xsl:template name="dimensions"><xsl:param name="dim_type"/><xsl:variable name="irn"><xsl:value-of select="ancestor::tuple/atom[@name='irn']"/></xsl:variable><xsl:variable name="title"><xsl:value-of select="replace(ancestor::tuple/atom[@name='TitMainTitle'], '&quot;', '\\&quot;')"/></xsl:variable>
                     "dimension": [<xsl:if test="atom[@name='PhyHeight'] != ''">
                         {
                             "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/<xsl:value-of select="$dim_type"/>-<xsl:value-of select="position()"/>/height",

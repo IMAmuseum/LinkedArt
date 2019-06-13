@@ -1,0 +1,3404 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE table
+[
+  <!ELEMENT table	(tuple)*>
+  <!ATTLIST table
+            name	CDATA #REQUIRED
+  >
+
+  <!ELEMENT tuple	(table|tuple|atom)*>
+  <!ATTLIST tuple
+            name	CDATA #IMPLIED
+  >
+
+  <!ELEMENT atom	(#PCDATA)*>
+  <!ATTLIST atom
+            name	CDATA #REQUIRED
+            type	CDATA "text"
+            size	CDATA "short"
+  >
+]
+>
+<?schema
+  table           ecatalogue
+    integer         irn
+    text short      AdmPublishWebNoPassword
+    text short      TitAccessionNo
+    text short      TitPreviousAccessionNo
+    text short      TitObjectStatus
+    date            TitAccessionDate
+    text long       TitMainTitle
+    text long       TitSeriesTitle
+    text long       TitCollectionTitle
+    table           AltTitles
+      text long       TitAlternateTitles
+    end
+    text long       TitTitleNotes
+    text short      TitObjectType
+    table           ObjectTypes
+      text short      PhyMediaCategory
+    end
+    text short      CreDateCreated
+    date            CreEarliestDate
+    date            CreLatestDate
+    text short      CreCreationPeriod
+    text long       CreCreationDynasty
+    table           Creator1
+      text short      CreRole
+      text long       CreCreatorAfterFollower
+      integer         irn
+      text long       SummaryData
+    end
+    table           Creator2
+      text long       CreCreatorAttribution
+      text long       CreCreationCultureOrPeople
+      text long       CreCreationNationality2
+    end
+    table           CreLocation
+      text short      CreCountry
+      text short      CreState
+      text short      CreDistrict
+      text short      CreCity
+    end
+    table           MarkType
+      text short      CreMarkType
+    end
+    text long       CrePrimaryInscriptions
+    text long       CreCreationNotes
+    date            EdiPublisherDate
+    table           Medium
+      text long       PhyMedium
+    end
+    table           Support
+      text short      PhySupport
+    end
+    text long       PhyMediumAndSupport
+    text short      PhyStyle
+    text short      PhyTechnique
+    text short      EdiImpression
+    text long       PhyDescription
+    table           Color
+      text short      PhyColor
+    end
+    text long       PhyConvertedDims
+    table           Dimensions
+      text short      PhyType
+      float           PhyHeight
+      float           PhyWidth
+      float           PhyDepth
+      float           PhyDiameter
+      text short      PhyUnitLength
+      float           PhyWeight
+      text short      PhyUnitWeight
+      text short      PhyDimensionNotes
+    end
+    text long       SumCreditLine
+    table           Rights
+      text long       RigAcknowledgement
+    end
+    text long       CreProvenance
+    text short      PhyCollectionArea
+    text short      LocMovementType
+    tuple           LocCurrentLocationRef
+      text short      LocLevel1
+      text short      LocLevel2
+      text short      LocLevel3
+    end
+    tuple           AssParentObjectRef
+      integer         irn
+    end
+    text short      AssIsParent
+    table           Children
+      integer         irn
+      text long       TitMainTitle
+      table           Grandchildren
+        integer         irn
+        text long       TitMainTitle
+      end
+    end
+    table           Related
+      text short      AssRelationship
+      integer         irn
+    end
+    text short      AdmPublishWebNoPassword
+    table           Homepage
+      text short      RefBibliographicNotes
+      integer         irn
+      text long       EleTitle
+      text short      EleIdentifier
+    end
+  end
+?>
+<!-- Data -->
+<table name="ecatalogue">
+
+  <!-- Row 1 -->
+  <tuple>
+    <atom name="irn">3811</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">01.4</atom>
+    <atom name="TitPreviousAccessionNo">No TR Number</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1901-04-09</atom>
+    <atom name="TitMainTitle">Marine</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Paintings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">paintings</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">oil paintings</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">before 1902</atom>
+    <atom name="CreEarliestDate">1865</atom>
+    <atom name="CreLatestDate">1901</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Artist</atom>
+        <atom name="irn">628098</atom>
+        <atom name="SummaryData">Wendt, William</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">United States</atom>
+      </tuple>
+    </table>
+    <table name="MarkType">
+      <tuple>
+        <atom name="CreMarkType">Signature</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions">Signed, lower left: WM. WENDT</atom>
+    <atom name="CreCreationNotes">Based on IMA accession date.</atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">oil paint</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">canvas</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">oil on canvas</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique">painting</atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">24-1/4 x 36-1/4 in. (canvas)
+35-3/4 x 47-1/2 x 2-3/4 in. (framed)</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">IMA Number Applied</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyWidth"></atom>
+        <atom name="PhyDepth"></atom>
+        <atom name="PhyUnitLength"></atom>
+        <atom name="PhyDimensionNotes">in red ink to backing in upper left corner and to frame in upper and lower left corners</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Framed Dimensions</atom>
+        <atom name="PhyHeight">35.7500</atom>
+        <atom name="PhyWidth">47.5000</atom>
+        <atom name="PhyDepth">2.7500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 90.8 x 120.6 x 7 (framed)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Unframed Dimensions</atom>
+        <atom name="PhyHeight">24.2500</atom>
+        <atom name="PhyWidth">36.2500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 61.6 x 92 (canvas)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">John Herron Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© William Wendt</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">901.2-American Painting and Sculpture 1800-1945</atom>
+    <atom name="LocMovementType">Storage Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">P</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">56210</atom>
+        <atom name="irn">6037</atom>
+        <atom name="EleTitle">Dagwood ID for 01.4</atom>
+        <atom name="EleIdentifier">56210</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 2 -->
+  <tuple>
+    <atom name="irn">4229</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">33.271</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1933-11-21</atom>
+    <atom name="TitMainTitle">pillow cover</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Costume</atom>
+    <atom name="CreDateCreated">late 19th century</atom>
+    <atom name="CreEarliestDate"></atom>
+    <atom name="CreLatestDate"></atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">Morocco</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <atom name="PhyMediumAndSupport">Silk On Cotton</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">50 x 21 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Warp</atom>
+        <atom name="PhyHeight">50.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 128.2699981 cm warp --- Dimension Notes: w/o</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Weft</atom>
+        <atom name="PhyHeight">24.2500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 61.59499907 cm weft --- Dimension Notes: w/o</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">The Eliza M. and Sarah L. Niblack Collection</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">No Known Rights Holder</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">908-Textile and Fashion Arts</atom>
+    <atom name="LocMovementType">Inventory 2014-2015</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Tc16</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">54094</atom>
+        <atom name="irn">6451</atom>
+        <atom name="EleTitle">Dagwood ID for 33.271</atom>
+        <atom name="EleIdentifier">54094</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 3 -->
+  <tuple>
+    <atom name="irn">4549</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">13.308</atom>
+    <atom name="TitPreviousAccessionNo">No TR Number</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1913-06-30</atom>
+    <atom name="TitMainTitle">Roscoe's Yellow Throat</atom>
+    <atom name="TitSeriesTitle">Birds of America</atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Prints</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">prints</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">etchings</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1827-1838</atom>
+    <atom name="CreEarliestDate">1827</atom>
+    <atom name="CreLatestDate">1838</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Artist</atom>
+        <atom name="irn">614740</atom>
+        <atom name="SummaryData">Havell, Robert</atom>
+      </tuple>
+      <tuple>
+        <atom name="CreRole">Artist</atom>
+        <atom name="irn">616206</atom>
+        <atom name="SummaryData">Audubon, John James</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">United States | England</atom>
+      </tuple>
+    </table>
+    <table name="MarkType">
+      <tuple>
+        <atom name="CreMarkType">Watermark</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions">J WHATMAN</atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">ink</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMedium">pigment</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">paper</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">ink on paper, hand-colored etching</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique">etching</atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">19-1/4 x 12-1/8 in. (plate)
+27-1/8 x 21-1/2 in. (sheet)</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Plate Dimensions</atom>
+        <atom name="PhyHeight">19.2500</atom>
+        <atom name="PhyWidth">12.1250</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 48.9 x 30.8 (plate)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Sheet Dimensions</atom>
+        <atom name="PhyHeight">27.1250</atom>
+        <atom name="PhyWidth">21.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 68.9 x 54.6 (sheet)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">John Herron Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">904.1-Prints, Drawings, and Photographs</atom>
+    <atom name="LocMovementType">Storage Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Print Storage</atom>
+      <atom name="LocLevel3">F25</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">associated</atom>
+        <atom name="irn">4550</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">associated</atom>
+        <atom name="irn">4551</atom>
+      </tuple>
+    </table>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">57881</atom>
+        <atom name="irn">6771</atom>
+        <atom name="EleTitle">Dagwood ID for 13.308</atom>
+        <atom name="EleIdentifier">57881</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 4 -->
+  <tuple>
+    <atom name="irn">6347</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">77.319</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate"></atom>
+    <atom name="TitMainTitle">Buddha</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Sculpture</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">sculptures</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">figures</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1500s</atom>
+    <atom name="CreEarliestDate">1500</atom>
+    <atom name="CreLatestDate">1599</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty">Ming dynasty</atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationNationality2">Chinese</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">China</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">cast iron</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">cast iron</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">very large head of the Buddha in cast iron, with downcast eyes and meditative expression.  The hair is upswept in neat ridges and tied at the top of the head.  The cranial protuberance and extended earlobes are physical attributes that are typical of representations of the Buddha.  The surface of the head show seams of the mold in which it was originally cast.</atom>
+    <atom name="PhyConvertedDims">43 x 26 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">43.0000</atom>
+        <atom name="PhyWidth">26.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyWeight"></atom>
+        <atom name="PhyUnitWeight"></atom>
+        <atom name="PhyDimensionNotes">Metric: 109.2 x 66.0</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Weight</atom>
+        <atom name="PhyWeight">8800.0000</atom>
+        <atom name="PhyUnitWeight">oz.</atom>
+        <atom name="PhyDimensionNotes">estimated weight of 550 lbs. weight with base is 582 lbs. (10/27/03)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Mr. and Mrs. Charles B. Miller in memory of Donald G. Martinelli</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">Mr. and Mrs. Charles B. Miller; given to the Indianapolis Museum of Art in 1977.</atom>
+    <atom name="PhyCollectionArea">905.1-Asian Art (Chinese and other Asian)</atom>
+    <atom name="LocMovementType">Inventory 2014-2015</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">F5</atom>
+      <atom name="LocLevel3"></atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">31882</atom>
+        <atom name="irn">8564</atom>
+        <atom name="EleTitle">Dagwood ID for 77.319</atom>
+        <atom name="EleIdentifier">31882</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 5 -->
+  <tuple>
+    <atom name="irn">6375</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="TitAccessionNo">TR7099</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Loan Permanent Collection</atom>
+    <atom name="TitAccessionDate"></atom>
+    <atom name="TitMainTitle">fountain</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Sculpture</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">fountains</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">sculptures</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">about 1860</atom>
+    <atom name="CreEarliestDate">1855</atom>
+    <atom name="CreLatestDate">1865</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationNationality2">Italian</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">Italy</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">bronze</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">marble</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">bronze figurine, Cipollino marble bowl and support</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique">carving</atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">Functioning Cipollino marble fountain.  The upper bowl is carved with mermaid and dolphin motif with an octagonal pedestal base.  A finely modelled bronze standing fountain figure of "The Verrocchio Boy" holding a dolphin in his arms is situated at the top center of the upper bowl with right leg lifted to the side and bent at the knee slight to the back and the left support leg is on a domed base.  The lower bowl, pool-surround is of Sicilian marble exhibiting rounded edges.</atom>
+    <atom name="PhyConvertedDims">approximately 108 x 96 x 96 in.
+lower bowl: approximately 12 x 96 x 96 in.
+lower bowl water volume: approximately 20.25 (circumference) x W:2.1 x H:.75 ft. = 31.89 cubic feet 
+upper bowl water volume: approximately 8.5 (circumference) x W:.66 x H:.17 = .95 cubic feet</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">108.0000</atom>
+        <atom name="PhyWidth">96.0000</atom>
+        <atom name="PhyDepth">96.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">approximately</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Volume</atom>
+        <atom name="PhyDimensionNotes">approximately 246 gallons of water (upper bowl 7 gallons, lower bowl 249 gallons)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">The Clowes Fund, Inc.</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">By direction of Allen Whitehill Clowes, The Clowes Fund, Inc., Indianapolis, Indiana, purchased in 1990  from T. Crowther and Son Ltd. London, England; given to the Indianapolis Museum of Art in 1990.</atom>
+    <atom name="PhyCollectionArea">902.1-European Painting and Sculpture Before 1800</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Medieval Renaissance Gallery</atom>
+      <atom name="LocLevel3">C202</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">34007</atom>
+        <atom name="irn">8592</atom>
+        <atom name="EleTitle">Dagwood ID for TR7099</atom>
+        <atom name="EleIdentifier">34007</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 6 -->
+  <tuple>
+    <atom name="irn">8498</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">09.140</atom>
+    <atom name="TitPreviousAccessionNo">No TR Number</atom>
+    <atom name="TitObjectStatus">Deaccessioned</atom>
+    <atom name="TitAccessionDate">1909-01-25</atom>
+    <atom name="TitMainTitle">Black Friar's Bridge</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Prints</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">prints</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">engravings</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1795</atom>
+    <atom name="CreEarliestDate">1795</atom>
+    <atom name="CreLatestDate">1795</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Artist</atom>
+        <atom name="irn">1748</atom>
+        <atom name="SummaryData">Taylor, Charles</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">ink</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">paper</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">ink on paper, engraving</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique">engraving {printing process}</atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">5 (diam.) in.
+11-1/4 x 7-1/8 in. (mount)</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyWidth"></atom>
+        <atom name="PhyDiameter">5.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 12.7 (diam.)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Mount Dimensions</atom>
+        <atom name="PhyHeight">11.2500</atom>
+        <atom name="PhyWidth">7.1300</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 28.57 x 18.09 (mount)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Mrs. Anna J. Brownell and Miss Frances J. Brownell</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">904.1-Prints, Drawings, and Photographs</atom>
+    <atom name="LocMovementType">Other Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Disposed</atom>
+      <atom name="LocLevel3"></atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+  </tuple>
+
+  <!-- Row 7 -->
+  <tuple>
+    <atom name="irn">9460</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">08.46</atom>
+    <atom name="TitPreviousAccessionNo">No TR Number</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1908-09-21</atom>
+    <atom name="TitMainTitle">Allegorical Subject</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Prints</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">engravings</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">etchings</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">prints</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">17th century</atom>
+    <atom name="CreEarliestDate">1601</atom>
+    <atom name="CreLatestDate">1700</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Artist</atom>
+        <atom name="irn">608337</atom>
+        <atom name="SummaryData">Vignon, Claude</atom>
+      </tuple>
+      <tuple>
+        <atom name="CreRole">Engraver</atom>
+        <atom name="irn">630516</atom>
+        <atom name="SummaryData">Bosse, Abraham</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">France</atom>
+      </tuple>
+    </table>
+    <table name="MarkType">
+      <tuple>
+        <atom name="CreMarkType">Signature</atom>
+      </tuple>
+      <tuple>
+        <atom name="CreMarkType">Inscriptions</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions">Signed in plate: C. Vignonjn, A. Bosse sculp.
+Inscribed, verso: Benedette Castiglion</atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">ink</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">paper</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">ink on paper, engraving and etching</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique">engraving {printing process}</atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">10-1/4 x 7-1/8 in. (image)
+13 x 9-1/4 in. (mount)</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Image Dimensions</atom>
+        <atom name="PhyHeight">10.2500</atom>
+        <atom name="PhyWidth">7.1800</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 26.03 x 18.2 (image)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Mount Dimensions</atom>
+        <atom name="PhyHeight">13.0000</atom>
+        <atom name="PhyWidth">9.2500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 33.02 x 23.4 (mount)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">John Herron Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">904.1-Prints, Drawings, and Photographs</atom>
+    <atom name="LocMovementType">Inventory</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Print Storage</atom>
+      <atom name="LocLevel3">F25</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+  </tuple>
+
+  <!-- Row 8 -->
+  <tuple>
+    <atom name="irn">9481</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">13.50</atom>
+    <atom name="TitPreviousAccessionNo">No TR Number</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1913-01-02</atom>
+    <atom name="TitMainTitle">Descent of Amida (Raigo)</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Default</atom>
+    <atom name="CreDateCreated">1333-1568</atom>
+    <atom name="CreEarliestDate">1333</atom>
+    <atom name="CreLatestDate">1568</atom>
+    <atom name="CreCreationPeriod">Muromachi</atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="irn">2741</atom>
+        <atom name="SummaryData">Unknown</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">Japan</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">ink</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMedium">color</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">cloth</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">ink and color on cloth</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">buddha descending</atom>
+    <atom name="PhyConvertedDims">36-1/16 x 18-1/4 in. (image)
+66-1/8 x 25-1/2 in. (installed)</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">IMA Number Applied</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyWidth"></atom>
+        <atom name="PhyUnitLength"></atom>
+        <atom name="PhyDimensionNotes">Verso, top of the mount, left side</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Image Dimensions</atom>
+        <atom name="PhyHeight">36.6250</atom>
+        <atom name="PhyWidth">18.2500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 93 x 46.3 (image)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Mount Dimensions</atom>
+        <atom name="PhyHeight">65.0000</atom>
+        <atom name="PhyWidth">25.2500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">John Herron Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">905.2-Asian Art (Japanese and Korean)</atom>
+    <atom name="LocMovementType">Storage Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Eli Lilly and Company Foundation Room</atom>
+      <atom name="LocLevel3">K301</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+  </tuple>
+
+  <!-- Row 9 -->
+  <tuple>
+    <atom name="irn">11078</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">80.383</atom>
+    <atom name="TitPreviousAccessionNo">TR3798</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate"></atom>
+    <atom name="TitMainTitle">Two Figures</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Sculpture</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">sculptures</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1968</atom>
+    <atom name="CreEarliestDate">1968</atom>
+    <atom name="CreLatestDate">1968</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Artist</atom>
+        <atom name="irn">610139</atom>
+        <atom name="SummaryData">Hepworth, Barbara</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">England</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">paint</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">bronze</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">bronze</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <table name="Color">
+      <tuple>
+        <atom name="PhyColor">gray {color}</atom>
+      </tuple>
+    </table>
+    <atom name="PhyConvertedDims">100-3/4 x 57-3/4 x 36 in. (installed)</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Installed Dimensions</atom>
+        <atom name="PhyHeight">100.7500</atom>
+        <atom name="PhyWidth">57.7500</atom>
+        <atom name="PhyDepth">36.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyWeight"></atom>
+        <atom name="PhyUnitWeight"></atom>
+        <atom name="PhyDimensionNotes">Metric: 255.9 x 146.6 x 91.4 (installed)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Weight</atom>
+        <atom name="PhyWeight">1760.0000</atom>
+        <atom name="PhyUnitWeight">lbs.</atom>
+        <atom name="PhyDimensionNotes">Metric: 798.32 kilograms</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Henry F. and Katherine DeBoest Fund in memory of Henry F. DeBoest</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Bowness, Hepworth Estate</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">907-Contemporary</atom>
+    <atom name="LocMovementType">Storage Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">F5</atom>
+      <atom name="LocLevel3"></atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+  </tuple>
+
+  <!-- Row 10 -->
+  <tuple>
+    <atom name="irn">13798</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">38.4</atom>
+    <atom name="TitPreviousAccessionNo">TR3600/4</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1939-01-18</atom>
+    <atom name="TitMainTitle">Triptych with the Virgin and Child, St. Barbara, and St. Catherine</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Paintings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">paintings</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">oil paintings</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">about 1520</atom>
+    <atom name="CreEarliestDate">1510</atom>
+    <atom name="CreLatestDate">1530</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Artist</atom>
+        <atom name="irn">2741</atom>
+        <atom name="SummaryData">Unknown</atom>
+      </tuple>
+    </table>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationNationality2">Flemish</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">Flanders</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">oil paint</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">panels</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">oil on panel</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">36 x 23 in. (center panel) 
+36 x 10-1/4 in. (easch side panel)</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions A</atom>
+        <atom name="PhyHeight">36.0000</atom>
+        <atom name="PhyWidth">10.2500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 91.44 x 26.0350 (side panel)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions B</atom>
+        <atom name="PhyHeight">36.0000</atom>
+        <atom name="PhyWidth">23.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 91.44 x 58.42 (center panel)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions C</atom>
+        <atom name="PhyHeight">36.0000</atom>
+        <atom name="PhyWidth">10.2500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 91.44 x 26.0350 (side panel)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions Closed</atom>
+        <atom name="PhyHeight">40.0000</atom>
+        <atom name="PhyWidth">28.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 101.6 x 71.12 (closed)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Mrs. Albert J. Beveridge</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">Provenance research is on-going at the Indianapolis Museum of Art at Newfields. Please contact Annette Schlagenhauff, Curator of European Art, at aschlagenhauff@discovernewfields.org if you have questions, or if you have additional information to share with us.</atom>
+    <atom name="PhyCollectionArea">902.1-European Painting and Sculpture Before 1800</atom>
+    <atom name="LocMovementType">Inventory 2014-2015</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">P</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+  </tuple>
+
+  <!-- Row 11 -->
+  <tuple>
+    <atom name="irn">19705</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">25.316A-B</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1925-11-17</atom>
+    <atom name="TitMainTitle">dress (bodice, skirt)</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes">A) bodice B) skirt</atom>
+    <atom name="TitObjectType">Costume</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">costumes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dresses</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">bodices</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">skirts</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">about 1892</atom>
+    <atom name="CreEarliestDate">1888</atom>
+    <atom name="CreLatestDate">1892</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Dressmaker</atom>
+        <atom name="irn">11925</atom>
+        <atom name="SummaryData">Mme. De Latour</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">United States</atom>
+        <atom name="CreState">New York</atom>
+        <atom name="CreDistrict">New York County</atom>
+        <atom name="CreCity">New York</atom>
+      </tuple>
+    </table>
+    <table name="MarkType">
+      <tuple>
+        <atom name="CreMarkType">Label</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions">A) bodice: Label: Mme. De Latour. / ROBES / 574 Fifth Ave, New York.</atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">sequins</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMedium">beads</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMedium">pearl</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMedium">glass</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMedium">metal</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">silk {fabric}</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhySupport">silk velvet</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhySupport">chenille</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">silk taffeta, silk velvet, chenille silk, pearl, metal sequins, glass beads</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">a) bodice: tan silk moire taffeta basque trimmed with tan silk velvet. Blue satin yoke embroidered with colored floss, pearls, sequins and glass beads.
+b) skirt: seven gored skirt, tan silk. Velvet band and ruffle at the bottom.</atom>
+    <atom name="PhyConvertedDims">A) bodice: center back 17-3/4 in., center front 16 in., bust 30 in., waist 23 in., sleeve length 24-1/2 in., shoulders 12-1/4 in.
+B) skirt: center back 42-1/4 in., center front 39-3/4 in., waist 23 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Costume: Center Back A</atom>
+        <atom name="PhyHeight">17.7500</atom>
+        <atom name="PhyWidth"></atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">A) Metric: 45.1 (costume: center back)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Costume: Center Front A</atom>
+        <atom name="PhyHeight">16.0000</atom>
+        <atom name="PhyWidth"></atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">A) Metric: 40.6 (costume: center front)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Costume: Bust A</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyWidth">30.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">A) Metric: 76.2 (costume: bust)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Costume: Waist A</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyWidth">23.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">A) Metric: 58.4 (costume: waist)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Costume: Sleeve Length A</atom>
+        <atom name="PhyHeight">24.5000</atom>
+        <atom name="PhyWidth"></atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">A) Metric: 62.2 (costume: sleeve length)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Costume: Shoulders A</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyWidth">12.2500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">A) Metric: 31.1 (costume: shoulders)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Costume: Center Back B</atom>
+        <atom name="PhyHeight">42.2500</atom>
+        <atom name="PhyWidth"></atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">B) Metric: 107.3 (costume: center back)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Costume: Center Front B</atom>
+        <atom name="PhyHeight">39.7500</atom>
+        <atom name="PhyWidth"></atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">B) Metric: 101 (costume: center front)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Costume: Waist B</atom>
+        <atom name="PhyWidth">23.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">B) Metric: 58.4 (costume: waist)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Mrs. Arthur Boothby</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">Mrs. Arthur Boothby, Indianapolis; given to Indianapolis Museum of Art in 1925.</atom>
+    <atom name="PhyCollectionArea">908-Textile and Fashion Arts</atom>
+    <atom name="LocMovementType"></atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">see related parts</atom>
+      <atom name="LocLevel3"></atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">Yes</atom>
+    <table name="Children">
+      <tuple>
+        <atom name="irn">58503</atom>
+        <atom name="TitMainTitle">skirt for dress (bodice, skirt)</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">58502</atom>
+        <atom name="TitMainTitle">bodice for dress (bodice, skirt)</atom>
+      </tuple>
+    </table>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+  </tuple>
+
+  <!-- Row 12 -->
+  <tuple>
+    <atom name="irn">20419</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">75.174</atom>
+    <atom name="TitPreviousAccessionNo">TR8614</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate"></atom>
+    <atom name="TitMainTitle">Love</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Sculpture</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">sculptures</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1970</atom>
+    <atom name="CreEarliestDate">1970</atom>
+    <atom name="CreLatestDate">1970</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Artist</atom>
+        <atom name="irn">615130</atom>
+        <atom name="SummaryData">Indiana, Robert</atom>
+      </tuple>
+      <tuple>
+        <atom name="CreRole">Foundry</atom>
+        <atom name="irn">10433</atom>
+        <atom name="SummaryData">Lippincott, LLC</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">United States</atom>
+      </tuple>
+    </table>
+    <table name="MarkType">
+      <tuple>
+        <atom name="CreMarkType">Stamp</atom>
+      </tuple>
+      <tuple>
+        <atom name="CreMarkType">Signature</atom>
+      </tuple>
+      <tuple>
+        <atom name="CreMarkType">Date</atom>
+      </tuple>
+      <tuple>
+        <atom name="CreMarkType">Foundry Mark</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions">Stamped, lower proper right edge of the "E" along the full length: 1 [gapped]  [copyright symbol] R INDIANA  [in stencilled font] 1970  [HF symbol for Herbert Feuerlicht, Technical Supervisor of Triad Designs] [three stacked lines of smaller text] WORK EXECUTED BY  |  Lippincott  |  NORTH HAVEN CONN</atom>
+    <atom name="CreCreationNotes">06/23/2016 Per Alfred Lippincott, "...technical supervisor, Herbert Feuerlicht, of Triad Designs...this accounts for the large HF that is stamped into the metal just to the left of the Lippincott stamp..."</atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">steel</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">Cor-ten steel</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique">welding</atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">steel welded sculpture of the word "LOVE" with the "L" stacked on the "V" and the tilted "O" stacked on the "E".  Each component was fabricated from 3/16 inch thick sheets of Cor-ten steel.  The sheets were cut, welded together and then finished to create hollow, enclosed structures.   Each letter is 72 inches deep.  Components are secured together by a bolting system.  Specifically there are 2 sets of four bolts drilled along the one set and located along the proper left serif of "V" connecting to the upper proper right serif of "E".  The other is located at the proper left serif of "L" connecting to the proper right middle of "O".   Access panels enable entry for the bolts to be put in place.  Once access panel exists along the entire upper surface of the proper left "L" serif; there are two others atop the proper right side of the "E".  Central pivot points align the "O" over the "E".  Two points about 2-3 inches in height are permanently attached to the "E".</atom>
+    <atom name="PhyConvertedDims">144 x 144 x 72 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">144.0000</atom>
+        <atom name="PhyWidth">144.0000</atom>
+        <atom name="PhyDepth">72.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyWeight"></atom>
+        <atom name="PhyUnitWeight"></atom>
+        <atom name="PhyDimensionNotes">Metric: 365.8 x 365.8 x 182.9 cm.</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Weight</atom>
+        <atom name="PhyWeight">9200.0000</atom>
+        <atom name="PhyUnitWeight">lbs.</atom>
+        <atom name="PhyDimensionNotes">total weight</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Weight</atom>
+        <atom name="PhyWeight">4100.0000</atom>
+        <atom name="PhyUnitWeight">lbs.</atom>
+        <atom name="PhyDimensionNotes">weight of LV</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Weight</atom>
+        <atom name="PhyWeight">2300.0000</atom>
+        <atom name="PhyUnitWeight">lbs.</atom>
+        <atom name="PhyDimensionNotes">weight of O</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Weight</atom>
+        <atom name="PhyWeight">2800.0000</atom>
+        <atom name="PhyUnitWeight">lbs.</atom>
+        <atom name="PhyDimensionNotes">weight of E</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of the Friends of the Indianapolis Museum of Art in memory of Henry F. DeBoest.  Restoration was made possible by Patricia J. and James E. LaCrosse.</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Morgan Art Foundation/Artists Rights Society (ARS), New York</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">(Robert Indiana, New York, New York); Purchased by the Indianapolis Museum of Art, Indinianapolis, Indiana, in 1975.</atom>
+    <atom name="PhyCollectionArea">907-Contemporary</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Pulliam Family Great Hall</atom>
+      <atom name="LocLevel3">W202</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">p. 35/reproduction is in color</atom>
+        <atom name="irn">2200</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 13 -->
+  <tuple>
+    <atom name="irn">20978</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">19.116</atom>
+    <atom name="TitPreviousAccessionNo">No TR Number</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1919-09-01</atom>
+    <atom name="TitMainTitle">pipe bag with geometric design</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Costume Accessories</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">containers</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">bags</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">pouches</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">smoking accoutrements</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1880-1910</atom>
+    <atom name="CreEarliestDate">1880</atom>
+    <atom name="CreLatestDate">1910</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreatorAttribution">possibly</atom>
+        <atom name="CreCreationCultureOrPeople">Arapaho people</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">United States</atom>
+        <atom name="CreState">Wyoming</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes">Creator = possibly Arapaho people, central Plains</atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">beads</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMedium">glass</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">leather</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">leather, glass beads</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique">appliqué beading</atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">colored beads in geometric pattern (appliqué beadwork lane stitch)</atom>
+    <atom name="PhyConvertedDims">27 x 7 x 1 in. (without fringe)
+27 x 11-1/2 x 3-1/2 in. (with fringe)</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">27.0000</atom>
+        <atom name="PhyWidth">7.0000</atom>
+        <atom name="PhyDepth">1.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 68.5 x 17.8 x 2.6 (without fringe)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions Opened</atom>
+        <atom name="PhyHeight">27.0000</atom>
+        <atom name="PhyWidth">11.5000</atom>
+        <atom name="PhyDepth">3.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 68.5 x 29.2 x 8.9 (with fringe)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Mrs. William C. Bobbs</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">Mrs. William C. (Ruth Pratt) Bobbs [1984-1973], Indianapolis, Indiana;{1} given to the John Herron Art Institute, now the Indianapolis Museum of Art at Newfields, in 1919.
+
+{1} Ruth Pratt Bobbs was a well-known Indiana-based artist.</atom>
+    <atom name="PhyCollectionArea">908-Textile and Fashion Arts</atom>
+    <atom name="LocMovementType">Inventory 2014-2015</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Ec43</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">55527</atom>
+        <atom name="irn">23119</atom>
+        <atom name="EleTitle">Dagwood ID for 19.116</atom>
+        <atom name="EleIdentifier">55527</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 14 -->
+  <tuple>
+    <atom name="irn">21214</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">34.21</atom>
+    <atom name="TitPreviousAccessionNo">TR3110/1</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1934-10-16</atom>
+    <atom name="TitMainTitle">wallpaper</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Furnishings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">decorative arts</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">wallpapers</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">samples</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">about 1883</atom>
+    <atom name="CreEarliestDate">1880</atom>
+    <atom name="CreLatestDate">1892</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Manufacturer, probably</atom>
+        <atom name="CreCreatorAfterFollower">Probably</atom>
+        <atom name="irn">11699</atom>
+        <atom name="SummaryData">The Manhattan Wall Paper Company</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">United States</atom>
+        <atom name="CreState">New York</atom>
+      </tuple>
+    </table>
+    <table name="MarkType">
+      <tuple>
+        <atom name="CreMarkType">Inscriptions</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions">Inscribed in margin, repeat: THE M.W.P. Co. PAT [illegible character] JAN. 23, 1883.</atom>
+    <atom name="CreCreationNotes">DATE CREATED: 1883 is based on current reading of the patent date; however, we do not know if the wallpaper was created immediately after the patent was approved, before, or after; the date has also been read as "1881"; so the visible date should read "about 1883" but the Earliest/Latest reflect the manufacturer's active dates.</atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">ink</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMedium">tinsel</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMedium">velvet</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">paper</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">ink on paper</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique">printing</atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">Branches of leaves and flowers in tinsel and velvet effect on simulated ground. Reds and gold.</atom>
+    <atom name="PhyConvertedDims">90 x 19-3/4 in. (sheet)
+3 x 19-3/4 x 3 in. (rolled)</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">IMA Number Applied</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyWidth"></atom>
+        <atom name="PhyDepth"></atom>
+        <atom name="PhyUnitLength"></atom>
+        <atom name="PhyDimensionNotes">back outer edge</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Rolled Dimensions</atom>
+        <atom name="PhyHeight">3.0000</atom>
+        <atom name="PhyWidth">19.7500</atom>
+        <atom name="PhyDepth">3.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 7.6 x 50.16 x 7.6 (rolled)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Sheet Dimensions</atom>
+        <atom name="PhyHeight">90.0000</atom>
+        <atom name="PhyWidth">19.7500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 228.59 x 50.16 (sheet)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Mrs. John J. Barnhill</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">903.1-Decorative Arts</atom>
+    <atom name="LocMovementType">Inventory 2014-2015</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Dc18</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+  </tuple>
+
+  <!-- Row 15 -->
+  <tuple>
+    <atom name="irn">24101</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">12.14</atom>
+    <atom name="TitPreviousAccessionNo">No TR Number</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1912-01-31</atom>
+    <atom name="TitMainTitle">Design for the Doane Memorial Window</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Paintings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">paintings</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">watercolors</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">drawings</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1902</atom>
+    <atom name="CreEarliestDate">1902</atom>
+    <atom name="CreLatestDate">1902</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Artist</atom>
+        <atom name="irn">622432</atom>
+        <atom name="SummaryData">La Farge, John</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">United States</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">watercolor</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMedium">graphite</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">paper</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">pencil and watercolor on off-white paper</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique">painting</atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">16-1/2 x 11-1/4 in. (sight)
+24 x 18-1/4 x 1-1/2 in. (framed)</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Framed Dimensions</atom>
+        <atom name="PhyHeight">24.0000</atom>
+        <atom name="PhyWidth">18.1250</atom>
+        <atom name="PhyDepth">1.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 60.96 x 46.04 x 3.81</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Sight Dimensions</atom>
+        <atom name="PhyHeight">16.5000</atom>
+        <atom name="PhyWidth">11.2500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 41.91 x 28.57</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">John Herron Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">904.1-Prints, Drawings, and Photographs</atom>
+    <atom name="LocMovementType">Inventory</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Print Storage</atom>
+      <atom name="LocLevel3">F25</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+  </tuple>
+
+  <!-- Row 16 -->
+  <tuple>
+    <atom name="irn">24909</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">00.1</atom>
+    <atom name="TitPreviousAccessionNo">No TR Number</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1900</atom>
+    <atom name="TitMainTitle">La lecture (The Reading Lesson)</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Paintings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">paintings</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">oil paintings</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">about 1892</atom>
+    <atom name="CreEarliestDate">1891</atom>
+    <atom name="CreLatestDate">1893</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Artist</atom>
+        <atom name="irn">6976</atom>
+        <atom name="SummaryData">Scott, Frank Edwin</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">United States</atom>
+      </tuple>
+    </table>
+    <table name="MarkType">
+      <tuple>
+        <atom name="CreMarkType">Signature</atom>
+      </tuple>
+      <tuple>
+        <atom name="CreMarkType">Label</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions">Signed, lower left: FRANK EDWIN SCOTT
+Label with handwritten remarks, verso, center horizontal stretcher bar: à coller sur le dos d'vre. / GRANDE EXPOSITION DES BEAUX ARTS À BERLIN 1895 / Nom et prenoms de l'artiste: Scott_ Frank Edwin / Domieile: Grue Boissonade, Paris, France / Proprietaire: Frank Edwin Scott. / Sujet et genre: / "La Lecture".  
+Label, center vertical stretcher bar: Gross [torn/illegible], Ausstellung / 3074 / Gemälde.
+Label, center vertical stretcher bar: Envoi de / Frank Edwin Scott / Grue Boissonade / Paris, France</atom>
+    <atom name="CreCreationNotes">Painting was exhibited at the Paris Salon and in Berlin in 1893.</atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">oil paint</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">canvas</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">oil on canvas</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique">painting</atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">50-5/8 x 64 in. (canvas)
+57-1/8 x 70-5/8 x 3-5/8 in. (framed)</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Framed Dimensions</atom>
+        <atom name="PhyHeight">57.1250</atom>
+        <atom name="PhyWidth">70.6250</atom>
+        <atom name="PhyDepth">3.6250</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 145.1 x 179.4 x 9.2 (framed)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Unframed Dimensions</atom>
+        <atom name="PhyHeight">50.6250</atom>
+        <atom name="PhyWidth">64.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 128.5 x 162.5 (canvas)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Purchased by Subscription</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">901.2-American Painting and Sculpture 1800-1945</atom>
+    <atom name="LocMovementType">Storage Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">P</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">55857</atom>
+        <atom name="irn">27038</atom>
+        <atom name="EleTitle">Dagwood ID for 00.1</atom>
+        <atom name="EleIdentifier">55857</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 17 -->
+  <tuple>
+    <atom name="irn">25147</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">08.57</atom>
+    <atom name="TitPreviousAccessionNo">No TR Number</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1908-09-21</atom>
+    <atom name="TitMainTitle">Woman with Mandolin</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Prints</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">prints</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">engravings</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">17th century</atom>
+    <atom name="CreEarliestDate">1601</atom>
+    <atom name="CreLatestDate">1700</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Artist</atom>
+        <atom name="irn">1505</atom>
+        <atom name="SummaryData">Lasne, Michel</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">France</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">ink</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">paper</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">ink on paper, engraving</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique">engraving {printing process}</atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">4-3/4 x 6-5/8 in. (sheet)
+11-3/8 x 7-7/8 in. (mount)</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Mount Dimensions</atom>
+        <atom name="PhyHeight">11.3800</atom>
+        <atom name="PhyWidth">7.8800</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 28.9 x 20.01 (mount)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Sheet Dimensions</atom>
+        <atom name="PhyHeight">4.7500</atom>
+        <atom name="PhyWidth">6.6200</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 12.06 x 16.8 (sheet)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">John Herron Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">904.1-Prints, Drawings, and Photographs</atom>
+    <atom name="LocMovementType">Inventory</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Print Storage</atom>
+      <atom name="LocLevel3">F25</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+  </tuple>
+
+  <!-- Row 18 -->
+  <tuple>
+    <atom name="irn">25319</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">12.48A-B</atom>
+    <atom name="TitPreviousAccessionNo">No TR Number</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1912-10-15</atom>
+    <atom name="TitMainTitle">jar with lid</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes">A) jar B) lid</atom>
+    <atom name="TitObjectType">Containers</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">pottery</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">containers</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">jars</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">lids</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1870-1900</atom>
+    <atom name="CreEarliestDate">1870</atom>
+    <atom name="CreLatestDate">1900</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreatorAttribution">possibly</atom>
+        <atom name="CreCreationCultureOrPeople">San Ildefonso people</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">United States</atom>
+        <atom name="CreState">New Mexico</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">slip</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMedium">paint</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">earthenware</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">slipped and painted earthenware</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique">slipping</atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">slipped and painted earthenware, black on red, abstract and representational designs (birds)</atom>
+    <atom name="PhyConvertedDims">12-3/4 x 10 x 9-1/4 in. (installed)
+A) jar: 10-1/2 x 10 x 9-1/4 in.
+B) lid: 2-1/2 x 4-5/8 x 4-5/8 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions A</atom>
+        <atom name="PhyHeight">10.5000</atom>
+        <atom name="PhyWidth">10.0000</atom>
+        <atom name="PhyDepth">9.2500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">A) Metric: 26.6 x 25.4 x 23.5 (jar)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions B</atom>
+        <atom name="PhyHeight">2.5000</atom>
+        <atom name="PhyWidth">4.6250</atom>
+        <atom name="PhyDepth">4.6250</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">B) Metric: 6.4 x 11.3 x 11.3 (lid)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Installed Dimensions</atom>
+        <atom name="PhyHeight">12.7500</atom>
+        <atom name="PhyWidth">10.0000</atom>
+        <atom name="PhyDepth">9.2500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 32.4 x 25.4 x 23.5 (installed)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Mrs. May Wright Sewall</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">No Known Rights Holder</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">Mrs. May Wright Sewall [1844-1920], Indianapolis, Indiana; given to the John Herron Art Institute, now the Indianapolis Museum of Art at Newfields, in 1912.</atom>
+    <atom name="PhyCollectionArea">906.2-Native Arts of the Americas</atom>
+    <atom name="LocMovementType">Inventory</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">see related parts</atom>
+      <atom name="LocLevel3"></atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">Yes</atom>
+    <table name="Children">
+      <tuple>
+        <atom name="irn">86933</atom>
+        <atom name="TitMainTitle">jar</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">86934</atom>
+        <atom name="TitMainTitle">lid for jar</atom>
+      </tuple>
+    </table>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+  </tuple>
+
+  <!-- Row 19 -->
+  <tuple>
+    <atom name="irn">29183</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">40.32A-B</atom>
+    <atom name="TitPreviousAccessionNo">TR3946/14</atom>
+    <atom name="TitObjectStatus">Deaccessioned</atom>
+    <atom name="TitAccessionDate">1940-06-18</atom>
+    <atom name="TitMainTitle">vase</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes">A) vase B) lid</atom>
+    <atom name="TitObjectType">Containers</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">vases</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">19th century</atom>
+    <atom name="CreEarliestDate"></atom>
+    <atom name="CreLatestDate"></atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationNationality2">Chinese</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">glaze</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">porcelain</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">multicolored glaze on porcelain</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">22-3/4 x 9 in. (without lid)
+28-1/2 x 9 in. (with lid)</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">22.7500</atom>
+        <atom name="PhyWidth">9.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 57.78 x 22.86 (without lid)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Overall Dimensions</atom>
+        <atom name="PhyHeight">28.5000</atom>
+        <atom name="PhyWidth">9.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 72.39 x 22.86 (with lid)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift in memory of Mr. and Mrs. George F. Adams</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">No Known Rights Holder</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">Frank N. Lewis; given to the John Herron Art Institute, Indianapolis, Indiana now the Indianapolis Museum of Art in 1940.</atom>
+    <atom name="PhyCollectionArea">905.1-Asian Art (Chinese and other Asian)</atom>
+    <atom name="LocMovementType">Other Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Disposed</atom>
+      <atom name="LocLevel3"></atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+  </tuple>
+
+  <!-- Row 20 -->
+  <tuple>
+    <atom name="irn">32159</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="TitAccessionNo">15.300</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate"></atom>
+    <atom name="TitMainTitle">Towel "havlu" or "kusak"</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Default</atom>
+    <atom name="CreDateCreated">19th century</atom>
+    <atom name="CreEarliestDate"></atom>
+    <atom name="CreLatestDate"></atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">Turkey</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">cotton</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">cotton</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique">embroidering</atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">Embroidery at narrow ends only. Close curving flower sprigs of stylized design and U shaped framed border filled with flowers. Narrow edges and small part of long edges rolled, overcast and crocheted.</atom>
+    <table name="Color">
+      <tuple>
+        <atom name="PhyColor">Silver | Gold</atom>
+      </tuple>
+    </table>
+    <atom name="PhyConvertedDims">22 x 17 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">47.0000</atom>
+        <atom name="PhyWidth">17.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 119.38</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Loom Width</atom>
+        <atom name="PhyWidth">22.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 55.88 (loom width)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">John Herron Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">908-Textile and Fashion Arts</atom>
+    <atom name="LocMovementType">Inventory 2014-2015</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Tc17</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+  </tuple>
+
+  <!-- Row 21 -->
+  <tuple>
+    <atom name="irn">49344</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">14.194</atom>
+    <atom name="TitPreviousAccessionNo">1885.14</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1914-06-01</atom>
+    <atom name="TitMainTitle">vessel</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Containers</atom>
+    <atom name="CreDateCreated"></atom>
+    <atom name="CreEarliestDate"></atom>
+    <atom name="CreLatestDate"></atom>
+    <atom name="CreCreationPeriod">prehistoric</atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationNationality2">South American</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">South America</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <atom name="PhyMediumAndSupport"></atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique">pottery</atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">24" cir.; 10" high, 1" diam. at opening</atom>
+    <atom name="PhyConvertedDims">10 x 1 (diam.) in.
+24 (circumference) in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Circumference</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyDiameter">24.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 60.96 (circumference)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">10.0000</atom>
+        <atom name="PhyDiameter">1.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 25.4 x 2.54 (diam.)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Hugh McKennan Landon</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">No Known Rights Holder</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">906.2-Native Arts of the Americas</atom>
+    <atom name="LocMovementType">Inventory</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Location Not Verified</atom>
+      <atom name="LocLevel3"></atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+  </tuple>
+
+  <!-- Row 22 -->
+  <tuple>
+    <atom name="irn">49619</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">30.88</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate"></atom>
+    <atom name="TitMainTitle">Untitled</atom>
+    <atom name="TitSeriesTitle">Empire Builders</atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Drawings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">drawings</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1907</atom>
+    <atom name="CreEarliestDate">1907</atom>
+    <atom name="CreLatestDate">1907</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Artist</atom>
+        <atom name="irn">615600</atom>
+        <atom name="SummaryData">Hambidge, Jay</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">United States</atom>
+      </tuple>
+    </table>
+    <table name="MarkType">
+      <tuple>
+        <atom name="CreMarkType">Signature</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions">signed in pencil, L.L.: JAY HAMBRIDGE</atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">paper</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">pencil on off-white paper</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique">drawing</atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">15 x 10-3/4 in. (sheet)
+13-3/4 in. (plate)
+17 in. (mount)</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Mount Dimensions</atom>
+        <atom name="PhyHeight">17.0000</atom>
+        <atom name="PhyWidth"></atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 43.18 (mount)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Plate Dimensions</atom>
+        <atom name="PhyHeight">13.7500</atom>
+        <atom name="PhyWidth"></atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 34.92 (plate)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Sheet Dimensions</atom>
+        <atom name="PhyHeight">15.0000</atom>
+        <atom name="PhyWidth">10.7500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric:38.10x27.30(sheet)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Sarah F. Banning Fund</atom>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">904.1-Prints, Drawings, and Photographs</atom>
+    <atom name="LocMovementType">Inventory</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Print Storage</atom>
+      <atom name="LocLevel3">F25</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+  </tuple>
+
+  <!-- Row 23 -->
+  <tuple>
+    <atom name="irn">50233</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">17.64</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1917-05-03</atom>
+    <atom name="TitMainTitle">dress</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Costume</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">costumes</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">dresses</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">about 1830</atom>
+    <atom name="CreEarliestDate">1825</atom>
+    <atom name="CreLatestDate">1880</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Artist</atom>
+        <atom name="irn">2741</atom>
+        <atom name="SummaryData">Unknown</atom>
+      </tuple>
+    </table>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationNationality2">American</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">United States</atom>
+        <atom name="CreState">Indiana</atom>
+        <atom name="CreDistrict">Marion County</atom>
+        <atom name="CreCity">Indianapolis</atom>
+      </tuple>
+    </table>
+    <table name="MarkType">
+      <tuple>
+        <atom name="CreMarkType">No Mark Found</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes">Although the date is "about 1830," keep "Latest" date as "1880" due to confusions over the original maker and when the dress was made. "about 1830" is the date approved by Textile and Fashion Arts Curator Niloo Paydar in April 2016 based on stylistic qualities of the dress. See Rebecca McNamara's notes in the historical file for more information.</atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">cotton {fabric}</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">cotton</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">center back 45 in., center front 44 in., bust 29 in., waist 23 in., hips 30 in., sleeve length 8-1/2 in., shoulders 13-1/2 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">IMA Number Applied</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyWidth"></atom>
+        <atom name="PhyUnitLength"></atom>
+        <atom name="PhyDimensionNotes">neck</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Costume: Bust</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyWidth">29.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 73.7 (costume: bust)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Costume: Center Back</atom>
+        <atom name="PhyHeight">45.0000</atom>
+        <atom name="PhyWidth"></atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 114.3 (costume: center back)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Costume: Center Front</atom>
+        <atom name="PhyHeight">44.0000</atom>
+        <atom name="PhyWidth"></atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 111.8 (costume: center front)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Costume: Hips</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyWidth">30.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 76.2 (costume: hips)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Costume: Shoulders</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyWidth">13.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 34.3 (costume: shoulders)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Costume: Sleeve Length</atom>
+        <atom name="PhyHeight">8.5000</atom>
+        <atom name="PhyWidth"></atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 21.6 (costume: sleeve length)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Costume: Waist</atom>
+        <atom name="PhyWidth">23.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 58.4 (costume: waist)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Mrs. Lydia E. Eves</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">Mrs. Mary Kendall, Indianapolis, Indiana, in 1863. Mrs. Lydia E. Eves, Indianapolis, Indiana; given to the John Herron Art Institute, now the Indianapolis Museum of Art at Newfields, in 1917.</atom>
+    <atom name="PhyCollectionArea">908-Textile and Fashion Arts</atom>
+    <atom name="LocMovementType">Inventory 2014-2015</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Tc29</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+  </tuple>
+
+  <!-- Row 24 -->
+  <tuple>
+    <atom name="irn">54967</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="TitAccessionNo">2000.149</atom>
+    <atom name="TitPreviousAccessionNo">TR9970/10</atom>
+    <atom name="TitObjectStatus">Partial Accession</atom>
+    <atom name="TitAccessionDate"></atom>
+    <atom name="TitMainTitle">Puis l'ange prit l'encensoir</atom>
+    <atom name="TitSeriesTitle">Apocalypse de Saint-Jean</atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Prints</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">prints</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">lithographs</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">late 19th century</atom>
+    <atom name="CreEarliestDate">1899</atom>
+    <atom name="CreLatestDate">1899</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Artist</atom>
+        <atom name="irn">607111</atom>
+        <atom name="SummaryData">Redon, Odilon</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">France</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">ink</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">paper</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">ink on chine appliqué paper, lithograph</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique">lithography</atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">12-1/4 x 8-1/2 in. (image and sheet)</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Image and Sheet Dimensions</atom>
+        <atom name="PhyHeight">12.2500</atom>
+        <atom name="PhyWidth">8.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 31.1 x 21.6 (image and sheet)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Partial and Promised Gift of Professor Joseph Bloch</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">904.1-Prints, Drawings, and Photographs</atom>
+    <atom name="LocMovementType">Storage Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Print Storage</atom>
+      <atom name="LocLevel3">F25</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+  </tuple>
+
+  <!-- Row 25 -->
+  <tuple>
+    <atom name="irn">64975</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">2008.196</atom>
+    <atom name="TitPreviousAccessionNo">TR10611/3</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2008-06-17</atom>
+    <atom name="TitMainTitle">dress</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Costume</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">dresses</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1960</atom>
+    <atom name="CreEarliestDate">1960</atom>
+    <atom name="CreLatestDate">1969</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">621040</atom>
+        <atom name="SummaryData">Gernreich, Rudi</atom>
+      </tuple>
+    </table>
+    <table name="MarkType">
+      <tuple>
+        <atom name="CreMarkType">Label</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions">Label: Rudi Gernreich for Harmon Knitwear</atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">wool</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">wool</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">wool</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">Red wool knit dress trimmed with purple knit wool binding.
+ It has a deep fitted bust with deep décolletage and semi-full long skirt.</atom>
+    <atom name="PhyConvertedDims">L: 47-1/2 in. (back)
+L: 45-1/4 in. (front)
+W: 11-11/16 in. (shoulders)</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Length Back</atom>
+        <atom name="PhyHeight">47.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 120.65 cm. (back)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Length Front</atom>
+        <atom name="PhyHeight">45.2500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 114.94 cm. (front)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Costume: Shoulders</atom>
+        <atom name="PhyHeight">11.6875</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 29.69 cm. (shoulders)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Lucille Stewart Endowed Art Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Rudi Gernreich</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">(Beverley Birks), New York, New York; acquired by the Indianapolis Museum of Art May 2008.</atom>
+    <atom name="PhyCollectionArea">908-Textile and Fashion Arts</atom>
+    <atom name="LocMovementType">Inventory</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Tc27</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+  </tuple>
+
+  <!-- Row 26 -->
+  <tuple>
+    <atom name="irn">66487</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="TitAccessionNo">2008.263B</atom>
+    <atom name="TitPreviousAccessionNo">TR10642/2B</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2008-09-18</atom>
+    <atom name="TitMainTitle">skirt</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Costume</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">skirts</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1970s</atom>
+    <atom name="CreEarliestDate">1970</atom>
+    <atom name="CreLatestDate">1979</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">10681</atom>
+        <atom name="SummaryData">Courrèges, André</atom>
+      </tuple>
+    </table>
+    <table name="MarkType">
+      <tuple>
+        <atom name="CreMarkType">label</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions">Courreges/Paris/Made in France/B
+(skirt only)</atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">wool</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMedium">polyester</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">wool</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhySupport">acrylic</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhySupport">rayon</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">polyester and wool with rayon lining</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">bright orange fitted mock turtleneck sweater with long sleeves, embroidered Courreges logo center front chest; skirt: bias cut A-line of bright orange 2/2 twill woolen fabric, Courreges applique applied by stitching center front waist</atom>
+    <atom name="PhyConvertedDims">L28-1/4 in. (with waistband)
+L27 in. (withou waistband)
+waist: 28-1/4 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Length</atom>
+        <atom name="PhyHeight">28.2500</atom>
+        <atom name="PhyDiameter"></atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 71.8</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Length</atom>
+        <atom name="PhyHeight">27.0000</atom>
+        <atom name="PhyDiameter"></atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 68.6</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Circumference</atom>
+        <atom name="PhyDiameter">28.2500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 71.6 (waist)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Lucille Stewart Endowed Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© André Courrèges Patrimoine</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">New York; (Leslie Hindman Auctioneers, Chicago, Illinois), 09 March 2008, lot 127; purchased by the Indianapolis Museum of Art in 2008.</atom>
+    <atom name="PhyCollectionArea">908-Textile and Fashion Arts</atom>
+    <atom name="LocMovementType">Inventory 2014-2015</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Location Not Verified</atom>
+      <atom name="LocLevel3"></atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">65397</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">blanket record</atom>
+        <atom name="irn">65397</atom>
+      </tuple>
+      <tuple>
+        <atom name="AssRelationship">ensemble</atom>
+        <atom name="irn">66486</atom>
+      </tuple>
+    </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+  </tuple>
+
+  <!-- Row 27 -->
+  <tuple>
+    <atom name="irn">67600</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">2009.587</atom>
+    <atom name="TitPreviousAccessionNo">TR10971</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2009-12-17</atom>
+    <atom name="TitMainTitle">Waves and Pine</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Paintings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">scroll paintings</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1938</atom>
+    <atom name="CreEarliestDate">1938</atom>
+    <atom name="CreLatestDate">1938</atom>
+    <atom name="CreCreationPeriod">Showa</atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Artist</atom>
+        <atom name="irn">1624</atom>
+        <atom name="SummaryData">Sakaguchi Isso</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">Japan</atom>
+      </tuple>
+    </table>
+    <table name="MarkType">
+      <tuple>
+        <atom name="CreMarkType">Signature</atom>
+      </tuple>
+      <tuple>
+        <atom name="CreMarkType">Seal</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions">Signed: Iss^o
+Square relief seal, reads: Iss^o</atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">ink</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMedium">color</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">silk</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">ink and colors on silk</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">vertical hanging scroll</atom>
+    <atom name="PhyConvertedDims">67-3/4 x 39-3/8 in. (image)
+115-1/2 x 46-1/4 in. (overall)
+hanging height: 117-3/4 in.
+roller width: 49-1/4 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Hanging Height</atom>
+        <atom name="PhyHeight">117.7500</atom>
+        <atom name="PhyWidth"></atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 299.1 (hanging height)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Image Dimensions</atom>
+        <atom name="PhyHeight">67.7500</atom>
+        <atom name="PhyWidth">39.3750</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 172.1 x 100.0 (image)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Overall Dimensions</atom>
+        <atom name="PhyHeight">115.5000</atom>
+        <atom name="PhyWidth">46.2500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 293.4 x 117.5 (overall)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of the Asian Art Society of the Indianapolis Museum of Art</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Sakaguchi Isso</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">(Tessaido Company, Kyoto, Japan); purchased by Asian Art Society, Indianapolis, Indiana, in 2009; given to the Indianapolis Museum of Art in 2009 (TR10971).</atom>
+    <atom name="PhyCollectionArea">905.2-Asian Art (Japanese and Korean)</atom>
+    <atom name="LocMovementType">Storage Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Eli Lilly and Company Foundation Room</atom>
+      <atom name="LocLevel3">K301</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+  </tuple>
+
+  <!-- Row 28 -->
+  <tuple>
+    <atom name="irn">70939</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">2011.141</atom>
+    <atom name="TitPreviousAccessionNo">TR11137/1</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2011-09-15</atom>
+    <atom name="TitMainTitle">Chikau [I Vow], 12.6-6</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Paintings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">paintings</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">December 6, 1993</atom>
+    <atom name="CreEarliestDate">1993</atom>
+    <atom name="CreLatestDate">1993</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Artist</atom>
+        <atom name="irn">2409</atom>
+        <atom name="SummaryData">Tawara Yūsaku</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">Japan</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">ink</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">paper</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">ink on paper</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">10-5/8 x 8-5/8 in. (image)
+19-3/8 x 13-1/8 in. (sheet)
+15-3/4 x 10-5/8 in. (backing)
+23 x 17 x 1-1/2 in. (framed)</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Backing Dimensions</atom>
+        <atom name="PhyHeight">15.7500</atom>
+        <atom name="PhyWidth">10.6250</atom>
+        <atom name="PhyDepth"></atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 40.0 x 27.0</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Framed Dimensions</atom>
+        <atom name="PhyHeight">23.0000</atom>
+        <atom name="PhyWidth">17.0000</atom>
+        <atom name="PhyDepth">1.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 58.4 x 43.2 x 3.8</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Image Dimensions</atom>
+        <atom name="PhyHeight">10.6250</atom>
+        <atom name="PhyWidth">8.6250</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 27.0 x 21.9</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Sheet Dimensions</atom>
+        <atom name="PhyHeight">19.3750</atom>
+        <atom name="PhyWidth">13.1250</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 49.2 x 33.3</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Martha Delzell Memorial Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Tawara Y^usaku</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">By descent to the artist's widow, Mrs. Kayoko Okada, Tokyo, Japan; purchased by the Indianapolis Museum of Art in 2011 (TR11137/1).</atom>
+    <atom name="PhyCollectionArea">905.2-Asian Art (Japanese and Korean)</atom>
+    <atom name="LocMovementType">Storage Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Print Storage</atom>
+      <atom name="LocLevel3">F25</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">p. 51 (reproduction is in color)</atom>
+        <atom name="irn">2185</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 29 -->
+  <tuple>
+    <atom name="irn">79530</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="TitAccessionNo">15.194</atom>
+    <atom name="TitPreviousAccessionNo">U2068</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1915-05-25</atom>
+    <atom name="TitMainTitle">sandstone jali</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <table name="AltTitles">
+      <tuple>
+        <atom name="TitAlternateTitles">sandstone jali b</atom>
+      </tuple>
+    </table>
+    <atom name="TitTitleNotes">See Registrar Notes field.
+Curator's working title, not for distribution: sandstone jali (b), carved wall element of 15.70-15.204 (one of four)</atom>
+    <atom name="TitObjectType">Furnishings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">installations</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">screens</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1881</atom>
+    <atom name="CreEarliestDate">1881</atom>
+    <atom name="CreLatestDate">1881</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">618026</atom>
+        <atom name="SummaryData">de Forest, Lockwood</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">India</atom>
+        <atom name="CreState">Uttar Pradesh</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes">Commissioned in Agra by Lockwood de Forest for Tiffany and de Forest</atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">sandstone</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">sikri sandstone</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">Sandstone Pierced Screen:  This screen consists of carvings from India collected by Mr. Lockwood de Forest and assembled to suggest a palace façade of that country.  In Bombay, Ahmedabad, and other Indian cities, are old houses in great number, with elaborate and beautiful carved fronts.  Almost the entire upper part of this screen is from such a house front in Ahmedabad.  Carvers in India are all of the Mistre or carpenter cast, and all, even the lowest of them in remote villages, seem born with a remarkable instinct for this art.  The children begin to learn the trade at three years old.  Boys of eight to twelve years carve nearly as well as the men.  The details of the carvings evolve as the carver works.  Only a few leading lines are sketched on the wood before the cutting begins.  Parts of this collection are ancient originals, others are accurate copies made by Indian workmen.  Some stone panels, pierced brasses and inlays are also included.</atom>
+    <atom name="PhyConvertedDims">36-7/8 x 24 x 1-1/2 in.
+62-3/4 x 30-1/2 x 9 in. (with deck mount)</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">IMA Number Applied</atom>
+        <atom name="PhyHeight"></atom>
+        <atom name="PhyWidth"></atom>
+        <atom name="PhyDepth"></atom>
+        <atom name="PhyUnitLength"></atom>
+        <atom name="PhyWeight"></atom>
+        <atom name="PhyUnitWeight"></atom>
+        <atom name="PhyDimensionNotes">verso at corner (orientation is variable)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">36.8750</atom>
+        <atom name="PhyWidth">24.0000</atom>
+        <atom name="PhyDepth">1.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyWeight">74.0000</atom>
+        <atom name="PhyUnitWeight">lbs.</atom>
+        <atom name="PhyDimensionNotes">Metric: 93.66625 x 60.96 x 3.81</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Installed Dimensions</atom>
+        <atom name="PhyHeight">62.7500</atom>
+        <atom name="PhyWidth">30.5000</atom>
+        <atom name="PhyDepth">9.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">two-part IMA mount, painted metal</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Frederick M. Ayres, William C. Bobbs, Mrs. Linnaeus C. Boyd, Mrs. William H. Coburn, Fred C. Dickson, James I. Dissette, Mrs. Samuel Dowden, Charles W. Fairbanks, Arthur B. Grover, J. Irving Holcomb, Mrs. Jacquelin S. Holliday, Louis C. Huesmann, Mrs. Henry Kahn, Mrs. Ernest Knefler, Hugh McKennan Landon, Ralph A. Lemcke, Mrs. Louis H. Levey, Carl H. Lieber, Dr. Carleton B. McCulloch, Edward L. McKee, Volney T. Malott, Walter L. Milliken, Meredith Nicholson, Gustave A. Schnull, Delavan Smith, George G. Snowden, Mrs. Frank D. Stalnaker, Mrs. Clarence Stanley, Miss Lucy M. Taggart, Henry M. Talbott, Booth Tarkington, Ernst M. Wiles, Evans Woollen</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">No Known Rights Holder</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">Purchased in India by Lockwood de Forest [1850-1932] of New York, New York and Santa Barbara, California; sold to the John Herron Art Institute, Indianapolis, Indiana, now the Indianapolis Museum of Art at Newfields, in 1915.</atom>
+    <atom name="PhyCollectionArea">905.1-Asian Art (Chinese and other Asian)</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Mary Ann and Gene Zink Gallery</atom>
+      <atom name="LocLevel3">H203</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">84498</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+  </tuple>
+
+  <!-- Row 30 -->
+  <tuple>
+    <atom name="irn">91799</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">2018.13A-C</atom>
+    <atom name="TitPreviousAccessionNo">TR12170/2A-C</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">2018-05-03</atom>
+    <atom name="TitMainTitle">ensemble from "Roses &amp; Blood" Collection</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes">A) peter pan collar B) under dress C) over dress</atom>
+    <atom name="TitObjectType">Costume</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">dresses</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">Spring/Summer 2015</atom>
+    <atom name="CreEarliestDate">2014</atom>
+    <atom name="CreLatestDate">2015</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Designer</atom>
+        <atom name="irn">617474</atom>
+        <atom name="SummaryData">Kawakubo, Rei</atom>
+      </tuple>
+      <tuple>
+        <atom name="CreRole">Design House</atom>
+        <atom name="irn">5898</atom>
+        <atom name="SummaryData">Comme des Garçons</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">neoprene</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMedium">polyester</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMedium">cotton {fabric or thread}</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">satin</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">satin, neoprene, polyester, cotton</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">Peter-Pan collar with buckled closure; shaped neoprene and polyester satin crinoline skirt falling in three bulbous tiers with webbing shoulder straps and side ties; and an over-dress formed from ruched and gathered lattices in shades of matt-red cotton and lustrous satin</atom>
+    <table name="Color">
+      <tuple>
+        <atom name="PhyColor">red</atom>
+      </tuple>
+    </table>
+    <atom name="PhyConvertedDims">A) collar: 5-1/4 x 16 x 12 in. 
+B) skirt: center front 37 in. 
+C) over dress: center front 41-1/4 in.
+weight 14 lbs.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions A</atom>
+        <atom name="PhyHeight">5.2500</atom>
+        <atom name="PhyWidth">16.0000</atom>
+        <atom name="PhyDepth">12.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyWeight"></atom>
+        <atom name="PhyUnitWeight"></atom>
+        <atom name="PhyDimensionNotes">A) Metric: 13.34 x 40.64 x 30.48 (collar)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Costume: Center Front B</atom>
+        <atom name="PhyHeight">37.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyWeight"></atom>
+        <atom name="PhyUnitWeight"></atom>
+        <atom name="PhyDimensionNotes">B) Metric: 93.98 (costume: center front)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Costume: Center Front C</atom>
+        <atom name="PhyHeight">41.2500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyWeight"></atom>
+        <atom name="PhyUnitWeight"></atom>
+        <atom name="PhyDimensionNotes">C) Metric: 104.78 (costume: center front)</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Weight</atom>
+        <atom name="PhyWeight">14.0000</atom>
+        <atom name="PhyUnitWeight">lbs.</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Fashion Arts Society Acquisition Fund</atom>
+    <atom name="CreProvenance">(Kerry Taylor Auctions, London, England), Passion for Fashion Auction, 20 November 2017, lot 340; purchased by the Indianapolis Museum of Art at Newfields.</atom>
+    <atom name="PhyCollectionArea">908-Textile and Fashion Arts</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Gerald and Dorit Paul Galleries</atom>
+      <atom name="LocLevel3">W308</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">Yes</atom>
+    <table name="Children">
+      <tuple>
+        <atom name="irn">93049</atom>
+        <atom name="TitMainTitle">collar for ensemble from "Roses &amp; Blood" Collection</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">93050</atom>
+        <atom name="TitMainTitle">under dress for ensemble from "Roses &amp; Blood" Collection</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">93051</atom>
+        <atom name="TitMainTitle">over dress for ensemble from "Roses &amp; Blood" Collection</atom>
+      </tuple>
+    </table>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+  </tuple>
+</table>
