@@ -1512,6 +1512,56 @@
                         }
                     ]
                 }
+            ],
+            "part": [
+                {
+                    "id": "https://data.discovernewfields.org/object/8498/mount-1",
+                    "type": "HumanMadeObject",
+                    "_label": "Mount part of Black Friar's Bridge",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300131087",
+                            "type": "Type",
+                            "_label": "mounts (framing and mounting equipment)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/8498/mount-1/height",
+                            "type": "Dimension",
+                            "value": "11.2500",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/8498/mount-1/width",
+                            "type": "Dimension",
+                            "value": "7.1300",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        }
+                    ]
+                }
             ]
         }
     },
@@ -1799,6 +1849,54 @@
                             }
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/9460/mount-1",
+                    "type": "HumanMadeObject",
+                    "_label": "Mount part of Allegorical Subject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300131087",
+                            "type": "Type",
+                            "_label": "mounts (framing and mounting equipment)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/9460/mount-1/height",
+                            "type": "Dimension",
+                            "value": "13.0000",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/9460/mount-1/width",
+                            "type": "Dimension",
+                            "value": "9.2500",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        }
+                    ]
                 }
             ]
         }
@@ -2059,6 +2157,54 @@
                             "id": "https://data.discovernewfields.org/object/9481/image-1/width",
                             "type": "Dimension",
                             "value": "18.2500",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/9481/mount-1",
+                    "type": "HumanMadeObject",
+                    "_label": "Mount part of Descent of Amida (Raigo)",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300131087",
+                            "type": "Type",
+                            "_label": "mounts (framing and mounting equipment)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/9481/mount-1/height",
+                            "type": "Dimension",
+                            "value": "65.0000",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/9481/mount-1/width",
+                            "type": "Dimension",
+                            "value": "25.2500",
                             "classified_as": [
                                 {
                                     "id": "http://vocab.getty.edu/aat/300055647",
@@ -4560,6 +4706,54 @@
                             }
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/25147/mount-1",
+                    "type": "HumanMadeObject",
+                    "_label": "Mount part of Woman with Mandolin",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300131087",
+                            "type": "Type",
+                            "_label": "mounts (framing and mounting equipment)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/25147/mount-1/height",
+                            "type": "Dimension",
+                            "value": "11.3800",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/25147/mount-1/width",
+                            "type": "Dimension",
+                            "value": "7.8800",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        }
+                    ]
                 }
             ]
         }
@@ -5736,6 +5930,37 @@
                                     "id": "http://vocab.getty.edu/aat/300055647",
                                     "type": "Type",
                                     "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/49619/mount-1",
+                    "type": "HumanMadeObject",
+                    "_label": "Mount part of Untitled",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300131087",
+                            "type": "Type",
+                            "_label": "mounts (framing and mounting equipment)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/49619/mount-1/height",
+                            "type": "Dimension",
+                            "value": "17.0000",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
                                 }
                             ],
                             "unit": {
