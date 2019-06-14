@@ -4,9 +4,9 @@ Dimension Types (whole string equals) that can trigger partitioning:
 DONE - Base Dimensions (part = base)
 DONE - Framed Dimensions (part = frame)
 DONE - Image Dimensions (part = image)
-- Mount Dimensions (part = mount)
+DONE - Mount Dimensions (part = mount)
 DONE - Overall Image Dimensions (part = image)
-- Plate Dimensions (part = plate)
+DONE - Plate Dimensions (part = plate)
 DONE - Sheet Dimensions (part = sheet, support)
 
 
@@ -29,7 +29,7 @@ Dimension Types (whole string equals) that apply to entire object:
 - Dimensions
 - Dimensions Closed
 - Dimensions Opened
-- Hanging Height (object in context - could this be typed somehow with an AAT term?)
+- Hanging Height (only 1 record; object in context - could this be typed somehow with an AAT term?)
 - Image and Sheet Dimensions
 - Installed Dimensions (object in context - could this be typed somehow with an AAT term?)
 - Length
@@ -40,7 +40,7 @@ Dimension Types (whole string equals) that apply to entire object:
 - Rolled Dimensions (object in context - could this be typed somehow with an AAT term?)
 - Sight Dimensions (object in context - could this be typed somehow with an AAT term?)
 - Unframed Dimensions
-- Volume
+- Volume (only 1 record)
 - Warp
 - Weft
 - Weight

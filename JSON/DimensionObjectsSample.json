@@ -824,6 +824,54 @@
                             }
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/4549/plate-1",
+                    "type": "HumanMadeObject",
+                    "_label": "Plate part of Roscoe's Yellow Throat",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404443",
+                            "type": "Type",
+                            "_label": "plates (reproduction object genre)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/4549/plate-1/height",
+                            "type": "Dimension",
+                            "value": "19.2500",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        },
+                        {
+                            "id": "https://data.discovernewfields.org/object/4549/plate-1/width",
+                            "type": "Dimension",
+                            "value": "12.1250",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055647",
+                                    "type": "Type",
+                                    "_label": "width"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        }
+                    ]
                 }
             ],
             "subject-of": [
@@ -5956,6 +6004,37 @@
                             "id": "https://data.discovernewfields.org/object/49619/mount-1/height",
                             "type": "Dimension",
                             "value": "17.0000",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300055644",
+                                    "type": "Type",
+                                    "_label": "height"
+                                }
+                            ],
+                            "unit": {
+                                "id": "http://vocab.getty.edu/aat/300379100",
+                                "type": "Type",
+                                "_label": "inches"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/49619/plate-1",
+                    "type": "HumanMadeObject",
+                    "_label": "Plate part of Untitled",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300404443",
+                            "type": "Type",
+                            "_label": "plates (reproduction object genre)"
+                        }
+                    ],
+                    "dimension": [
+                        {
+                            "id": "https://data.discovernewfields.org/object/49619/plate-1/height",
+                            "type": "Dimension",
+                            "value": "13.7500",
                             "classified_as": [
                                 {
                                     "id": "http://vocab.getty.edu/aat/300055644",
