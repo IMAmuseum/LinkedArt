@@ -430,6 +430,21 @@
                     "type": "HumanMadeObject",
                     "_label": "Broken Family plate"
                 }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/29679/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for Broken Family tea set",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
+                }
             ]
         }
     },

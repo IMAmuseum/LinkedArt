@@ -1365,6 +1365,21 @@
                         }
                     ]
                 }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/49568/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for quilt (Diamond in Square)",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
+                }
             ]
         }
     },
@@ -1568,6 +1583,21 @@
                             "_label": "brief texts"
                         }
                     ]
+                }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/30446/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for fragment",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
                 }
             ]
         }
@@ -1840,6 +1870,21 @@
                         }
                     ]
                 }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/35132/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for Matthew Prior",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
+                }
             ]
         }
     },
@@ -2067,6 +2112,21 @@
                             "_label": "brief texts"
                         }
                     ]
+                }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/9505/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for Jesus and the Apostles",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
                 }
             ]
         }
@@ -2404,6 +2464,21 @@
                         }
                     ]
                 }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/80096/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for Whistler's Mother",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
+                }
             ]
         }
     },
@@ -2649,6 +2724,21 @@
                             "_label": "brief texts"
                         }
                     ]
+                }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/37325/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for necklace",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
                 }
             ]
         }
@@ -2913,6 +3003,21 @@
                             "_label": "brief texts"
                         }
                     ]
+                }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/ 49562/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for quilt (Sawtooth Diamond in Square)",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
                 }
             ]
         }
@@ -3221,6 +3326,21 @@
                             }
                         }
                     ]
+                }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/56206/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for Dines with Writing Material",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
                 }
             ]
         }
@@ -4267,7 +4387,7 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/92384",
+                    "id": "https://data.discovernewfields.org/object/92386",
                     "type": "HumanMadeObject",
                     "_label": "censer in form of teahouse"
                 },
@@ -4277,7 +4397,7 @@
                     "_label": "censer in form of teahouse"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/92386",
+                    "id": "https://data.discovernewfields.org/object/92384",
                     "type": "HumanMadeObject",
                     "_label": "censer in form of teahouse"
                 }
@@ -4870,9 +4990,9 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/89367",
+                    "id": "https://data.discovernewfields.org/object/89369",
                     "type": "HumanMadeObject",
-                    "_label": "Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left)"
+                    "_label": "Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/89368",
@@ -4880,9 +5000,9 @@
                     "_label": "(C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/89369",
+                    "id": "https://data.discovernewfields.org/object/89367",
                     "type": "HumanMadeObject",
-                    "_label": "Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊"
+                    "_label": "Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left)"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/25098/image-1",
@@ -5565,6 +5685,21 @@
                         }
                     ]
                 }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/67197/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for Glencoe",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
+                }
             ]
         }
     },
@@ -5887,6 +6022,21 @@
                             }
                         }
                     ]
+                }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/67198/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for Killiecrankie",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
                 }
             ]
         }
@@ -6660,6 +6810,21 @@
                         }
                     ]
                 }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/70743/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for Towing Boat at Yotsugi Dōri [40] (Yotsugi dōri no hikifune)",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
+                }
             ]
         }
     },
@@ -6922,6 +7087,21 @@
                         }
                     ]
                 }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/48963/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for Spring snow on Sumida River 隅田川　春雪",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
+                }
             ]
         }
     },
@@ -7126,6 +7306,21 @@
                             "_label": "brief texts"
                         }
                     ]
+                }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/26363/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for ",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
                 }
             ]
         }
@@ -7381,6 +7576,21 @@
                     "id": "https://data.discovernewfields.org/object/64019",
                     "type": "HumanMadeObject",
                     "_label": "earplug (for man or woman)"
+                }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/55585/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for pair of earplugs (for man or woman)",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
                 }
             ]
         }
@@ -8308,6 +8518,21 @@
                     "type": "HumanMadeObject",
                     "_label": "Broken Family plate"
                 }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/29679/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for Broken Family tea set",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
+                }
             ]
         }
     },
@@ -8595,14 +8820,29 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/69062",
-                    "type": "HumanMadeObject",
-                    "_label": "UP5 chair"
-                },
-                {
                     "id": "https://data.discovernewfields.org/object/69063",
                     "type": "HumanMadeObject",
                     "_label": "UP6 ottoman"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/69062",
+                    "type": "HumanMadeObject",
+                    "_label": "UP5 chair"
+                }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/44068/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for UP5 chair and UP6 ottoman",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
                 }
             ]
         }
@@ -9699,6 +9939,21 @@
                         }
                     ]
                 }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/23711/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for Free Basket",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
+                }
             ]
         }
     },
@@ -10526,6 +10781,21 @@
                         }
                     ]
                 }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/54444/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for dress",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
+                }
             ]
         }
     },
@@ -10803,11 +11073,6 @@
                     "_label": "element D for Five Brushstrokes"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/85261",
-                    "type": "HumanMadeObject",
-                    "_label": "element E.1 for Five Brushstrokes"
-                },
-                {
                     "id": "https://data.discovernewfields.org/object/85262",
                     "type": "HumanMadeObject",
                     "_label": "element E.2 for Five Brushstrokes"
@@ -10821,6 +11086,26 @@
                     "id": "https://data.discovernewfields.org/object/85264",
                     "type": "HumanMadeObject",
                     "_label": "element E.4 for Five Brushstrokes"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/85261",
+                    "type": "HumanMadeObject",
+                    "_label": "element E.1 for Five Brushstrokes"
+                }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/76663/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for Five Brushstrokes",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
                 }
             ]
         }
@@ -12758,6 +13043,21 @@
                     "id": "https://data.discovernewfields.org/object/92159",
                     "type": "HumanMadeObject",
                     "_label": "Tricorne candleholders"
+                }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/ 86670/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for Tricorne candleholders",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
                 }
             ]
         }

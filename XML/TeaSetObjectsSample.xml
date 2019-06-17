@@ -340,6 +340,14 @@
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">29679</atom>
+        <atom name="irn">36743</atom>
+        <atom name="EleTitle">Dagwood ID for 2009.390.1-.16</atom>
+        <atom name="EleIdentifier">29679</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 2 -->
@@ -510,6 +518,14 @@
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">44032</atom>
+        <atom name="irn">40248</atom>
+        <atom name="EleTitle">Dagwood ID for 2009.390.1A-B</atom>
+        <atom name="EleIdentifier">44032</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 3 -->
@@ -618,6 +634,14 @@
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">43922</atom>
+        <atom name="irn">40249</atom>
+        <atom name="EleTitle">Dagwood ID for 2009.390.1A</atom>
+        <atom name="EleIdentifier">43922</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 4 -->
@@ -713,6 +737,14 @@
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">43923</atom>
+        <atom name="irn">40250</atom>
+        <atom name="EleTitle">Dagwood ID for 2009.390.1B</atom>
+        <atom name="EleIdentifier">43923</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 5 -->
@@ -882,6 +914,14 @@
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">44031</atom>
+        <atom name="irn">40251</atom>
+        <atom name="EleTitle">Dagwood ID for 2009.390.2A-B</atom>
+        <atom name="EleIdentifier">44031</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 6 -->
@@ -973,6 +1013,14 @@
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">43924</atom>
+        <atom name="irn">40252</atom>
+        <atom name="EleTitle">Dagwood ID for 2009.390.2A</atom>
+        <atom name="EleIdentifier">43924</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 7 -->
@@ -1068,6 +1116,14 @@
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">43921</atom>
+        <atom name="irn">40253</atom>
+        <atom name="EleTitle">Dagwood ID for 2009.390.2B</atom>
+        <atom name="EleIdentifier">43921</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 8 -->
@@ -1233,6 +1289,14 @@
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">42462</atom>
+        <atom name="irn">40254</atom>
+        <atom name="EleTitle">Dagwood ID for 2009.390.3</atom>
+        <atom name="EleIdentifier">42462</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 9 -->
@@ -1396,6 +1460,14 @@
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">44024</atom>
+        <atom name="irn">40255</atom>
+        <atom name="EleTitle">Dagwood ID for 2009.390.4</atom>
+        <atom name="EleIdentifier">44024</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 10 -->
@@ -1559,6 +1631,14 @@
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">44025</atom>
+        <atom name="irn">40256</atom>
+        <atom name="EleTitle">Dagwood ID for 2009.390.5</atom>
+        <atom name="EleIdentifier">44025</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 11 -->
@@ -1722,6 +1802,14 @@
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">44027</atom>
+        <atom name="irn">40257</atom>
+        <atom name="EleTitle">Dagwood ID for 2009.390.6</atom>
+        <atom name="EleIdentifier">44027</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 12 -->
@@ -1885,6 +1973,14 @@
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">44029</atom>
+        <atom name="irn">40258</atom>
+        <atom name="EleTitle">Dagwood ID for 2009.390.7</atom>
+        <atom name="EleIdentifier">44029</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 13 -->
@@ -2048,6 +2144,14 @@
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">44026</atom>
+        <atom name="irn">40259</atom>
+        <atom name="EleTitle">Dagwood ID for 2009.390.8</atom>
+        <atom name="EleIdentifier">44026</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 14 -->
@@ -2211,6 +2315,14 @@
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">44077</atom>
+        <atom name="irn">40260</atom>
+        <atom name="EleTitle">Dagwood ID for 2009.390.9</atom>
+        <atom name="EleIdentifier">44077</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 15 -->
@@ -2374,6 +2486,14 @@
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">44028</atom>
+        <atom name="irn">40261</atom>
+        <atom name="EleTitle">Dagwood ID for 2009.390.10</atom>
+        <atom name="EleIdentifier">44028</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 16 -->
@@ -2537,6 +2657,14 @@
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">44030</atom>
+        <atom name="irn">40262</atom>
+        <atom name="EleTitle">Dagwood ID for 2009.390.11</atom>
+        <atom name="EleIdentifier">44030</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 17 -->
@@ -2702,6 +2830,14 @@
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">44023</atom>
+        <atom name="irn">40263</atom>
+        <atom name="EleTitle">Dagwood ID for 2009.390.12</atom>
+        <atom name="EleIdentifier">44023</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 18 -->
@@ -2865,6 +3001,14 @@
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">25157</atom>
+        <atom name="irn">40264</atom>
+        <atom name="EleTitle">Dagwood ID for 2009.390.13</atom>
+        <atom name="EleIdentifier">25157</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 19 -->
@@ -3028,6 +3172,14 @@
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">42250</atom>
+        <atom name="irn">40265</atom>
+        <atom name="EleTitle">Dagwood ID for 2009.390.14</atom>
+        <atom name="EleIdentifier">42250</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 20 -->
@@ -3191,6 +3343,14 @@
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">25158</atom>
+        <atom name="irn">40266</atom>
+        <atom name="EleTitle">Dagwood ID for 2009.390.15</atom>
+        <atom name="EleIdentifier">25158</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 21 -->
@@ -3354,5 +3514,13 @@
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">39064</atom>
+        <atom name="irn">40267</atom>
+        <atom name="EleTitle">Dagwood ID for 2009.390.16</atom>
+        <atom name="EleIdentifier">39064</atom>
+      </tuple>
+    </table>
   </tuple>
 </table>

@@ -736,6 +736,14 @@ upper bowl water volume: approximately 8.5 (circumference) x W:.66 x H:.17 = .95
     </tuple>
     <atom name="AssIsParent">No</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">57196</atom>
+        <atom name="irn">10705</atom>
+        <atom name="EleTitle">Dagwood ID for 09.140</atom>
+        <atom name="EleIdentifier">57196</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 7 -->
@@ -848,6 +856,14 @@ Inscribed, verso: Benedette Castiglion</atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">71974</atom>
+        <atom name="irn">11662</atom>
+        <atom name="EleTitle">Dagwood ID for 08.46</atom>
+        <atom name="EleIdentifier">71974</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 8 -->
@@ -943,6 +959,14 @@ Inscribed, verso: Benedette Castiglion</atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">69990</atom>
+        <atom name="irn">11682</atom>
+        <atom name="EleTitle">Dagwood ID for 13.50</atom>
+        <atom name="EleIdentifier">69990</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 9 -->
@@ -1041,6 +1065,14 @@ Inscribed, verso: Benedette Castiglion</atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">80160</atom>
+        <atom name="irn">13272</atom>
+        <atom name="EleTitle">Dagwood ID for 80.383</atom>
+        <atom name="EleIdentifier">80160</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 10 -->
@@ -1155,6 +1187,14 @@ Inscribed, verso: Benedette Castiglion</atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">54280</atom>
+        <atom name="irn">15977</atom>
+        <atom name="EleTitle">Dagwood ID for 38.4</atom>
+        <atom name="EleIdentifier">54280</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 11 -->
@@ -2138,12 +2178,12 @@ B) lid: 2-1/2 x 4-5/8 x 4-5/8 in.</atom>
     <atom name="AssIsParent">Yes</atom>
     <table name="Children">
       <tuple>
-        <atom name="irn">86933</atom>
-        <atom name="TitMainTitle">jar</atom>
-      </tuple>
-      <tuple>
         <atom name="irn">86934</atom>
         <atom name="TitMainTitle">lid for jar</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">86933</atom>
+        <atom name="TitMainTitle">jar</atom>
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -2310,6 +2350,14 @@ B) lid: 2-1/2 x 4-5/8 x 4-5/8 in.</atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">55730</atom>
+        <atom name="irn">64828</atom>
+        <atom name="EleTitle">Dagwood ID for 15.300</atom>
+        <atom name="EleIdentifier">55730</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 21 -->
@@ -2480,6 +2528,14 @@ B) lid: 2-1/2 x 4-5/8 x 4-5/8 in.</atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">57229</atom>
+        <atom name="irn">82245</atom>
+        <atom name="EleTitle">Dagwood ID for 30.88</atom>
+        <atom name="EleIdentifier">57229</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 23 -->
@@ -2623,6 +2679,14 @@ B) lid: 2-1/2 x 4-5/8 x 4-5/8 in.</atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">78163</atom>
+        <atom name="irn">82848</atom>
+        <atom name="EleTitle">Dagwood ID for 17.64</atom>
+        <atom name="EleIdentifier">78163</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 24 -->
@@ -2808,6 +2872,14 @@ W: 11-11/16 in. (shoulders)</atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">1279</atom>
+        <atom name="irn">37060</atom>
+        <atom name="EleTitle">Dagwood ID for 2008.196</atom>
+        <atom name="EleIdentifier">1279</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 26 -->
@@ -2927,6 +2999,14 @@ waist: 28-1/4 in.</atom>
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">59363</atom>
+        <atom name="irn">38566</atom>
+        <atom name="EleTitle">Dagwood ID for 2008.263B</atom>
+        <atom name="EleIdentifier">59363</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 27 -->
@@ -3040,6 +3120,14 @@ roller width: 49-1/4 in.</atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">71489</atom>
+        <atom name="irn">39675</atom>
+        <atom name="EleTitle">Dagwood ID for 2009.587</atom>
+        <atom name="EleIdentifier">71489</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 28 -->
@@ -3157,6 +3245,12 @@ roller width: 49-1/4 in.</atom>
         <atom name="EleTitle"></atom>
         <atom name="EleIdentifier"></atom>
       </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes">71853</atom>
+        <atom name="irn">42771</atom>
+        <atom name="EleTitle">Dagwood ID for 2011.141</atom>
+        <atom name="EleIdentifier">71853</atom>
+      </tuple>
     </table>
   </tuple>
 
@@ -3269,6 +3363,14 @@ Curator's working title, not for distribution: sandstone jali (b), carved wall e
     </tuple>
     <atom name="AssIsParent">No</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">50930</atom>
+        <atom name="irn">49727</atom>
+        <atom name="EleTitle">Dagwood ID for 15.194</atom>
+        <atom name="EleIdentifier">50930</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 30 -->
@@ -3387,18 +3489,26 @@ weight 14 lbs.</atom>
     <atom name="AssIsParent">Yes</atom>
     <table name="Children">
       <tuple>
-        <atom name="irn">93049</atom>
-        <atom name="TitMainTitle">collar for ensemble from "Roses &amp; Blood" Collection</atom>
+        <atom name="irn">93051</atom>
+        <atom name="TitMainTitle">over dress for ensemble from "Roses &amp; Blood" Collection</atom>
       </tuple>
       <tuple>
         <atom name="irn">93050</atom>
         <atom name="TitMainTitle">under dress for ensemble from "Roses &amp; Blood" Collection</atom>
       </tuple>
       <tuple>
-        <atom name="irn">93051</atom>
-        <atom name="TitMainTitle">over dress for ensemble from "Roses &amp; Blood" Collection</atom>
+        <atom name="irn">93049</atom>
+        <atom name="TitMainTitle">collar for ensemble from "Roses &amp; Blood" Collection</atom>
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">88091</atom>
+        <atom name="irn">59978</atom>
+        <atom name="EleTitle">Dagwood ID for 2018.13A-C</atom>
+        <atom name="EleIdentifier">88091</atom>
+      </tuple>
+    </table>
   </tuple>
 </table>

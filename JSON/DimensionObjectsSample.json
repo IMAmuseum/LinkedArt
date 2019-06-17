@@ -1610,6 +1610,21 @@
                         }
                     ]
                 }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/57196/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for Black Friar's Bridge",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
+                }
             ]
         }
     },
@@ -1946,6 +1961,21 @@
                         }
                     ]
                 }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/71974/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for Allegorical Subject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
+                }
             ]
         }
     },
@@ -2268,6 +2298,21 @@
                         }
                     ]
                 }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/69990/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for Descent of Amida (Raigo)",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
+                }
             ]
         }
     },
@@ -2516,6 +2561,21 @@
                         }
                     ]
                 }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/80160/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for Two Figures",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
+                }
             ]
         }
     },
@@ -2756,6 +2816,21 @@
                             "_label": "brief texts"
                         }
                     ]
+                }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/54280/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for Triptych with the Virgin and Child, St. Barbara, and St. Catherine",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
                 }
             ]
         }
@@ -5063,14 +5138,14 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/86933",
-                    "type": "HumanMadeObject",
-                    "_label": "jar"
-                },
-                {
                     "id": "https://data.discovernewfields.org/object/86934",
                     "type": "HumanMadeObject",
                     "_label": "lid for jar"
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/86933",
+                    "type": "HumanMadeObject",
+                    "_label": "jar"
                 }
             ]
         }
@@ -6050,6 +6125,21 @@
                         }
                     ]
                 }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/57229/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for Untitled",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
+                }
             ]
         }
     },
@@ -6271,6 +6361,21 @@
                             "_label": "brief texts"
                         }
                     ]
+                }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/78163/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for dress",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
                 }
             ]
         }
@@ -6748,6 +6853,21 @@
                             "_label": "brief texts"
                         }
                     ]
+                }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/1279/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for dress",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
                 }
             ]
         }
@@ -7289,6 +7409,21 @@
                         }
                     ]
                 }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/71489/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for Waves and Pine",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
+                }
             ]
         }
     },
@@ -7692,6 +7827,21 @@
                             }
                         }
                     ]
+                }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/ 71853/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for Chikau [I Vow], 12.6-6",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
                 }
             ]
         }
@@ -8232,9 +8382,9 @@
             ],
             "part": [
                 {
-                    "id": "https://data.discovernewfields.org/object/93049",
+                    "id": "https://data.discovernewfields.org/object/93051",
                     "type": "HumanMadeObject",
-                    "_label": "collar for ensemble from \"Roses & Blood\" Collection"
+                    "_label": "over dress for ensemble from \"Roses & Blood\" Collection"
                 },
                 {
                     "id": "https://data.discovernewfields.org/object/93050",
@@ -8242,9 +8392,24 @@
                     "_label": "under dress for ensemble from \"Roses & Blood\" Collection"
                 },
                 {
-                    "id": "https://data.discovernewfields.org/object/93051",
+                    "id": "https://data.discovernewfields.org/object/93049",
                     "type": "HumanMadeObject",
-                    "_label": "over dress for ensemble from \"Roses & Blood\" Collection"
+                    "_label": "collar for ensemble from \"Roses & Blood\" Collection"
+                }
+            ],
+            "subject-of": [
+                {
+                    "id": "http://collection.imamuseum.org/artwork/88091/",
+                    "type": "LinguisticObject",
+                    "_label": "Homepage for ensemble from \"Roses & Blood\" Collection",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab/getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web pages (documents)"
+                        }
+                    ],
+                    "format": "text/html"
                 }
             ]
         }
