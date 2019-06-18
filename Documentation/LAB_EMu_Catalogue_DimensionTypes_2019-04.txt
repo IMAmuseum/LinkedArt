@@ -1,6 +1,5 @@
 Dimension Types (whole string equals) that can trigger partitioning:
 
-- Backing Dimensions (part = backing)
 DONE - Base Dimensions (part = base)
 DONE - Framed Dimensions (part = frame)
 DONE - Image Dimensions (part = image)
@@ -12,6 +11,7 @@ DONE - Sheet Dimensions (part = sheet, support)
 
 Dimension Types (whole string equals) that apply to entire object:
 
+- Backing Dimensions (no equivalent part in AAT)
 - Circumference
 - Costume: Bust*
 - Costume: Center Back*

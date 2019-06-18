@@ -190,6 +190,32 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/3811/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of Marine",
+                    "content": "Signed, lower left: WM. WENDT",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/3811/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about Marine",
+                    "content": "Based on IMA accession date.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/3811/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -241,6 +267,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/3811/frame-1/height",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for Marine",
                             "value": "35.7500",
                             "classified_as": [
                                 {
@@ -258,6 +285,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/3811/frame-1/width",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for Marine",
                             "value": "47.5000",
                             "classified_as": [
                                 {
@@ -275,6 +303,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/3811/frame-1/depth",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for Marine",
                             "value": "2.7500",
                             "classified_as": [
                                 {
@@ -736,6 +765,19 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/4549/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of Roscoe's Yellow Throat",
+                    "content": "J WHATMAN",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/4549/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -792,6 +834,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/4549/sheet-1/height",
                             "type": "Dimension",
+                            "_label": "Sheet Dimensions for Roscoe's Yellow Throat",
                             "value": "27.1250",
                             "classified_as": [
                                 {
@@ -809,6 +852,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/4549/sheet-1/width",
                             "type": "Dimension",
+                            "_label": "Sheet Dimensions for Roscoe's Yellow Throat",
                             "value": "21.5000",
                             "classified_as": [
                                 {
@@ -840,6 +884,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/4549/plate-1/height",
                             "type": "Dimension",
+                            "_label": "Plate Dimensions for Roscoe's Yellow Throat",
                             "value": "19.2500",
                             "classified_as": [
                                 {
@@ -857,6 +902,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/4549/plate-1/width",
                             "type": "Dimension",
+                            "_label": "Plate Dimensions for Roscoe's Yellow Throat",
                             "value": "12.1250",
                             "classified_as": [
                                 {
@@ -1058,6 +1104,19 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/6347/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of Buddha",
+                    "content": "very large head of the Buddha in cast iron, with downcast eyes and meditative expression.  The hair is upswept in neat ridges and tied at the top of the head.  The cranial protuberance and extended earlobes are physical attributes that are typical of representations of the Buddha.  The surface of the head show seams of the mold in which it was originally cast.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
                         }
                     ]
                 },
@@ -1294,6 +1353,19 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/6375/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of fountain",
+                    "content": "Functioning Cipollino marble fountain.  The upper bowl is carved with mermaid and dolphin motif with an octagonal pedestal base.  A finely modelled bronze standing fountain figure of \"The Verrocchio Boy\" holding a dolphin in his arms is situated at the top center of the upper bowl with right leg lifted to the side and bent at the knee slight to the back and the left support leg is on a domed base.  The lower bowl, pool-surround is of Sicilian marble exhibiting rounded edges.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
                         }
                     ]
                 },
@@ -1577,6 +1649,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/8498/mount-1/height",
                             "type": "Dimension",
+                            "_label": "Mount Dimensions for Black Friar's Bridge",
                             "value": "11.2500",
                             "classified_as": [
                                 {
@@ -1594,6 +1667,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/8498/mount-1/width",
                             "type": "Dimension",
+                            "_label": "Mount Dimensions for Black Friar's Bridge",
                             "value": "7.1300",
                             "classified_as": [
                                 {
@@ -1829,6 +1903,19 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/9460/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of Allegorical Subject",
+                    "content": "Signed in plate: C. Vignonjn, A. Bosse sculp.\nInscribed, verso: Benedette Castiglion",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/9460/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -1880,6 +1967,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/9460/image-1/height",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for Allegorical Subject",
                             "value": "10.2500",
                             "classified_as": [
                                 {
@@ -1897,6 +1985,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/9460/image-1/width",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for Allegorical Subject",
                             "value": "7.1800",
                             "classified_as": [
                                 {
@@ -1928,6 +2017,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/9460/mount-1/height",
                             "type": "Dimension",
+                            "_label": "Mount Dimensions for Allegorical Subject",
                             "value": "13.0000",
                             "classified_as": [
                                 {
@@ -1945,6 +2035,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/9460/mount-1/width",
                             "type": "Dimension",
+                            "_label": "Mount Dimensions for Allegorical Subject",
                             "value": "9.2500",
                             "classified_as": [
                                 {
@@ -2166,6 +2257,19 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/9481/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of Descent of Amida (Raigo)",
+                    "content": "buddha descending",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/9481/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -2217,6 +2321,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/9481/image-1/height",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for Descent of Amida (Raigo)",
                             "value": "36.6250",
                             "classified_as": [
                                 {
@@ -2234,6 +2339,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/9481/image-1/width",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for Descent of Amida (Raigo)",
                             "value": "18.2500",
                             "classified_as": [
                                 {
@@ -2265,6 +2371,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/9481/mount-1/height",
                             "type": "Dimension",
+                            "_label": "Mount Dimensions for Descent of Amida (Raigo)",
                             "value": "65.0000",
                             "classified_as": [
                                 {
@@ -2282,6 +2389,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/9481/mount-1/width",
                             "type": "Dimension",
+                            "_label": "Mount Dimensions for Descent of Amida (Raigo)",
                             "value": "25.2500",
                             "classified_as": [
                                 {
@@ -3085,6 +3193,32 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/19705/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of dress (bodice, skirt)",
+                    "content": "a) bodice: tan silk moire taffeta basque trimmed with tan silk velvet. Blue satin yoke embroidered with colored floss, pearls, sequins and glass beads.\nb) skirt: seven gored skirt, tan silk. Velvet band and ruffle at the bottom.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/19705/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of dress (bodice, skirt)",
+                    "content": "A) bodice: Label: Mme. De Latour. / ROBES / 574 Fifth Ave, New York.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/19705/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -3321,6 +3455,45 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/20419/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of Love",
+                    "content": "steel welded sculpture of the word \"LOVE\" with the \"L\" stacked on the \"V\" and the tilted \"O\" stacked on the \"E\".  Each component was fabricated from 3/16 inch thick sheets of Cor-ten steel.  The sheets were cut, welded together and then finished to create hollow, enclosed structures.   Each letter is 72 inches deep.  Components are secured together by a bolting system.  Specifically there are 2 sets of four bolts drilled along the one set and located along the proper left serif of \"V\" connecting to the upper proper right serif of \"E\".  The other is located at the proper left serif of \"L\" connecting to the proper right middle of \"O\".   Access panels enable entry for the bolts to be put in place.  Once access panel exists along the entire upper surface of the proper left \"L\" serif; there are two others atop the proper right side of the \"E\".  Central pivot points align the \"O\" over the \"E\".  Two points about 2-3 inches in height are permanently attached to the \"E\".",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/20419/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of Love",
+                    "content": "Stamped, lower proper right edge of the \"E\" along the full length: 1 [gapped]  [copyright symbol] R INDIANA  [in stencilled font] 1970  [HF symbol for Herbert Feuerlicht, Technical Supervisor of Triad Designs] [three stacked lines of smaller text] WORK EXECUTED BY  |  Lippincott  |  NORTH HAVEN CONN",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/20419/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about Love",
+                    "content": "06/23/2016 Per Alfred Lippincott, \"...technical supervisor, Herbert Feuerlicht, of Triad Designs...this accounts for the large HF that is stamped into the metal just to the left of the Lippincott stamp...\"",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
                         }
                     ]
                 },
@@ -3565,6 +3738,32 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/20978/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of pipe bag with geometric design",
+                    "content": "colored beads in geometric pattern (appliqué beadwork lane stitch)",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/20978/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about pipe bag with geometric design",
+                    "content": "Creator = possibly Arapaho people, central Plains",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
                         }
                     ]
                 },
@@ -3842,6 +4041,45 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/21214/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of wallpaper",
+                    "content": "Branches of leaves and flowers in tinsel and velvet effect on simulated ground. Reds and gold.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/21214/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of wallpaper",
+                    "content": "Inscribed in margin, repeat: THE M.W.P. Co. PAT [illegible character] JAN. 23, 1883.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/21214/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about wallpaper",
+                    "content": "DATE CREATED: 1883 is based on current reading of the patent date; however, we do not know if the wallpaper was created immediately after the patent was approved, before, or after; the date has also been read as \"1881\"; so the visible date should read \"about 1883\" but the Earliest/Latest reflect the manufacturer's active dates.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/21214/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -3898,6 +4136,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/21214/sheet-1/height",
                             "type": "Dimension",
+                            "_label": "Sheet Dimensions for wallpaper",
                             "value": "90.0000",
                             "classified_as": [
                                 {
@@ -3915,6 +4154,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/21214/sheet-1/width",
                             "type": "Dimension",
+                            "_label": "Sheet Dimensions for wallpaper",
                             "value": "19.7500",
                             "classified_as": [
                                 {
@@ -4187,6 +4427,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/24101/frame-1/height",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for Design for the Doane Memorial Window",
                             "value": "24.0000",
                             "classified_as": [
                                 {
@@ -4204,6 +4445,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/24101/frame-1/width",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for Design for the Doane Memorial Window",
                             "value": "18.1250",
                             "classified_as": [
                                 {
@@ -4221,6 +4463,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/24101/frame-1/depth",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for Design for the Doane Memorial Window",
                             "value": "1.5000",
                             "classified_as": [
                                 {
@@ -4431,6 +4674,32 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/24909/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of La lecture (The Reading Lesson)",
+                    "content": "Signed, lower left: FRANK EDWIN SCOTT\nLabel with handwritten remarks, verso, center horizontal stretcher bar: à coller sur le dos d'vre. / GRANDE EXPOSITION DES BEAUX ARTS À BERLIN 1895 / Nom et prenoms de l'artiste: Scott_ Frank Edwin / Domieile: Grue Boissonade, Paris, France / Proprietaire: Frank Edwin Scott. / Sujet et genre: / \"La Lecture\".  \nLabel, center vertical stretcher bar: Gross [torn/illegible], Ausstellung / 3074 / Gemälde.\nLabel, center vertical stretcher bar: Envoi de / Frank Edwin Scott / Grue Boissonade / Paris, France",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/24909/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about La lecture (The Reading Lesson)",
+                    "content": "Painting was exhibited at the Paris Salon and in Berlin in 1893.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/24909/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -4482,6 +4751,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/24909/frame-1/height",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for La lecture (The Reading Lesson)",
                             "value": "57.1250",
                             "classified_as": [
                                 {
@@ -4499,6 +4769,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/24909/frame-1/width",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for La lecture (The Reading Lesson)",
                             "value": "70.6250",
                             "classified_as": [
                                 {
@@ -4516,6 +4787,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/24909/frame-1/depth",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for La lecture (The Reading Lesson)",
                             "value": "3.6250",
                             "classified_as": [
                                 {
@@ -4797,6 +5069,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/25147/sheet-1/height",
                             "type": "Dimension",
+                            "_label": "Sheet Dimensions for Woman with Mandolin",
                             "value": "4.7500",
                             "classified_as": [
                                 {
@@ -4814,6 +5087,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/25147/sheet-1/width",
                             "type": "Dimension",
+                            "_label": "Sheet Dimensions for Woman with Mandolin",
                             "value": "6.6200",
                             "classified_as": [
                                 {
@@ -4845,6 +5119,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/25147/mount-1/height",
                             "type": "Dimension",
+                            "_label": "Mount Dimensions for Woman with Mandolin",
                             "value": "11.3800",
                             "classified_as": [
                                 {
@@ -4862,6 +5137,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/25147/mount-1/width",
                             "type": "Dimension",
+                            "_label": "Mount Dimensions for Woman with Mandolin",
                             "value": "7.8800",
                             "classified_as": [
                                 {
@@ -5097,6 +5373,19 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/25319/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of jar with lid",
+                    "content": "slipped and painted earthenware, black on red, abstract and representational designs (birds)",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
                         }
                     ]
                 },
@@ -5594,6 +5883,19 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/32159/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of Towel \"havlu\" or \"kusak\"",
+                    "content": "Embroidery at narrow ends only. Close curving flower sprigs of stylized design and U shaped framed border filled with flowers. Narrow edges and small part of long edges rolled, overcast and crocheted.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/32159/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -5782,6 +6084,19 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/49344/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of vessel",
+                    "content": "24\" cir.; 10\" high, 1\" diam. at opening",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
                         }
                     ]
                 },
@@ -6007,6 +6322,19 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/49619/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of Untitled",
+                    "content": "signed in pencil, L.L.: JAY HAMBRIDGE",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
                 }
             ],
             "part": [
@@ -6030,6 +6358,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/49619/sheet-1/height",
                             "type": "Dimension",
+                            "_label": "Sheet Dimensions for Untitled",
                             "value": "15.0000",
                             "classified_as": [
                                 {
@@ -6047,6 +6376,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/49619/sheet-1/width",
                             "type": "Dimension",
+                            "_label": "Sheet Dimensions for Untitled",
                             "value": "10.7500",
                             "classified_as": [
                                 {
@@ -6078,6 +6408,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/49619/mount-1/height",
                             "type": "Dimension",
+                            "_label": "Mount Dimensions for Untitled",
                             "value": "17.0000",
                             "classified_as": [
                                 {
@@ -6109,6 +6440,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/49619/plate-1/height",
                             "type": "Dimension",
+                            "_label": "Plate Dimensions for Untitled",
                             "value": "13.7500",
                             "classified_as": [
                                 {
@@ -6324,6 +6656,19 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/50233/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about dress",
+                    "content": "Although the date is \"about 1830,\" keep \"Latest\" date as \"1880\" due to confusions over the original maker and when the dress was made. \"about 1830\" is the date approved by Textile and Fashion Arts Curator Niloo Paydar in April 2016 based on stylistic qualities of the dress. See Rebecca McNamara's notes in the historical file for more information.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
                         }
                     ]
                 },
@@ -6820,6 +7165,32 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/64975/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of dress",
+                    "content": "Red wool knit dress trimmed with purple knit wool binding.\n It has a deep fitted bust with deep décolletage and semi-full long skirt.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/64975/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of dress",
+                    "content": "Label: Rudi Gernreich for Harmon Knitwear",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/64975/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -7083,6 +7454,32 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/66487/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of skirt",
+                    "content": "bright orange fitted mock turtleneck sweater with long sleeves, embroidered Courreges logo center front chest; skirt: bias cut A-line of bright orange 2/2 twill woolen fabric, Courreges applique applied by stitching center front waist",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/66487/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of skirt",
+                    "content": "Courreges/Paris/Made in France/B\n(skirt only)",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/66487/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -7325,6 +7722,32 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/67600/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of Waves and Pine",
+                    "content": "vertical hanging scroll",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/67600/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of Waves and Pine",
+                    "content": "Signed: Iss^o\nSquare relief seal, reads: Iss^o",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/67600/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -7376,6 +7799,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/67600/image-1/height",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for Waves and Pine",
                             "value": "67.7500",
                             "classified_as": [
                                 {
@@ -7393,6 +7817,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/67600/image-1/width",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for Waves and Pine",
                             "value": "39.3750",
                             "classified_as": [
                                 {
@@ -7677,6 +8102,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/70939/frame-1/height",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for Chikau [I Vow], 12.6-6",
                             "value": "23.0000",
                             "classified_as": [
                                 {
@@ -7694,6 +8120,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/70939/frame-1/width",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for Chikau [I Vow], 12.6-6",
                             "value": "17.0000",
                             "classified_as": [
                                 {
@@ -7711,6 +8138,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/70939/frame-1/depth",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for Chikau [I Vow], 12.6-6",
                             "value": "1.5000",
                             "classified_as": [
                                 {
@@ -7747,6 +8175,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/70939/sheet-1/height",
                             "type": "Dimension",
+                            "_label": "Sheet Dimensions for Chikau [I Vow], 12.6-6",
                             "value": "19.3750",
                             "classified_as": [
                                 {
@@ -7764,6 +8193,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/70939/sheet-1/width",
                             "type": "Dimension",
+                            "_label": "Sheet Dimensions for Chikau [I Vow], 12.6-6",
                             "value": "13.1250",
                             "classified_as": [
                                 {
@@ -7795,6 +8225,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/70939/image-1/height",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for Chikau [I Vow], 12.6-6",
                             "value": "10.6250",
                             "classified_as": [
                                 {
@@ -7812,6 +8243,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/70939/image-1/width",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for Chikau [I Vow], 12.6-6",
                             "value": "8.6250",
                             "classified_as": [
                                 {
@@ -8079,6 +8511,32 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/79530/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of sandstone jali",
+                    "content": "Sandstone Pierced Screen:  This screen consists of carvings from India collected by Mr. Lockwood de Forest and assembled to suggest a palace façade of that country.  In Bombay, Ahmedabad, and other Indian cities, are old houses in great number, with elaborate and beautiful carved fronts.  Almost the entire upper part of this screen is from such a house front in Ahmedabad.  Carvers in India are all of the Mistre or carpenter cast, and all, even the lowest of them in remote villages, seem born with a remarkable instinct for this art.  The children begin to learn the trade at three years old.  Boys of eight to twelve years carve nearly as well as the men.  The details of the carvings evolve as the carver works.  Only a few leading lines are sketched on the wood before the cutting begins.  Parts of this collection are ancient originals, others are accurate copies made by Indian workmen.  Some stone panels, pierced brasses and inlays are also included.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/79530/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about sandstone jali",
+                    "content": "Commissioned in Agra by Lockwood de Forest for Tiffany and de Forest",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
                         }
                     ]
                 },
@@ -8376,6 +8834,19 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/91799/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of ensemble from \"Roses & Blood\" Collection",
+                    "content": "Peter-Pan collar with buckled closure; shaped neoprene and polyester satin crinoline skirt falling in three bulbous tiers with webbing shoulder straps and side ties; and an over-dress formed from ruched and gathered lattices in shades of matt-red cotton and lustrous satin",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
                         }
                     ]
                 }

@@ -1,0 +1,1691 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE table
+[
+  <!ELEMENT table	(tuple)*>
+  <!ATTLIST table
+            name	CDATA #REQUIRED
+  >
+
+  <!ELEMENT tuple	(table|tuple|atom)*>
+  <!ATTLIST tuple
+            name	CDATA #IMPLIED
+  >
+
+  <!ELEMENT atom	(#PCDATA)*>
+  <!ATTLIST atom
+            name	CDATA #REQUIRED
+            type	CDATA "text"
+            size	CDATA "short"
+  >
+]
+>
+<?schema
+  table           ecatalogue
+    integer         irn
+    text short      AdmPublishWebNoPassword
+    text short      TitAccessionNo
+    text short      TitPreviousAccessionNo
+    text short      TitObjectStatus
+    date            TitAccessionDate
+    text long       TitMainTitle
+    text long       TitSeriesTitle
+    text long       TitCollectionTitle
+    table           AltTitles
+      text long       TitAlternateTitles
+    end
+    text long       TitTitleNotes
+    text short      TitObjectType
+    table           ObjectTypes
+      text short      PhyMediaCategory
+    end
+    text short      CreDateCreated
+    date            CreEarliestDate
+    date            CreLatestDate
+    text short      CreCreationPeriod
+    text long       CreCreationDynasty
+    table           Creator1
+      text short      CreRole
+      text long       CreCreatorAfterFollower
+      integer         irn
+      text long       SummaryData
+    end
+    table           Creator2
+      text long       CreCreatorAttribution
+      text long       CreCreationCultureOrPeople
+      text long       CreCreationNationality2
+    end
+    table           CreLocation
+      text short      CreCountry
+      text short      CreState
+      text short      CreDistrict
+      text short      CreCity
+    end
+    table           MarkType
+      text short      CreMarkType
+    end
+    text long       CrePrimaryInscriptions
+    text long       CreCreationNotes
+    date            EdiPublisherDate
+    table           Medium
+      text long       PhyMedium
+    end
+    table           Support
+      text short      PhySupport
+    end
+    text long       PhyMediumAndSupport
+    text short      PhyStyle
+    text short      PhyTechnique
+    text short      EdiImpression
+    text long       PhyDescription
+    table           Color
+      text short      PhyColor
+    end
+    text long       PhyConvertedDims
+    table           Dimensions
+      text short      PhyType
+      float           PhyHeight
+      float           PhyWidth
+      float           PhyDepth
+      float           PhyDiameter
+      text short      PhyUnitLength
+      float           PhyWeight
+      text short      PhyUnitWeight
+      text short      PhyDimensionNotes
+    end
+    text long       SumCreditLine
+    table           Rights
+      text long       RigAcknowledgement
+    end
+    text long       CreProvenance
+    text short      PhyCollectionArea
+    text short      LocMovementType
+    tuple           LocCurrentLocationRef
+      text short      LocLevel1
+      text short      LocLevel2
+      text short      LocLevel3
+    end
+    tuple           AssParentObjectRef
+      integer         irn
+    end
+    text short      AssIsParent
+    table           Children
+      integer         irn
+      text long       TitMainTitle
+      table           Grandchildren
+        integer         irn
+        text long       TitMainTitle
+      end
+    end
+    table           Related
+      text short      AssRelationship
+      integer         irn
+    end
+    text short      AdmPublishWebNoPassword
+    table           Homepage
+      text short      RefBibliographicNotes
+      integer         irn
+      text long       EleTitle
+      text short      EleIdentifier
+    end
+  end
+?>
+<!-- Data -->
+<table name="ecatalogue">
+
+  <!-- Row 1 -->
+  <tuple>
+    <atom name="irn">2554</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">70.99.4</atom>
+    <atom name="TitPreviousAccessionNo">TR8528/2</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1970-12-01</atom>
+    <atom name="TitMainTitle">small red-figure lekythos</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Sculpture</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">vases</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">date unknown</atom>
+    <atom name="CreEarliestDate"></atom>
+    <atom name="CreLatestDate"></atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationCultureOrPeople">Greek</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">paint</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">ceramic</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">painted ceramic</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">small reddish ceramic vase with black painted decoration, narrow neck and one handle</atom>
+    <atom name="PhyConvertedDims">4 x 1-1/16 (diam.) in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">4.0000</atom>
+        <atom name="PhyDiameter">1.0625</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 10.2 x 2.7 (diam.) cm.</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Dr. and Mrs. F.E. Carrel</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">Dr and Mrs. F.E. Carrel; presented to the IMA (1970)</atom>
+    <atom name="PhyCollectionArea">904.2-Classical Art</atom>
+    <atom name="LocMovementType">Inventory 2014-2015</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Cc3</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">17054</atom>
+        <atom name="irn">4790</atom>
+        <atom name="EleTitle">Dagwood ID for 70.99.4</atom>
+        <atom name="EleIdentifier">17054</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 2 -->
+  <tuple>
+    <atom name="irn">10582</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">47.38</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate"></atom>
+    <atom name="TitMainTitle">White-Ground Lekythos: Mistress and Servant</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Containers</atom>
+    <atom name="CreDateCreated">about 460-450 B.C.E.</atom>
+    <atom name="CreEarliestDate">-460</atom>
+    <atom name="CreLatestDate">-450</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationCultureOrPeople">Greek</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes">Artist: Painter of Athens 1826</atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">paint</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">earthenware</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">earthenware with painted decoration</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">H: 8-1/4 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">8.2500</atom>
+        <atom name="PhyDimensionNotes">Metric: 20.95499969 cm height</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Mr. and Mrs. Eli Lilly</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">904.2-Classical Art</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Leah and Charles Redish Gallery</atom>
+      <atom name="LocLevel3">K312</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">31723</atom>
+        <atom name="irn">12776</atom>
+        <atom name="EleTitle">Dagwood ID for 47.38</atom>
+        <atom name="EleIdentifier">31723</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 3 -->
+  <tuple>
+    <atom name="irn">11714</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">47.42</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1947-02-18</atom>
+    <atom name="TitMainTitle">Black-Figure Neck Amphora</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Containers</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">amphora</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">about 520-500 B.C.E.</atom>
+    <atom name="CreEarliestDate">-520</atom>
+    <atom name="CreLatestDate">-500</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationCultureOrPeople">Greek</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes">Artist: Antimenes</atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">slip</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">terra-cotta</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">terra-cotta with white slip decoration</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">17-1/2 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">17.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 44.5</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Mr. &amp; Mrs. Eli Lilly</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">904.2-Classical Art</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Leah and Charles Redish Gallery</atom>
+      <atom name="LocLevel3">K312</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">31725</atom>
+        <atom name="irn">13903</atom>
+        <atom name="EleTitle">Dagwood ID for 47.42</atom>
+        <atom name="EleIdentifier">31725</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 4 -->
+  <tuple>
+    <atom name="irn">14330</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">47.34</atom>
+    <atom name="TitPreviousAccessionNo">TR4892/2</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1947-02-18</atom>
+    <atom name="TitMainTitle">Red-Figure Hydria-Calpis: Hephaestus Returning to Mt. Olympus</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Containers</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">amphora</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">about 470 B.C.E.</atom>
+    <atom name="CreEarliestDate">-500</atom>
+    <atom name="CreLatestDate">-430</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationCultureOrPeople">Greek</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes">Artist: Agrigento Painter</atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">terra-cotta</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">terra-cotta</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">Red-figured hydria, band half way around on shoulder of vessel, band with darts just below it and bands on rim. Remaining parts black.</atom>
+    <atom name="PhyConvertedDims">15 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">15.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 38.1</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Mr. and Mrs. Eli Lilly</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">Vladimir G. Simkhovitch; Mr. and Mrs. Eli Lilly, Indianapolis, Indiana; given to the John Herron Art Institute, now the Indianapolis Museum of Art at Newfields in 1947.</atom>
+    <atom name="PhyCollectionArea">904.2-Classical Art</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Leah and Charles Redish Gallery</atom>
+      <atom name="LocLevel3">K312</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">Figure 21 (reproduced-detail)</atom>
+        <atom name="irn">1062</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes">31719</atom>
+        <atom name="irn">16507</atom>
+        <atom name="EleTitle">Dagwood ID for 47.34</atom>
+        <atom name="EleIdentifier">31719</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 5 -->
+  <tuple>
+    <atom name="irn">14571</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">20.166</atom>
+    <atom name="TitPreviousAccessionNo">No TR number</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate"></atom>
+    <atom name="TitMainTitle">Black Figure Lekythos</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Containers</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">vases</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">350 B.C.E.</atom>
+    <atom name="CreEarliestDate">-350</atom>
+    <atom name="CreLatestDate">-350</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationCultureOrPeople">Greek</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">paint</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">ceramic</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">painted ceramic</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">small vase with circular pedestal foot, body is roughly cone shaped- wider near the top, long narrow neck with rolled mouth; ceramic is reddish in color with black and blue painted decoration</atom>
+    <atom name="PhyConvertedDims">5 x 2 (diam.) in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">5.0000</atom>
+        <atom name="PhyDiameter">2.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 12.7 x 5.1 (diam.) cm.</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Winant Johnson</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">Winant Johnston; presented to the IMA (1920)</atom>
+    <atom name="PhyCollectionArea">904.2-Classical Art</atom>
+    <atom name="LocMovementType">Storage Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Cc3</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">17228</atom>
+        <atom name="irn">16747</atom>
+        <atom name="EleTitle">Dagwood ID for 20.166</atom>
+        <atom name="EleIdentifier">17228</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 6 -->
+  <tuple>
+    <atom name="irn">14851</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">23.35</atom>
+    <atom name="TitPreviousAccessionNo">TR78/2</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate"></atom>
+    <atom name="TitMainTitle">small dish</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Containers</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">dishes</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">date unknown</atom>
+    <atom name="CreEarliestDate"></atom>
+    <atom name="CreLatestDate"></atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationCultureOrPeople">Greek</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">earthenware</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">earthenware</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique">pottery</atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">earthenware dish with two handles</atom>
+    <atom name="PhyConvertedDims">1-1/8 x 2-15/16 (diam.) in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">1.1250</atom>
+        <atom name="PhyDiameter">2.9375</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 2.9 x 7.5 (diam.) cm.</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Miss Lucy M. Taggart</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">Lucy M. Taggart; presented to the IMA (1923)</atom>
+    <atom name="PhyCollectionArea">904.2-Classical Art</atom>
+    <atom name="LocMovementType">Collection Ranking Project 2015-2017</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Cc3</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">16928</atom>
+        <atom name="irn">17024</atom>
+        <atom name="EleTitle">Dagwood ID for 23.35</atom>
+        <atom name="EleIdentifier">16928</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 7 -->
+  <tuple>
+    <atom name="irn">16626</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">47.35</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate"></atom>
+    <atom name="TitMainTitle">Attic Red-Figure Lekythos: Zeus and Ganymede</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Sculpture</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">jars</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">about 460-420 B.C.E.</atom>
+    <atom name="CreEarliestDate">-460</atom>
+    <atom name="CreLatestDate">-420</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationCultureOrPeople">Greek</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes">Artist: Manner of Achilles Painter</atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">terra-cotta</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">terra-cotta</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">H: 15 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">15.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 38.09999943 cm height</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Mr. &amp; Mrs. Eli Lilly</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">904.2-Classical Art</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Leah and Charles Redish Gallery</atom>
+      <atom name="LocLevel3">K312</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">31720</atom>
+        <atom name="irn">18789</atom>
+        <atom name="EleTitle">Dagwood ID for 47.35</atom>
+        <atom name="EleIdentifier">31720</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 8 -->
+  <tuple>
+    <atom name="irn">16704</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">57.131A-B</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate"></atom>
+    <atom name="TitMainTitle">Apulian Lekanis: Head of a Woman and Winged Genie</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Sculpture</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">sculptures</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">late 4th century B.C.E.</atom>
+    <atom name="CreEarliestDate">-400</atom>
+    <atom name="CreLatestDate">-370</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationCultureOrPeople">Greek</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">terra-cotta</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">terra-cotta</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">H: 6-1/8 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">6.1250</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 15.5</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Mrs. Henry E. Perry</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">904.2-Classical Art</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Leah and Charles Redish Gallery</atom>
+      <atom name="LocLevel3">K312</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">31729</atom>
+        <atom name="irn">18867</atom>
+        <atom name="EleTitle">Dagwood ID for 57.131A-B</atom>
+        <atom name="EleIdentifier">31729</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 9 -->
+  <tuple>
+    <atom name="irn">19671</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">47.37</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate"></atom>
+    <atom name="TitMainTitle">Attic Red-Figure Kylix: Hetaira Drawing Water from a Pithos</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Containers</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">amphora</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">about 500 B.C.E.</atom>
+    <atom name="CreEarliestDate">-550</atom>
+    <atom name="CreLatestDate">-450</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationCultureOrPeople">Greek</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes">Artist: Chaire Painter
+Athensa</atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">slip</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">earthenware</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">earthenware with slip decoration</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">Red-figure Kylix, inside in a circle a nude woman is kneeling by a storage jar.</atom>
+    <atom name="PhyConvertedDims">3 x 7-1/4 (diam.) in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">3.0000</atom>
+        <atom name="PhyDiameter">7.2500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 7.62 x 18.41 (diam.)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Mr. and Mrs. Eli Lilly</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">Arthur Sambon [1867-1947], Paris; Sale (Galerie Georges Petit, Paris) in 1914.{1} (Joseph Brummer Gallery, New York); Eli Lilly [1885-1977], Indianapolis; given to the Indianapolis Museum of Art in 1947 (47.37).
+
+{1} Galerie Georges Petit, Paris, Objets dart et de haute curiosité de lantiquité, du moyen age, de la renaissance, et autres, 25-28 May 1914, lot 100.</atom>
+    <atom name="PhyCollectionArea">904.2-Classical Art</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Leah and Charles Redish Gallery</atom>
+      <atom name="LocLevel3">K312</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+  </tuple>
+
+  <!-- Row 10 -->
+  <tuple>
+    <atom name="irn">22004</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">18.128</atom>
+    <atom name="TitPreviousAccessionNo">No TR Number</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1918-07-22</atom>
+    <atom name="TitMainTitle">vase</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Containers</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">vases</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">date unknown</atom>
+    <atom name="CreEarliestDate"></atom>
+    <atom name="CreLatestDate"></atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationCultureOrPeople">Greek</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">paint</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">ceramic</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">painted ceramic</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">small vase with pedestal foot, wide body, long narrow neck with horizontal decorative ridge at midline and flared mouth, one narrow handle; ceramic is reddish in color with black paint decoration</atom>
+    <atom name="PhyConvertedDims">5 x 1-1/2 (diam.) in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">5.0000</atom>
+        <atom name="PhyDiameter">1.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 12.7 x 3.8 (diam.) cm.</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Mary A. Dye</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">Mary A. Dye; presented to the IMA (1918)</atom>
+    <atom name="PhyCollectionArea">904.2-Classical Art</atom>
+    <atom name="LocMovementType">Storage Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Cc3</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">16924</atom>
+        <atom name="irn">24143</atom>
+        <atom name="EleTitle">Dagwood ID for 18.128</atom>
+        <atom name="EleIdentifier">16924</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 11 -->
+  <tuple>
+    <atom name="irn">23506</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">47.45</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate"></atom>
+    <atom name="TitMainTitle">Aphrodite</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Sculpture</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">sculptures</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">4th-3rd centuries B.C.E.</atom>
+    <atom name="CreEarliestDate">400</atom>
+    <atom name="CreLatestDate">200</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationCultureOrPeople">Greek</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes">Tanagra</atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">paint</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">terra-cotta</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">painted terra-cotta</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">No measurement details.</atom>
+    <atom name="SumCreditLine">Gift of Mr.and Mrs. Eli Lilly</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">904.2-Classical Art</atom>
+    <atom name="LocMovementType">Inventory Beginning 2018 - ten year schedule for upcoming reaccreditation</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Xc2</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">17234</atom>
+        <atom name="irn">25639</atom>
+        <atom name="EleTitle">Dagwood ID for 47.45</atom>
+        <atom name="EleIdentifier">17234</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 12 -->
+  <tuple>
+    <atom name="irn">24750</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">47.43</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1947-02-18</atom>
+    <atom name="TitMainTitle">Black-Figure Hydria: Departing Warriors</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Containers</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">amphora</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">about 530-510 B.C.E.</atom>
+    <atom name="CreEarliestDate">-530</atom>
+    <atom name="CreLatestDate">-510</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationCultureOrPeople">Greek</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes">Artist: Leagros Group</atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">glaze</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">terra-cotta</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">terra-cotta with black glaze</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">17-3/4 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">17.7500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 45.08</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Mr. and Mrs. Eli Lilly</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">904.2-Classical Art</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Leah and Charles Redish Gallery</atom>
+      <atom name="LocLevel3">K312</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">31726</atom>
+        <atom name="irn">26880</atom>
+        <atom name="EleTitle">Dagwood ID for 47.43</atom>
+        <atom name="EleIdentifier">31726</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 13 -->
+  <tuple>
+    <atom name="irn">29029</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">47.40A-B</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate"></atom>
+    <atom name="TitMainTitle">Pyxis: Nereid Riding a Hippocamp</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes">A) container B) cover</atom>
+    <atom name="TitObjectType">Containers</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">amphora</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">3rd century B.C.E.</atom>
+    <atom name="CreEarliestDate">-300</atom>
+    <atom name="CreLatestDate">-200</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationCultureOrPeople">Greek</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">terra-cotta</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">terra-cotta</atom>
+    <atom name="PhyStyle">Hellenistic</atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">2-1/2 x 5-3/8 (diam.) in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">2.5000</atom>
+        <atom name="PhyDiameter">5.3750</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 6.4 x 13.7</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Mr. &amp; Mrs. Eli Lilly</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">904.2-Classical Art</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">see related parts</atom>
+      <atom name="LocLevel3"></atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">Yes</atom>
+    <table name="Children">
+      <tuple>
+        <atom name="irn">85758</atom>
+        <atom name="TitMainTitle">cover for Pyxis: Nereid Riding a Hippocamp</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">85757</atom>
+        <atom name="TitMainTitle">Pyxis: Nereid Riding a Hippocamp</atom>
+      </tuple>
+    </table>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">31727</atom>
+        <atom name="irn">31134</atom>
+        <atom name="EleTitle">Dagwood ID for 47.40A-B</atom>
+        <atom name="EleIdentifier">31727</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 14 -->
+  <tuple>
+    <atom name="irn">29030</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">47.39</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1947-02-18</atom>
+    <atom name="TitMainTitle">Attic Red-Figure Skyphos: Flute Player and Youth</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Containers</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">amphora</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">about 440-410 B.C.E.</atom>
+    <atom name="CreEarliestDate">-440</atom>
+    <atom name="CreLatestDate">-410</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationCultureOrPeople">Greek</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes">Artist: Shuvalov Painter</atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">terra-cotta</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">terra-cotta</atom>
+    <atom name="PhyStyle">attics</atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">No measurement details.</atom>
+    <atom name="SumCreditLine">Gift of Mr. and Mrs. Eli Lilly</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">904.2-Classical Art</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Leah and Charles Redish Gallery</atom>
+      <atom name="LocLevel3">K312</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">31724</atom>
+        <atom name="irn">31135</atom>
+        <atom name="EleTitle">Dagwood ID for 47.39</atom>
+        <atom name="EleIdentifier">31724</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 15 -->
+  <tuple>
+    <atom name="irn">31006</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">47.36</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate"></atom>
+    <atom name="TitMainTitle">Attic Black-Figure Band Cup: Lionesses and Goats</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Sculpture</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">amphora</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">about 540-530 B.C.E.</atom>
+    <atom name="CreEarliestDate">-540</atom>
+    <atom name="CreLatestDate">-530</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationCultureOrPeople">Greek</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">terra-cotta</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">terra-cotta</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">5-5/8 x 8-3/8 (diam.) in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">5.6250</atom>
+        <atom name="PhyDiameter">8.3750</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 14.28749979 cm height x 21.27249968 cm diameter</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Mr. and Mrs. Eli Lilly</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">904.2-Classical Art</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Leah and Charles Redish Gallery</atom>
+      <atom name="LocLevel3">K312</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">31721</atom>
+        <atom name="irn">63686</atom>
+        <atom name="EleTitle">Dagwood ID for 47.36</atom>
+        <atom name="EleIdentifier">31721</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 16 -->
+  <tuple>
+    <atom name="irn">31585</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">47.41</atom>
+    <atom name="TitPreviousAccessionNo">TR4892/9</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate"></atom>
+    <atom name="TitMainTitle">seated goddess (Demeter)</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Sculpture</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">sculptures</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">300 B.C.E.</atom>
+    <atom name="CreEarliestDate">-300</atom>
+    <atom name="CreLatestDate">-300</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationCultureOrPeople">Greek</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes">Tanagra</atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">slip glaze</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">terra-cotta</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">terra-cotta with white slip glaze</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">terra-cotta sculpture of seated figure wearing circular headgear, sculpture slip glazed</atom>
+    <atom name="PhyConvertedDims">9 x 4-1/2 x 3-1/2 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">9.0000</atom>
+        <atom name="PhyWidth">4.5000</atom>
+        <atom name="PhyDepth">3.5000</atom>
+        <atom name="PhyDimensionNotes">Metric: 22.9 x 11.4 x 8.9 cm.</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Mr. and Mrs. Eli Lilly</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">Mr. and Mrs. Eli Lilly; presented to the IMA (1947)</atom>
+    <atom name="PhyCollectionArea">904.2-Classical Art</atom>
+    <atom name="LocMovementType">Inventory Beginning 2018 - ten year schedule for upcoming reaccreditation</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Xc2</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">17233</atom>
+        <atom name="irn">64259</atom>
+        <atom name="EleTitle">Dagwood ID for 47.41</atom>
+        <atom name="EleIdentifier">17233</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 17 -->
+  <tuple>
+    <atom name="irn">31859</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">31.299</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1931-12-15</atom>
+    <atom name="TitMainTitle">Red-figure Stamnos: Dionysiac Procession</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Sculpture</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">vessels</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">470-440 B.C.E.</atom>
+    <atom name="CreEarliestDate">-470</atom>
+    <atom name="CreLatestDate">-440</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationCultureOrPeople">Greek</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes">Artist: Hermonax (said to be from Vulci, Etruria)</atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">terra-cotta</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">terra-cotta</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">14-3/4 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">14.7500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 37.46500</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">From the Martha Delzell Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">904.2-Classical Art</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Leah and Charles Redish Gallery</atom>
+      <atom name="LocLevel3">K312</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">31812</atom>
+        <atom name="irn">64532</atom>
+        <atom name="EleTitle">Dagwood ID for 31.299</atom>
+        <atom name="EleIdentifier">31812</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 18 -->
+  <tuple>
+    <atom name="irn">85757</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="TitAccessionNo">47.40A</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate"></atom>
+    <atom name="TitMainTitle">Pyxis: Nereid Riding a Hippocamp</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes">A) container B) cover</atom>
+    <atom name="TitObjectType">Containers</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">amphora</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">3rd century B.C.E.</atom>
+    <atom name="CreEarliestDate">-300</atom>
+    <atom name="CreLatestDate">-200</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationCultureOrPeople">Greek</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">terra-cotta</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">terra-cotta</atom>
+    <atom name="PhyStyle">Hellenistic</atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">2-1/2 x 5-3/8 (diam.) in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">2.5000</atom>
+        <atom name="PhyDiameter">5.3750</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 6.4 x 13.7</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Mr. &amp; Mrs. Eli Lilly</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">904.2-Classical Art</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Leah and Charles Redish Gallery</atom>
+      <atom name="LocLevel3">K312</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">29029</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">group (part of)</atom>
+        <atom name="irn">85758</atom>
+      </tuple>
+    </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">82374</atom>
+        <atom name="irn">54912</atom>
+        <atom name="EleTitle">Dagwood ID for 47.40A</atom>
+        <atom name="EleIdentifier">82374</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 19 -->
+  <tuple>
+    <atom name="irn">85758</atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="TitAccessionNo">47.40B</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate"></atom>
+    <atom name="TitMainTitle">cover for Pyxis: Nereid Riding a Hippocamp</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes">A) container B) cover</atom>
+    <atom name="TitObjectType">Containers</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">amphora</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">3rd century B.C.E.</atom>
+    <atom name="CreEarliestDate">-300</atom>
+    <atom name="CreLatestDate">-200</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationCultureOrPeople">Greek</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">terra-cotta</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">terra-cotta</atom>
+    <atom name="PhyStyle">Hellenistic</atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">2-1/2 x 5-3/8 (diam.) in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">2.5000</atom>
+        <atom name="PhyDiameter">5.3750</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 6.4 x 13.7</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Mr. &amp; Mrs. Eli Lilly</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">904.2-Classical Art</atom>
+    <atom name="LocMovementType">Exhibition Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Leah and Charles Redish Gallery</atom>
+      <atom name="LocLevel3">K312</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+      <atom name="irn">29029</atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <table name="Related">
+      <tuple>
+        <atom name="AssRelationship">group (part of)</atom>
+        <atom name="irn">85757</atom>
+      </tuple>
+    </table>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">82375</atom>
+        <atom name="irn">54913</atom>
+        <atom name="EleTitle">Dagwood ID for 47.40B</atom>
+        <atom name="EleIdentifier">82375</atom>
+      </tuple>
+    </table>
+  </tuple>
+</table>

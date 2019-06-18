@@ -400,6 +400,32 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/1065/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of The Bachelor Boudoir (Corner of the Studio)",
+                    "content": "Signed, l.r.: C FISCUS",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/1065/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about The Bachelor Boudoir (Corner of the Studio)",
+                    "content": "Keep \"Latest\" date as 1883, the year the painting was exhibited at the National Academy of Design.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/1065/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -451,6 +477,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/1065/frame-1/height",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for The Bachelor Boudoir (Corner of the Studio)",
                             "value": "34.7500",
                             "classified_as": [
                                 {
@@ -468,6 +495,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/1065/frame-1/width",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for The Bachelor Boudoir (Corner of the Studio)",
                             "value": "24.7500",
                             "classified_as": [
                                 {
@@ -485,6 +513,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/1065/frame-1/depth",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for The Bachelor Boudoir (Corner of the Studio)",
                             "value": "4.0000",
                             "classified_as": [
                                 {
@@ -993,6 +1022,19 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/3521/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of Still Life with Flowerpot",
+                    "content": "Signed and dated, l.r.: PAUL E BEEM 30",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/3521/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -1044,6 +1086,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/3521/frame-1/height",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for Still Life with Flowerpot",
                             "value": "29.0000",
                             "classified_as": [
                                 {
@@ -1061,6 +1104,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/3521/frame-1/width",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for Still Life with Flowerpot",
                             "value": "31.0000",
                             "classified_as": [
                                 {
@@ -1078,6 +1122,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/3521/frame-1/depth",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for Still Life with Flowerpot",
                             "value": "2.7500",
                             "classified_as": [
                                 {
@@ -1331,6 +1376,32 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/8407/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of quilt (Diamond in Square)",
+                    "content": "wool twill weave and cotton plain weave, pieced and quilted 'diamond in a square' theme",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/8407/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of quilt (Diamond in Square)",
+                    "content": "Sewn, back side, lower corner: S P",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/8407/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -1546,6 +1617,19 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/14365/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of fragment",
+                    "content": "(Medium: wool threads on cotton. Technique: satin stitch.)  Brocade supplementary weft, four selvedges with heading cords.  Two section top and blue green are complementary weft.  AC 9/95.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
                         }
                     ]
                 },
@@ -1837,6 +1921,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/14617/frame-1/height",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for Matthew Prior",
                             "value": "45.1250",
                             "classified_as": [
                                 {
@@ -1854,6 +1939,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/14617/frame-1/width",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for Matthew Prior",
                             "value": "39.0000",
                             "classified_as": [
                                 {
@@ -2327,6 +2413,19 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/16356/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of Whistler's Mother",
+                    "content": "Signed in pencil, below image, lower right: Henry Wolf sculpt",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/16356/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -2383,6 +2482,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/16356/sheet-1/height",
                             "type": "Dimension",
+                            "_label": "Sheet Dimensions for Whistler's Mother",
                             "value": "11.2500",
                             "classified_as": [
                                 {
@@ -2400,6 +2500,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/16356/sheet-1/width",
                             "type": "Dimension",
+                            "_label": "Sheet Dimensions for Whistler's Mother",
                             "value": "12.2500",
                             "classified_as": [
                                 {
@@ -2431,6 +2532,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/16356/image-1/height",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for Whistler's Mother",
                             "value": "8.0000",
                             "classified_as": [
                                 {
@@ -2448,6 +2550,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/16356/image-1/width",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for Whistler's Mother",
                             "value": "9.0625",
                             "classified_as": [
                                 {
@@ -2687,6 +2790,19 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/16410/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about necklace",
+                    "content": "\"Earliest\" field populated arbitrarily as \"100\" for internal search purposes only.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
                         }
                     ]
                 },
@@ -2970,6 +3086,32 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/17425/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of quilt (Sawtooth Diamond in Square)",
+                    "content": "red and green, pieced and quilted cotton with \"central diamond\" or \"diamond in square\"",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/17425/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about quilt (Sawtooth Diamond in Square)",
+                    "content": "Maybe Mennonite (?) - impossible to tell",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/17425/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -3226,6 +3368,19 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/17577/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about Dines with Writing Material",
+                    "content": "The painting appears in an archival photograph from 1928.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/17577/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -3277,6 +3432,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/17577/frame-1/height",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for Dines with Writing Material",
                             "value": "38.7500",
                             "classified_as": [
                                 {
@@ -3294,6 +3450,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/17577/frame-1/width",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for Dines with Writing Material",
                             "value": "33.0000",
                             "classified_as": [
                                 {
@@ -3311,6 +3468,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/17577/frame-1/depth",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for Dines with Writing Material",
                             "value": "2.5000",
                             "classified_as": [
                                 {
@@ -3532,6 +3690,45 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/20419/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of Love",
+                    "content": "steel welded sculpture of the word \"LOVE\" with the \"L\" stacked on the \"V\" and the tilted \"O\" stacked on the \"E\".  Each component was fabricated from 3/16 inch thick sheets of Cor-ten steel.  The sheets were cut, welded together and then finished to create hollow, enclosed structures.   Each letter is 72 inches deep.  Components are secured together by a bolting system.  Specifically there are 2 sets of four bolts drilled along the one set and located along the proper left serif of \"V\" connecting to the upper proper right serif of \"E\".  The other is located at the proper left serif of \"L\" connecting to the proper right middle of \"O\".   Access panels enable entry for the bolts to be put in place.  Once access panel exists along the entire upper surface of the proper left \"L\" serif; there are two others atop the proper right side of the \"E\".  Central pivot points align the \"O\" over the \"E\".  Two points about 2-3 inches in height are permanently attached to the \"E\".",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/20419/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of Love",
+                    "content": "Stamped, lower proper right edge of the \"E\" along the full length: 1 [gapped]  [copyright symbol] R INDIANA  [in stencilled font] 1970  [HF symbol for Herbert Feuerlicht, Technical Supervisor of Triad Designs] [three stacked lines of smaller text] WORK EXECUTED BY  |  Lippincott  |  NORTH HAVEN CONN",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/20419/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about Love",
+                    "content": "06/23/2016 Per Alfred Lippincott, \"...technical supervisor, Herbert Feuerlicht, of Triad Designs...this accounts for the large HF that is stamped into the metal just to the left of the Lippincott stamp...\"",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
                         }
                     ]
                 },
@@ -3797,6 +3994,32 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/21137/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of Hakone",
+                    "content": "horizontal ^oban",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/21137/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of Hakone",
+                    "content": "Signed by artist: Hiroshige ga\nPublisher's mark: Hōeidō (Takenouchi Magohachi)\nSeal with subtitle: Kosuizu\nInscribed: title and series title",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/21137/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -3848,6 +4071,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/21137/image-1/height",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for Hakone",
                             "value": "9.0000",
                             "classified_as": [
                                 {
@@ -3865,6 +4089,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/21137/image-1/width",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for Hakone",
                             "value": "13.9375",
                             "classified_as": [
                                 {
@@ -4082,6 +4307,19 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/21288/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of Portrait of William Merritt Chase",
+                    "content": "Signed and dated, l.l.: Carroll Beckwith, 1882",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/21288/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -4133,6 +4371,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/21288/frame-1/height",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for Portrait of William Merritt Chase",
                             "value": "85.5000",
                             "classified_as": [
                                 {
@@ -4150,6 +4389,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/21288/frame-1/width",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for Portrait of William Merritt Chase",
                             "value": "45.1250",
                             "classified_as": [
                                 {
@@ -4346,6 +4586,19 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/24693/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of censer in form of teahouse",
+                    "content": "miniature, 2-story hut with front and back doors and design of flowering trees on sides and windows and fence on front.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
                         }
                     ]
                 },
@@ -4663,6 +4916,19 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/24892/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of evening dress",
+                    "content": "Top all in one piece with an elastic, collar extends out of the fabric with slashing, crossover V shape neckline with crossover V shaped skirt opening",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/24892/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -4953,6 +5219,45 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/25098/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of (L) Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left);  (C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛;  (R) Sawamura Tosshō　沢村訥升 as Rai Kunitoshi  来国俊",
+                    "content": "Format: vertical ^oban triptych",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/25098/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of (L) Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left);  (C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛;  (R) Sawamura Tosshō　沢村訥升 as Rai Kunitoshi  来国俊",
+                    "content": "Signed by artist: Gototei Kunisada ga\nCensor's seal: single kiwame",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/25098/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about (L) Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left);  (C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛;  (R) Sawamura Tosshō　沢村訥升 as Rai Kunitoshi  来国俊",
+                    "content": "1839, by date of the play",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/25098/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -5019,6 +5324,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/25098/image-1/height",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for (L) Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left);  (C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛;  (R) Sawamura Tosshō　沢村訥升 as Rai Kunitoshi  来国俊",
                             "value": "15.2500",
                             "classified_as": [
                                 {
@@ -5036,6 +5342,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/25098/image-1/width",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for (L) Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left);  (C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛;  (R) Sawamura Tosshō　沢村訥升 as Rai Kunitoshi  来国俊",
                             "value": "10.1250",
                             "classified_as": [
                                 {
@@ -5261,6 +5568,19 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/37383/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of Oaks of Vernon",
+                    "content": "Signed and dated, l.l.: T.C.Steele .87.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/37383/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -5312,6 +5632,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/37383/frame-1/height",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for Oaks of Vernon",
                             "value": "36.7500",
                             "classified_as": [
                                 {
@@ -5329,6 +5650,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/37383/frame-1/width",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for Oaks of Vernon",
                             "value": "51.7500",
                             "classified_as": [
                                 {
@@ -5346,6 +5668,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/37383/frame-1/depth",
                             "type": "Dimension",
+                            "_label": "Framed Dimensions for Oaks of Vernon",
                             "value": "3.2500",
                             "classified_as": [
                                 {
@@ -5548,6 +5871,19 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/41018/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about Glencoe",
+                    "content": "Publication Date: 1836",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/41018/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -5604,6 +5940,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/41018/sheet-1/height",
                             "type": "Dimension",
+                            "_label": "Sheet Dimensions for Glencoe",
                             "value": "6.7500",
                             "classified_as": [
                                 {
@@ -5621,6 +5958,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/41018/sheet-1/width",
                             "type": "Dimension",
+                            "_label": "Sheet Dimensions for Glencoe",
                             "value": "4.2500",
                             "classified_as": [
                                 {
@@ -5652,6 +5990,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/41018/image-1/height",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for Glencoe",
                             "value": "3.3750",
                             "classified_as": [
                                 {
@@ -5669,6 +6008,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/41018/image-1/width",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for Glencoe",
                             "value": "5.5625",
                             "classified_as": [
                                 {
@@ -5886,6 +6226,19 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/41019/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about Killiecrankie",
+                    "content": "Publication Date: 1836",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/41019/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -5942,6 +6295,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/41019/sheet-1/height",
                             "type": "Dimension",
+                            "_label": "Sheet Dimensions for Killiecrankie",
                             "value": "6.7500",
                             "classified_as": [
                                 {
@@ -5959,6 +6313,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/41019/sheet-1/width",
                             "type": "Dimension",
+                            "_label": "Sheet Dimensions for Killiecrankie",
                             "value": "4.2500",
                             "classified_as": [
                                 {
@@ -5990,6 +6345,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/41019/image-1/height",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for Killiecrankie",
                             "value": "4.0000",
                             "classified_as": [
                                 {
@@ -6007,6 +6363,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/41019/image-1/width",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for Killiecrankie",
                             "value": "3.3750",
                             "classified_as": [
                                 {
@@ -6438,6 +6795,19 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/47035/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of Statue of Augustus Caesar",
+                    "content": "Plaster cast from the 17th century B.C.E. Roman statue of Augustus Caesar form the original marble found in 1863 at the Primia Porta, Lilla of Livia, Rome, and now in the Braccio Nuovo of the Vatican, Rome.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/47035/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -6673,6 +7043,45 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/51330/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of Towing Boat at Yotsugi Dōri [40] (Yotsugi dōri no hikifune)",
+                    "content": "format: vertical ^oban",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/51330/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of Towing Boat at Yotsugi Dōri [40] (Yotsugi dōri no hikifune)",
+                    "content": "Signed by artist: Hirokage ga\nDate seal: Sheep 6 (1859, 6th month)\nPublisher's seal: Tsujioka-ya Bunsuke (Kinkōdō)\nEngraver's seal: Horisen",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/51330/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about Towing Boat at Yotsugi Dōri [40] (Yotsugi dōri no hikifune)",
+                    "content": "Artist is Utagawa Hirokage, Japanese, flourished 1855-1865",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/51330/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -6729,6 +7138,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/51330/sheet-1/height",
                             "type": "Dimension",
+                            "_label": "Sheet Dimensions for Towing Boat at Yotsugi Dōri [40] (Yotsugi dōri no hikifune)",
                             "value": "13.6875",
                             "classified_as": [
                                 {
@@ -6746,6 +7156,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/51330/sheet-1/width",
                             "type": "Dimension",
+                            "_label": "Sheet Dimensions for Towing Boat at Yotsugi Dōri [40] (Yotsugi dōri no hikifune)",
                             "value": "9.3750",
                             "classified_as": [
                                 {
@@ -6777,6 +7188,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/51330/image-1/height",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for Towing Boat at Yotsugi Dōri [40] (Yotsugi dōri no hikifune)",
                             "value": "13.1875",
                             "classified_as": [
                                 {
@@ -6794,6 +7206,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/51330/image-1/width",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for Towing Boat at Yotsugi Dōri [40] (Yotsugi dōri no hikifune)",
                             "value": "8.5625",
                             "classified_as": [
                                 {
@@ -7015,6 +7428,45 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/52481/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of Spring snow on Sumida River 隅田川　春雪",
+                    "content": "book pages. 2 –page layout of snowy river landscape scene with boats, and passengers in a boat in the foreground.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/52481/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of Spring snow on Sumida River 隅田川　春雪",
+                    "content": "Kyoka poem",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/52481/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about Spring snow on Sumida River 隅田川　春雪",
+                    "content": "place of creation, probably Edo",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/52481/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -7071,6 +7523,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/52481/sheet-1/height",
                             "type": "Dimension",
+                            "_label": "Sheet Dimensions for Spring snow on Sumida River 隅田川　春雪",
                             "value": "22.3000",
                             "classified_as": [
                                 {
@@ -7269,6 +7722,19 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/55312/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about ",
+                    "content": "Publication Date: 1836",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
                         }
                     ]
                 },
@@ -8378,6 +8844,19 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/64628/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of Broken Family tea set",
+                    "content": ".1A-B) teapot .2A-B) sugar bowl .3) creamer .4) cup .5) cup .6) cup .7) cup .8) saucer .9) saucer .10) saucer .11) saucer .12) platter .13) plate .14) plate .15) plate .16) plate",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
                         }
                     ]
                 },
@@ -9905,6 +10384,19 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/68903/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about Free Basket",
+                    "content": "IMA commission",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/68903/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -10747,6 +11239,19 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/81052/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of dress",
+                    "content": "black silk dress with neon fringe draped horizontally across bodice with proper right ends tassled below waistline, neon fringe hanging downward from both side panels beginning below hips,  tank top, scooped neckline, shin length, size 3",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/81052/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -11012,6 +11517,45 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/82696/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of Five Brushstrokes",
+                    "content": "A) Element A / Black and Yellow Drip, B) Element B / Red and White, C) Element C / Black & White, E.1) Element E #1 / Bottom, Black & White, E.2) Element E #2 / Red & White, E.3) Element E #3 / Black &  Yellow, E.4) Element E #4 / Top, Black & White",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/82696/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of Five Brushstrokes",
+                    "content": "rf Lichtenstein 83-84 AP <copyright> The Roy Lichtenstein Foundation, 2012",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/82696/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about Five Brushstrokes",
+                    "content": "The sculpture was created posthumously from the aritist's specificiations, and originally commissioned by by an arts patron for the University of California at San Diego's campus in LaJolla, but was never fabricated beyond the artist's maquettes.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
                         }
                     ]
                 },
@@ -11327,6 +11871,45 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/85257/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of element A for Five Brushstrokes",
+                    "content": "A) Element A / Black and Yellow Drip, B) Element B / Red and White, C) Element C / Black & White, E.1) Element E #1 / Bottom, Black & White, E.2) Element E #2 / Red & White, E.3) Element E #3 / Black &  Yellow, E.4) Element E #4 / Top, Black & White",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/85257/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of element A for Five Brushstrokes",
+                    "content": "rf Lichtenstein 83-84 AP <copyright> The Roy Lichtenstein Foundation, 2012",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/85257/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about element A for Five Brushstrokes",
+                    "content": "The sculpture was created posthumously from the aritist's specificiations, and originally commissioned by by an arts patron for the University of California at San Diego's campus in LaJolla, but was never fabricated beyond the artist's maquettes.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/85257/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -11594,6 +12177,19 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89163/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of blouse for evening dress",
+                    "content": "Top all in one piece with an elastic, collar extends out of the fabric with slashing, crossover V shape neckline with crossover V shaped skirt opening",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
                         }
                     ]
                 },
@@ -11874,6 +12470,19 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/89164/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of skirt for evening dress",
+                    "content": "Top all in one piece with an elastic, collar extends out of the fabric with slashing, crossover V shape neckline with crossover V shaped skirt opening",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/89164/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -12132,6 +12741,32 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/89367/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left)",
+                    "content": "Format: vertical ^oban triptych",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89367/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left)",
+                    "content": "1839, by date of the play",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/89367/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -12183,6 +12818,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/89367/image-1/height",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left)",
                             "value": "15.2500",
                             "classified_as": [
                                 {
@@ -12200,6 +12836,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/89367/image-1/width",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left)",
                             "value": "10.1250",
                             "classified_as": [
                                 {
@@ -12440,6 +13077,32 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/89368/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of (C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛",
+                    "content": "Format: vertical ^oban triptych",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89368/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about (C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛",
+                    "content": "1839, by date of the play",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/89368/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -12491,6 +13154,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/89368/image-1/height",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for (C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛",
                             "value": "15.2500",
                             "classified_as": [
                                 {
@@ -12508,6 +13172,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/89368/image-1/width",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for (C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛",
                             "value": "10.1250",
                             "classified_as": [
                                 {
@@ -12748,6 +13413,45 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/89369/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊",
+                    "content": "Format: vertical ^oban triptych",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89369/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊",
+                    "content": "Signed by artist: Gototei Kunisada ga\nCensor's seal: single kiwame",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/89369/creation-notes",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Creation Notes about Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊",
+                    "content": "1839, by date of the play",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300027200",
+                            "type": "Type",
+                            "_label": "notes (documents)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/89369/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -12799,6 +13503,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/89369/image-1/height",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊",
                             "value": "15.2500",
                             "classified_as": [
                                 {
@@ -12816,6 +13521,7 @@
                         {
                             "id": "https://data.discovernewfields.org/object/89369/image-1/width",
                             "type": "Dimension",
+                            "_label": "Image Dimensions for Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊",
                             "value": "10.1250",
                             "classified_as": [
                                 {
@@ -13024,6 +13730,32 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/90817/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of Tricorne candleholders",
+                    "content": "Three- piece glass candleabra with a triangle top",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/90817/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of Tricorne candleholders",
+                    "content": "Engraved on bottom: Val St Lambert",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
                         }
                     ]
                 }
@@ -13258,6 +13990,32 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/92158/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of Tricorne candleholder",
+                    "content": "Three- piece glass candleabra with a triangle top",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/92158/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of Tricorne candleholder",
+                    "content": "Engraved on bottom: Val St Lambert",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
                 }
             ]
         }
@@ -13456,6 +14214,32 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/92159/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of Tricorne candleholders",
+                    "content": "Three- piece glass candleabra with a triangle top",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/92159/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of Tricorne candleholders",
+                    "content": "Engraved on bottom: Val St Lambert",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
                         }
                     ]
                 }
@@ -13658,6 +14442,32 @@
                             "_label": "brief texts"
                         }
                     ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/92160/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of Tricorne candleholder",
+                    "content": "Three- piece glass candleabra with a triangle top",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/92160/mark-description",
+                    "type": "LinguisticObject",
+                    "_label": "Mark Description of Tricorne candleholder",
+                    "content": "Engraved on bottom: Val St Lambert",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300028744",
+                            "type": "Type",
+                            "_label": "marks (symbols)"
+                        }
+                    ]
                 }
             ]
         }
@@ -13844,6 +14654,19 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/92384/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of censer in form of teahouse",
+                    "content": "miniature, 2-story hut with front and back doors and design of flowering trees on sides and windows and fence on front.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
                         }
                     ]
                 },
@@ -14071,6 +14894,19 @@
                     ]
                 },
                 {
+                    "id": "https://data.discovernewfields.org/object/92385/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of censer in form of teahouse",
+                    "content": "miniature, 2-story hut with front and back doors and design of flowering trees on sides and windows and fence on front.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
+                        }
+                    ]
+                },
+                {
                     "id": "https://data.discovernewfields.org/object/92385/rights-statement",
                     "type": "LinguisticObject",
                     "_label": "Rights Statement",
@@ -14290,6 +15126,19 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/92386/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of censer in form of teahouse",
+                    "content": "miniature, 2-story hut with front and back doors and design of flowering trees on sides and windows and fence on front.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
                         }
                     ]
                 },
@@ -14563,6 +15412,19 @@
                             "id": "http://vocab.getty.edu/aat/300418049",
                             "type": "Type",
                             "_label": "brief texts"
+                        }
+                    ]
+                },
+                {
+                    "id": "https://data.discovernewfields.org/object/93739/description",
+                    "type": "LinguisticObject",
+                    "_label": "Description of wall fountain",
+                    "content": "four pieces per file.",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300411780",
+                            "type": "Type",
+                            "_label": "descriptions (documents)"
                         }
                     ]
                 },
