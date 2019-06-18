@@ -199,6 +199,11 @@
                             "id": "http://vocab.getty.edu/aat/300028744",
                             "type": "Type",
                             "_label": "marks (symbols)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -212,6 +217,11 @@
                             "id": "http://vocab.getty.edu/aat/300027200",
                             "type": "Type",
                             "_label": "notes (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -774,6 +784,11 @@
                             "id": "http://vocab.getty.edu/aat/300028744",
                             "type": "Type",
                             "_label": "marks (symbols)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -1117,6 +1132,11 @@
                             "id": "http://vocab.getty.edu/aat/300411780",
                             "type": "Type",
                             "_label": "descriptions (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -1366,6 +1386,11 @@
                             "id": "http://vocab.getty.edu/aat/300411780",
                             "type": "Type",
                             "_label": "descriptions (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -1912,6 +1937,11 @@
                             "id": "http://vocab.getty.edu/aat/300028744",
                             "type": "Type",
                             "_label": "marks (symbols)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -2266,6 +2296,11 @@
                             "id": "http://vocab.getty.edu/aat/300411780",
                             "type": "Type",
                             "_label": "descriptions (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -3202,6 +3237,11 @@
                             "id": "http://vocab.getty.edu/aat/300411780",
                             "type": "Type",
                             "_label": "descriptions (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -3215,6 +3255,11 @@
                             "id": "http://vocab.getty.edu/aat/300028744",
                             "type": "Type",
                             "_label": "marks (symbols)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -3468,6 +3513,11 @@
                             "id": "http://vocab.getty.edu/aat/300411780",
                             "type": "Type",
                             "_label": "descriptions (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -3481,6 +3531,11 @@
                             "id": "http://vocab.getty.edu/aat/300028744",
                             "type": "Type",
                             "_label": "marks (symbols)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -3494,6 +3549,11 @@
                             "id": "http://vocab.getty.edu/aat/300027200",
                             "type": "Type",
                             "_label": "notes (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -3751,6 +3811,11 @@
                             "id": "http://vocab.getty.edu/aat/300411780",
                             "type": "Type",
                             "_label": "descriptions (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -3764,6 +3829,11 @@
                             "id": "http://vocab.getty.edu/aat/300027200",
                             "type": "Type",
                             "_label": "notes (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -4050,6 +4120,11 @@
                             "id": "http://vocab.getty.edu/aat/300411780",
                             "type": "Type",
                             "_label": "descriptions (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -4063,6 +4138,11 @@
                             "id": "http://vocab.getty.edu/aat/300028744",
                             "type": "Type",
                             "_label": "marks (symbols)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -4076,6 +4156,11 @@
                             "id": "http://vocab.getty.edu/aat/300027200",
                             "type": "Type",
                             "_label": "notes (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -4683,6 +4768,11 @@
                             "id": "http://vocab.getty.edu/aat/300028744",
                             "type": "Type",
                             "_label": "marks (symbols)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -4696,6 +4786,11 @@
                             "id": "http://vocab.getty.edu/aat/300027200",
                             "type": "Type",
                             "_label": "notes (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -5386,6 +5481,11 @@
                             "id": "http://vocab.getty.edu/aat/300411780",
                             "type": "Type",
                             "_label": "descriptions (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -5892,6 +5992,11 @@
                             "id": "http://vocab.getty.edu/aat/300411780",
                             "type": "Type",
                             "_label": "descriptions (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -6097,6 +6202,11 @@
                             "id": "http://vocab.getty.edu/aat/300411780",
                             "type": "Type",
                             "_label": "descriptions (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -6333,6 +6443,11 @@
                             "id": "http://vocab.getty.edu/aat/300028744",
                             "type": "Type",
                             "_label": "marks (symbols)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 }
@@ -6669,6 +6784,11 @@
                             "id": "http://vocab.getty.edu/aat/300027200",
                             "type": "Type",
                             "_label": "notes (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -7174,6 +7294,11 @@
                             "id": "http://vocab.getty.edu/aat/300411780",
                             "type": "Type",
                             "_label": "descriptions (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -7187,6 +7312,11 @@
                             "id": "http://vocab.getty.edu/aat/300028744",
                             "type": "Type",
                             "_label": "marks (symbols)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -7463,6 +7593,11 @@
                             "id": "http://vocab.getty.edu/aat/300411780",
                             "type": "Type",
                             "_label": "descriptions (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -7476,6 +7611,11 @@
                             "id": "http://vocab.getty.edu/aat/300028744",
                             "type": "Type",
                             "_label": "marks (symbols)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -7731,6 +7871,11 @@
                             "id": "http://vocab.getty.edu/aat/300411780",
                             "type": "Type",
                             "_label": "descriptions (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -7744,6 +7889,11 @@
                             "id": "http://vocab.getty.edu/aat/300028744",
                             "type": "Type",
                             "_label": "marks (symbols)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -8524,6 +8674,11 @@
                             "id": "http://vocab.getty.edu/aat/300411780",
                             "type": "Type",
                             "_label": "descriptions (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -8537,6 +8692,11 @@
                             "id": "http://vocab.getty.edu/aat/300027200",
                             "type": "Type",
                             "_label": "notes (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },
@@ -8847,6 +9007,11 @@
                             "id": "http://vocab.getty.edu/aat/300411780",
                             "type": "Type",
                             "_label": "descriptions (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 }

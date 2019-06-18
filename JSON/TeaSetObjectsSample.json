@@ -303,6 +303,11 @@
                             "id": "http://vocab.getty.edu/aat/300411780",
                             "type": "Type",
                             "_label": "descriptions (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 },

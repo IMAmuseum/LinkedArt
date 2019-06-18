@@ -402,6 +402,11 @@ Linquistic Objects-->
                             "id": "http://vocab.getty.edu/aat/300411780",
                             "type": "Type",
                             "_label": "descriptions (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 }<xsl:if test="atom[@name='CrePrimaryInscriptions'] != '' or atom[@name='CreCreationNotes'] != '' or table[@name='Rights']">,</xsl:if></xsl:if><xsl:if test="atom[@name='CrePrimaryInscriptions'] != ''">
@@ -415,6 +420,11 @@ Linquistic Objects-->
                             "id": "http://vocab.getty.edu/aat/300028744",
                             "type": "Type",
                             "_label": "marks (symbols)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 }<xsl:if test="atom[@name='CreCreationNotes'] != '' or table[@name='Rights']">,</xsl:if></xsl:if><xsl:if test="atom[@name='CreCreationNotes'] != ''">
@@ -428,6 +438,11 @@ Linquistic Objects-->
                             "id": "http://vocab.getty.edu/aat/300027200",
                             "type": "Type",
                             "_label": "notes (documents)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
                         }
                     ]
                 }<xsl:if test="table[@name='Rights']">,</xsl:if></xsl:if><xsl:if test="table[@name='Rights']">
