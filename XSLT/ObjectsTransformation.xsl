@@ -10,7 +10,7 @@
     <xsl:variable name="crm">http://www.cidoc-crm.org/cidoc-crm/</xsl:variable>
 
 <xsl:template match="/">{"objects": [
-    <xsl:for-each select="table[@name='ecatalogue']/tuple"><xsl:sort select="atom[@name='irn']" data-type="number"/><xsl:variable name="irn"><xsl:value-of select="atom[@name='irn']"/></xsl:variable><xsl:variable name="title"><xsl:value-of select="replace(atom[@name='TitMainTitle'], '&quot;', '\\&quot;')"/></xsl:variable>{<!--
+    <xsl:for-each select="table[@name='ecatalogue']/tuple"><xsl:sort select="atom[@name='irn']" data-type="number"/><xsl:variable name="irn"><xsl:value-of select="atom[@name='irn']"/></xsl:variable><xsl:variable name="title"><xsl:value-of select="replace(atom[@name='TitMainTitle'], '&quot;', '\\&quot;')"/></xsl:variable><xsl:variable name="dimensions" select="('Backing Dimensions','Dimensions','Dimensions Closed','Dimensions Opened','Image and Sheet Dimensions','Installed Dimensions','Overall Dimensions','Rolled Dimensions','Sight Dimensions','Unframed Dimensions')"/>{<!--
         
 Header-->
         "<xsl:copy-of select="$irn"/>": {
@@ -174,13 +174,13 @@ Production-->
                         "_label": "<xsl:value-of select="atom[@name='CreCreationCultureOrPeople']"/>"
                     }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each></xsl:when><xsl:otherwise/></xsl:choose>             
                 ]</xsl:if>
-            },<xsl:if test="(table[@name='Color'])">
+            },<xsl:if test="(table[@name='Color']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = $dimensions]) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Circumference'])">
             "dimension": [<!--
 
 Dimensions--><xsl:if test="table[@name='Color']"><xsl:choose><xsl:when test="not(contains(table[@name='Color']/tuple/atom[@name='PhyColor'], '|'))">
                 {
-                    "type": "Dimension",
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/color-1",
+                    "type": "Dimension",
                     "_label": "Color Visibly Identified by IMA staff on Part of the Work",
                     "classified_as": [ 
                         {
@@ -194,10 +194,10 @@ Dimensions--><xsl:if test="table[@name='Color']"><xsl:choose><xsl:when test="not
                             "_label": "Color"
                         }
                     ]
-                }</xsl:when><xsl:otherwise><xsl:for-each select="tokenize(table[@name='Color']/tuple/atom[@name='PhyColor'],' \| ')">
+                }<xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = $dimensions])">,</xsl:if></xsl:when><xsl:otherwise><xsl:for-each select="tokenize(table[@name='Color']/tuple/atom[@name='PhyColor'],' \| ')">
                 {
-                    "type": "Dimension",
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/color-<xsl:value-of select="position()"/>",
+                    "type": "Dimension",
                     "_label": "Color Visibly Identified by IMA staff on Part of the Work",
                     "classified_as": [ 
                         {
@@ -211,7 +211,21 @@ Dimensions--><xsl:if test="table[@name='Color']"><xsl:choose><xsl:when test="not
                             "_label": "Color"
                         }
                     ]
-                }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each></xsl:otherwise></xsl:choose></xsl:if>
+                }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = $dimensions])">,</xsl:if></xsl:otherwise></xsl:choose></xsl:if><xsl:if test="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = $dimensions]"><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = $dimensions]"><xsl:call-template name="dimensions"><xsl:with-param name="dim_type">dimension</xsl:with-param></xsl:call-template><xsl:if test="position() != last()">,</xsl:if></xsl:for-each><xsl:if test="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Circumference']">,</xsl:if></xsl:if><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Circumference'])"><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Circumference']"><xsl:if test="atom[@name='PhyHeight'] != '' or atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">
+                {
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/circumference-<xsl:value-of select="position()"/>",
+                    "type": "Dimension",
+                    "_label": "Circumference of <xsl:copy-of select="$title"/>",
+                    "value": "<xsl:choose><xsl:when test="atom[@name='PhyDiameter'] != ''"><xsl:value-of select="atom[@name='PhyDiameter']"/></xsl:when><xsl:when test="atom[@name='PhyHeight'] != ''"><xsl:value-of select="atom[@name='PhyHeight']"/></xsl:when><xsl:when test="atom[@name='PhyWidth'] != ''"><xsl:value-of select="atom[@name='PhyWidth']"/></xsl:when><xsl:when test="atom[@name='PhyDepth'] != ''"><xsl:value-of select="atom[@name='PhyDepth']"/></xsl:when></xsl:choose>",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055623",
+                            "type": "Type",
+                            "_label": "circumference"
+                        }
+                    ]<xsl:call-template name="dim_unit"/>
+                }<xsl:if test="position() != last()">,</xsl:if>
+                </xsl:if></xsl:for-each></xsl:if>
             ],</xsl:if><!--
                 
 Owner-->
@@ -660,17 +674,7 @@ Homepage-->
                                     "type": "Type",
                                     "_label": "height"
                                 }
-                            ]<xsl:if test="atom[@name='PhyUnitLength'] = 'in.'">,
-                            "unit": {
-                                "id": "http://vocab.getty.edu/aat/300379100",
-                                "type": "Type",
-                                "_label": "inches"
-                            }</xsl:if><xsl:if test="atom[@name='PhyUnitLength'] = 'cm.'">,
-                            "unit": {
-                                "id": "http://vocab.getty.edu/aat/300379098",
-                                "type": "Type",
-                                "_label": "centimeters"
-                            }</xsl:if>
+                            ]<xsl:call-template name="dim_unit"/>
                         }<xsl:if test="atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">,</xsl:if></xsl:if><xsl:if test="atom[@name='PhyWidth'] != ''">
                         {
                             "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/<xsl:value-of select="$dim_type"/>-<xsl:value-of select="position()"/>/width",
@@ -683,17 +687,7 @@ Homepage-->
                                     "type": "Type",
                                     "_label": "width"
                                 }
-                            ]<xsl:if test="atom[@name='PhyUnitLength'] = 'in.'">,
-                            "unit": {
-                                "id": "http://vocab.getty.edu/aat/300379100",
-                                "type": "Type",
-                                "_label": "inches"
-                            }</xsl:if><xsl:if test="atom[@name='PhyUnitLength'] = 'cm.'">,
-                            "unit": {
-                                "id": "http://vocab.getty.edu/aat/300379098",
-                                "type": "Type",
-                                "_label": "centimeters"
-                            }</xsl:if>
+                            ]<xsl:call-template name="dim_unit"/>
                         }<xsl:if test="atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">,</xsl:if></xsl:if><xsl:if test="atom[@name='PhyDepth'] != ''">
                         {
                             "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/<xsl:value-of select="$dim_type"/>-<xsl:value-of select="position()"/>/depth",
@@ -706,20 +700,10 @@ Homepage-->
                                     "type": "Type",
                                     "_label": "depth (size/dimension)"
                                 }
-                            ]<xsl:if test="atom[@name='PhyUnitLength'] = 'in.'">,
-                            "unit": {
-                                "id": "http://vocab.getty.edu/aat/300379100",
-                                "type": "Type",
-                                "_label": "inches"
-                            }</xsl:if><xsl:if test="atom[@name='PhyUnitLength'] = 'cm.'">,
-                            "unit": {
-                                "id": "http://vocab.getty.edu/aat/300379098",
-                                "type": "Type",
-                                "_label": "centimeters"
-                            }</xsl:if>
+                            ]<xsl:call-template name="dim_unit"/>
                         }<xsl:if test="atom[@name='PhyDiameter'] != ''">,</xsl:if></xsl:if><xsl:if test="atom[@name='PhyDiameter'] != ''">
                         {
-                            "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/<xsl:value-of select="$dim_type"/>-<xsl:value-of select="position()"/>/depth",
+                            "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/<xsl:value-of select="$dim_type"/>-<xsl:value-of select="position()"/>/diameter",
                             "type": "Dimension",
                             "_label": "<xsl:value-of select="atom[@name='PhyType']"/> for <xsl:copy-of select="$title"/>",
                             "value": "<xsl:value-of select="atom[@name='PhyDiameter']"/>",
@@ -729,7 +713,12 @@ Homepage-->
                                     "type": "Type",
                                     "_label": "diameter"
                                 }
-                            ]<xsl:if test="atom[@name='PhyUnitLength'] = 'in.'">,
+                            ]<xsl:call-template name="dim_unit"/>
+                        }</xsl:if></xsl:template>
+
+<!--Dimensions Unite Template-->
+<xsl:template name="dim_unit">
+    <xsl:if test="atom[@name='PhyUnitLength'] = 'in.'">,
                             "unit": {
                                 "id": "http://vocab.getty.edu/aat/300379100",
                                 "type": "Type",
@@ -739,6 +728,5 @@ Homepage-->
                                 "id": "http://vocab.getty.edu/aat/300379098",
                                 "type": "Type",
                                 "_label": "centimeters"
-                            }</xsl:if>
-                        }</xsl:if></xsl:template>
+                            }</xsl:if></xsl:template>
 </xsl:stylesheet>
