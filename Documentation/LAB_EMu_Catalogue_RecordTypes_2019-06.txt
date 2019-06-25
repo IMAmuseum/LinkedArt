@@ -1,0 +1,36 @@
+The following values are available in the look-list for TitObjectTypes (Records Type) in the IMA instance of EMu:
+
+- Architectural Elements
+- Art Object
+- Built Environment
+- Components
+- Containers
+- Costume
+- Costume Accessories
+- Default
+- Educational Resources
+- Equipment
+- Exchange Media
+- Fragment
+- Frames
+- Furnishings
+- Furnishings and Equipment
+- Information Forms
+- Measuring Devices
+- Recreational Artifacts
+- Recreational Equipment
+- Sound Devices
+- Tools and Equipment
+- Transportation Vehicles
+- Visual Works: Drawings
+- Visual Works: Multimedia
+- Visual Works: Needlework
+- Visual Works: Paintings
+- Visual Works: Pastels
+- Visual Works: Performance
+- Visual Works: Photographs
+- Visual Works: Prints
+- Visual Works: Sculpture
+- Weapons and Ammunition
+
+See notes above for mapping to AAT terms for use in the Linked Art data, as well as notes about which terms will not be mapped.
