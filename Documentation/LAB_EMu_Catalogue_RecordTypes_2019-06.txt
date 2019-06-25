@@ -22,15 +22,15 @@ The following values are available in the look-list for TitObjectTypes (Records 
 - Sound Devices
 - Tools and Equipment
 - Transportation Vehicles
-- Visual Works: Drawings
-- Visual Works: Multimedia
-- Visual Works: Needlework
-- Visual Works: Paintings
-- Visual Works: Pastels
-- Visual Works: Performance
-- Visual Works: Photographs
-- Visual Works: Prints
-- Visual Works: Sculpture
+DONE - Visual Works: Drawings (aat:300033973)
+DONE - Visual Works: Multimedia (aat:300047910)
+DONE - Visual Works: Needlework (aat:300264072)
+DONE - Visual Works: Paintings (aat:300033618)
+DONE - Visual Works: Pastels (aat:300076922)
+DONE - Visual Works: Performance (aat:300121445)
+DONE - Visual Works: Photographs (aat:300046300)
+DONE - Visual Works: Prints (aat:300041273)
+DONE - Visual Works: Sculpture (aat:300047090)
 - Weapons and Ammunition
 
 See notes above for mapping to AAT terms for use in the Linked Art data, as well as notes about which terms will not be mapped.

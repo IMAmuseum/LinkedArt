@@ -17,21 +17,66 @@ Header-->
             "@context": "https://linked.art/ns/v1/linked-art.json",
             "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>",
             "type": "HumanMadeObject",
-            "_label": "<xsl:copy-of select="$title"/>",<!--
+            "_label": "<xsl:copy-of select="$title"/>",<xsl:if test="(starts-with(atom[@name='TitObjectType'], 'Visual Work')) or (table[@name='ObjectTypes']/tuple/atom[@name='PhyMediaCategory'] != '')"><!--
                 
 Classification-->
-            "classified_as": [
+            "classified_as": [<xsl:if test="starts-with(atom[@name='TitObjectType'], 'Visual Work')">
                 {
                     "id": "http://vocab.getty.edu/aat/300133025",
                     "type": "Type",
                     "_label": "works of art"
-                }<xsl:if test="table[@name='ObjectTypes']/tuple/atom[@name='PhyMediaCategory'] != '' ">,<xsl:for-each select="distinct-values(table[@name='ObjectTypes']/tuple/atom[@name='PhyMediaCategory'])">
+                }<xsl:if test="contains(atom[@name='TitObjectType'], 'Drawings')">,
+                {
+                    "id": "http://vocab.getty.edu/aat/300033973",
+                    "type": "Type",
+                    "_label": "drawings (visual works)"
+                }</xsl:if><xsl:if test="contains(atom[@name='TitObjectType'], 'Multimedia')">,
+                {
+                    "id": "http://vocab.getty.edu/aat/300047910",
+                    "type": "Type",
+                    "_label": "multimedia works"
+                }</xsl:if><xsl:if test="contains(atom[@name='TitObjectType'], 'Needlework')">
+                {
+                    "id": "http://vocab.getty.edu/aat/300264072",
+                    "type": "Type",
+                    "_label": "needlework (visual works)"
+                }</xsl:if><xsl:if test="contains(atom[@name='TitObjectType'], 'Paintings')">,
+                {
+                    "id": "http://vocab.getty.edu/aat/300033618",
+                    "type": "Type",
+                    "_label": "paintings (visual works)"
+                }</xsl:if><xsl:if test="contains(atom[@name='TitObjectType'], 'Pastel')">,
+                {
+                    "id": "http://vocab.getty.edu/aat/300076922",
+                    "type": "Type",
+                    "_label": "pastels (visual works)"
+                }</xsl:if><xsl:if test="contains(atom[@name='TitObjectType'], 'Performance')">,
+                {
+                    "id": "http://vocab.getty.edu/aat/300121445",
+                    "type": "Type",
+                    "_label": "performance art"
+                }</xsl:if><xsl:if test="contains(atom[@name='TitObjectType'], 'Photograph')">,
+                {
+                    "id": "http://vocab.getty.edu/aat/300046300",
+                    "type": "Type",
+                    "_label": "photographs"
+                }</xsl:if><xsl:if test="contains(atom[@name='TitObjectType'], 'Prints')">,
+                {
+                    "id": "http://vocab.getty.edu/aat/300041273",
+                    "type": "Type",
+                    "_label": "prints (visual works)"
+                }</xsl:if><xsl:if test="contains(atom[@name='TitObjectType'], 'Sculpture')">,
+                {
+                    "id": "http://vocab.getty.edu/aat/300047090",
+                    "type": "Type",
+                    "_label": "sculpture (visual works)"
+                }</xsl:if><xsl:if test="table[@name='ObjectTypes']/tuple/atom[@name='PhyMediaCategory'] != ''">,</xsl:if></xsl:if><xsl:for-each select="distinct-values(table[@name='ObjectTypes']/tuple/atom[@name='PhyMediaCategory'])">
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>thesauri/type/<xsl:value-of select="lower-case(translate(replace(.,'[^a-zA-Z0-9 ]',''), ' ', '-'))"/>",
                     "type": "Type",
                     "_label": "<xsl:value-of select="."/>"
-                }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each></xsl:if>
-            ],<!--
+                }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each>
+            ],</xsl:if><!--
                 
 Identifiers-->
             "identified_by": [
@@ -174,10 +219,10 @@ Production-->
                         "_label": "<xsl:value-of select="atom[@name='CreCreationCultureOrPeople']"/>"
                     }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each></xsl:when><xsl:otherwise/></xsl:choose>             
                 ]</xsl:if>
-            },<xsl:if test="(table[@name='Dimensions']/tuple[starts-with(atom[@name='PhyType'], 'Backing') or starts-with(atom[@name='PhyType'], 'Costume') or starts-with(atom[@name='PhyType'], 'Dimensions') or starts-with(atom[@name='PhyType'], 'Hanging') or starts-with(atom[@name='PhyType'], 'Image and Sheet') or starts-with(atom[@name='PhyType'], 'Installed') or starts-with(atom[@name='PhyType'], 'Length') or starts-with(atom[@name='PhyType'], 'Loom') or starts-with(atom[@name='PhyType'], 'Overall Dimensions') or starts-with(atom[@name='PhyType'], 'Rolled') or starts-with(atom[@name='PhyType'], 'Sight') or starts-with(atom[@name='PhyType'], 'Unframed')]) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Circumference']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Warp']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weft']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Volume']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weight']) or (table[@name='Color'])"><!--
+            },<xsl:if test="(table[@name='Dimensions']/tuple[starts-with(atom[@name='PhyType'], 'Backing') or starts-with(atom[@name='PhyType'], 'Costume') or starts-with(atom[@name='PhyType'], 'Dimensions') or starts-with(atom[@name='PhyType'], 'Hanging') or starts-with(atom[@name='PhyType'], 'Image and Sheet') or starts-with(atom[@name='PhyType'], 'Installed') or starts-with(atom[@name='PhyType'], 'Length') or starts-with(atom[@name='PhyType'], 'Loom') or starts-with(atom[@name='PhyType'], 'Overall Dimensions') or starts-with(atom[@name='PhyType'], 'Rolled') or starts-with(atom[@name='PhyType'], 'Sight') or starts-with(atom[@name='PhyType'], 'Unframed')]) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Circumference']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Warp']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weft']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weight']) or (table[@name='Color'])"><!--
 
 Dimensions-->
-            "dimension": [<xsl:if test="(table[@name='Dimensions']/tuple[starts-with(atom[@name='PhyType'], 'Backing') or starts-with(atom[@name='PhyType'], 'Costume') or starts-with(atom[@name='PhyType'], 'Dimensions') or starts-with(atom[@name='PhyType'], 'Hanging') or starts-with(atom[@name='PhyType'], 'Image and Sheet') or starts-with(atom[@name='PhyType'], 'Installed') or starts-with(atom[@name='PhyType'], 'Length') or starts-with(atom[@name='PhyType'], 'Loom') or starts-with(atom[@name='PhyType'], 'Overall Dimensions') or starts-with(atom[@name='PhyType'], 'Rolled') or starts-with(atom[@name='PhyType'], 'Sight') or starts-with(atom[@name='PhyType'], 'Unframed')])"><xsl:for-each select="(table[@name='Dimensions']/tuple[starts-with(atom[@name='PhyType'], 'Backing') or starts-with(atom[@name='PhyType'], 'Costume') or starts-with(atom[@name='PhyType'], 'Dimensions') or starts-with(atom[@name='PhyType'], 'Hanging') or starts-with(atom[@name='PhyType'], 'Image and Sheet') or starts-with(atom[@name='PhyType'], 'Installed') or starts-with(atom[@name='PhyType'], 'Length') or starts-with(atom[@name='PhyType'], 'Loom') or starts-with(atom[@name='PhyType'], 'Overall Dimensions') or starts-with(atom[@name='PhyType'], 'Rolled') or starts-with(atom[@name='PhyType'], 'Sight') or starts-with(atom[@name='PhyType'], 'Unframed')])"><xsl:call-template name="dimensions"><xsl:with-param name="dim_type">dimension</xsl:with-param></xsl:call-template><xsl:if test="position() != last()">,</xsl:if></xsl:for-each><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Circumference']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Warp']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weft']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Volume']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weight']) or (table[@name='Color'])">,</xsl:if></xsl:if><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Circumference'])"><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Circumference']"><xsl:if test="atom[@name='PhyHeight'] != '' or atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">
+            "dimension": [<xsl:if test="(table[@name='Dimensions']/tuple[starts-with(atom[@name='PhyType'], 'Backing') or starts-with(atom[@name='PhyType'], 'Costume') or starts-with(atom[@name='PhyType'], 'Dimensions') or starts-with(atom[@name='PhyType'], 'Hanging') or starts-with(atom[@name='PhyType'], 'Image and Sheet') or starts-with(atom[@name='PhyType'], 'Installed') or starts-with(atom[@name='PhyType'], 'Length') or starts-with(atom[@name='PhyType'], 'Loom') or starts-with(atom[@name='PhyType'], 'Overall Dimensions') or starts-with(atom[@name='PhyType'], 'Rolled') or starts-with(atom[@name='PhyType'], 'Sight') or starts-with(atom[@name='PhyType'], 'Unframed')])"><xsl:for-each select="(table[@name='Dimensions']/tuple[starts-with(atom[@name='PhyType'], 'Backing') or starts-with(atom[@name='PhyType'], 'Costume') or starts-with(atom[@name='PhyType'], 'Dimensions') or starts-with(atom[@name='PhyType'], 'Hanging') or starts-with(atom[@name='PhyType'], 'Image and Sheet') or starts-with(atom[@name='PhyType'], 'Installed') or starts-with(atom[@name='PhyType'], 'Length') or starts-with(atom[@name='PhyType'], 'Loom') or starts-with(atom[@name='PhyType'], 'Overall Dimensions') or starts-with(atom[@name='PhyType'], 'Rolled') or starts-with(atom[@name='PhyType'], 'Sight') or starts-with(atom[@name='PhyType'], 'Unframed')])"><xsl:call-template name="dimensions"><xsl:with-param name="dim_type">dimension</xsl:with-param></xsl:call-template><xsl:if test="position() != last()">,</xsl:if></xsl:for-each><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Circumference']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Warp']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weft']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weight']) or (table[@name='Color'])">,</xsl:if></xsl:if><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Circumference'])"><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Circumference']"><xsl:if test="atom[@name='PhyHeight'] != '' or atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/circumference-<xsl:value-of select="position()"/>",
                     "type": "Dimension",
@@ -190,7 +235,7 @@ Dimensions-->
                             "_label": "circumference"
                         }
                     ]<xsl:call-template name="dim_unit"/>
-                }<xsl:if test="position() != last()">,</xsl:if></xsl:if></xsl:for-each><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Warp']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weft']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Volume']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weight']) or (table[@name='Color'])">,</xsl:if></xsl:if><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Warp'])"><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Warp']"><xsl:if test="atom[@name='PhyHeight'] != '' or atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">
+                }<xsl:if test="position() != last()">,</xsl:if></xsl:if></xsl:for-each><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Warp']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weft']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weight']) or (table[@name='Color'])">,</xsl:if></xsl:if><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Warp'])"><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Warp']"><xsl:if test="atom[@name='PhyHeight'] != '' or atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/warp-<xsl:value-of select="position()"/>",
                     "type": "Dimension",
@@ -203,7 +248,7 @@ Dimensions-->
                             "_label": "warp (textile components)"
                         }
                     ]<xsl:call-template name="dim_unit"/>
-                }<xsl:if test="position() != last()">,</xsl:if></xsl:if></xsl:for-each><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weft']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Volume']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weight']) or (table[@name='Color'])">,</xsl:if></xsl:if><xsl:if test="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weft']"><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weft']"><xsl:if test="atom[@name='PhyHeight'] != '' or atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">
+                }<xsl:if test="position() != last()">,</xsl:if></xsl:if></xsl:for-each><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weft']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weight']) or (table[@name='Color'])">,</xsl:if></xsl:if><xsl:if test="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weft']"><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weft']"><xsl:if test="atom[@name='PhyHeight'] != '' or atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/weft-<xsl:value-of select="position()"/>",
                     "type": "Dimension",
@@ -214,19 +259,6 @@ Dimensions-->
                             "id": "http://vocab.getty.edu/aat/300227934",
                             "type": "Type",
                             "_label": "weft (textile components)"
-                        }
-                    ]<xsl:call-template name="dim_unit"/>
-                }<xsl:if test="position() != last()">,</xsl:if></xsl:if></xsl:for-each><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Volume']) or (table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weight']) or (table[@name='Color'])">,</xsl:if></xsl:if><xsl:if test="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Volume']"><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Volume']"><xsl:if test="atom[@name='PhyHeight'] != '' or atom[@name='PhyWidth'] != '' or atom[@name='PhyDepth'] != '' or atom[@name='PhyDiameter'] != ''">
-                {
-                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/volume-<xsl:value-of select="position()"/>",
-                    "type": "Dimension",
-                    "_label": "Volume of <xsl:copy-of select="$title"/>",
-                    "value": "<xsl:choose><xsl:when test="atom[@name='PhyDiameter'] != ''"><xsl:value-of select="atom[@name='PhyDiameter']"/></xsl:when><xsl:when test="atom[@name='PhyHeight'] != ''"><xsl:value-of select="atom[@name='PhyHeight']"/></xsl:when><xsl:when test="atom[@name='PhyWidth'] != ''"><xsl:value-of select="atom[@name='PhyWidth']"/></xsl:when><xsl:when test="atom[@name='PhyDepth'] != ''"><xsl:value-of select="atom[@name='PhyDepth']"/></xsl:when></xsl:choose>",
-                    "classified_as": [
-                        {
-                            "id": "http://vocab.getty.edu/aat/300055649",
-                            "type": "Type",
-                            "_label": "volume (quantity or mass)"
                         }
                     ]<xsl:call-template name="dim_unit"/>
                 }<xsl:if test="position() != last()">,</xsl:if></xsl:if></xsl:for-each><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weight']) or (table[@name='Color'])">,</xsl:if></xsl:if><xsl:if test="(table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weight'])"><xsl:for-each select="table[@name='Dimensions']/tuple[atom[@name='PhyType'] = 'Weight']"><xsl:if test="atom[@name='PhyWeight'] != ''">

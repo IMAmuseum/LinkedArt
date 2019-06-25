@@ -13,6 +13,11 @@
             "_label": "works of art"
           },
           {
+            "id": "http://vocab.getty.edu/aat/300047090",
+            "type": "Type",
+            "_label": "sculpture (visual works)"
+          },
+          {
             "id": "https://data.discovernewfields.org/thesauri/type/vases",
             "type": "Type",
             "_label": "vases"
@@ -318,13 +323,6 @@
         "id": "https://data.discovernewfields.org/object/10582",
         "type": "HumanMadeObject",
         "_label": "White-Ground Lekythos: Mistress and Servant",
-        "classified_as": [
-          {
-            "id": "http://vocab.getty.edu/aat/300133025",
-            "type": "Type",
-            "_label": "works of art"
-          }
-        ],
         "identified_by": [
           {
             "id": "https://data.discovernewfields.org/object/10582/irn",
@@ -590,11 +588,6 @@
         "type": "HumanMadeObject",
         "_label": "Black-Figure Neck Amphora",
         "classified_as": [
-          {
-            "id": "http://vocab.getty.edu/aat/300133025",
-            "type": "Type",
-            "_label": "works of art"
-          },
           {
             "id": "https://data.discovernewfields.org/thesauri/type/amphora",
             "type": "Type",
@@ -878,11 +871,6 @@
         "type": "HumanMadeObject",
         "_label": "Red-Figure Hydria-Calpis: Hephaestus Returning to Mt. Olympus",
         "classified_as": [
-          {
-            "id": "http://vocab.getty.edu/aat/300133025",
-            "type": "Type",
-            "_label": "works of art"
-          },
           {
             "id": "https://data.discovernewfields.org/thesauri/type/amphora",
             "type": "Type",
@@ -1192,11 +1180,6 @@
         "_label": "Black Figure Lekythos",
         "classified_as": [
           {
-            "id": "http://vocab.getty.edu/aat/300133025",
-            "type": "Type",
-            "_label": "works of art"
-          },
-          {
             "id": "https://data.discovernewfields.org/thesauri/type/vases",
             "type": "Type",
             "_label": "vases"
@@ -1497,11 +1480,6 @@
         "_label": "small dish",
         "classified_as": [
           {
-            "id": "http://vocab.getty.edu/aat/300133025",
-            "type": "Type",
-            "_label": "works of art"
-          },
-          {
             "id": "https://data.discovernewfields.org/thesauri/type/dishes",
             "type": "Type",
             "_label": "dishes"
@@ -1801,6 +1779,11 @@
             "_label": "works of art"
           },
           {
+            "id": "http://vocab.getty.edu/aat/300047090",
+            "type": "Type",
+            "_label": "sculpture (visual works)"
+          },
+          {
             "id": "https://data.discovernewfields.org/thesauri/type/jars",
             "type": "Type",
             "_label": "jars"
@@ -2076,6 +2059,11 @@
             "_label": "works of art"
           },
           {
+            "id": "http://vocab.getty.edu/aat/300047090",
+            "type": "Type",
+            "_label": "sculpture (visual works)"
+          },
+          {
             "id": "https://data.discovernewfields.org/thesauri/type/sculptures",
             "type": "Type",
             "_label": "sculptures"
@@ -2327,11 +2315,6 @@
         "type": "HumanMadeObject",
         "_label": "Attic Red-Figure Kylix: Hetaira Drawing Water from a Pithos",
         "classified_as": [
-          {
-            "id": "http://vocab.getty.edu/aat/300133025",
-            "type": "Type",
-            "_label": "works of art"
-          },
           {
             "id": "https://data.discovernewfields.org/thesauri/type/amphora",
             "type": "Type",
@@ -2624,11 +2607,6 @@
         "type": "HumanMadeObject",
         "_label": "vase",
         "classified_as": [
-          {
-            "id": "http://vocab.getty.edu/aat/300133025",
-            "type": "Type",
-            "_label": "works of art"
-          },
           {
             "id": "https://data.discovernewfields.org/thesauri/type/vases",
             "type": "Type",
@@ -2929,6 +2907,11 @@
             "_label": "works of art"
           },
           {
+            "id": "http://vocab.getty.edu/aat/300047090",
+            "type": "Type",
+            "_label": "sculpture (visual works)"
+          },
+          {
             "id": "https://data.discovernewfields.org/thesauri/type/sculptures",
             "type": "Type",
             "_label": "sculptures"
@@ -3177,11 +3160,6 @@
         "type": "HumanMadeObject",
         "_label": "Black-Figure Hydria: Departing Warriors",
         "classified_as": [
-          {
-            "id": "http://vocab.getty.edu/aat/300133025",
-            "type": "Type",
-            "_label": "works of art"
-          },
           {
             "id": "https://data.discovernewfields.org/thesauri/type/amphora",
             "type": "Type",
@@ -3465,11 +3443,6 @@
         "type": "HumanMadeObject",
         "_label": "Pyxis: Nereid Riding a Hippocamp",
         "classified_as": [
-          {
-            "id": "http://vocab.getty.edu/aat/300133025",
-            "type": "Type",
-            "_label": "works of art"
-          },
           {
             "id": "https://data.discovernewfields.org/thesauri/type/amphora",
             "type": "Type",
@@ -3759,11 +3732,6 @@
         "_label": "Attic Red-Figure Skyphos: Flute Player and Youth",
         "classified_as": [
           {
-            "id": "http://vocab.getty.edu/aat/300133025",
-            "type": "Type",
-            "_label": "works of art"
-          },
-          {
             "id": "https://data.discovernewfields.org/thesauri/type/amphora",
             "type": "Type",
             "_label": "amphora"
@@ -4024,6 +3992,11 @@
             "id": "http://vocab.getty.edu/aat/300133025",
             "type": "Type",
             "_label": "works of art"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300047090",
+            "type": "Type",
+            "_label": "sculpture (visual works)"
           },
           {
             "id": "https://data.discovernewfields.org/thesauri/type/amphora",
@@ -4299,6 +4272,11 @@
             "id": "http://vocab.getty.edu/aat/300133025",
             "type": "Type",
             "_label": "works of art"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300047090",
+            "type": "Type",
+            "_label": "sculpture (visual works)"
           },
           {
             "id": "https://data.discovernewfields.org/thesauri/type/sculptures",
@@ -4627,6 +4605,11 @@
             "_label": "works of art"
           },
           {
+            "id": "http://vocab.getty.edu/aat/300047090",
+            "type": "Type",
+            "_label": "sculpture (visual works)"
+          },
+          {
             "id": "https://data.discovernewfields.org/thesauri/type/vessels",
             "type": "Type",
             "_label": "vessels"
@@ -4904,11 +4887,6 @@
         "_label": "Pyxis: Nereid Riding a Hippocamp",
         "classified_as": [
           {
-            "id": "http://vocab.getty.edu/aat/300133025",
-            "type": "Type",
-            "_label": "works of art"
-          },
-          {
             "id": "https://data.discovernewfields.org/thesauri/type/amphora",
             "type": "Type",
             "_label": "amphora"
@@ -5176,11 +5154,6 @@
         "type": "HumanMadeObject",
         "_label": "cover for Pyxis: Nereid Riding a Hippocamp",
         "classified_as": [
-          {
-            "id": "http://vocab.getty.edu/aat/300133025",
-            "type": "Type",
-            "_label": "works of art"
-          },
           {
             "id": "https://data.discovernewfields.org/thesauri/type/amphora",
             "type": "Type",

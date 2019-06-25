@@ -24,7 +24,7 @@ DONE - Overall Dimensions
 DONE - Rolled Dimensions (object in context - could this be typed somehow with an AAT term?)
 DONE - Sight Dimensions (object in context - could this be typed somehow with an AAT term?)
 DONE - Unframed Dimensions
-DONE - Volume (only 1 record)
+- Volume (only 1 record - values recorded in the notes, not in table - NOT MAPPING)
 DONE - Warp
 DONE - Weft
 DONE - Weight
