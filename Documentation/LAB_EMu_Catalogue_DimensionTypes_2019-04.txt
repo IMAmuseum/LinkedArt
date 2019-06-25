@@ -12,38 +12,22 @@ DONE - Sheet Dimensions (part = sheet, support)
 Dimension Types (whole string equals) that apply to entire object:
 
 DONE - Backing Dimensions (no equivalent part in AAT)
-- Circumference
-- Costume: Bust*
-- Costume: Center Back*
-- Costume: Center Front*
-- Costume: Chest*
-- Costume: Front to Hem*
-- Costume: Hem*
-- Costume: Hips*
-- Costume: Inseam*
-- Costume: Shoulder to Hem*
-- Costume: Shoulders*
-- Costume: Size*
-- Costume: Sleeve Length*
-- Costume: Waist
-DONE - Dimensions
-DONE - Dimensions Closed
-DONE - Dimensions Opened
-- Hanging Height (only 1 record; object in context - could this be typed somehow with an AAT term?)
+DONE - Circumference
+DONE - Costume...
+DONE - Dimensions...
+DONE - Hanging Height (only 1 record; not going to map)
 DONE - Image and Sheet Dimensions
 DONE - Installed Dimensions (object in context - could this be typed somehow with an AAT term?)
-- Length
-- Length Back*
-- Length Front*
+DONE - Length...
 DONE - Loom Width (could this be typed somehow with an AAT term?)
 DONE - Overall Dimensions
 DONE - Rolled Dimensions (object in context - could this be typed somehow with an AAT term?)
 DONE - Sight Dimensions (object in context - could this be typed somehow with an AAT term?)
 DONE - Unframed Dimensions
-- Volume (only 1 record)
-- Warp
-- Weft
-- Weight
+DONE - Volume (only 1 record)
+DONE - Warp
+DONE - Weft
+DONE - Weight
 
 
 Dimension Types to Ignore
