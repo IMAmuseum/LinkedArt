@@ -286,7 +286,7 @@
         <atom name="PhyDimensionNotes">Metric: 69.2 x 41.2 (canvas)</atom>
       </tuple>
     </table>
-    <atom name="SumCreditLine">Gift of the Artist's mother, Mrs. E. J. Fiscus</atom>
+    <atom name="SumCreditLine">Gift of the Artist's mother, Mrs. E.J. Fiscus</atom>
     <table name="Rights">
       <tuple>
         <atom name="RigAcknowledgement">Public Domain</atom>
@@ -537,6 +537,158 @@
 
   <!-- Row 5 -->
   <tuple>
+    <atom name="irn">6136</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">1983.100</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate"></atom>
+    <atom name="TitMainTitle">PRAISES FOR KSITIGARBA SUTRA (DIZANG JINGZAN)</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Prints</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">woodcuts</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">March-April 1574</atom>
+    <atom name="CreEarliestDate">1574-03-01</atom>
+    <atom name="CreLatestDate">1574-04-30</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">China</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">ink</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">paper</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">ink</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">10-11/16 x 3-13/16</atom>
+    <atom name="SumCreditLine">Gift of Mr. Keith Uhl Clary</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">No Known Rights Holder</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">905.1-Asian Art (Chinese and other Asian)</atom>
+    <atom name="LocMovementType">Other Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Eli Lilly and Company Foundation Room</atom>
+      <atom name="LocLevel3">K301</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">50209</atom>
+        <atom name="irn">8354</atom>
+        <atom name="EleTitle">Dagwood ID for 1983.100</atom>
+        <atom name="EleIdentifier">50209</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 6 -->
+  <tuple>
+    <atom name="irn">6855</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">1996.114</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1996-03-21</atom>
+    <atom name="TitMainTitle">hunchback figure</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Sculpture</atom>
+    <atom name="CreDateCreated">200 B.C.E. - 300 CE</atom>
+    <atom name="CreEarliestDate">-200</atom>
+    <atom name="CreLatestDate">300</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationCultureOrPeople">Nayarit culture</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">Mexico</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <atom name="PhyMediumAndSupport">ceramic | pigment</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">4-1/2 x 2-3/4 x 4-1/2 (gd) in. | 11.4 x 7.0 x 11.4 (gd) cm.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">4.5000</atom>
+        <atom name="PhyWidth">2.7500</atom>
+        <atom name="PhyDepth">4.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 11.42999983 cm height x 6.984999895 cm width x 11.42999983 cm depth</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Bonnie and David Ross</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">906.2-Native Arts of the Americas</atom>
+    <atom name="LocMovementType">Inventory 2014-2015</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Ec45</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">3095</atom>
+        <atom name="irn">9070</atom>
+        <atom name="EleTitle">Dagwood ID for 1996.114</atom>
+        <atom name="EleIdentifier">3095</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 7 -->
+  <tuple>
     <atom name="irn">8407</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">1984.124</atom>
@@ -649,7 +801,7 @@
     </table>
   </tuple>
 
-  <!-- Row 6 -->
+  <!-- Row 8 -->
   <tuple>
     <atom name="irn">14365</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -715,7 +867,7 @@
     </table>
   </tuple>
 
-  <!-- Row 7 -->
+  <!-- Row 9 -->
   <tuple>
     <atom name="irn">14617</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -822,7 +974,7 @@
     </table>
   </tuple>
 
-  <!-- Row 8 -->
+  <!-- Row 10 -->
   <tuple>
     <atom name="irn">16168</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -930,7 +1082,7 @@
     </table>
   </tuple>
 
-  <!-- Row 9 -->
+  <!-- Row 11 -->
   <tuple>
     <atom name="irn">16356</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -1045,7 +1197,7 @@
     </table>
   </tuple>
 
-  <!-- Row 10 -->
+  <!-- Row 12 -->
   <tuple>
     <atom name="irn">16410</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -1148,7 +1300,7 @@
     </table>
   </tuple>
 
-  <!-- Row 11 -->
+  <!-- Row 13 -->
   <tuple>
     <atom name="irn">17425</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -1265,7 +1417,7 @@
     </table>
   </tuple>
 
-  <!-- Row 12 -->
+  <!-- Row 14 -->
   <tuple>
     <atom name="irn">17577</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -1377,7 +1529,7 @@
     </table>
   </tuple>
 
-  <!-- Row 13 -->
+  <!-- Row 15 -->
   <tuple>
     <atom name="irn">20419</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -1507,10 +1659,16 @@
         <atom name="EleTitle"></atom>
         <atom name="EleIdentifier"></atom>
       </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes">28170</atom>
+        <atom name="irn">22563</atom>
+        <atom name="EleTitle">Dagwood ID for 75.174</atom>
+        <atom name="EleIdentifier">28170</atom>
+      </tuple>
     </table>
   </tuple>
 
-  <!-- Row 14 -->
+  <!-- Row 16 -->
   <tuple>
     <atom name="irn">21137</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -1618,9 +1776,17 @@ Inscribed: title and series title</atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">80085</atom>
+        <atom name="irn">23278</atom>
+        <atom name="EleTitle">Dagwood ID for 06.137</atom>
+        <atom name="EleIdentifier">80085</atom>
+      </tuple>
+    </table>
   </tuple>
 
-  <!-- Row 15 -->
+  <!-- Row 17 -->
   <tuple>
     <atom name="irn">21288</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -1821,10 +1987,16 @@ Inscribed: title and series title</atom>
         <atom name="EleTitle"></atom>
         <atom name="EleIdentifier"></atom>
       </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes">80484</atom>
+        <atom name="irn">23428</atom>
+        <atom name="EleTitle">Dagwood ID for 10.8</atom>
+        <atom name="EleIdentifier">80484</atom>
+      </tuple>
     </table>
   </tuple>
 
-  <!-- Row 16 -->
+  <!-- Row 18 -->
   <tuple>
     <atom name="irn">24693</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -1940,7 +2112,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 17 -->
+  <!-- Row 19 -->
   <tuple>
     <atom name="irn">24892</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -2069,7 +2241,7 @@ C) sash: length 81 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 18 -->
+  <!-- Row 20 -->
   <tuple>
     <atom name="irn">25098</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -2193,7 +2365,7 @@ Censor's seal: single kiwame</atom>
     </table>
   </tuple>
 
-  <!-- Row 19 -->
+  <!-- Row 21 -->
   <tuple>
     <atom name="irn">37383</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -2318,10 +2490,16 @@ Censor's seal: single kiwame</atom>
         <atom name="EleTitle"></atom>
         <atom name="EleIdentifier"></atom>
       </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes">56192</atom>
+        <atom name="irn">70031</atom>
+        <atom name="EleTitle">Dagwood ID for 89.1</atom>
+        <atom name="EleIdentifier">56192</atom>
+      </tuple>
     </table>
   </tuple>
 
-  <!-- Row 20 -->
+  <!-- Row 22 -->
   <tuple>
     <atom name="irn">41018</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -2425,7 +2603,7 @@ Censor's seal: single kiwame</atom>
     </table>
   </tuple>
 
-  <!-- Row 21 -->
+  <!-- Row 23 -->
   <tuple>
     <atom name="irn">41019</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -2528,7 +2706,7 @@ Censor's seal: single kiwame</atom>
     </table>
   </tuple>
 
-  <!-- Row 22 -->
+  <!-- Row 24 -->
   <tuple>
     <atom name="irn">46950</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -2587,9 +2765,17 @@ Censor's seal: single kiwame</atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">34951</atom>
+        <atom name="irn">79588</atom>
+        <atom name="EleTitle">Dagwood ID for 05.19</atom>
+        <atom name="EleIdentifier">34951</atom>
+      </tuple>
+    </table>
   </tuple>
 
-  <!-- Row 23 -->
+  <!-- Row 25 -->
   <tuple>
     <atom name="irn">47035</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -2664,16 +2850,103 @@ Censor's seal: single kiwame</atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">17255</atom>
+        <atom name="irn">79671</atom>
+        <atom name="EleTitle">Dagwood ID for 08.19</atom>
+        <atom name="EleIdentifier">17255</atom>
+      </tuple>
+    </table>
   </tuple>
 
-  <!-- Row 24 -->
+  <!-- Row 26 -->
+  <tuple>
+    <atom name="irn">49409</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">13.357</atom>
+    <atom name="TitPreviousAccessionNo">13.351</atom>
+    <atom name="TitObjectStatus">Accessioned</atom>
+    <atom name="TitAccessionDate">1913-11-06</atom>
+    <atom name="TitMainTitle">string of beads</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Costume Accessories</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">jewelry</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">Twenty-third Dynasty (823-732 B.C.E.)</atom>
+    <atom name="CreEarliestDate">-823</atom>
+    <atom name="CreLatestDate">-732</atom>
+    <atom name="CreCreationPeriod">Third Intermediate Period</atom>
+    <atom name="CreCreationDynasty">Twenty-third Dynasty</atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationCultureOrPeople">Egyptian</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">earthenware</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">earthenware</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">25 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">25.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 9.52</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Egyptian Research Account, British School of Archaeology through William Flinders Petrie</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">Excavated at British School of Archaeology site in Egypt (1912-1913); presented to IMA 1913.</atom>
+    <atom name="PhyCollectionArea">904.2-Classical Art</atom>
+    <atom name="LocMovementType">Inventory Beginning 2018 - ten year schedule for upcoming reaccreditation</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Cc3</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">35899</atom>
+        <atom name="irn">82039</atom>
+        <atom name="EleTitle">Dagwood ID for 13.357</atom>
+        <atom name="EleIdentifier">35899</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 27 -->
   <tuple>
     <atom name="irn">51330</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">30.388</atom>
-    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitPreviousAccessionNo">TR1548/301</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
-    <atom name="TitAccessionDate"></atom>
+    <atom name="TitAccessionDate">1930-10-21</atom>
     <atom name="TitMainTitle">Towing Boat at Yotsugi Dōri [40] (Yotsugi dōri no hikifune)</atom>
     <atom name="TitSeriesTitle">A Series of Comical Events of Famous Places in Edo (Edo meisho d^oke zukushi)</atom>
     <atom name="TitCollectionTitle"></atom>
@@ -2787,7 +3060,7 @@ Engraver's seal: Horisen</atom>
     </table>
   </tuple>
 
-  <!-- Row 25 -->
+  <!-- Row 28 -->
   <tuple>
     <atom name="irn">52481</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -2879,7 +3152,7 @@ Engraver's seal: Horisen</atom>
     </table>
   </tuple>
 
-  <!-- Row 26 -->
+  <!-- Row 29 -->
   <tuple>
     <atom name="irn">55312</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -2958,7 +3231,7 @@ Engraver's seal: Horisen</atom>
     </table>
   </tuple>
 
-  <!-- Row 27 -->
+  <!-- Row 30 -->
   <tuple>
     <atom name="irn">64017</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -3060,7 +3333,7 @@ Engraver's seal: Horisen</atom>
     </table>
   </tuple>
 
-  <!-- Row 28 -->
+  <!-- Row 31 -->
   <tuple>
     <atom name="irn">64018</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -3165,7 +3438,7 @@ Engraver's seal: Horisen</atom>
     </table>
   </tuple>
 
-  <!-- Row 29 -->
+  <!-- Row 32 -->
   <tuple>
     <atom name="irn">64019</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -3267,7 +3540,7 @@ Engraver's seal: Horisen</atom>
     </table>
   </tuple>
 
-  <!-- Row 30 -->
+  <!-- Row 33 -->
   <tuple>
     <atom name="irn">64628</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -3485,7 +3758,7 @@ Engraver's seal: Horisen</atom>
     </table>
   </tuple>
 
-  <!-- Row 31 -->
+  <!-- Row 34 -->
   <tuple>
     <atom name="irn">67743</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -3588,12 +3861,12 @@ B) ottoman: diam.: 22 in.</atom>
     <atom name="AssIsParent">Yes</atom>
     <table name="Children">
       <tuple>
-        <atom name="irn">69063</atom>
-        <atom name="TitMainTitle">UP6 ottoman</atom>
-      </tuple>
-      <tuple>
         <atom name="irn">69062</atom>
         <atom name="TitMainTitle">UP5 chair</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">69063</atom>
+        <atom name="TitMainTitle">UP6 ottoman</atom>
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -3607,7 +3880,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 32 -->
+  <!-- Row 35 -->
   <tuple>
     <atom name="irn">68180</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -3785,7 +4058,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 33 -->
+  <!-- Row 36 -->
   <tuple>
     <atom name="irn">68181</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -3901,7 +4174,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 34 -->
+  <!-- Row 37 -->
   <tuple>
     <atom name="irn">68182</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -4004,7 +4277,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 35 -->
+  <!-- Row 38 -->
   <tuple>
     <atom name="irn">68903</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -4091,7 +4364,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 36 -->
+  <!-- Row 39 -->
   <tuple>
     <atom name="irn">69062</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -4112,7 +4385,7 @@ B) ottoman: diam.: 22 in.</atom>
         <atom name="PhyMediaCategory">chairs</atom>
       </tuple>
     </table>
-    <atom name="CreDateCreated">designed 1969, manufactured 2000</atom>
+    <atom name="CreDateCreated">2000</atom>
     <atom name="CreEarliestDate">2000</atom>
     <atom name="CreLatestDate">2000</atom>
     <atom name="CreCreationPeriod"></atom>
@@ -4130,7 +4403,7 @@ B) ottoman: diam.: 22 in.</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>
-    <atom name="CreCreationNotes"></atom>
+    <atom name="CreCreationNotes">designed 1969, manufactured 2000</atom>
     <atom name="EdiPublisherDate"></atom>
     <table name="Medium">
       <tuple>
@@ -4196,7 +4469,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 37 -->
+  <!-- Row 40 -->
   <tuple>
     <atom name="irn">69063</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -4217,7 +4490,7 @@ B) ottoman: diam.: 22 in.</atom>
         <atom name="PhyMediaCategory">chairs</atom>
       </tuple>
     </table>
-    <atom name="CreDateCreated">designed 1969, manufactured 2000</atom>
+    <atom name="CreDateCreated">2000</atom>
     <atom name="CreEarliestDate">2000</atom>
     <atom name="CreLatestDate">2000</atom>
     <atom name="CreCreationPeriod"></atom>
@@ -4235,7 +4508,7 @@ B) ottoman: diam.: 22 in.</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>
-    <atom name="CreCreationNotes"></atom>
+    <atom name="CreCreationNotes">designed 1969, manufactured 2000</atom>
     <atom name="EdiPublisherDate"></atom>
     <table name="Medium">
       <tuple>
@@ -4299,7 +4572,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 38 -->
+  <!-- Row 41 -->
   <tuple>
     <atom name="irn">81052</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -4411,7 +4684,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 39 -->
+  <!-- Row 42 -->
   <tuple>
     <atom name="irn">82696</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -4429,7 +4702,7 @@ B) ottoman: diam.: 22 in.</atom>
         <atom name="PhyMediaCategory">outdoor sculpture</atom>
       </tuple>
     </table>
-    <atom name="CreDateCreated">designed 1983-1984, fabricated 2012</atom>
+    <atom name="CreDateCreated">fabricated 2012</atom>
     <atom name="CreEarliestDate">2012</atom>
     <atom name="CreLatestDate">2012</atom>
     <atom name="CreCreationPeriod"></atom>
@@ -4447,7 +4720,8 @@ B) ottoman: diam.: 22 in.</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions">rf Lichtenstein 83-84 AP &lt;copyright&gt; The Roy Lichtenstein Foundation, 2012</atom>
-    <atom name="CreCreationNotes">The sculpture was created posthumously from the aritist's specificiations, and originally commissioned by by an arts patron for the University of California at San Diego's campus in LaJolla, but was never fabricated beyond the artist's maquettes.</atom>
+    <atom name="CreCreationNotes">(designed 1983-1984, fabricated 2012)
+The sculpture was created posthumously from the aritist's specificiations, and originally commissioned by by an arts patron for the University of California at San Diego's campus in LaJolla, but was never fabricated beyond the artist's maquettes.</atom>
     <atom name="EdiPublisherDate"></atom>
     <table name="Medium">
       <tuple>
@@ -4547,6 +4821,10 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
         <atom name="TitMainTitle">element D for Five Brushstrokes</atom>
       </tuple>
       <tuple>
+        <atom name="irn">85261</atom>
+        <atom name="TitMainTitle">element E.1 for Five Brushstrokes</atom>
+      </tuple>
+      <tuple>
         <atom name="irn">85262</atom>
         <atom name="TitMainTitle">element E.2 for Five Brushstrokes</atom>
       </tuple>
@@ -4557,10 +4835,6 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
       <tuple>
         <atom name="irn">85264</atom>
         <atom name="TitMainTitle">element E.4 for Five Brushstrokes</atom>
-      </tuple>
-      <tuple>
-        <atom name="irn">85261</atom>
-        <atom name="TitMainTitle">element E.1 for Five Brushstrokes</atom>
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -4574,7 +4848,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
     </table>
   </tuple>
 
-  <!-- Row 40 -->
+  <!-- Row 43 -->
   <tuple>
     <atom name="irn">85257</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -4592,7 +4866,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
         <atom name="PhyMediaCategory">outdoor sculpture</atom>
       </tuple>
     </table>
-    <atom name="CreDateCreated">designed 1983-1984, fabricated 2012</atom>
+    <atom name="CreDateCreated">fabricated 2012</atom>
     <atom name="CreEarliestDate">2012</atom>
     <atom name="CreLatestDate">2012</atom>
     <atom name="CreCreationPeriod"></atom>
@@ -4610,7 +4884,8 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions">rf Lichtenstein 83-84 AP &lt;copyright&gt; The Roy Lichtenstein Foundation, 2012</atom>
-    <atom name="CreCreationNotes">The sculpture was created posthumously from the aritist's specificiations, and originally commissioned by by an arts patron for the University of California at San Diego's campus in LaJolla, but was never fabricated beyond the artist's maquettes.</atom>
+    <atom name="CreCreationNotes">(designed 1983-1984, fabricated 2012)
+The sculpture was created posthumously from the aritist's specificiations, and originally commissioned by by an arts patron for the University of California at San Diego's campus in LaJolla, but was never fabricated beyond the artist's maquettes.</atom>
     <atom name="EdiPublisherDate"></atom>
     <table name="Medium">
       <tuple>
@@ -4705,7 +4980,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
     </table>
   </tuple>
 
-  <!-- Row 41 -->
+  <!-- Row 44 -->
   <tuple>
     <atom name="irn">89163</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -4805,7 +5080,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
     </table>
   </tuple>
 
-  <!-- Row 42 -->
+  <!-- Row 45 -->
   <tuple>
     <atom name="irn">89164</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -4910,7 +5185,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
     </table>
   </tuple>
 
-  <!-- Row 43 -->
+  <!-- Row 46 -->
   <tuple>
     <atom name="irn">89367</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -5021,7 +5296,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
     </table>
   </tuple>
 
-  <!-- Row 44 -->
+  <!-- Row 47 -->
   <tuple>
     <atom name="irn">89368</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -5132,7 +5407,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
     </table>
   </tuple>
 
-  <!-- Row 45 -->
+  <!-- Row 48 -->
   <tuple>
     <atom name="irn">89369</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -5252,7 +5527,7 @@ Censor's seal: single kiwame</atom>
     </table>
   </tuple>
 
-  <!-- Row 46 -->
+  <!-- Row 49 -->
   <tuple>
     <atom name="irn">90817</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -5378,7 +5653,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 47 -->
+  <!-- Row 50 -->
   <tuple>
     <atom name="irn">92158</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -5482,7 +5757,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 48 -->
+  <!-- Row 51 -->
   <tuple>
     <atom name="irn">92159</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -5586,7 +5861,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 49 -->
+  <!-- Row 52 -->
   <tuple>
     <atom name="irn">92160</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -5690,7 +5965,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 50 -->
+  <!-- Row 53 -->
   <tuple>
     <atom name="irn">92384</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -5802,7 +6077,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 51 -->
+  <!-- Row 54 -->
   <tuple>
     <atom name="irn">92385</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -5905,7 +6180,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 52 -->
+  <!-- Row 55 -->
   <tuple>
     <atom name="irn">92386</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -6008,7 +6283,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 53 -->
+  <!-- Row 56 -->
   <tuple>
     <atom name="irn">93739</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>

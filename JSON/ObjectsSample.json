@@ -57,7 +57,14 @@
         "produced_by": {
           "id": "https://data.discovernewfields.org/object/1032/production",
           "type": "Production",
-          "_label": "Production of long-neck vase with cup mouth"
+          "_label": "Production of long-neck vase with cup mouth",
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/1032/production/timespan",
+            "type": "TimeSpan",
+            "_label": "100-220",
+            "begin_of_the_begin": "0100-01-01T00:00:00",
+            "end_of_the_end": "0220-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -323,7 +330,14 @@
               "type": "Actor",
               "_label": "Fiscus, Charles J."
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/1065/production/timespan",
+            "type": "TimeSpan",
+            "_label": "about 1883",
+            "begin_of_the_begin": "1882-01-01T00:00:00",
+            "end_of_the_end": "1883-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -394,10 +408,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/1065/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/1065/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1914-02-19",
-                "begin_of_the_begin": "1914-02-19T00:00:00Z",
+                "begin_of_the_begin": "1914-02-19T00:00:00",
                 "end_of_the_end": "1914-02-19T00:00:00Z"
               }
             }
@@ -413,7 +427,7 @@
             "id": "https://data.discovernewfields.org/object/1065/credit-line",
             "type": "LinguisticObject",
             "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
-            "content": "Gift of the Artist's mother, Mrs. E. J. Fiscus",
+            "content": "Gift of the Artist's mother, Mrs. E.J. Fiscus",
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300026687",
@@ -670,7 +684,7 @@
           {
             "id": "https://data.discovernewfields.org/object/1105/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "E84.43",
             "classified_as": [
               {
@@ -723,7 +737,14 @@
               "type": "Actor",
               "_label": "Edo people"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/1105/production/timespan",
+            "type": "TimeSpan",
+            "_label": "late 19th century",
+            "begin_of_the_begin": "1850-01-01T00:00:00",
+            "end_of_the_end": "1897-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -961,7 +982,7 @@
           {
             "id": "https://data.discovernewfields.org/object/3521/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR1658/647",
             "classified_as": [
               {
@@ -1022,7 +1043,14 @@
               "type": "Actor",
               "_label": "Beem, Paul Edward"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/3521/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1930",
+            "begin_of_the_begin": "1930-01-01T00:00:00",
+            "end_of_the_end": "1930-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -1093,10 +1121,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/3521/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/3521/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1942-02-17",
-                "begin_of_the_begin": "1942-02-17T00:00:00Z",
+                "begin_of_the_begin": "1942-02-17T00:00:00",
                 "end_of_the_end": "1942-02-17T00:00:00Z"
               }
             }
@@ -1309,6 +1337,539 @@
       }
     },
     {
+      "6136": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/object/6136",
+        "type": "HumanMadeObject",
+        "_label": "PRAISES FOR KSITIGARBA SUTRA (DIZANG JINGZAN)",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300133025",
+            "type": "Type",
+            "_label": "works of art"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300041273",
+            "type": "Type",
+            "_label": "prints (visual works)"
+          },
+          {
+            "id": "https://data.discovernewfields.org/thesauri/type/woodcuts",
+            "type": "Type",
+            "_label": "woodcuts"
+          }
+        ],
+        "identified_by": [
+          {
+            "id": "https://data.discovernewfields.org/object/6136/irn",
+            "type": "Identifier",
+            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "content": 6136,
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404621",
+                "type": "Type",
+                "_label": "repository numbers"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/6136/accession-number",
+            "type": "Identifier",
+            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "content": "1983.100",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300312355",
+                "type": "Type",
+                "_label": "accession numbers"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/6136/title",
+            "type": "Name",
+            "_label": "Primary Title for the Artwork",
+            "content": "PRAISES FOR KSITIGARBA SUTRA (DIZANG JINGZAN)",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404670",
+                "type": "Type",
+                "_label": "preferred terms"
+              }
+            ]
+          }
+        ],
+        "made_of": [
+          {
+            "id": "https://data.discovernewfields.org/thesauri/material/ink",
+            "type": "Material",
+            "_label": "Material of Which the Object is Composed",
+            "content": "ink"
+          },
+          {
+            "id": "https://data.discovernewfields.org/thesauri/material/paper",
+            "type": "Material",
+            "_label": "Material of Which the Object is Composed",
+            "content": "paper"
+          }
+        ],
+        "produced_by": {
+          "id": "https://data.discovernewfields.org/object/6136/production",
+          "type": "Production",
+          "_label": "Production of PRAISES FOR KSITIGARBA SUTRA (DIZANG JINGZAN)",
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/6136/production/timespan",
+            "type": "TimeSpan",
+            "_label": "March-April 1574",
+            "begin_of_the_begin": "1574-03-01T00:00:00",
+            "end_of_the_end": "1574-04-30T00:00:00"
+          }
+        },
+        "current_owner": {
+          "id": "http://vocab.getty.edu/ulan/500300517",
+          "type": "Group",
+          "_label": "Indianapolis Museum of Art at Newfields",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300312281",
+              "type": "Type",
+              "_label": "museums (institutions)"
+            }
+          ],
+          "acquired_title_through": [
+            {
+              "id": "https://data.discovernewfields.org/object/6136/IMA-acquisition",
+              "type": "Acquisition",
+              "_label": "Acquisition of PRAISES FOR KSITIGARBA SUTRA (DIZANG JINGZAN)",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300157782",
+                  "type": "Type",
+                  "_label": "acquisition (collections management)"
+                }
+              ],
+              "took_place_at": [
+                {
+                  "id": "http://vocab.getty.edu/tgn/7012924",
+                  "type": "Place",
+                  "_label": "Indianapolis, Indiana"
+                }
+              ]
+            }
+          ]
+        },
+        "current_location": {
+          "id": "https://data.discovernewfields.org/thesauri/location/storage",
+          "type": "Place",
+          "_label": "IMA Storage"
+        },
+        "referred_to_by": [
+          {
+            "id": "https://data.discovernewfields.org/object/6136/credit-line",
+            "type": "LinguisticObject",
+            "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+            "content": "Gift of Mr. Keith Uhl Clary",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300026687",
+                "type": "Type",
+                "_label": "acknowledgments"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/6136/dimension-statement",
+            "type": "LinguisticObject",
+            "_label": "Notes about the Dimensions of the Work",
+            "content": "10-11/16 x 3-13/16",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300266036",
+                "type": "Type",
+                "_label": "dimensions"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/6136/materials-statement",
+            "type": "LinguisticObject",
+            "_label": "Notes about the Materials in the Work",
+            "content": "ink",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300010358",
+                "type": "Type",
+                "_label": "materials (substances)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/6136/rights-statement",
+            "type": "LinguisticObject",
+            "_label": "Rights Statement",
+            "content": "No Known Rights Holder",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055547",
+                "type": "Type",
+                "_label": "legal concepts"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "http://rightsstatements.org/vocab/NKC/1.0/",
+            "type": "LinguisticObject",
+            "_label": "No Known Copyright",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055547",
+                "type": "Type",
+                "_label": "legal concepts"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          }
+        ],
+        "subject-of": [
+          {
+            "id": "http://collection.imamuseum.org/artwork/50209/",
+            "type": "LinguisticObject",
+            "_label": "Homepage for PRAISES FOR KSITIGARBA SUTRA (DIZANG JINGZAN)",
+            "classified_as": [
+              {
+                "id": "http://vocab/getty.edu/aat/300264578",
+                "type": "Type",
+                "_label": "Web pages (documents)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300266277",
+                "type": "Type",
+                "_label": "home pages"
+              }
+            ],
+            "format": "text/html"
+          }
+        ]
+      }
+    },
+    {
+      "6855": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/object/6855",
+        "type": "HumanMadeObject",
+        "_label": "hunchback figure",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300133025",
+            "type": "Type",
+            "_label": "works of art"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300047090",
+            "type": "Type",
+            "_label": "sculpture (visual works)"
+          }
+        ],
+        "identified_by": [
+          {
+            "id": "https://data.discovernewfields.org/object/6855/irn",
+            "type": "Identifier",
+            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "content": 6855,
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404621",
+                "type": "Type",
+                "_label": "repository numbers"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/6855/accession-number",
+            "type": "Identifier",
+            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "content": "1996.114",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300312355",
+                "type": "Type",
+                "_label": "accession numbers"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/6855/title",
+            "type": "Name",
+            "_label": "Primary Title for the Artwork",
+            "content": "hunchback figure",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404670",
+                "type": "Type",
+                "_label": "preferred terms"
+              }
+            ]
+          }
+        ],
+        "produced_by": {
+          "id": "https://data.discovernewfields.org/object/6855/production",
+          "type": "Production",
+          "_label": "Production of hunchback figure",
+          "carried_out_by": [
+            {
+              "id": "https://data.discovernewfields.org/thesauri/culture/nayarit-culture",
+              "type": "Actor",
+              "_label": "Nayarit culture"
+            }
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/6855/production/timespan",
+            "type": "TimeSpan",
+            "_label": "200 B.C.E. - 300 CE",
+            "begin_of_the_begin": "-0200-01-01T00:00:00",
+            "end_of_the_end": "0300-12-31T00:00:00"
+          }
+        },
+        "dimension": [
+          {
+            "id": "https://data.discovernewfields.org/object/6855/dimension-1/height",
+            "type": "Dimension",
+            "_label": "Dimensions for hunchback figure",
+            "value": "4.5000",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055644",
+                "type": "Type",
+                "_label": "height"
+              }
+            ],
+            "unit": {
+              "id": "http://vocab.getty.edu/aat/300379100",
+              "type": "Type",
+              "_label": "inches"
+            }
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/6855/dimension-1/width",
+            "type": "Dimension",
+            "_label": "Dimensions for hunchback figure",
+            "value": "2.7500",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055647",
+                "type": "Type",
+                "_label": "width"
+              }
+            ],
+            "unit": {
+              "id": "http://vocab.getty.edu/aat/300379100",
+              "type": "Type",
+              "_label": "inches"
+            }
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/6855/dimension-1/depth",
+            "type": "Dimension",
+            "_label": "Dimensions for hunchback figure",
+            "value": "4.5000",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300072633",
+                "type": "Type",
+                "_label": "depth (size/dimension)"
+              }
+            ],
+            "unit": {
+              "id": "http://vocab.getty.edu/aat/300379100",
+              "type": "Type",
+              "_label": "inches"
+            }
+          }
+        ],
+        "current_owner": {
+          "id": "http://vocab.getty.edu/ulan/500300517",
+          "type": "Group",
+          "_label": "Indianapolis Museum of Art at Newfields",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300312281",
+              "type": "Type",
+              "_label": "museums (institutions)"
+            }
+          ],
+          "acquired_title_through": [
+            {
+              "id": "https://data.discovernewfields.org/object/6855/IMA-acquisition",
+              "type": "Acquisition",
+              "_label": "Acquisition of hunchback figure",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300157782",
+                  "type": "Type",
+                  "_label": "acquisition (collections management)"
+                }
+              ],
+              "took_place_at": [
+                {
+                  "id": "http://vocab.getty.edu/tgn/7012924",
+                  "type": "Place",
+                  "_label": "Indianapolis, Indiana"
+                }
+              ],
+              "timespan": {
+                "id": "https://data.discovernewfields.org/object/6855/IMA-acquisition/timespan",
+                "type": "TimeSpan",
+                "_label": "1996-03-21",
+                "begin_of_the_begin": "1996-03-21T00:00:00",
+                "end_of_the_end": "1996-03-21T00:00:00Z"
+              }
+            }
+          ]
+        },
+        "current_location": {
+          "id": "https://data.discovernewfields.org/thesauri/location/storage",
+          "type": "Place",
+          "_label": "IMA Storage"
+        },
+        "referred_to_by": [
+          {
+            "id": "https://data.discovernewfields.org/object/6855/credit-line",
+            "type": "LinguisticObject",
+            "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+            "content": "Gift of Bonnie and David Ross",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300026687",
+                "type": "Type",
+                "_label": "acknowledgments"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/6855/dimension-statement",
+            "type": "LinguisticObject",
+            "_label": "Notes about the Dimensions of the Work",
+            "content": "4-1/2 x 2-3/4 x 4-1/2 (gd) in. | 11.4 x 7.0 x 11.4 (gd) cm.",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300266036",
+                "type": "Type",
+                "_label": "dimensions"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/6855/materials-statement",
+            "type": "LinguisticObject",
+            "_label": "Notes about the Materials in the Work",
+            "content": "ceramic | pigment",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300010358",
+                "type": "Type",
+                "_label": "materials (substances)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/6855/rights-statement",
+            "type": "LinguisticObject",
+            "_label": "Rights Statement",
+            "content": "Public Domain",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055547",
+                "type": "Type",
+                "_label": "legal concepts"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "type": "LinguisticObject",
+            "_label": "Public Domain",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055547",
+                "type": "Type",
+                "_label": "legal concepts"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          }
+        ],
+        "subject-of": [
+          {
+            "id": "http://collection.imamuseum.org/artwork/3095/",
+            "type": "LinguisticObject",
+            "_label": "Homepage for hunchback figure",
+            "classified_as": [
+              {
+                "id": "http://vocab/getty.edu/aat/300264578",
+                "type": "Type",
+                "_label": "Web pages (documents)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300266277",
+                "type": "Type",
+                "_label": "home pages"
+              }
+            ],
+            "format": "text/html"
+          }
+        ]
+      }
+    },
+    {
       "8407": {
         "@context": "https://linked.art/ns/v1/linked-art.json",
         "id": "https://data.discovernewfields.org/object/8407",
@@ -1371,7 +1932,7 @@
           {
             "id": "https://data.discovernewfields.org/object/8407/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR5417",
             "classified_as": [
               {
@@ -1419,7 +1980,14 @@
               "type": "Actor",
               "_label": "Unknown"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/8407/production/timespan",
+            "type": "TimeSpan",
+            "_label": "about 1900",
+            "begin_of_the_begin": "1895-01-01T00:00:00",
+            "end_of_the_end": "1905-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -1490,10 +2058,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/8407/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/8407/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1984-09-20",
-                "begin_of_the_begin": "1984-09-20T00:00:00Z",
+                "begin_of_the_begin": "1984-09-20T00:00:00",
                 "end_of_the_end": "1984-09-20T00:00:00Z"
               }
             }
@@ -1710,7 +2278,12 @@
               "type": "Actor",
               "_label": "Chimú culture"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/14365/production/timespan",
+            "type": "TimeSpan",
+            "_label": "about 1400"
+          }
         },
         "current_owner": {
           "id": "http://vocab.getty.edu/ulan/500300517",
@@ -1743,10 +2316,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/14365/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/14365/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1933-11-21",
-                "begin_of_the_begin": "1933-11-21T00:00:00Z",
+                "begin_of_the_begin": "1933-11-21T00:00:00",
                 "end_of_the_end": "1933-11-21T00:00:00Z"
               }
             }
@@ -2317,7 +2890,14 @@
               "type": "Actor",
               "_label": "Unknown"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/16168/production/timespan",
+            "type": "TimeSpan",
+            "_label": "16th century",
+            "begin_of_the_begin": "1501-01-01T00:00:00",
+            "end_of_the_end": "1600-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -2388,10 +2968,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/16168/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/16168/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1909-01-25",
-                "begin_of_the_begin": "1909-01-25T00:00:00Z",
+                "begin_of_the_begin": "1909-01-25T00:00:00",
                 "end_of_the_end": "1909-01-25T00:00:00Z"
               }
             }
@@ -2646,10 +3226,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/16356/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/16356/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1907-01-04",
-                "begin_of_the_begin": "1907-01-04T00:00:00Z",
+                "begin_of_the_begin": "1907-01-04T00:00:00",
                 "end_of_the_end": "1907-01-04T00:00:00Z"
               }
             }
@@ -2951,7 +3531,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16410/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "1965.14",
             "classified_as": [
               {
@@ -2999,7 +3579,14 @@
               "type": "Actor",
               "_label": "Pueblo people"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/16410/production/timespan",
+            "type": "TimeSpan",
+            "_label": "before 1910",
+            "begin_of_the_begin": "0100-01-01T00:00:00",
+            "end_of_the_end": "1910-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -3070,10 +3657,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/16410/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/16410/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1914-06-01",
-                "begin_of_the_begin": "1914-06-01T00:00:00Z",
+                "begin_of_the_begin": "1914-06-01T00:00:00",
                 "end_of_the_end": "1914-06-01T00:00:00Z"
               }
             }
@@ -3278,7 +3865,7 @@
           {
             "id": "https://data.discovernewfields.org/object/17425/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR0329",
             "classified_as": [
               {
@@ -3333,7 +3920,14 @@
               "type": "Actor",
               "_label": "Unknown"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/17425/production/timespan",
+            "type": "TimeSpan",
+            "_label": "about 1910",
+            "begin_of_the_begin": "1905-01-01T00:00:00",
+            "end_of_the_end": "1915-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -3404,10 +3998,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/17425/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/17425/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1974-03-21",
-                "begin_of_the_begin": "1974-03-21T00:00:00Z",
+                "begin_of_the_begin": "1974-03-21T00:00:00",
                 "end_of_the_end": "1974-03-21T00:00:00Z"
               }
             }
@@ -3625,7 +4219,7 @@
           {
             "id": "https://data.discovernewfields.org/object/17577/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR3950/7",
             "classified_as": [
               {
@@ -3673,7 +4267,14 @@
               "type": "Actor",
               "_label": "Carlsen, Dines"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/17577/production/timespan",
+            "type": "TimeSpan",
+            "_label": "about 1928",
+            "begin_of_the_begin": "1927-01-01T00:00:00",
+            "end_of_the_end": "1928-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -3744,10 +4345,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/17577/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/17577/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1980-12-31",
-                "begin_of_the_begin": "1980-12-31T00:00:00Z",
+                "begin_of_the_begin": "1980-12-31T00:00:00",
                 "end_of_the_end": "1980-12-31T00:00:00Z"
               }
             }
@@ -4012,7 +4613,7 @@
           {
             "id": "https://data.discovernewfields.org/object/20419/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR8614",
             "classified_as": [
               {
@@ -4059,7 +4660,14 @@
               "type": "Actor",
               "_label": "Lippincott, LLC"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/20419/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1970",
+            "begin_of_the_begin": "1970-01-01T00:00:00",
+            "end_of_the_end": "1970-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -4371,6 +4979,26 @@
               }
             ]
           }
+        ],
+        "subject-of": [
+          {
+            "id": "http://collection.imamuseum.org/artwork/ 28170/",
+            "type": "LinguisticObject",
+            "_label": "Homepage for Love",
+            "classified_as": [
+              {
+                "id": "http://vocab/getty.edu/aat/300264578",
+                "type": "Type",
+                "_label": "Web pages (documents)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300266277",
+                "type": "Type",
+                "_label": "home pages"
+              }
+            ],
+            "format": "text/html"
+          }
         ]
       }
     },
@@ -4499,7 +5127,14 @@
               "type": "Actor",
               "_label": "Utagawa Hiroshige 歌川広重"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/21137/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1833-1834",
+            "begin_of_the_begin": "1833-01-01T00:00:00",
+            "end_of_the_end": "1834-12-31T00:00:00"
+          }
         },
         "current_owner": {
           "id": "http://vocab.getty.edu/ulan/500300517",
@@ -4532,10 +5167,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/21137/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/21137/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1906-05-01",
-                "begin_of_the_begin": "1906-05-01T00:00:00Z",
+                "begin_of_the_begin": "1906-05-01T00:00:00",
                 "end_of_the_end": "1906-05-01T00:00:00Z"
               }
             }
@@ -4724,6 +5359,26 @@
               }
             ]
           }
+        ],
+        "subject-of": [
+          {
+            "id": "http://collection.imamuseum.org/artwork/80085/",
+            "type": "LinguisticObject",
+            "_label": "Homepage for Hakone",
+            "classified_as": [
+              {
+                "id": "http://vocab/getty.edu/aat/300264578",
+                "type": "Type",
+                "_label": "Web pages (documents)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300266277",
+                "type": "Type",
+                "_label": "home pages"
+              }
+            ],
+            "format": "text/html"
+          }
         ]
       }
     },
@@ -4820,7 +5475,14 @@
               "type": "Actor",
               "_label": "Beckwith, James Carroll"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/21288/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1881-1882",
+            "begin_of_the_begin": "1881-01-01T00:00:00",
+            "end_of_the_end": "1882-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -4891,10 +5553,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/21288/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/21288/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1910-05-12",
-                "begin_of_the_begin": "1910-05-12T00:00:00Z",
+                "begin_of_the_begin": "1910-05-12T00:00:00",
                 "end_of_the_end": "1910-05-12T00:00:00Z"
               }
             }
@@ -5072,6 +5734,26 @@
               }
             ]
           }
+        ],
+        "subject-of": [
+          {
+            "id": "http://collection.imamuseum.org/artwork/                 80484/",
+            "type": "LinguisticObject",
+            "_label": "Homepage for Portrait of William Merritt Chase",
+            "classified_as": [
+              {
+                "id": "http://vocab/getty.edu/aat/300264578",
+                "type": "Type",
+                "_label": "Web pages (documents)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300266277",
+                "type": "Type",
+                "_label": "home pages"
+              }
+            ],
+            "format": "text/html"
+          }
         ]
       }
     },
@@ -5163,7 +5845,14 @@
               "type": "Actor",
               "_label": "Unknown 作者不詳"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/24693/production/timespan",
+            "type": "TimeSpan",
+            "_label": "about 1800–1850",
+            "begin_of_the_begin": "1801-01-01T00:00:00",
+            "end_of_the_end": "1900-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -5306,10 +5995,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/24693/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/24693/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1913-01-02",
-                "begin_of_the_begin": "1913-01-02T00:00:00Z",
+                "begin_of_the_begin": "1913-01-02T00:00:00",
                 "end_of_the_end": "1913-01-02T00:00:00Z"
               }
             }
@@ -5516,7 +6205,7 @@
           {
             "id": "https://data.discovernewfields.org/object/24892/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR3673",
             "classified_as": [
               {
@@ -5550,7 +6239,14 @@
               "type": "Actor",
               "_label": "Halston"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/24892/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1980",
+            "begin_of_the_begin": "1980-01-01T00:00:00",
+            "end_of_the_end": "1980-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -5673,10 +6369,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/24892/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/24892/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1980-09-18",
-                "begin_of_the_begin": "1980-09-18T00:00:00Z",
+                "begin_of_the_begin": "1980-09-18T00:00:00",
                 "end_of_the_end": "1980-09-18T00:00:00Z"
               }
             }
@@ -5960,7 +6656,14 @@
               "type": "Actor",
               "_label": "Utagawa Kunisada 歌川国貞"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/25098/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1839",
+            "begin_of_the_begin": "1839-01-01T00:00:00",
+            "end_of_the_end": "1839-12-31T00:00:00"
+          }
         },
         "current_owner": {
           "id": "http://vocab.getty.edu/ulan/500300517",
@@ -6345,7 +7048,14 @@
               "type": "Actor",
               "_label": "Steele, Theodore Clement"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/37383/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1887",
+            "begin_of_the_begin": "1887-01-01T00:00:00",
+            "end_of_the_end": "1887-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -6416,11 +7126,11 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/37383/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/37383/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1889",
-                "begin_of_the_begin": "1889-01-01T00:00:00Z",
-                "end_of_the_end": "1889-12-31T00:00:00Z"
+                "begin_of_the_begin": "1889-01-01T00:00:00",
+                "end_of_the_end": "1889-12-31T00:00:00"
               }
             }
           ]
@@ -6608,6 +7318,26 @@
               }
             ]
           }
+        ],
+        "subject-of": [
+          {
+            "id": "http://collection.imamuseum.org/artwork/ 56192/",
+            "type": "LinguisticObject",
+            "_label": "Homepage for Oaks of Vernon",
+            "classified_as": [
+              {
+                "id": "http://vocab/getty.edu/aat/300264578",
+                "type": "Type",
+                "_label": "Web pages (documents)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300266277",
+                "type": "Type",
+                "_label": "home pages"
+              }
+            ],
+            "format": "text/html"
+          }
         ]
       }
     },
@@ -6659,7 +7389,7 @@
           {
             "id": "https://data.discovernewfields.org/object/41018/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR3986/72uu",
             "classified_as": [
               {
@@ -6719,7 +7449,14 @@
               "type": "Actor",
               "_label": "Miller, William"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/41018/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1836",
+            "begin_of_the_begin": "1836-01-01T00:00:00",
+            "end_of_the_end": "1836-12-31T00:00:00"
+          }
         },
         "current_owner": {
           "id": "http://vocab.getty.edu/ulan/500300517",
@@ -6752,10 +7489,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/41018/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/41018/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1980-01-01",
-                "begin_of_the_begin": "1980-01-01T00:00:00Z",
+                "begin_of_the_begin": "1980-01-01T00:00:00",
                 "end_of_the_end": "1980-01-01T00:00:00Z"
               }
             }
@@ -7029,7 +7766,7 @@
           {
             "id": "https://data.discovernewfields.org/object/41019/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR3986/72vv",
             "classified_as": [
               {
@@ -7089,7 +7826,14 @@
               "type": "Actor",
               "_label": "Miller, William"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/41019/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1836",
+            "begin_of_the_begin": "1836-01-01T00:00:00",
+            "end_of_the_end": "1836-12-31T00:00:00"
+          }
         },
         "current_owner": {
           "id": "http://vocab.getty.edu/ulan/500300517",
@@ -7122,10 +7866,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/41019/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/41019/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1980-01-01",
-                "begin_of_the_begin": "1980-01-01T00:00:00Z",
+                "begin_of_the_begin": "1980-01-01T00:00:00",
                 "end_of_the_end": "1980-01-01T00:00:00Z"
               }
             }
@@ -7446,10 +8190,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/46950/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/46950/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1905-12-",
-                "begin_of_the_begin": "1905-12-01T00:00:00Z",
+                "begin_of_the_begin": "1905-12-01T00:00:00",
                 "end_of_the_end": "1905-12-31T00:00:00Z"
               }
             }
@@ -7550,6 +8294,26 @@
               }
             ]
           }
+        ],
+        "subject-of": [
+          {
+            "id": "http://collection.imamuseum.org/artwork/34951/",
+            "type": "LinguisticObject",
+            "_label": "Homepage for United States Flag",
+            "classified_as": [
+              {
+                "id": "http://vocab/getty.edu/aat/300264578",
+                "type": "Type",
+                "_label": "Web pages (documents)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300266277",
+                "type": "Type",
+                "_label": "home pages"
+              }
+            ],
+            "format": "text/html"
+          }
         ]
       }
     },
@@ -7645,7 +8409,13 @@
               "type": "Actor",
               "_label": "Unknown"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/47035/production/timespan",
+            "type": "TimeSpan",
+            "_label": "before 1908",
+            "end_of_the_end": "1908-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -7693,11 +8463,11 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/47035/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/47035/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1919",
-                "begin_of_the_begin": "1919-01-01T00:00:00Z",
-                "end_of_the_end": "1919-12-31T00:00:00Z"
+                "begin_of_the_begin": "1919-01-01T00:00:00",
+                "end_of_the_end": "1919-12-31T00:00:00"
               }
             }
           ]
@@ -7815,6 +8585,298 @@
               }
             ]
           }
+        ],
+        "subject-of": [
+          {
+            "id": "http://collection.imamuseum.org/artwork/17255/",
+            "type": "LinguisticObject",
+            "_label": "Homepage for Statue of Augustus Caesar",
+            "classified_as": [
+              {
+                "id": "http://vocab/getty.edu/aat/300264578",
+                "type": "Type",
+                "_label": "Web pages (documents)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300266277",
+                "type": "Type",
+                "_label": "home pages"
+              }
+            ],
+            "format": "text/html"
+          }
+        ]
+      }
+    },
+    {
+      "49409": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/object/49409",
+        "type": "HumanMadeObject",
+        "_label": "string of beads",
+        "classified_as": [
+          {
+            "id": "https://data.discovernewfields.org/thesauri/type/jewelry",
+            "type": "Type",
+            "_label": "jewelry"
+          }
+        ],
+        "identified_by": [
+          {
+            "id": "https://data.discovernewfields.org/object/49409/irn",
+            "type": "Identifier",
+            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "content": 49409,
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404621",
+                "type": "Type",
+                "_label": "repository numbers"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/49409/accession-number",
+            "type": "Identifier",
+            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "content": "13.357",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300312355",
+                "type": "Type",
+                "_label": "accession numbers"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/49409/old-accession-number/1",
+            "type": "Identifier",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "content": "13.351",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "identification numbers"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/49409/title",
+            "type": "Name",
+            "_label": "Primary Title for the Artwork",
+            "content": "string of beads",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404670",
+                "type": "Type",
+                "_label": "preferred terms"
+              }
+            ]
+          }
+        ],
+        "made_of": [
+          {
+            "id": "https://data.discovernewfields.org/thesauri/material/earthenware",
+            "type": "Material",
+            "_label": "Material of Which the Object is Composed",
+            "content": "earthenware"
+          }
+        ],
+        "produced_by": {
+          "id": "https://data.discovernewfields.org/object/49409/production",
+          "type": "Production",
+          "_label": "Production of string of beads",
+          "carried_out_by": [
+            {
+              "id": "https://data.discovernewfields.org/thesauri/culture/egyptian",
+              "type": "Actor",
+              "_label": "Egyptian"
+            }
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/49409/production/timespan",
+            "type": "TimeSpan",
+            "_label": "Twenty-third Dynasty (823-732 B.C.E.)",
+            "begin_of_the_begin": "-0823-01-01T00:00:00",
+            "end_of_the_end": "-0732-12-31T00:00:00"
+          }
+        },
+        "dimension": [
+          {
+            "id": "https://data.discovernewfields.org/object/49409/dimension-1/height",
+            "type": "Dimension",
+            "_label": "Dimensions for string of beads",
+            "value": "25.0000",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055644",
+                "type": "Type",
+                "_label": "height"
+              }
+            ],
+            "unit": {
+              "id": "http://vocab.getty.edu/aat/300379100",
+              "type": "Type",
+              "_label": "inches"
+            }
+          }
+        ],
+        "current_owner": {
+          "id": "http://vocab.getty.edu/ulan/500300517",
+          "type": "Group",
+          "_label": "Indianapolis Museum of Art at Newfields",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300312281",
+              "type": "Type",
+              "_label": "museums (institutions)"
+            }
+          ],
+          "acquired_title_through": [
+            {
+              "id": "https://data.discovernewfields.org/object/49409/IMA-acquisition",
+              "type": "Acquisition",
+              "_label": "Acquisition of string of beads",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300157782",
+                  "type": "Type",
+                  "_label": "acquisition (collections management)"
+                }
+              ],
+              "took_place_at": [
+                {
+                  "id": "http://vocab.getty.edu/tgn/7012924",
+                  "type": "Place",
+                  "_label": "Indianapolis, Indiana"
+                }
+              ],
+              "timespan": {
+                "id": "https://data.discovernewfields.org/object/49409/IMA-acquisition/timespan",
+                "type": "TimeSpan",
+                "_label": "1913-11-06",
+                "begin_of_the_begin": "1913-11-06T00:00:00",
+                "end_of_the_end": "1913-11-06T00:00:00Z"
+              }
+            }
+          ]
+        },
+        "current_location": {
+          "id": "https://data.discovernewfields.org/thesauri/location/storage",
+          "type": "Place",
+          "_label": "IMA Storage"
+        },
+        "referred_to_by": [
+          {
+            "id": "https://data.discovernewfields.org/object/49409/credit-line",
+            "type": "LinguisticObject",
+            "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+            "content": "Gift of Egyptian Research Account, British School of Archaeology through William Flinders Petrie",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300026687",
+                "type": "Type",
+                "_label": "acknowledgments"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/49409/dimension-statement",
+            "type": "LinguisticObject",
+            "_label": "Notes about the Dimensions of the Work",
+            "content": "25 in.",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300266036",
+                "type": "Type",
+                "_label": "dimensions"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/49409/materials-statement",
+            "type": "LinguisticObject",
+            "_label": "Notes about the Materials in the Work",
+            "content": "earthenware",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300010358",
+                "type": "Type",
+                "_label": "materials (substances)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/49409/rights-statement",
+            "type": "LinguisticObject",
+            "_label": "Rights Statement",
+            "content": "Public Domain",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055547",
+                "type": "Type",
+                "_label": "legal concepts"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "type": "LinguisticObject",
+            "_label": "Public Domain",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055547",
+                "type": "Type",
+                "_label": "legal concepts"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          }
+        ],
+        "subject-of": [
+          {
+            "id": "http://collection.imamuseum.org/artwork/35899/",
+            "type": "LinguisticObject",
+            "_label": "Homepage for string of beads",
+            "classified_as": [
+              {
+                "id": "http://vocab/getty.edu/aat/300264578",
+                "type": "Type",
+                "_label": "Web pages (documents)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300266277",
+                "type": "Type",
+                "_label": "home pages"
+              }
+            ],
+            "format": "text/html"
+          }
         ]
       }
     },
@@ -7865,6 +8927,19 @@
                 "id": "http://vocab.getty.edu/aat/300312355",
                 "type": "Type",
                 "_label": "accession numbers"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/51330/old-accession-number/1",
+            "type": "Identifier",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "content": "TR1548/301",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "identification numbers"
               }
             ]
           },
@@ -7925,7 +9000,14 @@
               "type": "Actor",
               "_label": "Utagawa Hirokage"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/51330/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1859",
+            "begin_of_the_begin": "1859-01-01T00:00:00",
+            "end_of_the_end": "1859-12-31T00:00:00"
+          }
         },
         "current_owner": {
           "id": "http://vocab.getty.edu/ulan/500300517",
@@ -7956,7 +9038,14 @@
                   "type": "Place",
                   "_label": "Indianapolis, Indiana"
                 }
-              ]
+              ],
+              "timespan": {
+                "id": "https://data.discovernewfields.org/object/51330/IMA-acquisition/timespan",
+                "type": "TimeSpan",
+                "_label": "1930-10-21",
+                "begin_of_the_begin": "1930-10-21T00:00:00",
+                "end_of_the_end": "1930-10-21T00:00:00Z"
+              }
             }
           ]
         },
@@ -8335,7 +9424,12 @@
               "type": "Actor",
               "_label": "Katsushika Hokusai 葛飾北斎"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/52481/production/timespan",
+            "type": "TimeSpan",
+            "_label": "about 1802"
+          }
         },
         "current_owner": {
           "id": "http://vocab.getty.edu/ulan/500300517",
@@ -8617,7 +9711,7 @@
           {
             "id": "https://data.discovernewfields.org/object/55312/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR3986/72a",
             "classified_as": [
               {
@@ -8746,10 +9840,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/55312/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/55312/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1980-01-01",
-                "begin_of_the_begin": "1980-01-01T00:00:00Z",
+                "begin_of_the_begin": "1980-01-01T00:00:00",
                 "end_of_the_end": "1980-01-01T00:00:00Z"
               }
             }
@@ -8916,7 +10010,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64017/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR10523/3A-B",
             "classified_as": [
               {
@@ -8964,7 +10058,14 @@
               "type": "Actor",
               "_label": "Zulu people"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/64017/production/timespan",
+            "type": "TimeSpan",
+            "_label": "mid-20th century",
+            "begin_of_the_begin": "1920-01-01T00:00:00",
+            "end_of_the_end": "1960-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -9035,10 +10136,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/64017/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/64017/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2007-04-10",
-                "begin_of_the_begin": "2007-04-10T00:00:00Z",
+                "begin_of_the_begin": "2007-04-10T00:00:00",
                 "end_of_the_end": "2007-04-10T00:00:00Z"
               }
             }
@@ -9224,7 +10325,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64018/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR10523/3A",
             "classified_as": [
               {
@@ -9278,7 +10379,14 @@
               "type": "Actor",
               "_label": "Zulu people"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/64018/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1950-1970",
+            "begin_of_the_begin": "1950-01-01T00:00:00",
+            "end_of_the_end": "1970-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -9349,10 +10457,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/64018/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/64018/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2007-04-10",
-                "begin_of_the_begin": "2007-04-10T00:00:00Z",
+                "begin_of_the_begin": "2007-04-10T00:00:00",
                 "end_of_the_end": "2007-04-10T00:00:00Z"
               }
             }
@@ -9506,7 +10614,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64019/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR10523/3B",
             "classified_as": [
               {
@@ -9554,7 +10662,14 @@
               "type": "Actor",
               "_label": "Zulu people"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/64019/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1920-1960",
+            "begin_of_the_begin": "1920-01-01T00:00:00",
+            "end_of_the_end": "1960-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -9625,10 +10740,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/64019/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/64019/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2007-04-10",
-                "begin_of_the_begin": "2007-04-10T00:00:00Z",
+                "begin_of_the_begin": "2007-04-10T00:00:00",
                 "end_of_the_end": "2007-04-10T00:00:00Z"
               }
             }
@@ -9847,7 +10962,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64628/old-accession-number-1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR10819/2-17",
             "classified_as": [
               {
@@ -9860,7 +10975,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64628/old-accession-number-2",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "EX2009.1.29",
             "classified_as": [
               {
@@ -9913,7 +11028,14 @@
               "type": "Actor",
               "_label": "Bey, Jurgen"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/64628/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1999",
+            "begin_of_the_begin": "1999-01-01T00:00:00",
+            "end_of_the_end": "1999-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -10002,10 +11124,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/64628/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/64628/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2009-12-17",
-                "begin_of_the_begin": "2009-12-17T00:00:00Z",
+                "begin_of_the_begin": "2009-12-17T00:00:00",
                 "end_of_the_end": "2009-12-17T00:00:00Z"
               }
             }
@@ -10310,7 +11432,7 @@
           {
             "id": "https://data.discovernewfields.org/object/67743/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR10985/5A-B",
             "classified_as": [
               {
@@ -10369,7 +11491,14 @@
               "type": "Actor",
               "_label": "B&B Italia, S.p.A."
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/67743/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1969",
+            "begin_of_the_begin": "1969-01-01T00:00:00",
+            "end_of_the_end": "2000-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -10493,10 +11622,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/67743/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/67743/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2009-12-31",
-                "begin_of_the_begin": "2009-12-31T00:00:00Z",
+                "begin_of_the_begin": "2009-12-31T00:00:00",
                 "end_of_the_end": "2009-12-31T00:00:00Z"
               }
             }
@@ -10613,14 +11742,14 @@
         ],
         "part": [
           {
-            "id": "https://data.discovernewfields.org/object/69063",
-            "type": "HumanMadeObject",
-            "_label": "UP6 ottoman"
-          },
-          {
             "id": "https://data.discovernewfields.org/object/69062",
             "type": "HumanMadeObject",
             "_label": "UP5 chair"
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/69063",
+            "type": "HumanMadeObject",
+            "_label": "UP6 ottoman"
           }
         ],
         "subject-of": [
@@ -10718,7 +11847,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68180/old-accession-number-1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR10819/2A-B",
             "classified_as": [
               {
@@ -10731,7 +11860,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68180/old-accession-number-2",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "EX2009.1.29",
             "classified_as": [
               {
@@ -10779,7 +11908,14 @@
               "type": "Actor",
               "_label": "Bey, Jurgen"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/68180/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1999",
+            "begin_of_the_begin": "1999-01-01T00:00:00",
+            "end_of_the_end": "1999-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -10868,10 +12004,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/68180/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/68180/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2009-12-17",
-                "begin_of_the_begin": "2009-12-17T00:00:00Z",
+                "begin_of_the_begin": "2009-12-17T00:00:00",
                 "end_of_the_end": "2009-12-17T00:00:00Z"
               }
             }
@@ -11055,7 +12191,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68181/old-accession-number-1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR10819/2A",
             "classified_as": [
               {
@@ -11068,7 +12204,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68181/old-accession-number-2",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "EX2009.1.29",
             "classified_as": [
               {
@@ -11116,7 +12252,14 @@
               "type": "Actor",
               "_label": "Bey, Jurgen"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/68181/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1999",
+            "begin_of_the_begin": "1999-01-01T00:00:00",
+            "end_of_the_end": "1999-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -11205,10 +12348,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/68181/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/68181/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2009-12-17",
-                "begin_of_the_begin": "2009-12-17T00:00:00Z",
+                "begin_of_the_begin": "2009-12-17T00:00:00",
                 "end_of_the_end": "2009-12-17T00:00:00Z"
               }
             }
@@ -11387,7 +12530,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68182/old-accession-number-1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR10819/2B",
             "classified_as": [
               {
@@ -11400,7 +12543,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68182/old-accession-number-2",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "EX2009.1.29",
             "classified_as": [
               {
@@ -11448,7 +12591,14 @@
               "type": "Actor",
               "_label": "Bey, Jurgen"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/68182/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1999",
+            "begin_of_the_begin": "1999-01-01T00:00:00",
+            "end_of_the_end": "1999-12-31T00:00:00"
+          }
         },
         "current_owner": {
           "id": "http://vocab.getty.edu/ulan/500300517",
@@ -11481,10 +12631,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/68182/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/68182/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2009-12-17",
-                "begin_of_the_begin": "2009-12-17T00:00:00Z",
+                "begin_of_the_begin": "2009-12-17T00:00:00",
                 "end_of_the_end": "2009-12-17T00:00:00Z"
               }
             }
@@ -11648,7 +12798,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68903/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR11136",
             "classified_as": [
               {
@@ -11702,7 +12852,14 @@
               "type": "Actor",
               "_label": "Los Carpinteros"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/68903/production/timespan",
+            "type": "TimeSpan",
+            "_label": "2010",
+            "begin_of_the_begin": "2010-01-01T00:00:00",
+            "end_of_the_end": "2010-12-31T00:00:00"
+          }
         },
         "current_owner": {
           "id": "http://vocab.getty.edu/ulan/500300517",
@@ -11735,10 +12892,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/68903/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/68903/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2010-09-16",
-                "begin_of_the_begin": "2010-09-16T00:00:00Z",
+                "begin_of_the_begin": "2010-09-16T00:00:00",
                 "end_of_the_end": "2010-09-16T00:00:00Z"
               }
             }
@@ -11928,7 +13085,7 @@
           {
             "id": "https://data.discovernewfields.org/object/69062/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR10985/5A-B",
             "classified_as": [
               {
@@ -11987,7 +13144,14 @@
               "type": "Actor",
               "_label": "B&B Italia, S.p.A."
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/69062/production/timespan",
+            "type": "TimeSpan",
+            "_label": "2000",
+            "begin_of_the_begin": "2000-01-01T00:00:00",
+            "end_of_the_end": "2000-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -12076,10 +13240,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/69062/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/69062/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2009-12-31",
-                "begin_of_the_begin": "2009-12-31T00:00:00Z",
+                "begin_of_the_begin": "2009-12-31T00:00:00",
                 "end_of_the_end": "2009-12-31T00:00:00Z"
               }
             }
@@ -12162,6 +13326,24 @@
                 "id": "http://vocab.getty.edu/aat/300010358",
                 "type": "Type",
                 "_label": "materials (substances)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/69062/creation-notes",
+            "type": "LinguisticObject",
+            "_label": "IMA Creation Notes about UP5 chair",
+            "content": "designed 1969, manufactured 2000",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300027200",
+                "type": "Type",
+                "_label": "notes (documents)"
               },
               {
                 "id": "http://vocab.getty.edu/aat/300418049",
@@ -12256,7 +13438,7 @@
           {
             "id": "https://data.discovernewfields.org/object/69063/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR10985/5A-B",
             "classified_as": [
               {
@@ -12315,7 +13497,14 @@
               "type": "Actor",
               "_label": "B&B Italia, S.p.A."
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/69063/production/timespan",
+            "type": "TimeSpan",
+            "_label": "2000",
+            "begin_of_the_begin": "2000-01-01T00:00:00",
+            "end_of_the_end": "2000-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -12368,10 +13557,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/69063/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/69063/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2009-12-31",
-                "begin_of_the_begin": "2009-12-31T00:00:00Z",
+                "begin_of_the_begin": "2009-12-31T00:00:00",
                 "end_of_the_end": "2009-12-31T00:00:00Z"
               }
             }
@@ -12463,6 +13652,24 @@
             ]
           },
           {
+            "id": "https://data.discovernewfields.org/object/69063/creation-notes",
+            "type": "LinguisticObject",
+            "_label": "IMA Creation Notes about UP6 ottoman",
+            "content": "designed 1969, manufactured 2000",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300027200",
+                "type": "Type",
+                "_label": "notes (documents)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
             "id": "https://data.discovernewfields.org/object/69063/rights-statement",
             "type": "LinguisticObject",
             "_label": "Rights Statement",
@@ -12543,7 +13750,7 @@
           {
             "id": "https://data.discovernewfields.org/object/81052/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR11642/2",
             "classified_as": [
               {
@@ -12602,7 +13809,12 @@
               "type": "Actor",
               "_label": "Miyake, Issey"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/81052/production/timespan",
+            "type": "TimeSpan",
+            "_label": "Fall 2006-2007"
+          }
         },
         "dimension": [
           {
@@ -12690,10 +13902,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/81052/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/81052/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2013-12-12",
-                "begin_of_the_begin": "2013-12-12T00:00:00Z",
+                "begin_of_the_begin": "2013-12-12T00:00:00",
                 "end_of_the_end": "2013-12-12T00:00:00Z"
               }
             }
@@ -12895,7 +14107,7 @@
           {
             "id": "https://data.discovernewfields.org/object/82696/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR11707A-E.4",
             "classified_as": [
               {
@@ -12943,7 +14155,14 @@
               "type": "Actor",
               "_label": "Lichtenstein, Roy"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/82696/production/timespan",
+            "type": "TimeSpan",
+            "_label": "fabricated 2012",
+            "begin_of_the_begin": "2012-01-01T00:00:00",
+            "end_of_the_end": "2012-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -13248,10 +14467,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/82696/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/82696/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2013-12-12",
-                "begin_of_the_begin": "2013-12-12T00:00:00Z",
+                "begin_of_the_begin": "2013-12-12T00:00:00",
                 "end_of_the_end": "2013-12-12T00:00:00Z"
               }
             }
@@ -13375,7 +14594,7 @@
             "id": "https://data.discovernewfields.org/object/82696/creation-notes",
             "type": "LinguisticObject",
             "_label": "IMA Creation Notes about Five Brushstrokes",
-            "content": "The sculpture was created posthumously from the aritist's specificiations, and originally commissioned by by an arts patron for the University of California at San Diego's campus in LaJolla, but was never fabricated beyond the artist's maquettes.",
+            "content": "(designed 1983-1984, fabricated 2012)\nThe sculpture was created posthumously from the aritist's specificiations, and originally commissioned by by an arts patron for the University of California at San Diego's campus in LaJolla, but was never fabricated beyond the artist's maquettes.",
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300027200",
@@ -13447,6 +14666,11 @@
             "_label": "element D for Five Brushstrokes"
           },
           {
+            "id": "https://data.discovernewfields.org/object/85261",
+            "type": "HumanMadeObject",
+            "_label": "element E.1 for Five Brushstrokes"
+          },
+          {
             "id": "https://data.discovernewfields.org/object/85262",
             "type": "HumanMadeObject",
             "_label": "element E.2 for Five Brushstrokes"
@@ -13460,11 +14684,6 @@
             "id": "https://data.discovernewfields.org/object/85264",
             "type": "HumanMadeObject",
             "_label": "element E.4 for Five Brushstrokes"
-          },
-          {
-            "id": "https://data.discovernewfields.org/object/85261",
-            "type": "HumanMadeObject",
-            "_label": "element E.1 for Five Brushstrokes"
           }
         ],
         "subject-of": [
@@ -13542,7 +14761,7 @@
           {
             "id": "https://data.discovernewfields.org/object/85257/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR11707A",
             "classified_as": [
               {
@@ -13590,7 +14809,14 @@
               "type": "Actor",
               "_label": "Lichtenstein, Roy"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/85257/production/timespan",
+            "type": "TimeSpan",
+            "_label": "fabricated 2012",
+            "begin_of_the_begin": "2012-01-01T00:00:00",
+            "end_of_the_end": "2012-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -13697,10 +14923,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/85257/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/85257/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2013-12-12",
-                "begin_of_the_begin": "2013-12-12T00:00:00Z",
+                "begin_of_the_begin": "2013-12-12T00:00:00",
                 "end_of_the_end": "2013-12-12T00:00:00Z"
               }
             }
@@ -13824,7 +15050,7 @@
             "id": "https://data.discovernewfields.org/object/85257/creation-notes",
             "type": "LinguisticObject",
             "_label": "IMA Creation Notes about element A for Five Brushstrokes",
-            "content": "The sculpture was created posthumously from the aritist's specificiations, and originally commissioned by by an arts patron for the University of California at San Diego's campus in LaJolla, but was never fabricated beyond the artist's maquettes.",
+            "content": "(designed 1983-1984, fabricated 2012)\nThe sculpture was created posthumously from the aritist's specificiations, and originally commissioned by by an arts patron for the University of California at San Diego's campus in LaJolla, but was never fabricated beyond the artist's maquettes.",
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300027200",
@@ -13912,7 +15138,7 @@
           {
             "id": "https://data.discovernewfields.org/object/89163/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR3673",
             "classified_as": [
               {
@@ -13946,7 +15172,14 @@
               "type": "Actor",
               "_label": "Halston"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/89163/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1980",
+            "begin_of_the_begin": "1980-01-01T00:00:00",
+            "end_of_the_end": "1980-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -14033,10 +15266,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/89163/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/89163/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1980-09-18",
-                "begin_of_the_begin": "1980-09-18T00:00:00Z",
+                "begin_of_the_begin": "1980-09-18T00:00:00",
                 "end_of_the_end": "1980-09-18T00:00:00Z"
               }
             }
@@ -14219,7 +15452,7 @@
           {
             "id": "https://data.discovernewfields.org/object/89164/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR3673",
             "classified_as": [
               {
@@ -14253,7 +15486,14 @@
               "type": "Actor",
               "_label": "Halston"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/89164/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1980",
+            "begin_of_the_begin": "1980-01-01T00:00:00",
+            "end_of_the_end": "1980-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -14340,10 +15580,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/89164/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/89164/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1980-09-18",
-                "begin_of_the_begin": "1980-09-18T00:00:00Z",
+                "begin_of_the_begin": "1980-09-18T00:00:00",
                 "end_of_the_end": "1980-09-18T00:00:00Z"
               }
             }
@@ -14595,7 +15835,14 @@
               "type": "Actor",
               "_label": "Utagawa Kunisada 歌川国貞"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/89367/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1839",
+            "begin_of_the_begin": "1839-01-01T00:00:00",
+            "end_of_the_end": "1839-12-31T00:00:00"
+          }
         },
         "current_owner": {
           "id": "http://vocab.getty.edu/ulan/500300517",
@@ -14946,7 +16193,14 @@
               "type": "Actor",
               "_label": "Utagawa Kunisada 歌川国貞"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/89368/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1839",
+            "begin_of_the_begin": "1839-01-01T00:00:00",
+            "end_of_the_end": "1839-12-31T00:00:00"
+          }
         },
         "current_owner": {
           "id": "http://vocab.getty.edu/ulan/500300517",
@@ -15297,7 +16551,14 @@
               "type": "Actor",
               "_label": "Utagawa Kunisada 歌川国貞"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/89369/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1839",
+            "begin_of_the_begin": "1839-01-01T00:00:00",
+            "end_of_the_end": "1839-12-31T00:00:00"
+          }
         },
         "current_owner": {
           "id": "http://vocab.getty.edu/ulan/500300517",
@@ -15597,7 +16858,7 @@
           {
             "id": "https://data.discovernewfields.org/object/90817/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR12093A-C",
             "classified_as": [
               {
@@ -15644,7 +16905,14 @@
               "type": "Actor",
               "_label": "Val Saint Lambert"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/90817/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1956",
+            "begin_of_the_begin": "1956-01-01T00:00:00",
+            "end_of_the_end": "1956-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -15841,10 +17109,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/90817/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/90817/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2017-04-13",
-                "begin_of_the_begin": "2017-04-13T00:00:00Z",
+                "begin_of_the_begin": "2017-04-13T00:00:00",
                 "end_of_the_end": "2017-04-13T00:00:00Z"
               }
             }
@@ -16024,7 +17292,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92158/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR12093A-C",
             "classified_as": [
               {
@@ -16071,7 +17339,14 @@
               "type": "Actor",
               "_label": "Val Saint Lambert"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/92158/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1956",
+            "begin_of_the_begin": "1956-01-01T00:00:00",
+            "end_of_the_end": "1956-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -16160,10 +17435,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/92158/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/92158/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2017-04-13",
-                "begin_of_the_begin": "2017-04-13T00:00:00Z",
+                "begin_of_the_begin": "2017-04-13T00:00:00",
                 "end_of_the_end": "2017-04-13T00:00:00Z"
               }
             }
@@ -16311,7 +17586,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92159/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR12093A-C",
             "classified_as": [
               {
@@ -16358,7 +17633,14 @@
               "type": "Actor",
               "_label": "Val Saint Lambert"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/92159/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1956",
+            "begin_of_the_begin": "1956-01-01T00:00:00",
+            "end_of_the_end": "1956-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -16447,10 +17729,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/92159/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/92159/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2017-04-13",
-                "begin_of_the_begin": "2017-04-13T00:00:00Z",
+                "begin_of_the_begin": "2017-04-13T00:00:00",
                 "end_of_the_end": "2017-04-13T00:00:00Z"
               }
             }
@@ -16598,7 +17880,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92160/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR12093A-C",
             "classified_as": [
               {
@@ -16645,7 +17927,14 @@
               "type": "Actor",
               "_label": "Val Saint Lambert"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/92160/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1956",
+            "begin_of_the_begin": "1956-01-01T00:00:00",
+            "end_of_the_end": "1956-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -16734,10 +18023,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/92160/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/92160/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2017-04-13",
-                "begin_of_the_begin": "2017-04-13T00:00:00Z",
+                "begin_of_the_begin": "2017-04-13T00:00:00",
                 "end_of_the_end": "2017-04-13T00:00:00Z"
               }
             }
@@ -16930,7 +18219,14 @@
               "type": "Actor",
               "_label": "Unknown 作者不詳"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/92384/production/timespan",
+            "type": "TimeSpan",
+            "_label": "about 1800–1850",
+            "begin_of_the_begin": "1801-01-01T00:00:00",
+            "end_of_the_end": "1900-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -17073,10 +18369,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/92384/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/92384/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1913-01-02",
-                "begin_of_the_begin": "1913-01-02T00:00:00Z",
+                "begin_of_the_begin": "1913-01-02T00:00:00",
                 "end_of_the_end": "1913-01-02T00:00:00Z"
               }
             }
@@ -17286,7 +18582,14 @@
               "type": "Actor",
               "_label": "Unknown 作者不詳"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/92385/production/timespan",
+            "type": "TimeSpan",
+            "_label": "about 1800–1850",
+            "begin_of_the_begin": "1801-01-01T00:00:00",
+            "end_of_the_end": "1900-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -17375,10 +18678,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/92385/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/92385/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1913-01-02",
-                "begin_of_the_begin": "1913-01-02T00:00:00Z",
+                "begin_of_the_begin": "1913-01-02T00:00:00",
                 "end_of_the_end": "1913-01-02T00:00:00Z"
               }
             }
@@ -17588,7 +18891,14 @@
               "type": "Actor",
               "_label": "Unknown 作者不詳"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/92386/production/timespan",
+            "type": "TimeSpan",
+            "_label": "about 1800–1850",
+            "begin_of_the_begin": "1801-01-01T00:00:00",
+            "end_of_the_end": "1900-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
@@ -17677,10 +18987,10 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/92386/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/92386/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1913-01-02",
-                "begin_of_the_begin": "1913-01-02T00:00:00Z",
+                "begin_of_the_begin": "1913-01-02T00:00:00",
                 "end_of_the_end": "1913-01-02T00:00:00Z"
               }
             }
@@ -17845,7 +19155,7 @@
           {
             "id": "https://data.discovernewfields.org/object/93739/old-accession-number-1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "TR9961/11",
             "classified_as": [
               {
@@ -17858,7 +19168,7 @@
           {
             "id": "https://data.discovernewfields.org/object/93739/old-accession-number-2",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "U841A",
             "classified_as": [
               {
@@ -17871,7 +19181,7 @@
           {
             "id": "https://data.discovernewfields.org/object/93739/old-accession-number-3",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "U841B",
             "classified_as": [
               {
@@ -17884,7 +19194,7 @@
           {
             "id": "https://data.discovernewfields.org/object/93739/old-accession-number-4",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
             "content": "U841C",
             "classified_as": [
               {
