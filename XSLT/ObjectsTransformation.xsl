@@ -205,7 +205,7 @@ Production-->
             "produced_by": {
                 "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/production",
                 "type": "Production",
-                "_label": "Production of <xsl:copy-of select="$title"/>"<xsl:if test="table[@name='Creator1'] or table[@name='Creator2']/tuple/atom[@name='CreCreationCultureOrPeople']"><xsl:choose><xsl:when test="table[@name='Creator1']">,
+                "_label": "Production of the Object"<xsl:if test="table[@name='Creator1'] or table[@name='Creator2']/tuple/atom[@name='CreCreationCultureOrPeople']"><xsl:choose><xsl:when test="table[@name='Creator1']">,
                 "carried_out_by": [<xsl:for-each select="table[@name='Creator1']/tuple[atom[@name='irn'] != '2741'] | table[@name='Creator1']/tuple[atom[@name='irn'] != '10661'] | table[@name='Creator1']/tuple[not(exists(atom[@name='CreCreatorAfterFollower']))]">
                     {
                         "id": "<xsl:copy-of select="$baseURI"/>actor/<xsl:copy-of select="$irn"/>",
@@ -233,7 +233,7 @@ Dimensions-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/circumference-<xsl:value-of select="position()"/>",
                     "type": "Dimension",
-                    "_label": "Circumference of <xsl:copy-of select="$title"/>",
+                    "_label": "Circumference of the Object",
                     "value": "<xsl:choose><xsl:when test="atom[@name='PhyDiameter'] != ''"><xsl:value-of select="atom[@name='PhyDiameter']"/></xsl:when><xsl:when test="atom[@name='PhyHeight'] != ''"><xsl:value-of select="atom[@name='PhyHeight']"/></xsl:when><xsl:when test="atom[@name='PhyWidth'] != ''"><xsl:value-of select="atom[@name='PhyWidth']"/></xsl:when><xsl:when test="atom[@name='PhyDepth'] != ''"><xsl:value-of select="atom[@name='PhyDepth']"/></xsl:when></xsl:choose>",
                     "classified_as": [
                         {
@@ -246,7 +246,7 @@ Dimensions-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/warp-<xsl:value-of select="position()"/>",
                     "type": "Dimension",
-                    "_label": "Warp of <xsl:copy-of select="$title"/>",
+                    "_label": "Warp of the Object",
                     "value": "<xsl:choose><xsl:when test="atom[@name='PhyDiameter'] != ''"><xsl:value-of select="atom[@name='PhyDiameter']"/></xsl:when><xsl:when test="atom[@name='PhyHeight'] != ''"><xsl:value-of select="atom[@name='PhyHeight']"/></xsl:when><xsl:when test="atom[@name='PhyWidth'] != ''"><xsl:value-of select="atom[@name='PhyWidth']"/></xsl:when><xsl:when test="atom[@name='PhyDepth'] != ''"><xsl:value-of select="atom[@name='PhyDepth']"/></xsl:when></xsl:choose>",
                     "classified_as": [
                         {
@@ -259,7 +259,7 @@ Dimensions-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/weft-<xsl:value-of select="position()"/>",
                     "type": "Dimension",
-                    "_label": "Weft of <xsl:copy-of select="$title"/>",
+                    "_label": "Weft of the Object",
                     "value": "<xsl:choose><xsl:when test="atom[@name='PhyDiameter'] != ''"><xsl:value-of select="atom[@name='PhyDiameter']"/></xsl:when><xsl:when test="atom[@name='PhyHeight'] != ''"><xsl:value-of select="atom[@name='PhyHeight']"/></xsl:when><xsl:when test="atom[@name='PhyWidth'] != ''"><xsl:value-of select="atom[@name='PhyWidth']"/></xsl:when><xsl:when test="atom[@name='PhyDepth'] != ''"><xsl:value-of select="atom[@name='PhyDepth']"/></xsl:when></xsl:choose>",
                     "classified_as": [
                         {
@@ -272,7 +272,7 @@ Dimensions-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/weight-<xsl:value-of select="position()"/>",
                     "type": "Dimension",
-                    "_label": "Circumference of <xsl:copy-of select="$title"/>",
+                    "_label": "Circumference of the Object",
                     "value": "<xsl:value-of select="atom[@name='PhyWeight']"/>",
                     "classified_as": [
                         {
@@ -285,7 +285,7 @@ Dimensions-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/color-1",
                     "type": "Dimension",
-                    "_label": "Color Visibly Identified by IMA staff on Part of the Work",
+                    "_label": "Color Visibly Identified by IMA staff on the Object",
                     "classified_as": [ 
                         {
                             "id": "<xsl:copy-of select="$baseURI"/>thesauri/color/<xsl:value-of select="lower-case(translate(replace(table[@name='Color']/tuple/atom[@name='PhyColor'],'[^a-zA-Z0-9 ]',''), ' ', '-'))"/>",
@@ -302,7 +302,7 @@ Dimensions-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/color-<xsl:value-of select="position()"/>",
                     "type": "Dimension",
-                    "_label": "Color Visibly Identified by IMA staff on Part of the Work",
+                    "_label": "Color Visibly Identified by IMA staff on the Object",
                     "classified_as": [ 
                         {
                             "id": "<xsl:copy-of select="$baseURI"/>thesauri/color/<xsl:value-of select="lower-case(translate(replace(.,'[^a-zA-Z0-9 ]',''), ' ', '-'))"/>",
@@ -336,7 +336,7 @@ Acquisition-->
                     {
                         "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/IMA-acquisition",
                         "type": "Acquisition",
-                        "_label": "Acquisition of <xsl:copy-of select="$title"/>",
+                        "_label": "IMA at Newfields Acquisition of the Object",
                         "classified_as": [
                             {
                                 "id": "http://vocab.getty.edu/aat/300157782",
@@ -358,9 +358,9 @@ Acquisition-->
                             "begin_of_the_begin": "<xsl:value-of select="atom[@name='TitAccessionDate']"/>-01-01T00:00:00", 
                             "end_of_the_end": "<xsl:value-of select="atom[@name='TitAccessionDate']"/>-12-31T00:00:00"</xsl:when><xsl:when test="string-length(atom[@name='TitAccessionDate']) = 8">
                             "begin_of_the_begin": "<xsl:value-of select="atom[@name='TitAccessionDate']"/>01T00:00:00", 
-                            "end_of_the_end": "<xsl:value-of select="atom[@name='TitAccessionDate']"/><xsl:if test="contains(atom[@name='TitAccessionDate'], '-02-')">28</xsl:if><xsl:if test="contains(atom[@name='TitAccessionDate'], '-01-') or contains(atom[@name='TitAccessionDate'], '-03-') or contains(atom[@name='TitAccessionDate'], '-05-') or contains(atom[@name='TitAccessionDate'], '-07-') or contains(atom[@name='TitAccessionDate'], '-08-') or contains(atom[@name='TitAccessionDate'], '-10-') or contains(atom[@name='TitAccessionDate'], '-12-')">31</xsl:if><xsl:if test="contains(atom[@name='TitAccessionDate'], '-04-') or contains(atom[@name='TitAccessionDate'], '-06-') or contains(atom[@name='TitAccessionDate'], '-09-') or contains(atom[@name='TitAccessionDate'], '-11-')">30</xsl:if>T00:00:00Z"</xsl:when><xsl:when test="string-length(atom[@name='TitAccessionDate']) = 10">
+                            "end_of_the_end": "<xsl:value-of select="atom[@name='TitAccessionDate']"/><xsl:if test="contains(atom[@name='TitAccessionDate'], '-02-')">28</xsl:if><xsl:if test="contains(atom[@name='TitAccessionDate'], '-01-') or contains(atom[@name='TitAccessionDate'], '-03-') or contains(atom[@name='TitAccessionDate'], '-05-') or contains(atom[@name='TitAccessionDate'], '-07-') or contains(atom[@name='TitAccessionDate'], '-08-') or contains(atom[@name='TitAccessionDate'], '-10-') or contains(atom[@name='TitAccessionDate'], '-12-')">31</xsl:if><xsl:if test="contains(atom[@name='TitAccessionDate'], '-04-') or contains(atom[@name='TitAccessionDate'], '-06-') or contains(atom[@name='TitAccessionDate'], '-09-') or contains(atom[@name='TitAccessionDate'], '-11-')">30</xsl:if>T00:00:00"</xsl:when><xsl:when test="string-length(atom[@name='TitAccessionDate']) = 10">
                             "begin_of_the_begin": "<xsl:value-of select="atom[@name='TitAccessionDate']"/>T00:00:00", 
-                            "end_of_the_end": "<xsl:value-of select="atom[@name='TitAccessionDate']"/>T00:00:00Z"</xsl:when></xsl:choose>
+                            "end_of_the_end": "<xsl:value-of select="atom[@name='TitAccessionDate']"/>T00:00:00"</xsl:when></xsl:choose>
                         }</xsl:if>
                     }
                 ]<!--
@@ -427,7 +427,7 @@ Linquistic Objects-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/credit-line",
                     "type": "LinguisticObject",
-                    "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+                    "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Object",
                     "content": "<xsl:value-of select="replace(replace(atom[@name='SumCreditLine'], '\n', '\\n'), '&quot;', '\\&quot;')"/>",
                     "classified_as": [
                         {
@@ -445,7 +445,7 @@ Linquistic Objects-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/title-statement",
                     "type": "LinguisticObject",
-                    "_label": "Notes about the Title(s) Associated with the Work",
+                    "_label": "Notes about the Title(s) Associated with the Object",
                     "content": "<xsl:value-of select="replace(replace(atom[@name='TitTitleNotes'], '\n', '\\n'), '&quot;', '\\&quot;')"/>",
                     "classified_as": [
                         {
@@ -463,7 +463,7 @@ Linquistic Objects-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/dimension-statement",
                     "type": "LinguisticObject",
-                    "_label": "Notes about the Dimensions of the Work",
+                    "_label": "Notes about the Dimensions of the Object",
                     "content": "<xsl:value-of select="replace(replace(atom[@name='PhyConvertedDims'], '\n', '\\n'), '&quot;', '\\&quot;')"/>",
                     "classified_as": [
                         {
@@ -481,7 +481,7 @@ Linquistic Objects-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/materials-statement",
                     "type": "LinguisticObject",
-                    "_label": "Notes about the Materials in the Work",
+                    "_label": "Notes about the Materials of Which the Object is Composed",
                     "content": "<xsl:value-of select="replace(replace(atom[@name='PhyMediumAndSupport'], '\n', '\\n'), '&quot;', '\\&quot;')"/>",
                     "classified_as": [
                         {
@@ -499,7 +499,7 @@ Linquistic Objects-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/description",
                     "type": "LinguisticObject",
-                    "_label": "Description of <xsl:copy-of select="$title"/>",
+                    "_label": "Description of the Object",
                     "content": "<xsl:value-of select="replace(replace(atom[@name='PhyDescription'], '\n', '\\n'), '&quot;', '\\&quot;')"/>",
                     "classified_as": [
                         {
@@ -517,7 +517,7 @@ Linquistic Objects-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/mark-description",
                     "type": "LinguisticObject",
-                    "_label": "Mark Description of <xsl:copy-of select="$title"/>",
+                    "_label": "Mark Description of the Object",
                     "content": "<xsl:value-of select="replace(replace(atom[@name='CrePrimaryInscriptions'], '\n', '\\n'), '&quot;', '\\&quot;')"/>",
                     "classified_as": [
                         {
@@ -535,7 +535,7 @@ Linquistic Objects-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/creation-notes",
                     "type": "LinguisticObject",
-                    "_label": "IMA Creation Notes about <xsl:copy-of select="$title"/>",
+                    "_label": "IMA at Newfields Creation Notes about the Object",
                     "content": "<xsl:value-of select="replace(replace(atom[@name='CreCreationNotes'], '\n', '\\n'), '&quot;', '\\&quot;')"/>",
                     "classified_as": [
                         {
@@ -639,7 +639,7 @@ Parts-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/frame-<xsl:value-of select="position()"/>",
                     "type": "HumanMadeObject",
-                    "_label": "Frame for <xsl:copy-of select="$title"/>",
+                    "_label": "Frame for the Object",
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300189814",
@@ -655,7 +655,7 @@ Parts-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/sheet-<xsl:value-of select="position()"/>",
                     "type": "HumanMadeObject",
-                    "_label": "Sheet (support) for <xsl:copy-of select="$title"/>",
+                    "_label": "Sheet (support) for the Object",
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300189648",
@@ -674,7 +674,7 @@ Parts-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/image-<xsl:value-of select="position()"/>",
                     "type": "HumanMadeObject",
-                    "_label": "Image part of <xsl:copy-of select="$title"/>",
+                    "_label": "Image part of the Object",
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300264387",
@@ -688,7 +688,7 @@ Parts-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/base-<xsl:value-of select="position()"/>",
                     "type": "HumanMadeObject",
-                    "_label": "Base part of <xsl:copy-of select="$title"/>",
+                    "_label": "Base part of the Object",
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300001656",
@@ -702,7 +702,7 @@ Parts-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/mount-<xsl:value-of select="position()"/>",
                     "type": "HumanMadeObject",
-                    "_label": "Mount part of <xsl:copy-of select="$title"/>",
+                    "_label": "Mount part of the Object",
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300131087",
@@ -716,7 +716,7 @@ Parts-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/plate-<xsl:value-of select="position()"/>",
                     "type": "HumanMadeObject",
-                    "_label": "Plate part of <xsl:copy-of select="$title"/>",
+                    "_label": "Plate part of the Object",
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300404443",
@@ -734,7 +734,7 @@ Homepage-->
                 {
                     "id": "http://collection.imamuseum.org/artwork/<xsl:value-of select="table[@name='Homepage']/tuple/atom[@name='EleIdentifier']"/>/",
                     "type": "LinguisticObject",
-                    "_label": "Homepage for <xsl:copy-of select="$title"/>",
+                    "_label": "Homepage for the Object",
                     "classified_as": [
                         {
                             "id": "http://vocab/getty.edu/aat/300264578",
@@ -761,7 +761,7 @@ Homepage-->
                         {
                             "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/<xsl:value-of select="$dim_type"/>-<xsl:value-of select="position()"/>/height",
                             "type": "Dimension",
-                            "_label": "<xsl:value-of select="atom[@name='PhyType']"/> for <xsl:copy-of select="$title"/>",
+                            "_label": "<xsl:value-of select="atom[@name='PhyType']"/> for the Object",
                             "value": "<xsl:value-of select="atom[@name='PhyHeight']"/>",
                             "classified_as": [
                                 {
@@ -774,7 +774,7 @@ Homepage-->
                         {
                             "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/<xsl:value-of select="$dim_type"/>-<xsl:value-of select="position()"/>/width",
                             "type": "Dimension",
-                            "_label": "<xsl:value-of select="atom[@name='PhyType']"/> for <xsl:copy-of select="$title"/>",
+                            "_label": "<xsl:value-of select="atom[@name='PhyType']"/> for the Object",
                             "value": "<xsl:value-of select="atom[@name='PhyWidth']"/>",
                             "classified_as": [
                                 {
@@ -787,7 +787,7 @@ Homepage-->
                         {
                             "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/<xsl:value-of select="$dim_type"/>-<xsl:value-of select="position()"/>/depth",
                             "type": "Dimension",
-                            "_label": "<xsl:value-of select="atom[@name='PhyType']"/> for <xsl:copy-of select="$title"/>",
+                            "_label": "<xsl:value-of select="atom[@name='PhyType']"/> for the Object",
                             "value": "<xsl:value-of select="atom[@name='PhyDepth']"/>",
                             "classified_as": [
                                 {
@@ -800,7 +800,7 @@ Homepage-->
                         {
                             "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/<xsl:value-of select="$dim_type"/>-<xsl:value-of select="position()"/>/diameter",
                             "type": "Dimension",
-                            "_label": "<xsl:value-of select="atom[@name='PhyType']"/> for <xsl:copy-of select="$title"/>",
+                            "_label": "<xsl:value-of select="atom[@name='PhyType']"/> for the Object",
                             "value": "<xsl:value-of select="atom[@name='PhyDiameter']"/>",
                             "classified_as": [
                                 {
