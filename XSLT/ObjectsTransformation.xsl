@@ -234,7 +234,7 @@ Dimensions-->
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/circumference-<xsl:value-of select="position()"/>",
                     "type": "Dimension",
                     "_label": "Circumference of the Object",
-                    "value": "<xsl:choose><xsl:when test="atom[@name='PhyDiameter'] != ''"><xsl:value-of select="atom[@name='PhyDiameter']"/></xsl:when><xsl:when test="atom[@name='PhyHeight'] != ''"><xsl:value-of select="atom[@name='PhyHeight']"/></xsl:when><xsl:when test="atom[@name='PhyWidth'] != ''"><xsl:value-of select="atom[@name='PhyWidth']"/></xsl:when><xsl:when test="atom[@name='PhyDepth'] != ''"><xsl:value-of select="atom[@name='PhyDepth']"/></xsl:when></xsl:choose>",
+                    "value": <xsl:choose><xsl:when test="atom[@name='PhyDiameter'] != ''"><xsl:value-of select="atom[@name='PhyDiameter']"/></xsl:when><xsl:when test="atom[@name='PhyHeight'] != ''"><xsl:value-of select="atom[@name='PhyHeight']"/></xsl:when><xsl:when test="atom[@name='PhyWidth'] != ''"><xsl:value-of select="atom[@name='PhyWidth']"/></xsl:when><xsl:when test="atom[@name='PhyDepth'] != ''"><xsl:value-of select="atom[@name='PhyDepth']"/></xsl:when></xsl:choose>,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300055623",
@@ -247,7 +247,7 @@ Dimensions-->
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/warp-<xsl:value-of select="position()"/>",
                     "type": "Dimension",
                     "_label": "Warp of the Object",
-                    "value": "<xsl:choose><xsl:when test="atom[@name='PhyDiameter'] != ''"><xsl:value-of select="atom[@name='PhyDiameter']"/></xsl:when><xsl:when test="atom[@name='PhyHeight'] != ''"><xsl:value-of select="atom[@name='PhyHeight']"/></xsl:when><xsl:when test="atom[@name='PhyWidth'] != ''"><xsl:value-of select="atom[@name='PhyWidth']"/></xsl:when><xsl:when test="atom[@name='PhyDepth'] != ''"><xsl:value-of select="atom[@name='PhyDepth']"/></xsl:when></xsl:choose>",
+                    "value": <xsl:choose><xsl:when test="atom[@name='PhyDiameter'] != ''"><xsl:value-of select="atom[@name='PhyDiameter']"/></xsl:when><xsl:when test="atom[@name='PhyHeight'] != ''"><xsl:value-of select="atom[@name='PhyHeight']"/></xsl:when><xsl:when test="atom[@name='PhyWidth'] != ''"><xsl:value-of select="atom[@name='PhyWidth']"/></xsl:when><xsl:when test="atom[@name='PhyDepth'] != ''"><xsl:value-of select="atom[@name='PhyDepth']"/></xsl:when></xsl:choose>,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300227930",
@@ -260,7 +260,7 @@ Dimensions-->
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/weft-<xsl:value-of select="position()"/>",
                     "type": "Dimension",
                     "_label": "Weft of the Object",
-                    "value": "<xsl:choose><xsl:when test="atom[@name='PhyDiameter'] != ''"><xsl:value-of select="atom[@name='PhyDiameter']"/></xsl:when><xsl:when test="atom[@name='PhyHeight'] != ''"><xsl:value-of select="atom[@name='PhyHeight']"/></xsl:when><xsl:when test="atom[@name='PhyWidth'] != ''"><xsl:value-of select="atom[@name='PhyWidth']"/></xsl:when><xsl:when test="atom[@name='PhyDepth'] != ''"><xsl:value-of select="atom[@name='PhyDepth']"/></xsl:when></xsl:choose>",
+                    "value": <xsl:choose><xsl:when test="atom[@name='PhyDiameter'] != ''"><xsl:value-of select="atom[@name='PhyDiameter']"/></xsl:when><xsl:when test="atom[@name='PhyHeight'] != ''"><xsl:value-of select="atom[@name='PhyHeight']"/></xsl:when><xsl:when test="atom[@name='PhyWidth'] != ''"><xsl:value-of select="atom[@name='PhyWidth']"/></xsl:when><xsl:when test="atom[@name='PhyDepth'] != ''"><xsl:value-of select="atom[@name='PhyDepth']"/></xsl:when></xsl:choose>,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300227934",
@@ -273,7 +273,7 @@ Dimensions-->
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/weight-<xsl:value-of select="position()"/>",
                     "type": "Dimension",
                     "_label": "Circumference of the Object",
-                    "value": "<xsl:value-of select="atom[@name='PhyWeight']"/>",
+                    "value": <xsl:value-of select="atom[@name='PhyWeight']"/>,
                     "classified_as": [
                         {
                             "id": "http://vocab.getty.edu/aat/300056240",
@@ -730,7 +730,7 @@ Parts-->
             ]</xsl:if><xsl:if test="(atom[@name='AdmPublishWebNoPassword'] = 'Yes') and (table[@name='Homepage']/tuple[atom[@name='EleIdentifier'] != ''])">,<!--
                 
 Homepage-->
-            "subject-of": [
+            "subject_of": [
                 {
                     "id": "http://collection.imamuseum.org/artwork/<xsl:for-each select="table[@name='Homepage']/tuple[atom[@name='EleIdentifier'] != '']"><xsl:value-of select="atom[@name='EleIdentifier']"/></xsl:for-each>/",
                     "type": "LinguisticObject",
@@ -762,7 +762,7 @@ Homepage-->
                             "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/<xsl:value-of select="$dim_type"/>-<xsl:value-of select="position()"/>/height",
                             "type": "Dimension",
                             "_label": "<xsl:value-of select="atom[@name='PhyType']"/> for the Object",
-                            "value": "<xsl:value-of select="atom[@name='PhyHeight']"/>",
+                            "value": <xsl:value-of select="atom[@name='PhyHeight']"/>,
                             "classified_as": [
                                 {
                                     "id": "http://vocab.getty.edu/aat/300055644",
@@ -775,7 +775,7 @@ Homepage-->
                             "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/<xsl:value-of select="$dim_type"/>-<xsl:value-of select="position()"/>/width",
                             "type": "Dimension",
                             "_label": "<xsl:value-of select="atom[@name='PhyType']"/> for the Object",
-                            "value": "<xsl:value-of select="atom[@name='PhyWidth']"/>",
+                            "value": <xsl:value-of select="atom[@name='PhyWidth']"/>,
                             "classified_as": [
                                 {
                                     "id": "http://vocab.getty.edu/aat/300055647",
@@ -788,7 +788,7 @@ Homepage-->
                             "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/<xsl:value-of select="$dim_type"/>-<xsl:value-of select="position()"/>/depth",
                             "type": "Dimension",
                             "_label": "<xsl:value-of select="atom[@name='PhyType']"/> for the Object",
-                            "value": "<xsl:value-of select="atom[@name='PhyDepth']"/>",
+                            "value": <xsl:value-of select="atom[@name='PhyDepth']"/>,
                             "classified_as": [
                                 {
                                     "id": "http://vocab.getty.edu/aat/300072633",
@@ -801,7 +801,7 @@ Homepage-->
                             "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/<xsl:value-of select="$dim_type"/>-<xsl:value-of select="position()"/>/diameter",
                             "type": "Dimension",
                             "_label": "<xsl:value-of select="atom[@name='PhyType']"/> for the Object",
-                            "value": "<xsl:value-of select="atom[@name='PhyDiameter']"/>",
+                            "value": <xsl:value-of select="atom[@name='PhyDiameter']"/>,
                             "classified_as": [
                                 {
                                     "id": "http://vocab.getty.edu/aat/300055624",
