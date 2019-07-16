@@ -83,7 +83,7 @@ Identifiers-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/irn",
                     "type": "Identifier",
-                    "_label": "IMA at Newfields Collections Database Number for the Artwork",
+                    "_label": "IMA at Newfields Collections Database Number for the Object",
                     "content": <xsl:copy-of select="$irn"/>,
                     "classified_as": [
                         {
@@ -96,7 +96,7 @@ Identifiers-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/accession-number",
                     "type": "Identifier",
-                    "_label": "IMA at Newfields Accession Number for the Artwork",
+                    "_label": "IMA at Newfields Accession Number for the Object",
                     "content": "<xsl:value-of select="atom[@name='TitAccessionNo']"/>",
                     "classified_as": [
                         {
@@ -109,7 +109,7 @@ Identifiers-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/old-accession-number/1",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+                    "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
                     "content": "<xsl:value-of select="atom[@name='TitPreviousAccessionNo']"/>",
                     "classified_as": [
                         {
@@ -122,7 +122,7 @@ Identifiers-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/old-accession-number-<xsl:value-of select="position()"/>",
                     "type": "Identifier",
-                    "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+                    "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
                     "content": "<xsl:value-of select="."/>",
                     "classified_as": [
                         {
@@ -138,7 +138,7 @@ Titles-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/title",
                     "type": "Name",
-                    "_label": "Primary Title for the Artwork",
+                    "_label": "Primary Title for the Object",
                     "content": "<xsl:copy-of select="$title"/>",
                     "classified_as": [
                         {
@@ -151,7 +151,7 @@ Titles-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/alt-title-<xsl:value-of select="position()"/>",
                     "type": "Name",
-                    "_label": "Alternate Title for the Artwork",
+                    "_label": "Alternate Title for the Object",
                     "content": "<xsl:value-of select="atom[@name='TitAlternateTitles']"/>",
                     "classified_as": [
                         {
@@ -166,7 +166,7 @@ Titles-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/series-title",
                     "type": "Name",
-                    "_label": "Title of the Series of Works of which the Artwork is a Part",
+                    "_label": "Title of the Series of Works of which the Object is a Part",
                     "content": "<xsl:value-of select="atom[@name='TitSeriesTitle']"/>",
                     "classified_as": [
                         {
@@ -179,7 +179,7 @@ Titles-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/portfolio-title",
                     "type": "Name",
-                    "_label": "Title of the Portfolio of which the Artwork is a Part",
+                    "_label": "Title of the Portfolio of which the Object is a Part",
                     "content": "<xsl:value-of select="atom[@name='TitSeriesTitle']"/>",
                     "classified_as": [
                         {
@@ -732,7 +732,7 @@ Parts-->
 Homepage-->
             "subject-of": [
                 {
-                    "id": "http://collection.imamuseum.org/artwork/<xsl:value-of select="table[@name='Homepage']/tuple/atom[@name='EleIdentifier']"/>/",
+                    "id": "http://collection.imamuseum.org/artwork/<xsl:for-each select="table[@name='Homepage']/tuple[atom[@name='EleIdentifier'] != '']"><xsl:value-of select="atom[@name='EleIdentifier']"/></xsl:for-each>/",
                     "type": "LinguisticObject",
                     "_label": "Homepage for the Object",
                     "classified_as": [

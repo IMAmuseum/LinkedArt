@@ -17,7 +17,7 @@
           {
             "id": "https://data.discovernewfields.org/object/1032/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 1032,
             "classified_as": [
               {
@@ -30,7 +30,7 @@
           {
             "id": "https://data.discovernewfields.org/object/1032/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "60.63",
             "classified_as": [
               {
@@ -43,7 +43,7 @@
           {
             "id": "https://data.discovernewfields.org/object/1032/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "long-neck vase with cup mouth",
             "classified_as": [
               {
@@ -269,7 +269,7 @@
           {
             "id": "https://data.discovernewfields.org/object/1065/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 1065,
             "classified_as": [
               {
@@ -282,7 +282,7 @@
           {
             "id": "https://data.discovernewfields.org/object/1065/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "14.55",
             "classified_as": [
               {
@@ -295,7 +295,7 @@
           {
             "id": "https://data.discovernewfields.org/object/1065/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "The Bachelor Boudoir (Corner of the Studio)",
             "classified_as": [
               {
@@ -658,7 +658,7 @@
           {
             "id": "https://data.discovernewfields.org/object/1105/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 1105,
             "classified_as": [
               {
@@ -671,7 +671,7 @@
           {
             "id": "https://data.discovernewfields.org/object/1105/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "1989.1569",
             "classified_as": [
               {
@@ -684,7 +684,7 @@
           {
             "id": "https://data.discovernewfields.org/object/1105/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "E84.43",
             "classified_as": [
               {
@@ -697,7 +697,7 @@
           {
             "id": "https://data.discovernewfields.org/object/1105/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "bowl",
             "classified_as": [
               {
@@ -956,7 +956,7 @@
           {
             "id": "https://data.discovernewfields.org/object/3521/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 3521,
             "classified_as": [
               {
@@ -969,7 +969,7 @@
           {
             "id": "https://data.discovernewfields.org/object/3521/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "42.07",
             "classified_as": [
               {
@@ -982,7 +982,7 @@
           {
             "id": "https://data.discovernewfields.org/object/3521/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR1658/647",
             "classified_as": [
               {
@@ -995,7 +995,7 @@
           {
             "id": "https://data.discovernewfields.org/object/3521/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Still Life with Flowerpot",
             "classified_as": [
               {
@@ -1008,7 +1008,7 @@
           {
             "id": "https://data.discovernewfields.org/object/3521/alt-title-1",
             "type": "Name",
-            "_label": "Alternate Title for the Artwork",
+            "_label": "Alternate Title for the Object",
             "content": "Still Life",
             "classified_as": [
               {
@@ -1363,7 +1363,7 @@
           {
             "id": "https://data.discovernewfields.org/object/6136/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 6136,
             "classified_as": [
               {
@@ -1376,7 +1376,7 @@
           {
             "id": "https://data.discovernewfields.org/object/6136/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "1983.100",
             "classified_as": [
               {
@@ -1389,7 +1389,7 @@
           {
             "id": "https://data.discovernewfields.org/object/6136/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "PRAISES FOR KSITIGARBA SUTRA (DIZANG JINGZAN)",
             "classified_as": [
               {
@@ -1599,7 +1599,7 @@
           {
             "id": "https://data.discovernewfields.org/object/6855/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 6855,
             "classified_as": [
               {
@@ -1612,7 +1612,7 @@
           {
             "id": "https://data.discovernewfields.org/object/6855/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "1996.114",
             "classified_as": [
               {
@@ -1625,7 +1625,7 @@
           {
             "id": "https://data.discovernewfields.org/object/6855/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "hunchback figure",
             "classified_as": [
               {
@@ -1906,7 +1906,7 @@
           {
             "id": "https://data.discovernewfields.org/object/8407/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 8407,
             "classified_as": [
               {
@@ -1919,7 +1919,7 @@
           {
             "id": "https://data.discovernewfields.org/object/8407/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "1984.124",
             "classified_as": [
               {
@@ -1932,7 +1932,7 @@
           {
             "id": "https://data.discovernewfields.org/object/8407/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR5417",
             "classified_as": [
               {
@@ -1945,7 +1945,7 @@
           {
             "id": "https://data.discovernewfields.org/object/8407/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "quilt (Diamond in Square)",
             "classified_as": [
               {
@@ -2231,7 +2231,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14365/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 14365,
             "classified_as": [
               {
@@ -2244,7 +2244,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14365/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "33.1812",
             "classified_as": [
               {
@@ -2257,7 +2257,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14365/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "fragment",
             "classified_as": [
               {
@@ -2488,7 +2488,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14617/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 14617,
             "classified_as": [
               {
@@ -2501,7 +2501,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14617/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "67.10.48",
             "classified_as": [
               {
@@ -2514,7 +2514,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14617/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Matthew Prior",
             "classified_as": [
               {
@@ -2829,7 +2829,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16168/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 16168,
             "classified_as": [
               {
@@ -2842,7 +2842,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16168/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "09.28C",
             "classified_as": [
               {
@@ -2855,7 +2855,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16168/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Jesus and the Apostles",
             "classified_as": [
               {
@@ -3127,7 +3127,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16356/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 16356,
             "classified_as": [
               {
@@ -3140,7 +3140,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16356/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "07.7",
             "classified_as": [
               {
@@ -3153,7 +3153,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16356/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Whistler's Mother",
             "classified_as": [
               {
@@ -3505,7 +3505,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16410/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 16410,
             "classified_as": [
               {
@@ -3518,7 +3518,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16410/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "14.231",
             "classified_as": [
               {
@@ -3531,7 +3531,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16410/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "1965.14",
             "classified_as": [
               {
@@ -3544,7 +3544,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16410/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "necklace",
             "classified_as": [
               {
@@ -3839,7 +3839,7 @@
           {
             "id": "https://data.discovernewfields.org/object/17425/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 17425,
             "classified_as": [
               {
@@ -3852,7 +3852,7 @@
           {
             "id": "https://data.discovernewfields.org/object/17425/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "74.10",
             "classified_as": [
               {
@@ -3865,7 +3865,7 @@
           {
             "id": "https://data.discovernewfields.org/object/17425/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR0329",
             "classified_as": [
               {
@@ -3878,7 +3878,7 @@
           {
             "id": "https://data.discovernewfields.org/object/17425/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "quilt (Sawtooth Diamond in Square)",
             "classified_as": [
               {
@@ -3891,7 +3891,7 @@
           {
             "id": "https://data.discovernewfields.org/object/17425/alt-title-1",
             "type": "Name",
-            "_label": "Alternate Title for the Artwork",
+            "_label": "Alternate Title for the Object",
             "content": "Diamond in Square",
             "classified_as": [
               {
@@ -4141,7 +4141,7 @@
         ],
         "subject-of": [
           {
-            "id": "http://collection.imamuseum.org/artwork/ 49562/",
+            "id": "http://collection.imamuseum.org/artwork/49562/",
             "type": "LinguisticObject",
             "_label": "Homepage for the Object",
             "classified_as": [
@@ -4193,7 +4193,7 @@
           {
             "id": "https://data.discovernewfields.org/object/17577/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 17577,
             "classified_as": [
               {
@@ -4206,7 +4206,7 @@
           {
             "id": "https://data.discovernewfields.org/object/17577/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "80.650",
             "classified_as": [
               {
@@ -4219,7 +4219,7 @@
           {
             "id": "https://data.discovernewfields.org/object/17577/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR3950/7",
             "classified_as": [
               {
@@ -4232,7 +4232,7 @@
           {
             "id": "https://data.discovernewfields.org/object/17577/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Dines with Writing Material",
             "classified_as": [
               {
@@ -4587,7 +4587,7 @@
           {
             "id": "https://data.discovernewfields.org/object/20419/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 20419,
             "classified_as": [
               {
@@ -4600,7 +4600,7 @@
           {
             "id": "https://data.discovernewfields.org/object/20419/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "75.174",
             "classified_as": [
               {
@@ -4613,7 +4613,7 @@
           {
             "id": "https://data.discovernewfields.org/object/20419/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR8614",
             "classified_as": [
               {
@@ -4626,7 +4626,7 @@
           {
             "id": "https://data.discovernewfields.org/object/20419/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Love",
             "classified_as": [
               {
@@ -4982,7 +4982,7 @@
         ],
         "subject-of": [
           {
-            "id": "http://collection.imamuseum.org/artwork/ 28170/",
+            "id": "http://collection.imamuseum.org/artwork/28170/",
             "type": "LinguisticObject",
             "_label": "Homepage for the Object",
             "classified_as": [
@@ -5034,7 +5034,7 @@
           {
             "id": "https://data.discovernewfields.org/object/21137/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 21137,
             "classified_as": [
               {
@@ -5047,7 +5047,7 @@
           {
             "id": "https://data.discovernewfields.org/object/21137/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "06.137",
             "classified_as": [
               {
@@ -5060,7 +5060,7 @@
           {
             "id": "https://data.discovernewfields.org/object/21137/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Hakone",
             "classified_as": [
               {
@@ -5073,7 +5073,7 @@
           {
             "id": "https://data.discovernewfields.org/object/21137/alt-title-1",
             "type": "Name",
-            "_label": "Alternate Title for the Artwork",
+            "_label": "Alternate Title for the Object",
             "content": "subtitle:  The Lake",
             "classified_as": [
               {
@@ -5086,7 +5086,7 @@
           {
             "id": "https://data.discovernewfields.org/object/21137/series-title",
             "type": "Name",
-            "_label": "Title of the Series of Works of which the Artwork is a Part",
+            "_label": "Title of the Series of Works of which the Object is a Part",
             "content": "The Fifty-three Stations of the T^okaid^o",
             "classified_as": [
               {
@@ -5414,7 +5414,7 @@
           {
             "id": "https://data.discovernewfields.org/object/21288/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 21288,
             "classified_as": [
               {
@@ -5427,7 +5427,7 @@
           {
             "id": "https://data.discovernewfields.org/object/21288/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "10.8",
             "classified_as": [
               {
@@ -5440,7 +5440,7 @@
           {
             "id": "https://data.discovernewfields.org/object/21288/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Portrait of William Merritt Chase",
             "classified_as": [
               {
@@ -5737,7 +5737,7 @@
         ],
         "subject-of": [
           {
-            "id": "http://collection.imamuseum.org/artwork/                 80484/",
+            "id": "http://collection.imamuseum.org/artwork/80484/",
             "type": "LinguisticObject",
             "_label": "Homepage for the Object",
             "classified_as": [
@@ -5784,7 +5784,7 @@
           {
             "id": "https://data.discovernewfields.org/object/24693/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 24693,
             "classified_as": [
               {
@@ -5797,7 +5797,7 @@
           {
             "id": "https://data.discovernewfields.org/object/24693/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "13.1A-C",
             "classified_as": [
               {
@@ -5810,7 +5810,7 @@
           {
             "id": "https://data.discovernewfields.org/object/24693/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "censer in form of teahouse",
             "classified_as": [
               {
@@ -6179,7 +6179,7 @@
           {
             "id": "https://data.discovernewfields.org/object/24892/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 24892,
             "classified_as": [
               {
@@ -6192,7 +6192,7 @@
           {
             "id": "https://data.discovernewfields.org/object/24892/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "80.262A-C",
             "classified_as": [
               {
@@ -6205,7 +6205,7 @@
           {
             "id": "https://data.discovernewfields.org/object/24892/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR3673",
             "classified_as": [
               {
@@ -6218,7 +6218,7 @@
           {
             "id": "https://data.discovernewfields.org/object/24892/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "evening dress",
             "classified_as": [
               {
@@ -6524,7 +6524,7 @@
         ],
         "subject-of": [
           {
-            "id": "http://collection.imamuseum.org/artwork/ 80142/",
+            "id": "http://collection.imamuseum.org/artwork/80142/",
             "type": "LinguisticObject",
             "_label": "Homepage for the Object",
             "classified_as": [
@@ -6576,7 +6576,7 @@
           {
             "id": "https://data.discovernewfields.org/object/25098/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 25098,
             "classified_as": [
               {
@@ -6589,7 +6589,7 @@
           {
             "id": "https://data.discovernewfields.org/object/25098/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "16.924A-C",
             "classified_as": [
               {
@@ -6602,7 +6602,7 @@
           {
             "id": "https://data.discovernewfields.org/object/25098/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "(L) Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left);  (C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛;  (R) Sawamura Tosshō　沢村訥升 as Rai Kunitoshi  来国俊",
             "classified_as": [
               {
@@ -6615,7 +6615,7 @@
           {
             "id": "https://data.discovernewfields.org/object/25098/series-title",
             "type": "Name",
-            "_label": "Title of the Series of Works of which the Artwork is a Part",
+            "_label": "Title of the Series of Works of which the Object is a Part",
             "content": "scene from the kabuki play Shin Usuyuki Monogatari",
             "classified_as": [
               {
@@ -6987,7 +6987,7 @@
           {
             "id": "https://data.discovernewfields.org/object/37383/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 37383,
             "classified_as": [
               {
@@ -7000,7 +7000,7 @@
           {
             "id": "https://data.discovernewfields.org/object/37383/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "89.1",
             "classified_as": [
               {
@@ -7013,7 +7013,7 @@
           {
             "id": "https://data.discovernewfields.org/object/37383/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Oaks of Vernon",
             "classified_as": [
               {
@@ -7321,7 +7321,7 @@
         ],
         "subject-of": [
           {
-            "id": "http://collection.imamuseum.org/artwork/ 56192/",
+            "id": "http://collection.imamuseum.org/artwork/56192/",
             "type": "LinguisticObject",
             "_label": "Homepage for the Object",
             "classified_as": [
@@ -7363,7 +7363,7 @@
           {
             "id": "https://data.discovernewfields.org/object/41018/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 41018,
             "classified_as": [
               {
@@ -7376,7 +7376,7 @@
           {
             "id": "https://data.discovernewfields.org/object/41018/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "80.1596.1",
             "classified_as": [
               {
@@ -7389,7 +7389,7 @@
           {
             "id": "https://data.discovernewfields.org/object/41018/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR3986/72uu",
             "classified_as": [
               {
@@ -7402,7 +7402,7 @@
           {
             "id": "https://data.discovernewfields.org/object/41018/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Glencoe",
             "classified_as": [
               {
@@ -7415,7 +7415,7 @@
           {
             "id": "https://data.discovernewfields.org/object/41018/series-title",
             "type": "Name",
-            "_label": "Title of the Series of Works of which the Artwork is a Part",
+            "_label": "Title of the Series of Works of which the Object is a Part",
             "content": "as bound in Vol. XXV of the Prose Works of Sir Walter Scott",
             "classified_as": [
               {
@@ -7740,7 +7740,7 @@
           {
             "id": "https://data.discovernewfields.org/object/41019/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 41019,
             "classified_as": [
               {
@@ -7753,7 +7753,7 @@
           {
             "id": "https://data.discovernewfields.org/object/41019/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "80.1596.2",
             "classified_as": [
               {
@@ -7766,7 +7766,7 @@
           {
             "id": "https://data.discovernewfields.org/object/41019/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR3986/72vv",
             "classified_as": [
               {
@@ -7779,7 +7779,7 @@
           {
             "id": "https://data.discovernewfields.org/object/41019/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Killiecrankie",
             "classified_as": [
               {
@@ -7792,7 +7792,7 @@
           {
             "id": "https://data.discovernewfields.org/object/41019/series-title",
             "type": "Name",
-            "_label": "Title of the Series of Works of which the Artwork is a Part",
+            "_label": "Title of the Series of Works of which the Object is a Part",
             "content": "as bound in Vol. XXV of the Prose Works of Sir Walter Scott",
             "classified_as": [
               {
@@ -8117,7 +8117,7 @@
           {
             "id": "https://data.discovernewfields.org/object/46950/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 46950,
             "classified_as": [
               {
@@ -8130,7 +8130,7 @@
           {
             "id": "https://data.discovernewfields.org/object/46950/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "05.19",
             "classified_as": [
               {
@@ -8143,7 +8143,7 @@
           {
             "id": "https://data.discovernewfields.org/object/46950/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "United States Flag",
             "classified_as": [
               {
@@ -8354,7 +8354,7 @@
           {
             "id": "https://data.discovernewfields.org/object/47035/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 47035,
             "classified_as": [
               {
@@ -8367,7 +8367,7 @@
           {
             "id": "https://data.discovernewfields.org/object/47035/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "08.19",
             "classified_as": [
               {
@@ -8380,7 +8380,7 @@
           {
             "id": "https://data.discovernewfields.org/object/47035/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Statue of Augustus Caesar",
             "classified_as": [
               {
@@ -8625,7 +8625,7 @@
           {
             "id": "https://data.discovernewfields.org/object/49409/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 49409,
             "classified_as": [
               {
@@ -8638,7 +8638,7 @@
           {
             "id": "https://data.discovernewfields.org/object/49409/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "13.357",
             "classified_as": [
               {
@@ -8651,7 +8651,7 @@
           {
             "id": "https://data.discovernewfields.org/object/49409/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "13.351",
             "classified_as": [
               {
@@ -8664,7 +8664,7 @@
           {
             "id": "https://data.discovernewfields.org/object/49409/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "string of beads",
             "classified_as": [
               {
@@ -8907,7 +8907,7 @@
           {
             "id": "https://data.discovernewfields.org/object/51330/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 51330,
             "classified_as": [
               {
@@ -8920,7 +8920,7 @@
           {
             "id": "https://data.discovernewfields.org/object/51330/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "30.388",
             "classified_as": [
               {
@@ -8933,7 +8933,7 @@
           {
             "id": "https://data.discovernewfields.org/object/51330/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR1548/301",
             "classified_as": [
               {
@@ -8946,7 +8946,7 @@
           {
             "id": "https://data.discovernewfields.org/object/51330/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Towing Boat at Yotsugi Dōri [40] (Yotsugi dōri no hikifune)",
             "classified_as": [
               {
@@ -8959,7 +8959,7 @@
           {
             "id": "https://data.discovernewfields.org/object/51330/series-title",
             "type": "Name",
-            "_label": "Title of the Series of Works of which the Artwork is a Part",
+            "_label": "Title of the Series of Works of which the Object is a Part",
             "content": "A Series of Comical Events of Famous Places in Edo (Edo meisho d^oke zukushi)",
             "classified_as": [
               {
@@ -9350,7 +9350,7 @@
           {
             "id": "https://data.discovernewfields.org/object/52481/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 52481,
             "classified_as": [
               {
@@ -9363,7 +9363,7 @@
           {
             "id": "https://data.discovernewfields.org/object/52481/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "44.91",
             "classified_as": [
               {
@@ -9376,7 +9376,7 @@
           {
             "id": "https://data.discovernewfields.org/object/52481/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Spring snow on Sumida River 隅田川　春雪",
             "classified_as": [
               {
@@ -9389,7 +9389,7 @@
           {
             "id": "https://data.discovernewfields.org/object/52481/portfolio-title",
             "type": "Name",
-            "_label": "Title of the Portfolio of which the Artwork is a Part",
+            "_label": "Title of the Portfolio of which the Object is a Part",
             "content": "",
             "classified_as": [
               {
@@ -9685,7 +9685,7 @@
           {
             "id": "https://data.discovernewfields.org/object/55312/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 55312,
             "classified_as": [
               {
@@ -9698,7 +9698,7 @@
           {
             "id": "https://data.discovernewfields.org/object/55312/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "80.1596",
             "classified_as": [
               {
@@ -9711,7 +9711,7 @@
           {
             "id": "https://data.discovernewfields.org/object/55312/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR3986/72a",
             "classified_as": [
               {
@@ -9724,7 +9724,7 @@
           {
             "id": "https://data.discovernewfields.org/object/55312/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "",
             "classified_as": [
               {
@@ -9737,7 +9737,7 @@
           {
             "id": "https://data.discovernewfields.org/object/55312/series-title",
             "type": "Name",
-            "_label": "Title of the Series of Works of which the Artwork is a Part",
+            "_label": "Title of the Series of Works of which the Object is a Part",
             "content": "The Prose Works of Sir Walter Scott, Vol. XXV",
             "classified_as": [
               {
@@ -9984,7 +9984,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64017/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 64017,
             "classified_as": [
               {
@@ -9997,7 +9997,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64017/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "2007.4A-B",
             "classified_as": [
               {
@@ -10010,7 +10010,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64017/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR10523/3A-B",
             "classified_as": [
               {
@@ -10023,7 +10023,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64017/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "pair of earplugs (for man or woman)",
             "classified_as": [
               {
@@ -10299,7 +10299,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64018/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 64018,
             "classified_as": [
               {
@@ -10312,7 +10312,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64018/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "2007.4A",
             "classified_as": [
               {
@@ -10325,7 +10325,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64018/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR10523/3A",
             "classified_as": [
               {
@@ -10338,7 +10338,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64018/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "earplug",
             "classified_as": [
               {
@@ -10588,7 +10588,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64019/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 64019,
             "classified_as": [
               {
@@ -10601,7 +10601,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64019/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "2007.4B",
             "classified_as": [
               {
@@ -10614,7 +10614,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64019/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR10523/3B",
             "classified_as": [
               {
@@ -10627,7 +10627,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64019/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "earplug (for man or woman)",
             "classified_as": [
               {
@@ -10936,7 +10936,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64628/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 64628,
             "classified_as": [
               {
@@ -10949,7 +10949,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64628/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "2009.390.1-.16",
             "classified_as": [
               {
@@ -10962,7 +10962,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64628/old-accession-number-1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR10819/2-17",
             "classified_as": [
               {
@@ -10975,7 +10975,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64628/old-accession-number-2",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "EX2009.1.29",
             "classified_as": [
               {
@@ -10988,7 +10988,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64628/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Broken Family tea set",
             "classified_as": [
               {
@@ -11406,7 +11406,7 @@
           {
             "id": "https://data.discovernewfields.org/object/67743/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 67743,
             "classified_as": [
               {
@@ -11419,7 +11419,7 @@
           {
             "id": "https://data.discovernewfields.org/object/67743/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "2009.646A-B",
             "classified_as": [
               {
@@ -11432,7 +11432,7 @@
           {
             "id": "https://data.discovernewfields.org/object/67743/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR10985/5A-B",
             "classified_as": [
               {
@@ -11445,7 +11445,7 @@
           {
             "id": "https://data.discovernewfields.org/object/67743/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "UP5 chair and UP6 ottoman",
             "classified_as": [
               {
@@ -11821,7 +11821,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68180/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 68180,
             "classified_as": [
               {
@@ -11834,7 +11834,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68180/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "2009.390.1A-B",
             "classified_as": [
               {
@@ -11847,7 +11847,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68180/old-accession-number-1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR10819/2A-B",
             "classified_as": [
               {
@@ -11860,7 +11860,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68180/old-accession-number-2",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "EX2009.1.29",
             "classified_as": [
               {
@@ -11873,7 +11873,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68180/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Broken Family teapot",
             "classified_as": [
               {
@@ -12165,7 +12165,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68181/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 68181,
             "classified_as": [
               {
@@ -12178,7 +12178,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68181/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "2009.390.1A",
             "classified_as": [
               {
@@ -12191,7 +12191,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68181/old-accession-number-1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR10819/2A",
             "classified_as": [
               {
@@ -12204,7 +12204,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68181/old-accession-number-2",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "EX2009.1.29",
             "classified_as": [
               {
@@ -12217,7 +12217,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68181/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Broken Family teapot",
             "classified_as": [
               {
@@ -12504,7 +12504,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68182/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 68182,
             "classified_as": [
               {
@@ -12517,7 +12517,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68182/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "2009.390.1B",
             "classified_as": [
               {
@@ -12530,7 +12530,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68182/old-accession-number-1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR10819/2B",
             "classified_as": [
               {
@@ -12543,7 +12543,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68182/old-accession-number-2",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "EX2009.1.29",
             "classified_as": [
               {
@@ -12556,7 +12556,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68182/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "lid for Broken Family teapot",
             "classified_as": [
               {
@@ -12772,7 +12772,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68903/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 68903,
             "classified_as": [
               {
@@ -12785,7 +12785,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68903/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "2010.217",
             "classified_as": [
               {
@@ -12798,7 +12798,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68903/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR11136",
             "classified_as": [
               {
@@ -12811,7 +12811,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68903/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Free Basket",
             "classified_as": [
               {
@@ -13059,7 +13059,7 @@
           {
             "id": "https://data.discovernewfields.org/object/69062/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 69062,
             "classified_as": [
               {
@@ -13072,7 +13072,7 @@
           {
             "id": "https://data.discovernewfields.org/object/69062/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "2009.646A",
             "classified_as": [
               {
@@ -13085,7 +13085,7 @@
           {
             "id": "https://data.discovernewfields.org/object/69062/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR10985/5A-B",
             "classified_as": [
               {
@@ -13098,7 +13098,7 @@
           {
             "id": "https://data.discovernewfields.org/object/69062/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "UP5 chair",
             "classified_as": [
               {
@@ -13412,7 +13412,7 @@
           {
             "id": "https://data.discovernewfields.org/object/69063/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 69063,
             "classified_as": [
               {
@@ -13425,7 +13425,7 @@
           {
             "id": "https://data.discovernewfields.org/object/69063/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "2009.646B",
             "classified_as": [
               {
@@ -13438,7 +13438,7 @@
           {
             "id": "https://data.discovernewfields.org/object/69063/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR10985/5A-B",
             "classified_as": [
               {
@@ -13451,7 +13451,7 @@
           {
             "id": "https://data.discovernewfields.org/object/69063/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "UP6 ottoman",
             "classified_as": [
               {
@@ -13724,7 +13724,7 @@
           {
             "id": "https://data.discovernewfields.org/object/81052/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 81052,
             "classified_as": [
               {
@@ -13737,7 +13737,7 @@
           {
             "id": "https://data.discovernewfields.org/object/81052/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "2013.298",
             "classified_as": [
               {
@@ -13750,7 +13750,7 @@
           {
             "id": "https://data.discovernewfields.org/object/81052/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR11642/2",
             "classified_as": [
               {
@@ -13763,7 +13763,7 @@
           {
             "id": "https://data.discovernewfields.org/object/81052/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "dress",
             "classified_as": [
               {
@@ -14081,7 +14081,7 @@
           {
             "id": "https://data.discovernewfields.org/object/82696/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 82696,
             "classified_as": [
               {
@@ -14094,7 +14094,7 @@
           {
             "id": "https://data.discovernewfields.org/object/82696/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "2013.443A-E.4",
             "classified_as": [
               {
@@ -14107,7 +14107,7 @@
           {
             "id": "https://data.discovernewfields.org/object/82696/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR11707A-E.4",
             "classified_as": [
               {
@@ -14120,7 +14120,7 @@
           {
             "id": "https://data.discovernewfields.org/object/82696/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Five Brushstrokes",
             "classified_as": [
               {
@@ -14735,7 +14735,7 @@
           {
             "id": "https://data.discovernewfields.org/object/85257/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 85257,
             "classified_as": [
               {
@@ -14748,7 +14748,7 @@
           {
             "id": "https://data.discovernewfields.org/object/85257/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "2013.443A",
             "classified_as": [
               {
@@ -14761,7 +14761,7 @@
           {
             "id": "https://data.discovernewfields.org/object/85257/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR11707A",
             "classified_as": [
               {
@@ -14774,7 +14774,7 @@
           {
             "id": "https://data.discovernewfields.org/object/85257/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "element A for Five Brushstrokes",
             "classified_as": [
               {
@@ -15112,7 +15112,7 @@
           {
             "id": "https://data.discovernewfields.org/object/89163/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 89163,
             "classified_as": [
               {
@@ -15125,7 +15125,7 @@
           {
             "id": "https://data.discovernewfields.org/object/89163/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "80.262A",
             "classified_as": [
               {
@@ -15138,7 +15138,7 @@
           {
             "id": "https://data.discovernewfields.org/object/89163/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR3673",
             "classified_as": [
               {
@@ -15151,7 +15151,7 @@
           {
             "id": "https://data.discovernewfields.org/object/89163/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "blouse for evening dress",
             "classified_as": [
               {
@@ -15426,7 +15426,7 @@
           {
             "id": "https://data.discovernewfields.org/object/89164/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 89164,
             "classified_as": [
               {
@@ -15439,7 +15439,7 @@
           {
             "id": "https://data.discovernewfields.org/object/89164/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "80.262B",
             "classified_as": [
               {
@@ -15452,7 +15452,7 @@
           {
             "id": "https://data.discovernewfields.org/object/89164/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR3673",
             "classified_as": [
               {
@@ -15465,7 +15465,7 @@
           {
             "id": "https://data.discovernewfields.org/object/89164/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "skirt for evening dress",
             "classified_as": [
               {
@@ -15755,7 +15755,7 @@
           {
             "id": "https://data.discovernewfields.org/object/89367/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 89367,
             "classified_as": [
               {
@@ -15768,7 +15768,7 @@
           {
             "id": "https://data.discovernewfields.org/object/89367/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "16.924A",
             "classified_as": [
               {
@@ -15781,7 +15781,7 @@
           {
             "id": "https://data.discovernewfields.org/object/89367/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left)",
             "classified_as": [
               {
@@ -15794,7 +15794,7 @@
           {
             "id": "https://data.discovernewfields.org/object/89367/series-title",
             "type": "Name",
-            "_label": "Title of the Series of Works of which the Artwork is a Part",
+            "_label": "Title of the Series of Works of which the Object is a Part",
             "content": "scene from the kabuki play Shin Usuyuki Monogatari",
             "classified_as": [
               {
@@ -16113,7 +16113,7 @@
           {
             "id": "https://data.discovernewfields.org/object/89368/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 89368,
             "classified_as": [
               {
@@ -16126,7 +16126,7 @@
           {
             "id": "https://data.discovernewfields.org/object/89368/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "16.924B",
             "classified_as": [
               {
@@ -16139,7 +16139,7 @@
           {
             "id": "https://data.discovernewfields.org/object/89368/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "(C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛",
             "classified_as": [
               {
@@ -16152,7 +16152,7 @@
           {
             "id": "https://data.discovernewfields.org/object/89368/series-title",
             "type": "Name",
-            "_label": "Title of the Series of Works of which the Artwork is a Part",
+            "_label": "Title of the Series of Works of which the Object is a Part",
             "content": "scene from the kabuki play Shin Usuyuki Monogatari",
             "classified_as": [
               {
@@ -16471,7 +16471,7 @@
           {
             "id": "https://data.discovernewfields.org/object/89369/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 89369,
             "classified_as": [
               {
@@ -16484,7 +16484,7 @@
           {
             "id": "https://data.discovernewfields.org/object/89369/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "16.924C",
             "classified_as": [
               {
@@ -16497,7 +16497,7 @@
           {
             "id": "https://data.discovernewfields.org/object/89369/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊",
             "classified_as": [
               {
@@ -16510,7 +16510,7 @@
           {
             "id": "https://data.discovernewfields.org/object/89369/series-title",
             "type": "Name",
-            "_label": "Title of the Series of Works of which the Artwork is a Part",
+            "_label": "Title of the Series of Works of which the Object is a Part",
             "content": "scene from the kabuki play Shin Usuyuki Monogatari",
             "classified_as": [
               {
@@ -16832,7 +16832,7 @@
           {
             "id": "https://data.discovernewfields.org/object/90817/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 90817,
             "classified_as": [
               {
@@ -16845,7 +16845,7 @@
           {
             "id": "https://data.discovernewfields.org/object/90817/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "2017.64A-C",
             "classified_as": [
               {
@@ -16858,7 +16858,7 @@
           {
             "id": "https://data.discovernewfields.org/object/90817/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR12093A-C",
             "classified_as": [
               {
@@ -16871,7 +16871,7 @@
           {
             "id": "https://data.discovernewfields.org/object/90817/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Tricorne candleholders",
             "classified_as": [
               {
@@ -17229,7 +17229,7 @@
         ],
         "subject-of": [
           {
-            "id": "http://collection.imamuseum.org/artwork/ 86670/",
+            "id": "http://collection.imamuseum.org/artwork/86670/",
             "type": "LinguisticObject",
             "_label": "Homepage for the Object",
             "classified_as": [
@@ -17266,7 +17266,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92158/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 92158,
             "classified_as": [
               {
@@ -17279,7 +17279,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92158/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "2017.64A",
             "classified_as": [
               {
@@ -17292,7 +17292,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92158/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR12093A-C",
             "classified_as": [
               {
@@ -17305,7 +17305,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92158/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Tricorne candleholder",
             "classified_as": [
               {
@@ -17560,7 +17560,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92159/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 92159,
             "classified_as": [
               {
@@ -17573,7 +17573,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92159/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "2017.64B",
             "classified_as": [
               {
@@ -17586,7 +17586,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92159/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR12093A-C",
             "classified_as": [
               {
@@ -17599,7 +17599,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92159/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Tricorne candleholders",
             "classified_as": [
               {
@@ -17854,7 +17854,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92160/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 92160,
             "classified_as": [
               {
@@ -17867,7 +17867,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92160/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "2017.64C",
             "classified_as": [
               {
@@ -17880,7 +17880,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92160/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR12093A-C",
             "classified_as": [
               {
@@ -17893,7 +17893,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92160/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Tricorne candleholder",
             "classified_as": [
               {
@@ -18158,7 +18158,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92384/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 92384,
             "classified_as": [
               {
@@ -18171,7 +18171,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92384/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "13.1A",
             "classified_as": [
               {
@@ -18184,7 +18184,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92384/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "censer in form of teahouse",
             "classified_as": [
               {
@@ -18521,7 +18521,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92385/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 92385,
             "classified_as": [
               {
@@ -18534,7 +18534,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92385/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "13.1B",
             "classified_as": [
               {
@@ -18547,7 +18547,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92385/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "censer in form of teahouse",
             "classified_as": [
               {
@@ -18830,7 +18830,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92386/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 92386,
             "classified_as": [
               {
@@ -18843,7 +18843,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92386/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "13.1C",
             "classified_as": [
               {
@@ -18856,7 +18856,7 @@
           {
             "id": "https://data.discovernewfields.org/object/92386/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "censer in form of teahouse",
             "classified_as": [
               {
@@ -19129,7 +19129,7 @@
           {
             "id": "https://data.discovernewfields.org/object/93739/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 93739,
             "classified_as": [
               {
@@ -19142,7 +19142,7 @@
           {
             "id": "https://data.discovernewfields.org/object/93739/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "73.131.6A",
             "classified_as": [
               {
@@ -19155,7 +19155,7 @@
           {
             "id": "https://data.discovernewfields.org/object/93739/old-accession-number-1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR9961/11",
             "classified_as": [
               {
@@ -19168,7 +19168,7 @@
           {
             "id": "https://data.discovernewfields.org/object/93739/old-accession-number-2",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "U841A",
             "classified_as": [
               {
@@ -19181,7 +19181,7 @@
           {
             "id": "https://data.discovernewfields.org/object/93739/old-accession-number-3",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "U841B",
             "classified_as": [
               {
@@ -19194,7 +19194,7 @@
           {
             "id": "https://data.discovernewfields.org/object/93739/old-accession-number-4",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "U841C",
             "classified_as": [
               {
@@ -19207,7 +19207,7 @@
           {
             "id": "https://data.discovernewfields.org/object/93739/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "wall fountain",
             "classified_as": [
               {
