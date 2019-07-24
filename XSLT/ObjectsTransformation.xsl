@@ -365,8 +365,17 @@ Acquisition-->
                     }
                 ]<!--
                     
+Curatorial Department-->
+            }<xsl:if test="atom[@name='PhyCollectionArea'] != ''">,
+            "member_of": [
+                {
+                    "id": "<xsl:copy-of select="$baseURI"/>collection/<xsl:value-of select="lower-case(translate(replace(substring-before(atom[@name='PhyCollectionArea'], '-'),'[^a-zA-Z0-9 ]',''), ' ', '-'))"/>",
+                    "type": "Set",
+                    "_label": "Collection of IMA at Newfields' <xsl:value-of select="substring-after(atom[@name='PhyCollectionArea'], '-')"/> Department"
+                }<!--
+                    
 Current Location-->
-            }<xsl:if test="tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel2'] != 'see related parts'"><xsl:choose><xsl:when test="tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel1'] = 'On Loan'">,
+            ]</xsl:if><xsl:if test="tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel2'] != 'see related parts'"><xsl:choose><xsl:when test="tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel1'] = 'On Loan'">,
             "current_location": {
                 "id": "<xsl:copy-of select="$baseURI"/>thesauri/location/on-loan",
                 "type": "Place",
@@ -420,14 +429,14 @@ Current Location-->
                 "id": "<xsl:copy-of select="$baseURI"/>thesauri/location/storage",
                 "type": "Place",
                 "_label": "IMA Storage"
-            }</xsl:otherwise></xsl:choose></xsl:if><xsl:if test="tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel2'] = 'see related parts'"></xsl:if><xsl:if test="atom[@name='SumCreditLine'] != '' or atom[@name='TitTitleNotes'] != '' or atom[@name='PhyConvertedDims'] != '' or atom[@name='PhyMediumAndSupport'] != '' or atom[@name='PhyDescription'] != '' or atom[@name='CrePrimaryInscriptions'] != '' or atom[@name='CreCreationNotes'] != '' or table[@name='Rights']">,<!--
+            }</xsl:otherwise></xsl:choose></xsl:if><xsl:if test="tuple[@name='LocCurrentLocationRef']/atom[@name='LocLevel2'] = 'see related parts'"></xsl:if><xsl:if test="atom[@name='SumCreditLine'] != '' or atom[@name='CreProvenance'] != '' or atom[@name='TitTitleNotes'] != '' or atom[@name='PhyConvertedDims'] != '' or atom[@name='PhyMediumAndSupport'] != '' or atom[@name='PhyDescription'] != '' or atom[@name='CrePrimaryInscriptions'] != '' or atom[@name='CreCreationNotes'] != '' or table[@name='Rights']">,<!--
             
 Linquistic Objects-->
             "referred_to_by": [<xsl:if test="atom[@name='SumCreditLine'] != ''">
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/credit-line",
                     "type": "LinguisticObject",
-                    "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Object",
+                    "_label": "IMA at Newfields Credit Line for the Object",
                     "content": "<xsl:value-of select="replace(replace(atom[@name='SumCreditLine'], '\n', '\\n'), '&quot;', '\\&quot;')"/>",
                     "classified_as": [
                         {
@@ -441,7 +450,25 @@ Linquistic Objects-->
                             "_label": "brief texts"
                         }
                     ]
-                }<xsl:if test="atom[@name='TitTitleNotes'] != '' or atom[@name='PhyConvertedDimes'] != '' or atom[@name='PhyMediumAndSupport'] != '' or atom[@name='PhyDescription'] != '' or atom[@name='CrePrimaryInscriptions'] != '' or atom[@name='CreCreationNotes'] != '' or table[@name='Rights']">,</xsl:if></xsl:if><xsl:if test="atom[@name='TitTitleNotes'] != ''">
+                }<xsl:if test="atom[@name='CreProvenance'] != '' or atom[@name='TitTitleNotes'] != '' or atom[@name='PhyConvertedDimes'] != '' or atom[@name='PhyMediumAndSupport'] != '' or atom[@name='PhyDescription'] != '' or atom[@name='CrePrimaryInscriptions'] != '' or atom[@name='CreCreationNotes'] != '' or table[@name='Rights']">,</xsl:if></xsl:if><xsl:if test="atom[@name='CreProvenance'] != ''">
+                {
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/provenance-statement",
+                    "type": "LinguisticObject",
+                    "_label": "IMA Provenance Statement about the Object",
+                    "content": "<xsl:value-of select="replace(replace(atom[@name='CreProvenance'], '\n', '\\n'), '&quot;', '\\&quot;')"/>",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300055863",
+                            "type": "Type",
+                            "_label": "provenance (history of ownership)"
+                        },
+                        {
+                            "id": "http://vocab.getty.edu/aat/300418049",
+                            "type": "Type",
+                            "_label": "brief texts"
+                        }
+                    ]
+                }<xsl:if test="atom[@name='TitTitleNotes'] != '' or atom[@name='PhyConvertedDims'] != '' or atom[@name='PhyMediumAndSupport'] != '' or atom[@name='PhyDescription'] != '' or atom[@name='CrePrimaryInscriptions'] != '' or atom[@name='CreCreationNotes'] != '' or table[@name='Rights']">,</xsl:if></xsl:if><xsl:if test="atom[@name='TitTitleNotes'] != ''">
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/title-statement",
                     "type": "LinguisticObject",

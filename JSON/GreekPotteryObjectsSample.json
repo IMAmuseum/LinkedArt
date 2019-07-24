@@ -27,7 +27,7 @@
           {
             "id": "https://data.discovernewfields.org/object/2554/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 2554,
             "classified_as": [
               {
@@ -40,7 +40,7 @@
           {
             "id": "https://data.discovernewfields.org/object/2554/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "70.99.4",
             "classified_as": [
               {
@@ -53,7 +53,7 @@
           {
             "id": "https://data.discovernewfields.org/object/2554/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR8528/2",
             "classified_as": [
               {
@@ -66,7 +66,7 @@
           {
             "id": "https://data.discovernewfields.org/object/2554/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "small red-figure lekythos",
             "classified_as": [
               {
@@ -94,21 +94,26 @@
         "produced_by": {
           "id": "https://data.discovernewfields.org/object/2554/production",
           "type": "Production",
-          "_label": "Production of small red-figure lekythos",
+          "_label": "Production of the Object",
           "carried_out_by": [
             {
               "id": "https://data.discovernewfields.org/thesauri/culture/greek",
               "type": "Actor",
               "_label": "Greek"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/2554/production/timespan",
+            "type": "TimeSpan",
+            "_label": "date unknown"
+          }
         },
         "dimension": [
           {
             "id": "https://data.discovernewfields.org/object/2554/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for small red-figure lekythos",
-            "value": "4.0000",
+            "_label": "Dimensions for the Object",
+            "value": 4.0000,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055644",
@@ -125,8 +130,8 @@
           {
             "id": "https://data.discovernewfields.org/object/2554/dimension-1/diameter",
             "type": "Dimension",
-            "_label": "Dimensions for small red-figure lekythos",
-            "value": "1.0625",
+            "_label": "Dimensions for the Object",
+            "value": 1.0625,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055624",
@@ -156,7 +161,7 @@
             {
               "id": "https://data.discovernewfields.org/object/2554/IMA-acquisition",
               "type": "Acquisition",
-              "_label": "Acquisition of small red-figure lekythos",
+              "_label": "IMA at Newfields Acquisition of the Object",
               "classified_as": [
                 {
                   "id": "http://vocab.getty.edu/aat/300157782",
@@ -172,15 +177,22 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/2554/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/2554/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1970-12-01",
-                "begin_of_the_begin": "1970-12-01T00:00:00Z",
-                "end_of_the_end": "1970-12-01T00:00:00Z"
+                "begin_of_the_begin": "1970-12-01T00:00:00",
+                "end_of_the_end": "1970-12-01T00:00:00"
               }
             }
           ]
         },
+        "member_of": [
+          {
+            "id": "https://data.discovernewfields.org/collection/9042",
+            "type": "Set",
+            "_label": "Collection of IMA at Newfields' Classical Art Department"
+          }
+        ],
         "current_location": {
           "id": "https://data.discovernewfields.org/thesauri/location/storage",
           "type": "Place",
@@ -190,7 +202,7 @@
           {
             "id": "https://data.discovernewfields.org/object/2554/credit-line",
             "type": "LinguisticObject",
-            "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+            "_label": "IMA at Newfields Credit Line for the Object",
             "content": "Gift of Dr. and Mrs. F.E. Carrel",
             "classified_as": [
               {
@@ -206,9 +218,27 @@
             ]
           },
           {
+            "id": "https://data.discovernewfields.org/object/2554/provenance-statement",
+            "type": "LinguisticObject",
+            "_label": "IMA Provenance Statement about the Object",
+            "content": "Dr and Mrs. F.E. Carrel; presented to the IMA (1970)",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055863",
+                "type": "Type",
+                "_label": "provenance (history of ownership)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
             "id": "https://data.discovernewfields.org/object/2554/dimension-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Dimensions of the Work",
+            "_label": "Notes about the Dimensions of the Object",
             "content": "4 x 1-1/16 (diam.) in.",
             "classified_as": [
               {
@@ -226,7 +256,7 @@
           {
             "id": "https://data.discovernewfields.org/object/2554/materials-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Materials in the Work",
+            "_label": "Notes about the Materials of Which the Object is Composed",
             "content": "painted ceramic",
             "classified_as": [
               {
@@ -244,7 +274,7 @@
           {
             "id": "https://data.discovernewfields.org/object/2554/description",
             "type": "LinguisticObject",
-            "_label": "Description of small red-figure lekythos",
+            "_label": "Description of the Object",
             "content": "small reddish ceramic vase with black painted decoration, narrow neck and one handle",
             "classified_as": [
               {
@@ -295,11 +325,11 @@
             ]
           }
         ],
-        "subject-of": [
+        "subject_of": [
           {
             "id": "http://collection.imamuseum.org/artwork/17054/",
             "type": "LinguisticObject",
-            "_label": "Homepage for small red-figure lekythos",
+            "_label": "Homepage for the Object",
             "classified_as": [
               {
                 "id": "http://vocab/getty.edu/aat/300264578",
@@ -327,7 +357,7 @@
           {
             "id": "https://data.discovernewfields.org/object/10582/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 10582,
             "classified_as": [
               {
@@ -340,7 +370,7 @@
           {
             "id": "https://data.discovernewfields.org/object/10582/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "47.38",
             "classified_as": [
               {
@@ -353,7 +383,7 @@
           {
             "id": "https://data.discovernewfields.org/object/10582/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "White-Ground Lekythos: Mistress and Servant",
             "classified_as": [
               {
@@ -381,21 +411,28 @@
         "produced_by": {
           "id": "https://data.discovernewfields.org/object/10582/production",
           "type": "Production",
-          "_label": "Production of White-Ground Lekythos: Mistress and Servant",
+          "_label": "Production of the Object",
           "carried_out_by": [
             {
               "id": "https://data.discovernewfields.org/thesauri/culture/greek",
               "type": "Actor",
               "_label": "Greek"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/10582/production/timespan",
+            "type": "TimeSpan",
+            "_label": "about 460-450 B.C.E.",
+            "begin_of_the_begin": "-0460-01-01T00:00:00",
+            "end_of_the_end": "-0450-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
             "id": "https://data.discovernewfields.org/object/10582/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for White-Ground Lekythos: Mistress and Servant",
-            "value": "8.2500",
+            "_label": "Dimensions for the Object",
+            "value": 8.2500,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055644",
@@ -420,7 +457,7 @@
             {
               "id": "https://data.discovernewfields.org/object/10582/IMA-acquisition",
               "type": "Acquisition",
-              "_label": "Acquisition of White-Ground Lekythos: Mistress and Servant",
+              "_label": "IMA at Newfields Acquisition of the Object",
               "classified_as": [
                 {
                   "id": "http://vocab.getty.edu/aat/300157782",
@@ -438,6 +475,13 @@
             }
           ]
         },
+        "member_of": [
+          {
+            "id": "https://data.discovernewfields.org/collection/9042",
+            "type": "Set",
+            "_label": "Collection of IMA at Newfields' Classical Art Department"
+          }
+        ],
         "current_location": {
           "id": "https://data.discovernewfields.org/thesauri/location/K312",
           "type": "Place",
@@ -454,7 +498,7 @@
           {
             "id": "https://data.discovernewfields.org/object/10582/credit-line",
             "type": "LinguisticObject",
-            "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+            "_label": "IMA at Newfields Credit Line for the Object",
             "content": "Gift of Mr. and Mrs. Eli Lilly",
             "classified_as": [
               {
@@ -472,7 +516,7 @@
           {
             "id": "https://data.discovernewfields.org/object/10582/dimension-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Dimensions of the Work",
+            "_label": "Notes about the Dimensions of the Object",
             "content": "H: 8-1/4 in.",
             "classified_as": [
               {
@@ -490,7 +534,7 @@
           {
             "id": "https://data.discovernewfields.org/object/10582/materials-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Materials in the Work",
+            "_label": "Notes about the Materials of Which the Object is Composed",
             "content": "earthenware with painted decoration",
             "classified_as": [
               {
@@ -508,7 +552,7 @@
           {
             "id": "https://data.discovernewfields.org/object/10582/creation-notes",
             "type": "LinguisticObject",
-            "_label": "IMA Creation Notes about White-Ground Lekythos: Mistress and Servant",
+            "_label": "IMA at Newfields Creation Notes about the Object",
             "content": "Artist: Painter of Athens 1826",
             "classified_as": [
               {
@@ -559,11 +603,11 @@
             ]
           }
         ],
-        "subject-of": [
+        "subject_of": [
           {
             "id": "http://collection.imamuseum.org/artwork/31723/",
             "type": "LinguisticObject",
-            "_label": "Homepage for White-Ground Lekythos: Mistress and Servant",
+            "_label": "Homepage for the Object",
             "classified_as": [
               {
                 "id": "http://vocab/getty.edu/aat/300264578",
@@ -598,7 +642,7 @@
           {
             "id": "https://data.discovernewfields.org/object/11714/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 11714,
             "classified_as": [
               {
@@ -611,7 +655,7 @@
           {
             "id": "https://data.discovernewfields.org/object/11714/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "47.42",
             "classified_as": [
               {
@@ -624,7 +668,7 @@
           {
             "id": "https://data.discovernewfields.org/object/11714/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Black-Figure Neck Amphora",
             "classified_as": [
               {
@@ -652,21 +696,28 @@
         "produced_by": {
           "id": "https://data.discovernewfields.org/object/11714/production",
           "type": "Production",
-          "_label": "Production of Black-Figure Neck Amphora",
+          "_label": "Production of the Object",
           "carried_out_by": [
             {
               "id": "https://data.discovernewfields.org/thesauri/culture/greek",
               "type": "Actor",
               "_label": "Greek"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/11714/production/timespan",
+            "type": "TimeSpan",
+            "_label": "about 520-500 B.C.E.",
+            "begin_of_the_begin": "-0520-01-01T00:00:00",
+            "end_of_the_end": "-0500-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
             "id": "https://data.discovernewfields.org/object/11714/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for Black-Figure Neck Amphora",
-            "value": "17.5000",
+            "_label": "Dimensions for the Object",
+            "value": 17.5000,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055644",
@@ -696,7 +747,7 @@
             {
               "id": "https://data.discovernewfields.org/object/11714/IMA-acquisition",
               "type": "Acquisition",
-              "_label": "Acquisition of Black-Figure Neck Amphora",
+              "_label": "IMA at Newfields Acquisition of the Object",
               "classified_as": [
                 {
                   "id": "http://vocab.getty.edu/aat/300157782",
@@ -712,15 +763,22 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/11714/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/11714/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1947-02-18",
-                "begin_of_the_begin": "1947-02-18T00:00:00Z",
-                "end_of_the_end": "1947-02-18T00:00:00Z"
+                "begin_of_the_begin": "1947-02-18T00:00:00",
+                "end_of_the_end": "1947-02-18T00:00:00"
               }
             }
           ]
         },
+        "member_of": [
+          {
+            "id": "https://data.discovernewfields.org/collection/9042",
+            "type": "Set",
+            "_label": "Collection of IMA at Newfields' Classical Art Department"
+          }
+        ],
         "current_location": {
           "id": "https://data.discovernewfields.org/thesauri/location/K312",
           "type": "Place",
@@ -737,7 +795,7 @@
           {
             "id": "https://data.discovernewfields.org/object/11714/credit-line",
             "type": "LinguisticObject",
-            "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+            "_label": "IMA at Newfields Credit Line for the Object",
             "content": "Gift of Mr. & Mrs. Eli Lilly",
             "classified_as": [
               {
@@ -755,7 +813,7 @@
           {
             "id": "https://data.discovernewfields.org/object/11714/dimension-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Dimensions of the Work",
+            "_label": "Notes about the Dimensions of the Object",
             "content": "17-1/2 in.",
             "classified_as": [
               {
@@ -773,7 +831,7 @@
           {
             "id": "https://data.discovernewfields.org/object/11714/materials-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Materials in the Work",
+            "_label": "Notes about the Materials of Which the Object is Composed",
             "content": "terra-cotta with white slip decoration",
             "classified_as": [
               {
@@ -791,7 +849,7 @@
           {
             "id": "https://data.discovernewfields.org/object/11714/creation-notes",
             "type": "LinguisticObject",
-            "_label": "IMA Creation Notes about Black-Figure Neck Amphora",
+            "_label": "IMA at Newfields Creation Notes about the Object",
             "content": "Artist: Antimenes",
             "classified_as": [
               {
@@ -842,11 +900,11 @@
             ]
           }
         ],
-        "subject-of": [
+        "subject_of": [
           {
             "id": "http://collection.imamuseum.org/artwork/31725/",
             "type": "LinguisticObject",
-            "_label": "Homepage for Black-Figure Neck Amphora",
+            "_label": "Homepage for the Object",
             "classified_as": [
               {
                 "id": "http://vocab/getty.edu/aat/300264578",
@@ -881,7 +939,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14330/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 14330,
             "classified_as": [
               {
@@ -894,7 +952,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14330/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "47.34",
             "classified_as": [
               {
@@ -907,7 +965,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14330/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR4892/2",
             "classified_as": [
               {
@@ -920,7 +978,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14330/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Red-Figure Hydria-Calpis: Hephaestus Returning to Mt. Olympus",
             "classified_as": [
               {
@@ -942,21 +1000,28 @@
         "produced_by": {
           "id": "https://data.discovernewfields.org/object/14330/production",
           "type": "Production",
-          "_label": "Production of Red-Figure Hydria-Calpis: Hephaestus Returning to Mt. Olympus",
+          "_label": "Production of the Object",
           "carried_out_by": [
             {
               "id": "https://data.discovernewfields.org/thesauri/culture/greek",
               "type": "Actor",
               "_label": "Greek"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/14330/production/timespan",
+            "type": "TimeSpan",
+            "_label": "about 470 B.C.E.",
+            "begin_of_the_begin": "-0500-01-01T00:00:00",
+            "end_of_the_end": "-0430-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
             "id": "https://data.discovernewfields.org/object/14330/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for Red-Figure Hydria-Calpis: Hephaestus Returning to Mt. Olympus",
-            "value": "15.0000",
+            "_label": "Dimensions for the Object",
+            "value": 15.0000,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055644",
@@ -986,7 +1051,7 @@
             {
               "id": "https://data.discovernewfields.org/object/14330/IMA-acquisition",
               "type": "Acquisition",
-              "_label": "Acquisition of Red-Figure Hydria-Calpis: Hephaestus Returning to Mt. Olympus",
+              "_label": "IMA at Newfields Acquisition of the Object",
               "classified_as": [
                 {
                   "id": "http://vocab.getty.edu/aat/300157782",
@@ -1002,15 +1067,22 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/14330/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/14330/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1947-02-18",
-                "begin_of_the_begin": "1947-02-18T00:00:00Z",
-                "end_of_the_end": "1947-02-18T00:00:00Z"
+                "begin_of_the_begin": "1947-02-18T00:00:00",
+                "end_of_the_end": "1947-02-18T00:00:00"
               }
             }
           ]
         },
+        "member_of": [
+          {
+            "id": "https://data.discovernewfields.org/collection/9042",
+            "type": "Set",
+            "_label": "Collection of IMA at Newfields' Classical Art Department"
+          }
+        ],
         "current_location": {
           "id": "https://data.discovernewfields.org/thesauri/location/K312",
           "type": "Place",
@@ -1027,7 +1099,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14330/credit-line",
             "type": "LinguisticObject",
-            "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+            "_label": "IMA at Newfields Credit Line for the Object",
             "content": "Gift of Mr. and Mrs. Eli Lilly",
             "classified_as": [
               {
@@ -1043,9 +1115,27 @@
             ]
           },
           {
+            "id": "https://data.discovernewfields.org/object/14330/provenance-statement",
+            "type": "LinguisticObject",
+            "_label": "IMA Provenance Statement about the Object",
+            "content": "Vladimir G. Simkhovitch; Mr. and Mrs. Eli Lilly, Indianapolis, Indiana; given to the John Herron Art Institute, now the Indianapolis Museum of Art at Newfields in 1947.",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055863",
+                "type": "Type",
+                "_label": "provenance (history of ownership)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
             "id": "https://data.discovernewfields.org/object/14330/dimension-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Dimensions of the Work",
+            "_label": "Notes about the Dimensions of the Object",
             "content": "15 in.",
             "classified_as": [
               {
@@ -1063,7 +1153,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14330/materials-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Materials in the Work",
+            "_label": "Notes about the Materials of Which the Object is Composed",
             "content": "terra-cotta",
             "classified_as": [
               {
@@ -1081,7 +1171,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14330/description",
             "type": "LinguisticObject",
-            "_label": "Description of Red-Figure Hydria-Calpis: Hephaestus Returning to Mt. Olympus",
+            "_label": "Description of the Object",
             "content": "Red-figured hydria, band half way around on shoulder of vessel, band with darts just below it and bands on rim. Remaining parts black.",
             "classified_as": [
               {
@@ -1099,7 +1189,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14330/creation-notes",
             "type": "LinguisticObject",
-            "_label": "IMA Creation Notes about Red-Figure Hydria-Calpis: Hephaestus Returning to Mt. Olympus",
+            "_label": "IMA at Newfields Creation Notes about the Object",
             "content": "Artist: Agrigento Painter",
             "classified_as": [
               {
@@ -1150,11 +1240,11 @@
             ]
           }
         ],
-        "subject-of": [
+        "subject_of": [
           {
-            "id": "http://collection.imamuseum.org/artwork/ 31719/",
+            "id": "http://collection.imamuseum.org/artwork/31719/",
             "type": "LinguisticObject",
-            "_label": "Homepage for Red-Figure Hydria-Calpis: Hephaestus Returning to Mt. Olympus",
+            "_label": "Homepage for the Object",
             "classified_as": [
               {
                 "id": "http://vocab/getty.edu/aat/300264578",
@@ -1189,7 +1279,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14571/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 14571,
             "classified_as": [
               {
@@ -1202,7 +1292,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14571/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "20.166",
             "classified_as": [
               {
@@ -1215,7 +1305,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14571/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "No TR number",
             "classified_as": [
               {
@@ -1228,7 +1318,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14571/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Black Figure Lekythos",
             "classified_as": [
               {
@@ -1256,21 +1346,28 @@
         "produced_by": {
           "id": "https://data.discovernewfields.org/object/14571/production",
           "type": "Production",
-          "_label": "Production of Black Figure Lekythos",
+          "_label": "Production of the Object",
           "carried_out_by": [
             {
               "id": "https://data.discovernewfields.org/thesauri/culture/greek",
               "type": "Actor",
               "_label": "Greek"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/14571/production/timespan",
+            "type": "TimeSpan",
+            "_label": "350 B.C.E.",
+            "begin_of_the_begin": "-0350-01-01T00:00:00",
+            "end_of_the_end": "-0350-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
             "id": "https://data.discovernewfields.org/object/14571/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for Black Figure Lekythos",
-            "value": "5.0000",
+            "_label": "Dimensions for the Object",
+            "value": 5.0000,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055644",
@@ -1287,8 +1384,8 @@
           {
             "id": "https://data.discovernewfields.org/object/14571/dimension-1/diameter",
             "type": "Dimension",
-            "_label": "Dimensions for Black Figure Lekythos",
-            "value": "2.0000",
+            "_label": "Dimensions for the Object",
+            "value": 2.0000,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055624",
@@ -1318,7 +1415,7 @@
             {
               "id": "https://data.discovernewfields.org/object/14571/IMA-acquisition",
               "type": "Acquisition",
-              "_label": "Acquisition of Black Figure Lekythos",
+              "_label": "IMA at Newfields Acquisition of the Object",
               "classified_as": [
                 {
                   "id": "http://vocab.getty.edu/aat/300157782",
@@ -1336,6 +1433,13 @@
             }
           ]
         },
+        "member_of": [
+          {
+            "id": "https://data.discovernewfields.org/collection/9042",
+            "type": "Set",
+            "_label": "Collection of IMA at Newfields' Classical Art Department"
+          }
+        ],
         "current_location": {
           "id": "https://data.discovernewfields.org/thesauri/location/storage",
           "type": "Place",
@@ -1345,7 +1449,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14571/credit-line",
             "type": "LinguisticObject",
-            "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+            "_label": "IMA at Newfields Credit Line for the Object",
             "content": "Gift of Winant Johnson",
             "classified_as": [
               {
@@ -1361,9 +1465,27 @@
             ]
           },
           {
+            "id": "https://data.discovernewfields.org/object/14571/provenance-statement",
+            "type": "LinguisticObject",
+            "_label": "IMA Provenance Statement about the Object",
+            "content": "Winant Johnston; presented to the IMA (1920)",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055863",
+                "type": "Type",
+                "_label": "provenance (history of ownership)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
             "id": "https://data.discovernewfields.org/object/14571/dimension-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Dimensions of the Work",
+            "_label": "Notes about the Dimensions of the Object",
             "content": "5 x 2 (diam.) in.",
             "classified_as": [
               {
@@ -1381,7 +1503,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14571/materials-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Materials in the Work",
+            "_label": "Notes about the Materials of Which the Object is Composed",
             "content": "painted ceramic",
             "classified_as": [
               {
@@ -1399,7 +1521,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14571/description",
             "type": "LinguisticObject",
-            "_label": "Description of Black Figure Lekythos",
+            "_label": "Description of the Object",
             "content": "small vase with circular pedestal foot, body is roughly cone shaped- wider near the top, long narrow neck with rolled mouth; ceramic is reddish in color with black and blue painted decoration",
             "classified_as": [
               {
@@ -1450,11 +1572,11 @@
             ]
           }
         ],
-        "subject-of": [
+        "subject_of": [
           {
             "id": "http://collection.imamuseum.org/artwork/17228/",
             "type": "LinguisticObject",
-            "_label": "Homepage for Black Figure Lekythos",
+            "_label": "Homepage for the Object",
             "classified_as": [
               {
                 "id": "http://vocab/getty.edu/aat/300264578",
@@ -1489,7 +1611,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14851/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 14851,
             "classified_as": [
               {
@@ -1502,7 +1624,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14851/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "23.35",
             "classified_as": [
               {
@@ -1515,7 +1637,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14851/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR78/2",
             "classified_as": [
               {
@@ -1528,7 +1650,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14851/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "small dish",
             "classified_as": [
               {
@@ -1550,21 +1672,26 @@
         "produced_by": {
           "id": "https://data.discovernewfields.org/object/14851/production",
           "type": "Production",
-          "_label": "Production of small dish",
+          "_label": "Production of the Object",
           "carried_out_by": [
             {
               "id": "https://data.discovernewfields.org/thesauri/culture/greek",
               "type": "Actor",
               "_label": "Greek"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/14851/production/timespan",
+            "type": "TimeSpan",
+            "_label": "date unknown"
+          }
         },
         "dimension": [
           {
             "id": "https://data.discovernewfields.org/object/14851/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for small dish",
-            "value": "1.1250",
+            "_label": "Dimensions for the Object",
+            "value": 1.1250,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055644",
@@ -1581,8 +1708,8 @@
           {
             "id": "https://data.discovernewfields.org/object/14851/dimension-1/diameter",
             "type": "Dimension",
-            "_label": "Dimensions for small dish",
-            "value": "2.9375",
+            "_label": "Dimensions for the Object",
+            "value": 2.9375,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055624",
@@ -1612,7 +1739,7 @@
             {
               "id": "https://data.discovernewfields.org/object/14851/IMA-acquisition",
               "type": "Acquisition",
-              "_label": "Acquisition of small dish",
+              "_label": "IMA at Newfields Acquisition of the Object",
               "classified_as": [
                 {
                   "id": "http://vocab.getty.edu/aat/300157782",
@@ -1630,6 +1757,13 @@
             }
           ]
         },
+        "member_of": [
+          {
+            "id": "https://data.discovernewfields.org/collection/9042",
+            "type": "Set",
+            "_label": "Collection of IMA at Newfields' Classical Art Department"
+          }
+        ],
         "current_location": {
           "id": "https://data.discovernewfields.org/thesauri/location/storage",
           "type": "Place",
@@ -1639,7 +1773,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14851/credit-line",
             "type": "LinguisticObject",
-            "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+            "_label": "IMA at Newfields Credit Line for the Object",
             "content": "Gift of Miss Lucy M. Taggart",
             "classified_as": [
               {
@@ -1655,9 +1789,27 @@
             ]
           },
           {
+            "id": "https://data.discovernewfields.org/object/14851/provenance-statement",
+            "type": "LinguisticObject",
+            "_label": "IMA Provenance Statement about the Object",
+            "content": "Lucy M. Taggart; presented to the IMA (1923)",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055863",
+                "type": "Type",
+                "_label": "provenance (history of ownership)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
             "id": "https://data.discovernewfields.org/object/14851/dimension-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Dimensions of the Work",
+            "_label": "Notes about the Dimensions of the Object",
             "content": "1-1/8 x 2-15/16 (diam.) in.",
             "classified_as": [
               {
@@ -1675,7 +1827,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14851/materials-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Materials in the Work",
+            "_label": "Notes about the Materials of Which the Object is Composed",
             "content": "earthenware",
             "classified_as": [
               {
@@ -1693,7 +1845,7 @@
           {
             "id": "https://data.discovernewfields.org/object/14851/description",
             "type": "LinguisticObject",
-            "_label": "Description of small dish",
+            "_label": "Description of the Object",
             "content": "earthenware dish with two handles",
             "classified_as": [
               {
@@ -1744,11 +1896,11 @@
             ]
           }
         ],
-        "subject-of": [
+        "subject_of": [
           {
             "id": "http://collection.imamuseum.org/artwork/16928/",
             "type": "LinguisticObject",
-            "_label": "Homepage for small dish",
+            "_label": "Homepage for the Object",
             "classified_as": [
               {
                 "id": "http://vocab/getty.edu/aat/300264578",
@@ -1793,7 +1945,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16626/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 16626,
             "classified_as": [
               {
@@ -1806,7 +1958,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16626/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "47.35",
             "classified_as": [
               {
@@ -1819,7 +1971,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16626/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Attic Red-Figure Lekythos: Zeus and Ganymede",
             "classified_as": [
               {
@@ -1841,21 +1993,28 @@
         "produced_by": {
           "id": "https://data.discovernewfields.org/object/16626/production",
           "type": "Production",
-          "_label": "Production of Attic Red-Figure Lekythos: Zeus and Ganymede",
+          "_label": "Production of the Object",
           "carried_out_by": [
             {
               "id": "https://data.discovernewfields.org/thesauri/culture/greek",
               "type": "Actor",
               "_label": "Greek"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/16626/production/timespan",
+            "type": "TimeSpan",
+            "_label": "about 460-420 B.C.E.",
+            "begin_of_the_begin": "-0460-01-01T00:00:00",
+            "end_of_the_end": "-0420-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
             "id": "https://data.discovernewfields.org/object/16626/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for Attic Red-Figure Lekythos: Zeus and Ganymede",
-            "value": "15.0000",
+            "_label": "Dimensions for the Object",
+            "value": 15.0000,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055644",
@@ -1885,7 +2044,7 @@
             {
               "id": "https://data.discovernewfields.org/object/16626/IMA-acquisition",
               "type": "Acquisition",
-              "_label": "Acquisition of Attic Red-Figure Lekythos: Zeus and Ganymede",
+              "_label": "IMA at Newfields Acquisition of the Object",
               "classified_as": [
                 {
                   "id": "http://vocab.getty.edu/aat/300157782",
@@ -1903,6 +2062,13 @@
             }
           ]
         },
+        "member_of": [
+          {
+            "id": "https://data.discovernewfields.org/collection/9042",
+            "type": "Set",
+            "_label": "Collection of IMA at Newfields' Classical Art Department"
+          }
+        ],
         "current_location": {
           "id": "https://data.discovernewfields.org/thesauri/location/K312",
           "type": "Place",
@@ -1919,7 +2085,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16626/credit-line",
             "type": "LinguisticObject",
-            "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+            "_label": "IMA at Newfields Credit Line for the Object",
             "content": "Gift of Mr. & Mrs. Eli Lilly",
             "classified_as": [
               {
@@ -1937,7 +2103,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16626/dimension-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Dimensions of the Work",
+            "_label": "Notes about the Dimensions of the Object",
             "content": "H: 15 in.",
             "classified_as": [
               {
@@ -1955,7 +2121,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16626/materials-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Materials in the Work",
+            "_label": "Notes about the Materials of Which the Object is Composed",
             "content": "terra-cotta",
             "classified_as": [
               {
@@ -1973,7 +2139,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16626/creation-notes",
             "type": "LinguisticObject",
-            "_label": "IMA Creation Notes about Attic Red-Figure Lekythos: Zeus and Ganymede",
+            "_label": "IMA at Newfields Creation Notes about the Object",
             "content": "Artist: Manner of Achilles Painter",
             "classified_as": [
               {
@@ -2024,11 +2190,11 @@
             ]
           }
         ],
-        "subject-of": [
+        "subject_of": [
           {
             "id": "http://collection.imamuseum.org/artwork/31720/",
             "type": "LinguisticObject",
-            "_label": "Homepage for Attic Red-Figure Lekythos: Zeus and Ganymede",
+            "_label": "Homepage for the Object",
             "classified_as": [
               {
                 "id": "http://vocab/getty.edu/aat/300264578",
@@ -2073,7 +2239,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16704/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 16704,
             "classified_as": [
               {
@@ -2086,7 +2252,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16704/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "57.131A-B",
             "classified_as": [
               {
@@ -2099,7 +2265,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16704/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Apulian Lekanis: Head of a Woman and Winged Genie",
             "classified_as": [
               {
@@ -2121,21 +2287,28 @@
         "produced_by": {
           "id": "https://data.discovernewfields.org/object/16704/production",
           "type": "Production",
-          "_label": "Production of Apulian Lekanis: Head of a Woman and Winged Genie",
+          "_label": "Production of the Object",
           "carried_out_by": [
             {
               "id": "https://data.discovernewfields.org/thesauri/culture/greek",
               "type": "Actor",
               "_label": "Greek"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/16704/production/timespan",
+            "type": "TimeSpan",
+            "_label": "late 4th century B.C.E.",
+            "begin_of_the_begin": "-0400-01-01T00:00:00",
+            "end_of_the_end": "-0370-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
             "id": "https://data.discovernewfields.org/object/16704/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for Apulian Lekanis: Head of a Woman and Winged Genie",
-            "value": "6.1250",
+            "_label": "Dimensions for the Object",
+            "value": 6.1250,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055644",
@@ -2165,7 +2338,7 @@
             {
               "id": "https://data.discovernewfields.org/object/16704/IMA-acquisition",
               "type": "Acquisition",
-              "_label": "Acquisition of Apulian Lekanis: Head of a Woman and Winged Genie",
+              "_label": "IMA at Newfields Acquisition of the Object",
               "classified_as": [
                 {
                   "id": "http://vocab.getty.edu/aat/300157782",
@@ -2183,6 +2356,13 @@
             }
           ]
         },
+        "member_of": [
+          {
+            "id": "https://data.discovernewfields.org/collection/9042",
+            "type": "Set",
+            "_label": "Collection of IMA at Newfields' Classical Art Department"
+          }
+        ],
         "current_location": {
           "id": "https://data.discovernewfields.org/thesauri/location/K312",
           "type": "Place",
@@ -2199,7 +2379,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16704/credit-line",
             "type": "LinguisticObject",
-            "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+            "_label": "IMA at Newfields Credit Line for the Object",
             "content": "Gift of Mrs. Henry E. Perry",
             "classified_as": [
               {
@@ -2217,7 +2397,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16704/dimension-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Dimensions of the Work",
+            "_label": "Notes about the Dimensions of the Object",
             "content": "H: 6-1/8 in.",
             "classified_as": [
               {
@@ -2235,7 +2415,7 @@
           {
             "id": "https://data.discovernewfields.org/object/16704/materials-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Materials in the Work",
+            "_label": "Notes about the Materials of Which the Object is Composed",
             "content": "terra-cotta",
             "classified_as": [
               {
@@ -2286,11 +2466,11 @@
             ]
           }
         ],
-        "subject-of": [
+        "subject_of": [
           {
             "id": "http://collection.imamuseum.org/artwork/31729/",
             "type": "LinguisticObject",
-            "_label": "Homepage for Apulian Lekanis: Head of a Woman and Winged Genie",
+            "_label": "Homepage for the Object",
             "classified_as": [
               {
                 "id": "http://vocab/getty.edu/aat/300264578",
@@ -2325,7 +2505,7 @@
           {
             "id": "https://data.discovernewfields.org/object/19671/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 19671,
             "classified_as": [
               {
@@ -2338,7 +2518,7 @@
           {
             "id": "https://data.discovernewfields.org/object/19671/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "47.37",
             "classified_as": [
               {
@@ -2351,7 +2531,7 @@
           {
             "id": "https://data.discovernewfields.org/object/19671/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Attic Red-Figure Kylix: Hetaira Drawing Water from a Pithos",
             "classified_as": [
               {
@@ -2379,21 +2559,28 @@
         "produced_by": {
           "id": "https://data.discovernewfields.org/object/19671/production",
           "type": "Production",
-          "_label": "Production of Attic Red-Figure Kylix: Hetaira Drawing Water from a Pithos",
+          "_label": "Production of the Object",
           "carried_out_by": [
             {
               "id": "https://data.discovernewfields.org/thesauri/culture/greek",
               "type": "Actor",
               "_label": "Greek"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/19671/production/timespan",
+            "type": "TimeSpan",
+            "_label": "about 500 B.C.E.",
+            "begin_of_the_begin": "-0550-01-01T00:00:00",
+            "end_of_the_end": "-0450-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
             "id": "https://data.discovernewfields.org/object/19671/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for Attic Red-Figure Kylix: Hetaira Drawing Water from a Pithos",
-            "value": "3.0000",
+            "_label": "Dimensions for the Object",
+            "value": 3.0000,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055644",
@@ -2410,8 +2597,8 @@
           {
             "id": "https://data.discovernewfields.org/object/19671/dimension-1/diameter",
             "type": "Dimension",
-            "_label": "Dimensions for Attic Red-Figure Kylix: Hetaira Drawing Water from a Pithos",
-            "value": "7.2500",
+            "_label": "Dimensions for the Object",
+            "value": 7.2500,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055624",
@@ -2441,7 +2628,7 @@
             {
               "id": "https://data.discovernewfields.org/object/19671/IMA-acquisition",
               "type": "Acquisition",
-              "_label": "Acquisition of Attic Red-Figure Kylix: Hetaira Drawing Water from a Pithos",
+              "_label": "IMA at Newfields Acquisition of the Object",
               "classified_as": [
                 {
                   "id": "http://vocab.getty.edu/aat/300157782",
@@ -2459,6 +2646,13 @@
             }
           ]
         },
+        "member_of": [
+          {
+            "id": "https://data.discovernewfields.org/collection/9042",
+            "type": "Set",
+            "_label": "Collection of IMA at Newfields' Classical Art Department"
+          }
+        ],
         "current_location": {
           "id": "https://data.discovernewfields.org/thesauri/location/K312",
           "type": "Place",
@@ -2475,7 +2669,7 @@
           {
             "id": "https://data.discovernewfields.org/object/19671/credit-line",
             "type": "LinguisticObject",
-            "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+            "_label": "IMA at Newfields Credit Line for the Object",
             "content": "Gift of Mr. and Mrs. Eli Lilly",
             "classified_as": [
               {
@@ -2491,9 +2685,27 @@
             ]
           },
           {
+            "id": "https://data.discovernewfields.org/object/19671/provenance-statement",
+            "type": "LinguisticObject",
+            "_label": "IMA Provenance Statement about the Object",
+            "content": "Arthur Sambon [1867-1947], Paris; Sale (Galerie Georges Petit, Paris) in 1914.{1} (Joseph Brummer Gallery, New York); Eli Lilly [1885-1977], Indianapolis; given to the Indianapolis Museum of Art in 1947 (47.37).\n\n{1} Galerie Georges Petit, Paris, Objets dart et de haute curiosité de lantiquité, du moyen age, de la renaissance, et autres, 25-28 May 1914, lot 100.",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055863",
+                "type": "Type",
+                "_label": "provenance (history of ownership)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
             "id": "https://data.discovernewfields.org/object/19671/dimension-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Dimensions of the Work",
+            "_label": "Notes about the Dimensions of the Object",
             "content": "3 x 7-1/4 (diam.) in.",
             "classified_as": [
               {
@@ -2511,7 +2723,7 @@
           {
             "id": "https://data.discovernewfields.org/object/19671/materials-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Materials in the Work",
+            "_label": "Notes about the Materials of Which the Object is Composed",
             "content": "earthenware with slip decoration",
             "classified_as": [
               {
@@ -2529,7 +2741,7 @@
           {
             "id": "https://data.discovernewfields.org/object/19671/description",
             "type": "LinguisticObject",
-            "_label": "Description of Attic Red-Figure Kylix: Hetaira Drawing Water from a Pithos",
+            "_label": "Description of the Object",
             "content": "Red-figure Kylix, inside in a circle a nude woman is kneeling by a storage jar.",
             "classified_as": [
               {
@@ -2547,7 +2759,7 @@
           {
             "id": "https://data.discovernewfields.org/object/19671/creation-notes",
             "type": "LinguisticObject",
-            "_label": "IMA Creation Notes about Attic Red-Figure Kylix: Hetaira Drawing Water from a Pithos",
+            "_label": "IMA at Newfields Creation Notes about the Object",
             "content": "Artist: Chaire Painter\nAthensa",
             "classified_as": [
               {
@@ -2617,7 +2829,7 @@
           {
             "id": "https://data.discovernewfields.org/object/22004/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 22004,
             "classified_as": [
               {
@@ -2630,7 +2842,7 @@
           {
             "id": "https://data.discovernewfields.org/object/22004/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "18.128",
             "classified_as": [
               {
@@ -2643,7 +2855,7 @@
           {
             "id": "https://data.discovernewfields.org/object/22004/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "vase",
             "classified_as": [
               {
@@ -2671,21 +2883,26 @@
         "produced_by": {
           "id": "https://data.discovernewfields.org/object/22004/production",
           "type": "Production",
-          "_label": "Production of vase",
+          "_label": "Production of the Object",
           "carried_out_by": [
             {
               "id": "https://data.discovernewfields.org/thesauri/culture/greek",
               "type": "Actor",
               "_label": "Greek"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/22004/production/timespan",
+            "type": "TimeSpan",
+            "_label": "date unknown"
+          }
         },
         "dimension": [
           {
             "id": "https://data.discovernewfields.org/object/22004/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for vase",
-            "value": "5.0000",
+            "_label": "Dimensions for the Object",
+            "value": 5.0000,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055644",
@@ -2702,8 +2919,8 @@
           {
             "id": "https://data.discovernewfields.org/object/22004/dimension-1/diameter",
             "type": "Dimension",
-            "_label": "Dimensions for vase",
-            "value": "1.5000",
+            "_label": "Dimensions for the Object",
+            "value": 1.5000,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055624",
@@ -2733,7 +2950,7 @@
             {
               "id": "https://data.discovernewfields.org/object/22004/IMA-acquisition",
               "type": "Acquisition",
-              "_label": "Acquisition of vase",
+              "_label": "IMA at Newfields Acquisition of the Object",
               "classified_as": [
                 {
                   "id": "http://vocab.getty.edu/aat/300157782",
@@ -2749,15 +2966,22 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/22004/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/22004/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1918-07-22",
-                "begin_of_the_begin": "1918-07-22T00:00:00Z",
-                "end_of_the_end": "1918-07-22T00:00:00Z"
+                "begin_of_the_begin": "1918-07-22T00:00:00",
+                "end_of_the_end": "1918-07-22T00:00:00"
               }
             }
           ]
         },
+        "member_of": [
+          {
+            "id": "https://data.discovernewfields.org/collection/9042",
+            "type": "Set",
+            "_label": "Collection of IMA at Newfields' Classical Art Department"
+          }
+        ],
         "current_location": {
           "id": "https://data.discovernewfields.org/thesauri/location/storage",
           "type": "Place",
@@ -2767,7 +2991,7 @@
           {
             "id": "https://data.discovernewfields.org/object/22004/credit-line",
             "type": "LinguisticObject",
-            "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+            "_label": "IMA at Newfields Credit Line for the Object",
             "content": "Gift of Mary A. Dye",
             "classified_as": [
               {
@@ -2783,9 +3007,27 @@
             ]
           },
           {
+            "id": "https://data.discovernewfields.org/object/22004/provenance-statement",
+            "type": "LinguisticObject",
+            "_label": "IMA Provenance Statement about the Object",
+            "content": "Mary A. Dye; presented to the IMA (1918)",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055863",
+                "type": "Type",
+                "_label": "provenance (history of ownership)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
             "id": "https://data.discovernewfields.org/object/22004/dimension-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Dimensions of the Work",
+            "_label": "Notes about the Dimensions of the Object",
             "content": "5 x 1-1/2 (diam.) in.",
             "classified_as": [
               {
@@ -2803,7 +3045,7 @@
           {
             "id": "https://data.discovernewfields.org/object/22004/materials-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Materials in the Work",
+            "_label": "Notes about the Materials of Which the Object is Composed",
             "content": "painted ceramic",
             "classified_as": [
               {
@@ -2821,7 +3063,7 @@
           {
             "id": "https://data.discovernewfields.org/object/22004/description",
             "type": "LinguisticObject",
-            "_label": "Description of vase",
+            "_label": "Description of the Object",
             "content": "small vase with pedestal foot, wide body, long narrow neck with horizontal decorative ridge at midline and flared mouth, one narrow handle; ceramic is reddish in color with black paint decoration",
             "classified_as": [
               {
@@ -2872,11 +3114,11 @@
             ]
           }
         ],
-        "subject-of": [
+        "subject_of": [
           {
             "id": "http://collection.imamuseum.org/artwork/16924/",
             "type": "LinguisticObject",
-            "_label": "Homepage for vase",
+            "_label": "Homepage for the Object",
             "classified_as": [
               {
                 "id": "http://vocab/getty.edu/aat/300264578",
@@ -2921,7 +3163,7 @@
           {
             "id": "https://data.discovernewfields.org/object/23506/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 23506,
             "classified_as": [
               {
@@ -2934,7 +3176,7 @@
           {
             "id": "https://data.discovernewfields.org/object/23506/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "47.45",
             "classified_as": [
               {
@@ -2947,7 +3189,7 @@
           {
             "id": "https://data.discovernewfields.org/object/23506/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Aphrodite",
             "classified_as": [
               {
@@ -2975,14 +3217,21 @@
         "produced_by": {
           "id": "https://data.discovernewfields.org/object/23506/production",
           "type": "Production",
-          "_label": "Production of Aphrodite",
+          "_label": "Production of the Object",
           "carried_out_by": [
             {
               "id": "https://data.discovernewfields.org/thesauri/culture/greek",
               "type": "Actor",
               "_label": "Greek"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/23506/production/timespan",
+            "type": "TimeSpan",
+            "_label": "4th-3rd centuries B.C.E.",
+            "begin_of_the_begin": "0400-01-01T00:00:00",
+            "end_of_the_end": "0200-12-31T00:00:00"
+          }
         },
         "current_owner": {
           "id": "http://vocab.getty.edu/ulan/500300517",
@@ -2999,7 +3248,7 @@
             {
               "id": "https://data.discovernewfields.org/object/23506/IMA-acquisition",
               "type": "Acquisition",
-              "_label": "Acquisition of Aphrodite",
+              "_label": "IMA at Newfields Acquisition of the Object",
               "classified_as": [
                 {
                   "id": "http://vocab.getty.edu/aat/300157782",
@@ -3017,6 +3266,13 @@
             }
           ]
         },
+        "member_of": [
+          {
+            "id": "https://data.discovernewfields.org/collection/9042",
+            "type": "Set",
+            "_label": "Collection of IMA at Newfields' Classical Art Department"
+          }
+        ],
         "current_location": {
           "id": "https://data.discovernewfields.org/thesauri/location/storage",
           "type": "Place",
@@ -3026,7 +3282,7 @@
           {
             "id": "https://data.discovernewfields.org/object/23506/credit-line",
             "type": "LinguisticObject",
-            "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+            "_label": "IMA at Newfields Credit Line for the Object",
             "content": "Gift of Mr.and Mrs. Eli Lilly",
             "classified_as": [
               {
@@ -3044,7 +3300,7 @@
           {
             "id": "https://data.discovernewfields.org/object/23506/dimension-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Dimensions of the Work",
+            "_label": "Notes about the Dimensions of the Object",
             "content": "No measurement details.",
             "classified_as": [
               {
@@ -3062,7 +3318,7 @@
           {
             "id": "https://data.discovernewfields.org/object/23506/materials-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Materials in the Work",
+            "_label": "Notes about the Materials of Which the Object is Composed",
             "content": "painted terra-cotta",
             "classified_as": [
               {
@@ -3080,7 +3336,7 @@
           {
             "id": "https://data.discovernewfields.org/object/23506/creation-notes",
             "type": "LinguisticObject",
-            "_label": "IMA Creation Notes about Aphrodite",
+            "_label": "IMA at Newfields Creation Notes about the Object",
             "content": "Tanagra",
             "classified_as": [
               {
@@ -3131,11 +3387,11 @@
             ]
           }
         ],
-        "subject-of": [
+        "subject_of": [
           {
             "id": "http://collection.imamuseum.org/artwork/17234/",
             "type": "LinguisticObject",
-            "_label": "Homepage for Aphrodite",
+            "_label": "Homepage for the Object",
             "classified_as": [
               {
                 "id": "http://vocab/getty.edu/aat/300264578",
@@ -3170,7 +3426,7 @@
           {
             "id": "https://data.discovernewfields.org/object/24750/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 24750,
             "classified_as": [
               {
@@ -3183,7 +3439,7 @@
           {
             "id": "https://data.discovernewfields.org/object/24750/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "47.43",
             "classified_as": [
               {
@@ -3196,7 +3452,7 @@
           {
             "id": "https://data.discovernewfields.org/object/24750/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Black-Figure Hydria: Departing Warriors",
             "classified_as": [
               {
@@ -3224,21 +3480,28 @@
         "produced_by": {
           "id": "https://data.discovernewfields.org/object/24750/production",
           "type": "Production",
-          "_label": "Production of Black-Figure Hydria: Departing Warriors",
+          "_label": "Production of the Object",
           "carried_out_by": [
             {
               "id": "https://data.discovernewfields.org/thesauri/culture/greek",
               "type": "Actor",
               "_label": "Greek"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/24750/production/timespan",
+            "type": "TimeSpan",
+            "_label": "about 530-510 B.C.E.",
+            "begin_of_the_begin": "-0530-01-01T00:00:00",
+            "end_of_the_end": "-0510-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
             "id": "https://data.discovernewfields.org/object/24750/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for Black-Figure Hydria: Departing Warriors",
-            "value": "17.7500",
+            "_label": "Dimensions for the Object",
+            "value": 17.7500,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055644",
@@ -3268,7 +3531,7 @@
             {
               "id": "https://data.discovernewfields.org/object/24750/IMA-acquisition",
               "type": "Acquisition",
-              "_label": "Acquisition of Black-Figure Hydria: Departing Warriors",
+              "_label": "IMA at Newfields Acquisition of the Object",
               "classified_as": [
                 {
                   "id": "http://vocab.getty.edu/aat/300157782",
@@ -3284,15 +3547,22 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/24750/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/24750/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1947-02-18",
-                "begin_of_the_begin": "1947-02-18T00:00:00Z",
-                "end_of_the_end": "1947-02-18T00:00:00Z"
+                "begin_of_the_begin": "1947-02-18T00:00:00",
+                "end_of_the_end": "1947-02-18T00:00:00"
               }
             }
           ]
         },
+        "member_of": [
+          {
+            "id": "https://data.discovernewfields.org/collection/9042",
+            "type": "Set",
+            "_label": "Collection of IMA at Newfields' Classical Art Department"
+          }
+        ],
         "current_location": {
           "id": "https://data.discovernewfields.org/thesauri/location/K312",
           "type": "Place",
@@ -3309,7 +3579,7 @@
           {
             "id": "https://data.discovernewfields.org/object/24750/credit-line",
             "type": "LinguisticObject",
-            "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+            "_label": "IMA at Newfields Credit Line for the Object",
             "content": "Gift of Mr. and Mrs. Eli Lilly",
             "classified_as": [
               {
@@ -3327,7 +3597,7 @@
           {
             "id": "https://data.discovernewfields.org/object/24750/dimension-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Dimensions of the Work",
+            "_label": "Notes about the Dimensions of the Object",
             "content": "17-3/4 in.",
             "classified_as": [
               {
@@ -3345,7 +3615,7 @@
           {
             "id": "https://data.discovernewfields.org/object/24750/materials-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Materials in the Work",
+            "_label": "Notes about the Materials of Which the Object is Composed",
             "content": "terra-cotta with black glaze",
             "classified_as": [
               {
@@ -3363,7 +3633,7 @@
           {
             "id": "https://data.discovernewfields.org/object/24750/creation-notes",
             "type": "LinguisticObject",
-            "_label": "IMA Creation Notes about Black-Figure Hydria: Departing Warriors",
+            "_label": "IMA at Newfields Creation Notes about the Object",
             "content": "Artist: Leagros Group",
             "classified_as": [
               {
@@ -3414,11 +3684,11 @@
             ]
           }
         ],
-        "subject-of": [
+        "subject_of": [
           {
             "id": "http://collection.imamuseum.org/artwork/31726/",
             "type": "LinguisticObject",
-            "_label": "Homepage for Black-Figure Hydria: Departing Warriors",
+            "_label": "Homepage for the Object",
             "classified_as": [
               {
                 "id": "http://vocab/getty.edu/aat/300264578",
@@ -3453,7 +3723,7 @@
           {
             "id": "https://data.discovernewfields.org/object/29029/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 29029,
             "classified_as": [
               {
@@ -3466,7 +3736,7 @@
           {
             "id": "https://data.discovernewfields.org/object/29029/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "47.40A-B",
             "classified_as": [
               {
@@ -3479,7 +3749,7 @@
           {
             "id": "https://data.discovernewfields.org/object/29029/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Pyxis: Nereid Riding a Hippocamp",
             "classified_as": [
               {
@@ -3501,21 +3771,28 @@
         "produced_by": {
           "id": "https://data.discovernewfields.org/object/29029/production",
           "type": "Production",
-          "_label": "Production of Pyxis: Nereid Riding a Hippocamp",
+          "_label": "Production of the Object",
           "carried_out_by": [
             {
               "id": "https://data.discovernewfields.org/thesauri/culture/greek",
               "type": "Actor",
               "_label": "Greek"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/29029/production/timespan",
+            "type": "TimeSpan",
+            "_label": "3rd century B.C.E.",
+            "begin_of_the_begin": "-0300-01-01T00:00:00",
+            "end_of_the_end": "-0200-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
             "id": "https://data.discovernewfields.org/object/29029/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for Pyxis: Nereid Riding a Hippocamp",
-            "value": "2.5000",
+            "_label": "Dimensions for the Object",
+            "value": 2.5000,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055644",
@@ -3532,8 +3809,8 @@
           {
             "id": "https://data.discovernewfields.org/object/29029/dimension-1/diameter",
             "type": "Dimension",
-            "_label": "Dimensions for Pyxis: Nereid Riding a Hippocamp",
-            "value": "5.3750",
+            "_label": "Dimensions for the Object",
+            "value": 5.3750,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055624",
@@ -3563,7 +3840,7 @@
             {
               "id": "https://data.discovernewfields.org/object/29029/IMA-acquisition",
               "type": "Acquisition",
-              "_label": "Acquisition of Pyxis: Nereid Riding a Hippocamp",
+              "_label": "IMA at Newfields Acquisition of the Object",
               "classified_as": [
                 {
                   "id": "http://vocab.getty.edu/aat/300157782",
@@ -3581,11 +3858,18 @@
             }
           ]
         },
+        "member_of": [
+          {
+            "id": "https://data.discovernewfields.org/collection/9042",
+            "type": "Set",
+            "_label": "Collection of IMA at Newfields' Classical Art Department"
+          }
+        ],
         "referred_to_by": [
           {
             "id": "https://data.discovernewfields.org/object/29029/credit-line",
             "type": "LinguisticObject",
-            "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+            "_label": "IMA at Newfields Credit Line for the Object",
             "content": "Gift of Mr. & Mrs. Eli Lilly",
             "classified_as": [
               {
@@ -3603,7 +3887,7 @@
           {
             "id": "https://data.discovernewfields.org/object/29029/title-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Title(s) Associated with the Work",
+            "_label": "Notes about the Title(s) Associated with the Object",
             "content": "A) container B) cover",
             "classified_as": [
               {
@@ -3621,7 +3905,7 @@
           {
             "id": "https://data.discovernewfields.org/object/29029/dimension-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Dimensions of the Work",
+            "_label": "Notes about the Dimensions of the Object",
             "content": "2-1/2 x 5-3/8 (diam.) in.",
             "classified_as": [
               {
@@ -3639,7 +3923,7 @@
           {
             "id": "https://data.discovernewfields.org/object/29029/materials-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Materials in the Work",
+            "_label": "Notes about the Materials of Which the Object is Composed",
             "content": "terra-cotta",
             "classified_as": [
               {
@@ -3702,11 +3986,11 @@
             "_label": "Pyxis: Nereid Riding a Hippocamp"
           }
         ],
-        "subject-of": [
+        "subject_of": [
           {
             "id": "http://collection.imamuseum.org/artwork/31727/",
             "type": "LinguisticObject",
-            "_label": "Homepage for Pyxis: Nereid Riding a Hippocamp",
+            "_label": "Homepage for the Object",
             "classified_as": [
               {
                 "id": "http://vocab/getty.edu/aat/300264578",
@@ -3741,7 +4025,7 @@
           {
             "id": "https://data.discovernewfields.org/object/29030/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 29030,
             "classified_as": [
               {
@@ -3754,7 +4038,7 @@
           {
             "id": "https://data.discovernewfields.org/object/29030/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "47.39",
             "classified_as": [
               {
@@ -3767,7 +4051,7 @@
           {
             "id": "https://data.discovernewfields.org/object/29030/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Attic Red-Figure Skyphos: Flute Player and Youth",
             "classified_as": [
               {
@@ -3789,14 +4073,21 @@
         "produced_by": {
           "id": "https://data.discovernewfields.org/object/29030/production",
           "type": "Production",
-          "_label": "Production of Attic Red-Figure Skyphos: Flute Player and Youth",
+          "_label": "Production of the Object",
           "carried_out_by": [
             {
               "id": "https://data.discovernewfields.org/thesauri/culture/greek",
               "type": "Actor",
               "_label": "Greek"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/29030/production/timespan",
+            "type": "TimeSpan",
+            "_label": "about 440-410 B.C.E.",
+            "begin_of_the_begin": "-0440-01-01T00:00:00",
+            "end_of_the_end": "-0410-12-31T00:00:00"
+          }
         },
         "current_owner": {
           "id": "http://vocab.getty.edu/ulan/500300517",
@@ -3813,7 +4104,7 @@
             {
               "id": "https://data.discovernewfields.org/object/29030/IMA-acquisition",
               "type": "Acquisition",
-              "_label": "Acquisition of Attic Red-Figure Skyphos: Flute Player and Youth",
+              "_label": "IMA at Newfields Acquisition of the Object",
               "classified_as": [
                 {
                   "id": "http://vocab.getty.edu/aat/300157782",
@@ -3829,15 +4120,22 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/29030/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/29030/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1947-02-18",
-                "begin_of_the_begin": "1947-02-18T00:00:00Z",
-                "end_of_the_end": "1947-02-18T00:00:00Z"
+                "begin_of_the_begin": "1947-02-18T00:00:00",
+                "end_of_the_end": "1947-02-18T00:00:00"
               }
             }
           ]
         },
+        "member_of": [
+          {
+            "id": "https://data.discovernewfields.org/collection/9042",
+            "type": "Set",
+            "_label": "Collection of IMA at Newfields' Classical Art Department"
+          }
+        ],
         "current_location": {
           "id": "https://data.discovernewfields.org/thesauri/location/K312",
           "type": "Place",
@@ -3854,7 +4152,7 @@
           {
             "id": "https://data.discovernewfields.org/object/29030/credit-line",
             "type": "LinguisticObject",
-            "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+            "_label": "IMA at Newfields Credit Line for the Object",
             "content": "Gift of Mr. and Mrs. Eli Lilly",
             "classified_as": [
               {
@@ -3872,7 +4170,7 @@
           {
             "id": "https://data.discovernewfields.org/object/29030/dimension-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Dimensions of the Work",
+            "_label": "Notes about the Dimensions of the Object",
             "content": "No measurement details.",
             "classified_as": [
               {
@@ -3890,7 +4188,7 @@
           {
             "id": "https://data.discovernewfields.org/object/29030/materials-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Materials in the Work",
+            "_label": "Notes about the Materials of Which the Object is Composed",
             "content": "terra-cotta",
             "classified_as": [
               {
@@ -3908,7 +4206,7 @@
           {
             "id": "https://data.discovernewfields.org/object/29030/creation-notes",
             "type": "LinguisticObject",
-            "_label": "IMA Creation Notes about Attic Red-Figure Skyphos: Flute Player and Youth",
+            "_label": "IMA at Newfields Creation Notes about the Object",
             "content": "Artist: Shuvalov Painter",
             "classified_as": [
               {
@@ -3959,11 +4257,11 @@
             ]
           }
         ],
-        "subject-of": [
+        "subject_of": [
           {
             "id": "http://collection.imamuseum.org/artwork/31724/",
             "type": "LinguisticObject",
-            "_label": "Homepage for Attic Red-Figure Skyphos: Flute Player and Youth",
+            "_label": "Homepage for the Object",
             "classified_as": [
               {
                 "id": "http://vocab/getty.edu/aat/300264578",
@@ -4008,7 +4306,7 @@
           {
             "id": "https://data.discovernewfields.org/object/31006/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 31006,
             "classified_as": [
               {
@@ -4021,7 +4319,7 @@
           {
             "id": "https://data.discovernewfields.org/object/31006/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "47.36",
             "classified_as": [
               {
@@ -4034,7 +4332,7 @@
           {
             "id": "https://data.discovernewfields.org/object/31006/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Attic Black-Figure Band Cup: Lionesses and Goats",
             "classified_as": [
               {
@@ -4056,21 +4354,28 @@
         "produced_by": {
           "id": "https://data.discovernewfields.org/object/31006/production",
           "type": "Production",
-          "_label": "Production of Attic Black-Figure Band Cup: Lionesses and Goats",
+          "_label": "Production of the Object",
           "carried_out_by": [
             {
               "id": "https://data.discovernewfields.org/thesauri/culture/greek",
               "type": "Actor",
               "_label": "Greek"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/31006/production/timespan",
+            "type": "TimeSpan",
+            "_label": "about 540-530 B.C.E.",
+            "begin_of_the_begin": "-0540-01-01T00:00:00",
+            "end_of_the_end": "-0530-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
             "id": "https://data.discovernewfields.org/object/31006/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for Attic Black-Figure Band Cup: Lionesses and Goats",
-            "value": "5.6250",
+            "_label": "Dimensions for the Object",
+            "value": 5.6250,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055644",
@@ -4087,8 +4392,8 @@
           {
             "id": "https://data.discovernewfields.org/object/31006/dimension-1/diameter",
             "type": "Dimension",
-            "_label": "Dimensions for Attic Black-Figure Band Cup: Lionesses and Goats",
-            "value": "8.3750",
+            "_label": "Dimensions for the Object",
+            "value": 8.3750,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055624",
@@ -4118,7 +4423,7 @@
             {
               "id": "https://data.discovernewfields.org/object/31006/IMA-acquisition",
               "type": "Acquisition",
-              "_label": "Acquisition of Attic Black-Figure Band Cup: Lionesses and Goats",
+              "_label": "IMA at Newfields Acquisition of the Object",
               "classified_as": [
                 {
                   "id": "http://vocab.getty.edu/aat/300157782",
@@ -4136,6 +4441,13 @@
             }
           ]
         },
+        "member_of": [
+          {
+            "id": "https://data.discovernewfields.org/collection/9042",
+            "type": "Set",
+            "_label": "Collection of IMA at Newfields' Classical Art Department"
+          }
+        ],
         "current_location": {
           "id": "https://data.discovernewfields.org/thesauri/location/K312",
           "type": "Place",
@@ -4152,7 +4464,7 @@
           {
             "id": "https://data.discovernewfields.org/object/31006/credit-line",
             "type": "LinguisticObject",
-            "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+            "_label": "IMA at Newfields Credit Line for the Object",
             "content": "Gift of Mr. and Mrs. Eli Lilly",
             "classified_as": [
               {
@@ -4170,7 +4482,7 @@
           {
             "id": "https://data.discovernewfields.org/object/31006/dimension-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Dimensions of the Work",
+            "_label": "Notes about the Dimensions of the Object",
             "content": "5-5/8 x 8-3/8 (diam.) in.",
             "classified_as": [
               {
@@ -4188,7 +4500,7 @@
           {
             "id": "https://data.discovernewfields.org/object/31006/materials-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Materials in the Work",
+            "_label": "Notes about the Materials of Which the Object is Composed",
             "content": "terra-cotta",
             "classified_as": [
               {
@@ -4239,11 +4551,11 @@
             ]
           }
         ],
-        "subject-of": [
+        "subject_of": [
           {
             "id": "http://collection.imamuseum.org/artwork/31721/",
             "type": "LinguisticObject",
-            "_label": "Homepage for Attic Black-Figure Band Cup: Lionesses and Goats",
+            "_label": "Homepage for the Object",
             "classified_as": [
               {
                 "id": "http://vocab/getty.edu/aat/300264578",
@@ -4288,7 +4600,7 @@
           {
             "id": "https://data.discovernewfields.org/object/31585/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 31585,
             "classified_as": [
               {
@@ -4301,7 +4613,7 @@
           {
             "id": "https://data.discovernewfields.org/object/31585/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "47.41",
             "classified_as": [
               {
@@ -4314,7 +4626,7 @@
           {
             "id": "https://data.discovernewfields.org/object/31585/old-accession-number/1",
             "type": "Identifier",
-            "_label": "Identifier Assigned to the Artwork by IMA at Newfields Prior to Official Acquisition",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
             "content": "TR4892/9",
             "classified_as": [
               {
@@ -4327,7 +4639,7 @@
           {
             "id": "https://data.discovernewfields.org/object/31585/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "seated goddess (Demeter)",
             "classified_as": [
               {
@@ -4355,21 +4667,28 @@
         "produced_by": {
           "id": "https://data.discovernewfields.org/object/31585/production",
           "type": "Production",
-          "_label": "Production of seated goddess (Demeter)",
+          "_label": "Production of the Object",
           "carried_out_by": [
             {
               "id": "https://data.discovernewfields.org/thesauri/culture/greek",
               "type": "Actor",
               "_label": "Greek"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/31585/production/timespan",
+            "type": "TimeSpan",
+            "_label": "300 B.C.E.",
+            "begin_of_the_begin": "-0300-01-01T00:00:00",
+            "end_of_the_end": "-0300-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
             "id": "https://data.discovernewfields.org/object/31585/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for seated goddess (Demeter)",
-            "value": "9.0000",
+            "_label": "Dimensions for the Object",
+            "value": 9.0000,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055644",
@@ -4381,8 +4700,8 @@
           {
             "id": "https://data.discovernewfields.org/object/31585/dimension-1/width",
             "type": "Dimension",
-            "_label": "Dimensions for seated goddess (Demeter)",
-            "value": "4.5000",
+            "_label": "Dimensions for the Object",
+            "value": 4.5000,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055647",
@@ -4394,8 +4713,8 @@
           {
             "id": "https://data.discovernewfields.org/object/31585/dimension-1/depth",
             "type": "Dimension",
-            "_label": "Dimensions for seated goddess (Demeter)",
-            "value": "3.5000",
+            "_label": "Dimensions for the Object",
+            "value": 3.5000,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300072633",
@@ -4420,7 +4739,7 @@
             {
               "id": "https://data.discovernewfields.org/object/31585/IMA-acquisition",
               "type": "Acquisition",
-              "_label": "Acquisition of seated goddess (Demeter)",
+              "_label": "IMA at Newfields Acquisition of the Object",
               "classified_as": [
                 {
                   "id": "http://vocab.getty.edu/aat/300157782",
@@ -4438,6 +4757,13 @@
             }
           ]
         },
+        "member_of": [
+          {
+            "id": "https://data.discovernewfields.org/collection/9042",
+            "type": "Set",
+            "_label": "Collection of IMA at Newfields' Classical Art Department"
+          }
+        ],
         "current_location": {
           "id": "https://data.discovernewfields.org/thesauri/location/storage",
           "type": "Place",
@@ -4447,7 +4773,7 @@
           {
             "id": "https://data.discovernewfields.org/object/31585/credit-line",
             "type": "LinguisticObject",
-            "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+            "_label": "IMA at Newfields Credit Line for the Object",
             "content": "Gift of Mr. and Mrs. Eli Lilly",
             "classified_as": [
               {
@@ -4463,9 +4789,27 @@
             ]
           },
           {
+            "id": "https://data.discovernewfields.org/object/31585/provenance-statement",
+            "type": "LinguisticObject",
+            "_label": "IMA Provenance Statement about the Object",
+            "content": "Mr. and Mrs. Eli Lilly; presented to the IMA (1947)",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055863",
+                "type": "Type",
+                "_label": "provenance (history of ownership)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
             "id": "https://data.discovernewfields.org/object/31585/dimension-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Dimensions of the Work",
+            "_label": "Notes about the Dimensions of the Object",
             "content": "9 x 4-1/2 x 3-1/2 in.",
             "classified_as": [
               {
@@ -4483,7 +4827,7 @@
           {
             "id": "https://data.discovernewfields.org/object/31585/materials-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Materials in the Work",
+            "_label": "Notes about the Materials of Which the Object is Composed",
             "content": "terra-cotta with white slip glaze",
             "classified_as": [
               {
@@ -4501,7 +4845,7 @@
           {
             "id": "https://data.discovernewfields.org/object/31585/description",
             "type": "LinguisticObject",
-            "_label": "Description of seated goddess (Demeter)",
+            "_label": "Description of the Object",
             "content": "terra-cotta sculpture of seated figure wearing circular headgear, sculpture slip glazed",
             "classified_as": [
               {
@@ -4519,7 +4863,7 @@
           {
             "id": "https://data.discovernewfields.org/object/31585/creation-notes",
             "type": "LinguisticObject",
-            "_label": "IMA Creation Notes about seated goddess (Demeter)",
+            "_label": "IMA at Newfields Creation Notes about the Object",
             "content": "Tanagra",
             "classified_as": [
               {
@@ -4570,11 +4914,11 @@
             ]
           }
         ],
-        "subject-of": [
+        "subject_of": [
           {
             "id": "http://collection.imamuseum.org/artwork/17233/",
             "type": "LinguisticObject",
-            "_label": "Homepage for seated goddess (Demeter)",
+            "_label": "Homepage for the Object",
             "classified_as": [
               {
                 "id": "http://vocab/getty.edu/aat/300264578",
@@ -4619,7 +4963,7 @@
           {
             "id": "https://data.discovernewfields.org/object/31859/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 31859,
             "classified_as": [
               {
@@ -4632,7 +4976,7 @@
           {
             "id": "https://data.discovernewfields.org/object/31859/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "31.299",
             "classified_as": [
               {
@@ -4645,7 +4989,7 @@
           {
             "id": "https://data.discovernewfields.org/object/31859/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Red-figure Stamnos: Dionysiac Procession",
             "classified_as": [
               {
@@ -4667,21 +5011,28 @@
         "produced_by": {
           "id": "https://data.discovernewfields.org/object/31859/production",
           "type": "Production",
-          "_label": "Production of Red-figure Stamnos: Dionysiac Procession",
+          "_label": "Production of the Object",
           "carried_out_by": [
             {
               "id": "https://data.discovernewfields.org/thesauri/culture/greek",
               "type": "Actor",
               "_label": "Greek"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/31859/production/timespan",
+            "type": "TimeSpan",
+            "_label": "470-440 B.C.E.",
+            "begin_of_the_begin": "-0470-01-01T00:00:00",
+            "end_of_the_end": "-0440-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
             "id": "https://data.discovernewfields.org/object/31859/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for Red-figure Stamnos: Dionysiac Procession",
-            "value": "14.7500",
+            "_label": "Dimensions for the Object",
+            "value": 14.7500,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055644",
@@ -4711,7 +5062,7 @@
             {
               "id": "https://data.discovernewfields.org/object/31859/IMA-acquisition",
               "type": "Acquisition",
-              "_label": "Acquisition of Red-figure Stamnos: Dionysiac Procession",
+              "_label": "IMA at Newfields Acquisition of the Object",
               "classified_as": [
                 {
                   "id": "http://vocab.getty.edu/aat/300157782",
@@ -4727,15 +5078,22 @@
                 }
               ],
               "timespan": {
-                "id": "https://data.discovernewfields.org/object/31859/IMA-acquisition-timespan",
+                "id": "https://data.discovernewfields.org/object/31859/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1931-12-15",
-                "begin_of_the_begin": "1931-12-15T00:00:00Z",
-                "end_of_the_end": "1931-12-15T00:00:00Z"
+                "begin_of_the_begin": "1931-12-15T00:00:00",
+                "end_of_the_end": "1931-12-15T00:00:00"
               }
             }
           ]
         },
+        "member_of": [
+          {
+            "id": "https://data.discovernewfields.org/collection/9042",
+            "type": "Set",
+            "_label": "Collection of IMA at Newfields' Classical Art Department"
+          }
+        ],
         "current_location": {
           "id": "https://data.discovernewfields.org/thesauri/location/K312",
           "type": "Place",
@@ -4752,7 +5110,7 @@
           {
             "id": "https://data.discovernewfields.org/object/31859/credit-line",
             "type": "LinguisticObject",
-            "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+            "_label": "IMA at Newfields Credit Line for the Object",
             "content": "From the Martha Delzell Fund",
             "classified_as": [
               {
@@ -4770,7 +5128,7 @@
           {
             "id": "https://data.discovernewfields.org/object/31859/dimension-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Dimensions of the Work",
+            "_label": "Notes about the Dimensions of the Object",
             "content": "14-3/4 in.",
             "classified_as": [
               {
@@ -4788,7 +5146,7 @@
           {
             "id": "https://data.discovernewfields.org/object/31859/materials-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Materials in the Work",
+            "_label": "Notes about the Materials of Which the Object is Composed",
             "content": "terra-cotta",
             "classified_as": [
               {
@@ -4806,7 +5164,7 @@
           {
             "id": "https://data.discovernewfields.org/object/31859/creation-notes",
             "type": "LinguisticObject",
-            "_label": "IMA Creation Notes about Red-figure Stamnos: Dionysiac Procession",
+            "_label": "IMA at Newfields Creation Notes about the Object",
             "content": "Artist: Hermonax (said to be from Vulci, Etruria)",
             "classified_as": [
               {
@@ -4857,11 +5215,11 @@
             ]
           }
         ],
-        "subject-of": [
+        "subject_of": [
           {
             "id": "http://collection.imamuseum.org/artwork/31812/",
             "type": "LinguisticObject",
-            "_label": "Homepage for Red-figure Stamnos: Dionysiac Procession",
+            "_label": "Homepage for the Object",
             "classified_as": [
               {
                 "id": "http://vocab/getty.edu/aat/300264578",
@@ -4896,7 +5254,7 @@
           {
             "id": "https://data.discovernewfields.org/object/85757/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 85757,
             "classified_as": [
               {
@@ -4909,7 +5267,7 @@
           {
             "id": "https://data.discovernewfields.org/object/85757/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "47.40A",
             "classified_as": [
               {
@@ -4922,7 +5280,7 @@
           {
             "id": "https://data.discovernewfields.org/object/85757/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "Pyxis: Nereid Riding a Hippocamp",
             "classified_as": [
               {
@@ -4944,21 +5302,28 @@
         "produced_by": {
           "id": "https://data.discovernewfields.org/object/85757/production",
           "type": "Production",
-          "_label": "Production of Pyxis: Nereid Riding a Hippocamp",
+          "_label": "Production of the Object",
           "carried_out_by": [
             {
               "id": "https://data.discovernewfields.org/thesauri/culture/greek",
               "type": "Actor",
               "_label": "Greek"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/85757/production/timespan",
+            "type": "TimeSpan",
+            "_label": "3rd century B.C.E.",
+            "begin_of_the_begin": "-0300-01-01T00:00:00",
+            "end_of_the_end": "-0200-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
             "id": "https://data.discovernewfields.org/object/85757/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for Pyxis: Nereid Riding a Hippocamp",
-            "value": "2.5000",
+            "_label": "Dimensions for the Object",
+            "value": 2.5000,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055644",
@@ -4975,8 +5340,8 @@
           {
             "id": "https://data.discovernewfields.org/object/85757/dimension-1/diameter",
             "type": "Dimension",
-            "_label": "Dimensions for Pyxis: Nereid Riding a Hippocamp",
-            "value": "5.3750",
+            "_label": "Dimensions for the Object",
+            "value": 5.3750,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055624",
@@ -5006,7 +5371,7 @@
             {
               "id": "https://data.discovernewfields.org/object/85757/IMA-acquisition",
               "type": "Acquisition",
-              "_label": "Acquisition of Pyxis: Nereid Riding a Hippocamp",
+              "_label": "IMA at Newfields Acquisition of the Object",
               "classified_as": [
                 {
                   "id": "http://vocab.getty.edu/aat/300157782",
@@ -5024,6 +5389,13 @@
             }
           ]
         },
+        "member_of": [
+          {
+            "id": "https://data.discovernewfields.org/collection/9042",
+            "type": "Set",
+            "_label": "Collection of IMA at Newfields' Classical Art Department"
+          }
+        ],
         "current_location": {
           "id": "https://data.discovernewfields.org/thesauri/location/K312",
           "type": "Place",
@@ -5040,7 +5412,7 @@
           {
             "id": "https://data.discovernewfields.org/object/85757/credit-line",
             "type": "LinguisticObject",
-            "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+            "_label": "IMA at Newfields Credit Line for the Object",
             "content": "Gift of Mr. & Mrs. Eli Lilly",
             "classified_as": [
               {
@@ -5058,7 +5430,7 @@
           {
             "id": "https://data.discovernewfields.org/object/85757/title-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Title(s) Associated with the Work",
+            "_label": "Notes about the Title(s) Associated with the Object",
             "content": "A) container B) cover",
             "classified_as": [
               {
@@ -5076,7 +5448,7 @@
           {
             "id": "https://data.discovernewfields.org/object/85757/dimension-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Dimensions of the Work",
+            "_label": "Notes about the Dimensions of the Object",
             "content": "2-1/2 x 5-3/8 (diam.) in.",
             "classified_as": [
               {
@@ -5094,7 +5466,7 @@
           {
             "id": "https://data.discovernewfields.org/object/85757/materials-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Materials in the Work",
+            "_label": "Notes about the Materials of Which the Object is Composed",
             "content": "terra-cotta",
             "classified_as": [
               {
@@ -5164,7 +5536,7 @@
           {
             "id": "https://data.discovernewfields.org/object/85758/irn",
             "type": "Identifier",
-            "_label": "IMA at Newfields Collections Database Number for the Artwork",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
             "content": 85758,
             "classified_as": [
               {
@@ -5177,7 +5549,7 @@
           {
             "id": "https://data.discovernewfields.org/object/85758/accession-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Artwork",
+            "_label": "IMA at Newfields Accession Number for the Object",
             "content": "47.40B",
             "classified_as": [
               {
@@ -5190,7 +5562,7 @@
           {
             "id": "https://data.discovernewfields.org/object/85758/title",
             "type": "Name",
-            "_label": "Primary Title for the Artwork",
+            "_label": "Primary Title for the Object",
             "content": "cover for Pyxis: Nereid Riding a Hippocamp",
             "classified_as": [
               {
@@ -5212,21 +5584,28 @@
         "produced_by": {
           "id": "https://data.discovernewfields.org/object/85758/production",
           "type": "Production",
-          "_label": "Production of cover for Pyxis: Nereid Riding a Hippocamp",
+          "_label": "Production of the Object",
           "carried_out_by": [
             {
               "id": "https://data.discovernewfields.org/thesauri/culture/greek",
               "type": "Actor",
               "_label": "Greek"
             }
-          ]
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/85758/production/timespan",
+            "type": "TimeSpan",
+            "_label": "3rd century B.C.E.",
+            "begin_of_the_begin": "-0300-01-01T00:00:00",
+            "end_of_the_end": "-0200-12-31T00:00:00"
+          }
         },
         "dimension": [
           {
             "id": "https://data.discovernewfields.org/object/85758/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for cover for Pyxis: Nereid Riding a Hippocamp",
-            "value": "2.5000",
+            "_label": "Dimensions for the Object",
+            "value": 2.5000,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055644",
@@ -5243,8 +5622,8 @@
           {
             "id": "https://data.discovernewfields.org/object/85758/dimension-1/diameter",
             "type": "Dimension",
-            "_label": "Dimensions for cover for Pyxis: Nereid Riding a Hippocamp",
-            "value": "5.3750",
+            "_label": "Dimensions for the Object",
+            "value": 5.3750,
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300055624",
@@ -5274,7 +5653,7 @@
             {
               "id": "https://data.discovernewfields.org/object/85758/IMA-acquisition",
               "type": "Acquisition",
-              "_label": "Acquisition of cover for Pyxis: Nereid Riding a Hippocamp",
+              "_label": "IMA at Newfields Acquisition of the Object",
               "classified_as": [
                 {
                   "id": "http://vocab.getty.edu/aat/300157782",
@@ -5292,6 +5671,13 @@
             }
           ]
         },
+        "member_of": [
+          {
+            "id": "https://data.discovernewfields.org/collection/9042",
+            "type": "Set",
+            "_label": "Collection of IMA at Newfields' Classical Art Department"
+          }
+        ],
         "current_location": {
           "id": "https://data.discovernewfields.org/thesauri/location/K312",
           "type": "Place",
@@ -5308,7 +5694,7 @@
           {
             "id": "https://data.discovernewfields.org/object/85758/credit-line",
             "type": "LinguisticObject",
-            "_label": "Indianapolis Museum of Art at Newfields Credit Line for the Work",
+            "_label": "IMA at Newfields Credit Line for the Object",
             "content": "Gift of Mr. & Mrs. Eli Lilly",
             "classified_as": [
               {
@@ -5326,7 +5712,7 @@
           {
             "id": "https://data.discovernewfields.org/object/85758/title-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Title(s) Associated with the Work",
+            "_label": "Notes about the Title(s) Associated with the Object",
             "content": "A) container B) cover",
             "classified_as": [
               {
@@ -5344,7 +5730,7 @@
           {
             "id": "https://data.discovernewfields.org/object/85758/dimension-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Dimensions of the Work",
+            "_label": "Notes about the Dimensions of the Object",
             "content": "2-1/2 x 5-3/8 (diam.) in.",
             "classified_as": [
               {
@@ -5362,7 +5748,7 @@
           {
             "id": "https://data.discovernewfields.org/object/85758/materials-statement",
             "type": "LinguisticObject",
-            "_label": "Notes about the Materials in the Work",
+            "_label": "Notes about the Materials of Which the Object is Composed",
             "content": "terra-cotta",
             "classified_as": [
               {
