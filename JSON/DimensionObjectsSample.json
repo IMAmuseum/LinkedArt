@@ -184,7 +184,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9012",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' American Painting and Sculpture 1800-1945 Department"
+            "_label": "Collection of IMA at Newfields' American Painting and Sculpture 1800-1945 Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -550,7 +557,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/908",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Textile and Fashion Arts Department"
+            "_label": "Collection of IMA at Newfields' Textile and Fashion Arts Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -841,7 +855,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9041",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Prints, Drawings, and Photographs Department"
+            "_label": "Collection of IMA at Newfields' Prints, Drawings, and Photographs Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -1269,7 +1290,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9051",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Asian Art (Chinese and other Asian) Department"
+            "_label": "Collection of IMA at Newfields' Asian Art (Chinese and other Asian) Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -1614,7 +1642,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9021",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' European Painting and Sculpture Before 1800 Department"
+            "_label": "Collection of IMA at Newfields' European Painting and Sculpture Before 1800 Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -1924,7 +1959,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9041",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Prints, Drawings, and Photographs Department"
+            "_label": "Collection of IMA at Newfields' Prints, Drawings, and Photographs Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -2253,7 +2295,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9041",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Prints, Drawings, and Photographs Department"
+            "_label": "Collection of IMA at Newfields' Prints, Drawings, and Photographs Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -2624,7 +2673,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9052",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Asian Art (Japanese and Korean) Department"
+            "_label": "Collection of IMA at Newfields' Asian Art (Japanese and Korean) Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -3103,7 +3159,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/907",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Contemporary Department"
+            "_label": "Collection of IMA at Newfields' Contemporary Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -3529,7 +3592,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9021",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' European Painting and Sculpture Before 1800 Department"
+            "_label": "Collection of IMA at Newfields' European Painting and Sculpture Before 1800 Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -4014,7 +4084,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/908",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Textile and Fashion Arts Department"
+            "_label": "Collection of IMA at Newfields' Textile and Fashion Arts Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "referred_to_by": [
@@ -4468,7 +4545,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/907",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Contemporary Department"
+            "_label": "Collection of IMA at Newfields' Contemporary Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -4903,7 +4987,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/908",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Textile and Fashion Arts Department"
+            "_label": "Collection of IMA at Newfields' Textile and Fashion Arts Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -5300,7 +5391,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9031",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Decorative Arts Department"
+            "_label": "Collection of IMA at Newfields' Decorative Arts Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -5707,7 +5805,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9041",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Prints, Drawings, and Photographs Department"
+            "_label": "Collection of IMA at Newfields' Prints, Drawings, and Photographs Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -6062,7 +6167,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9012",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' American Painting and Sculpture 1800-1945 Department"
+            "_label": "Collection of IMA at Newfields' American Painting and Sculpture 1800-1945 Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -6435,7 +6547,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9041",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Prints, Drawings, and Photographs Department"
+            "_label": "Collection of IMA at Newfields' Prints, Drawings, and Photographs Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -6959,7 +7078,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9062",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Native Arts of the Americas Department"
+            "_label": "Collection of IMA at Newfields' Native Arts of the Americas Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "referred_to_by": [
@@ -7330,7 +7456,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9051",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Asian Art (Chinese and other Asian) Department"
+            "_label": "Collection of IMA at Newfields' Asian Art (Chinese and other Asian) Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -7659,7 +7792,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/908",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Textile and Fashion Arts Department"
+            "_label": "Collection of IMA at Newfields' Textile and Fashion Arts Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -7943,7 +8083,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9062",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Native Arts of the Americas Department"
+            "_label": "Collection of IMA at Newfields' Native Arts of the Americas Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -8185,7 +8332,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9041",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Prints, Drawings, and Photographs Department"
+            "_label": "Collection of IMA at Newfields' Prints, Drawings, and Photographs Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -8668,7 +8822,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/908",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Textile and Fashion Arts Department"
+            "_label": "Collection of IMA at Newfields' Textile and Fashion Arts Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -9028,7 +9189,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9041",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Prints, Drawings, and Photographs Department"
+            "_label": "Collection of IMA at Newfields' Prints, Drawings, and Photographs Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -9323,7 +9491,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/908",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Textile and Fashion Arts Department"
+            "_label": "Collection of IMA at Newfields' Textile and Fashion Arts Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -9710,7 +9885,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/908",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Textile and Fashion Arts Department"
+            "_label": "Collection of IMA at Newfields' Textile and Fashion Arts Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -10081,7 +10263,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9052",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Asian Art (Japanese and Korean) Department"
+            "_label": "Collection of IMA at Newfields' Asian Art (Japanese and Korean) Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -10500,7 +10689,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9052",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Asian Art (Japanese and Korean) Department"
+            "_label": "Collection of IMA at Newfields' Asian Art (Japanese and Korean) Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -11080,7 +11276,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9051",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Asian Art (Chinese and other Asian) Department"
+            "_label": "Collection of IMA at Newfields' Asian Art (Chinese and other Asian) Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -11548,7 +11751,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/908",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Textile and Fashion Arts Department"
+            "_label": "Collection of IMA at Newfields' Textile and Fashion Arts Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {

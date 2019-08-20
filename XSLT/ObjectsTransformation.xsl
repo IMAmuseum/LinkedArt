@@ -371,7 +371,14 @@ Curatorial Department-->
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>collection/<xsl:value-of select="lower-case(translate(replace(substring-before(atom[@name='PhyCollectionArea'], '-'),'[^a-zA-Z0-9 ]',''), ' ', '-'))"/>",
                     "type": "Set",
-                    "_label": "Collection of IMA at Newfields' <xsl:value-of select="substring-after(atom[@name='PhyCollectionArea'], '-')"/> Department"
+                    "_label": "Collection of IMA at Newfields' <xsl:value-of select="substring-after(atom[@name='PhyCollectionArea'], '-')"/> Department",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300025976",
+                            "type": "Type",
+                            "_label": "collections (object groupings)"
+                        }
+                    ]
                 }<!--
                     
 Current Location-->

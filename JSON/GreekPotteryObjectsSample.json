@@ -190,7 +190,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9042",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Classical Art Department"
+            "_label": "Collection of IMA at Newfields' Classical Art Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -479,7 +486,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9042",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Classical Art Department"
+            "_label": "Collection of IMA at Newfields' Classical Art Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -776,7 +790,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9042",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Classical Art Department"
+            "_label": "Collection of IMA at Newfields' Classical Art Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -1080,7 +1101,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9042",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Classical Art Department"
+            "_label": "Collection of IMA at Newfields' Classical Art Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -1437,7 +1465,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9042",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Classical Art Department"
+            "_label": "Collection of IMA at Newfields' Classical Art Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -1761,7 +1796,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9042",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Classical Art Department"
+            "_label": "Collection of IMA at Newfields' Classical Art Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -2066,7 +2108,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9042",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Classical Art Department"
+            "_label": "Collection of IMA at Newfields' Classical Art Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -2360,7 +2409,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9042",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Classical Art Department"
+            "_label": "Collection of IMA at Newfields' Classical Art Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -2650,7 +2706,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9042",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Classical Art Department"
+            "_label": "Collection of IMA at Newfields' Classical Art Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -2979,7 +3042,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9042",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Classical Art Department"
+            "_label": "Collection of IMA at Newfields' Classical Art Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -3270,7 +3340,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9042",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Classical Art Department"
+            "_label": "Collection of IMA at Newfields' Classical Art Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -3560,7 +3637,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9042",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Classical Art Department"
+            "_label": "Collection of IMA at Newfields' Classical Art Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -3862,7 +3946,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9042",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Classical Art Department"
+            "_label": "Collection of IMA at Newfields' Classical Art Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "referred_to_by": [
@@ -4133,7 +4224,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9042",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Classical Art Department"
+            "_label": "Collection of IMA at Newfields' Classical Art Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -4445,7 +4543,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9042",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Classical Art Department"
+            "_label": "Collection of IMA at Newfields' Classical Art Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -4761,7 +4866,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9042",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Classical Art Department"
+            "_label": "Collection of IMA at Newfields' Classical Art Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -5091,7 +5203,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9042",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Classical Art Department"
+            "_label": "Collection of IMA at Newfields' Classical Art Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -5393,7 +5512,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9042",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Classical Art Department"
+            "_label": "Collection of IMA at Newfields' Classical Art Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
@@ -5675,7 +5801,14 @@
           {
             "id": "https://data.discovernewfields.org/collection/9042",
             "type": "Set",
-            "_label": "Collection of IMA at Newfields' Classical Art Department"
+            "_label": "Collection of IMA at Newfields' Classical Art Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
           }
         ],
         "current_location": {
