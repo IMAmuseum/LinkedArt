@@ -1788,7 +1788,14 @@
                   "type": "Place",
                   "_label": "Indianapolis, Indiana"
                 }
-              ]
+              ],
+              "timespan": {
+                "id": "https://data.discovernewfields.org/object/14851/IMA-acquisition/timespan",
+                "type": "TimeSpan",
+                "_label": "1923-06-19",
+                "begin_of_the_begin": "1923-06-19T00:00:00",
+                "end_of_the_end": "1923-06-19T00:00:00"
+              }
             }
           ]
         },
@@ -2872,6 +2879,26 @@
               }
             ]
           }
+        ],
+        "subject_of": [
+          {
+            "id": "http://collection.imamuseum.org/artwork/31722/",
+            "type": "LinguisticObject",
+            "_label": "Homepage for the Object",
+            "classified_as": [
+              {
+                "id": "http://vocab/getty.edu/aat/300264578",
+                "type": "Type",
+                "_label": "Web pages (documents)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300266277",
+                "type": "Type",
+                "_label": "home pages"
+              }
+            ],
+            "format": "text/html"
+          }
         ]
       }
     },
@@ -3299,8 +3326,8 @@
             "id": "https://data.discovernewfields.org/object/23506/production/timespan",
             "type": "TimeSpan",
             "_label": "4th-3rd centuries B.C.E.",
-            "begin_of_the_begin": "0400-01-01T00:00:00",
-            "end_of_the_end": "0200-12-31T00:00:00"
+            "begin_of_the_begin": "-0400-01-01T00:00:00",
+            "end_of_the_end": "-0200-12-31T00:00:00"
           }
         },
         "current_owner": {
@@ -4067,14 +4094,14 @@
         ],
         "part": [
           {
-            "id": "https://data.discovernewfields.org/object/85758",
-            "type": "HumanMadeObject",
-            "_label": "cover for Pyxis: Nereid Riding a Hippocamp"
-          },
-          {
             "id": "https://data.discovernewfields.org/object/85757",
             "type": "HumanMadeObject",
             "_label": "Pyxis: Nereid Riding a Hippocamp"
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/85758",
+            "type": "HumanMadeObject",
+            "_label": "cover for Pyxis: Nereid Riding a Hippocamp"
           }
         ],
         "subject_of": [
@@ -4783,9 +4810,7 @@
           "timespan": {
             "id": "https://data.discovernewfields.org/object/31585/production/timespan",
             "type": "TimeSpan",
-            "_label": "300 B.C.E.",
-            "begin_of_the_begin": "-0300-01-01T00:00:00",
-            "end_of_the_end": "-0300-12-31T00:00:00"
+            "_label": "date unknown"
           }
         },
         "dimension": [
@@ -4940,7 +4965,7 @@
             "id": "https://data.discovernewfields.org/object/31585/materials-statement",
             "type": "LinguisticObject",
             "_label": "Notes about the Materials of Which the Object is Composed",
-            "content": "terra-cotta with white slip glaze",
+            "content": "terracotta with white slip glaze",
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300010358",
@@ -4976,7 +5001,7 @@
             "id": "https://data.discovernewfields.org/object/31585/creation-notes",
             "type": "LinguisticObject",
             "_label": "IMA at Newfields Creation Notes about the Object",
-            "content": "Tanagra",
+            "content": "formerly 300 B.C.E.Tanagra",
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300027200",
@@ -5095,6 +5120,19 @@
                 "id": "http://vocab.getty.edu/aat/300312355",
                 "type": "Type",
                 "_label": "accession numbers"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/31859/old-accession-number/1",
+            "type": "Identifier",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
+            "content": "TR1761/1",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "identification numbers"
               }
             ]
           },
