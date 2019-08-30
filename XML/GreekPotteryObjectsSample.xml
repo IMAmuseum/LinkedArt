@@ -556,7 +556,7 @@
     <atom name="TitAccessionNo">23.35</atom>
     <atom name="TitPreviousAccessionNo">TR78/2</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
-    <atom name="TitAccessionDate"></atom>
+    <atom name="TitAccessionDate">1923-06-19</atom>
     <atom name="TitMainTitle">small dish</atom>
     <atom name="TitSeriesTitle"></atom>
     <atom name="TitCollectionTitle"></atom>
@@ -865,6 +865,14 @@ Athensa</atom>
     </tuple>
     <atom name="AssIsParent">No</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">31722</atom>
+        <atom name="irn">21817</atom>
+        <atom name="EleTitle">Dagwood ID for 47.37</atom>
+        <atom name="EleIdentifier">31722</atom>
+      </tuple>
+    </table>
   </tuple>
 
   <!-- Row 10 -->
@@ -971,8 +979,8 @@ Athensa</atom>
       </tuple>
     </table>
     <atom name="CreDateCreated">4th-3rd centuries B.C.E.</atom>
-    <atom name="CreEarliestDate">400</atom>
-    <atom name="CreLatestDate">200</atom>
+    <atom name="CreEarliestDate">-400</atom>
+    <atom name="CreLatestDate">-200</atom>
     <atom name="CreCreationPeriod"></atom>
     <atom name="CreCreationDynasty"></atom>
     <table name="Creator2">
@@ -1183,12 +1191,12 @@ Athensa</atom>
     <atom name="AssIsParent">Yes</atom>
     <table name="Children">
       <tuple>
-        <atom name="irn">85758</atom>
-        <atom name="TitMainTitle">cover for Pyxis: Nereid Riding a Hippocamp</atom>
-      </tuple>
-      <tuple>
         <atom name="irn">85757</atom>
         <atom name="TitMainTitle">Pyxis: Nereid Riding a Hippocamp</atom>
+      </tuple>
+      <tuple>
+        <atom name="irn">85758</atom>
+        <atom name="TitMainTitle">cover for Pyxis: Nereid Riding a Hippocamp</atom>
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -1371,9 +1379,9 @@ Athensa</atom>
         <atom name="PhyMediaCategory">sculptures</atom>
       </tuple>
     </table>
-    <atom name="CreDateCreated">300 B.C.E.</atom>
-    <atom name="CreEarliestDate">-300</atom>
-    <atom name="CreLatestDate">-300</atom>
+    <atom name="CreDateCreated">date unknown</atom>
+    <atom name="CreEarliestDate"></atom>
+    <atom name="CreLatestDate"></atom>
     <atom name="CreCreationPeriod"></atom>
     <atom name="CreCreationDynasty"></atom>
     <table name="Creator2">
@@ -1382,7 +1390,7 @@ Athensa</atom>
       </tuple>
     </table>
     <atom name="CrePrimaryInscriptions"></atom>
-    <atom name="CreCreationNotes">Tanagra</atom>
+    <atom name="CreCreationNotes">formerly 300 B.C.E.Tanagra</atom>
     <atom name="EdiPublisherDate"></atom>
     <table name="Medium">
       <tuple>
@@ -1394,7 +1402,7 @@ Athensa</atom>
         <atom name="PhySupport">terra-cotta</atom>
       </tuple>
     </table>
-    <atom name="PhyMediumAndSupport">terra-cotta with white slip glaze</atom>
+    <atom name="PhyMediumAndSupport">terracotta with white slip glaze</atom>
     <atom name="PhyStyle"></atom>
     <atom name="PhyTechnique"></atom>
     <atom name="EdiImpression"></atom>
@@ -1443,7 +1451,7 @@ Athensa</atom>
     <atom name="irn">31859</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">31.299</atom>
-    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitPreviousAccessionNo">TR1761/1</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
     <atom name="TitAccessionDate">1931-12-15</atom>
     <atom name="TitMainTitle">Red-figure Stamnos: Dionysiac Procession</atom>
