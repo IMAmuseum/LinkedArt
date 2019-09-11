@@ -187,7 +187,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64628/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 7.8750,
             "classified_as": [
               {
@@ -205,7 +205,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64628/dimension-1/width",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 8.7500,
             "classified_as": [
               {
@@ -223,7 +223,7 @@
           {
             "id": "https://data.discovernewfields.org/object/64628/dimension-1/depth",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 4.7500,
             "classified_as": [
               {
@@ -709,7 +709,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68180/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 7.5000,
             "classified_as": [
               {
@@ -727,7 +727,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68180/dimension-1/width",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 5.0000,
             "classified_as": [
               {
@@ -745,7 +745,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68180/dimension-1/depth",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 3.5000,
             "classified_as": [
               {
@@ -1067,7 +1067,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68181/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 7.5000,
             "classified_as": [
               {
@@ -1085,7 +1085,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68181/dimension-1/width",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 5.0000,
             "classified_as": [
               {
@@ -1103,7 +1103,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68181/dimension-1/depth",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 3.5000,
             "classified_as": [
               {
@@ -1722,7 +1722,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68183/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 5.7500,
             "classified_as": [
               {
@@ -1740,7 +1740,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68183/dimension-1/diameter",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 5.0000,
             "classified_as": [
               {
@@ -2651,7 +2651,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68186/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 2.7500,
             "classified_as": [
               {
@@ -2669,7 +2669,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68186/dimension-1/width",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 3.0000,
             "classified_as": [
               {
@@ -2687,7 +2687,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68186/dimension-1/depth",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 2.0000,
             "classified_as": [
               {
@@ -3004,7 +3004,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68187/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 2.2500,
             "classified_as": [
               {
@@ -3022,7 +3022,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68187/dimension-1/diameter",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 2.7500,
             "classified_as": [
               {
@@ -3339,7 +3339,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68188/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 2.2500,
             "classified_as": [
               {
@@ -3357,7 +3357,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68188/dimension-1/diameter",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 2.7500,
             "classified_as": [
               {
@@ -3667,7 +3667,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68189/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 2.0000,
             "classified_as": [
               {
@@ -3685,7 +3685,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68189/dimension-1/diameter",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 2.5000,
             "classified_as": [
               {
@@ -4002,7 +4002,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68190/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 2.0000,
             "classified_as": [
               {
@@ -4020,7 +4020,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68190/dimension-1/diameter",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 2.5000,
             "classified_as": [
               {
@@ -4337,7 +4337,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68191/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 0.5000,
             "classified_as": [
               {
@@ -4355,7 +4355,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68191/dimension-1/diameter",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 4.5000,
             "classified_as": [
               {
@@ -4665,7 +4665,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68192/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 0.8750,
             "classified_as": [
               {
@@ -4683,7 +4683,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68192/dimension-1/diameter",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 4.5000,
             "classified_as": [
               {
@@ -4993,7 +4993,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68193/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 0.7500,
             "classified_as": [
               {
@@ -5011,7 +5011,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68193/dimension-1/diameter",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 4.0000,
             "classified_as": [
               {
@@ -5328,7 +5328,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68194/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 0.7500,
             "classified_as": [
               {
@@ -5346,7 +5346,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68194/dimension-1/diameter",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 4.0000,
             "classified_as": [
               {
@@ -5663,7 +5663,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68195/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 2.5000,
             "classified_as": [
               {
@@ -5681,7 +5681,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68195/dimension-1/width",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 6.0000,
             "classified_as": [
               {
@@ -5699,7 +5699,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68195/dimension-1/depth",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 13.0000,
             "classified_as": [
               {
@@ -6016,7 +6016,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68196/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 0.7500,
             "classified_as": [
               {
@@ -6034,7 +6034,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68196/dimension-1/diameter",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 6.5000,
             "classified_as": [
               {
@@ -6344,7 +6344,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68197/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 0.7500,
             "classified_as": [
               {
@@ -6362,7 +6362,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68197/dimension-1/diameter",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 6.5000,
             "classified_as": [
               {
@@ -6672,7 +6672,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68198/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 0.7500,
             "classified_as": [
               {
@@ -6690,7 +6690,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68198/dimension-1/diameter",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 6.5000,
             "classified_as": [
               {
@@ -7000,7 +7000,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68199/dimension-1/height",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 0.7500,
             "classified_as": [
               {
@@ -7018,7 +7018,7 @@
           {
             "id": "https://data.discovernewfields.org/object/68199/dimension-1/diameter",
             "type": "Dimension",
-            "_label": "Dimensions for the Object",
+            "_label": "Dimensions of the Object",
             "value": 6.5000,
             "classified_as": [
               {

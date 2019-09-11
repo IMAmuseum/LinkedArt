@@ -795,7 +795,7 @@ Homepage-->
                         {
                             "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/<xsl:value-of select="$dim_type"/>-<xsl:value-of select="position()"/>/height",
                             "type": "Dimension",
-                            "_label": "<xsl:value-of select="atom[@name='PhyType']"/> for the Object",
+                            "_label": "<xsl:value-of select="atom[@name='PhyType']"/> of the Object",
                             "value": <xsl:value-of select="atom[@name='PhyHeight']"/>,
                             "classified_as": [
                                 {
@@ -808,7 +808,7 @@ Homepage-->
                         {
                             "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/<xsl:value-of select="$dim_type"/>-<xsl:value-of select="position()"/>/width",
                             "type": "Dimension",
-                            "_label": "<xsl:value-of select="atom[@name='PhyType']"/> for the Object",
+                            "_label": "<xsl:value-of select="atom[@name='PhyType']"/> of the Object",
                             "value": <xsl:value-of select="atom[@name='PhyWidth']"/>,
                             "classified_as": [
                                 {
@@ -821,7 +821,7 @@ Homepage-->
                         {
                             "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/<xsl:value-of select="$dim_type"/>-<xsl:value-of select="position()"/>/depth",
                             "type": "Dimension",
-                            "_label": "<xsl:value-of select="atom[@name='PhyType']"/> for the Object",
+                            "_label": "<xsl:value-of select="atom[@name='PhyType']"/> of the Object",
                             "value": <xsl:value-of select="atom[@name='PhyDepth']"/>,
                             "classified_as": [
                                 {
@@ -834,7 +834,7 @@ Homepage-->
                         {
                             "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/<xsl:value-of select="$dim_type"/>-<xsl:value-of select="position()"/>/diameter",
                             "type": "Dimension",
-                            "_label": "<xsl:value-of select="atom[@name='PhyType']"/> for the Object",
+                            "_label": "<xsl:value-of select="atom[@name='PhyType']"/> of the Object",
                             "value": <xsl:value-of select="atom[@name='PhyDiameter']"/>,
                             "classified_as": [
                                 {
