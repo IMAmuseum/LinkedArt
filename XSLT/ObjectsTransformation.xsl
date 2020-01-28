@@ -94,9 +94,9 @@ Identifiers-->
                     ]
                 },
                 {
-                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/accession-number",
+                    "id": "<xsl:copy-of select="$baseURI"/>object/<xsl:copy-of select="$irn"/>/object-number",
                     "type": "Identifier",
-                    "_label": "IMA at Newfields Accession Number for the Object",
+                    "_label": "IMA at Newfields Object Number for the Object",
                     "content": "<xsl:value-of select="atom[@name='TitAccessionNo']"/>",
                     "classified_as": [
                         {
@@ -318,7 +318,7 @@ Dimensions-->
                 }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each></xsl:otherwise></xsl:choose></xsl:if>
             ],</xsl:if><!--
                 
-Owner-->
+Owner--><xsl:choose><xsl:when test="atom[@name='TitObjectStatus'] = 'Accessioned' or contains(atom[@name='TitObjectStatus'], 'IMA-Owned') or atom[@name='TitObjectStatus'] = 'Partial Accession'">
             "current_owner": {
                 "id": "http://vocab.getty.edu/ulan/500300517",
                 "type": "Group",
@@ -366,7 +366,18 @@ Acquisition-->
                 ]<!--
                     
 Curatorial Department-->
-            }<xsl:if test="atom[@name='PhyCollectionArea'] != ''">,
+            }</xsl:when><xsl:otherwise>"current_keeper": {
+                "id": "http://vocab.getty.edu/ulan/500300517",
+                "type": "Group",
+                "_label": "Indianapolis Museum of Art at Newfields",
+                "classified_as": [
+                    {
+                        "id": "http://vocab.getty.edu/aat/300312281",
+                        "type": "Type",
+                        "_label": "museums (institutions)"
+                    }
+                ]
+            }</xsl:otherwise></xsl:choose><xsl:if test="atom[@name='PhyCollectionArea'] != ''">,
             "member_of": [
                 {
                     "id": "<xsl:copy-of select="$baseURI"/>collection/<xsl:value-of select="lower-case(translate(replace(substring-before(atom[@name='PhyCollectionArea'], '-'),'[^a-zA-Z0-9 ]',''), ' ', '-'))"/>",

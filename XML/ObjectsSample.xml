@@ -137,9 +137,9 @@
     <atom name="irn">1032</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">60.63</atom>
-    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitPreviousAccessionNo">TR5488/1</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
-    <atom name="TitAccessionDate"></atom>
+    <atom name="TitAccessionDate">1960-10-10</atom>
     <atom name="TitMainTitle">long-neck vase with cup mouth</atom>
     <atom name="TitSeriesTitle"></atom>
     <atom name="TitCollectionTitle"></atom>
@@ -294,11 +294,11 @@
     </table>
     <atom name="CreProvenance"></atom>
     <atom name="PhyCollectionArea">901.2-American Painting and Sculpture 1800-1945</atom>
-    <atom name="LocMovementType">Exhibition Location</atom>
+    <atom name="LocMovementType">Other Location</atom>
     <tuple name="LocCurrentLocationRef">
       <atom name="LocLevel1">IMA</atom>
       <atom name="LocLevel2">Westerley</atom>
-      <atom name="LocLevel3">Dining Room Hallway</atom>
+      <atom name="LocLevel3">East Bedroom</atom>
     </tuple>
     <tuple name="AssParentObjectRef">
         <atom name="irn"></atom>
@@ -415,6 +415,94 @@
 
   <!-- Row 4 -->
   <tuple>
+    <atom name="irn">3457</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">U477</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Unknown</atom>
+    <atom name="TitAccessionDate"></atom>
+    <atom name="TitMainTitle">basketry bowl</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Containers</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">containers</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">baskets</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyMediaCategory">bowls</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1900-1950</atom>
+    <atom name="CreEarliestDate">1900</atom>
+    <atom name="CreLatestDate">1950</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator2">
+      <tuple>
+        <atom name="CreCreationCultureOrPeople">Pima people</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">United States</atom>
+        <atom name="CreState">Arizona</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">plant fiber</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">plant fiber</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique">weaving</atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription">a small woven bowl with a simple decorative dark and light pattern</atom>
+    <atom name="PhyConvertedDims">1-1/2 x 7-1/8 x 7-1/8 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">1.5000</atom>
+        <atom name="PhyWidth">7.1250</atom>
+        <atom name="PhyDepth">7.1250</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 3.8 x 18.1 x 18.1</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Museum Accession</atom>
+    <atom name="CreProvenance"></atom>
+    <atom name="PhyCollectionArea">906.2-Native Arts of the Americas</atom>
+    <atom name="LocMovementType">Inventory Beginning 2018 - ten year schedule for upcoming reaccreditation</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Ec43</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">22182</atom>
+        <atom name="irn">5686</atom>
+        <atom name="EleTitle">Dagwood ID for U477</atom>
+        <atom name="EleIdentifier">22182</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 5 -->
+  <tuple>
     <atom name="irn">3521</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">42.07</atom>
@@ -514,7 +602,7 @@
     </table>
     <atom name="CreProvenance"></atom>
     <atom name="PhyCollectionArea">901.2-American Painting and Sculpture 1800-1945</atom>
-    <atom name="LocMovementType">Storage Location</atom>
+    <atom name="LocMovementType">Inventory Beginning 2018 - ten year schedule for upcoming reaccreditation</atom>
     <tuple name="LocCurrentLocationRef">
       <atom name="LocLevel1">IMA</atom>
       <atom name="LocLevel2">storage</atom>
@@ -535,7 +623,7 @@
     </table>
   </tuple>
 
-  <!-- Row 5 -->
+  <!-- Row 6 -->
   <tuple>
     <atom name="irn">6136</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -611,7 +699,7 @@
     </table>
   </tuple>
 
-  <!-- Row 6 -->
+  <!-- Row 7 -->
   <tuple>
     <atom name="irn">6855</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -687,7 +775,7 @@
     </table>
   </tuple>
 
-  <!-- Row 7 -->
+  <!-- Row 8 -->
   <tuple>
     <atom name="irn">8407</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -801,12 +889,12 @@
     </table>
   </tuple>
 
-  <!-- Row 8 -->
+  <!-- Row 9 -->
   <tuple>
     <atom name="irn">14365</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">33.1812</atom>
-    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitPreviousAccessionNo">TR1848/26</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
     <atom name="TitAccessionDate">1933-11-21</atom>
     <atom name="TitMainTitle">fragment</atom>
@@ -867,7 +955,7 @@
     </table>
   </tuple>
 
-  <!-- Row 9 -->
+  <!-- Row 10 -->
   <tuple>
     <atom name="irn">14617</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -974,7 +1062,7 @@
     </table>
   </tuple>
 
-  <!-- Row 10 -->
+  <!-- Row 11 -->
   <tuple>
     <atom name="irn">16168</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -1082,7 +1170,7 @@
     </table>
   </tuple>
 
-  <!-- Row 11 -->
+  <!-- Row 12 -->
   <tuple>
     <atom name="irn">16356</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -1197,7 +1285,7 @@
     </table>
   </tuple>
 
-  <!-- Row 12 -->
+  <!-- Row 13 -->
   <tuple>
     <atom name="irn">16410</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -1279,7 +1367,7 @@
     </table>
     <atom name="CreProvenance">Hugh McKennan Landon [1867-1930], Indianapolis, Indiana; given to the John Herron Art Institute, now the Indianapolis Museum of Art at Newfields, in 1914.</atom>
     <atom name="PhyCollectionArea">906.2-Native Arts of the Americas</atom>
-    <atom name="LocMovementType">Inventory 2014-2015</atom>
+    <atom name="LocMovementType">Inventory Beginning 2018 - ten year schedule for upcoming reaccreditation</atom>
     <tuple name="LocCurrentLocationRef">
       <atom name="LocLevel1">IMA</atom>
       <atom name="LocLevel2">storage</atom>
@@ -1300,7 +1388,7 @@
     </table>
   </tuple>
 
-  <!-- Row 13 -->
+  <!-- Row 14 -->
   <tuple>
     <atom name="irn">17425</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -1417,7 +1505,7 @@
     </table>
   </tuple>
 
-  <!-- Row 14 -->
+  <!-- Row 15 -->
   <tuple>
     <atom name="irn">17577</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -1508,11 +1596,11 @@
     </table>
     <atom name="CreProvenance"></atom>
     <atom name="PhyCollectionArea">901.2-American Painting and Sculpture 1800-1945</atom>
-    <atom name="LocMovementType">Exhibition Location</atom>
+    <atom name="LocMovementType">Inventory Beginning 2018 - ten year schedule for upcoming reaccreditation</atom>
     <tuple name="LocCurrentLocationRef">
       <atom name="LocLevel1">IMA</atom>
-      <atom name="LocLevel2">Westerley</atom>
-      <atom name="LocLevel3">Parlor</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">P</atom>
     </tuple>
     <tuple name="AssParentObjectRef">
         <atom name="irn"></atom>
@@ -1529,7 +1617,7 @@
     </table>
   </tuple>
 
-  <!-- Row 15 -->
+  <!-- Row 16 -->
   <tuple>
     <atom name="irn">20419</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -1665,10 +1753,22 @@
         <atom name="EleTitle">Dagwood ID for 75.174</atom>
         <atom name="EleIdentifier">28170</atom>
       </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes">p. 5 (reproduced in color)</atom>
+        <atom name="irn">93104</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes">p. 35 from back cover (reproduced in color)</atom>
+        <atom name="irn">93169</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
     </table>
   </tuple>
 
-  <!-- Row 16 -->
+  <!-- Row 17 -->
   <tuple>
     <atom name="irn">21137</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -1786,7 +1886,7 @@ Inscribed: title and series title</atom>
     </table>
   </tuple>
 
-  <!-- Row 17 -->
+  <!-- Row 18 -->
   <tuple>
     <atom name="irn">21288</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -1996,7 +2096,7 @@ Inscribed: title and series title</atom>
     </table>
   </tuple>
 
-  <!-- Row 18 -->
+  <!-- Row 19 -->
   <tuple>
     <atom name="irn">24693</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -2089,7 +2189,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
     <atom name="AssIsParent">Yes</atom>
     <table name="Children">
       <tuple>
-        <atom name="irn">92386</atom>
+        <atom name="irn">92384</atom>
         <atom name="TitMainTitle">censer in form of teahouse</atom>
       </tuple>
       <tuple>
@@ -2097,7 +2197,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
         <atom name="TitMainTitle">censer in form of teahouse</atom>
       </tuple>
       <tuple>
-        <atom name="irn">92384</atom>
+        <atom name="irn">92386</atom>
         <atom name="TitMainTitle">censer in form of teahouse</atom>
       </tuple>
     </table>
@@ -2112,7 +2212,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 19 -->
+  <!-- Row 20 -->
   <tuple>
     <atom name="irn">24892</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -2241,14 +2341,14 @@ C) sash: length 81 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 20 -->
+  <!-- Row 21 -->
   <tuple>
     <atom name="irn">25098</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">16.924A-C</atom>
     <atom name="TitPreviousAccessionNo"></atom>
     <atom name="TitObjectStatus">Accessioned</atom>
-    <atom name="TitAccessionDate"></atom>
+    <atom name="TitAccessionDate">1916</atom>
     <atom name="TitMainTitle">(L) Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left);  (C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛;  (R) Sawamura Tosshō　沢村訥升 as Rai Kunitoshi  来国俊</atom>
     <atom name="TitSeriesTitle">scene from the kabuki play Shin Usuyuki Monogatari</atom>
     <atom name="TitCollectionTitle"></atom>
@@ -2330,7 +2430,7 @@ Censor's seal: single kiwame</atom>
     </table>
     <atom name="CreProvenance"></atom>
     <atom name="PhyCollectionArea">905.2-Asian Art (Japanese and Korean)</atom>
-    <atom name="LocMovementType">Inventory 2014-2015</atom>
+    <atom name="LocMovementType">Inventory Beginning 2018 - ten year schedule for upcoming reaccreditation</atom>
     <tuple name="LocCurrentLocationRef">
       <atom name="LocLevel1">IMA</atom>
       <atom name="LocLevel2">Print Storage</atom>
@@ -2342,16 +2442,16 @@ Censor's seal: single kiwame</atom>
     <atom name="AssIsParent">Yes</atom>
     <table name="Children">
       <tuple>
-        <atom name="irn">89369</atom>
-        <atom name="TitMainTitle">Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊</atom>
+        <atom name="irn">89367</atom>
+        <atom name="TitMainTitle">Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left)</atom>
       </tuple>
       <tuple>
         <atom name="irn">89368</atom>
         <atom name="TitMainTitle">(C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛</atom>
       </tuple>
       <tuple>
-        <atom name="irn">89367</atom>
-        <atom name="TitMainTitle">Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left)</atom>
+        <atom name="irn">89369</atom>
+        <atom name="TitMainTitle">Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊</atom>
       </tuple>
     </table>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -2365,7 +2465,114 @@ Censor's seal: single kiwame</atom>
     </table>
   </tuple>
 
-  <!-- Row 21 -->
+  <!-- Row 22 -->
+  <tuple>
+    <atom name="irn">33886</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">C10007</atom>
+    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitObjectStatus">Loan Permanent Collection</atom>
+    <atom name="TitAccessionDate"></atom>
+    <atom name="TitMainTitle">Temptation of St. Anthony</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Paintings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">oil paintings</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1575-1600</atom>
+    <atom name="CreEarliestDate">1575</atom>
+    <atom name="CreLatestDate">1600</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Artist, after</atom>
+        <atom name="CreCreatorAfterFollower">After</atom>
+        <atom name="irn">600739</atom>
+        <atom name="SummaryData">Bosch, Hieronymus</atom>
+      </tuple>
+    </table>
+    <table name="CreLocation">
+      <tuple>
+        <atom name="CreCountry">Flanders</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes">a 17th Century Antwerp follower of Bosch</atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">oil paint</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">panels</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">oil on panel</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">23-3/4 x 19-1/4 in.
+30-1/8 x 26 in. (framed)</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">23.7500</atom>
+        <atom name="PhyWidth">19.2500</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 60.3 x 48.9</atom>
+      </tuple>
+      <tuple>
+        <atom name="PhyType">Framed Dimensions</atom>
+        <atom name="PhyHeight">30.1250</atom>
+        <atom name="PhyWidth">26.0000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 76.5 x 66.0 (framed)</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Courtesy of The Clowes Fund</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">Public Domain</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">Provenance research is on-going at the Indianapolis Museum of Art at Newfields. Please contact Annette Schlagenhauff, Curator of European Art, at aschlagenhauff@discovernewfields.org if you have questions, or if you have additional information to share with us.</atom>
+    <atom name="PhyCollectionArea">902.1-European Painting and Sculpture Before 1800</atom>
+    <atom name="LocMovementType">Other Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">Conservation</atom>
+      <atom name="LocLevel3">S50</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">cat. no. 7.</atom>
+        <atom name="irn">68</atom>
+        <atom name="EleTitle"></atom>
+        <atom name="EleIdentifier"></atom>
+      </tuple>
+      <tuple>
+        <atom name="RefBibliographicNotes">79341</atom>
+        <atom name="irn">66546</atom>
+        <atom name="EleTitle">Dagwood ID for C10007</atom>
+        <atom name="EleIdentifier">79341</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 23 -->
   <tuple>
     <atom name="irn">37383</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -2499,7 +2706,7 @@ Censor's seal: single kiwame</atom>
     </table>
   </tuple>
 
-  <!-- Row 22 -->
+  <!-- Row 24 -->
   <tuple>
     <atom name="irn">41018</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -2603,7 +2810,7 @@ Censor's seal: single kiwame</atom>
     </table>
   </tuple>
 
-  <!-- Row 23 -->
+  <!-- Row 25 -->
   <tuple>
     <atom name="irn">41019</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -2706,14 +2913,14 @@ Censor's seal: single kiwame</atom>
     </table>
   </tuple>
 
-  <!-- Row 24 -->
+  <!-- Row 26 -->
   <tuple>
     <atom name="irn">46950</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">05.19</atom>
     <atom name="TitPreviousAccessionNo">No TR Number</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
-    <atom name="TitAccessionDate">1905-12-</atom>
+    <atom name="TitAccessionDate">1905</atom>
     <atom name="TitMainTitle">United States Flag</atom>
     <atom name="TitSeriesTitle"></atom>
     <atom name="TitCollectionTitle"></atom>
@@ -2775,14 +2982,14 @@ Censor's seal: single kiwame</atom>
     </table>
   </tuple>
 
-  <!-- Row 25 -->
+  <!-- Row 27 -->
   <tuple>
     <atom name="irn">47035</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">08.19</atom>
     <atom name="TitPreviousAccessionNo">No TR Number</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
-    <atom name="TitAccessionDate">1919</atom>
+    <atom name="TitAccessionDate">1908</atom>
     <atom name="TitMainTitle">Statue of Augustus Caesar</atom>
     <atom name="TitSeriesTitle"></atom>
     <atom name="TitCollectionTitle"></atom>
@@ -2860,7 +3067,7 @@ Censor's seal: single kiwame</atom>
     </table>
   </tuple>
 
-  <!-- Row 26 -->
+  <!-- Row 28 -->
   <tuple>
     <atom name="irn">49409</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -2939,7 +3146,7 @@ Censor's seal: single kiwame</atom>
     </table>
   </tuple>
 
-  <!-- Row 27 -->
+  <!-- Row 29 -->
   <tuple>
     <atom name="irn">51330</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -3060,14 +3267,14 @@ Engraver's seal: Horisen</atom>
     </table>
   </tuple>
 
-  <!-- Row 28 -->
+  <!-- Row 30 -->
   <tuple>
     <atom name="irn">52481</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
     <atom name="TitAccessionNo">44.91</atom>
-    <atom name="TitPreviousAccessionNo"></atom>
+    <atom name="TitPreviousAccessionNo">TR4585/9ab</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
-    <atom name="TitAccessionDate"></atom>
+    <atom name="TitAccessionDate">1944-06-20</atom>
     <atom name="TitMainTitle">Spring snow on Sumida River 隅田川　春雪</atom>
     <atom name="TitSeriesTitle"></atom>
     <atom name="TitCollectionTitle">Amusement of the Eastern Capital  狂歌東遊  (Ehon Azuma asobi)</atom>
@@ -3152,7 +3359,7 @@ Engraver's seal: Horisen</atom>
     </table>
   </tuple>
 
-  <!-- Row 29 -->
+  <!-- Row 31 -->
   <tuple>
     <atom name="irn">55312</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -3231,7 +3438,95 @@ Engraver's seal: Horisen</atom>
     </table>
   </tuple>
 
-  <!-- Row 30 -->
+  <!-- Row 32 -->
+  <tuple>
+    <atom name="irn">63355</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <atom name="TitAccessionNo">2005.87</atom>
+    <atom name="TitPreviousAccessionNo">TR12060/2</atom>
+    <atom name="TitObjectStatus">Partial Accession</atom>
+    <atom name="TitAccessionDate">2005-12-15</atom>
+    <atom name="TitMainTitle">Signe vermell</atom>
+    <atom name="TitSeriesTitle"></atom>
+    <atom name="TitCollectionTitle"></atom>
+    <atom name="TitTitleNotes"></atom>
+    <atom name="TitObjectType">Visual Works: Paintings</atom>
+    <table name="ObjectTypes">
+      <tuple>
+        <atom name="PhyMediaCategory">paintings</atom>
+      </tuple>
+    </table>
+    <atom name="CreDateCreated">1999</atom>
+    <atom name="CreEarliestDate">1999</atom>
+    <atom name="CreLatestDate">1999</atom>
+    <atom name="CreCreationPeriod"></atom>
+    <atom name="CreCreationDynasty"></atom>
+    <table name="Creator1">
+      <tuple>
+        <atom name="CreRole">Artist</atom>
+        <atom name="irn">611106</atom>
+        <atom name="SummaryData">Tàpies, Antoni</atom>
+      </tuple>
+    </table>
+    <atom name="CrePrimaryInscriptions"></atom>
+    <atom name="CreCreationNotes"></atom>
+    <atom name="EdiPublisherDate"></atom>
+    <table name="Medium">
+      <tuple>
+        <atom name="PhyMedium">mixed media</atom>
+      </tuple>
+    </table>
+    <table name="Support">
+      <tuple>
+        <atom name="PhySupport">wood</atom>
+      </tuple>
+    </table>
+    <atom name="PhyMediumAndSupport">mixed media on wood</atom>
+    <atom name="PhyStyle"></atom>
+    <atom name="PhyTechnique"></atom>
+    <atom name="EdiImpression"></atom>
+    <atom name="PhyDescription"></atom>
+    <atom name="PhyConvertedDims">18-1/4 x 21-1/2 x 1-1/2 in.</atom>
+    <table name="Dimensions">
+      <tuple>
+        <atom name="PhyType">Dimensions</atom>
+        <atom name="PhyHeight">18.2500</atom>
+        <atom name="PhyWidth">21.5000</atom>
+        <atom name="PhyDepth">1.5000</atom>
+        <atom name="PhyUnitLength">in.</atom>
+        <atom name="PhyDimensionNotes">Metric: 46.36 x 54.61 x 3.81</atom>
+      </tuple>
+    </table>
+    <atom name="SumCreditLine">Gift of Gerald and Dorit Paul</atom>
+    <table name="Rights">
+      <tuple>
+        <atom name="RigAcknowledgement">© Fundació Antoni Tàpies/Artists Rights Society (ARS), New York / VEGAP, Madrid</atom>
+      </tuple>
+    </table>
+    <atom name="CreProvenance">(Pace Gallery, New York, New York); Gerald and Dorit Paul, Indianapolis, Indiana; given to the Indianapolis Museum of Art in 2005.</atom>
+    <atom name="PhyCollectionArea">907-Contemporary</atom>
+    <atom name="LocMovementType">Storage Location</atom>
+    <tuple name="LocCurrentLocationRef">
+      <atom name="LocLevel1">IMA</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">P</atom>
+    </tuple>
+    <tuple name="AssParentObjectRef">
+        <atom name="irn"></atom>
+    </tuple>
+    <atom name="AssIsParent">No</atom>
+    <atom name="AdmPublishWebNoPassword">Yes</atom>
+    <table name="Homepage">
+      <tuple>
+        <atom name="RefBibliographicNotes">40014</atom>
+        <atom name="irn">35475</atom>
+        <atom name="EleTitle">Dagwood ID for 2005.87</atom>
+        <atom name="EleIdentifier">40014</atom>
+      </tuple>
+    </table>
+  </tuple>
+
+  <!-- Row 33 -->
   <tuple>
     <atom name="irn">64017</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -3333,7 +3628,7 @@ Engraver's seal: Horisen</atom>
     </table>
   </tuple>
 
-  <!-- Row 31 -->
+  <!-- Row 34 -->
   <tuple>
     <atom name="irn">64018</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -3438,7 +3733,7 @@ Engraver's seal: Horisen</atom>
     </table>
   </tuple>
 
-  <!-- Row 32 -->
+  <!-- Row 35 -->
   <tuple>
     <atom name="irn">64019</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -3540,7 +3835,7 @@ Engraver's seal: Horisen</atom>
     </table>
   </tuple>
 
-  <!-- Row 33 -->
+  <!-- Row 36 -->
   <tuple>
     <atom name="irn">64628</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -3632,7 +3927,7 @@ Engraver's seal: Horisen</atom>
     <atom name="PhyTechnique">metalworking</atom>
     <atom name="EdiImpression"></atom>
     <atom name="PhyDescription">.1A-B) teapot .2A-B) sugar bowl .3) creamer .4) cup .5) cup .6) cup .7) cup .8) saucer .9) saucer .10) saucer .11) saucer .12) platter .13) plate .14) plate .15) plate .16) plate</atom>
-    <atom name="PhyConvertedDims">Largest: 7-7/8 × 8-3/4 × 4-3/4 in.</atom>
+    <atom name="PhyConvertedDims">Largest: 7-7/8 x 8-3/4 x 4-3/4 in.</atom>
     <table name="Dimensions">
       <tuple>
         <atom name="PhyType">Dimensions</atom>
@@ -3758,7 +4053,7 @@ Engraver's seal: Horisen</atom>
     </table>
   </tuple>
 
-  <!-- Row 34 -->
+  <!-- Row 37 -->
   <tuple>
     <atom name="irn">67743</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -3880,7 +4175,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 35 -->
+  <!-- Row 38 -->
   <tuple>
     <atom name="irn">68180</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -4058,7 +4353,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 36 -->
+  <!-- Row 39 -->
   <tuple>
     <atom name="irn">68181</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -4174,7 +4469,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 37 -->
+  <!-- Row 40 -->
   <tuple>
     <atom name="irn">68182</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -4277,7 +4572,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 38 -->
+  <!-- Row 41 -->
   <tuple>
     <atom name="irn">68903</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -4364,7 +4659,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 39 -->
+  <!-- Row 42 -->
   <tuple>
     <atom name="irn">69062</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -4469,7 +4764,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 40 -->
+  <!-- Row 43 -->
   <tuple>
     <atom name="irn">69063</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -4572,7 +4867,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 41 -->
+  <!-- Row 44 -->
   <tuple>
     <atom name="irn">81052</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -4590,7 +4885,7 @@ B) ottoman: diam.: 22 in.</atom>
         <atom name="PhyMediaCategory">dresses</atom>
       </tuple>
     </table>
-    <atom name="CreDateCreated">Fall 2006-2007</atom>
+    <atom name="CreDateCreated">fall/winter 2006–2007</atom>
     <atom name="CreEarliestDate"></atom>
     <atom name="CreLatestDate"></atom>
     <atom name="CreCreationPeriod"></atom>
@@ -4663,11 +4958,11 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
     <atom name="CreProvenance">The Ebony Fashion Fair Collection; (Leslie Hindman Auctioneers, Chicago, Illinois), 19 March 2013, lot 334A; purchased by the Indianapolis Museum of Art in 2013.</atom>
     <atom name="PhyCollectionArea">908-Textile and Fashion Arts</atom>
-    <atom name="LocMovementType">Exhibition Location</atom>
+    <atom name="LocMovementType">Storage Location</atom>
     <tuple name="LocCurrentLocationRef">
       <atom name="LocLevel1">IMA</atom>
-      <atom name="LocLevel2">Gerald and Dorit Paul Galleries</atom>
-      <atom name="LocLevel3">W309</atom>
+      <atom name="LocLevel2">storage</atom>
+      <atom name="LocLevel3">Tc25</atom>
     </tuple>
     <tuple name="AssParentObjectRef">
         <atom name="irn"></atom>
@@ -4684,7 +4979,7 @@ B) ottoman: diam.: 22 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 42 -->
+  <!-- Row 45 -->
   <tuple>
     <atom name="irn">82696</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -4805,16 +5100,16 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
     <atom name="AssIsParent">Yes</atom>
     <table name="Children">
       <tuple>
+        <atom name="irn">85259</atom>
+        <atom name="TitMainTitle">element C for Five Brushstrokes</atom>
+      </tuple>
+      <tuple>
         <atom name="irn">85257</atom>
         <atom name="TitMainTitle">element A for Five Brushstrokes</atom>
       </tuple>
       <tuple>
         <atom name="irn">85258</atom>
         <atom name="TitMainTitle">element B for Five Brushstrokes</atom>
-      </tuple>
-      <tuple>
-        <atom name="irn">85259</atom>
-        <atom name="TitMainTitle">element C for Five Brushstrokes</atom>
       </tuple>
       <tuple>
         <atom name="irn">85260</atom>
@@ -4848,7 +5143,7 @@ Element E.1-.4) 480 x 77 x 15 in. (assembled)</atom>
     </table>
   </tuple>
 
-  <!-- Row 43 -->
+  <!-- Row 46 -->
   <tuple>
     <atom name="irn">85257</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -4980,7 +5275,7 @@ The sculpture was created posthumously from the aritist's specificiations, and o
     </table>
   </tuple>
 
-  <!-- Row 44 -->
+  <!-- Row 47 -->
   <tuple>
     <atom name="irn">89163</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -5080,7 +5375,7 @@ The sculpture was created posthumously from the aritist's specificiations, and o
     </table>
   </tuple>
 
-  <!-- Row 45 -->
+  <!-- Row 48 -->
   <tuple>
     <atom name="irn">89164</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -5185,14 +5480,14 @@ The sculpture was created posthumously from the aritist's specificiations, and o
     </table>
   </tuple>
 
-  <!-- Row 46 -->
+  <!-- Row 49 -->
   <tuple>
     <atom name="irn">89367</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">16.924A</atom>
     <atom name="TitPreviousAccessionNo"></atom>
     <atom name="TitObjectStatus">Accessioned</atom>
-    <atom name="TitAccessionDate"></atom>
+    <atom name="TitAccessionDate">1916</atom>
     <atom name="TitMainTitle">Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left)</atom>
     <atom name="TitSeriesTitle">scene from the kabuki play Shin Usuyuki Monogatari</atom>
     <atom name="TitCollectionTitle"></atom>
@@ -5265,7 +5560,7 @@ The sculpture was created posthumously from the aritist's specificiations, and o
     </table>
     <atom name="CreProvenance"></atom>
     <atom name="PhyCollectionArea">905.2-Asian Art (Japanese and Korean)</atom>
-    <atom name="LocMovementType">Inventory 2014-2015</atom>
+    <atom name="LocMovementType">Inventory Beginning 2018 - ten year schedule for upcoming reaccreditation</atom>
     <tuple name="LocCurrentLocationRef">
       <atom name="LocLevel1">IMA</atom>
       <atom name="LocLevel2">Print Storage</atom>
@@ -5296,14 +5591,14 @@ The sculpture was created posthumously from the aritist's specificiations, and o
     </table>
   </tuple>
 
-  <!-- Row 47 -->
+  <!-- Row 50 -->
   <tuple>
     <atom name="irn">89368</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">16.924B</atom>
     <atom name="TitPreviousAccessionNo"></atom>
     <atom name="TitObjectStatus">Accessioned</atom>
-    <atom name="TitAccessionDate"></atom>
+    <atom name="TitAccessionDate">1916</atom>
     <atom name="TitMainTitle">(C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛</atom>
     <atom name="TitSeriesTitle">scene from the kabuki play Shin Usuyuki Monogatari</atom>
     <atom name="TitCollectionTitle"></atom>
@@ -5376,7 +5671,7 @@ The sculpture was created posthumously from the aritist's specificiations, and o
     </table>
     <atom name="CreProvenance"></atom>
     <atom name="PhyCollectionArea">905.2-Asian Art (Japanese and Korean)</atom>
-    <atom name="LocMovementType">Inventory 2014-2015</atom>
+    <atom name="LocMovementType">Inventory Beginning 2018 - ten year schedule for upcoming reaccreditation</atom>
     <tuple name="LocCurrentLocationRef">
       <atom name="LocLevel1">IMA</atom>
       <atom name="LocLevel2">Print Storage</atom>
@@ -5407,14 +5702,14 @@ The sculpture was created posthumously from the aritist's specificiations, and o
     </table>
   </tuple>
 
-  <!-- Row 48 -->
+  <!-- Row 51 -->
   <tuple>
     <atom name="irn">89369</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">16.924C</atom>
     <atom name="TitPreviousAccessionNo"></atom>
     <atom name="TitObjectStatus">Accessioned</atom>
-    <atom name="TitAccessionDate"></atom>
+    <atom name="TitAccessionDate">1916</atom>
     <atom name="TitMainTitle">Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊</atom>
     <atom name="TitSeriesTitle">scene from the kabuki play Shin Usuyuki Monogatari</atom>
     <atom name="TitCollectionTitle"></atom>
@@ -5496,7 +5791,7 @@ Censor's seal: single kiwame</atom>
     </table>
     <atom name="CreProvenance"></atom>
     <atom name="PhyCollectionArea">905.2-Asian Art (Japanese and Korean)</atom>
-    <atom name="LocMovementType">Inventory 2014-2015</atom>
+    <atom name="LocMovementType">Inventory Beginning 2018 - ten year schedule for upcoming reaccreditation</atom>
     <tuple name="LocCurrentLocationRef">
       <atom name="LocLevel1">IMA</atom>
       <atom name="LocLevel2">Print Storage</atom>
@@ -5527,7 +5822,7 @@ Censor's seal: single kiwame</atom>
     </table>
   </tuple>
 
-  <!-- Row 49 -->
+  <!-- Row 52 -->
   <tuple>
     <atom name="irn">90817</atom>
     <atom name="AdmPublishWebNoPassword">Yes</atom>
@@ -5653,7 +5948,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 50 -->
+  <!-- Row 53 -->
   <tuple>
     <atom name="irn">92158</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -5757,7 +6052,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 51 -->
+  <!-- Row 54 -->
   <tuple>
     <atom name="irn">92159</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -5861,7 +6156,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 52 -->
+  <!-- Row 55 -->
   <tuple>
     <atom name="irn">92160</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -5965,7 +6260,7 @@ C) 3-1/4 x 3-1/2 x 3-3/8 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 53 -->
+  <!-- Row 56 -->
   <tuple>
     <atom name="irn">92384</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -6077,7 +6372,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 54 -->
+  <!-- Row 57 -->
   <tuple>
     <atom name="irn">92385</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -6180,7 +6475,7 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 55 -->
+  <!-- Row 58 -->
   <tuple>
     <atom name="irn">92386</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
@@ -6283,14 +6578,14 @@ B) 4-1/8 x 4-1/2 x 5-1/2 in.</atom>
     </table>
   </tuple>
 
-  <!-- Row 56 -->
+  <!-- Row 59 -->
   <tuple>
     <atom name="irn">93739</atom>
     <atom name="AdmPublishWebNoPassword">No</atom>
     <atom name="TitAccessionNo">73.131.6A</atom>
     <atom name="TitPreviousAccessionNo">TR9961/11 | U841A | U841B | U841C</atom>
     <atom name="TitObjectStatus">Accessioned</atom>
-    <atom name="TitAccessionDate"></atom>
+    <atom name="TitAccessionDate">1973-12-27</atom>
     <atom name="TitMainTitle">wall fountain</atom>
     <atom name="TitSeriesTitle"></atom>
     <atom name="TitCollectionTitle"></atom>

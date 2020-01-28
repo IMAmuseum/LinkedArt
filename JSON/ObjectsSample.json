@@ -28,15 +28,28 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/1032/accession-number",
+            "id": "https://data.discovernewfields.org/object/1032/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "60.63",
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300312355",
                 "type": "Type",
                 "_label": "accession numbers"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/1032/old-accession-number/1",
+            "type": "Identifier",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
+            "content": "TR5488/1",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "identification numbers"
               }
             ]
           },
@@ -62,8 +75,8 @@
             "id": "https://data.discovernewfields.org/object/1032/production/timespan",
             "type": "TimeSpan",
             "_label": "100-220",
-            "begin_of_the_begin": "0100-01-01T00:00:00",
-            "end_of_the_end": "0220-12-31T00:00:00"
+            "begin_of_the_begin": "0100-01-01T00:00:00.000Z",
+            "end_of_the_end": "0220-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -115,7 +128,14 @@
                   "type": "Place",
                   "_label": "Indianapolis, Indiana"
                 }
-              ]
+              ],
+              "timespan": {
+                "id": "https://data.discovernewfields.org/object/1032/IMA-acquisition/timespan",
+                "type": "TimeSpan",
+                "_label": "1960-10-10",
+                "begin_of_the_begin": "1960-10-10T00:00:00.000Z",
+                "end_of_the_end": "1960-10-10T00:00:00.000Z"
+              }
             }
           ]
         },
@@ -312,9 +332,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/1065/accession-number",
+            "id": "https://data.discovernewfields.org/object/1065/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "14.55",
             "classified_as": [
               {
@@ -367,8 +387,8 @@
             "id": "https://data.discovernewfields.org/object/1065/production/timespan",
             "type": "TimeSpan",
             "_label": "about 1883",
-            "begin_of_the_begin": "1882-01-01T00:00:00",
-            "end_of_the_end": "1883-12-31T00:00:00"
+            "begin_of_the_begin": "1882-01-01T00:00:00.000Z",
+            "end_of_the_end": "1883-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -443,8 +463,8 @@
                 "id": "https://data.discovernewfields.org/object/1065/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1914-02-19",
-                "begin_of_the_begin": "1914-02-19T00:00:00",
-                "end_of_the_end": "1914-02-19T00:00:00"
+                "begin_of_the_begin": "1914-02-19T00:00:00.000Z",
+                "end_of_the_end": "1914-02-19T00:00:00.000Z"
               }
             }
           ]
@@ -715,9 +735,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/1105/accession-number",
+            "id": "https://data.discovernewfields.org/object/1105/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "1989.1569",
             "classified_as": [
               {
@@ -788,8 +808,8 @@
             "id": "https://data.discovernewfields.org/object/1105/production/timespan",
             "type": "TimeSpan",
             "_label": "late 19th century",
-            "begin_of_the_begin": "1850-01-01T00:00:00",
-            "end_of_the_end": "1897-12-31T00:00:00"
+            "begin_of_the_begin": "1850-01-01T00:00:00.000Z",
+            "end_of_the_end": "1897-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -1003,6 +1023,280 @@
       }
     },
     {
+      "3457": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/object/3457",
+        "type": "HumanMadeObject",
+        "_label": "basketry bowl",
+        "classified_as": [
+          {
+            "id": "https://data.discovernewfields.org/thesauri/type/containers",
+            "type": "Type",
+            "_label": "containers"
+          },
+          {
+            "id": "https://data.discovernewfields.org/thesauri/type/baskets",
+            "type": "Type",
+            "_label": "baskets"
+          },
+          {
+            "id": "https://data.discovernewfields.org/thesauri/type/bowls",
+            "type": "Type",
+            "_label": "bowls"
+          }
+        ],
+        "identified_by": [
+          {
+            "id": "https://data.discovernewfields.org/object/3457/irn",
+            "type": "Identifier",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
+            "content": 3457,
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404621",
+                "type": "Type",
+                "_label": "repository numbers"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/3457/object-number",
+            "type": "Identifier",
+            "_label": "IMA at Newfields Object Number for the Object",
+            "content": "U477",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300312355",
+                "type": "Type",
+                "_label": "accession numbers"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/3457/title",
+            "type": "Name",
+            "_label": "Primary Title for the Object",
+            "content": "basketry bowl",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404670",
+                "type": "Type",
+                "_label": "preferred terms"
+              }
+            ]
+          }
+        ],
+        "made_of": [
+          {
+            "id": "https://data.discovernewfields.org/thesauri/material/plant-fiber",
+            "type": "Material",
+            "_label": "Material of Which the Object is Composed",
+            "content": "plant fiber"
+          }
+        ],
+        "produced_by": {
+          "id": "https://data.discovernewfields.org/object/3457/production",
+          "type": "Production",
+          "_label": "Production of the Object",
+          "carried_out_by": [
+            {
+              "id": "https://data.discovernewfields.org/thesauri/culture/pima-people",
+              "type": "Actor",
+              "_label": "Pima people"
+            }
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/3457/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1900-1950",
+            "begin_of_the_begin": "1900-01-01T00:00:00.000Z",
+            "end_of_the_end": "1950-12-31T23:59:59.999Z"
+          }
+        },
+        "dimension": [
+          {
+            "id": "https://data.discovernewfields.org/object/3457/dimension-1/height",
+            "type": "Dimension",
+            "_label": "Dimensions of the Object",
+            "value": 1.5000,
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055644",
+                "type": "Type",
+                "_label": "height"
+              }
+            ],
+            "unit": {
+              "id": "http://vocab.getty.edu/aat/300379100",
+              "type": "Type",
+              "_label": "inches"
+            }
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/3457/dimension-1/width",
+            "type": "Dimension",
+            "_label": "Dimensions of the Object",
+            "value": 7.1250,
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055647",
+                "type": "Type",
+                "_label": "width"
+              }
+            ],
+            "unit": {
+              "id": "http://vocab.getty.edu/aat/300379100",
+              "type": "Type",
+              "_label": "inches"
+            }
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/3457/dimension-1/depth",
+            "type": "Dimension",
+            "_label": "Dimensions of the Object",
+            "value": 7.1250,
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300072633",
+                "type": "Type",
+                "_label": "depth (size/dimension)"
+              }
+            ],
+            "unit": {
+              "id": "http://vocab.getty.edu/aat/300379100",
+              "type": "Type",
+              "_label": "inches"
+            }
+          }
+        ],
+        "current_keeper": {
+          "id": "http://vocab.getty.edu/ulan/500300517",
+          "type": "Group",
+          "_label": "Indianapolis Museum of Art at Newfields",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300312281",
+              "type": "Type",
+              "_label": "museums (institutions)"
+            }
+          ]
+        },
+        "member_of": [
+          {
+            "id": "https://data.discovernewfields.org/collection/9062",
+            "type": "Set",
+            "_label": "Collection of IMA at Newfields' Native Arts of the Americas Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
+          }
+        ],
+        "current_location": {
+          "id": "https://data.discovernewfields.org/thesauri/location/storage",
+          "type": "Place",
+          "_label": "IMA Storage"
+        },
+        "referred_to_by": [
+          {
+            "id": "https://data.discovernewfields.org/object/3457/credit-line",
+            "type": "LinguisticObject",
+            "_label": "IMA at Newfields Credit Line for the Object",
+            "content": "Museum Accession",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300026687",
+                "type": "Type",
+                "_label": "acknowledgments"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/3457/dimension-statement",
+            "type": "LinguisticObject",
+            "_label": "Notes about the Dimensions of the Object",
+            "content": "1-1/2 x 7-1/8 x 7-1/8 in.",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300266036",
+                "type": "Type",
+                "_label": "dimensions"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/3457/materials-statement",
+            "type": "LinguisticObject",
+            "_label": "Notes about the Materials of Which the Object is Composed",
+            "content": "plant fiber",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300010358",
+                "type": "Type",
+                "_label": "materials (substances)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/3457/description",
+            "type": "LinguisticObject",
+            "_label": "Description of the Object",
+            "content": "a small woven bowl with a simple decorative dark and light pattern",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300411780",
+                "type": "Type",
+                "_label": "descriptions (documents)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "http://collection.imamuseum.org/artwork/22182/",
+            "type": "LinguisticObject",
+            "_label": "Homepage for the Object",
+            "classified_as": [
+              {
+                "id": "http://vocab/getty.edu/aat/300264578",
+                "type": "Type",
+                "_label": "Web pages (documents)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300266277",
+                "type": "Type",
+                "_label": "home pages"
+              }
+            ],
+            "format": "text/html"
+          }
+        ]
+      }
+    },
+    {
       "3521": {
         "@context": "https://linked.art/ns/v1/linked-art.json",
         "id": "https://data.discovernewfields.org/object/3521",
@@ -1045,9 +1339,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/3521/accession-number",
+            "id": "https://data.discovernewfields.org/object/3521/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "42.07",
             "classified_as": [
               {
@@ -1126,8 +1420,8 @@
             "id": "https://data.discovernewfields.org/object/3521/production/timespan",
             "type": "TimeSpan",
             "_label": "1930",
-            "begin_of_the_begin": "1930-01-01T00:00:00",
-            "end_of_the_end": "1930-12-31T00:00:00"
+            "begin_of_the_begin": "1930-01-01T00:00:00.000Z",
+            "end_of_the_end": "1930-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -1202,8 +1496,8 @@
                 "id": "https://data.discovernewfields.org/object/3521/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1942-02-17",
-                "begin_of_the_begin": "1942-02-17T00:00:00",
-                "end_of_the_end": "1942-02-17T00:00:00"
+                "begin_of_the_begin": "1942-02-17T00:00:00.000Z",
+                "end_of_the_end": "1942-02-17T00:00:00.000Z"
               }
             }
           ]
@@ -1466,9 +1760,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/6136/accession-number",
+            "id": "https://data.discovernewfields.org/object/6136/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "1983.100",
             "classified_as": [
               {
@@ -1514,8 +1808,8 @@
             "id": "https://data.discovernewfields.org/object/6136/production/timespan",
             "type": "TimeSpan",
             "_label": "March-April 1574",
-            "begin_of_the_begin": "1574-03-01T00:00:00",
-            "end_of_the_end": "1574-04-30T00:00:00"
+            "begin_of_the_begin": "1574-03-01T00:00:00.000Z",
+            "end_of_the_end": "1574-04-30T23:59:59.999Z"
           }
         },
         "current_owner": {
@@ -1716,9 +2010,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/6855/accession-number",
+            "id": "https://data.discovernewfields.org/object/6855/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "1996.114",
             "classified_as": [
               {
@@ -1757,8 +2051,8 @@
             "id": "https://data.discovernewfields.org/object/6855/production/timespan",
             "type": "TimeSpan",
             "_label": "200 B.C.E. - 300 CE",
-            "begin_of_the_begin": "-0200-01-01T00:00:00",
-            "end_of_the_end": "0300-12-31T00:00:00"
+            "begin_of_the_begin": "-0200-01-01T00:00:00.000Z",
+            "end_of_the_end": "0300-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -1851,8 +2145,8 @@
                 "id": "https://data.discovernewfields.org/object/6855/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1996-03-21",
-                "begin_of_the_begin": "1996-03-21T00:00:00",
-                "end_of_the_end": "1996-03-21T00:00:00"
+                "begin_of_the_begin": "1996-03-21T00:00:00.000Z",
+                "end_of_the_end": "1996-03-21T00:00:00.000Z"
               }
             }
           ]
@@ -2037,9 +2331,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/8407/accession-number",
+            "id": "https://data.discovernewfields.org/object/8407/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "1984.124",
             "classified_as": [
               {
@@ -2105,8 +2399,8 @@
             "id": "https://data.discovernewfields.org/object/8407/production/timespan",
             "type": "TimeSpan",
             "_label": "about 1900",
-            "begin_of_the_begin": "1895-01-01T00:00:00",
-            "end_of_the_end": "1905-12-31T00:00:00"
+            "begin_of_the_begin": "1895-01-01T00:00:00.000Z",
+            "end_of_the_end": "1905-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -2181,8 +2475,8 @@
                 "id": "https://data.discovernewfields.org/object/8407/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1984-09-20",
-                "begin_of_the_begin": "1984-09-20T00:00:00",
-                "end_of_the_end": "1984-09-20T00:00:00"
+                "begin_of_the_begin": "1984-09-20T00:00:00.000Z",
+                "end_of_the_end": "1984-09-20T00:00:00.000Z"
               }
             }
           ]
@@ -2394,15 +2688,28 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/14365/accession-number",
+            "id": "https://data.discovernewfields.org/object/14365/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "33.1812",
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300312355",
                 "type": "Type",
                 "_label": "accession numbers"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/14365/old-accession-number/1",
+            "type": "Identifier",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
+            "content": "TR1848/26",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "identification numbers"
               }
             ]
           },
@@ -2471,8 +2778,8 @@
                 "id": "https://data.discovernewfields.org/object/14365/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1933-11-21",
-                "begin_of_the_begin": "1933-11-21T00:00:00",
-                "end_of_the_end": "1933-11-21T00:00:00"
+                "begin_of_the_begin": "1933-11-21T00:00:00.000Z",
+                "end_of_the_end": "1933-11-21T00:00:00.000Z"
               }
             }
           ]
@@ -2665,9 +2972,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/14617/accession-number",
+            "id": "https://data.discovernewfields.org/object/14617/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "67.10.48",
             "classified_as": [
               {
@@ -3020,9 +3327,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/16168/accession-number",
+            "id": "https://data.discovernewfields.org/object/16168/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "09.28C",
             "classified_as": [
               {
@@ -3075,8 +3382,8 @@
             "id": "https://data.discovernewfields.org/object/16168/production/timespan",
             "type": "TimeSpan",
             "_label": "16th century",
-            "begin_of_the_begin": "1501-01-01T00:00:00",
-            "end_of_the_end": "1600-12-31T00:00:00"
+            "begin_of_the_begin": "1501-01-01T00:00:00.000Z",
+            "end_of_the_end": "1600-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -3151,8 +3458,8 @@
                 "id": "https://data.discovernewfields.org/object/16168/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1909-01-25",
-                "begin_of_the_begin": "1909-01-25T00:00:00",
-                "end_of_the_end": "1909-01-25T00:00:00"
+                "begin_of_the_begin": "1909-01-25T00:00:00.000Z",
+                "end_of_the_end": "1909-01-25T00:00:00.000Z"
               }
             }
           ]
@@ -3332,9 +3639,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/16356/accession-number",
+            "id": "https://data.discovernewfields.org/object/16356/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "07.7",
             "classified_as": [
               {
@@ -3423,8 +3730,8 @@
                 "id": "https://data.discovernewfields.org/object/16356/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1907-01-04",
-                "begin_of_the_begin": "1907-01-04T00:00:00",
-                "end_of_the_end": "1907-01-04T00:00:00"
+                "begin_of_the_begin": "1907-01-04T00:00:00.000Z",
+                "end_of_the_end": "1907-01-04T00:00:00.000Z"
               }
             }
           ]
@@ -3724,9 +4031,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/16410/accession-number",
+            "id": "https://data.discovernewfields.org/object/16410/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "14.231",
             "classified_as": [
               {
@@ -3792,8 +4099,8 @@
             "id": "https://data.discovernewfields.org/object/16410/production/timespan",
             "type": "TimeSpan",
             "_label": "before 1910",
-            "begin_of_the_begin": "0100-01-01T00:00:00",
-            "end_of_the_end": "1910-12-31T00:00:00"
+            "begin_of_the_begin": "0100-01-01T00:00:00.000Z",
+            "end_of_the_end": "1910-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -3868,8 +4175,8 @@
                 "id": "https://data.discovernewfields.org/object/16410/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1914-06-01",
-                "begin_of_the_begin": "1914-06-01T00:00:00",
-                "end_of_the_end": "1914-06-01T00:00:00"
+                "begin_of_the_begin": "1914-06-01T00:00:00.000Z",
+                "end_of_the_end": "1914-06-01T00:00:00.000Z"
               }
             }
           ]
@@ -4090,9 +4397,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/17425/accession-number",
+            "id": "https://data.discovernewfields.org/object/17425/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "74.10",
             "classified_as": [
               {
@@ -4165,8 +4472,8 @@
             "id": "https://data.discovernewfields.org/object/17425/production/timespan",
             "type": "TimeSpan",
             "_label": "about 1910",
-            "begin_of_the_begin": "1905-01-01T00:00:00",
-            "end_of_the_end": "1915-12-31T00:00:00"
+            "begin_of_the_begin": "1905-01-01T00:00:00.000Z",
+            "end_of_the_end": "1915-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -4241,8 +4548,8 @@
                 "id": "https://data.discovernewfields.org/object/17425/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1974-03-21",
-                "begin_of_the_begin": "1974-03-21T00:00:00",
-                "end_of_the_end": "1974-03-21T00:00:00"
+                "begin_of_the_begin": "1974-03-21T00:00:00.000Z",
+                "end_of_the_end": "1974-03-21T00:00:00.000Z"
               }
             }
           ]
@@ -4476,9 +4783,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/17577/accession-number",
+            "id": "https://data.discovernewfields.org/object/17577/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "80.650",
             "classified_as": [
               {
@@ -4544,8 +4851,8 @@
             "id": "https://data.discovernewfields.org/object/17577/production/timespan",
             "type": "TimeSpan",
             "_label": "about 1928",
-            "begin_of_the_begin": "1927-01-01T00:00:00",
-            "end_of_the_end": "1928-12-31T00:00:00"
+            "begin_of_the_begin": "1927-01-01T00:00:00.000Z",
+            "end_of_the_end": "1928-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -4620,8 +4927,8 @@
                 "id": "https://data.discovernewfields.org/object/17577/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1980-12-31",
-                "begin_of_the_begin": "1980-12-31T00:00:00",
-                "end_of_the_end": "1980-12-31T00:00:00"
+                "begin_of_the_begin": "1980-12-31T00:00:00.000Z",
+                "end_of_the_end": "1980-12-31T00:00:00.000Z"
               }
             }
           ]
@@ -4641,9 +4948,9 @@
           }
         ],
         "current_location": {
-          "id": "https://data.discovernewfields.org/thesauri/location/westerley",
+          "id": "https://data.discovernewfields.org/thesauri/location/storage",
           "type": "Place",
-          "_label": "Westerley"
+          "_label": "IMA Storage"
         },
         "referred_to_by": [
           {
@@ -4884,9 +5191,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/20419/accession-number",
+            "id": "https://data.discovernewfields.org/object/20419/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "75.174",
             "classified_as": [
               {
@@ -4951,8 +5258,8 @@
             "id": "https://data.discovernewfields.org/object/20419/production/timespan",
             "type": "TimeSpan",
             "_label": "1970",
-            "begin_of_the_begin": "1970-01-01T00:00:00",
-            "end_of_the_end": "1970-12-31T00:00:00"
+            "begin_of_the_begin": "1970-01-01T00:00:00.000Z",
+            "end_of_the_end": "1970-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -5363,9 +5670,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/21137/accession-number",
+            "id": "https://data.discovernewfields.org/object/21137/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "06.137",
             "classified_as": [
               {
@@ -5450,8 +5757,8 @@
             "id": "https://data.discovernewfields.org/object/21137/production/timespan",
             "type": "TimeSpan",
             "_label": "1833-1834",
-            "begin_of_the_begin": "1833-01-01T00:00:00",
-            "end_of_the_end": "1834-12-31T00:00:00"
+            "begin_of_the_begin": "1833-01-01T00:00:00.000Z",
+            "end_of_the_end": "1834-12-31T23:59:59.999Z"
           }
         },
         "current_owner": {
@@ -5488,8 +5795,8 @@
                 "id": "https://data.discovernewfields.org/object/21137/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1906-05-01",
-                "begin_of_the_begin": "1906-05-01T00:00:00",
-                "end_of_the_end": "1906-05-01T00:00:00"
+                "begin_of_the_begin": "1906-05-01T00:00:00.000Z",
+                "end_of_the_end": "1906-05-01T00:00:00.000Z"
               }
             }
           ]
@@ -5775,9 +6082,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/21288/accession-number",
+            "id": "https://data.discovernewfields.org/object/21288/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "10.8",
             "classified_as": [
               {
@@ -5830,8 +6137,8 @@
             "id": "https://data.discovernewfields.org/object/21288/production/timespan",
             "type": "TimeSpan",
             "_label": "1881-1882",
-            "begin_of_the_begin": "1881-01-01T00:00:00",
-            "end_of_the_end": "1882-12-31T00:00:00"
+            "begin_of_the_begin": "1881-01-01T00:00:00.000Z",
+            "end_of_the_end": "1882-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -5906,8 +6213,8 @@
                 "id": "https://data.discovernewfields.org/object/21288/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1910-05-12",
-                "begin_of_the_begin": "1910-05-12T00:00:00",
-                "end_of_the_end": "1910-05-12T00:00:00"
+                "begin_of_the_begin": "1910-05-12T00:00:00.000Z",
+                "end_of_the_end": "1910-05-12T00:00:00.000Z"
               }
             }
           ]
@@ -6177,9 +6484,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/24693/accession-number",
+            "id": "https://data.discovernewfields.org/object/24693/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "13.1A-C",
             "classified_as": [
               {
@@ -6232,8 +6539,8 @@
             "id": "https://data.discovernewfields.org/object/24693/production/timespan",
             "type": "TimeSpan",
             "_label": "about 1800–1850",
-            "begin_of_the_begin": "1801-01-01T00:00:00",
-            "end_of_the_end": "1900-12-31T00:00:00"
+            "begin_of_the_begin": "1801-01-01T00:00:00.000Z",
+            "end_of_the_end": "1900-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -6380,8 +6687,8 @@
                 "id": "https://data.discovernewfields.org/object/24693/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1913-01-02",
-                "begin_of_the_begin": "1913-01-02T00:00:00",
-                "end_of_the_end": "1913-01-02T00:00:00"
+                "begin_of_the_begin": "1913-01-02T00:00:00.000Z",
+                "end_of_the_end": "1913-01-02T00:00:00.000Z"
               }
             }
           ]
@@ -6511,7 +6818,7 @@
         ],
         "part": [
           {
-            "id": "https://data.discovernewfields.org/object/92386",
+            "id": "https://data.discovernewfields.org/object/92384",
             "type": "HumanMadeObject",
             "_label": "censer in form of teahouse"
           },
@@ -6521,7 +6828,7 @@
             "_label": "censer in form of teahouse"
           },
           {
-            "id": "https://data.discovernewfields.org/object/92384",
+            "id": "https://data.discovernewfields.org/object/92386",
             "type": "HumanMadeObject",
             "_label": "censer in form of teahouse"
           }
@@ -6586,9 +6893,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/24892/accession-number",
+            "id": "https://data.discovernewfields.org/object/24892/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "80.262A-C",
             "classified_as": [
               {
@@ -6640,8 +6947,8 @@
             "id": "https://data.discovernewfields.org/object/24892/production/timespan",
             "type": "TimeSpan",
             "_label": "1980",
-            "begin_of_the_begin": "1980-01-01T00:00:00",
-            "end_of_the_end": "1980-12-31T00:00:00"
+            "begin_of_the_begin": "1980-01-01T00:00:00.000Z",
+            "end_of_the_end": "1980-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -6768,8 +7075,8 @@
                 "id": "https://data.discovernewfields.org/object/24892/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1980-09-18",
-                "begin_of_the_begin": "1980-09-18T00:00:00",
-                "end_of_the_end": "1980-09-18T00:00:00"
+                "begin_of_the_begin": "1980-09-18T00:00:00.000Z",
+                "end_of_the_end": "1980-09-18T00:00:00.000Z"
               }
             }
           ]
@@ -7015,9 +7322,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/25098/accession-number",
+            "id": "https://data.discovernewfields.org/object/25098/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "16.924A-C",
             "classified_as": [
               {
@@ -7089,8 +7396,8 @@
             "id": "https://data.discovernewfields.org/object/25098/production/timespan",
             "type": "TimeSpan",
             "_label": "1839",
-            "begin_of_the_begin": "1839-01-01T00:00:00",
-            "end_of_the_end": "1839-12-31T00:00:00"
+            "begin_of_the_begin": "1839-01-01T00:00:00.000Z",
+            "end_of_the_end": "1839-12-31T23:59:59.999Z"
           }
         },
         "current_owner": {
@@ -7122,7 +7429,14 @@
                   "type": "Place",
                   "_label": "Indianapolis, Indiana"
                 }
-              ]
+              ],
+              "timespan": {
+                "id": "https://data.discovernewfields.org/object/25098/IMA-acquisition/timespan",
+                "type": "TimeSpan",
+                "_label": "1916",
+                "begin_of_the_begin": "1916-01-01T00:00:00.000Z",
+                "end_of_the_end": "1916-12-31T00:00:00.000Z"
+              }
             }
           ]
         },
@@ -7310,9 +7624,9 @@
         ],
         "part": [
           {
-            "id": "https://data.discovernewfields.org/object/89369",
+            "id": "https://data.discovernewfields.org/object/89367",
             "type": "HumanMadeObject",
-            "_label": "Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊"
+            "_label": "Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left)"
           },
           {
             "id": "https://data.discovernewfields.org/object/89368",
@@ -7320,9 +7634,9 @@
             "_label": "(C) Ichikawa Danzō 市川団蔵 as Masamune Gorobei 正宗五郎兵衛"
           },
           {
-            "id": "https://data.discovernewfields.org/object/89367",
+            "id": "https://data.discovernewfields.org/object/89369",
             "type": "HumanMadeObject",
-            "_label": "Ichikawa Ebizō  市川海老増  (Danjūrō VII) as Masamune Dankurō V 正宗団九郎(left)"
+            "_label": "Sawamura Tosshō 沢村訥升 as Rai Kunitoshi  来国俊"
           },
           {
             "id": "https://data.discovernewfields.org/object/25098/image-1",
@@ -7398,6 +7712,373 @@
       }
     },
     {
+      "33886": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/object/33886",
+        "type": "HumanMadeObject",
+        "_label": "Temptation of St. Anthony",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300133025",
+            "type": "Type",
+            "_label": "works of art"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300033618",
+            "type": "Type",
+            "_label": "paintings (visual works)"
+          },
+          {
+            "id": "https://data.discovernewfields.org/thesauri/type/oil-paintings",
+            "type": "Type",
+            "_label": "oil paintings"
+          }
+        ],
+        "identified_by": [
+          {
+            "id": "https://data.discovernewfields.org/object/33886/irn",
+            "type": "Identifier",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
+            "content": 33886,
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404621",
+                "type": "Type",
+                "_label": "repository numbers"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/33886/object-number",
+            "type": "Identifier",
+            "_label": "IMA at Newfields Object Number for the Object",
+            "content": "C10007",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300312355",
+                "type": "Type",
+                "_label": "accession numbers"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/33886/title",
+            "type": "Name",
+            "_label": "Primary Title for the Object",
+            "content": "Temptation of St. Anthony",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404670",
+                "type": "Type",
+                "_label": "preferred terms"
+              }
+            ]
+          }
+        ],
+        "made_of": [
+          {
+            "id": "https://data.discovernewfields.org/thesauri/material/oil-paint",
+            "type": "Material",
+            "_label": "Material of Which the Object is Composed",
+            "content": "oil paint"
+          },
+          {
+            "id": "https://data.discovernewfields.org/thesauri/material/panels",
+            "type": "Material",
+            "_label": "Material of Which the Object is Composed",
+            "content": "panels"
+          }
+        ],
+        "produced_by": {
+          "id": "https://data.discovernewfields.org/object/33886/production",
+          "type": "Production",
+          "_label": "Production of the Object",
+          "carried_out_by": [
+            {
+              "id": "https://data.discovernewfields.org/actor/33886",
+              "type": "Actor",
+              "_label": "Bosch, Hieronymus"
+            }
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/33886/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1575-1600",
+            "begin_of_the_begin": "1575-01-01T00:00:00.000Z",
+            "end_of_the_end": "1600-12-31T23:59:59.999Z"
+          }
+        },
+        "dimension": [
+          {
+            "id": "https://data.discovernewfields.org/object/33886/dimension-1/height",
+            "type": "Dimension",
+            "_label": "Dimensions of the Object",
+            "value": 23.7500,
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055644",
+                "type": "Type",
+                "_label": "height"
+              }
+            ],
+            "unit": {
+              "id": "http://vocab.getty.edu/aat/300379100",
+              "type": "Type",
+              "_label": "inches"
+            }
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/33886/dimension-1/width",
+            "type": "Dimension",
+            "_label": "Dimensions of the Object",
+            "value": 19.2500,
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055647",
+                "type": "Type",
+                "_label": "width"
+              }
+            ],
+            "unit": {
+              "id": "http://vocab.getty.edu/aat/300379100",
+              "type": "Type",
+              "_label": "inches"
+            }
+          }
+        ],
+        "current_keeper": {
+          "id": "http://vocab.getty.edu/ulan/500300517",
+          "type": "Group",
+          "_label": "Indianapolis Museum of Art at Newfields",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300312281",
+              "type": "Type",
+              "_label": "museums (institutions)"
+            }
+          ]
+        },
+        "member_of": [
+          {
+            "id": "https://data.discovernewfields.org/collection/9021",
+            "type": "Set",
+            "_label": "Collection of IMA at Newfields' European Painting and Sculpture Before 1800 Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
+          }
+        ],
+        "current_location": {
+          "id": "https://data.discovernewfields.org/thesauri/location/storage",
+          "type": "Place",
+          "_label": "IMA Storage"
+        },
+        "referred_to_by": [
+          {
+            "id": "https://data.discovernewfields.org/object/33886/credit-line",
+            "type": "LinguisticObject",
+            "_label": "IMA at Newfields Credit Line for the Object",
+            "content": "Courtesy of The Clowes Fund",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300026687",
+                "type": "Type",
+                "_label": "acknowledgments"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/33886/provenance-statement",
+            "type": "LinguisticObject",
+            "_label": "IMA Provenance Statement about the Object",
+            "content": "Provenance research is on-going at the Indianapolis Museum of Art at Newfields. Please contact Annette Schlagenhauff, Curator of European Art, at aschlagenhauff@discovernewfields.org if you have questions, or if you have additional information to share with us.",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055863",
+                "type": "Type",
+                "_label": "provenance (history of ownership)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/33886/dimension-statement",
+            "type": "LinguisticObject",
+            "_label": "Notes about the Dimensions of the Object",
+            "content": "23-3/4 x 19-1/4 in.\n30-1/8 x 26 in. (framed)",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300266036",
+                "type": "Type",
+                "_label": "dimensions"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/33886/materials-statement",
+            "type": "LinguisticObject",
+            "_label": "Notes about the Materials of Which the Object is Composed",
+            "content": "oil on panel",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300010358",
+                "type": "Type",
+                "_label": "materials (substances)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/33886/creation-notes",
+            "type": "LinguisticObject",
+            "_label": "IMA at Newfields Creation Notes about the Object",
+            "content": "a 17th Century Antwerp follower of Bosch",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300027200",
+                "type": "Type",
+                "_label": "notes (documents)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/33886/rights-statement",
+            "type": "LinguisticObject",
+            "_label": "Rights Statement",
+            "content": "Public Domain",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055547",
+                "type": "Type",
+                "_label": "legal concepts"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "type": "LinguisticObject",
+            "_label": "Public Domain",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055547",
+                "type": "Type",
+                "_label": "legal concepts"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          }
+        ],
+        "part": [
+          {
+            "id": "https://data.discovernewfields.org/object/33886/frame-1",
+            "type": "HumanMadeObject",
+            "_label": "Frame for the Object",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300189814",
+                "type": "Type",
+                "_label": "frames (protective furnishings)"
+              }
+            ],
+            "dimension": [
+              {
+                "id": "https://data.discovernewfields.org/object/33886/frame-1/height",
+                "type": "Dimension",
+                "_label": "Framed Dimensions of the Object",
+                "value": 30.1250,
+                "classified_as": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300055644",
+                    "type": "Type",
+                    "_label": "height"
+                  }
+                ],
+                "unit": {
+                  "id": "http://vocab.getty.edu/aat/300379100",
+                  "type": "Type",
+                  "_label": "inches"
+                }
+              },
+              {
+                "id": "https://data.discovernewfields.org/object/33886/frame-1/width",
+                "type": "Dimension",
+                "_label": "Framed Dimensions of the Object",
+                "value": 26.0000,
+                "classified_as": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300055647",
+                    "type": "Type",
+                    "_label": "width"
+                  }
+                ],
+                "unit": {
+                  "id": "http://vocab.getty.edu/aat/300379100",
+                  "type": "Type",
+                  "_label": "inches"
+                }
+              }
+            ]
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "http://collection.imamuseum.org/artwork/79341/",
+            "type": "LinguisticObject",
+            "_label": "Homepage for the Object",
+            "classified_as": [
+              {
+                "id": "http://vocab/getty.edu/aat/300264578",
+                "type": "Type",
+                "_label": "Web pages (documents)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300266277",
+                "type": "Type",
+                "_label": "home pages"
+              }
+            ],
+            "format": "text/html"
+          }
+        ]
+      }
+    },
+    {
       "37383": {
         "@context": "https://linked.art/ns/v1/linked-art.json",
         "id": "https://data.discovernewfields.org/object/37383",
@@ -7440,9 +8121,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/37383/accession-number",
+            "id": "https://data.discovernewfields.org/object/37383/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "89.1",
             "classified_as": [
               {
@@ -7495,8 +8176,8 @@
             "id": "https://data.discovernewfields.org/object/37383/production/timespan",
             "type": "TimeSpan",
             "_label": "1887",
-            "begin_of_the_begin": "1887-01-01T00:00:00",
-            "end_of_the_end": "1887-12-31T00:00:00"
+            "begin_of_the_begin": "1887-01-01T00:00:00.000Z",
+            "end_of_the_end": "1887-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -7571,8 +8252,8 @@
                 "id": "https://data.discovernewfields.org/object/37383/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1889",
-                "begin_of_the_begin": "1889-01-01T00:00:00",
-                "end_of_the_end": "1889-12-31T00:00:00"
+                "begin_of_the_begin": "1889-01-01T00:00:00.000Z",
+                "end_of_the_end": "1889-12-31T00:00:00.000Z"
               }
             }
           ]
@@ -7848,9 +8529,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/41018/accession-number",
+            "id": "https://data.discovernewfields.org/object/41018/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "80.1596.1",
             "classified_as": [
               {
@@ -7928,8 +8609,8 @@
             "id": "https://data.discovernewfields.org/object/41018/production/timespan",
             "type": "TimeSpan",
             "_label": "1836",
-            "begin_of_the_begin": "1836-01-01T00:00:00",
-            "end_of_the_end": "1836-12-31T00:00:00"
+            "begin_of_the_begin": "1836-01-01T00:00:00.000Z",
+            "end_of_the_end": "1836-12-31T23:59:59.999Z"
           }
         },
         "current_owner": {
@@ -7966,8 +8647,8 @@
                 "id": "https://data.discovernewfields.org/object/41018/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1980-01-01",
-                "begin_of_the_begin": "1980-01-01T00:00:00",
-                "end_of_the_end": "1980-01-01T00:00:00"
+                "begin_of_the_begin": "1980-01-01T00:00:00.000Z",
+                "end_of_the_end": "1980-01-01T00:00:00.000Z"
               }
             }
           ]
@@ -8239,9 +8920,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/41019/accession-number",
+            "id": "https://data.discovernewfields.org/object/41019/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "80.1596.2",
             "classified_as": [
               {
@@ -8319,8 +9000,8 @@
             "id": "https://data.discovernewfields.org/object/41019/production/timespan",
             "type": "TimeSpan",
             "_label": "1836",
-            "begin_of_the_begin": "1836-01-01T00:00:00",
-            "end_of_the_end": "1836-12-31T00:00:00"
+            "begin_of_the_begin": "1836-01-01T00:00:00.000Z",
+            "end_of_the_end": "1836-12-31T23:59:59.999Z"
           }
         },
         "current_owner": {
@@ -8357,8 +9038,8 @@
                 "id": "https://data.discovernewfields.org/object/41019/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1980-01-01",
-                "begin_of_the_begin": "1980-01-01T00:00:00",
-                "end_of_the_end": "1980-01-01T00:00:00"
+                "begin_of_the_begin": "1980-01-01T00:00:00.000Z",
+                "end_of_the_end": "1980-01-01T00:00:00.000Z"
               }
             }
           ]
@@ -8630,9 +9311,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/46950/accession-number",
+            "id": "https://data.discovernewfields.org/object/46950/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "05.19",
             "classified_as": [
               {
@@ -8694,9 +9375,9 @@
               "timespan": {
                 "id": "https://data.discovernewfields.org/object/46950/IMA-acquisition/timespan",
                 "type": "TimeSpan",
-                "_label": "1905-12-",
-                "begin_of_the_begin": "1905-12-01T00:00:00",
-                "end_of_the_end": "1905-12-31T00:00:00"
+                "_label": "1905",
+                "begin_of_the_begin": "1905-01-01T00:00:00.000Z",
+                "end_of_the_end": "1905-12-31T00:00:00.000Z"
               }
             }
           ]
@@ -8881,9 +9562,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/47035/accession-number",
+            "id": "https://data.discovernewfields.org/object/47035/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "08.19",
             "classified_as": [
               {
@@ -8930,7 +9611,7 @@
             "id": "https://data.discovernewfields.org/object/47035/production/timespan",
             "type": "TimeSpan",
             "_label": "before 1908",
-            "end_of_the_end": "1908-12-31T00:00:00"
+            "end_of_the_end": "1908-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -8981,9 +9662,9 @@
               "timespan": {
                 "id": "https://data.discovernewfields.org/object/47035/IMA-acquisition/timespan",
                 "type": "TimeSpan",
-                "_label": "1919",
-                "begin_of_the_begin": "1919-01-01T00:00:00",
-                "end_of_the_end": "1919-12-31T00:00:00"
+                "_label": "1908",
+                "begin_of_the_begin": "1908-01-01T00:00:00.000Z",
+                "end_of_the_end": "1908-12-31T00:00:00.000Z"
               }
             }
           ]
@@ -9166,9 +9847,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/49409/accession-number",
+            "id": "https://data.discovernewfields.org/object/49409/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "13.357",
             "classified_as": [
               {
@@ -9228,8 +9909,8 @@
             "id": "https://data.discovernewfields.org/object/49409/production/timespan",
             "type": "TimeSpan",
             "_label": "Twenty-third Dynasty (823-732 B.C.E.)",
-            "begin_of_the_begin": "-0823-01-01T00:00:00",
-            "end_of_the_end": "-0732-12-31T00:00:00"
+            "begin_of_the_begin": "-0823-01-01T00:00:00.000Z",
+            "end_of_the_end": "-0732-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -9286,8 +9967,8 @@
                 "id": "https://data.discovernewfields.org/object/49409/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1913-11-06",
-                "begin_of_the_begin": "1913-11-06T00:00:00",
-                "end_of_the_end": "1913-11-06T00:00:00"
+                "begin_of_the_begin": "1913-11-06T00:00:00.000Z",
+                "end_of_the_end": "1913-11-06T00:00:00.000Z"
               }
             }
           ]
@@ -9480,9 +10161,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/51330/accession-number",
+            "id": "https://data.discovernewfields.org/object/51330/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "30.388",
             "classified_as": [
               {
@@ -9567,8 +10248,8 @@
             "id": "https://data.discovernewfields.org/object/51330/production/timespan",
             "type": "TimeSpan",
             "_label": "1859",
-            "begin_of_the_begin": "1859-01-01T00:00:00",
-            "end_of_the_end": "1859-12-31T00:00:00"
+            "begin_of_the_begin": "1859-01-01T00:00:00.000Z",
+            "end_of_the_end": "1859-12-31T23:59:59.999Z"
           }
         },
         "current_owner": {
@@ -9605,8 +10286,8 @@
                 "id": "https://data.discovernewfields.org/object/51330/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1930-10-21",
-                "begin_of_the_begin": "1930-10-21T00:00:00",
-                "end_of_the_end": "1930-10-21T00:00:00"
+                "begin_of_the_begin": "1930-10-21T00:00:00.000Z",
+                "end_of_the_end": "1930-10-21T00:00:00.000Z"
               }
             }
           ]
@@ -9955,15 +10636,28 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/52481/accession-number",
+            "id": "https://data.discovernewfields.org/object/52481/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "44.91",
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300312355",
                 "type": "Type",
                 "_label": "accession numbers"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/52481/old-accession-number/1",
+            "type": "Identifier",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
+            "content": "TR4585/9ab",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "identification numbers"
               }
             ]
           },
@@ -10054,7 +10748,14 @@
                   "type": "Place",
                   "_label": "Indianapolis, Indiana"
                 }
-              ]
+              ],
+              "timespan": {
+                "id": "https://data.discovernewfields.org/object/52481/IMA-acquisition/timespan",
+                "type": "TimeSpan",
+                "_label": "1944-06-20",
+                "begin_of_the_begin": "1944-06-20T00:00:00.000Z",
+                "end_of_the_end": "1944-06-20T00:00:00.000Z"
+              }
             }
           ]
         },
@@ -10304,9 +11005,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/55312/accession-number",
+            "id": "https://data.discovernewfields.org/object/55312/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "80.1596",
             "classified_as": [
               {
@@ -10451,8 +11152,8 @@
                 "id": "https://data.discovernewfields.org/object/55312/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1980-01-01",
-                "begin_of_the_begin": "1980-01-01T00:00:00",
-                "end_of_the_end": "1980-01-01T00:00:00"
+                "begin_of_the_begin": "1980-01-01T00:00:00.000Z",
+                "end_of_the_end": "1980-01-01T00:00:00.000Z"
               }
             }
           ]
@@ -10608,6 +11309,362 @@
       }
     },
     {
+      "63355": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/object/63355",
+        "type": "HumanMadeObject",
+        "_label": "Signe vermell",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300133025",
+            "type": "Type",
+            "_label": "works of art"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300033618",
+            "type": "Type",
+            "_label": "paintings (visual works)"
+          },
+          {
+            "id": "https://data.discovernewfields.org/thesauri/type/paintings",
+            "type": "Type",
+            "_label": "paintings"
+          }
+        ],
+        "identified_by": [
+          {
+            "id": "https://data.discovernewfields.org/object/63355/irn",
+            "type": "Identifier",
+            "_label": "IMA at Newfields Collections Database Number for the Object",
+            "content": 63355,
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404621",
+                "type": "Type",
+                "_label": "repository numbers"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/63355/object-number",
+            "type": "Identifier",
+            "_label": "IMA at Newfields Object Number for the Object",
+            "content": "2005.87",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300312355",
+                "type": "Type",
+                "_label": "accession numbers"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/63355/old-accession-number/1",
+            "type": "Identifier",
+            "_label": "Identifier Assigned to the Object by IMA at Newfields Prior to Acquisition",
+            "content": "TR12060/2",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404626",
+                "type": "Type",
+                "_label": "identification numbers"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/63355/title",
+            "type": "Name",
+            "_label": "Primary Title for the Object",
+            "content": "Signe vermell",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404670",
+                "type": "Type",
+                "_label": "preferred terms"
+              }
+            ]
+          }
+        ],
+        "made_of": [
+          {
+            "id": "https://data.discovernewfields.org/thesauri/material/mixed-media",
+            "type": "Material",
+            "_label": "Material of Which the Object is Composed",
+            "content": "mixed media"
+          },
+          {
+            "id": "https://data.discovernewfields.org/thesauri/material/wood",
+            "type": "Material",
+            "_label": "Material of Which the Object is Composed",
+            "content": "wood"
+          }
+        ],
+        "produced_by": {
+          "id": "https://data.discovernewfields.org/object/63355/production",
+          "type": "Production",
+          "_label": "Production of the Object",
+          "carried_out_by": [
+            {
+              "id": "https://data.discovernewfields.org/actor/63355",
+              "type": "Actor",
+              "_label": "Tàpies, Antoni"
+            }
+          ],
+          "timespan": {
+            "id": "https://data.discovernewfields.org/object/63355/production/timespan",
+            "type": "TimeSpan",
+            "_label": "1999",
+            "begin_of_the_begin": "1999-01-01T00:00:00.000Z",
+            "end_of_the_end": "1999-12-31T23:59:59.999Z"
+          }
+        },
+        "dimension": [
+          {
+            "id": "https://data.discovernewfields.org/object/63355/dimension-1/height",
+            "type": "Dimension",
+            "_label": "Dimensions of the Object",
+            "value": 18.2500,
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055644",
+                "type": "Type",
+                "_label": "height"
+              }
+            ],
+            "unit": {
+              "id": "http://vocab.getty.edu/aat/300379100",
+              "type": "Type",
+              "_label": "inches"
+            }
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/63355/dimension-1/width",
+            "type": "Dimension",
+            "_label": "Dimensions of the Object",
+            "value": 21.5000,
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055647",
+                "type": "Type",
+                "_label": "width"
+              }
+            ],
+            "unit": {
+              "id": "http://vocab.getty.edu/aat/300379100",
+              "type": "Type",
+              "_label": "inches"
+            }
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/63355/dimension-1/depth",
+            "type": "Dimension",
+            "_label": "Dimensions of the Object",
+            "value": 1.5000,
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300072633",
+                "type": "Type",
+                "_label": "depth (size/dimension)"
+              }
+            ],
+            "unit": {
+              "id": "http://vocab.getty.edu/aat/300379100",
+              "type": "Type",
+              "_label": "inches"
+            }
+          }
+        ],
+        "current_owner": {
+          "id": "http://vocab.getty.edu/ulan/500300517",
+          "type": "Group",
+          "_label": "Indianapolis Museum of Art at Newfields",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300312281",
+              "type": "Type",
+              "_label": "museums (institutions)"
+            }
+          ],
+          "acquired_title_through": [
+            {
+              "id": "https://data.discovernewfields.org/object/63355/IMA-acquisition",
+              "type": "Acquisition",
+              "_label": "IMA at Newfields Acquisition of the Object",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300157782",
+                  "type": "Type",
+                  "_label": "acquisition (collections management)"
+                }
+              ],
+              "took_place_at": [
+                {
+                  "id": "http://vocab.getty.edu/tgn/7012924",
+                  "type": "Place",
+                  "_label": "Indianapolis, Indiana"
+                }
+              ],
+              "timespan": {
+                "id": "https://data.discovernewfields.org/object/63355/IMA-acquisition/timespan",
+                "type": "TimeSpan",
+                "_label": "2005-12-15",
+                "begin_of_the_begin": "2005-12-15T00:00:00.000Z",
+                "end_of_the_end": "2005-12-15T00:00:00.000Z"
+              }
+            }
+          ]
+        },
+        "member_of": [
+          {
+            "id": "https://data.discovernewfields.org/collection/907",
+            "type": "Set",
+            "_label": "Collection of IMA at Newfields' Contemporary Department",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025976",
+                "type": "Type",
+                "_label": "collections (object groupings)"
+              }
+            ]
+          }
+        ],
+        "current_location": {
+          "id": "https://data.discovernewfields.org/thesauri/location/storage",
+          "type": "Place",
+          "_label": "IMA Storage"
+        },
+        "referred_to_by": [
+          {
+            "id": "https://data.discovernewfields.org/object/63355/credit-line",
+            "type": "LinguisticObject",
+            "_label": "IMA at Newfields Credit Line for the Object",
+            "content": "Gift of Gerald and Dorit Paul",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300026687",
+                "type": "Type",
+                "_label": "acknowledgments"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/63355/provenance-statement",
+            "type": "LinguisticObject",
+            "_label": "IMA Provenance Statement about the Object",
+            "content": "(Pace Gallery, New York, New York); Gerald and Dorit Paul, Indianapolis, Indiana; given to the Indianapolis Museum of Art in 2005.",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055863",
+                "type": "Type",
+                "_label": "provenance (history of ownership)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/63355/dimension-statement",
+            "type": "LinguisticObject",
+            "_label": "Notes about the Dimensions of the Object",
+            "content": "18-1/4 x 21-1/2 x 1-1/2 in.",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300266036",
+                "type": "Type",
+                "_label": "dimensions"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/63355/materials-statement",
+            "type": "LinguisticObject",
+            "_label": "Notes about the Materials of Which the Object is Composed",
+            "content": "mixed media on wood",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300010358",
+                "type": "Type",
+                "_label": "materials (substances)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "https://data.discovernewfields.org/object/63355/rights-statement",
+            "type": "LinguisticObject",
+            "_label": "Rights Statement",
+            "content": "© Fundació Antoni Tàpies/Artists Rights Society (ARS), New York / VEGAP, Madrid",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055547",
+                "type": "Type",
+                "_label": "legal concepts"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          },
+          {
+            "id": "http://rightsstatements.org/vocab/InC/1.0/",
+            "type": "LinguisticObject",
+            "_label": "In Copyright",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055547",
+                "type": "Type",
+                "_label": "legal concepts"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief texts"
+              }
+            ]
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "http://collection.imamuseum.org/artwork/40014/",
+            "type": "LinguisticObject",
+            "_label": "Homepage for the Object",
+            "classified_as": [
+              {
+                "id": "http://vocab/getty.edu/aat/300264578",
+                "type": "Type",
+                "_label": "Web pages (documents)"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300266277",
+                "type": "Type",
+                "_label": "home pages"
+              }
+            ],
+            "format": "text/html"
+          }
+        ]
+      }
+    },
+    {
       "64017": {
         "@context": "https://linked.art/ns/v1/linked-art.json",
         "id": "https://data.discovernewfields.org/object/64017",
@@ -10635,9 +11692,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/64017/accession-number",
+            "id": "https://data.discovernewfields.org/object/64017/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "2007.4A-B",
             "classified_as": [
               {
@@ -10703,8 +11760,8 @@
             "id": "https://data.discovernewfields.org/object/64017/production/timespan",
             "type": "TimeSpan",
             "_label": "mid-20th century",
-            "begin_of_the_begin": "1920-01-01T00:00:00",
-            "end_of_the_end": "1960-12-31T00:00:00"
+            "begin_of_the_begin": "1920-01-01T00:00:00.000Z",
+            "end_of_the_end": "1960-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -10779,8 +11836,8 @@
                 "id": "https://data.discovernewfields.org/object/64017/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2007-04-10",
-                "begin_of_the_begin": "2007-04-10T00:00:00",
-                "end_of_the_end": "2007-04-10T00:00:00"
+                "begin_of_the_begin": "2007-04-10T00:00:00.000Z",
+                "end_of_the_end": "2007-04-10T00:00:00.000Z"
               }
             }
           ]
@@ -10982,9 +12039,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/64018/accession-number",
+            "id": "https://data.discovernewfields.org/object/64018/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "2007.4A",
             "classified_as": [
               {
@@ -11056,8 +12113,8 @@
             "id": "https://data.discovernewfields.org/object/64018/production/timespan",
             "type": "TimeSpan",
             "_label": "1950-1970",
-            "begin_of_the_begin": "1950-01-01T00:00:00",
-            "end_of_the_end": "1970-12-31T00:00:00"
+            "begin_of_the_begin": "1950-01-01T00:00:00.000Z",
+            "end_of_the_end": "1970-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -11132,8 +12189,8 @@
                 "id": "https://data.discovernewfields.org/object/64018/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2007-04-10",
-                "begin_of_the_begin": "2007-04-10T00:00:00",
-                "end_of_the_end": "2007-04-10T00:00:00"
+                "begin_of_the_begin": "2007-04-10T00:00:00.000Z",
+                "end_of_the_end": "2007-04-10T00:00:00.000Z"
               }
             }
           ]
@@ -11303,9 +12360,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/64019/accession-number",
+            "id": "https://data.discovernewfields.org/object/64019/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "2007.4B",
             "classified_as": [
               {
@@ -11371,8 +12428,8 @@
             "id": "https://data.discovernewfields.org/object/64019/production/timespan",
             "type": "TimeSpan",
             "_label": "1920-1960",
-            "begin_of_the_begin": "1920-01-01T00:00:00",
-            "end_of_the_end": "1960-12-31T00:00:00"
+            "begin_of_the_begin": "1920-01-01T00:00:00.000Z",
+            "end_of_the_end": "1960-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -11447,8 +12504,8 @@
                 "id": "https://data.discovernewfields.org/object/64019/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2007-04-10",
-                "begin_of_the_begin": "2007-04-10T00:00:00",
-                "end_of_the_end": "2007-04-10T00:00:00"
+                "begin_of_the_begin": "2007-04-10T00:00:00.000Z",
+                "end_of_the_end": "2007-04-10T00:00:00.000Z"
               }
             }
           ]
@@ -11683,9 +12740,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/64628/accession-number",
+            "id": "https://data.discovernewfields.org/object/64628/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "2009.390.1-.16",
             "classified_as": [
               {
@@ -11769,8 +12826,8 @@
             "id": "https://data.discovernewfields.org/object/64628/production/timespan",
             "type": "TimeSpan",
             "_label": "1999",
-            "begin_of_the_begin": "1999-01-01T00:00:00",
-            "end_of_the_end": "1999-12-31T00:00:00"
+            "begin_of_the_begin": "1999-01-01T00:00:00.000Z",
+            "end_of_the_end": "1999-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -11863,8 +12920,8 @@
                 "id": "https://data.discovernewfields.org/object/64628/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2009-12-17",
-                "begin_of_the_begin": "2009-12-17T00:00:00",
-                "end_of_the_end": "2009-12-17T00:00:00"
+                "begin_of_the_begin": "2009-12-17T00:00:00.000Z",
+                "end_of_the_end": "2009-12-17T00:00:00.000Z"
               }
             }
           ]
@@ -11942,7 +12999,7 @@
             "id": "https://data.discovernewfields.org/object/64628/dimension-statement",
             "type": "LinguisticObject",
             "_label": "Notes about the Dimensions of the Object",
-            "content": "Largest: 7-7/8 × 8-3/4 × 4-3/4 in.",
+            "content": "Largest: 7-7/8 x 8-3/4 x 4-3/4 in.",
             "classified_as": [
               {
                 "id": "http://vocab.getty.edu/aat/300266036",
@@ -12185,9 +13242,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/67743/accession-number",
+            "id": "https://data.discovernewfields.org/object/67743/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "2009.646A-B",
             "classified_as": [
               {
@@ -12264,8 +13321,8 @@
             "id": "https://data.discovernewfields.org/object/67743/production/timespan",
             "type": "TimeSpan",
             "_label": "1969",
-            "begin_of_the_begin": "1969-01-01T00:00:00",
-            "end_of_the_end": "2000-12-31T00:00:00"
+            "begin_of_the_begin": "1969-01-01T00:00:00.000Z",
+            "end_of_the_end": "2000-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -12393,8 +13450,8 @@
                 "id": "https://data.discovernewfields.org/object/67743/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2009-12-31",
-                "begin_of_the_begin": "2009-12-31T00:00:00",
-                "end_of_the_end": "2009-12-31T00:00:00"
+                "begin_of_the_begin": "2009-12-31T00:00:00.000Z",
+                "end_of_the_end": "2009-12-31T00:00:00.000Z"
               }
             }
           ]
@@ -12632,9 +13689,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/68180/accession-number",
+            "id": "https://data.discovernewfields.org/object/68180/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "2009.390.1A-B",
             "classified_as": [
               {
@@ -12713,8 +13770,8 @@
             "id": "https://data.discovernewfields.org/object/68180/production/timespan",
             "type": "TimeSpan",
             "_label": "1999",
-            "begin_of_the_begin": "1999-01-01T00:00:00",
-            "end_of_the_end": "1999-12-31T00:00:00"
+            "begin_of_the_begin": "1999-01-01T00:00:00.000Z",
+            "end_of_the_end": "1999-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -12807,8 +13864,8 @@
                 "id": "https://data.discovernewfields.org/object/68180/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2009-12-17",
-                "begin_of_the_begin": "2009-12-17T00:00:00",
-                "end_of_the_end": "2009-12-17T00:00:00"
+                "begin_of_the_begin": "2009-12-17T00:00:00.000Z",
+                "end_of_the_end": "2009-12-17T00:00:00.000Z"
               }
             }
           ]
@@ -12990,9 +14047,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/68181/accession-number",
+            "id": "https://data.discovernewfields.org/object/68181/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "2009.390.1A",
             "classified_as": [
               {
@@ -13071,8 +14128,8 @@
             "id": "https://data.discovernewfields.org/object/68181/production/timespan",
             "type": "TimeSpan",
             "_label": "1999",
-            "begin_of_the_begin": "1999-01-01T00:00:00",
-            "end_of_the_end": "1999-12-31T00:00:00"
+            "begin_of_the_begin": "1999-01-01T00:00:00.000Z",
+            "end_of_the_end": "1999-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -13165,8 +14222,8 @@
                 "id": "https://data.discovernewfields.org/object/68181/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2009-12-17",
-                "begin_of_the_begin": "2009-12-17T00:00:00",
-                "end_of_the_end": "2009-12-17T00:00:00"
+                "begin_of_the_begin": "2009-12-17T00:00:00.000Z",
+                "end_of_the_end": "2009-12-17T00:00:00.000Z"
               }
             }
           ]
@@ -13343,9 +14400,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/68182/accession-number",
+            "id": "https://data.discovernewfields.org/object/68182/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "2009.390.1B",
             "classified_as": [
               {
@@ -13424,8 +14481,8 @@
             "id": "https://data.discovernewfields.org/object/68182/production/timespan",
             "type": "TimeSpan",
             "_label": "1999",
-            "begin_of_the_begin": "1999-01-01T00:00:00",
-            "end_of_the_end": "1999-12-31T00:00:00"
+            "begin_of_the_begin": "1999-01-01T00:00:00.000Z",
+            "end_of_the_end": "1999-12-31T23:59:59.999Z"
           }
         },
         "current_owner": {
@@ -13462,8 +14519,8 @@
                 "id": "https://data.discovernewfields.org/object/68182/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2009-12-17",
-                "begin_of_the_begin": "2009-12-17T00:00:00",
-                "end_of_the_end": "2009-12-17T00:00:00"
+                "begin_of_the_begin": "2009-12-17T00:00:00.000Z",
+                "end_of_the_end": "2009-12-17T00:00:00.000Z"
               }
             }
           ]
@@ -13625,9 +14682,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/68903/accession-number",
+            "id": "https://data.discovernewfields.org/object/68903/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "2010.217",
             "classified_as": [
               {
@@ -13699,8 +14756,8 @@
             "id": "https://data.discovernewfields.org/object/68903/production/timespan",
             "type": "TimeSpan",
             "_label": "2010",
-            "begin_of_the_begin": "2010-01-01T00:00:00",
-            "end_of_the_end": "2010-12-31T00:00:00"
+            "begin_of_the_begin": "2010-01-01T00:00:00.000Z",
+            "end_of_the_end": "2010-12-31T23:59:59.999Z"
           }
         },
         "current_owner": {
@@ -13737,8 +14794,8 @@
                 "id": "https://data.discovernewfields.org/object/68903/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2010-09-16",
-                "begin_of_the_begin": "2010-09-16T00:00:00",
-                "end_of_the_end": "2010-09-16T00:00:00"
+                "begin_of_the_begin": "2010-09-16T00:00:00.000Z",
+                "end_of_the_end": "2010-09-16T00:00:00.000Z"
               }
             }
           ]
@@ -13944,9 +15001,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/69062/accession-number",
+            "id": "https://data.discovernewfields.org/object/69062/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "2009.646A",
             "classified_as": [
               {
@@ -14023,8 +15080,8 @@
             "id": "https://data.discovernewfields.org/object/69062/production/timespan",
             "type": "TimeSpan",
             "_label": "2000",
-            "begin_of_the_begin": "2000-01-01T00:00:00",
-            "end_of_the_end": "2000-12-31T00:00:00"
+            "begin_of_the_begin": "2000-01-01T00:00:00.000Z",
+            "end_of_the_end": "2000-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -14117,8 +15174,8 @@
                 "id": "https://data.discovernewfields.org/object/69062/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2009-12-31",
-                "begin_of_the_begin": "2009-12-31T00:00:00",
-                "end_of_the_end": "2009-12-31T00:00:00"
+                "begin_of_the_begin": "2009-12-31T00:00:00.000Z",
+                "end_of_the_end": "2009-12-31T00:00:00.000Z"
               }
             }
           ]
@@ -14329,9 +15386,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/69063/accession-number",
+            "id": "https://data.discovernewfields.org/object/69063/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "2009.646B",
             "classified_as": [
               {
@@ -14408,8 +15465,8 @@
             "id": "https://data.discovernewfields.org/object/69063/production/timespan",
             "type": "TimeSpan",
             "_label": "2000",
-            "begin_of_the_begin": "2000-01-01T00:00:00",
-            "end_of_the_end": "2000-12-31T00:00:00"
+            "begin_of_the_begin": "2000-01-01T00:00:00.000Z",
+            "end_of_the_end": "2000-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -14466,8 +15523,8 @@
                 "id": "https://data.discovernewfields.org/object/69063/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2009-12-31",
-                "begin_of_the_begin": "2009-12-31T00:00:00",
-                "end_of_the_end": "2009-12-31T00:00:00"
+                "begin_of_the_begin": "2009-12-31T00:00:00.000Z",
+                "end_of_the_end": "2009-12-31T00:00:00.000Z"
               }
             }
           ]
@@ -14673,9 +15730,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/81052/accession-number",
+            "id": "https://data.discovernewfields.org/object/81052/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "2013.298",
             "classified_as": [
               {
@@ -14751,7 +15808,7 @@
           "timespan": {
             "id": "https://data.discovernewfields.org/object/81052/production/timespan",
             "type": "TimeSpan",
-            "_label": "Fall 2006-2007"
+            "_label": "fall/winter 2006–2007"
           }
         },
         "dimension": [
@@ -14843,8 +15900,8 @@
                 "id": "https://data.discovernewfields.org/object/81052/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2013-12-12",
-                "begin_of_the_begin": "2013-12-12T00:00:00",
-                "end_of_the_end": "2013-12-12T00:00:00"
+                "begin_of_the_begin": "2013-12-12T00:00:00.000Z",
+                "end_of_the_end": "2013-12-12T00:00:00.000Z"
               }
             }
           ]
@@ -14864,16 +15921,9 @@
           }
         ],
         "current_location": {
-          "id": "https://data.discovernewfields.org/thesauri/location/W309",
+          "id": "https://data.discovernewfields.org/thesauri/location/storage",
           "type": "Place",
-          "_label": "Gerald and Dorit Paul Galleries",
-          "clasified_as": [
-            {
-              "id": "http://vocab.getty.edu/aat/300240057",
-              "type": "Type",
-              "_label": "galleries (display spaces)"
-            }
-          ]
+          "_label": "IMA Storage"
         },
         "referred_to_by": [
           {
@@ -15062,9 +16112,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/82696/accession-number",
+            "id": "https://data.discovernewfields.org/object/82696/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "2013.443A-E.4",
             "classified_as": [
               {
@@ -15130,8 +16180,8 @@
             "id": "https://data.discovernewfields.org/object/82696/production/timespan",
             "type": "TimeSpan",
             "_label": "fabricated 2012",
-            "begin_of_the_begin": "2012-01-01T00:00:00",
-            "end_of_the_end": "2012-12-31T00:00:00"
+            "begin_of_the_begin": "2012-01-01T00:00:00.000Z",
+            "end_of_the_end": "2012-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -15440,8 +16490,8 @@
                 "id": "https://data.discovernewfields.org/object/82696/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2013-12-12",
-                "begin_of_the_begin": "2013-12-12T00:00:00",
-                "end_of_the_end": "2013-12-12T00:00:00"
+                "begin_of_the_begin": "2013-12-12T00:00:00.000Z",
+                "end_of_the_end": "2013-12-12T00:00:00.000Z"
               }
             }
           ]
@@ -15648,6 +16698,11 @@
         ],
         "part": [
           {
+            "id": "https://data.discovernewfields.org/object/85259",
+            "type": "HumanMadeObject",
+            "_label": "element C for Five Brushstrokes"
+          },
+          {
             "id": "https://data.discovernewfields.org/object/85257",
             "type": "HumanMadeObject",
             "_label": "element A for Five Brushstrokes"
@@ -15656,11 +16711,6 @@
             "id": "https://data.discovernewfields.org/object/85258",
             "type": "HumanMadeObject",
             "_label": "element B for Five Brushstrokes"
-          },
-          {
-            "id": "https://data.discovernewfields.org/object/85259",
-            "type": "HumanMadeObject",
-            "_label": "element C for Five Brushstrokes"
           },
           {
             "id": "https://data.discovernewfields.org/object/85260",
@@ -15748,9 +16798,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/85257/accession-number",
+            "id": "https://data.discovernewfields.org/object/85257/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "2013.443A",
             "classified_as": [
               {
@@ -15816,8 +16866,8 @@
             "id": "https://data.discovernewfields.org/object/85257/production/timespan",
             "type": "TimeSpan",
             "_label": "fabricated 2012",
-            "begin_of_the_begin": "2012-01-01T00:00:00",
-            "end_of_the_end": "2012-12-31T00:00:00"
+            "begin_of_the_begin": "2012-01-01T00:00:00.000Z",
+            "end_of_the_end": "2012-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -15928,8 +16978,8 @@
                 "id": "https://data.discovernewfields.org/object/85257/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2013-12-12",
-                "begin_of_the_begin": "2013-12-12T00:00:00",
-                "end_of_the_end": "2013-12-12T00:00:00"
+                "begin_of_the_begin": "2013-12-12T00:00:00.000Z",
+                "end_of_the_end": "2013-12-12T00:00:00.000Z"
               }
             }
           ]
@@ -16157,9 +17207,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/89163/accession-number",
+            "id": "https://data.discovernewfields.org/object/89163/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "80.262A",
             "classified_as": [
               {
@@ -16211,8 +17261,8 @@
             "id": "https://data.discovernewfields.org/object/89163/production/timespan",
             "type": "TimeSpan",
             "_label": "1980",
-            "begin_of_the_begin": "1980-01-01T00:00:00",
-            "end_of_the_end": "1980-12-31T00:00:00"
+            "begin_of_the_begin": "1980-01-01T00:00:00.000Z",
+            "end_of_the_end": "1980-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -16303,8 +17353,8 @@
                 "id": "https://data.discovernewfields.org/object/89163/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1980-09-18",
-                "begin_of_the_begin": "1980-09-18T00:00:00",
-                "end_of_the_end": "1980-09-18T00:00:00"
+                "begin_of_the_begin": "1980-09-18T00:00:00.000Z",
+                "end_of_the_end": "1980-09-18T00:00:00.000Z"
               }
             }
           ]
@@ -16503,9 +17553,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/89164/accession-number",
+            "id": "https://data.discovernewfields.org/object/89164/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "80.262B",
             "classified_as": [
               {
@@ -16557,8 +17607,8 @@
             "id": "https://data.discovernewfields.org/object/89164/production/timespan",
             "type": "TimeSpan",
             "_label": "1980",
-            "begin_of_the_begin": "1980-01-01T00:00:00",
-            "end_of_the_end": "1980-12-31T00:00:00"
+            "begin_of_the_begin": "1980-01-01T00:00:00.000Z",
+            "end_of_the_end": "1980-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -16649,8 +17699,8 @@
                 "id": "https://data.discovernewfields.org/object/89164/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1980-09-18",
-                "begin_of_the_begin": "1980-09-18T00:00:00",
-                "end_of_the_end": "1980-09-18T00:00:00"
+                "begin_of_the_begin": "1980-09-18T00:00:00.000Z",
+                "end_of_the_end": "1980-09-18T00:00:00.000Z"
               }
             }
           ]
@@ -16864,9 +17914,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/89367/accession-number",
+            "id": "https://data.discovernewfields.org/object/89367/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "16.924A",
             "classified_as": [
               {
@@ -16938,8 +17988,8 @@
             "id": "https://data.discovernewfields.org/object/89367/production/timespan",
             "type": "TimeSpan",
             "_label": "1839",
-            "begin_of_the_begin": "1839-01-01T00:00:00",
-            "end_of_the_end": "1839-12-31T00:00:00"
+            "begin_of_the_begin": "1839-01-01T00:00:00.000Z",
+            "end_of_the_end": "1839-12-31T23:59:59.999Z"
           }
         },
         "current_owner": {
@@ -16971,7 +18021,14 @@
                   "type": "Place",
                   "_label": "Indianapolis, Indiana"
                 }
-              ]
+              ],
+              "timespan": {
+                "id": "https://data.discovernewfields.org/object/89367/IMA-acquisition/timespan",
+                "type": "TimeSpan",
+                "_label": "1916",
+                "begin_of_the_begin": "1916-01-01T00:00:00.000Z",
+                "end_of_the_end": "1916-12-31T00:00:00.000Z"
+              }
             }
           ]
         },
@@ -17236,9 +18293,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/89368/accession-number",
+            "id": "https://data.discovernewfields.org/object/89368/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "16.924B",
             "classified_as": [
               {
@@ -17310,8 +18367,8 @@
             "id": "https://data.discovernewfields.org/object/89368/production/timespan",
             "type": "TimeSpan",
             "_label": "1839",
-            "begin_of_the_begin": "1839-01-01T00:00:00",
-            "end_of_the_end": "1839-12-31T00:00:00"
+            "begin_of_the_begin": "1839-01-01T00:00:00.000Z",
+            "end_of_the_end": "1839-12-31T23:59:59.999Z"
           }
         },
         "current_owner": {
@@ -17343,7 +18400,14 @@
                   "type": "Place",
                   "_label": "Indianapolis, Indiana"
                 }
-              ]
+              ],
+              "timespan": {
+                "id": "https://data.discovernewfields.org/object/89368/IMA-acquisition/timespan",
+                "type": "TimeSpan",
+                "_label": "1916",
+                "begin_of_the_begin": "1916-01-01T00:00:00.000Z",
+                "end_of_the_end": "1916-12-31T00:00:00.000Z"
+              }
             }
           ]
         },
@@ -17608,9 +18672,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/89369/accession-number",
+            "id": "https://data.discovernewfields.org/object/89369/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "16.924C",
             "classified_as": [
               {
@@ -17682,8 +18746,8 @@
             "id": "https://data.discovernewfields.org/object/89369/production/timespan",
             "type": "TimeSpan",
             "_label": "1839",
-            "begin_of_the_begin": "1839-01-01T00:00:00",
-            "end_of_the_end": "1839-12-31T00:00:00"
+            "begin_of_the_begin": "1839-01-01T00:00:00.000Z",
+            "end_of_the_end": "1839-12-31T23:59:59.999Z"
           }
         },
         "current_owner": {
@@ -17715,7 +18779,14 @@
                   "type": "Place",
                   "_label": "Indianapolis, Indiana"
                 }
-              ]
+              ],
+              "timespan": {
+                "id": "https://data.discovernewfields.org/object/89369/IMA-acquisition/timespan",
+                "type": "TimeSpan",
+                "_label": "1916",
+                "begin_of_the_begin": "1916-01-01T00:00:00.000Z",
+                "end_of_the_end": "1916-12-31T00:00:00.000Z"
+              }
             }
           ]
         },
@@ -17983,9 +19054,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/90817/accession-number",
+            "id": "https://data.discovernewfields.org/object/90817/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "2017.64A-C",
             "classified_as": [
               {
@@ -18050,8 +19121,8 @@
             "id": "https://data.discovernewfields.org/object/90817/production/timespan",
             "type": "TimeSpan",
             "_label": "1956",
-            "begin_of_the_begin": "1956-01-01T00:00:00",
-            "end_of_the_end": "1956-12-31T00:00:00"
+            "begin_of_the_begin": "1956-01-01T00:00:00.000Z",
+            "end_of_the_end": "1956-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -18252,8 +19323,8 @@
                 "id": "https://data.discovernewfields.org/object/90817/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2017-04-13",
-                "begin_of_the_begin": "2017-04-13T00:00:00",
-                "end_of_the_end": "2017-04-13T00:00:00"
+                "begin_of_the_begin": "2017-04-13T00:00:00.000Z",
+                "end_of_the_end": "2017-04-13T00:00:00.000Z"
               }
             }
           ]
@@ -18449,9 +19520,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/92158/accession-number",
+            "id": "https://data.discovernewfields.org/object/92158/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "2017.64A",
             "classified_as": [
               {
@@ -18516,8 +19587,8 @@
             "id": "https://data.discovernewfields.org/object/92158/production/timespan",
             "type": "TimeSpan",
             "_label": "1956",
-            "begin_of_the_begin": "1956-01-01T00:00:00",
-            "end_of_the_end": "1956-12-31T00:00:00"
+            "begin_of_the_begin": "1956-01-01T00:00:00.000Z",
+            "end_of_the_end": "1956-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -18610,8 +19681,8 @@
                 "id": "https://data.discovernewfields.org/object/92158/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2017-04-13",
-                "begin_of_the_begin": "2017-04-13T00:00:00",
-                "end_of_the_end": "2017-04-13T00:00:00"
+                "begin_of_the_begin": "2017-04-13T00:00:00.000Z",
+                "end_of_the_end": "2017-04-13T00:00:00.000Z"
               }
             }
           ]
@@ -18775,9 +19846,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/92159/accession-number",
+            "id": "https://data.discovernewfields.org/object/92159/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "2017.64B",
             "classified_as": [
               {
@@ -18842,8 +19913,8 @@
             "id": "https://data.discovernewfields.org/object/92159/production/timespan",
             "type": "TimeSpan",
             "_label": "1956",
-            "begin_of_the_begin": "1956-01-01T00:00:00",
-            "end_of_the_end": "1956-12-31T00:00:00"
+            "begin_of_the_begin": "1956-01-01T00:00:00.000Z",
+            "end_of_the_end": "1956-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -18936,8 +20007,8 @@
                 "id": "https://data.discovernewfields.org/object/92159/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2017-04-13",
-                "begin_of_the_begin": "2017-04-13T00:00:00",
-                "end_of_the_end": "2017-04-13T00:00:00"
+                "begin_of_the_begin": "2017-04-13T00:00:00.000Z",
+                "end_of_the_end": "2017-04-13T00:00:00.000Z"
               }
             }
           ]
@@ -19101,9 +20172,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/92160/accession-number",
+            "id": "https://data.discovernewfields.org/object/92160/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "2017.64C",
             "classified_as": [
               {
@@ -19168,8 +20239,8 @@
             "id": "https://data.discovernewfields.org/object/92160/production/timespan",
             "type": "TimeSpan",
             "_label": "1956",
-            "begin_of_the_begin": "1956-01-01T00:00:00",
-            "end_of_the_end": "1956-12-31T00:00:00"
+            "begin_of_the_begin": "1956-01-01T00:00:00.000Z",
+            "end_of_the_end": "1956-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -19262,8 +20333,8 @@
                 "id": "https://data.discovernewfields.org/object/92160/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "2017-04-13",
-                "begin_of_the_begin": "2017-04-13T00:00:00",
-                "end_of_the_end": "2017-04-13T00:00:00"
+                "begin_of_the_begin": "2017-04-13T00:00:00.000Z",
+                "end_of_the_end": "2017-04-13T00:00:00.000Z"
               }
             }
           ]
@@ -19437,9 +20508,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/92384/accession-number",
+            "id": "https://data.discovernewfields.org/object/92384/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "13.1A",
             "classified_as": [
               {
@@ -19492,8 +20563,8 @@
             "id": "https://data.discovernewfields.org/object/92384/production/timespan",
             "type": "TimeSpan",
             "_label": "about 1800–1850",
-            "begin_of_the_begin": "1801-01-01T00:00:00",
-            "end_of_the_end": "1900-12-31T00:00:00"
+            "begin_of_the_begin": "1801-01-01T00:00:00.000Z",
+            "end_of_the_end": "1900-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -19640,8 +20711,8 @@
                 "id": "https://data.discovernewfields.org/object/92384/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1913-01-02",
-                "begin_of_the_begin": "1913-01-02T00:00:00",
-                "end_of_the_end": "1913-01-02T00:00:00"
+                "begin_of_the_begin": "1913-01-02T00:00:00.000Z",
+                "end_of_the_end": "1913-01-02T00:00:00.000Z"
               }
             }
           ]
@@ -19814,9 +20885,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/92385/accession-number",
+            "id": "https://data.discovernewfields.org/object/92385/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "13.1B",
             "classified_as": [
               {
@@ -19869,8 +20940,8 @@
             "id": "https://data.discovernewfields.org/object/92385/production/timespan",
             "type": "TimeSpan",
             "_label": "about 1800–1850",
-            "begin_of_the_begin": "1801-01-01T00:00:00",
-            "end_of_the_end": "1900-12-31T00:00:00"
+            "begin_of_the_begin": "1801-01-01T00:00:00.000Z",
+            "end_of_the_end": "1900-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -19963,8 +21034,8 @@
                 "id": "https://data.discovernewfields.org/object/92385/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1913-01-02",
-                "begin_of_the_begin": "1913-01-02T00:00:00",
-                "end_of_the_end": "1913-01-02T00:00:00"
+                "begin_of_the_begin": "1913-01-02T00:00:00.000Z",
+                "end_of_the_end": "1913-01-02T00:00:00.000Z"
               }
             }
           ]
@@ -20137,9 +21208,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/92386/accession-number",
+            "id": "https://data.discovernewfields.org/object/92386/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "13.1C",
             "classified_as": [
               {
@@ -20192,8 +21263,8 @@
             "id": "https://data.discovernewfields.org/object/92386/production/timespan",
             "type": "TimeSpan",
             "_label": "about 1800–1850",
-            "begin_of_the_begin": "1801-01-01T00:00:00",
-            "end_of_the_end": "1900-12-31T00:00:00"
+            "begin_of_the_begin": "1801-01-01T00:00:00.000Z",
+            "end_of_the_end": "1900-12-31T23:59:59.999Z"
           }
         },
         "dimension": [
@@ -20286,8 +21357,8 @@
                 "id": "https://data.discovernewfields.org/object/92386/IMA-acquisition/timespan",
                 "type": "TimeSpan",
                 "_label": "1913-01-02",
-                "begin_of_the_begin": "1913-01-02T00:00:00",
-                "end_of_the_end": "1913-01-02T00:00:00"
+                "begin_of_the_begin": "1913-01-02T00:00:00.000Z",
+                "end_of_the_end": "1913-01-02T00:00:00.000Z"
               }
             }
           ]
@@ -20450,9 +21521,9 @@
             ]
           },
           {
-            "id": "https://data.discovernewfields.org/object/93739/accession-number",
+            "id": "https://data.discovernewfields.org/object/93739/object-number",
             "type": "Identifier",
-            "_label": "IMA at Newfields Accession Number for the Object",
+            "_label": "IMA at Newfields Object Number for the Object",
             "content": "73.131.6A",
             "classified_as": [
               {
@@ -20608,7 +21679,14 @@
                   "type": "Place",
                   "_label": "Indianapolis, Indiana"
                 }
-              ]
+              ],
+              "timespan": {
+                "id": "https://data.discovernewfields.org/object/93739/IMA-acquisition/timespan",
+                "type": "TimeSpan",
+                "_label": "1973-12-27",
+                "begin_of_the_begin": "1973-12-27T00:00:00.000Z",
+                "end_of_the_end": "1973-12-27T00:00:00.000Z"
+              }
             }
           ]
         },
