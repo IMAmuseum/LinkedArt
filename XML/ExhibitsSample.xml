@@ -27,12 +27,8 @@
     text short      EveExhibitionStatus
     text short      EveEventNumber
     text long       EveEventTitle
-    table           TasCommencementDate0
-      date            TasCommencementDate
-    end
-    table           TasCompletionDate0
-      date            TasCompletionDate
-    end
+    date            DatCommencementDate
+    date            DatCompletionDate
     text long       EveEventDescription
     table           Objects
       integer         irn
@@ -126,12 +122,8 @@
         text short      EveExhibitionStatus
         text short      EveEventNumber
         text long       EveEventTitle
-        table           TasCommencementDate0
-          date            TasCommencementDate
-        end
-        table           TasCompletionDate0
-          date            TasCompletionDate
-        end
+        date            DatCommencementDate
+        date            DatCompletionDate
         text short      AdmPublishWebNoPassword
       end
     end
@@ -142,12 +134,8 @@
       text short      EveInternalOrExternalEvent
       text short      EveEventNumber
       text long       EveEventTitle
-      table           TasCommencementDate0
-        date            TasCommencementDate
-      end
-      table           TasCompletionDate0
-        date            TasCompletionDate
-      end
+      date            DatCommencementDate
+      date            DatCompletionDate
       text short      AdmPublishWebNoPassword
     end
   end
@@ -163,6 +151,8 @@
     <atom name="EveExhibitionStatus">Completed</atom>
     <atom name="EveEventNumber">EX2008.27</atom>
     <atom name="EveEventTitle">Mark Lewis: Rear Projection: Molly Parker</atom>
+    <atom name="DatCommencementDate">2008-11-07</atom>
+    <atom name="DatCompletionDate">2009-04-05</atom>
     <atom name="EveEventDescription">Since the mid 1990s, London-based artist Mark Lewis has made short films that explore the concept of the moving image.  By isolating cinematic techniques such as the single tracking shot or reverse zoom, Lewis structures his films to bring attention to the technical and descriptive conventions of filmmaking. Lewis' works bring focus to seemingly secondary information-background details such as landscape, everyday architecture, and film extras-repositioning these elements so that they occupy the central role.
 
 For his exhibition in the Carmen &amp; Mark Holeman Video Gallery, IMA presents Lewis' 2006 work Rear Projection: Molly Parker, which looks to the outmoded technique of rear projection (now replaced by blue screen technology).  Engaging a technique originally meant to communicate realism, Rear Projection: Molly Parker draws attention to its own artifice and creates a mysterious disjuncture of time and space.</atom>
@@ -247,6 +237,8 @@ For his exhibition in the Carmen &amp; Mark Holeman Video Gallery, IMA presents 
     <atom name="EveExhibitionStatus">Completed</atom>
     <atom name="EveEventNumber">EX2012.26</atom>
     <atom name="EveEventTitle">Allora &amp; Calzadilla: The Vieques Series</atom>
+    <atom name="DatCommencementDate">2012-03-08</atom>
+    <atom name="DatCompletionDate">2012-10-14</atom>
     <atom name="EveEventDescription">"Allora &amp; Calzadilla: The Vieques Series" is an exhibition of short videos by the artists Jennifer Allora &amp; Guillermo Calzadilla filmed on the Puerto Rican island of Vieques. This island was controlled primarily by the U.S. Navy until 2003, when military exercises ceased and environmental remediation began. The videos, which have never before been presented together in the U.S., include "Returning a Sound" (2004), "Under Discussion" (2005) and "Half Mast\Full Mast" (2011). As the Vieques Series demonstrates, the cessation of the military from the land is a victory by the locals that has initiated a longer sequence of events. The residents of Vieques continue to debate about the best future for the recently demilitarized land and strive for a democratic process of negotiation among the islands residents rather than a future mandated by the U.S. government or wealthy investors.</atom>
     <table name="Objects">
       <tuple>
@@ -297,6 +289,8 @@ For his exhibition in the Carmen &amp; Mark Holeman Video Gallery, IMA presents 
     <atom name="EveExhibitionStatus">Completed</atom>
     <atom name="EveEventNumber">EX2012.1</atom>
     <atom name="EveEventTitle">Snapshot: Painters and Photography, Bonnard to Vuillard</atom>
+    <atom name="DatCommencementDate">2012-06-08</atom>
+    <atom name="DatCompletionDate">2012-09-02</atom>
     <atom name="EveEventDescription">The invention of the handheld Kodak camera in 1888 expanded the practice of photography to the general public. Artists were not immune to its allure, and during the 1890s several Post-Impressionists made intriguing photographic experiments that recorded their daily lives and related directly to how they composed their oil paintings and works on paper. Featured artists include some of the finest interpreters of the new "snapshot" medium, such as Pierre Bonnard, Maurice Denis, Félix Vallotton, Edouard Vuillard, all members of the Nabi group, as well as Dutch artist Georg Breitner and the Belgian Henri Evenepoel. Their photographs, largely unknown, will be displayed alongside their paintings and prints, offering new insights into the works for which they are renowned.
 
 The exhibition features approximately 200 photographs, 40 paintings and 60 works on paper, including interiors, urban scenes and portraiture. Exhibition curators are Elizabeth Easton, director of the Center for Curatorial Leadership; Eliza Rathbone, chief curator, The Phillips Collection, Washington, D.C., and Ellen Lee, Wood-Pulliam Senior Curator, Indianapolis Museum of Art. "Bonnard to Vuillard" will open at the Van Gogh Museum in Fall 2011, and then travel to the Phillips Collection for a February 2012 opening before opening at the IMA in June 2012.</atom>
@@ -11259,6 +11253,8 @@ Portrait de Monsieur et Madame Claude Terrasse</atom>
         <atom name="EveInternalOrExternalEvent">Internal</atom>
         <atom name="EveEventNumber">EX2011.23</atom>
         <atom name="EveEventTitle">*TRAVELING* Snapshot: Painters and Photography 1888 - 1915</atom>
+        <atom name="DatCommencementDate">2011-10-14</atom>
+        <atom name="DatCompletionDate">2012-01-08</atom>
         <atom name="AdmPublishWebNoPassword">Yes</atom>
       </tuple>
       <tuple>
@@ -11268,6 +11264,8 @@ Portrait de Monsieur et Madame Claude Terrasse</atom>
         <atom name="EveInternalOrExternalEvent">Internal</atom>
         <atom name="EveEventNumber">EX2012.18</atom>
         <atom name="EveEventTitle">*TRAVELING* Snapshot: Painters and Photography, Bonnard to Vuillard</atom>
+        <atom name="DatCommencementDate">2012-02-04</atom>
+        <atom name="DatCompletionDate">2012-05-06</atom>
         <atom name="AdmPublishWebNoPassword">Yes</atom>
       </tuple>
     </table>
@@ -11281,6 +11279,8 @@ Portrait de Monsieur et Madame Claude Terrasse</atom>
     <atom name="EveExhibitionStatus">Completed</atom>
     <atom name="EveEventNumber">EX2008.5</atom>
     <atom name="EveEventTitle">Breaking the Mode: Contemporary Fashion from the Permanent Collection, Los Angeles County Museum of Art</atom>
+    <atom name="DatCommencementDate">2008-03-16</atom>
+    <atom name="DatCompletionDate">2008-06-01</atom>
     <atom name="EveEventDescription">This extensive exhibition of contemporary fashion from LACMAs permanent collection examines designers who have challenged the canons of the bodys fashionable silhouette, revolutionized methods of garment construction, rejected the formulaic use of materials and techniques, and exploited new technology in textile production. Focusing on the dramatic change in the aesthetics of fashionable dress over the past 25 years, the exhibition is divided into four thematic areas: construction, materials, form, and concept. Among the more than 40 international designers whose work will be exhibited are Jean-Paul Gaultier, Rei Kawakubo, Martin Margiela, Issey Miyake, Thierry Mugler, and Yohji Yamamoto, with historical examples by Gilbert Adrian, Christian Dior, and Charles James. The IMA will be the second of four venues to host this touring exhibition.</atom>
     <table name="Objects">
       <tuple>
@@ -17151,6 +17151,8 @@ Portrait de Monsieur et Madame Claude Terrasse</atom>
     <atom name="EveExhibitionStatus">Completed</atom>
     <atom name="EveEventNumber">EX2008.19</atom>
     <atom name="EveEventTitle">Watercolor Society of Indiana: Annual Juried Show</atom>
+    <atom name="DatCommencementDate">2008-09-28</atom>
+    <atom name="DatCompletionDate">2008-10-25</atom>
     <atom name="EveEventDescription">The 25th annual juried exhibition of paintings by the Watercolor Society of Indiana featuring works in a variety of styles.</atom>
     <table name="Objects">
       <tuple>
@@ -17201,6 +17203,8 @@ Portrait de Monsieur et Madame Claude Terrasse</atom>
     <atom name="EveExhibitionStatus">Completed</atom>
     <atom name="EveEventNumber">EX2014.4</atom>
     <atom name="EveEventTitle">Georgia O'Keeffe and the Southwestern Still Life</atom>
+    <atom name="DatCommencementDate">2014-11-02</atom>
+    <atom name="DatCompletionDate">2015-02-15</atom>
     <atom name="EveEventDescription">The ancient land and rich cultural traditions of the Southwest region of the United States fueled the imaginations of early 20th century artists like Georgia O'Keeffe. The evocative still life paintings produced by these artists helped attract audiences to visit the Southwest and, still today, provide a fascinating example of arts capacity to document the essence of a place and time. Georgia OKeeffe and the Southwestern Still Life tells the story of the Southwest as seen through the eyes of the artis who lived there. Focusing on still lifes  representations of an object or groups of objects  the exhibition features more than 50 works that provide fascinating examples of arts capacity to capture the essence of a particular place.
 
 Organized by Joseph S. Czestochowski, Produced by International Arts®. Curated by Charles C. Eldredge.</atom>
@@ -19807,6 +19811,8 @@ Organized by Joseph S. Czestochowski, Produced by International Arts®. Curated 
     <atom name="EveExhibitionStatus">Completed</atom>
     <atom name="EveEventNumber">EX2014.17</atom>
     <atom name="EveEventTitle">Coat of Many Colors - W310</atom>
+    <atom name="DatCommencementDate">2014-08-22</atom>
+    <atom name="DatCompletionDate">2015-03-01</atom>
     <atom name="EveEventDescription">Science and art come together in the IMAs Conservation Science Laboratory where in-house scientists study works of art to learn more about them and how to best conserve them. Using a recently acquired Uzbek garment, Coat of Many Colors will illustrate how scientific imaging and dye analysis has narrowed the possible creation date on this object and contributed to our understanding of the influx of modern European synthetic colorants into traditional Central Asian textile arts of the early 20th century.
 Installation begins on 8/18/2014.</atom>
     <table name="Objects">
@@ -19871,6 +19877,8 @@ Installation begins on 8/18/2014.</atom>
     <atom name="EveExhibitionStatus">Completed</atom>
     <atom name="EveEventNumber">EX2014.18</atom>
     <atom name="EveEventTitle">Continuing the Work of the Monuments Men - C305</atom>
+    <atom name="DatCommencementDate">2014-09-05</atom>
+    <atom name="DatCompletionDate">2015-11-22</atom>
     <atom name="EveEventDescription">The 2014 release of the Hollywood movie The Monuments Men created much public interest in the issue of Nazi art looting before and during WWII. It also increased awareness of Allied efforts to locate, safeguard, and restitute cultural property after the war. Examination of one work from the IMAs European collection reveals the complexities of provenance research, and the difficulties sometimes involved in reconstructing a paintings history of ownership.
 
 Install single artwork for masterpiece exhibition in newly renovated Conant gallery C305:
@@ -19939,6 +19947,8 @@ Installation takes place 9/2/2014-9/3/2014.</atom>
     <atom name="EveExhibitionStatus">Completed</atom>
     <atom name="EveEventNumber">EX2015.6</atom>
     <atom name="EveEventTitle">On Stage!</atom>
+    <atom name="DatCommencementDate">2015-03-13</atom>
+    <atom name="DatCompletionDate">2015-08-16</atom>
     <atom name="EveEventDescription">Explore the dramatic facial expressions of Japanese kabuki theater and the ethereal spirituality of the Noh mask through prints from the 18th through 20th centuries.</atom>
     <table name="Objects">
       <tuple>
@@ -20935,6 +20945,8 @@ Installation takes place 9/2/2014-9/3/2014.</atom>
     <atom name="EveExhibitionStatus">Completed</atom>
     <atom name="EveEventNumber">EX2015.5</atom>
     <atom name="EveEventTitle">Revved Up: Cars in Art</atom>
+    <atom name="DatCommencementDate">2015-04-30</atom>
+    <atom name="DatCompletionDate">2016-01-31</atom>
     <atom name="EveEventDescription">The ubiquity of the automobile in 20th-century America has led artists to reflect on its presence and significance in society.  From paintings to sculptures to prints and photographs, a number of works in the IMAs collection depict automobiles and/or th architectural structures that accommodate them in our environment (bridges, gas stations, highways, diners etc.).  Still other artists create abstract compositions that focus on particular aspects of the unique forms, or features, of automobiles.
 
 Installation begins 4/27/2015.</atom>
@@ -21616,6 +21628,8 @@ Installation begins 4/27/2015.</atom>
         <atom name="EveInternalOrExternalEvent">Internal</atom>
         <atom name="EveEventNumber">ROT2015.26</atom>
         <atom name="EveEventTitle">Calame for Revved Up - K405, K201</atom>
+        <atom name="DatCommencementDate">2015-04-28</atom>
+        <atom name="DatCompletionDate">2015-10-26</atom>
         <atom name="AdmPublishWebNoPassword">No</atom>
       </tuple>
     </table>
@@ -21629,6 +21643,8 @@ Installation begins 4/27/2015.</atom>
     <atom name="EveExhibitionStatus">Completed</atom>
     <atom name="EveEventNumber">EX2011.21</atom>
     <atom name="EveEventTitle">Viewing Project: Above and Below</atom>
+    <atom name="DatCommencementDate">2011-09-15</atom>
+    <atom name="DatCompletionDate">2012-11-06</atom>
     <atom name="EveEventDescription">8th installment of the Viewing Project, involving a model of Maya Lin's Above and Below, displayed in the Davis Lab.</atom>
     <table name="Objects">
       <tuple>
@@ -21716,14 +21732,8 @@ Installation begins 4/27/2015.</atom>
     <atom name="EveExhibitionStatus">Completed</atom>
     <atom name="EveEventNumber">EX2007.8</atom>
     <atom name="EveEventTitle">Roman Art from the Louvre</atom>
-    <table name="TasCommencementDate0">
-      <tuple>
-        <atom name="TasCommencementDate">2007-11-06</atom>
-      </tuple>
-      <tuple>
-        <atom name="TasCommencementDate">2007-11-08</atom>
-      </tuple>
-    </table>
+    <atom name="DatCommencementDate">2007-09-23</atom>
+    <atom name="DatCompletionDate">2008-01-06</atom>
     <atom name="EveEventDescription">Selected by the Louvre curators from their unsurpassed collection of Roman antiquities, these 187 prime and noteworthy examples of Roman sculpture, fresco, mosaic, metalwork, ceramics and glass exemplify the grandeur, wealth and influence of Rome during the four centuries of her hegemony, two millenia ago. The IMA has never before hosted an exhibition of the dawning of Western art nor partnered with the Louvre, an institution as rich in the best that Rome produced as it is in the arts of so many other nations and times.</atom>
     <table name="Objects">
       <tuple>
@@ -27217,6 +27227,8 @@ Installation begins 4/27/2015.</atom>
     <atom name="EveExhibitionStatus">Completed</atom>
     <atom name="EveEventNumber">EX2010.15</atom>
     <atom name="EveEventTitle">*TRAVELING* European Design Since 1985: Shaping the New Century</atom>
+    <atom name="DatCommencementDate">2010-10-06</atom>
+    <atom name="DatCompletionDate">2011-01-09</atom>
     <atom name="EveEventDescription"></atom>
     <table name="Objects">
       <tuple>
@@ -27279,6 +27291,8 @@ Installation begins 4/27/2015.</atom>
           <atom name="EveExhibitionStatus">Completed</atom>
           <atom name="EveEventNumber">EX2009.2</atom>
           <atom name="EveEventTitle">European Design Since 1985: Shaping the New Century</atom>
+          <atom name="DatCommencementDate">2009-03-08</atom>
+          <atom name="DatCompletionDate">2009-06-21</atom>
           <atom name="AdmPublishWebNoPassword">Yes</atom>
         </tuple>
       </tuple>
@@ -27293,6 +27307,8 @@ Installation begins 4/27/2015.</atom>
     <atom name="EveExhibitionStatus">Completed</atom>
     <atom name="EveEventNumber">EX2011.3</atom>
     <atom name="EveEventTitle">Hard Truths: The Art of Thornton Dial</atom>
+    <atom name="DatCommencementDate">2011-02-25</atom>
+    <atom name="DatCompletionDate">2011-09-18</atom>
     <atom name="EveEventDescription">Thornton Dial is a keen observer of the human spectacle and its narratives of corruption and moral strength, folly and triumph. As an artist, he has spent the last two decades exploring the truth of American history and culture in all its complexities and contradictions. This exhibition presents a major survey of Dial's work, an epic gathering of over fifty large-scale paintings, sculptures, and wall assemblages that address the most compelling issues of our time.</atom>
     <table name="Objects">
       <tuple>
@@ -30111,6 +30127,8 @@ Installation begins 4/27/2015.</atom>
         <atom name="EveInternalOrExternalEvent">Internal</atom>
         <atom name="EveEventNumber">EX2012.27</atom>
         <atom name="EveEventTitle">*TRAVELING* Hard Truths: The Art of Thornton Dial</atom>
+        <atom name="DatCommencementDate">2012-11-03</atom>
+        <atom name="DatCompletionDate">2013-03-03</atom>
         <atom name="AdmPublishWebNoPassword">Yes</atom>
       </tuple>
       <tuple>
@@ -30120,6 +30138,8 @@ Installation begins 4/27/2015.</atom>
         <atom name="EveInternalOrExternalEvent">Internal</atom>
         <atom name="EveEventNumber">EX2012.10</atom>
         <atom name="EveEventTitle">*TRAVELING* Hard Truths: The Art of Thornton Dial</atom>
+        <atom name="DatCommencementDate">2012-02-26</atom>
+        <atom name="DatCompletionDate">2012-05-20</atom>
         <atom name="AdmPublishWebNoPassword">Yes</atom>
       </tuple>
       <tuple>
@@ -30129,6 +30149,8 @@ Installation begins 4/27/2015.</atom>
         <atom name="EveInternalOrExternalEvent">Internal</atom>
         <atom name="EveEventNumber">EX2012.12</atom>
         <atom name="EveEventTitle">*TRAVELING* Hard Truths: The Art of Thornton Dial</atom>
+        <atom name="DatCommencementDate">2012-06-30</atom>
+        <atom name="DatCompletionDate">2012-09-30</atom>
         <atom name="AdmPublishWebNoPassword">Yes</atom>
       </tuple>
     </table>
@@ -30142,6 +30164,8 @@ Installation begins 4/27/2015.</atom>
     <atom name="EveExhibitionStatus">Completed</atom>
     <atom name="EveEventNumber">EX2012.27</atom>
     <atom name="EveEventTitle">*TRAVELING* Hard Truths: The Art of Thornton Dial</atom>
+    <atom name="DatCommencementDate">2012-11-03</atom>
+    <atom name="DatCompletionDate">2013-03-03</atom>
     <atom name="EveEventDescription"></atom>
     <table name="Objects">
       <tuple>
@@ -30243,6 +30267,8 @@ Installation begins 4/27/2015.</atom>
           <atom name="EveExhibitionStatus">Completed</atom>
           <atom name="EveEventNumber">EX2011.3</atom>
           <atom name="EveEventTitle">Hard Truths: The Art of Thornton Dial</atom>
+          <atom name="DatCommencementDate">2011-02-25</atom>
+          <atom name="DatCompletionDate">2011-09-18</atom>
           <atom name="AdmPublishWebNoPassword">Yes</atom>
         </tuple>
       </tuple>
@@ -30257,6 +30283,8 @@ Installation begins 4/27/2015.</atom>
     <atom name="EveExhibitionStatus">Completed</atom>
     <atom name="EveEventNumber">EX2012.10</atom>
     <atom name="EveEventTitle">*TRAVELING* Hard Truths: The Art of Thornton Dial</atom>
+    <atom name="DatCommencementDate">2012-02-26</atom>
+    <atom name="DatCompletionDate">2012-05-20</atom>
     <atom name="EveEventDescription"></atom>
     <table name="Objects">
       <tuple>
@@ -30373,6 +30401,8 @@ Installation begins 4/27/2015.</atom>
           <atom name="EveExhibitionStatus">Completed</atom>
           <atom name="EveEventNumber">EX2011.3</atom>
           <atom name="EveEventTitle">Hard Truths: The Art of Thornton Dial</atom>
+          <atom name="DatCommencementDate">2011-02-25</atom>
+          <atom name="DatCompletionDate">2011-09-18</atom>
           <atom name="AdmPublishWebNoPassword">Yes</atom>
         </tuple>
       </tuple>
@@ -30387,6 +30417,8 @@ Installation begins 4/27/2015.</atom>
     <atom name="EveExhibitionStatus">Completed</atom>
     <atom name="EveEventNumber">EX2012.12</atom>
     <atom name="EveEventTitle">*TRAVELING* Hard Truths: The Art of Thornton Dial</atom>
+    <atom name="DatCommencementDate">2012-06-30</atom>
+    <atom name="DatCompletionDate">2012-09-30</atom>
     <atom name="EveEventDescription"></atom>
     <table name="Objects">
       <tuple>
@@ -30488,6 +30520,8 @@ Installation begins 4/27/2015.</atom>
           <atom name="EveExhibitionStatus">Completed</atom>
           <atom name="EveEventNumber">EX2011.3</atom>
           <atom name="EveEventTitle">Hard Truths: The Art of Thornton Dial</atom>
+          <atom name="DatCommencementDate">2011-02-25</atom>
+          <atom name="DatCompletionDate">2011-09-18</atom>
           <atom name="AdmPublishWebNoPassword">Yes</atom>
         </tuple>
       </tuple>
@@ -30502,6 +30536,8 @@ Installation begins 4/27/2015.</atom>
     <atom name="EveExhibitionStatus">Completed</atom>
     <atom name="EveEventNumber">EX2001.36</atom>
     <atom name="EveEventTitle">Indianapolis Museum of Art Presents the Thompson Collection</atom>
+    <atom name="DatCommencementDate">2001-07-20</atom>
+    <atom name="DatCompletionDate">2001-07-22</atom>
     <atom name="EveEventDescription"></atom>
     <table name="Objects">
       <tuple>
@@ -30585,6 +30621,8 @@ Installation begins 4/27/2015.</atom>
     <atom name="EveExhibitionStatus">Completed</atom>
     <atom name="EveEventNumber">EX2001.38</atom>
     <atom name="EveEventTitle">In Indiana: Matthew A. Berg</atom>
+    <atom name="DatCommencementDate">2001-08-07</atom>
+    <atom name="DatCompletionDate">2001-09-02</atom>
     <atom name="EveEventDescription"></atom>
     <table name="Objects">
       <tuple>
@@ -30668,6 +30706,8 @@ Installation begins 4/27/2015.</atom>
     <atom name="EveExhibitionStatus">Completed</atom>
     <atom name="EveEventNumber">EX2014.6</atom>
     <atom name="EveEventTitle">The Essential Robert Indiana</atom>
+    <atom name="DatCommencementDate">2014-02-16</atom>
+    <atom name="DatCompletionDate">2014-05-04</atom>
     <atom name="EveEventDescription">This exhibition of fifty etchings and screenprints spanning the fifty-year career of Robert Indiana will uncover the constant autobiographical nature of his work lurking  beneath the seemingly anonymous surfaces of his bold, graphic, sign-inspired images. This is the first retrospective exhibition devoted to Indianas role as a printmaker since the 1960s.</atom>
     <table name="Objects">
       <tuple>
@@ -34374,11 +34414,8 @@ Installation begins 4/27/2015.</atom>
         <atom name="EveInternalOrExternalEvent">Internal</atom>
         <atom name="EveEventNumber">ROT2014.6</atom>
         <atom name="EveEventTitle">Miller House Love Postcard - MH122, AWC</atom>
-        <table name="TasCommencementDate0">
-          <tuple>
-            <atom name="TasCommencementDate">2013-11-05</atom>
-          </tuple>
-        </table>
+        <atom name="DatCommencementDate">2014-01-07</atom>
+        <atom name="DatCompletionDate">2014-10-06</atom>
         <atom name="AdmPublishWebNoPassword">No</atom>
       </tuple>
       <tuple>
@@ -34388,6 +34425,8 @@ Installation begins 4/27/2015.</atom>
         <atom name="EveInternalOrExternalEvent">Internal</atom>
         <atom name="EveEventNumber">ROT2013.74</atom>
         <atom name="EveEventTitle">Deinstallation of the Numbers - AWC</atom>
+        <atom name="DatCommencementDate">2013-12-20</atom>
+        <atom name="DatCompletionDate">2014-05-19</atom>
         <atom name="AdmPublishWebNoPassword">No</atom>
       </tuple>
     </table>
@@ -34401,6 +34440,8 @@ Installation begins 4/27/2015.</atom>
     <atom name="EveExhibitionStatus">Completed</atom>
     <atom name="EveEventNumber">EX2014.15</atom>
     <atom name="EveEventTitle">The Rise of American Modernism</atom>
+    <atom name="DatCommencementDate">2014-10-24</atom>
+    <atom name="DatCompletionDate">2015-07-26</atom>
     <atom name="EveEventDescription">The avant garde of French art made inroads into the American mainstream in the first decades of the 20th century largely through the efforts of photographer Alfred Stieglitz. Stieglitzs 291 Gallery, founded in 1908, introduced the works of Henri Matisse Pablo Picasso and Paul Cezanne as well as such young Americans as Marsden Hartley, John Marin, Charles Sheeler, Katherine Dreier and Man Ray. Dreier, Marcel Duchamp and Ray founded the Société Anonyme in 1920 to foster the Modernist movement. These and other artists are featured in this exhibition of 29 prints, drawings, watercolors and photographs from the IMA s permanent collection.
 
 Installation begins 10/20/2014.</atom>
@@ -37678,11 +37719,8 @@ Installation begins 10/20/2014.</atom>
         <atom name="EveInternalOrExternalEvent">Internal</atom>
         <atom name="EveEventNumber">ROT2015.1</atom>
         <atom name="EveEventTitle">American Modernism LS Rotation - H202</atom>
-        <table name="TasCommencementDate0">
-          <tuple>
-            <atom name="TasCommencementDate">2015-03-09</atom>
-          </tuple>
-        </table>
+        <atom name="DatCommencementDate">2015-03-03</atom>
+        <atom name="DatCompletionDate">2015-07-26</atom>
         <atom name="AdmPublishWebNoPassword">No</atom>
       </tuple>
     </table>
@@ -37696,11 +37734,8 @@ Installation begins 10/20/2014.</atom>
     <atom name="EveExhibitionStatus">Completed</atom>
     <atom name="EveEventNumber">EX2015.8</atom>
     <atom name="EveEventTitle">Gustave Baumann, German Craftsman - American Artist</atom>
-    <table name="TasCompletionDate0">
-      <tuple>
-        <atom name="TasCompletionDate">2014-12-19</atom>
-      </tuple>
-    </table>
+    <atom name="DatCommencementDate">2015-10-25</atom>
+    <atom name="DatCompletionDate">2016-02-14</atom>
     <atom name="EveEventDescription">Concept: Gustave Baumann (1881-1971) combined the ability of a woodcarver with the sensitivity of apainter to produce an unparalleled body of brilliant color woodblock prints. He made his first in Germany in the midst of the Arts and Crafts movement and continued to make them long after that era had passed away. The exhibition will follow Baumann from Germany to Chicago, to rural Indiana, and then to New York and Provincetown, and finally to Taos and Santa Fe, New Mexico, where he settled in 1918 with subsequent forays into Arizona and California.</atom>
     <table name="Objects">
       <tuple>
