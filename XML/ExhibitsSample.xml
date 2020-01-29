@@ -86,6 +86,8 @@
       text short      NamFirst
       text short      NamMiddle
       text short      NamLast
+      text long       NamOrganisation
+      text short      ColCollaborationName
     end
     table           Designer
       integer         irn
@@ -95,6 +97,8 @@
       table           IhhCollectionLastName_tab
         text short      IhhCollectionLastName
       end
+      text long       NamOrganisation
+      text short      ColCollaborationName
     end
     table           Organizer
       integer         irn
@@ -105,11 +109,6 @@
       text long       NamOrganisation
       text short      ColCollaborationName
       text long       AddWeb
-      text long       AddPostStreet
-      text short      AddPostCity
-      text short      AddPostState
-      text short      AddPostPost
-      text short      AddPostCountry
     end
     table           Master
       tuple           EveMasterEventRef
@@ -194,6 +193,8 @@ For his exhibition in the Carmen &amp; Mark Holeman Video Gallery, IMA presents 
         <atom name="NamFirst">Sarah</atom>
         <atom name="NamMiddle"></atom>
         <atom name="NamLast">Green</atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Designer">
@@ -202,6 +203,8 @@ For his exhibition in the Carmen &amp; Mark Holeman Video Gallery, IMA presents 
         <atom name="NamFullName">David Russick</atom>
         <atom name="NamFirst">David</atom>
         <atom name="NamMiddle"></atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Organizer">
@@ -214,11 +217,6 @@ For his exhibition in the Carmen &amp; Mark Holeman Video Gallery, IMA presents 
         <atom name="NamOrganisation">Indianapolis Museum of Art at Newfields</atom>
         <atom name="ColCollaborationName"></atom>
         <atom name="AddWeb">https://discovernewfields.org/</atom>
-        <atom name="AddPostStreet">4000 Michigan Road</atom>
-        <atom name="AddPostCity">Indianapolis</atom>
-        <atom name="AddPostState">Indiana</atom>
-        <atom name="AddPostPost">46208-3326</atom>
-        <atom name="AddPostCountry"></atom>
       </tuple>
     </table>
   </tuple>
@@ -246,6 +244,8 @@ For his exhibition in the Carmen &amp; Mark Holeman Video Gallery, IMA presents 
         <atom name="NamFirst">Lisa</atom>
         <atom name="NamMiddle"></atom>
         <atom name="NamLast">Freiman</atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Designer">
@@ -254,6 +254,8 @@ For his exhibition in the Carmen &amp; Mark Holeman Video Gallery, IMA presents 
         <atom name="NamFullName">Lara Huchteman</atom>
         <atom name="NamFirst">Lara</atom>
         <atom name="NamMiddle"></atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Organizer">
@@ -266,11 +268,6 @@ For his exhibition in the Carmen &amp; Mark Holeman Video Gallery, IMA presents 
         <atom name="NamOrganisation">Indianapolis Museum of Art at Newfields</atom>
         <atom name="ColCollaborationName"></atom>
         <atom name="AddWeb">https://discovernewfields.org/</atom>
-        <atom name="AddPostStreet">4000 Michigan Road</atom>
-        <atom name="AddPostCity">Indianapolis</atom>
-        <atom name="AddPostState">Indiana</atom>
-        <atom name="AddPostPost">46208-3326</atom>
-        <atom name="AddPostCountry"></atom>
       </tuple>
     </table>
   </tuple>
@@ -10336,6 +10333,8 @@ Portrait de Monsieur et Madame Claude Terrasse</atom>
         <atom name="NamFirst">Ellen</atom>
         <atom name="NamMiddle"></atom>
         <atom name="NamLast">Lee</atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Designer">
@@ -10344,6 +10343,8 @@ Portrait de Monsieur et Madame Claude Terrasse</atom>
         <atom name="NamFullName">Phil Lynam</atom>
         <atom name="NamFirst">Phil</atom>
         <atom name="NamMiddle"></atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Organizer">
@@ -10356,11 +10357,6 @@ Portrait de Monsieur et Madame Claude Terrasse</atom>
         <atom name="NamOrganisation">Indianapolis Museum of Art at Newfields</atom>
         <atom name="ColCollaborationName"></atom>
         <atom name="AddWeb">https://discovernewfields.org/</atom>
-        <atom name="AddPostStreet">4000 Michigan Road</atom>
-        <atom name="AddPostCity">Indianapolis</atom>
-        <atom name="AddPostState">Indiana</atom>
-        <atom name="AddPostPost">46208-3326</atom>
-        <atom name="AddPostCountry"></atom>
       </tuple>
     </table>
     <table name="Sub">
@@ -15808,6 +15804,8 @@ Portrait de Monsieur et Madame Claude Terrasse</atom>
         <atom name="NamFirst">Niloo</atom>
         <atom name="NamMiddle"></atom>
         <atom name="NamLast">Imami-Paydar</atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Designer">
@@ -15816,6 +15814,8 @@ Portrait de Monsieur et Madame Claude Terrasse</atom>
         <atom name="NamFullName">David Russick</atom>
         <atom name="NamFirst">David</atom>
         <atom name="NamMiddle"></atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Organizer">
@@ -15828,12 +15828,6 @@ Portrait de Monsieur et Madame Claude Terrasse</atom>
         <atom name="NamOrganisation">Los Angeles County Museum of Art</atom>
         <atom name="ColCollaborationName"></atom>
         <atom name="AddWeb">https://www.lacma.org/</atom>
-        <atom name="AddPostStreet">Anderson Building 
-5905 Wilshire Boulevard</atom>
-        <atom name="AddPostCity">Los Angeles</atom>
-        <atom name="AddPostState">California</atom>
-        <atom name="AddPostPost">90036</atom>
-        <atom name="AddPostCountry"></atom>
       </tuple>
     </table>
   </tuple>
@@ -15861,6 +15855,8 @@ Portrait de Monsieur et Madame Claude Terrasse</atom>
         <atom name="NamFirst">Marty</atom>
         <atom name="NamMiddle"></atom>
         <atom name="NamLast">Krause</atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Designer">
@@ -15869,6 +15865,8 @@ Portrait de Monsieur et Madame Claude Terrasse</atom>
         <atom name="NamFullName">Mike Bir</atom>
         <atom name="NamFirst">Mike</atom>
         <atom name="NamMiddle"></atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Organizer">
@@ -15881,11 +15879,6 @@ Portrait de Monsieur et Madame Claude Terrasse</atom>
         <atom name="NamOrganisation">Watercolor Society of Indiana</atom>
         <atom name="ColCollaborationName"></atom>
         <atom name="AddWeb"></atom>
-        <atom name="AddPostStreet"></atom>
-        <atom name="AddPostCity"></atom>
-        <atom name="AddPostState"></atom>
-        <atom name="AddPostPost"></atom>
-        <atom name="AddPostCountry"></atom>
       </tuple>
     </table>
   </tuple>
@@ -18265,6 +18258,8 @@ Organized by Joseph S. Czestochowski, Produced by International Arts®. Curated 
         <atom name="NamFirst">Harriet</atom>
         <atom name="NamMiddle"></atom>
         <atom name="NamLast">Warkel</atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Designer">
@@ -18273,6 +18268,8 @@ Organized by Joseph S. Czestochowski, Produced by International Arts®. Curated 
         <atom name="NamFullName">Lara Huchteman</atom>
         <atom name="NamFirst">Lara</atom>
         <atom name="NamMiddle"></atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Organizer">
@@ -18285,11 +18282,6 @@ Organized by Joseph S. Czestochowski, Produced by International Arts®. Curated 
         <atom name="NamOrganisation">International Arts</atom>
         <atom name="ColCollaborationName"></atom>
         <atom name="AddWeb">internationalarts.org</atom>
-        <atom name="AddPostStreet">319 Goodwyn</atom>
-        <atom name="AddPostCity">Memphis</atom>
-        <atom name="AddPostState">Tennessee</atom>
-        <atom name="AddPostPost">38111</atom>
-        <atom name="AddPostCountry"></atom>
       </tuple>
     </table>
   </tuple>
@@ -18346,6 +18338,8 @@ Installation begins on 8/18/2014.</atom>
         <atom name="NamFirst">Gregory</atom>
         <atom name="NamMiddle">D.</atom>
         <atom name="NamLast">Smith</atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
       <tuple>
         <atom name="irn">104</atom>
@@ -18353,6 +18347,8 @@ Installation begins on 8/18/2014.</atom>
         <atom name="NamFirst">Mandie</atom>
         <atom name="NamMiddle"></atom>
         <atom name="NamLast">Holden</atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
   </tuple>
@@ -18420,6 +18416,8 @@ Installation takes place 9/2/2014-9/3/2014.</atom>
         <atom name="NamFirst">Annette</atom>
         <atom name="NamMiddle"></atom>
         <atom name="NamLast">Schlagenhauff</atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
   </tuple>
@@ -19338,6 +19336,8 @@ Installation takes place 9/2/2014-9/3/2014.</atom>
         <atom name="NamFirst">John</atom>
         <atom name="NamMiddle"></atom>
         <atom name="NamLast">Teramoto</atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Designer">
@@ -19346,6 +19346,8 @@ Installation takes place 9/2/2014-9/3/2014.</atom>
         <atom name="NamFullName">Lara Huchteman</atom>
         <atom name="NamFirst">Lara</atom>
         <atom name="NamMiddle"></atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
   </tuple>
@@ -19972,6 +19974,8 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamFirst">Annette</atom>
         <atom name="NamMiddle"></atom>
         <atom name="NamLast">Schlagenhauff</atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Designer">
@@ -19980,6 +19984,8 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamFullName">Lara Huchteman</atom>
         <atom name="NamFirst">Lara</atom>
         <atom name="NamMiddle"></atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Sub">
@@ -20062,6 +20068,8 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamFirst">Annette</atom>
         <atom name="NamMiddle"></atom>
         <atom name="NamLast">Schlagenhauff</atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Organizer">
@@ -20074,11 +20082,6 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamOrganisation">Indianapolis Museum of Art at Newfields</atom>
         <atom name="ColCollaborationName"></atom>
         <atom name="AddWeb">https://discovernewfields.org/</atom>
-        <atom name="AddPostStreet">4000 Michigan Road</atom>
-        <atom name="AddPostCity">Indianapolis</atom>
-        <atom name="AddPostState">Indiana</atom>
-        <atom name="AddPostPost">46208-3326</atom>
-        <atom name="AddPostCountry"></atom>
       </tuple>
     </table>
   </tuple>
@@ -24967,6 +24970,8 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamFirst">Marty</atom>
         <atom name="NamMiddle"></atom>
         <atom name="NamLast">Krause</atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Designer">
@@ -24975,6 +24980,8 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamFullName">Tim Hildebrandt</atom>
         <atom name="NamFirst">Tim</atom>
         <atom name="NamMiddle"></atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Organizer">
@@ -24987,11 +24994,6 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamOrganisation">American Federation of the Arts</atom>
         <atom name="ColCollaborationName"></atom>
         <atom name="AddWeb"></atom>
-        <atom name="AddPostStreet">305 East 47th Street, 10th floor</atom>
-        <atom name="AddPostCity">New York</atom>
-        <atom name="AddPostState">New York</atom>
-        <atom name="AddPostPost">10017</atom>
-        <atom name="AddPostCountry"> </atom>
       </tuple>
     </table>
   </tuple>
@@ -25032,6 +25034,8 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamFirst">R. Craig</atom>
         <atom name="NamMiddle"></atom>
         <atom name="NamLast">Miller</atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Designer">
@@ -25040,6 +25044,8 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamFullName">David Russick</atom>
         <atom name="NamFirst">David</atom>
         <atom name="NamMiddle"></atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Organizer">
@@ -25052,11 +25058,6 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamOrganisation">Indianapolis Museum of Art at Newfields</atom>
         <atom name="ColCollaborationName"></atom>
         <atom name="AddWeb">https://discovernewfields.org/</atom>
-        <atom name="AddPostStreet">4000 Michigan Road</atom>
-        <atom name="AddPostCity">Indianapolis</atom>
-        <atom name="AddPostState">Indiana</atom>
-        <atom name="AddPostPost">46208-3326</atom>
-        <atom name="AddPostCountry"></atom>
       </tuple>
     </table>
     <table name="Master">
@@ -27664,6 +27665,8 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamFullName">David Russick</atom>
         <atom name="NamFirst">David</atom>
         <atom name="NamMiddle"></atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Organizer">
@@ -27676,11 +27679,6 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamOrganisation">Indianapolis Museum of Art at Newfields</atom>
         <atom name="ColCollaborationName"></atom>
         <atom name="AddWeb">https://discovernewfields.org/</atom>
-        <atom name="AddPostStreet">4000 Michigan Road</atom>
-        <atom name="AddPostCity">Indianapolis</atom>
-        <atom name="AddPostState">Indiana</atom>
-        <atom name="AddPostPost">46208-3326</atom>
-        <atom name="AddPostCountry"></atom>
       </tuple>
     </table>
     <table name="Sub">
@@ -27797,6 +27795,8 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamFullName">David Russick</atom>
         <atom name="NamFirst">David</atom>
         <atom name="NamMiddle"></atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Organizer">
@@ -27809,11 +27809,6 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamOrganisation">Indianapolis Museum of Art at Newfields</atom>
         <atom name="ColCollaborationName"></atom>
         <atom name="AddWeb">https://discovernewfields.org/</atom>
-        <atom name="AddPostStreet">4000 Michigan Road</atom>
-        <atom name="AddPostCity">Indianapolis</atom>
-        <atom name="AddPostState">Indiana</atom>
-        <atom name="AddPostPost">46208-3326</atom>
-        <atom name="AddPostCountry"></atom>
       </tuple>
     </table>
     <table name="Master">
@@ -27925,6 +27920,8 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamFullName">David Russick</atom>
         <atom name="NamFirst">David</atom>
         <atom name="NamMiddle"></atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Organizer">
@@ -27937,11 +27934,6 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamOrganisation">Indianapolis Museum of Art at Newfields</atom>
         <atom name="ColCollaborationName"></atom>
         <atom name="AddWeb">https://discovernewfields.org/</atom>
-        <atom name="AddPostStreet">4000 Michigan Road</atom>
-        <atom name="AddPostCity">Indianapolis</atom>
-        <atom name="AddPostState">Indiana</atom>
-        <atom name="AddPostPost">46208-3326</atom>
-        <atom name="AddPostCountry"></atom>
       </tuple>
     </table>
     <table name="Master">
@@ -28038,6 +28030,8 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamFullName">David Russick</atom>
         <atom name="NamFirst">David</atom>
         <atom name="NamMiddle"></atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Organizer">
@@ -28050,11 +28044,6 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamOrganisation">Indianapolis Museum of Art at Newfields</atom>
         <atom name="ColCollaborationName"></atom>
         <atom name="AddWeb">https://discovernewfields.org/</atom>
-        <atom name="AddPostStreet">4000 Michigan Road</atom>
-        <atom name="AddPostCity">Indianapolis</atom>
-        <atom name="AddPostState">Indiana</atom>
-        <atom name="AddPostPost">46208-3326</atom>
-        <atom name="AddPostCountry"></atom>
       </tuple>
     </table>
     <table name="Master">
@@ -28124,6 +28113,8 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamFirst">Ellen</atom>
         <atom name="NamMiddle"></atom>
         <atom name="NamLast">Lee</atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Designer">
@@ -28132,6 +28123,8 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamFullName">Harriet Warkel</atom>
         <atom name="NamFirst">Harriet</atom>
         <atom name="NamMiddle"></atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Organizer">
@@ -28144,11 +28137,6 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamOrganisation">Indianapolis Museum of Art at Newfields</atom>
         <atom name="ColCollaborationName"></atom>
         <atom name="AddWeb">https://discovernewfields.org/</atom>
-        <atom name="AddPostStreet">4000 Michigan Road</atom>
-        <atom name="AddPostCity">Indianapolis</atom>
-        <atom name="AddPostState">Indiana</atom>
-        <atom name="AddPostPost">46208-3326</atom>
-        <atom name="AddPostCountry"></atom>
       </tuple>
     </table>
   </tuple>
@@ -28203,6 +28191,8 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamFirst">Ellen</atom>
         <atom name="NamMiddle"></atom>
         <atom name="NamLast">Lee</atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Designer">
@@ -28211,6 +28201,8 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamFullName">Deb Brennan</atom>
         <atom name="NamFirst">Deb</atom>
         <atom name="NamMiddle"></atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Organizer">
@@ -28223,11 +28215,6 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamOrganisation">Indianapolis Museum of Art at Newfields</atom>
         <atom name="ColCollaborationName"></atom>
         <atom name="AddWeb">https://discovernewfields.org/</atom>
-        <atom name="AddPostStreet">4000 Michigan Road</atom>
-        <atom name="AddPostCity">Indianapolis</atom>
-        <atom name="AddPostState">Indiana</atom>
-        <atom name="AddPostPost">46208-3326</atom>
-        <atom name="AddPostCountry"></atom>
       </tuple>
     </table>
   </tuple>
@@ -31631,6 +31618,8 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamFirst">Marty</atom>
         <atom name="NamMiddle"></atom>
         <atom name="NamLast">Krause</atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Designer">
@@ -31639,6 +31628,8 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamFullName">Lara Huchteman</atom>
         <atom name="NamFirst">Lara</atom>
         <atom name="NamMiddle"></atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Organizer">
@@ -31651,11 +31642,6 @@ Installation begins 4/27/2015.</atom>
         <atom name="NamOrganisation">Indianapolis Museum of Art at Newfields</atom>
         <atom name="ColCollaborationName"></atom>
         <atom name="AddWeb">https://discovernewfields.org/</atom>
-        <atom name="AddPostStreet">4000 Michigan Road</atom>
-        <atom name="AddPostCity">Indianapolis</atom>
-        <atom name="AddPostState">Indiana</atom>
-        <atom name="AddPostPost">46208-3326</atom>
-        <atom name="AddPostCountry"></atom>
       </tuple>
     </table>
     <table name="Sub">
@@ -34760,6 +34746,8 @@ Installation begins 10/20/2014.</atom>
         <atom name="NamFirst">Marty</atom>
         <atom name="NamMiddle"></atom>
         <atom name="NamLast">Krause</atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Sub">
@@ -40115,6 +40103,8 @@ Installation begins 10/20/2014.</atom>
         <atom name="NamFirst">Marty</atom>
         <atom name="NamMiddle"></atom>
         <atom name="NamLast">Krause</atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Designer">
@@ -40123,6 +40113,8 @@ Installation begins 10/20/2014.</atom>
         <atom name="NamFullName">Lara Huchteman</atom>
         <atom name="NamFirst">Lara</atom>
         <atom name="NamMiddle"></atom>
+        <atom name="NamOrganisation">IMA</atom>
+        <atom name="ColCollaborationName"></atom>
       </tuple>
     </table>
     <table name="Organizer">
@@ -40135,11 +40127,6 @@ Installation begins 10/20/2014.</atom>
         <atom name="NamOrganisation">IMA</atom>
         <atom name="ColCollaborationName"></atom>
         <atom name="AddWeb"></atom>
-        <atom name="AddPostStreet"></atom>
-        <atom name="AddPostCity"></atom>
-        <atom name="AddPostState"></atom>
-        <atom name="AddPostPost"></atom>
-        <atom name="AddPostCountry"></atom>
       </tuple>
     </table>
   </tuple>

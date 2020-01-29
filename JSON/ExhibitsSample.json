@@ -1,0 +1,334 @@
+{
+  "exhibitions": [
+    {
+      "130": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/exhibit/130/concept",
+        "type": "PropositionalObject",
+        "_label": "Concept for Roman Art from the Louvre",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300417531",
+            "type": "Type",
+            "_label": "Exhibition"
+          }
+        ]
+      }
+    },
+    {
+      "3162": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/exhibit/3162/concept",
+        "type": "PropositionalObject",
+        "_label": "Concept for Indianapolis Museum of Art Presents the Thompson Collection",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300417531",
+            "type": "Type",
+            "_label": "Exhibition"
+          }
+        ]
+      }
+    },
+    {
+      "3164": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/exhibit/3164/concept",
+        "type": "PropositionalObject",
+        "_label": "Concept for In Indiana: Matthew A. Berg",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300417531",
+            "type": "Type",
+            "_label": "Exhibition"
+          }
+        ]
+      }
+    },
+    {
+      "3353": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/exhibit/3353/concept",
+        "type": "PropositionalObject",
+        "_label": "Concept for Breaking the Mode: Contemporary Fashion from the Permanent Collection, Los Angeles County Museum of Art",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300417531",
+            "type": "Type",
+            "_label": "Exhibition"
+          }
+        ]
+      }
+    },
+    {
+      "3367": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/exhibit/3367/concept",
+        "type": "PropositionalObject",
+        "_label": "Concept for Watercolor Society of Indiana: Annual Juried Show",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300417531",
+            "type": "Type",
+            "_label": "Exhibition"
+          }
+        ]
+      }
+    },
+    {
+      "3378": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/exhibit/3378/concept",
+        "type": "PropositionalObject",
+        "_label": "Concept for Hard Truths: The Art of Thornton Dial",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300417531",
+            "type": "Type",
+            "_label": "Exhibition"
+          }
+        ]
+      }
+    },
+    {
+      "3380": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/exhibit/3380/concept",
+        "type": "PropositionalObject",
+        "_label": "Concept for Snapshot: Painters and Photography, Bonnard to Vuillard",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300417531",
+            "type": "Type",
+            "_label": "Exhibition"
+          }
+        ]
+      }
+    },
+    {
+      "3547": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/exhibit/3547/concept",
+        "type": "PropositionalObject",
+        "_label": "Concept for Mark Lewis: Rear Projection: Molly Parker",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300417531",
+            "type": "Type",
+            "_label": "Exhibition"
+          }
+        ]
+      }
+    },
+    {
+      "3855": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/exhibit/3855/concept",
+        "type": "PropositionalObject",
+        "_label": "Concept for *TRAVELING* European Design Since 1985: Shaping the New Century",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300417531",
+            "type": "Type",
+            "_label": "Exhibition"
+          }
+        ]
+      }
+    },
+    {
+      "3970": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/exhibit/3970/concept",
+        "type": "PropositionalObject",
+        "_label": "Concept for The Essential Robert Indiana",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300417531",
+            "type": "Type",
+            "_label": "Exhibition"
+          }
+        ]
+      }
+    },
+    {
+      "3989": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/exhibit/3989/concept",
+        "type": "PropositionalObject",
+        "_label": "Concept for Allora & Calzadilla: The Vieques Series",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300417531",
+            "type": "Type",
+            "_label": "Exhibition"
+          }
+        ]
+      }
+    },
+    {
+      "4015": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/exhibit/4015/concept",
+        "type": "PropositionalObject",
+        "_label": "Concept for *TRAVELING* Hard Truths: The Art of Thornton Dial",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300417531",
+            "type": "Type",
+            "_label": "Exhibition"
+          }
+        ]
+      }
+    },
+    {
+      "4019": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/exhibit/4019/concept",
+        "type": "PropositionalObject",
+        "_label": "Concept for Viewing Project: Above and Below",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300417531",
+            "type": "Type",
+            "_label": "Exhibition"
+          }
+        ]
+      }
+    },
+    {
+      "4027": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/exhibit/4027/concept",
+        "type": "PropositionalObject",
+        "_label": "Concept for *TRAVELING* Hard Truths: The Art of Thornton Dial",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300417531",
+            "type": "Type",
+            "_label": "Exhibition"
+          }
+        ]
+      }
+    },
+    {
+      "4028": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/exhibit/4028/concept",
+        "type": "PropositionalObject",
+        "_label": "Concept for *TRAVELING* Hard Truths: The Art of Thornton Dial",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300417531",
+            "type": "Type",
+            "_label": "Exhibition"
+          }
+        ]
+      }
+    },
+    {
+      "4201": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/exhibit/4201/concept",
+        "type": "PropositionalObject",
+        "_label": "Concept for Georgia O'Keeffe and the Southwestern Still Life",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300417531",
+            "type": "Type",
+            "_label": "Exhibition"
+          }
+        ]
+      }
+    },
+    {
+      "4259": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/exhibit/4259/concept",
+        "type": "PropositionalObject",
+        "_label": "Concept for On Stage!",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300417531",
+            "type": "Type",
+            "_label": "Exhibition"
+          }
+        ]
+      }
+    },
+    {
+      "4280": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/exhibit/4280/concept",
+        "type": "PropositionalObject",
+        "_label": "Concept for The Rise of American Modernism",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300417531",
+            "type": "Type",
+            "_label": "Exhibition"
+          }
+        ]
+      }
+    },
+    {
+      "4293": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/exhibit/4293/concept",
+        "type": "PropositionalObject",
+        "_label": "Concept for Coat of Many Colors - W310",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300417531",
+            "type": "Type",
+            "_label": "Exhibition"
+          }
+        ]
+      }
+    },
+    {
+      "4295": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/exhibit/4295/concept",
+        "type": "PropositionalObject",
+        "_label": "Concept for Revved Up: Cars in Art",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300417531",
+            "type": "Type",
+            "_label": "Exhibition"
+          }
+        ]
+      }
+    },
+    {
+      "4308": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/exhibit/4308/concept",
+        "type": "PropositionalObject",
+        "_label": "Concept for Continuing the Work of the Monuments Men - C305",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300417531",
+            "type": "Type",
+            "_label": "Exhibition"
+          }
+        ]
+      }
+    },
+    {
+      "4338": {
+        "@context": "https://linked.art/ns/v1/linked-art.json",
+        "id": "https://data.discovernewfields.org/exhibit/4338/concept",
+        "type": "PropositionalObject",
+        "_label": "Concept for Gustave Baumann, German Craftsman - American Artist",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300417531",
+            "type": "Type",
+            "_label": "Exhibition"
+          }
+        ]
+      }
+    }
+  ]
+}
